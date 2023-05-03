@@ -8,17 +8,19 @@ from IPython.display import display, HTML
 import base64
 from little_helpers import *
 
+
+
 images_dir = 'datasets/coco2017'
-labels_file = "datasets/aokvqa/val.json"
+flag_show_outputs = True
+
+if flag_show_outputs:
+    labels_file = 'experiments/blip2/aokvqa/output.json' 
+else:
+    labels_file = 'datasets/aokvqa/val.json'
 
 
 
-def image_to_html(image):
-    image.save('temp.png')
-    with open('temp.png', 'rb') as f:
-        encoded_image = base64.b64encode(f.read()).decode('utf-8')
-    os.remove('temp.png')
-    return f'<img src="data:image/png;base64,{encoded_image}"/>'
+
 
 with open(labels_file, 'r') as f:
     labels_data = json.load(f)
