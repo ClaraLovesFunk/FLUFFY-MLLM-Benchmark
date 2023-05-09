@@ -11,7 +11,7 @@ from little_helpers import *
 
 
 images_dir = 'datasets/coco2017'
-flag_show_outputs = True
+flag_show_outputs = False
 
 if flag_show_outputs:
     labels_file = 'experiments/blip2/aokvqa/output.json' 
