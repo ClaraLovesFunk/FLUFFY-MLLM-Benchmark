@@ -2,3 +2,5 @@ datasets/
 experiments/
 models/
 environments/
+blip2_offcl/
+LAVIS/
