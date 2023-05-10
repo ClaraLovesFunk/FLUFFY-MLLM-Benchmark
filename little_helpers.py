@@ -33,7 +33,12 @@ def image_to_html(image):
 
 
 
-def demo_sample_select(demo_strategy = 'random', train_data):
+
+
+
+
+'''
+def sample_select(demo_strategy = 'random', train_data):
 
     if demo_strategy == 'random':
         
@@ -59,18 +64,25 @@ def demo_sample_select(demo_strategy = 'random', train_data):
 
 
 
-def prompt_construct(task = 'direct_answer', ): #task = [direct_answer, MC_answer]
-    
-    question_formal = 'Questions: '
-    choices_formal = 'Choices: '
-    answer_formal = 'Answer: '
 
-    question = 'What is on the image?' #####
+
+
+    '''
+
+
+def prompt_construct(test_sample, task = 'direct_answer'): 
 
     if task == 'direct_answer':
         instruction = 'Answer the following question! '
     if task == 'MC_answer':
         instruction = 'Answer the following question by selecting from the choices below! '
-        choices = 'ans1, ans2, ans3, ans4 '
 
+    question_formal = 'Questions: '
+    choices_formal = 'Choices: '
+    answer_formal = ' Answer: '
+
+    question_content = test_sample['question'] #'What is on the image?' 
+
+    prompt =  instruction +  question_formal +  question_content +  answer_formal
     
+    return prompt
