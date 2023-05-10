@@ -1,9 +1,11 @@
+
 #%%
 from PIL import Image
-from transformers import Blip2Processor, Blip2ForConditionalGeneration
+#from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import torch
 import json
 import pandas as pd
+from lavis.models import load_model_and_preprocess
 from little_helpers import *
 
 split_sec = 'val'
@@ -34,15 +36,9 @@ X_y_text = [] # store textual input and output
 
 
 
-
 # load model & its processor
 
-processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
-model = Blip2ForConditionalGeneration.from_pretrained(
-    "Salesforce/blip2-opt-2.7b", 
-    torch_dtype=torch.float16
-    )
-model.to(device)
+model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device)
 
 
 
@@ -50,31 +46,35 @@ model.to(device)
 
 for i in X_text:
 
+
+    # get & prepare test sample
+
     image_path = get_coco_path('val', i['image_id'], images_input_dir)
-    image = Image.open(image_path) 
-
-    prompt = "Question: " + i['question'] + " Answer:"  
+    image_raw = Image.open(image_path) 
+    image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
     
-    inputs = processor(images=image, text=prompt, return_tensors="pt").to(device, torch.float16)
+    # make prompt
 
-    generated_ids = model.generate(**inputs)
-    generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
+    prompt = prompt_construct(test_sample = i,task = 'direct_answer')
     
+    # generate text with model
+
+    generated_text = model.generate({"image": image, "prompt": prompt})
 
     # store output
 
     i.update({'output': generated_text})
     X_y_text.append(i)
 
-
     # viz
 
-    #image.show() 
-    #print(prompt) 
-    #print(f'generated_text: {generated_text}')
+    image_raw.show() 
+    print(prompt) 
+    print(f'generated_text: {generated_text}')
+    
 
 
-
+# save & reload
 
 with open(text_output_file, 'w') as f:
     json.dump(X_y_text, f)
