@@ -1,12 +1,19 @@
 
 #%%
 from PIL import Image
-#from transformers import Blip2Processor, Blip2ForConditionalGeneration
+from PIL import ImageOps
 import torch
 import json
 import pandas as pd
 from lavis.models import load_model_and_preprocess
 from little_helpers import *
+
+
+
+# FLAGS
+
+viz_flag = False
+
 
 split_sec = 'val'
 images_sec = 'coco2017'
@@ -19,6 +26,7 @@ results_dir = 'experiments/' + model_sec + '/' + dataset_sec + '/'
 
 text_input_file = text_input_dir + split_sec + '.json'
 text_output_file = results_dir + 'output.json'
+text_output_file_aokvqa_offcl = results_dir + 'predictions_val.json'
 
 
 
@@ -26,13 +34,11 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 
-
-# get data
-
 with open(text_input_file, 'r') as f:
     X_text = json.load(f)
 
-X_y_text = [] # store textual input and output
+pred = [] # store pred with all other infos
+pred_aokvqa_format = {} # store just question id and generated text
 
 
 
@@ -43,14 +49,19 @@ model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type
 
 
 # generate output 
-
+j=0
 for i in X_text:
-
+    j +=1 
+    print(j)
 
     # get & prepare test sample
 
     image_path = get_coco_path('val', i['image_id'], images_input_dir)
     image_raw = Image.open(image_path) 
+
+    if image_raw.mode != 'RGB': # Convert the image to RGB if it's not already
+        image_raw = ImageOps.colorize(image_raw, 'black', 'white')
+
     image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
     
     # make prompt
@@ -64,24 +75,36 @@ for i in X_text:
     # store output
 
     i.update({'output': generated_text})
-    X_y_text.append(i)
+    pred.append(i)
+
+    pred_aokvqa_format = {
+        i['question_id']: {
+            #'multiple_choice': '<prediction>',
+            'direct_answer': generated_text
+        }
+    }
 
     # viz
 
-    image_raw.show() 
-    print(prompt) 
-    print(f'generated_text: {generated_text}')
+    if viz_flag == True:
+
+        image_raw.show() 
+        print(prompt) 
+        print(f'generated_text: {generated_text}')
     
 
 
 # save & reload
 
 with open(text_output_file, 'w') as f:
-    json.dump(X_y_text, f)
+    json.dump(pred,f)
+    
+with open(text_output_file_aokvqa_offcl, 'w') as f:
+    json.dump(pred_aokvqa_format, f)
 
-with open(text_output_file, 'r') as f:
-    X_y_text = json.load(f)
+with open(text_output_file_aokvqa_offcl, 'r') as f:
+    pred_aokvqa_format = json.load(f)
 
-X_y_text = pd.DataFrame(X_y_text)
-display(X_y_text)
+pred_aokvqa_format = pd.DataFrame(pred_aokvqa_format)
+display(pred_aokvqa_format)
 # %%
