@@ -11,7 +11,7 @@ from little_helpers import *
 
 
 images_dir = 'datasets/coco2017'
-flag_show_outputs = False
+flag_show_outputs = True
 
 if flag_show_outputs:
     labels_file = 'experiments/blip2/aokvqa/output.json' 
@@ -25,7 +25,7 @@ else:
 with open(labels_file, 'r') as f:
     labels_data = json.load(f)
 
-first_five_labels = labels_data[:5]
+first_five_labels = labels_data[:10]
 
 data = []
 
@@ -44,7 +44,14 @@ for label_info in first_five_labels:
     data.append(dict_fulldata)
     
 df = pd.DataFrame(data)
+
+# drop irrelevant info
+df = df.drop(['split', 'image_id', 'question_id', 'rationales', 'img_path'],axis=1)
+
 pd.set_option('display.max_colwidth', None)
 display(HTML(df.to_html(escape=False)))
 
 # %%
+# visual eval
+# good: 0,2,3
+# bad: 1, 
