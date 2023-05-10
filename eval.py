@@ -1,1 +1,7 @@
-python evaluation/eval_predictions.py --aokvqa-dir ${AOKVQA_DIR} --split val --preds ./predictions_val.json
+'''import os
+aokvqa_dir = 'datasets/aokvqa/' #os.getenv('AOKVQA_DIR')
+
+from aokvqa.load_aokvqa import load_aokvqa, get_coco_path
+train_dataset = load_aokvqa(aokvqa_dir, 'train')  # also 'val' or 'test' '''
+
+
