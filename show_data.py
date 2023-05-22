@@ -1,57 +1,76 @@
 #%% 
 
-import os
 import json
 import pandas as pd
 from PIL import Image
 from IPython.display import display, HTML
-import base64
+
 from little_helpers import *
 
 
 
 images_dir = 'datasets/coco2017'
-flag_show_outputs = True
+input_file = 'datasets/aokvqa/val.json'
+output_file = 'experiments/blip2/aokvqa/output.json' 
+example_file = 'experiments/blip2/aokvqa/examples.json' 
+split_sec = 'val'
+
+flag_show_inputs = False
+flag_show_outputs = False
+flag_show_outputs_examples = True
+
+n_inputs = 3
+n_outputs = 3
+n_good_exampes = 3
+n_bad_exampes = 3
+
+
+
+# get textual data
+
+if flag_show_inputs:
+    with open(input_file, 'r') as f:
+        data_input = json.load(f)
+
+if flag_show_outputs or flag_show_outputs_examples:
+    with open(output_file, 'r') as f:
+        data_output = json.load(f)
+
+if flag_show_outputs_examples:
+    with open(example_file, 'r') as f:
+        data_output_examples = json.load(f)
+
+
+
+# show textual and image data jointly
+
+if flag_show_inputs:
+
+    print('Inputs')
+    data_samples = data_input[:n_inputs]
+    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
+
 
 if flag_show_outputs:
-    labels_file = 'experiments/blip2/aokvqa/output.json' 
-else:
-    labels_file = 'datasets/aokvqa/val.json'
+
+    print('Outputs')
+    data_samples = data_output[:n_outputs]
+    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
+
+
+if flag_show_outputs_examples:
+
+    print(':))) Good Examples')
+    good_example_index = data_output_examples['good pred'][:n_good_exampes]
+    data_samples = [data_output[i] for i in good_example_index]
+    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
+
+    print(':_((( Bad Examples')
+    good_example_index = data_output_examples['bad pred'][:n_good_exampes]
+    data_samples = [data_output[i] for i in good_example_index]
+    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
 
 
 
-
-
-with open(labels_file, 'r') as f:
-    labels_data = json.load(f)
-
-first_five_labels = labels_data[:10]
-
-data = []
-
-for label_info in first_five_labels:
-
-    image_path = get_coco_path('val', label_info['image_id'], images_dir)
-
-    img = Image.open(image_path)
-    img.thumbnail((100, 100))
-    
-    # create df with all relevant info
-    dict_fulldata = {'image': image_to_html(img)}
-    dict_fulldata.update(label_info)
-    dict_fulldata.update({'img_path': image_path})
-
-    data.append(dict_fulldata)
-    
-df = pd.DataFrame(data)
-
-# drop irrelevant info
-df = df.drop(['split', 'image_id', 'question_id', 'rationales', 'img_path'],axis=1)
-
-pd.set_option('display.max_colwidth', None)
-display(HTML(df.to_html(escape=False)))
 
 # %%
-# visual eval
-# good: 0,2,3
-# bad: 1, 
