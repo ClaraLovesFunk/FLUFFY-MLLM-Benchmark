@@ -54,18 +54,7 @@ def sample_select(demo_strategy = 'random', train_data):
         image = Image.open(image_path) 
         question = train_data[random_i]['question'] 
 
-    
-
-
-    
-
-
     return None
-
-
-
-
-
 
     '''
 

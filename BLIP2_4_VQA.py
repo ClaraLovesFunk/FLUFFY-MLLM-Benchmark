@@ -26,7 +26,7 @@ results_dir = 'experiments/' + model_sec + '/' + dataset_sec + '/'
 
 text_input_file = text_input_dir + split_sec + '.json'
 text_output_file = results_dir + 'output.json'
-text_output_file_aokvqa_offcl = results_dir + 'predictions_val.json'
+text_output_file_aokvqa_offcl = results_dir + 'output_aokvqa.json'
 
 
 
@@ -49,17 +49,16 @@ model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type
 
 
 # generate output 
-j=0
+
 for i in X_text:
-    j +=1 
-    print(j)
+
 
     # get & prepare test sample
 
     image_path = get_coco_path('val', i['image_id'], images_input_dir)
     image_raw = Image.open(image_path) 
 
-    if image_raw.mode != 'RGB': # Convert the image to RGB if it's not already
+    if image_raw.mode != 'RGB': 
         image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
     image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
@@ -96,10 +95,10 @@ for i in X_text:
 
 # save & reload
 
-with open(text_output_file, 'w') as f:
+with open(text_output_file, 'w') as f: # save preds along with all infos
     json.dump(pred,f)
     
-with open(text_output_file_aokvqa_offcl, 'w') as f:
+with open(text_output_file_aokvqa_offcl, 'w') as f: # save preds with only infos that aokvqa needs for their eval
     json.dump(pred_aokvqa_format, f)
 
 with open(text_output_file_aokvqa_offcl, 'r') as f:

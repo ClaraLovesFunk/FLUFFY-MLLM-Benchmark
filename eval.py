@@ -3,6 +3,7 @@
 import pandas as pd
 import json
 from IPython.display import display, HTML
+from sklearn.metrics import accuracy_score
 
 split_sec = 'val'
 images_sec = 'coco2017'
@@ -15,9 +16,9 @@ results_dir = 'experiments/' + model_sec + '/' + dataset_sec + '/'
 
 text_input_file = text_input_dir + split_sec + '.json'
 text_output_file = results_dir + 'output.json'
-text_output_file_aokvqa_offcl = results_dir + 'predictions_val.json'
-eval_file = results_dir + f'eval_{split_sec}.json'
-example_file = results_dir + f'examples_{split_sec}.json'
+text_output_file_aokvqa_offcl = results_dir + 'output_aokvqa.json'
+eval_file = results_dir + f'scores.json'
+example_file = results_dir + f'examples.json'
 
 
 # load model predictions
@@ -32,30 +33,32 @@ pred = pd.DataFrame(pred)
 
 y_true = pred["direct_answers"].tolist()
 y_pred = pred["output"].tolist()
+print(y_true)
 
-
-# Initialize a counter for correct predictions
-
-correct_predictions = 0
-incorrect_predictions = 0
 
 
 # Create a list to store the indices of correct samples
 correct_indices = []
+correct_n = 0
+
 incorrect_indices = []
+incorrect_n = 0
 
 
 # Compare the model's answer with the list of potential correct answers
 for i in range(len(y_true)):
     if y_pred[i][0] in y_true[i]:
         correct_indices.append(i)
+        correct_n += 1
     else:
         incorrect_indices.append(i)
+        incorrect_n += 1
+
 
 
 # Calculate the accuracy metric
 
-accuracy = len(correct_indices) / len(y_true)
+accuracy =  correct_n / len(y_true)
 
 
 
