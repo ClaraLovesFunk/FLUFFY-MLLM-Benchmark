@@ -15,8 +15,8 @@ output_file = 'experiments/blip2/aokvqa/output.json'
 example_file = 'experiments/blip2/aokvqa/examples.json' 
 split_sec = 'val'
 
-flag_show_inputs = False
-flag_show_outputs = False
+flag_show_inputs = True
+flag_show_outputs = True
 flag_show_outputs_examples = True
 
 n_inputs = 3

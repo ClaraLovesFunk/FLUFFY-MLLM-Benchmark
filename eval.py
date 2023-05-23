@@ -48,13 +48,6 @@ with open(example_file, 'w') as f:
 
 
 
-# show metrics
-
-with open(eval_file, 'r') as f:
-    acc_strict_standard = json.load(f)
-
-print(f'Accuracy Strict Standard: {acc_strict_standard["acc_strict_standard"]:.4f}')
-print(f'Accuracy AOKVQA: {acc_strict_standard["acc_aokvqa"]:.4f}')
 
 
 

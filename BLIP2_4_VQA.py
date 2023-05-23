@@ -41,7 +41,6 @@ pred = [] # store pred with all other infos
 pred_aokvqa_format = {} # store just question id and generated text
 
 
-
 # load model & its processor
 
 model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device)

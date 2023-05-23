@@ -50,7 +50,9 @@ def eval_aokvqa(input, output, multiple_choice=False, strict=True):
     '''
     aokvqa's method of computing accuracy by regarding how many of their proposed direct_answers the predictions matches
     (the answer that the aokvqa authors want the most are written the most often in a list of multiple possible direct answers,
-    while a just satisfactory answer is written less)'''
+    while a just satisfactory answer is written less)
+    
+    accuracy per instance can be values between 0-1, not just 0 and 1'''
 
 
     if isinstance(input, list):  # checks if dataset is of type list; if yes, it transforms it into a dict with question id as key
