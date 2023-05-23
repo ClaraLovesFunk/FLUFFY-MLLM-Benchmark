@@ -59,20 +59,29 @@ def sample_select(demo_strategy = 'random', train_data):
     '''
 
 
-def prompt_construct(test_sample, task = 'direct_answer'): 
+def prompt_construct(test_sample, task):
 
-    if task == 'direct_answer':
-        instruction = 'Answer the following question! '
-    if task == 'MC_answer':
-        instruction = 'Answer the following question by selecting from the choices below! '
+    '''
+    task = {direct_answer, MC_answer}
+    ''' 
 
     question_formal = 'Questions: '
     choices_formal = 'Choices: '
-    answer_formal = ' Answer: '
+    choices_end_formal = '.'
+    answer_formal = 'Answer: '
 
-    question_content = test_sample['question'] #'What is on the image?' 
+    question_content = test_sample['question'] 
 
-    prompt =  instruction +  question_formal +  question_content +  answer_formal
+    if task == 'direct_answer':
+        instruction = 'Answer the following question! '
+        prompt =  instruction +  '\n' + question_formal +  question_content +  '\n' + answer_formal
+
+    if task == 'MC_answer':
+        instruction = 'Answer the following question by selecting from the choices below! '
+        choices_content = test_sample['choices']
+        choices_content = ', '.join(choices_content)
+        prompt =  instruction +  '\n' + question_formal +  question_content + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
+    
     
     return prompt
 

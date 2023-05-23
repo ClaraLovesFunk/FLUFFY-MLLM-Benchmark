@@ -1,5 +1,4 @@
 
-#%%
 from PIL import Image
 from PIL import ImageOps
 import torch
@@ -7,12 +6,6 @@ import json
 import pandas as pd
 from lavis.models import load_model_and_preprocess
 from little_helpers import *
-
-
-
-# FLAGS
-
-viz_flag = False
 
 
 split_sec = 'val'
@@ -34,11 +27,11 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 
+# load textual data
+
 with open(text_input_file, 'r') as f:
     X_text = json.load(f)
 
-pred = [] # store pred with all other infos
-pred_aokvqa_format = {} # store just question id and generated text
 
 
 # load model & its processor
@@ -49,6 +42,7 @@ model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type
 
 # generate output 
 
+pred = [] # store pred with all other infos
 for i in X_text:
 
 
@@ -64,45 +58,25 @@ for i in X_text:
     
     # make prompt
 
-    prompt = prompt_construct(test_sample = i,task = 'direct_answer')
+    prompt_da = prompt_construct(test_sample = i,task = 'direct_answer')
+    prompt_MC = prompt_construct(test_sample = i,task = 'MC_answer')
+    
     
     # generate text with model
 
-    generated_text = model.generate({"image": image, "prompt": prompt})
+    generated_da = model.generate({"image": image, "prompt": prompt_da})
+    generated_MC = model.generate({"image": image, "prompt": prompt_MC})
 
     # store output
 
-    i.update({'output': generated_text})
+    i.update({'output_da': generated_da})
+    i.update({'output_MC': generated_MC})
     pred.append(i)
 
-    pred_aokvqa_format = {
-        i['question_id']: {
-            #'multiple_choice': '<prediction>',
-            'direct_answer': generated_text
-        }
-    }
-
-    # viz
-
-    if viz_flag == True:
-
-        image_raw.show() 
-        print(prompt) 
-        print(f'generated_text: {generated_text}')
-    
 
 
-# save & reload
+# save 
 
 with open(text_output_file, 'w') as f: # save preds along with all infos
     json.dump(pred,f)
     
-with open(text_output_file_aokvqa_offcl, 'w') as f: # save preds with only infos that aokvqa needs for their eval
-    json.dump(pred_aokvqa_format, f)
-
-with open(text_output_file_aokvqa_offcl, 'r') as f:
-    pred_aokvqa_format = json.load(f)
-
-pred_aokvqa_format = pd.DataFrame(pred_aokvqa_format)
-display(pred_aokvqa_format)
-# %%
