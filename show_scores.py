@@ -20,20 +20,16 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
             model = path_parts[-2]
             dataset = path_parts[-1]
 
-            # Include model and dataset information in the dictionary
-            scores['Model'] = model
-            scores['Dataset'] = dataset
-
-            # Add the scores dictionary to our data list
-            data.append(scores)
+            # For each task in the JSON file
+            for task, metrics in scores.items():
+                for metric, value in metrics.items():
+                    # Create a dictionary for each metric, model, dataset, and task combination
+                    data.append({'Model': model, 'Dataset': dataset, 'Task': task, 'Metric': metric, 'Value': value})
 
 df = pd.DataFrame(data)
 
-# Melt the DataFrame so that the column names become a 'Metric' column
-df_melted = df.melt(id_vars=['Model', 'Dataset'], var_name='Metric', value_name='Value')
-
-# Pivot the DataFrame, this time with 'Model' as index, and 'Dataset' and 'Metric' as columns.
-df_pivot = df_melted.pivot_table(index='Model', columns=['Dataset', 'Metric'], values='Value')
+# Pivot the DataFrame, this time with 'Model' as index, and 'Dataset', 'Task', and 'Metric' as columns.
+df_pivot = df.pivot_table(index='Model', columns=['Dataset', 'Task', 'Metric'], values='Value')
 
 # This will sort the DataFrame for better visualization.
 df_pivot.sort_index(axis=1, level=0, inplace=True)
@@ -41,7 +37,7 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
-# Display the DataFrame as HTML with Model names, Dataset names and Metric names bold
+# Display the DataFrame as HTML with Model names, Dataset names, Task names and Metric names bold
 html = (df_pivot.style.set_table_styles([
     {'selector': 'th', 'props': [('font-weight', 'bold')]}  # make all headers bold
 ])
