@@ -8,8 +8,8 @@ from little_helpers import *
 
 
 images_dir = 'datasets/coco2017'
-input_file = 'datasets/okvqa/mscoco_val2014_annotations.json'
-q_file = 'datasets/okvqa/OpenEnded_mscoco_val2014_questions.json'
+labels_file = 'datasets/okvqa/val_labels.json'
+text_input_file = 'datasets/okvqa/val.json'
 output_file = 'experiments/blip2/aokvqa/output.json' 
 example_file = 'experiments/blip2/aokvqa/examples.json' 
 split_sec = 'val'
@@ -23,40 +23,41 @@ n_outputs = 3
 n_good_exampes = 3
 n_bad_exampes = 3
 
+FLAG_show_input = True
+FLAG_show_output = False
+
+
+if FLAG_show_input:
+
+    with open(text_input_file, 'r') as f:
+        input = json.load(f)
+
+    input = input['questions']
+
+    input = pd.DataFrame(input)
+
+    display(input[:10])
 
 
 
-# INPUT DATA
+if FLAG_show_output:
 
-with open(q_file, 'r') as f:
-    input = json.load(f)
+    with open(labels_file, 'r') as f:
+        labels = json.load(f)
 
-input = input['questions']
+    labels = labels['annotations']
 
-input = pd.DataFrame(input)
+    flat_data = []
 
-display(input[:20])
+    for l in labels:
 
+        for answer in l['answers']:
 
+            entry = l.copy()  
+            entry.pop('answers')  
+            entry.update(answer)  
+            flat_data.append(entry)
 
-# HUMAN ANNOTATIONS
-
-with open(input_file, 'r') as f:
-    labels = json.load(f)
-
-labels = labels['annotations']
-
-flat_data = []
-
-for l in labels:
-
-    for answer in l['answers']:
-
-        entry = l.copy()  
-        entry.pop('answers')  
-        entry.update(answer)  
-        flat_data.append(entry)
-
-labels = pd.DataFrame(flat_data)
-display(labels[:20])
+    labels = pd.DataFrame(flat_data)
+    display(labels[:20])
 # %%

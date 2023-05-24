@@ -19,7 +19,7 @@ results_dir = 'experiments/' + model_sec + '/' + dataset_sec + '/'
 
 text_input_file = text_input_dir + split_sec + '.json'
 text_output_file = results_dir + 'output.json'
-text_output_file_aokvqa_offcl = results_dir + 'output_aokvqa.json'
+
 
 
 
