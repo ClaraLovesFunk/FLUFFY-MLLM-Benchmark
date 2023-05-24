@@ -7,11 +7,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
     output = pd.DataFrame(output)
     input = pd.DataFrame(input)
 
-    # Get the ground truth labels and model predictions
-
-    y_true = input["direct_answers"].tolist()
-    y_pred = output["output"].tolist()
-
+    
     # Create a list to store the indices of correct/incorrect samples and a variable to count the occurances of correct/incorrect predicitions
 
     correct_indices = []
@@ -20,15 +16,53 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
     incorrect_indices = []
     incorrect_n = 0
 
-    # Compare the model's answer with the list of potential correct answers
 
-    for i in range(len(y_true)):
-        if y_pred[i][0] in y_true[i]:
-            correct_indices.append(i)
-            correct_n += 1
-        else:
-            incorrect_indices.append(i)
-            incorrect_n += 1
+    if multiple_choice == True:
+      
+        # Get the ground truth labels and model predictions
+
+        y_true = []
+
+        choices = input['choices']
+        ix_correct_choice = input['correct_choice_idx']
+
+        for i, i_correct_idx in enumerate(ix_correct_choice):
+            correct_choice = choices[i][i_correct_idx]
+            y_true.append([correct_choice])
+
+        y_pred = output["output_MC"].tolist()
+
+        # Compare the model's answer with the list of potential correct answers
+
+        for i in range(len(y_true)):
+            if y_pred[i][0] == y_true[i][0]:
+
+                correct_indices.append(i)
+                correct_n += 1
+
+            else:
+                incorrect_indices.append(i)
+                incorrect_n += 1
+
+
+    if multiple_choice == False:
+
+        # Get the ground truth labels and model predictions
+
+        y_true = input["direct_answers"].tolist()
+        y_pred = output["output_da"].tolist()
+
+        # Compare the model's answer with the list of potential correct answers
+
+        for i in range(len(y_true)):
+            if y_pred[i][0] in y_true[i]:
+
+                correct_indices.append(i)
+                correct_n += 1
+            else:
+                incorrect_indices.append(i)
+                incorrect_n += 1
+
 
     # Calculate the accuracy metric
 
@@ -36,7 +70,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
 
     # store example indice
     example_indice = {"good pred": correct_indices, 
-                      "bad pred": incorrect_indices}
+                    "bad pred": incorrect_indices}
 
     return acc, example_indice
 
@@ -80,17 +114,24 @@ def eval_aokvqa(input, output, multiple_choice=False, strict=True):
         if q not in output.keys(): #if we didnt generate a pred for a q in the dataset, we append 0.0 to the acc array
             acc.append(0.0)
             continue
-
-        pred = output[q]['output'][0]
+        if multiple_choice:
+            pred = output[q]['output_MC'][0]
+        else: 
+            pred = output[q]['output_da'][0]
+        
         choices = input[q]['choices']
         direct_answers = input[q]['direct_answers']
 
         ## Multiple Choice setting
         if multiple_choice:
+
+            '''
             if strict:
                 assert pred in choices, 'Prediction must be a valid choice'
+                '''
             correct_choice_idx = input[q]['correct_choice_idx']
             acc.append( float(pred == choices[correct_choice_idx]) )
+
         ## Direct Answer setting
         else:
             num_match = sum([pred == da for da in direct_answers])

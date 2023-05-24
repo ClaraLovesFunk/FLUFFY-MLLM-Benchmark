@@ -32,19 +32,42 @@ with open(text_input_file, 'r') as f:
 
 
 
-# compute metrics & example indice
+# task "direct answer": eval + get example indice
 
-acc_strict_standard, example_indice = acc_strict_standard(input = input, output = output, multiple_choice=False, strict=True)
-acc_aokvqa = eval_aokvqa(input = input, output=output, multiple_choice=False, strict=True)
+acc_strict_standard_da, example_indice_da = acc_strict_standard(input = input, output = output, multiple_choice=False, strict=True)
+acc_aokvqa_da = eval_aokvqa(input = input, output=output, multiple_choice=False, strict=True)
 
-scores = {"acc_strict_standard": acc_strict_standard,
-          "acc_aokvqa": acc_aokvqa}
+scores_da = {"acc_strict_standard": acc_strict_standard_da,
+          "acc_aokvqa": acc_aokvqa_da}
+
+
+
+# task "Multiple Choice": eval + get example indice
+
+acc_strict_standard_MC, example_indice_MC = acc_strict_standard(input = input, output = output, multiple_choice=True, strict=True)
+acc_aokvqa_MC = eval_aokvqa(input = input, output=output, multiple_choice=True, strict=True)
+
+scores_MC = {"acc_strict_standard": acc_strict_standard_MC,
+          "acc_aokvqa": acc_aokvqa_MC}
+
+
+
+# store metrics + example indice
+
+scores_alltasks = {"scores_da": scores_da,
+                   "scores_MC": scores_MC}
+
+example_indice_alltasks = {"example_indice_da": example_indice_da,
+                           "example_indice_MC": example_indice_MC}
+
+
+print(scores_alltasks)
 
 with open(eval_file, 'w') as f: 
-    json.dump(scores,f)
+    json.dump(scores_alltasks,f)
 
 with open(example_file, 'w') as f:
-    json.dump(example_indice,f)
+    json.dump(example_indice_alltasks,f)
 
 
 
