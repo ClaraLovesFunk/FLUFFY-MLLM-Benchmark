@@ -14,7 +14,6 @@ output_file = 'experiments/blip2/okvqa/output.json'
 example_file = 'experiments/blip2/okvqa/examples.json' 
 split_sec = 'val'
 
-
 n_inputs = 3
 n_outputs = 3
 n_good_exampes = 3
@@ -23,6 +22,9 @@ n_bad_exampes = 3
 FLAG_show_input = False
 FLAG_show_output = True
 FLAG_show_labels = False
+
+
+
 
 if FLAG_show_input:
 
@@ -40,17 +42,14 @@ if FLAG_show_input:
 
 if FLAG_show_output:
 
+    # get model output
+
     with open(output_file, 'r') as f:
         output = json.load(f)
 
-    #output = pd.DataFrame(output)
-
     print('Outputs')
-    #data_samples = output[:n_outputs]
-    #data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=images_dir)
-   
-    
-    # get annotations data
+
+    # get annotation data
 
     with open(labels_file, 'r') as f:
         labels = json.load(f)
@@ -71,38 +70,28 @@ if FLAG_show_output:
     labels = pd.DataFrame(flat_data)
 
 
-    # add label from 1st annotator 
-
-    # Assuming you have the "labels" DataFrame and "output" list already defined
+    # extract labels by 1st annotator
 
     for item in output:
         question_id = item['question_id']
         
-        # Filter the "labels" DataFrame to rows matching the question_id
         filtered_labels = labels[labels['question_id'] == question_id]
         
-        # Filter the rows with answer_id = 1
         filtered_rows = filtered_labels[filtered_labels['answer_id'] == 1]
         
         if len(filtered_rows) > 0:
-            # Get the value from the "answer" column of the first row
+
             answer_value = filtered_rows.iloc[0]['answer']
             item['answer'] = answer_value
         else:
             item['answer'] = None
 
-    #output = pd.DataFrame(output)
-    #display(output)
+
+    # show outputs with labels
 
     data_samples = output[:n_outputs]
     data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=images_dir)
    
-
-
-
-
-
-
 
 
 

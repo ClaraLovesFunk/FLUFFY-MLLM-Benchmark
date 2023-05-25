@@ -43,7 +43,7 @@ X_text = X_text['questions']
 
 # load model & its processor
 
-#model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device)
+model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xxl", is_eval=True, device=device)
 
 
 
@@ -55,15 +55,13 @@ for i in X_text:
 
     # get & prepare test sample
 
-    image_path = get_coco_path('train', i['image_id'], images_input_dir)
-    print(image_path)
+    image_path = get_coco_path('all', i['image_id'], images_input_dir)
     image_raw = Image.open(image_path) 
-    print('found')
 
     if image_raw.mode != 'RGB': 
         image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
-    #image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
+    image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
     
     # make prompt
 
@@ -73,8 +71,8 @@ for i in X_text:
     
     # generate text with model
 
-    generated_da ='test'
-    #generated_da = model.generate({"image": image, "prompt": prompt_da})
+    #generated_da ='test'
+    generated_da = model.generate({"image": image, "prompt": prompt_da})
     #generated_MC = model.generate({"image": image, "prompt": prompt_MC})
 
     # store output

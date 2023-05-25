@@ -100,7 +100,7 @@ def add_imgs_text_data(data_samples, split_sec,images_dir):
         # add images to textual data
         dict_fulldata = {'image': image_to_html(img)}
         dict_fulldata.update(data_sample_i)
-        dict_fulldata.update({'img_path': image_path})
+        #dict_fulldata.update({'img_path': image_path})
 
         data_incl_image.append(dict_fulldata)
 
@@ -108,7 +108,7 @@ def add_imgs_text_data(data_samples, split_sec,images_dir):
     data_incl_image = pd.DataFrame(data_incl_image)
 
     # drop irrelevant info
-    data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales', 'img_path'],axis=1)
+    #data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales', 'img_path'],axis=1)
 
     pd.set_option('display.max_colwidth', None)
     display(HTML(data_incl_image.to_html(escape=False)))
