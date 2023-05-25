@@ -7,35 +7,57 @@ from little_helpers import *
 
 
 
-images_dir = 'datasets/coco2017'
-labels_file = 'datasets/okvqa/val_labels.json'
-text_input_file = 'datasets/okvqa/val.json'
-output_file = 'experiments/blip2/okvqa/output.json' 
-example_file = 'experiments/blip2/okvqa/examples.json' 
-split_sec = 'val'
+# VARIABLES
+
+model_sec = 'blip2'
+
+dataset_sec = 'okvqa'
+
+run = 'run1'
+
+images_sec = 'coco2017'
+split_images_sec = 'all'
+split_text_sec = 'val'
+
+dataset_root_dir = 'datasets'
 
 n_inputs = 3
 n_outputs = 3
 n_good_exampes = 3
 n_bad_exampes = 3
 
-FLAG_show_input = False
+FLAG_show_input = True
 FLAG_show_output = True
-FLAG_show_labels = False
+FLAG_show_labels = True
+
+
+
+# PATHS
+
+dir_input_images = dataset_root_dir + '/'+ images_sec 
+dir_input_text = dataset_root_dir + '/'+ dataset_sec +'/'
+dir_results = 'experiments/' + model_sec + '/' + dataset_sec + '/'    # add run
+
+file_input_text = dir_input_text + '/'+ split_text_sec + '.json'
+file_output_text = dir_results + 'output.json'
+file_labels_text = dataset_root_dir + '/' + dataset_sec + '/' + split_text_sec + '_labels.json'
+
+
+
 
 
 
 
 if FLAG_show_input:
 
-    with open(text_input_file, 'r') as f:
+    with open(file_input_text, 'r') as f:
         input = json.load(f)
 
     input = input['questions']
 
     print('Inputs')
     data_samples = input[:n_inputs]
-    data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=images_dir)
+    data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=dir_input_images)
 
 
 
@@ -44,14 +66,14 @@ if FLAG_show_output:
 
     # get model output
 
-    with open(output_file, 'r') as f:
+    with open(file_output_text, 'r') as f:
         output = json.load(f)
 
     print('Outputs')
 
     # get annotation data
 
-    with open(labels_file, 'r') as f:
+    with open(file_labels_text, 'r') as f:
         labels = json.load(f)
 
     labels = labels['annotations']
@@ -90,14 +112,14 @@ if FLAG_show_output:
     # show outputs with labels
 
     data_samples = output[:n_outputs]
-    data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=images_dir)
+    data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=dir_input_images)
    
 
 
 
 if FLAG_show_labels:
 
-    with open(labels_file, 'r') as f:
+    with open(file_labels_text, 'r') as f:
         labels = json.load(f)
 
     labels = labels['annotations']
@@ -113,6 +135,7 @@ if FLAG_show_labels:
             entry.update(answer)  
             flat_data.append(entry)
 
+    print('Labels')
     labels = pd.DataFrame(flat_data)
     display(labels[:10])
 
