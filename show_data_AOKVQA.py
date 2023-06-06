@@ -13,7 +13,7 @@ images_dir = 'datasets/coco2017'
 input_file = 'datasets/aokvqa/val.json'
 output_file = 'experiments/blip2/aokvqa/output.json' 
 example_file = 'experiments/blip2/aokvqa/examples.json' 
-split_sec = 'val'
+split_sec = 'all'
 
 flag_show_inputs = True
 flag_show_outputs = True
@@ -61,12 +61,12 @@ if flag_show_outputs:
 if flag_show_outputs_examples:
 
     print(':))) Good Examples')
-    good_example_index = data_output_examples['good pred'][:n_good_exampes]
+    good_example_index = data_output_examples["example_indice_da"]['good pred'][:n_good_exampes]
     data_samples = [data_output[i] for i in good_example_index]
     data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
 
     print(':_((( Bad Examples')
-    good_example_index = data_output_examples['bad pred'][:n_good_exampes]
+    good_example_index = data_output_examples["example_indice_da"]['bad pred'][:n_good_exampes]
     data_samples = [data_output[i] for i in good_example_index]
     data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
 
