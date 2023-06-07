@@ -3,38 +3,42 @@
 import sys
 dataDir = '../../VQA'
 sys.path.insert(0, '%s/PythonHelperTools/vqaTools' %(dataDir))
-#from VQA.PythonHelperTools.vqaTools.vqa import VQA
-#from VQA/PythonEvaluationTools/vqaEvaluation/vqaEval.py vqaEvaluation.vqaEval import VQAEval
 
-from vqa import *
-
-
-#from VQA.PythonHelperTools.vqaTools.vqa import VQA
-#from VQA.PythonEvaluationTools.vqaEvaluation.vqaEval import VQAEval
-
-
-
+from vqa import VQA #*
+from vqaEval import VQAEval
 import matplotlib.pyplot as plt
 import skimage.io as io
 import json
 import random
 import os
 
+
+
 # set up file names and paths
 versionType ='v2_' # this should be '' when using VQA v2.0 dataset
 taskType    ='OpenEnded' # 'OpenEnded' only for v2.0. 'OpenEnded' or 'MultipleChoice' for v1.0
 dataType    ='mscoco'  # 'mscoco' only for v1.0. 'mscoco' for real and 'abstract_v002' for abstract for v1.0. 
-dataSubType ='train2014'
-annFile     ='%s/Annotations/%s%s_%s_annotations.json'%(dataDir, versionType, dataType, dataSubType)
-quesFile    ='%s/Questions/%s%s_%s_%s_questions.json'%(dataDir, versionType, taskType, dataType, dataSubType)
-imgDir      ='%s/Images/%s/%s/' %(dataDir, dataType, dataSubType)
+#dataSubType ='train2014'
+annFile     ='datasets/okvqa/train_labels.json' #'%s/Annotations/%s%s_%s_annotations.json'%(dataDir, versionType, dataType, dataSubType)
+quesFile    ='datasets/okvqa/train.json'#'%s/Questions/%s%s_%s_%s_questions.json'%(dataDir, versionType, taskType, dataType, dataSubType)
+#resFile_PATH ='experiments/okvqa/output_fake.json'
+#imgDir      ='datasets/coco2017/all' #'%s/Images/%s/%s/' %(dataDir, dataType, dataSubType)
+
 resultType  ='fake'
 fileTypes   = ['results', 'accuracy', 'evalQA', 'evalQuesType', 'evalAnsType'] 
 
 # An example result json file has been provided in './Results' folder.  
 
-[resFile, accuracyFile, evalQAFile, evalQuesTypeFile, evalAnsTypeFile] = ['%s/Results/%s%s_%s_%s_%s_%s.json'%(dataDir, versionType, taskType, dataType, dataSubType, \
-resultType, fileType) for fileType in fileTypes]  
+#[resFile, accuracyFile, evalQAFile, evalQuesTypeFile, evalAnsTypeFile] = ['%s/Results/%s%s_%s_%s_%s_%s.json'%(dataDir, versionType, taskType, dataType, dataSubType, \
+#resultType, fileType) for fileType in fileTypes]  
+
+resFile = 'experiments/blip2/okvqa/output_fake.json'
+accuracyFile = None
+evalQAFile = None
+evalQuesTypeFile = None
+evalAnsTypeFile = None
+
+
 
 # create vqa object and vqaRes object
 vqa = VQA(annFile, quesFile)
