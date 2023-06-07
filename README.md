@@ -1,17 +1,12 @@
 # Testing-Multimodal-LLMs
 
-| Model      | A-OK-VQA | OK-VQA | Dataset 3 |
-|------------|-----------|-----------|-----------|
-| Model A    | &#x2714; &#x2714;   | &#x2714;  |           |
-| Model B    | &#x2714;  | &#x2714;  |           |
-| Model C    |           | &#x2714;  | &#x2714;  |
-
+\* Paper Coming Soon
 
 
 | Models              | A-OKVQA | OKVQA | VQA-v2 | EMU | E-SNLI-VE | VCR |
 |---------------------|---------|-------|--------|-----|-----------|-----|
 | BLIP-2              |&#x2714; &#x2714;         |&#x2714;       |        |     |           |     |
-| BLIP-vicuna             |         |       |        |     |           |     |
+| BLIP-vicuna         |         |       |        |     |           |     |
 | Prismer             |         |       |        |     |           |     |
 | OpenFlamingo*       |         |       |        |     |           |     |
 | MiniGPT             |         |       |        |     |           |     |
