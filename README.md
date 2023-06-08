@@ -3,24 +3,24 @@
 ## Benchmark
 
 
-<table id="T_61b5e">
+<table id="T_df8f4">
 <thead>
 <tr>
 <th class="index_name level0">Dataset</th>
-<th class="col_heading level0 col0" colspan="2" id="T_61b5e_level0_col0" style="border-bottom: 1px solid black;">aokvqa</th>
-<th class="col_heading level0 col2" id="T_61b5e_level0_col2" style="border-bottom: 1px solid black;">okvqa</th>
+<th class="col_heading level0 col0" colspan="2" id="T_df8f4_level0_col0" style="border-bottom: 1px solid black;">aokvqa</th>
+<th class="col_heading level0 col2" id="T_df8f4_level0_col2" style="border-bottom: 1px solid black;">okvqa</th>
 </tr>
 <tr>
 <th class="index_name level1">Task</th>
-<th class="col_heading level1 col0" id="T_61b5e_level1_col0">direct answer</th>
-<th class="col_heading level1 col1" id="T_61b5e_level1_col1">multiple choice</th>
-<th class="col_heading level1 col2" id="T_61b5e_level1_col2">direct answer</th>
+<th class="col_heading level1 col0" id="T_df8f4_level1_col0">direct answer</th>
+<th class="col_heading level1 col1" id="T_df8f4_level1_col1">multiple choice</th>
+<th class="col_heading level1 col2" id="T_df8f4_level1_col2">direct answer</th>
 </tr>
 <tr>
 <th class="index_name level2">Metric</th>
-<th class="col_heading level2 col0" id="T_61b5e_level2_col0">acc</th>
-<th class="col_heading level2 col1" id="T_61b5e_level2_col1">acc</th>
-<th class="col_heading level2 col2" id="T_61b5e_level2_col2">acc</th>
+<th class="col_heading level2 col0" id="T_df8f4_level2_col0">acc</th>
+<th class="col_heading level2 col1" id="T_df8f4_level2_col1">acc</th>
+<th class="col_heading level2 col2" id="T_df8f4_level2_col2">acc</th>
 </tr>
 <tr>
 <th class="index_name level0"></th>
@@ -31,10 +31,10 @@
 </thead>
 <tbody>
 <tr>
-<th class="row_heading level0 row0" id="T_61b5e_level0_row0">blip2</th>
-<td class="data row0 col0" id="T_61b5e_row0_col0">0.24</td>
-<td class="data row0 col1" id="T_61b5e_row0_col1">0.70</td>
-<td class="data row0 col2" id="T_61b5e_row0_col2">29.53</td>
+<th class="row_heading level0 row0" id="T_df8f4_level0_row0">blip2</th>
+<td class="data row0 col0" id="T_df8f4_row0_col0">0.24</td>
+<td class="data row0 col1" id="T_df8f4_row0_col1">0.70</td>
+<td class="data row0 col2" id="T_df8f4_row0_col2">0.30</td>
 </tr>
 </tbody>
 </table>

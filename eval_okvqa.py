@@ -70,8 +70,8 @@ for ansType in vqaEval.accuracy['perAnswerType']:
 print( "\n")
 
 # store score
-
-scores_alltasks = {"direct answer": {"acc": vqaEval.accuracy['overall']}}
+acc = vqaEval.accuracy['overall']
+scores_alltasks = {"direct answer": {"acc": round(acc / 100, 2)}}
 
 
 with open(eval_file, 'w') as f: 
