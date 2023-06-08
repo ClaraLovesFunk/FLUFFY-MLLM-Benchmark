@@ -50,6 +50,9 @@ def add_top_header_border(html_str):
     # Split the HTML string into lines
     lines = html_str.split("\n")
 
+    # Remove the CSS style block
+    lines = [line for line in lines if not line.startswith('<style type="text/css">')]
+
     # Identify the topmost headers
     topmost_headers = [line for line in lines if "level0 col" in line and "col_heading" in line]
 
@@ -65,6 +68,7 @@ def add_top_header_border(html_str):
     html_str = "\n".join(lines)
 
     return html_str
+
 
 # Adjust the rendered HTML to add a bottom border to the topmost headers
 html = add_top_header_border(html)
@@ -93,10 +97,11 @@ benchmark_table = """
 * Paper Coming Soon
 """
 
-checklist_subheader = "##Checklist\n\n"
-checklist_table = """
-Insert your checklist table here
-"""
+space = "   \n\n"
+checklist_subheader = "## Checklist\n\n"
+
 
 with open("README.md", "w") as f:
-    f.write(heading + benchmark_subheader + html + checklist_subheader + benchmark_table )
+    f.write(heading + benchmark_subheader + html + space + checklist_subheader + benchmark_table )
+
+print('test')
