@@ -70,8 +70,9 @@ def add_top_header_border(html_str):
 html = add_top_header_border(html)
 
 heading = "# Testing-Multimodal-LLMs\n\n"
-table = """
-* Paper Coming Soon
+benchmark_subheader = "## Benchmark\n\n"
+benchmark_table = """
+
 
 | Models              | A-OKVQA | OKVQA | VQA-v2 | EMU | E-SNLI-VE | VCR |
 |---------------------|---------|-------|--------|-----|-----------|-----|
@@ -89,7 +90,13 @@ table = """
 | FLAN-T5 (text)      |         |       |        |     |           |     |
 | GPT4AIl (text)      |         |       |        |     |           |     |
 | OpenAssistant (text)|         |       |        |     |           |     |
+* Paper Coming Soon
+"""
+
+checklist_subheader = "##Checklist\n\n"
+checklist_table = """
+Insert your checklist table here
 """
 
 with open("README.md", "w") as f:
-    f.write(heading + html + table)
+    f.write(heading + benchmark_subheader + html + checklist_subheader + benchmark_table )
