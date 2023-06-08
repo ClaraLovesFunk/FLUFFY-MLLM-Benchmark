@@ -71,7 +71,7 @@ print( "\n")
 
 # store score
 
-scores_alltasks = {"scores_da": {"vqa_acc": vqaEval.accuracy['overall']}}
+scores_alltasks = {"direct answer": {"acc": vqaEval.accuracy['overall']}}
 
 
 with open(eval_file, 'w') as f: 
@@ -79,7 +79,7 @@ with open(eval_file, 'w') as f:
 
 
 
-
+'''
 # demo how to use evalQA to retrieve low score result
 evals = [quesId for quesId in vqaEval.evalQA if vqaEval.evalQA[quesId]<35]   #35 is per question percentage accuracy
 if len(evals) > 0:
@@ -115,3 +115,4 @@ json.dump(vqaEval.evalQA,       open(evalQAFile,       'w'))
 json.dump(vqaEval.evalQuesType, open(evalQuesTypeFile, 'w'))
 json.dump(vqaEval.evalAnsType,  open(evalAnsTypeFile,  'w'))
 
+'''

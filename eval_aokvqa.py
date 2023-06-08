@@ -37,8 +37,7 @@ with open(text_input_file, 'r') as f:
 acc_strict_standard_da, example_indice_da = acc_strict_standard(input = input, output = output, multiple_choice=False, strict=True)
 acc_aokvqa_da = eval_aokvqa(input = input, output=output, multiple_choice=False, strict=True)
 
-scores_da = {"acc_strict_standard": acc_strict_standard_da,
-          "acc_aokvqa": acc_aokvqa_da}
+scores_da = {"acc": acc_aokvqa_da} #"acc_strict_standard": acc_strict_standard_da,}
 
 
 
@@ -47,18 +46,18 @@ scores_da = {"acc_strict_standard": acc_strict_standard_da,
 acc_strict_standard_MC, example_indice_MC = acc_strict_standard(input = input, output = output, multiple_choice=True, strict=True)
 acc_aokvqa_MC = eval_aokvqa(input = input, output=output, multiple_choice=True, strict=True)
 
-scores_MC = {"acc_strict_standard": acc_strict_standard_MC,
-          "acc_aokvqa": acc_aokvqa_MC}
+scores_MC = {"acc": acc_aokvqa_MC} #{"acc_strict_standard": acc_strict_standard_MC,
+          
 
 
 
 # store metrics + example indice
 
-scores_alltasks = {"scores_da": scores_da,
-                   "scores_MC": scores_MC}
+scores_alltasks = {"direct answer": scores_da,
+                   "multiple choice": scores_MC}
 
-example_indice_alltasks = {"example_indice_da": example_indice_da,
-                           "example_indice_MC": example_indice_MC}
+example_indice_alltasks = {"direct answer": example_indice_da,
+                           "multiple choice": example_indice_MC}
 
 
 print(scores_alltasks)

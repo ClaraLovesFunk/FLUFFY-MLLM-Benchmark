@@ -45,7 +45,7 @@ file_labels_text = dataset_root_dir + '/' + dataset_sec + '/' + split_text_sec +
 
 
 
-
+print(f'Peep into {dataset_sec}')
 
 
 if FLAG_show_input:
@@ -54,7 +54,7 @@ if FLAG_show_input:
         input = json.load(f)
 
     input = input['questions']
-
+    
     print('Inputs')
     data_samples = input[:n_inputs]
     data_incl_image = add_imgs_text_data(data_samples, split_sec = 'all',images_dir=dir_input_images)

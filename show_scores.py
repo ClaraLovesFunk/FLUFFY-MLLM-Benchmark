@@ -1,5 +1,3 @@
-#%%
-
 import os
 import json
 import pandas as pd
@@ -38,13 +36,38 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
-# Display the DataFrame as HTML with Model names, Dataset names, Task names and Metric names bold
+# ... Rest of your code ...
+
 html = (df_pivot.style.set_table_styles([
-    {'selector': 'th', 'props': [('font-weight', 'bold')]}  # make all headers bold
+    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
 ])
     .format("{:.2f}")  # adjust number formatting if necessary
     .render())
 
-display(HTML(html))
 
-# %%
+
+def add_top_header_border(html_str):
+    # Split the HTML string into lines
+    lines = html_str.split("\n")
+
+    # Identify the topmost headers
+    topmost_headers = [line for line in lines if "level0 col" in line and "col_heading" in line]
+
+    # For each topmost header, add a style attribute for the bottom border
+    for i, line in enumerate(lines):
+        if line in topmost_headers:
+            # Insert the style attribute after the opening tag in the line
+            first_tag_end = line.find('>') 
+            style_str = ' style="border-bottom: 1px solid black;"'
+            lines[i] = line[:first_tag_end] + style_str + line[first_tag_end:]
+
+    # Join the lines back together into a single HTML string
+    html_str = "\n".join(lines)
+
+    return html_str
+
+# Adjust the rendered HTML to add a bottom border to the topmost headers
+html = add_top_header_border(html)
+
+with open("README.md", "w") as f:
+    f.write(html)
