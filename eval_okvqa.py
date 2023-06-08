@@ -1,77 +1,117 @@
-#%%
+# coding: utf-8
 
+import sys
+dataDir = '../../VQA'
+sys.path.insert(0, '%s/PythonHelperTools/vqaTools' %(dataDir))
 
+from vqa import VQA #*
+from vqaEval import VQAEval
+import matplotlib.pyplot as plt
+import skimage.io as io
 import json
-from IPython.display import display, HTML
-from sklearn.metrics import accuracy_score
+import random
+import os
 
-from eval_modules import *
+eval_file = 'experiments/blip2/okvqa/scores.json'
 
-split_sec = 'val'
-images_sec = 'coco2017'
-dataset_sec = 'okvqa'
-model_sec = 'blip2'
+# set up file names and paths
+versionType ='v2_' # this should be '' when using VQA v2.0 dataset
+taskType    ='OpenEnded' # 'OpenEnded' only for v2.0. 'OpenEnded' or 'MultipleChoice' for v1.0
+dataType    ='mscoco'  # 'mscoco' only for v1.0. 'mscoco' for real and 'abstract_v002' for abstract for v1.0. 
+dataSubType ='train2014'
+annFile     ='datasets/okvqa/val_labels.json' #'%s/Annotations/%s%s_%s_annotations.json'%(dataDir, versionType, dataType, dataSubType)
+quesFile    ='datasets/okvqa/val.json'#'%s/Questions/%s%s_%s_%s_questions.json'%(dataDir, versionType, taskType, dataType, dataSubType)
+#resFile_PATH ='experiments/okvqa/output_fake.json'
+imgDir      ='datasets/coco2017/all' #'%s/Images/%s/%s/' %(dataDir, dataType, dataSubType)
 
-images_input_dir = 'datasets/' + images_sec
-text_input_dir = 'datasets/' + dataset_sec +'/'
-results_dir = 'experiments/' + model_sec + '/' + dataset_sec + '/'
+resultType  ='fake'
+fileTypes   = ['results', 'accuracy', 'evalQA', 'evalQuesType', 'evalAnsType'] 
 
-text_input_file = text_input_dir + split_sec + '.json'
-text_output_file = results_dir + 'output.json'
-eval_file = results_dir + f'scores.json'
-example_file = results_dir + f'examples.json'
+# An example result json file has been provided in './Results' folder.  
 
+#[resFile, accuracyFile, evalQAFile, evalQuesTypeFile, evalAnsTypeFile] = ['%s/Results/%s%s_%s_%s_%s_%s.json'%(dataDir, versionType, taskType, dataType, dataSubType, \
+#resultType, fileType) for fileType in fileTypes]  
 
-
-with open(text_output_file, 'r') as f:
-    output = json.load(f)
-
-
-with open(text_input_file, 'r') as f:
-    input = json.load(f)
-
-
-
-# task "direct answer": eval + get example indice
-
-acc_strict_standard_da, example_indice_da = acc_strict_standard(input = input, output = output, multiple_choice=False, strict=True)
-acc_aokvqa_da = eval_aokvqa(input = input, output=output, multiple_choice=False, strict=True)
-
-scores_da = {"acc_strict_standard": acc_strict_standard_da,
-          "acc_aokvqa": acc_aokvqa_da}
+resFile = 'experiments/blip2/okvqa/output_fakeform.json'
+accuracyFile = None
+evalQAFile = None
+evalQuesTypeFile = None
+evalAnsTypeFile = None
 
 
 
-# task "Multiple Choice": eval + get example indice
-
-acc_strict_standard_MC, example_indice_MC = acc_strict_standard(input = input, output = output, multiple_choice=True, strict=True)
-acc_aokvqa_MC = eval_aokvqa(input = input, output=output, multiple_choice=True, strict=True)
-
-scores_MC = {"acc_strict_standard": acc_strict_standard_MC,
-          "acc_aokvqa": acc_aokvqa_MC}
+# create vqa object and vqaRes object
+vqa = VQA(annFile, quesFile)
 
 
+    
+vqaRes = vqa.loadRes(resFile, quesFile)
 
-# store metrics + example indice
+# create vqaEval object by taking vqa and vqaRes
+vqaEval = VQAEval(vqa, vqaRes, n=2)   #n is precision of accuracy (number of places after decimal), default is 2
 
-scores_alltasks = {"scores_da": scores_da}
+# evaluate results
+"""
+If you have a list of question ids on which you would like to evaluate your results, pass it as a list to below function
+By default it uses all the question ids in annotation file
+"""
+vqaEval.evaluate() 
 
-#example_indice_alltasks = {"example_indice_da": example_indice_da,
-#                           "example_indice_MC": example_indice_MC}
+# print accuracies
+print ("\n")
+print( "Overall Accuracy is: %.02f\n" %(vqaEval.accuracy['overall']))
+print( "Per Question Type Accuracy is the following:")
+for quesType in vqaEval.accuracy['perQuestionType']:
+	print( "%s : %.02f" %(quesType, vqaEval.accuracy['perQuestionType'][quesType]))
+print( "\n")
+print( "Per Answer Type Accuracy is the following:")
+for ansType in vqaEval.accuracy['perAnswerType']:
+	print( "%s : %.02f" %(ansType, vqaEval.accuracy['perAnswerType'][ansType]))
+print( "\n")
 
+# store score
 
-#print(scores_alltasks)
+scores_alltasks = {"scores_da": {"vqa_acc": vqaEval.accuracy['overall']}}
+
 
 with open(eval_file, 'w') as f: 
     json.dump(scores_alltasks,f)
 
-#with open(example_file, 'w') as f:
-#    json.dump(example_indice_alltasks,f)
 
 
 
+# demo how to use evalQA to retrieve low score result
+evals = [quesId for quesId in vqaEval.evalQA if vqaEval.evalQA[quesId]<35]   #35 is per question percentage accuracy
+if len(evals) > 0:
+	print( 'ground truth answers')
+	randomEval = random.choice(evals)
+	randomAnn = vqa.loadQA(randomEval)
+	vqa.showQA(randomAnn)
 
+	print( '\n')
+	print( 'generated answer (accuracy %.02f)'%(vqaEval.evalQA[randomEval]))
+	ann = vqaRes.loadQA(randomEval)[0]
+	print( "Answer:   %s\n" %(ann['answer']))
 
+	imgId = randomAnn[0]['image_id']
+	imgFilename = 'COCO_' + dataSubType + '_'+ str(imgId).zfill(12) + '.jpg'
+	if os.path.isfile(imgDir + imgFilename):
+		I = io.imread(imgDir + imgFilename)
+		plt.imshow(I)
+		plt.axis('off')
+		plt.show()
 
+# plot accuracy for various question types
+plt.bar(range(len(vqaEval.accuracy['perQuestionType'])), vqaEval.accuracy['perQuestionType'].values(), align='center')
+plt.xticks(range(len(vqaEval.accuracy['perQuestionType'])), vqaEval.accuracy['perQuestionType'].keys(), rotation='0',fontsize=10)
+plt.title('Per Question Type Accuracy', fontsize=10)
+plt.xlabel('Question Types', fontsize=10)
+plt.ylabel('Accuracy', fontsize=10)
+plt.show()
 
-# %%
+# save evaluation results to ./Results folder
+json.dump(vqaEval.accuracy,     open(accuracyFile,     'w'))
+json.dump(vqaEval.evalQA,       open(evalQAFile,       'w'))
+json.dump(vqaEval.evalQuesType, open(evalQuesTypeFile, 'w'))
+json.dump(vqaEval.evalAnsType,  open(evalAnsTypeFile,  'w'))
+
