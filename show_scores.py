@@ -2,6 +2,8 @@ import os
 import json
 import pandas as pd
 from IPython.display import display, HTML
+from bs4 import BeautifulSoup
+
 
 root_dir = "experiments"
 
@@ -36,13 +38,21 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
-# ... Rest of your code ...
-
 html = (df_pivot.style.set_table_styles([
     {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
 ])
     .format("{:.2f}")  # adjust number formatting if necessary
     .render())
+
+# Use BeautifulSoup to parse the HTML
+soup = BeautifulSoup(html, 'html.parser')
+
+# Find and remove the style tags
+for style in soup.find_all('style'):
+    style.decompose()
+
+# Get the HTML string back, without the style tags
+html = str(soup)
 
 
 
