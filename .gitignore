@@ -8,3 +8,5 @@ venvs/
 aokvqa/
 old/
 LAVIS/
+*.pyc/
+
