@@ -116,3 +116,51 @@ def add_imgs_text_data(data_samples, split_sec,images_dir):
     print('\n')
 
     return data_incl_image
+
+
+
+class DatasetInfo:
+
+    def __init__(self, dataset_name):
+
+        self.dataset_name = dataset_name
+        self.split = {
+            'aokvqa': 'val',
+            'okvqa': 'val'
+        }
+        self.img = {
+            'aokvqa': 'coco2017',
+            'okvqa': 'coco2014'
+        }
+        self.task = {
+            'aokvqa': ['direct_answer', 'multiple_choice'],
+            'okvqa': ['direct_answer']
+        }
+        
+
+    def get_split(self):
+        return self.split[self.dataset_name]
+    
+    def get_img(self):
+        return self.img[self.dataset_name]
+    
+
+
+
+class ModelInfo:
+
+    def __init__(self, model_name):
+
+        self.model_name = model_name
+        self.lavis_model_type = {
+            'blip2': 'pretrain_flant5xxl'
+        }
+        self.lavis_name = {
+            'blip2': 'blip2_t5'
+        }
+        
+    def get_lavis_model_type(self):
+        return self.lavis_model_type[self.model_name]
+    
+    def get_lavis_name(self):
+        return self.lavis_name[self.model_name]
