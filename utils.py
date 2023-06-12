@@ -119,7 +119,7 @@ def add_imgs_text_data(data_samples, split_sec,images_dir):
 
 
 
-class DatasetInfo:
+class DatasetInfo():
 
     def __init__(self, dataset_name):
 
@@ -128,10 +128,11 @@ class DatasetInfo:
             'aokvqa': 'val',
             'okvqa': 'val'
         }
-        self.img = {
+        self.img_dataset = {
             'aokvqa': 'coco2017',
             'okvqa': 'coco2014'
         }
+
         self.task = {
             'aokvqa': ['direct_answer', 'multiple_choice'],
             'okvqa': ['direct_answer']
@@ -141,13 +142,15 @@ class DatasetInfo:
     def get_split(self):
         return self.split[self.dataset_name]
     
-    def get_img(self):
-        return self.img[self.dataset_name]
-    
+    def get_img_dataset(self):
+        return self.img_dataset[self.dataset_name]
+
+    def get_tasks(self):
+        return self.tasks[self.dataset_name]
 
 
 
-class ModelInfo:
+class ModelInfo():
 
     def __init__(self, model_name):
 
@@ -164,3 +167,40 @@ class ModelInfo:
     
     def get_lavis_name(self):
         return self.lavis_name[self.model_name]
+    
+
+
+class dataset():
+
+    def __init__(self, dataset_name, dataset_path):
+
+        self.dataset_name = dataset_name
+        self.dataset_path = dataset_path
+
+    def load():
+
+        with open(self.dataset_path, 'r') as f:
+            X_text = json.load(f)
+
+        if self.dataset_name == 'okvqa':
+            X_text = X_text['questions']        
+
+        return X_text
+    
+
+
+
+
+
+
+def prep_image(images_path, sample, vis_processors):
+
+    image_path =  os.path.join(images_path, f"{sample['image_id']:012}.jpg")
+    image_raw = Image.open(image_path) 
+
+    if image_raw.mode != 'RGB': 
+        image_raw = ImageOps.colorize(image_raw, 'black', 'white')
+
+    image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
+
+    return image
