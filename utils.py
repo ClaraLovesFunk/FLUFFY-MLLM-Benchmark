@@ -79,7 +79,7 @@ def prompt_construct(test_sample, task):
         instruction = 'Answer the following question! '
         prompt =  instruction +  '\n' + question_formal +  question_content +  '\n' + answer_formal
 
-    if task == 'MC_answer':
+    if task == 'multiple_choice':
         instruction = 'Answer the following question by selecting from the choices below! '
         choices_content = test_sample['choices']
         choices_content = ', '.join(choices_content)
@@ -196,7 +196,7 @@ class dataset():
 
 
 
-def prep_image(images_path, sample, vis_processors):
+def prep_image(device, images_path, sample, vis_processors):
 
     image_path =  os.path.join(images_path, f"{sample['image_id']:012}.jpg")
     image_raw = Image.open(image_path) 

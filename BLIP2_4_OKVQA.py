@@ -9,8 +9,12 @@ import json
 import pandas as pd
 from lavis.models import load_model_and_preprocess
 
-from little_helpers import *
+from utils import *
 
+dataset_specifics = {}
+dataset_split_sec = {
+    'aokvqa': 'val',
+    'okvqa': 'val'}
 
 split_sec = 'val'
 images_sec = 'coco2017'

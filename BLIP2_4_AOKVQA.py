@@ -5,7 +5,7 @@ import torch
 import json
 import pandas as pd
 from lavis.models import load_model_and_preprocess
-from little_helpers import *
+from utils import *
 
 
 split_sec = 'val'
