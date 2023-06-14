@@ -8,5 +8,5 @@ venvs/
 aokvqa/
 old/
 LAVIS/
-*.pyc/
+__pycache__/
 
