@@ -127,13 +127,20 @@ class DatasetInfo():
     def __init__(self, dataset_name):
 
         self.dataset_name = dataset_name
-        self.split = {
+
+        self.text_dataset_split = {
             'aokvqa': 'val',
             'okvqa': 'val'
         }
+        
+        self.img_dataset_split = {
+            'aokvqa': 'val',
+            'okvqa': 'all'
+        }
+
         self.img_dataset = {
             'aokvqa': 'coco2017',
-            'okvqa': 'coco2014'
+            'okvqa': 'coco2017'
         }
 
         self.tasks = {
@@ -142,8 +149,11 @@ class DatasetInfo():
         }
         
 
-    def get_split(self):
-        return self.split[self.dataset_name]
+    def get_text_dataset_split(self):
+        return self.text_dataset_split[self.dataset_name]
+    
+    def get_img_dataset_split(self):
+        return self.img_dataset_split[self.dataset_name]
     
     def get_img_dataset(self):
         return self.img_dataset[self.dataset_name]
@@ -195,18 +205,19 @@ class dataset():
 
 
 
-
+'''
 def prep_image(device, images_path, sample, vis_processors):
 
     image_path =  os.path.join(images_path, f"{sample['image_id']:012}.jpg")
     image_raw = Image.open(image_path) 
+    image_raw = image_raw.to(device)
 
     if image_raw.mode != 'RGB': 
         image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
     image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
 
-    return image
+    return image'''
 
 
 
