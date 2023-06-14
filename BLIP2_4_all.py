@@ -9,7 +9,7 @@ import torch
 import os
 from utils import *
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu" #"cuda" if torch.cuda.is_available() else "cpu"
 
 
 
@@ -18,7 +18,9 @@ dataset_name = 'aokvqa'
 run = 1
 
 
-'''
+
+
+
 
 # get model & model properties
 
@@ -27,7 +29,7 @@ lavis_model_type = model_info.get_lavis_model_type()
 lavis_name = model_info.get_lavis_name()
 
 model, vis_processors, _ = load_model_and_preprocess(name = lavis_name, model_type = lavis_model_type, is_eval = True, device = device)
-'''
+
 
 
 # get dataset properties

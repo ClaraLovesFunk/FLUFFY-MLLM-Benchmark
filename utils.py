@@ -5,6 +5,9 @@ from PIL import Image
 from IPython.display import display, HTML
 import base64
 import random
+import pandas as pd
+from PIL import Image
+from PIL import ImageOps
 
 
 # from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
@@ -177,7 +180,7 @@ class dataset():
         self.dataset_name = dataset_name
         self.dataset_path = dataset_path
 
-    def load():
+    def load(self):
 
         with open(self.dataset_path, 'r') as f:
             X_text = json.load(f)
