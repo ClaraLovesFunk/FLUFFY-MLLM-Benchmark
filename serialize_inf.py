@@ -7,7 +7,11 @@ import pandas as pd
 from lavis.models import load_model_and_preprocess
 import torch
 import os
+import time
+
 from utils import *
+
+start_time = time.time()
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -142,3 +146,10 @@ for m in model_name:
             print('\n')
             print('YEAAAAAAHHHHHHHHHHHH')
        
+
+
+end_time = time.time()
+time_min = (end_time - start_time)/60
+time_h = time_min/60
+print('\n')
+print(f"The script took {time_min} minutes/{time_h} hours to run.")
