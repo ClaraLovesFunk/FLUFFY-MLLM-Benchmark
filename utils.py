@@ -133,7 +133,7 @@ class DatasetInfo():
             'okvqa': 'coco2014'
         }
 
-        self.task = {
+        self.tasks = {
             'aokvqa': ['direct_answer', 'multiple_choice'],
             'okvqa': ['direct_answer']
         }
@@ -204,3 +204,13 @@ def prep_image(images_path, sample, vis_processors):
     image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
 
     return image
+
+
+
+# check for/create experiment directory
+
+def check_create_experiment_dir(experiment_dir_path):
+
+    if not os.path.exists(experiment_dir_path):
+
+        os.makedirs(experiment_dir_path)
