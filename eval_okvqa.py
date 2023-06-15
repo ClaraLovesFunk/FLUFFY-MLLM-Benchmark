@@ -1,118 +1,61 @@
-# coding: utf-8
-
-import sys
-dataDir = '../../VQA'
-sys.path.insert(0, '%s/PythonHelperTools/vqaTools' %(dataDir))
-
 from vqa import VQA #*
 from vqaEval import VQAEval
-import matplotlib.pyplot as plt
-import skimage.io as io
 import json
-import random
-import os
-
-eval_file = 'experiments/blip2/okvqa/scores.json'
-
-# set up file names and paths
-versionType ='v2_' # this should be '' when using VQA v2.0 dataset
-taskType    ='OpenEnded' # 'OpenEnded' only for v2.0. 'OpenEnded' or 'MultipleChoice' for v1.0
-dataType    ='mscoco'  # 'mscoco' only for v1.0. 'mscoco' for real and 'abstract_v002' for abstract for v1.0. 
-dataSubType ='train2014'
-annFile     ='datasets/okvqa/val_labels.json' #'%s/Annotations/%s%s_%s_annotations.json'%(dataDir, versionType, dataType, dataSubType)
-quesFile    ='datasets/okvqa/val.json'#'%s/Questions/%s%s_%s_%s_questions.json'%(dataDir, versionType, taskType, dataType, dataSubType)
-#resFile_PATH ='experiments/okvqa/output_fake.json'
-imgDir      ='datasets/coco2017/all' #'%s/Images/%s/%s/' %(dataDir, dataType, dataSubType)
-
-resultType  ='fake'
-fileTypes   = ['results', 'accuracy', 'evalQA', 'evalQuesType', 'evalAnsType'] 
-
-# An example result json file has been provided in './Results' folder.  
-
-#[resFile, accuracyFile, evalQAFile, evalQuesTypeFile, evalAnsTypeFile] = ['%s/Results/%s%s_%s_%s_%s_%s.json'%(dataDir, versionType, taskType, dataType, dataSubType, \
-#resultType, fileType) for fileType in fileTypes]  
-
-resFile = 'experiments/blip2/okvqa/output_fakeform.json'
-accuracyFile = None
-evalQAFile = None
-evalQuesTypeFile = None
-evalAnsTypeFile = None
 
 
 
-# create vqa object and vqaRes object
-vqa = VQA(annFile, quesFile)
 
+experiment_scores_file_path = 'experiments/blip2/okvqa/run1/scores.json'
+dataset_annotations_file_path     ='datasets/okvqa/val_labels.json' 
+dataset_questions_file_path    ='datasets/okvqa/val.json'
+experiment_output_okvqa_format_file_path = 'experiments/blip2/okvqa/run1/output_okvqaformat.json'
+experiment_output_file_path = 'experiments/blip2/okvqa/run1/output.json'
 
-    
-vqaRes = vqa.loadRes(resFile, quesFile)
-
-# create vqaEval object by taking vqa and vqaRes
-vqaEval = VQAEval(vqa, vqaRes, n=2)   #n is precision of accuracy (number of places after decimal), default is 2
-
-# evaluate results
-"""
-If you have a list of question ids on which you would like to evaluate your results, pass it as a list to below function
-By default it uses all the question ids in annotation file
-"""
-vqaEval.evaluate() 
-
-# print accuracies
-print ("\n")
-print( "Overall Accuracy is: %.02f\n" %(vqaEval.accuracy['overall']))
-print( "Per Question Type Accuracy is the following:")
-for quesType in vqaEval.accuracy['perQuestionType']:
-	print( "%s : %.02f" %(quesType, vqaEval.accuracy['perQuestionType'][quesType]))
-print( "\n")
-print( "Per Answer Type Accuracy is the following:")
-for ansType in vqaEval.accuracy['perAnswerType']:
-	print( "%s : %.02f" %(ansType, vqaEval.accuracy['perAnswerType'][ansType]))
-print( "\n")
-
-# store score
-acc = vqaEval.accuracy['overall']
-scores_alltasks = {"direct answer": {"acc": round(acc / 100, 2)}}
-
-
-with open(eval_file, 'w') as f: 
-    json.dump(scores_alltasks,f)
-
+# add those files to big script
 
 
 '''
-# demo how to use evalQA to retrieve low score result
-evals = [quesId for quesId in vqaEval.evalQA if vqaEval.evalQA[quesId]<35]   #35 is per question percentage accuracy
-if len(evals) > 0:
-	print( 'ground truth answers')
-	randomEval = random.choice(evals)
-	randomAnn = vqa.loadQA(randomEval)
-	vqa.showQA(randomAnn)
+images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
+dataset_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json') # RENAME
+dataset_annotations_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '_labels.json') # ADD
+dataset_questions_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json') # ADD
+experiment_dir_path = os.path.join(experiments_dir, m, dataset_name, 'run' + str(run))
+experiment_scores_file_path = os.path.join(experiment_dir_path, eval_file_name)
+experiment_output_file_path = os.path.join(experiment_dir_path, output_file_name)
+experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json') # ADD
+experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)'''
 
-	print( '\n')
-	print( 'generated answer (accuracy %.02f)'%(vqaEval.evalQA[randomEval]))
-	ann = vqaRes.loadQA(randomEval)[0]
-	print( "Answer:   %s\n" %(ann['answer']))
 
-	imgId = randomAnn[0]['image_id']
-	imgFilename = 'COCO_' + dataSubType + '_'+ str(imgId).zfill(12) + '.jpg'
-	if os.path.isfile(imgDir + imgFilename):
-		I = io.imread(imgDir + imgFilename)
-		plt.imshow(I)
-		plt.axis('off')
-		plt.show()
+def transform_output_4_okvqa(resFile_original, resFile):
 
-# plot accuracy for various question types
-plt.bar(range(len(vqaEval.accuracy['perQuestionType'])), vqaEval.accuracy['perQuestionType'].values(), align='center')
-plt.xticks(range(len(vqaEval.accuracy['perQuestionType'])), vqaEval.accuracy['perQuestionType'].keys(), rotation='0',fontsize=10)
-plt.title('Per Question Type Accuracy', fontsize=10)
-plt.xlabel('Question Types', fontsize=10)
-plt.ylabel('Accuracy', fontsize=10)
-plt.show()
+    with open(resFile_original, 'r') as f:
+        data = json.load(f)
 
-# save evaluation results to ./Results folder
-json.dump(vqaEval.accuracy,     open(accuracyFile,     'w'))
-json.dump(vqaEval.evalQA,       open(evalQAFile,       'w'))
-json.dump(vqaEval.evalQuesType, open(evalQuesTypeFile, 'w'))
-json.dump(vqaEval.evalAnsType,  open(evalAnsTypeFile,  'w'))
+    transformed_data = [{'question_id': item['question_id'], 'answer': item['output_direct_answer'][0]} for item in data]
 
-'''
+    with open(resFile, 'w') as f:
+        json.dump(transformed_data, f)
+
+
+
+
+def acc_okvqa(eval_file, annFile, quesFile, resFile, resFile_original, transform_output_4_okvqa):
+
+	transform_output_4_okvqa(resFile_original, resFile) # get output in the format needed for okvqa's original eval
+        
+	vqa = VQA(annFile, quesFile)
+	vqaRes = vqa.loadRes(resFile, quesFile)
+	vqaEval = VQAEval(vqa, vqaRes, n=2)   # n is precision of accuracy (number of places after decimal), default is 2
+	vqaEval.evaluate() 
+
+	acc = vqaEval.accuracy['overall']
+
+	return acc
+
+
+
+
+acc = acc_okvqa(experiment_scores_file_path, dataset_annotations_file_path, dataset_questions_file_path, experiment_output_okvqa_format_file_path, experiment_output_file_path, transform_output_4_okvqa)
+
+with open(experiment_scores_file_path, 'w') as f: 
+	json.dump(acc,f)
