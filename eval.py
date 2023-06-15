@@ -27,56 +27,66 @@ for m in model_name:
 
     for ds in dataset_name:
 
-        dataset_info = DatasetInfo(ds)
-        text_dataset_split = dataset_info.get_text_dataset_split()
-        img_dataset_name = dataset_info.get_img_dataset_name()
-        img_dataset_split = dataset_info.get_img_dataset_split() 
-        image_dataset_name = dataset_info.get_img_dataset_name()
-        tasks = dataset_info.get_tasks()
+        for r in run:
 
-        images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
-        dataset_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json')
-        experiment_dir_path = os.path.join(experiments_dir, m, dataset_name, 'run' + str(run))
-        experiment_scores_file_path = os.path.join(experiment_dir_path, eval_file_name)
-        experiment_output_file_path = os.path.join(experiment_dir_path, output_file_name)
-        experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)
+            dataset_info = DatasetInfo(ds)
+            text_dataset_split = dataset_info.get_text_dataset_split()
+            img_dataset_name = dataset_info.get_img_dataset_name()
+            img_dataset_split = dataset_info.get_img_dataset_split() 
+            image_dataset_name = dataset_info.get_img_dataset_name()
+            tasks = dataset_info.get_tasks()
+            
+            # paths relevant for all dataset
 
+            images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
+            dataset_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # RENAME
+            experiment_dir_path = os.path.join(experiments_dir, m, ds, 'run' + str(r))
+            experiment_scores_file_path = os.path.join(experiment_dir_path, eval_file_name)
+            experiment_output_file_path = os.path.join(experiment_dir_path, output_file_name)
+            experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)
 
+            # paths only relevant for okvqa
 
-        # load dataset
-
-        data_text = dataset(ds, dataset_file_path).load()
-
-
-
-        # load outputs
-
-        with open(experiment_output_file_path, 'r') as f:
-            output = json.load(f)
+            dataset_annotations_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '_labels.json') # ADD
+            dataset_questions_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # ADD
+            experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json') # ADD
 
 
+            # load dataset, output for aokvqa
 
-        # compute scores
+            data_text = dataset(ds, dataset_file_path).load()
+            with open(experiment_output_file_path, 'r') as f:
+                output = json.load(f)
 
-        scores_alltasks = {}
 
-        for t in tasks:
 
-            scores_task = {}
+            # compute scores
 
-            # compute all evaluation metrics
-    
-            for e in eval_metrics:
+            scores_alltasks = {}
+
+            for t in tasks:
+
+                scores_task = {}
+
+                # load dataset, output, compute accuracy for okvqa
+                acc = acc_okvqa(experiment_scores_file_path, 
+                                dataset_annotations_file_path, 
+                                dataset_questions_file_path, 
+                                experiment_output_okvqa_format_file_path, 
+                                experiment_output_file_path, 
+                                transform_output_4_okvqa)
+
+                #for e in eval_metrics:
+
+                    # fill out the code
+
+                # store all evaluation metrics associated with the task here: scores_task
 
                 # fill out the code
 
-            # store all evaluation metrics associated with the task here: scores_task
+            # update scores_alltasks, so it holds all tasks and the respective associated evaluation scores
 
-            # fill out the code
+            # save the scores
 
-        # update scores_alltasks, so it holds all tasks and the respective associated evaluation scores
-
-        # save the scores
-
-        with open(experiment_scores_file_path, 'w') as f: 
-            json.dump(scores_alltasks,f)
+            with open(experiment_scores_file_path, 'w') as f: 
+                json.dump(acc,f) #scores_task

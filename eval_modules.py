@@ -1,4 +1,7 @@
 import pandas as pd
+from vqa import VQA 
+from vqaEval import VQAEval
+import json
 
 
 
@@ -146,3 +149,31 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
     acc = sum(acc) / len(acc) #* 100
 
     return acc
+
+
+
+def transform_output_4_okvqa(resFile_original, resFile):
+
+    with open(resFile_original, 'r') as f:
+        data = json.load(f)
+
+    transformed_data = [{'question_id': item['question_id'], 'answer': item['output_direct_answer'][0]} for item in data]
+
+    with open(resFile, 'w') as f:
+        json.dump(transformed_data, f)
+
+
+
+
+def acc_okvqa(eval_file, annFile, quesFile, resFile, resFile_original, transform_output_4_okvqa):
+
+	transform_output_4_okvqa(resFile_original, resFile) # get output in the format needed for okvqa's original eval
+        
+	vqa = VQA(annFile, quesFile)
+	vqaRes = vqa.loadRes(resFile, quesFile)
+	vqaEval = VQAEval(vqa, vqaRes, n=2)   # n is precision of accuracy (number of places after decimal), default is 2
+	vqaEval.evaluate() 
+
+	acc = vqaEval.accuracy['overall']
+
+	return acc
