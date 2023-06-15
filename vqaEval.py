@@ -191,4 +191,3 @@ class VQAEval:
 		sys.stdout.write(text)
 		sys.stdout.flush()
 
-print('test')
