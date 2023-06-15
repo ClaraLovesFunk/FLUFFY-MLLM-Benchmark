@@ -140,7 +140,7 @@ class DatasetInfo():
 
         self.img_dataset = {
             'aokvqa': 'coco2017',
-            'okvqa': 'coco2017'
+            'okvqa': 'coco2017' 
         }
 
         self.tasks = {

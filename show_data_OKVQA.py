@@ -11,7 +11,7 @@ from utils import *
 
 model_sec = 'blip2'
 
-dataset_sec = 'okvqa'
+dataset_sec = 'aokvqa'
 
 run = 'run1'
 
@@ -27,7 +27,7 @@ n_good_exampes = 3
 n_bad_exampes = 3
 
 FLAG_show_input = True
-FLAG_show_output = True
+FLAG_show_output = False
 FLAG_show_labels = True
 
 

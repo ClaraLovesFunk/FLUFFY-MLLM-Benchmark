@@ -10,4 +10,7 @@ old/
 LAVIS/
 __pycache__/
 util/
+__test.py/
+__test2.py/
+
 
