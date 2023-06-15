@@ -79,7 +79,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
 
 
 
-def eval_aokvqa(input, output, task, strict=True):
+def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: replaced the variable "multiple_choice" because ultimately it means the same as task type (direct answer/MC)
 
     '''
     aokvqa's method of computing accuracy by regarding how many of their proposed direct_answers the predictions matches
@@ -88,9 +88,9 @@ def eval_aokvqa(input, output, task, strict=True):
     
     accuracy per instance can be values between 0-1, not just 0 and 1'''
 
-    if task == 'direct answer': # added by clara, to translate the variable multiple_choice into the variable "task"
+    if task == 'direct answer': # MESSING WITH SOURCE CODE
 
-        multiple_choice = False
+        multiple_choice = False # MESSING WITH SOURCE CODE
 
 
     if isinstance(input, list):  # checks if dataset is of type list; if yes, it transforms it into a dict with question id as key
