@@ -18,6 +18,14 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 
+# directory variables
+
+datasets_dir = 'datasets'
+experiments_dir = 'experiments'
+
+
+
+
 def get_model(model_name, device):
 
 
@@ -46,13 +54,12 @@ def get_dataset_text(dataset_name):
 
     dataset_info = DatasetInfo(dataset_name)
     text_dataset_split = dataset_info.get_text_dataset_split()
-    dataset_file_path = os.path.join('datasets', dataset_name, text_dataset_split + '.json')
+    dataset_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json')
     
     data_text = dataset(dataset_name, dataset_file_path).load()
 
     time_load_data_text_end = time.time()
     time_loading_data_text = (time_load_data_text_end - time_load_data_text_start)/60
-    print(f'Time to load dataset "{dataset_name}": {time_loading_data_text:.2f} min')
 
 
     return data_text, time_loading_data_text
@@ -65,8 +72,10 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
     dataset_info = DatasetInfo(dataset_name)
     img_dataset_split = dataset_info.get_img_dataset_split() 
-    image_dataset_name = dataset_info.get_img_dataset() 
+    image_dataset_name = dataset_info.get_img_dataset_name() 
     tasks = dataset_info.get_tasks() 
+
+    images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
  
     pred = [] 
     time_inference = {}
@@ -81,7 +90,6 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
             # prep image
 
-            images_dir_path = os.path.join('datasets', image_dataset_name, img_dataset_split)
             image_file_path =  os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
             
             image_raw = Image.open(image_file_path) 
@@ -117,7 +125,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
     # save output
 
-    experiment_dir_path = os.path.join('experiments', model_name, dataset_name, 'run' + str(run))
+    experiment_dir_path = os.path.join(experiments_dir, model_name, dataset_name, 'run' + str(run))
     experiment_output_file_path = os.path.join(experiment_dir_path, 'output.json')
 
     check_create_experiment_dir(experiment_dir_path) 
@@ -185,10 +193,7 @@ for m in model_name:
             pred, time_inference = gen_output(device = device, dataset_name = ds, data_text = data_text, model = model, vis_processors = vis_processors, prompt_construct = prompt_construct)
             save_output(pred = pred, model_name = m, dataset_name = ds, run = r, check_create_experiment_dir = check_create_experiment_dir, time_loading_model = time_loading_model, time_loading_data_text = time_loading_data_text, time_inference = time_inference)
             
-            print('\n')
-            print('DOOOOONNNNEEE')
             print('-------------------------------------------------------------------')
-            print('\n')
 
 
 
