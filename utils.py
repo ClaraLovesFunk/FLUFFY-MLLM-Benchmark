@@ -138,14 +138,14 @@ class DatasetInfo():
             'okvqa': 'all'
         }
 
-        self.img_dataset = {
+        self.img_dataset_name = {
             'aokvqa': 'coco2017',
             'okvqa': 'coco2017' 
         }
 
         self.tasks = {
-            'aokvqa': ['direct_answer', 'multiple_choice'],
-            'okvqa': ['direct_answer']
+            'aokvqa': ['direct answer', 'multiple choice'],  #### removed the underscores
+            'okvqa': ['direct answer']                       #### removed the underscores
         }
         
 
@@ -155,8 +155,8 @@ class DatasetInfo():
     def get_img_dataset_split(self):
         return self.img_dataset_split[self.dataset_name]
     
-    def get_img_dataset(self):
-        return self.img_dataset[self.dataset_name]
+    def get_img_dataset_name(self):
+        return self.img_dataset_name[self.dataset_name]
 
     def get_tasks(self):
         return self.tasks[self.dataset_name]
