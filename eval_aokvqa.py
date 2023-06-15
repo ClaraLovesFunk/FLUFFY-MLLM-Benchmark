@@ -1,10 +1,4 @@
-#%%
-
-
 import json
-from IPython.display import display, HTML
-from sklearn.metrics import accuracy_score
-
 from eval_modules import *
 
 split_sec = 'val'
