@@ -1,15 +1,15 @@
 import json
-import pandas as pd
 from PIL import Image
 from PIL import ImageOps
 import json
-import pandas as pd
 from lavis.models import load_model_and_preprocess
 import torch
 import os
 import time
-
 from utils import *
+
+
+
 
 time_run_script_start = time.time()
 
@@ -19,8 +19,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 def get_model(model_name, device):
-    
-    print(model_name)
+
 
     time_load_model_start = time.time()
 
@@ -32,7 +31,8 @@ def get_model(model_name, device):
     
     time_load_model_end = time.time()
     time_loading_model = (time_load_model_end - time_load_model_start)/60
-    print(f'Time to load model: {time_loading_model:.2f} min')
+    print(f'Time to load model "{model_name}": {time_loading_model:.2f} min')
+
 
     return model, vis_processors, time_loading_model
 
@@ -40,8 +40,7 @@ def get_model(model_name, device):
 
 
 def get_dataset_text(dataset_name):
-    
-    print(dataset_name)
+
 
     time_load_data_text_start = time.time()
 
@@ -53,16 +52,16 @@ def get_dataset_text(dataset_name):
 
     time_load_data_text_end = time.time()
     time_loading_data_text = (time_load_data_text_end - time_load_data_text_start)/60
-    print(f'Time to load model: {time_loading_data_text:.2f} min')
+    print(f'Time to load dataset "{dataset_name}": {time_loading_data_text:.2f} min')
+
 
     return data_text, time_loading_data_text
 
 
 
 
-def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_construct, run):
+def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_construct):
 
-    print (f'run {str(run)}')
 
     dataset_info = DatasetInfo(dataset_name)
     img_dataset_split = dataset_info.get_img_dataset_split() 
@@ -73,8 +72,6 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
     time_inference = {}
 
     for t in tasks:
-
-        print(f'task: {t}')
         
         time_task_inference_start = time.time()
         
@@ -107,7 +104,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
         time_task_inference_end = time.time()
         time_task_inference = (time_task_inference_end - time_task_inference_start)/60
-        print(f'Time to perform inference for task {t}: {time_task_inference:.2f} min')
+        print(f'Time to perform inference for task "{t}": {time_task_inference:.2f} min')
         time_inference[t] = time_task_inference
 
 
@@ -116,6 +113,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
 
 def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir, time_loading_model, time_loading_data_text, time_inference):
+
 
     # save output
 
@@ -148,7 +146,6 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
         json.dump(config,f)
 
 
-    print('output saved')
 
 
 
@@ -160,6 +157,8 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 ################################   RUN THE DAMN THING   ###################################
 ###########################################################################################
 ###########################################################################################
+
+
 
 
 model_name = ['blip2']
@@ -180,16 +179,17 @@ for m in model_name:
         for r in run:
             print('\n')
             print('-------------------------------------------------------------------')
-            print(f'EXPERIMENT "{m} x {ds} x run {str(r)}" - START')
+            print(f'EXPERIMENT "{m} x {ds} x run {str(r)}"')
             print('\n')
         
-            pred, time_inference = gen_output(device = device, dataset_name = ds, data_text = data_text, model = model, vis_processors = vis_processors, prompt_construct = prompt_construct, run = r)
+            pred, time_inference = gen_output(device = device, dataset_name = ds, data_text = data_text, model = model, vis_processors = vis_processors, prompt_construct = prompt_construct)
             save_output(pred = pred, model_name = m, dataset_name = ds, run = r, check_create_experiment_dir = check_create_experiment_dir, time_loading_model = time_loading_model, time_loading_data_text = time_loading_data_text, time_inference = time_inference)
             
             print('\n')
-            print(f'EXPERIMENT "{m} x {ds} x run {str(r)}" - DOOOOONNNNEEE')
+            print('DOOOOONNNNEEE')
             print('-------------------------------------------------------------------')
             print('\n')
+
 
 
 
