@@ -25,6 +25,7 @@ run = [1]
 
 for m in model_name:
 
+
     for ds in dataset_name:
 
         dataset_info = DatasetInfo(ds)
@@ -40,7 +41,6 @@ for m in model_name:
         dataset_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # RENAME
 
         
-
         for r in run:
 
             experiment_dir_path = os.path.join(experiments_dir, m, ds, 'run' + str(r))
@@ -49,16 +49,12 @@ for m in model_name:
             experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)
 
             
-            
             if ds == 'okvqa':
 
-                # paths only relevant for okvqa
-                
                 dataset_annotations_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '_labels.json') # ADD
                 dataset_questions_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # ADD
                 experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json') # ADD
 
-                
                 scores = {}
                 
                 acc = acc_okvqa(experiment_scores_file_path, 
