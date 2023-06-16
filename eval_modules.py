@@ -33,7 +33,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
             correct_choice = choices[i][i_correct_idx]
             y_true.append([correct_choice])
 
-        y_pred = output["output_MC"].tolist()
+        y_pred = output["output_multiple_choice"].tolist()
 
         # Compare the model's answer with the list of potential correct answers
 
@@ -53,7 +53,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
         # Get the ground truth labels and model predictions
 
         y_true = input["direct_answers"].tolist()
-        y_pred = output["output_da"].tolist()
+        y_pred = output["output_direct_answer"].tolist()
 
         # Compare the model's answer with the list of potential correct answers
 
@@ -95,6 +95,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
         multiple_choice = False # MESSING WITH SOURCE CODE
 
+    else:
+
+        multiple_choice = True # MESSING WITH SOURCE CODE
 
     if isinstance(input, list):  # checks if dataset is of type list; if yes, it transforms it into a dict with question id as key
         input = { input[i]['question_id'] : input[i] for i in range(len(input)) }
@@ -122,9 +125,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
             acc.append(0.0)
             continue
         if multiple_choice:
-            pred = output[q]['output_MC'][0]
+            pred = output[q]['output_multiple_choice'][0]
         else: 
-            pred = output[q]['output_da'][0]
+            pred = output[q]['output_direct_answer'][0]
         
         choices = input[q]['choices']
         direct_answers = input[q]['direct_answers']
