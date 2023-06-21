@@ -72,6 +72,7 @@ def prompt_construct(test_sample, task):
     meme_text_formal = 'Meme Text: '
     sentiment_formal = 'Sentiment: '
     sexist_label_formal = 'Sexism Label: '
+    hate_label_formal = 'Hate Label: '
 
      
 
@@ -96,6 +97,11 @@ def prompt_construct(test_sample, task):
         text_input = test_sample['text']
         instruction = 'Classify the following meme as sexist or not sexist. If it is sexist, give it the Label "1", if it is not sexist "0"!'
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
+
+    if task == 'hate classification':
+        text_input = test_sample['text']
+        instruction = 'Classify the following meme as hateful or not hateful. If it is hateful, give it the Label "1", if it is not hateful "0"!'
+        prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
     
     return prompt
 
@@ -143,28 +149,32 @@ class DatasetInfo():
             'aokvqa': 'val',
             'okvqa': 'val',
             'mvsa': 'test',
-            'mami': 'test'
+            'mami': 'test',
+            'hateful_memes': 'test_unseen'
         }
         
         self.img_dataset_split = {
             'aokvqa': 'val',
             'okvqa': 'all',
             'mvsa': 'all',
-            'mami': 'all'
+            'mami': 'all',
+            'hateful_memes': 'all'
         }
 
         self.img_dataset_name = {
             'aokvqa': 'coco2017',
             'okvqa': 'coco2017', 
             'mvsa': 'mvsa/images',
-            'mami': 'mami/images'
+            'mami': 'mami/images',
+            'hateful_memes': 'hateful_memes/images'
         }
 
         self.tasks = {
             'aokvqa': ['direct answer', 'multiple choice'],  #### 
             'okvqa': ['direct answer'],
             'mvsa': ['sentiment analysis'],
-            'mami': ['sexism classification']                                               
+            'mami': ['sexism classification'],
+            'hateful_memes': ['hate classification']                                          
         }
         
 
@@ -290,6 +300,9 @@ def get_img_path(dataset_name, images_dir_path, sample):
 
     if dataset_name =='mami': 
         img_path = os.path.join(images_dir_path, sample['id'])
+
+    if dataset_name =='hateful_memes': 
+        img_path = os.path.join(images_dir_path, sample['img'])
     
     return img_path
 
@@ -307,6 +320,9 @@ def get_text_input_id(dataset_name, sample):
 
     if dataset_name =='mami': 
         text_input_id = sample['id'] # image id is the only identifier
+
+    if dataset_name =='hateful_memes': 
+        text_input_id = sample['id'] # this is actually the id, not the img id, but the img is called after the id
     
     return text_input_id
 

@@ -174,7 +174,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['mami', 'mvsa', 'okvqa', 'aokvqa']  
+dataset_name = ['hateful_memes', 'mami', 'mvsa', 'okvqa', 'aokvqa']  
 run = [1]
 
 for m in model_name:
