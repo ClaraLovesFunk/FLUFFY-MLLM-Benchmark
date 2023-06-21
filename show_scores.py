@@ -1,8 +1,7 @@
 import os
 import json
 import pandas as pd
-from bs4 import BeautifulSoup
-
+from IPython.display import display, HTML
 
 root_dir = "experiments"
 
@@ -37,35 +36,19 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
-df_pivot.columns = df_pivot.columns.droplevel([0, 1])  # Drop both "Dataset" and "Task" levels
-df_pivot.columns = pd.MultiIndex.from_product([[""], df_pivot.columns])  # Add an empty level for the table header
+# ... Rest of your code ...
 
 html = (df_pivot.style.set_table_styles([
-    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
+    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
 ])
-    .hide_index()  # Hide the index column
-    .set_table_attributes('border="1"')  # Add border attribute to the table
-    .set_caption('')  # Remove the table caption
     .format("{:.2f}")  # adjust number formatting if necessary
     .render())
 
-# Use BeautifulSoup to parse the HTML
-soup = BeautifulSoup(html, 'html.parser')
-
-# Find and remove the style tags
-for style in soup.find_all('style'):
-    style.decompose()
-
-# Get the HTML string back, without the style tags
-html = str(soup)
 
 
 def add_top_header_border(html_str):
     # Split the HTML string into lines
     lines = html_str.split("\n")
-
-    # Remove the CSS style block
-    lines = [line for line in lines if not line.startswith('<style type="text/css">')]
 
     # Identify the topmost headers
     topmost_headers = [line for line in lines if "level0 col" in line and "col_heading" in line]
@@ -74,7 +57,7 @@ def add_top_header_border(html_str):
     for i, line in enumerate(lines):
         if line in topmost_headers:
             # Insert the style attribute after the opening tag in the line
-            first_tag_end = line.find('>')
+            first_tag_end = line.find('>') 
             style_str = ' style="border-bottom: 1px solid black;"'
             lines[i] = line[:first_tag_end] + style_str + line[first_tag_end:]
 
@@ -83,27 +66,11 @@ def add_top_header_border(html_str):
 
     return html_str
 
-
 # Adjust the rendered HTML to add a bottom border to the topmost headers
 html = add_top_header_border(html)
 
 heading = "# Testing-Multimodal-LLMs\n\n"
-benchmark_subheader = "## Benchmark - run\n\n"
-benchmark_table = """
-| Models              | A-OKVQA | OKVQA | VQA-v2 | EMU | E-SNLI-VE | VCR |
-|---------------------|---------|-------|--------|-----|-----------|-----|
-| BLIP-2              |&#x2714; &#x2714;|&#x2714; &#x2714;|        |     |           |     |
-| BLIP-vicuna         |         |       |        |     |           |     |
-| Prismer             |         |       |        |     |           |     |
-| OpenFlamingo*       |         |       |        |     |           |     |
-| MiniGPT             |         |       |        |     |           |     |
-| Llava               |         |       |        |     |           |     |
-| Otter*              |         |       |        |     |           |     |
-| Fromage             |         |       |        |
-"""
 
-space = "   \n\n"
-checklist_subheader = "## Checklist\n\n"
 
 with open("README.md", "w") as f:
-    f.write(heading + benchmark_subheader + html + space + checklist_subheader + benchmark_table)
+    f.write(heading + html )
