@@ -21,9 +21,9 @@ import os
 
 # Define the directory containing your .jsonl files
 directory = "datasets/mami/splits"
-
-# Define output directory
 output_directory = "datasets/mami"
+splits_folder_path = 'datasets/mami/splits'
+
 
 # Define mapping of old filename to new filename
 filename_mapping = {
@@ -56,7 +56,7 @@ for old_filename, new_filename in filename_mapping.items():
     os.remove(new_filepath_jsonl)
 
 
-folder_path = 'datasets/mami/splits'
+
 
 # Delete the folder
-os.rmdir(folder_path)
+os.rmdir(splits_folder_path)
