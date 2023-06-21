@@ -6,7 +6,7 @@ from lavis.models import load_model_and_preprocess
 import torch
 import os
 import time
-from utils_general.utils import *
+from utils import *
 
 
 
@@ -89,8 +89,8 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
         for sample in data_text:
 
             # prep image
-
-            image_file_path =  os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
+            
+            image_file_path =  get_img_path(dataset_name, images_dir_path, sample) #os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
             
             image_raw = Image.open(image_file_path) 
             
@@ -172,10 +172,8 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['aokvqa'] #'okvqa', 
+dataset_name = ['mvsa', 'okvqa', 'aokvqa']  
 run = [1]
-
-
 
 for m in model_name:
 
