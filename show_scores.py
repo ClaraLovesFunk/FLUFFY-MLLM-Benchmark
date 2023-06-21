@@ -18,8 +18,9 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
 
             # Extract model and dataset names from the directory path
             path_parts = dirpath.split(os.sep)
-            model = path_parts[-2]
-            dataset = path_parts[-1]
+            model = path_parts[-3]
+            dataset = path_parts[-2]
+            run = path_parts[-1]
 
             # For each task in the JSON file
             for task, metrics in scores.items():
@@ -85,8 +86,9 @@ html = add_top_header_border(html)
 
 heading = "# Testing-Multimodal-LLMs\n\n"
 benchmark_subheader = "## Benchmark\n\n"
-
+benchmark_subsubheader = f"### {run}"
+space = '\n\n'
 
 
 with open("README.md", "w") as f:
-    f.write(heading + benchmark_subheader + html )
+    f.write(heading + benchmark_subheader + space + benchmark_subsubheader + html )
