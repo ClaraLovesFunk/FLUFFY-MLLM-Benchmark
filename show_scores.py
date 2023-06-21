@@ -2,6 +2,8 @@ import os
 import json
 import pandas as pd
 from IPython.display import display, HTML
+from bs4 import BeautifulSoup
+
 
 root_dir = "experiments"
 
@@ -36,19 +38,30 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
-# ... Rest of your code ...
-
 html = (df_pivot.style.set_table_styles([
     {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
 ])
     .format("{:.2f}")  # adjust number formatting if necessary
     .render())
 
+# Use BeautifulSoup to parse the HTML
+soup = BeautifulSoup(html, 'html.parser')
+
+# Find and remove the style tags
+for style in soup.find_all('style'):
+    style.decompose()
+
+# Get the HTML string back, without the style tags
+html = str(soup)
+
 
 
 def add_top_header_border(html_str):
     # Split the HTML string into lines
     lines = html_str.split("\n")
+
+    # Remove the CSS style block
+    lines = [line for line in lines if not line.startswith('<style type="text/css">')]
 
     # Identify the topmost headers
     topmost_headers = [line for line in lines if "level0 col" in line and "col_heading" in line]
@@ -66,11 +79,14 @@ def add_top_header_border(html_str):
 
     return html_str
 
+
 # Adjust the rendered HTML to add a bottom border to the topmost headers
 html = add_top_header_border(html)
 
 heading = "# Testing-Multimodal-LLMs\n\n"
+benchmark_subheader = "## Benchmark\n\n"
+
 
 
 with open("README.md", "w") as f:
-    f.write(heading + html )
+    f.write(heading + benchmark_subheader + html )
