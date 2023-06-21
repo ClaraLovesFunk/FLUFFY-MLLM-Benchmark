@@ -106,9 +106,11 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             # generate output
 
             output = model.generate({"image": image, "prompt": prompt})
+            text_input_id = get_text_input_id(dataset_name, sample)
 
-            output_sample = {output_task: output, 
-                             'question_id': sample['question_id']}
+            output_sample = {
+                'text_input_id': text_input_id,
+                output_task: output}
             #sample.update(output_sample)
             pred.append(output_sample)
 
@@ -172,7 +174,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['mvsa', 'okvqa', 'aokvqa']  
+dataset_name = ['mami', 'mvsa', 'okvqa', 'aokvqa']  
 run = [1]
 
 for m in model_name:
