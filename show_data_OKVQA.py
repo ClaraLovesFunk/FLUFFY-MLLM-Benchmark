@@ -3,7 +3,7 @@
 import json
 import pandas as pd
 
-from utils import *
+from utils_general.utils import *
 
 
 

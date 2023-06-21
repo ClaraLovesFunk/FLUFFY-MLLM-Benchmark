@@ -5,7 +5,7 @@ import pandas as pd
 from PIL import Image
 from IPython.display import display, HTML
 
-from utils import *
+from utils_general.utils import *
 
 
 

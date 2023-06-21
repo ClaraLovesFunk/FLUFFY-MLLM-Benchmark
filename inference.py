@@ -6,7 +6,7 @@ from lavis.models import load_model_and_preprocess
 import torch
 import os
 import time
-from utils import *
+from utils_general.utils import *
 
 
 
