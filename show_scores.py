@@ -1,7 +1,6 @@
 import os
 import json
 import pandas as pd
-from IPython.display import display, HTML
 from bs4 import BeautifulSoup
 
 
@@ -38,9 +37,15 @@ df_pivot.sort_index(axis=1, level=0, inplace=True)
 # Hide index name
 df_pivot.index.name = ""
 
+df_pivot.columns = df_pivot.columns.droplevel([0, 1])  # Drop both "Dataset" and "Task" levels
+df_pivot.columns = pd.MultiIndex.from_product([[""], df_pivot.columns])  # Add an empty level for the table header
+
 html = (df_pivot.style.set_table_styles([
-    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
+    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
 ])
+    .hide_index()  # Hide the index column
+    .set_table_attributes('border="1"')  # Add border attribute to the table
+    .set_caption('')  # Remove the table caption
     .format("{:.2f}")  # adjust number formatting if necessary
     .render())
 
@@ -53,7 +58,6 @@ for style in soup.find_all('style'):
 
 # Get the HTML string back, without the style tags
 html = str(soup)
-
 
 
 def add_top_header_border(html_str):
@@ -70,7 +74,7 @@ def add_top_header_border(html_str):
     for i, line in enumerate(lines):
         if line in topmost_headers:
             # Insert the style attribute after the opening tag in the line
-            first_tag_end = line.find('>') 
+            first_tag_end = line.find('>')
             style_str = ' style="border-bottom: 1px solid black;"'
             lines[i] = line[:first_tag_end] + style_str + line[first_tag_end:]
 
@@ -84,10 +88,8 @@ def add_top_header_border(html_str):
 html = add_top_header_border(html)
 
 heading = "# Testing-Multimodal-LLMs\n\n"
-benchmark_subheader = "## Benchmark\n\n"
+benchmark_subheader = "## Benchmark - run\n\n"
 benchmark_table = """
-
-
 | Models              | A-OKVQA | OKVQA | VQA-v2 | EMU | E-SNLI-VE | VCR |
 |---------------------|---------|-------|--------|-----|-----------|-----|
 | BLIP-2              |&#x2714; &#x2714;|&#x2714; &#x2714;|        |     |           |     |
@@ -97,21 +99,11 @@ benchmark_table = """
 | MiniGPT             |         |       |        |     |           |     |
 | Llava               |         |       |        |     |           |     |
 | Otter*              |         |       |        |     |           |     |
-| Fromage             |         |       |        |     |           |     |
-| MAGMA (no hf)       |         |       |        |     |           |     |
-| Limber (no hf)      |         |       |        |     |           |     |
-| MAPL (no hf)        |         |       |        |     |           |     |
-| FLAN-T5 (text)      |         |       |        |     |           |     |
-| GPT4AIl (text)      |         |       |        |     |           |     |
-| OpenAssistant (text)|         |       |        |     |           |     |
-* Paper Coming Soon
+| Fromage             |         |       |        |
 """
 
 space = "   \n\n"
 checklist_subheader = "## Checklist\n\n"
 
-
 with open("README.md", "w") as f:
-    f.write(heading + benchmark_subheader + html + space + checklist_subheader + benchmark_table )
-
-print('test')
+    f.write(heading + benchmark_subheader + html + space + checklist_subheader + benchmark_table)
