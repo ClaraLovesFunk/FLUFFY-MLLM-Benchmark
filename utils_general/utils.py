@@ -65,7 +65,7 @@ def sample_select(demo_strategy = 'random', train_data):
 def prompt_construct(test_sample, task):
 
     '''
-    task = {direct_answer, MC_answer}
+    task = {direct answer, MC answer}
     ''' 
 
     question_formal = 'Questions: '
@@ -75,11 +75,11 @@ def prompt_construct(test_sample, task):
 
     question_content = test_sample['question'] 
 
-    if task == 'direct_answer':
+    if task == 'direct answer': ###  underscore deleted
         instruction = 'Answer the following question! '
         prompt =  instruction +  '\n' + question_formal +  question_content +  '\n' + answer_formal
 
-    if task == 'multiple_choice':
+    if task == 'multiple choice': ###  underscore deleted
         instruction = 'Answer the following question by selecting from the choices below! '
         choices_content = test_sample['choices']
         choices_content = ', '.join(choices_content)
@@ -144,7 +144,7 @@ class DatasetInfo():
         }
 
         self.tasks = {
-            'aokvqa': ['direct answer', 'multiple choice'],  #### removed the underscores
+            'aokvqa': ['direct answer'],  #### , 'multiple choice'
             'okvqa': ['direct answer']                       #### removed the underscores
         }
         

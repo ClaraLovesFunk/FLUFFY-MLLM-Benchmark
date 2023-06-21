@@ -13,7 +13,7 @@ from utils_general.utils import *
 
 time_run_script_start = time.time()
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu" #"cuda" if torch.cuda.is_available() else "cpu"
 
 
 
@@ -107,8 +107,10 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
             output = model.generate({"image": image, "prompt": prompt})
 
-            sample.update({output_task: output})
-            pred.append(sample)
+            output_sample = {output_task: output, 
+                             'question_id': sample['question_id']}
+            #sample.update(output_sample)
+            pred.append(output_sample)
 
         time_task_inference_end = time.time()
         time_task_inference = (time_task_inference_end - time_task_inference_start)/60
@@ -170,9 +172,8 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['okvqa', 'aokvqa']
+dataset_name = ['aokvqa'] #'okvqa', 
 run = [1]
-
 
 
 
