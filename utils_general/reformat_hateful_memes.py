@@ -10,12 +10,13 @@ manual steps:
 
 '''
 
+'''
 import os
 import shutil
 import json
 import jsonlines
 
-'''
+
 # 1. Create a new folder in datasets/hateful_memes called "imagess"
 new_folder = 'datasets/hateful_memes/imagess'
 os.makedirs(new_folder, exist_ok=True)
@@ -57,8 +58,8 @@ new_directory = "datasets/hateful_memes/images"
 # Rename the directory
 os.rename(old_directory, new_directory)
 
-'''
 
+'''
 
 
 
@@ -67,28 +68,28 @@ os.rename(old_directory, new_directory)
 
 # REFORMATTING IMG PATHS INSIDE EACH JSON FILE
 
-import os
+
 import json
+import os
 
 # Path to the directory
-directory_path = 'datasets/hateful_memes'
+old_file_path = 'datasets/hateful_memes/dev_1.json'
+new_file_path = 'datasets/hateful_memes/dev.json'
 
-# Iterate over all files in the directory
-for filename in os.listdir(directory_path):
-    # Check if the file is a JSON file
-    if filename.endswith('.json'):
-        filepath = os.path.join(directory_path, filename)
+# Load the JSON data from file
+with open(old_file_path, 'r') as file:
+    data = json.load(file)
 
-        # Load the data from the JSON file
-        with open(filepath, 'r') as f:
-            data = json.load(f)
+# Iterate over each item in the JSON data
+for item in data:
+    # Extract the filename from the image_path
+    image_path = item['image_path']
+    filename = os.path.basename(image_path)
 
-        # Iterate over the list of dictionaries and update the 'img' field
-        for item in data:
-            # Check if the 'img' key is in the dictionary
-            if 'img' in item:
-                item['img'] = item['img'].replace('img/', '')
+    # Update the value of image_path with the transformed filename
+    item['image_path'] = filename
 
-        # Save the updated data back to the JSON file
-        with open(filepath, 'w') as f:
-            json.dump(data, f)
+# Save the updated JSON data to file
+with open(new_file_path, 'w') as file:
+    json.dump(data, file)
+
