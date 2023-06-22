@@ -13,7 +13,7 @@ from utils import *
 
 time_run_script_start = time.time()
 
-device = "cpu" #"cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 
@@ -78,15 +78,17 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
     images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
  
     pred = [] 
-    time_inference = {}
+    
 
-    for t in tasks:
+    
         
-        time_task_inference_start = time.time()
-        
-        output_task = 'output_' + t
+    time_inference_start = time.time() 
 
-        for sample in data_text:
+    for sample in data_text:
+            
+        for t in tasks: 
+
+            output_task = 'output_' + t
 
             # prep image
             
@@ -95,6 +97,10 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             image_raw = Image.open(image_file_path) 
             
             if image_raw.mode != 'RGB': 
+
+                if image_raw.mode != 'L':
+                    image_raw = image_raw.convert('L') ####### ADDED
+
                 image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
             image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
@@ -106,18 +112,19 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             # generate output
 
             output = model.generate({"image": image, "prompt": prompt})
+        
             text_input_id = get_text_input_id(dataset_name, sample)
 
             output_sample = {
                 'text_input_id': text_input_id,
-                output_task: output}
+                output_task: output[0]}
             #sample.update(output_sample)
             pred.append(output_sample)
 
-        time_task_inference_end = time.time()
-        time_task_inference = (time_task_inference_end - time_task_inference_start)/60
-        print(f'Time to perform inference for task "{t}": {time_task_inference:.2f} min')
-        time_inference[t] = time_task_inference
+        time_inference_end = time.time()
+        time_inference = (time_inference_end - time_inference_start)/60
+        print(f'Time to perform inference for task "{t}": {time_inference:.2f} min')
+        
 
 
     return pred, time_inference
@@ -145,9 +152,9 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
     config = {}
 
     run_times = {}
-    run_times['load model'] = time_loading_model
-    run_times['load text data'] = time_loading_data_text
-    run_times['inference'] = time_inference
+    run_times['load model'] = int(time_loading_model)
+    run_times['load text data'] = int(time_loading_data_text)
+    run_times['inference'] = int(time_inference)
 
     config['model'] = model_name
     config['dataset'] = dataset_name
@@ -174,12 +181,14 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['hateful_memes', 'mami', 'mvsa', 'okvqa', 'aokvqa']  
+dataset_name = ['aokvqa', 'mami', 'mvsa', 'okvqa', 'hateful_memes']  
 run = [1]
 
 for m in model_name:
 
     model, vis_processors, time_loading_model = get_model(model_name = m, device = device)
+    #model = 'blub' ############
+    #vis_processors = 'blub' ############
 
     for ds in dataset_name:
 
@@ -195,7 +204,6 @@ for m in model_name:
             save_output(pred = pred, model_name = m, dataset_name = ds, run = r, check_create_experiment_dir = check_create_experiment_dir, time_loading_model = time_loading_model, time_loading_data_text = time_loading_data_text, time_inference = time_inference)
             
             print('-------------------------------------------------------------------')
-
 
 
 
