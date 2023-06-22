@@ -95,12 +95,12 @@ def prompt_construct(test_sample, task):
 
     if task == 'sexism classification':
         text_input = test_sample['text']
-        instruction = 'Classify the following meme as sexist or not sexist. If it is sexist, give it the Label "1", if it is not sexist "0"!'
+        instruction = 'Classify the following meme as sexist or not sexist. If it is sexist, give it the Label "1", if not "0"!'
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
     if task == 'hate classification':
         text_input = test_sample['text']
-        instruction = 'Classify the following meme as hateful or not hateful. If it is hateful, give it the Label "1", if it is not hateful "0"!'
+        instruction = 'Classify the following meme as hateful or not hateful. If it is hateful, give it the Label "1", if not "0"!'
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
     
     return prompt
@@ -150,7 +150,7 @@ class DatasetInfo():
             'okvqa': 'val',
             'mvsa': 'test',
             'mami': 'test',
-            'hateful_memes': 'test_unseen'
+            'hateful_memes': 'dev' # dev is the dev_1, where img_path is reduced to just the filename, not the full path
         }
         
         self.img_dataset_split = {
@@ -302,7 +302,10 @@ def get_img_path(dataset_name, images_dir_path, sample):
         img_path = os.path.join(images_dir_path, sample['id'])
 
     if dataset_name =='hateful_memes': 
-        img_path = os.path.join(images_dir_path, sample['img'])
+        #print(images_dir_path) #############
+        #print(sample) #####
+        #print(sample['img_path']) #############
+        img_path = os.path.join(images_dir_path, sample['image_path'])
     
     return img_path
 
