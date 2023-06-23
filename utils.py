@@ -234,57 +234,13 @@ class dataset():
 
 
 
-'''
-def prep_image(device, images_path, sample, vis_processors):
-
-    image_path =  os.path.join(images_path, f"{sample['image_id']:012}.jpg")
-    image_raw = Image.open(image_path) 
-    image_raw = image_raw.to(device)
-
-    if image_raw.mode != 'RGB': 
-        image_raw = ImageOps.colorize(image_raw, 'black', 'white')
-
-    image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
-
-    return image'''
-
-
-
-
-
 def check_create_experiment_dir(experiment_dir_path):
-    '''
-    check for/create experiment directory
-    '''
 
     if not os.path.exists(experiment_dir_path):
 
         os.makedirs(experiment_dir_path)
 
 
-'''class Dataset_util():
-
-    def __init__(self, dataset_name, images_dir_path, sample):
-        self.dataset_name = dataset_name
-        self.images_dir_path = images_dir_path
-        self.sample = sample
-        self.img_path = {
-            'okvqa': os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg"),
-            'aokvqa': os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg"),
-            'mvsa': os.path.join(images_dir_path, f"{sample['image_id']}.jpg")
-        }
-    
-    def get_img_path(self):
-        return self.img_path[self.dataset_name]
-
-# Create an instance of the Dataset_util class
-dataset_util = Dataset_util(dataset_name='mvsa', images_dir_path='path/to/images', sample={'image_id': 'example'})
-
-# Call the get_img_path method
-img_path = dataset_util.get_img_path()
-
-print(img_path)
-'''
 
 
 def get_img_path(dataset_name, images_dir_path, sample):
@@ -302,9 +258,6 @@ def get_img_path(dataset_name, images_dir_path, sample):
         img_path = os.path.join(images_dir_path, sample['id'])
 
     if dataset_name =='hateful_memes': 
-        #print(images_dir_path) #############
-        #print(sample) #####
-        #print(sample['img_path']) #############
         img_path = os.path.join(images_dir_path, sample['image_path'])
     
     return img_path
@@ -319,13 +272,13 @@ def get_text_input_id(dataset_name, sample):
         text_input_id = sample['question_id']
     
     if dataset_name =='mvsa': 
-        text_input_id = sample['id'] # image id is the only identifier
+        text_input_id = sample['id'] 
 
     if dataset_name =='mami': 
-        text_input_id = sample['id'] # image id is the only identifier
+        text_input_id = sample['id'] 
 
     if dataset_name =='hateful_memes': 
-        text_input_id = sample['id'] # this is actually the id, not the img id, but the img is called after the id
+        text_input_id = sample['id']
     
     return text_input_id
 
