@@ -18,7 +18,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['okvqa','aokvqa']  
+dataset_name = ['aokvqa']  #'hateful_memes', 'mami', 'mvsa', 'aokvqa'
 run = [1]
 
 
@@ -27,6 +27,8 @@ for m in model_name:
 
 
     for ds in dataset_name:
+
+        # get all ds info
 
         dataset_info = DatasetInfo(ds)
         text_dataset_split = dataset_info.get_text_dataset_split()
@@ -37,8 +39,8 @@ for m in model_name:
         
         # paths relevant for all dataset
 
-        images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
-        dataset_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # RENAME
+        ds_images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
+        ds_text_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') 
 
         
         for r in run:
@@ -51,30 +53,30 @@ for m in model_name:
             
             if ds == 'okvqa':
 
-                dataset_annotations_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '_labels.json') # ADD
-                dataset_questions_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') # ADD
-                experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json') # ADD
+                ds_text_annotations_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '_labels.json')
+                ds_text_questions_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json')
+                experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json')
 
                 scores = {}
                 
                 acc = acc_okvqa(experiment_scores_file_path, 
-                                dataset_annotations_file_path, 
-                                dataset_questions_file_path, 
+                                ds_text_annotations_file_path, 
+                                ds_text_questions_file_path, 
                                 experiment_output_okvqa_format_file_path, 
                                 experiment_output_file_path, 
                                 transform_output_4_okvqa)
                 
-                scores['direct answer'] = {'accuracy': acc}
-            
-                with open(experiment_scores_file_path, 'w') as f: 
-                    json.dump(scores,f) 
+                scores['direct answer'] = {'accuracy': acc} 
+
+                # delete output file in okvqa format, after it has been used for evalation
+                os.remove(experiment_output_okvqa_format_file_path)
 
 
             if ds == 'aokvqa':
 
                 scores = {}
 
-                data_text = dataset(ds, dataset_file_path).load()
+                data_text = dataset(ds, ds_text_file_path).load()
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
 
@@ -83,3 +85,9 @@ for m in model_name:
 
                 acc_MC = eval_aokvqa(input = data_text, output=output, task = 'multiple_choice', strict=True)
                 scores['multiple choice'] = {'accuracy': acc_MC}
+
+
+            # save results
+            
+            with open(experiment_scores_file_path, 'w') as f: 
+                json.dump(scores,f)

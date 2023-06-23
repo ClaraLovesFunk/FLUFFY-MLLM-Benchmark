@@ -105,7 +105,7 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
     # If the preds is a list, transform it into a dictionary with question id as key
     if isinstance(output, list):  
-        output = { output[i]['question_id'] : output[i] for i in range(len(output)) }
+        output = { output[i]['text_input_id'] : output[i] for i in range(len(output)) }
        
     if multiple_choice is False: # if we look at direct answer task, we only look at instances with easy direct answers (or not difficult_direct_answers)
         input = {k:v for k,v in input.items() if v['difficult_direct_answer'] is False}
@@ -125,9 +125,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
             acc.append(0.0)
             continue
         if multiple_choice:
-            pred = output[q]['output_multiple_choice'][0]
+            pred = output[q]['output_multiple choice'][0]
         else: 
-            pred = output[q]['output_direct_answer'][0]
+            pred = output[q]['output_direct answer'][0]
         
         choices = input[q]['choices']
         direct_answers = input[q]['direct_answers']
@@ -160,7 +160,7 @@ def transform_output_4_okvqa(resFile_original, resFile):
     with open(resFile_original, 'r') as f:
         data = json.load(f)
 
-    transformed_data = [{'question_id': item['question_id'], 'answer': item['output_direct_answer'][0]} for item in data]
+    transformed_data = [{'question_id': item['text_input_id'], 'answer': item['output_direct answer'][0]} for item in data]
 
     with open(resFile, 'w') as f:
         json.dump(transformed_data, f)
