@@ -124,9 +124,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
             acc.append(0.0)
             continue
         if multiple_choice:
-            pred = output[q]['output_multiple choice'][0]
+            pred = output[q]['output_multiple choice']#[0]
         else: 
-            pred = output[q]['output_direct answer'][0]
+            pred = output[q]['output_direct answer']#[0]
         
         choices = input[q]['choices']
         direct_answers = input[q]['direct_answers']

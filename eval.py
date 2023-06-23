@@ -20,7 +20,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes']  #hateful_memes', 'mami', 'mvsa', 'okvqa'
+dataset_name = ['aokvqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
 run = [1]
 
 
