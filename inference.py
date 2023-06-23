@@ -79,13 +79,15 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
  
     pred = [] 
     
-
-    
-        
     time_inference_start = time.time() 
 
     for sample in data_text:
-            
+        
+        # store output of current sample with id
+
+        text_input_id = get_text_input_id(dataset_name, sample)
+        output_sample = {'text_input_id': text_input_id} 
+
         for t in tasks: 
 
             output_task = 'output_' + t
@@ -112,18 +114,16 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             # generate output
 
             output = model.generate({"image": image, "prompt": prompt})
-        
-            text_input_id = get_text_input_id(dataset_name, sample)
 
-            output_sample = {
-                'text_input_id': text_input_id,
-                output_task: output[0]}
-            #sample.update(output_sample)
+            output_sample.update({output_task: output[0]})
+            
             pred.append(output_sample)
 
-        time_inference_end = time.time()
-        time_inference = (time_inference_end - time_inference_start)/60
-        print(f'Time to perform inference for task "{t}": {time_inference:.2f} min')
+        print(output_sample)
+
+    time_inference_end = time.time()
+    time_inference = (time_inference_end - time_inference_start)/60
+    print(f'Time to perform inference for task "{t}": {time_inference:.2f} min')
         
 
 
@@ -181,7 +181,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['aokvqa', 'mami', 'mvsa', 'okvqa', 'hateful_memes']  
+dataset_name = ['aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa']  
 run = [1]
 
 for m in model_name:
