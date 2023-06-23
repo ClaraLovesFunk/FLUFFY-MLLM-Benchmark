@@ -4,8 +4,8 @@ from utils_eval.vqaEval import VQAEval
 import json
 
 
-
-def acc_strict_standard (input, output, multiple_choice=False, strict=True):
+'''
+def acc_strict_standard(input, output, multiple_choice=False, strict=True):
 
     output = pd.DataFrame(output)
     input = pd.DataFrame(input)
@@ -77,7 +77,7 @@ def acc_strict_standard (input, output, multiple_choice=False, strict=True):
 
     return acc, example_indice
 
-
+'''
 
 
 
@@ -102,7 +102,6 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
     if isinstance(input, list):  # checks if dataset is of type list; if yes, it transforms it into a dict with question id as key
         input = { input[i]['question_id'] : input[i] for i in range(len(input)) }
         
-
     # If the preds is a list, transform it into a dictionary with question id as key
     if isinstance(output, list):  
         output = { output[i]['text_input_id'] : output[i] for i in range(len(output)) }
