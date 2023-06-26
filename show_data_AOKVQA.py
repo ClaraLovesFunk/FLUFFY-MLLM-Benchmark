@@ -11,13 +11,13 @@ from utils import *
 
 images_dir = 'datasets/coco2017'
 input_file = 'datasets/aokvqa/val.json'
-output_file = 'experiments/blip2/aokvqa/output.json' 
-example_file = 'experiments/blip2/aokvqa/examples.json' 
+output_file = 'experiments/blip2/aokvqa/run1/output.json' 
+example_file = 'experiments/blip2/aokvqa/run1/examples.json' 
 split_sec = 'all'
 
-flag_show_inputs = True
+flag_show_inputs = False
 flag_show_outputs = True
-flag_show_outputs_examples = True
+flag_show_outputs_examples = False
 
 n_inputs = 3
 n_outputs = 3
@@ -28,7 +28,7 @@ n_bad_exampes = 3
 
 # get textual data
 
-if flag_show_inputs:
+if flag_show_inputs or flag_show_outputs:
     with open(input_file, 'r') as f:
         data_input = json.load(f)
 
@@ -47,15 +47,24 @@ if flag_show_outputs_examples:
 if flag_show_inputs:
 
     print('Inputs')
-    data_samples = data_input[:n_inputs]
-    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
+    data_samples_input = data_input[:n_inputs]
+    data_samples_output = data_samples_input # dummy variable to fill in nec function argument
+    data_incl_image = add_imgs_text_data(data_samples_input, data_samples_output, split_sec,images_dir)
 
 
 if flag_show_outputs:
 
     print('Outputs')
-    data_samples = data_output[:n_outputs]
-    data_incl_image = add_imgs_text_data(data_samples, split_sec,images_dir)
+    data_samples_input = data_input[:n_inputs]
+    data_samples_output = data_output[:n_outputs]
+    data_incl_image = add_imgs_text_data(data_samples_input, data_samples_output, split_sec,images_dir, tasks = ['direct answer', 'multiple choice'])
+
+
+
+
+
+
+
 
 
 if flag_show_outputs_examples:
