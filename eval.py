@@ -77,16 +77,20 @@ for m in model_name:
             if ds == 'aokvqa':
 
                 scores = {}
+                examples = {}
 
                 data_text = dataset(ds, ds_text_file_path).load()
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
 
-                acc_da = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
+                acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
                 scores['direct answer'] = {'accuracy': acc_da}
+                examples['direct answer'] = ex
+                
 
-                acc_MC = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
+                acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
                 scores['multiple choice'] = {'accuracy': acc_MC}
+                examples['multiple choice'] = ex
 
 
             if ds in ['hateful_memes', 'mami', 'mvsa']:
@@ -145,3 +149,7 @@ for m in model_name:
             
             with open(experiment_scores_file_path, 'w') as f: 
                 json.dump(scores,f)
+
+            with open(experiment_examples_file_path, 'w') as f: 
+                json.dump(examples,f)
+                
