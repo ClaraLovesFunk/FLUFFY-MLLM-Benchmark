@@ -118,7 +118,7 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
     # preds = q_id (str) : prediction (str)
 
     acc = []
-    examples = []
+    examples = {}
 
     for q in input.keys(): # for each question id q
         if q not in output.keys(): #if we didnt generate a pred for a q in the dataset, we append 0.0 to the acc array
@@ -144,9 +144,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
             
             # save (in)correct examples
             if pred == choices[correct_choice_idx]:
-                examples.append(1)
+                examples.update({q:1})
             else:
-                examples.append(0)  
+                examples.update({q:0})  
                         
         ## Direct Answer setting
         else:
@@ -157,9 +157,9 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
             # save (in)correct examples
             if num_match >= 1:
-                examples.append(1)
+                examples.update({q:1})
             else:
-                examples.append(0)
+                examples.update({q:0})
 
     acc = sum(acc) / len(acc) #* 100
 

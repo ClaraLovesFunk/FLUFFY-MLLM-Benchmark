@@ -82,6 +82,7 @@ for m in model_name:
                 data_text = dataset(ds, ds_text_file_path).load()
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
+                    #output = output[11:12] ################ DELETE
 
                 acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
                 scores['direct answer'] = {'accuracy': acc_da}
@@ -146,10 +147,11 @@ for m in model_name:
 
 
             # save results
-            
+            '''
             with open(experiment_scores_file_path, 'w') as f: 
-                json.dump(scores,f)
+                json.dump(scores,f)'''
 
             with open(experiment_examples_file_path, 'w') as f: 
                 json.dump(examples,f)
+                
                 
