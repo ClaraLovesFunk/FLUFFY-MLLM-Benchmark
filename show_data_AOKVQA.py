@@ -55,9 +55,8 @@ if flag_show_outputs:
 
 if flag_show_outputs_examples:
 
-    print('Correct Output :)))')
-
     # load all example indice
+    
     examples = data_output_examples['direct answer'] #examples only for easy direct answers
 
     id_good_examples = []
@@ -70,10 +69,13 @@ if flag_show_outputs_examples:
             id_bad_examples.append(key)
 
     # limit number of examples
+    
     id_good_examples = id_good_examples[:n_good_examples]
     id_bad_examples = id_bad_examples[:n_bad_examples]
 
     # good examples
+    
+    print('Correct Output')
 
     data_samples_input = [d for d in data_input if d['question_id'] in id_good_examples]
     data_samples_output = [d for d in data_output if d['text_input_id'] in id_good_examples]
@@ -82,6 +84,8 @@ if flag_show_outputs_examples:
 
     
     # bad examples
+
+    print('Incorrect Output')
     
     data_samples_input = [d for d in data_input if d['question_id'] in id_bad_examples]
     data_samples_output = [d for d in data_output if d['text_input_id'] in id_bad_examples]

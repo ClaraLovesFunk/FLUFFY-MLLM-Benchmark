@@ -143,7 +143,7 @@ def add_imgs_text_data(data_samples_input, data_samples_output, split_sec,images
     data_incl_image = pd.DataFrame(data_incl_image)
 
     # drop irrelevant info
-    data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales'],axis=1) #
+    data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales', 'text_input_id'],axis=1) #
 
     pd.set_option('display.max_colwidth', None)
     display(HTML(data_incl_image.to_html(escape=False)))
