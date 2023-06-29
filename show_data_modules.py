@@ -23,7 +23,7 @@ def image_to_html(image):
 
 
 
-def add_imgs_text_data(data_samples_input, data_samples_output,images_dir, tasks):
+def show_imgs_text_output(data_samples_input, data_samples_output,images_dir, tasks):
 
 
 

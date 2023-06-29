@@ -6,12 +6,20 @@ from show_data_modules import *
 
 
 
+# flags
+
+show_output = True
+show_good_examples = False
+show_bad_examples = False
+
+
 
 # experiment variables
 
-dataset = 'aokvqa'
+dataset_name = 'okvqa' #'aokvqa'
 model = 'blip2'
 run = 1
+n_examples = 10
 n_good_examples = 3
 n_bad_examples = 3
 
@@ -29,18 +37,18 @@ examples_file_name = 'examples.json'
 
 # paths
 
-dataset_info = DatasetInfo(dataset)
+dataset_info = DatasetInfo(dataset_name)
 text_dataset_split = dataset_info.get_text_dataset_split()
 img_dataset_name = dataset_info.get_img_dataset_name()
 img_dataset_split = dataset_info.get_img_dataset_split() 
 image_dataset_name = dataset_info.get_img_dataset_name()
 tasks = dataset_info.get_tasks()
 
-ds_text_file_path = os.path.join(datasets_dir, dataset, text_dataset_split + '.json')
+ds_text_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json')
 
 ds_images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
 
-experiment_dir_path = os.path.join(experiments_dir, model, dataset, 'run' + str(run))
+experiment_dir_path = os.path.join(experiments_dir, model, dataset_name, 'run' + str(run))
 experiment_scores_file_path = os.path.join(experiment_dir_path, eval_file_name)
 experiment_output_file_path = os.path.join(experiment_dir_path, output_file_name)
 experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)
@@ -89,16 +97,25 @@ id_bad_examples = id_bad_examples[:n_bad_examples]
 
 # show examples
 
-print('Correct Output')
-data_samples_input = [d for d in data_input if d['question_id'] in id_good_examples]
-data_samples_output = [d for d in data_output if d['text_input_id'] in id_good_examples]
-data_incl_image = add_imgs_text_data(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+print(f'Dataset: {dataset_name}')
 
+if show_output:
+    print('Output')
+    data_samples_input = data_input[:n_examples]
+    data_samples_output = data_output[:n_examples]
+    data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
 
-print('Incorrect Output')
-data_samples_input = [d for d in data_input if d['question_id'] in id_bad_examples]
-data_samples_output = [d for d in data_output if d['text_input_id'] in id_bad_examples]
-data_incl_image = add_imgs_text_data(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+if show_good_examples:
+    print('Correct Output')
+    data_samples_input = [d for d in data_input if d['question_id'] in id_good_examples]
+    data_samples_output = [d for d in data_output if d['text_input_id'] in id_good_examples]
+    data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+
+if show_bad_examples:
+    print('Incorrect Output')
+    data_samples_input = [d for d in data_input if d['question_id'] in id_bad_examples]
+    data_samples_output = [d for d in data_output if d['text_input_id'] in id_bad_examples]
+    data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
 
 
 # %%
