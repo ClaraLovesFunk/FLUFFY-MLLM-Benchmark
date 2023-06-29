@@ -1,19 +1,18 @@
 import os
-import json
+
 import pandas as pd
 from PIL import Image
 from IPython.display import display, HTML
 import base64
-import random
+
 import pandas as pd
 from PIL import Image
-from PIL import ImageOps
 
 
-# from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
+from utils import *
 
-def get_coco_path(split, image_id, coco_dir):
-    return os.path.join(coco_dir, f"{split}", f"{image_id:012}.jpg")
+
+
 
 def image_to_html(image):
     image.save('temp.png')
@@ -24,7 +23,7 @@ def image_to_html(image):
 
 
 
-def add_imgs_text_data(data_samples_input, data_samples_output, split_sec,images_dir, tasks):
+def add_imgs_text_data(data_samples_input, data_samples_output,images_dir, tasks):
 
 
 
@@ -33,7 +32,8 @@ def add_imgs_text_data(data_samples_input, data_samples_output, split_sec,images
     for i in range(len(data_samples_input)):
 
         # get images
-        image_path = get_coco_path(split_sec, data_samples_input[i]['image_id'], images_dir)
+        image_path = os.path.join(images_dir, f"{data_samples_input[i]['image_id']:012}.jpg") 
+        
         img = Image.open(image_path)
         img.thumbnail((100, 100))
         
