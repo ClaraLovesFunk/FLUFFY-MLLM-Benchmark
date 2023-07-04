@@ -113,7 +113,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
 
             # generate output
 
-            output = model.generate({"image": image, "prompt": prompt})
+            output = model.generate({"image": image, "prompt": prompt}, temperature=0)
 
             output_sample.update({output_task: output[0]})
             
@@ -181,14 +181,12 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['aokvqa']  #, 'hateful_memes', 'mami', 'mvsa', 'okvqa'
+dataset_name = ['aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa']  #
 run = [1]
 
 for m in model_name:
 
     model, vis_processors, time_loading_model = get_model(model_name = m, device = device)
-    #model = 'blub' ############
-    #vis_processors = 'blub' ############
 
     for ds in dataset_name:
 
