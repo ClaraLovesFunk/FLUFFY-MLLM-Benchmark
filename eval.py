@@ -20,7 +20,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['aokvqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+dataset_name = ['hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
 run = [1]
 
 
@@ -94,9 +94,51 @@ for m in model_name:
                 examples['multiple choice'] = ex
 
 
-            if ds in ['hateful_memes', 'mami', 'mvsa']:
+            if ds in ['hateful_memes']:
+                scores = {}
+                examples = {}
+
+                # load input
+                data_text = dataset(ds, ds_text_file_path).load()
+                y_true = [item["label"] for item in data_text if "label" in item]
+                #y_true = [str(element) for element in y_true]
+                print(list(set(y_true)))
+                
+                # load output
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+                
+                output_column_header = 'output_' + tasks[0]
+
+                y_pred = [item[output_column_header] for item in output if output_column_header in item]
+                y_pred = list(map(int, y_pred))
+                
+                print(list(set(y_pred)))
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision': metrics.precision_score(y_true, y_pred),
+                    'recall': metrics.recall_score(y_true, y_pred),
+                    'f1': metrics.f1_score(y_true, y_pred),
+                    #'roc_auc': metrics.roc_auc_score(y_true, y_pred),
+                    #'log_loss': metrics.log_loss(y_true, y_pred),
+                    #'jaccard_score': metrics.jaccard_score(y_true, y_pred)                    
+                }
+
+                '''
+                for i in data_text:
+                    if i[id]['label'] == y_pred['']
+                    index_correct = 
+                    examples[tasks[0]]={i[id]: index_correct}
+                '''
+
+
+
+            if ds in ['mami']:
+
 
                 scores = {}
+                examples = {}
 
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
@@ -106,52 +148,77 @@ for m in model_name:
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                 
-
                 output_column_header = 'output_' + tasks[0]
 
                 y_pred = [item[output_column_header] for item in output if output_column_header in item]
-                   
-                if ds in ['hateful_memes']: 
-
-                    y_pred = [int(string) for string in y_pred]
                 
-                    scores[tasks[0]] = {
-                        'accuracy': metrics.accuracy_score(y_true, y_pred),
-                        'precision': metrics.precision_score(y_true, y_pred),
-                        'recall': metrics.recall_score(y_true, y_pred),
-                        'f1': metrics.f1_score(y_true, y_pred),
-                        #'roc_auc': metrics.roc_auc_score(y_true, y_pred),
-                        #'log_loss': metrics.log_loss(y_true, y_pred),
-                        #'jaccard_score': metrics.jaccard_score(y_true, y_pred)
-                    }
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
+                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
+                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted'), ####### ADD OTHER AVERAGING METHODS
+                    #'roc_auc (weighted)': metrics.roc_auc_score(y_true, y_pred, average='weighted', multi_class='ovr'),
+                    #'log_loss': metrics.log_loss(y_true, y_pred),
+                    #'jaccard_score (weighted)': metrics.jaccard_score(y_true, y_pred, average='weighted'),
+                    #'zero_one_loss': metrics.zero_one_loss(y_true, y_pred),
+                    #'balanced_accuracy': metrics.balanced_accuracy_score(y_true, y_pred),
+                    #'cohen_kappa': metrics.cohen_kappa_score(y_true, y_pred),
+                    #'hamming_loss': metrics.hamming_loss(y_true, y_pred),
+                    #'classification_report': metrics.classification_report(y_true, y_pred),
+                    #'confusion_matrix': metrics.confusion_matrix(y_true, y_pred),
+                    #'normalized_mutual_info_score': metrics.normalized_mutual_info_score(y_true, y_pred),
+                    #'adjusted_rand_score': metrics.adjusted_rand_score(y_true, y_pred)
+                }
 
-                if ds in ['mvsa', 'mami']:
-                    scores[tasks[0]] = {
-                        'accuracy': metrics.accuracy_score(y_true, y_pred),
-                        'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
-                        'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
-                        'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted'), ####### ADD OTHER AVERAGING METHODS
-                        #'roc_auc (weighted)': metrics.roc_auc_score(y_true, y_pred, average='weighted', multi_class='ovr'),
-                        #'log_loss': metrics.log_loss(y_true, y_pred),
-                        #'jaccard_score (weighted)': metrics.jaccard_score(y_true, y_pred, average='weighted'),
-                        #'zero_one_loss': metrics.zero_one_loss(y_true, y_pred),
-                        #'balanced_accuracy': metrics.balanced_accuracy_score(y_true, y_pred),
-                        #'cohen_kappa': metrics.cohen_kappa_score(y_true, y_pred),
-                        #'hamming_loss': metrics.hamming_loss(y_true, y_pred),
-                        #'classification_report': metrics.classification_report(y_true, y_pred),
-                        #'confusion_matrix': metrics.confusion_matrix(y_true, y_pred),
-                        #'normalized_mutual_info_score': metrics.normalized_mutual_info_score(y_true, y_pred),
-                        #'adjusted_rand_score': metrics.adjusted_rand_score(y_true, y_pred)
-                    }
+            
+            if ds in ['mvsa']:
+
+
+                scores = {}
+                examples = {}
+
+                # load input
+                data_text = dataset(ds, ds_text_file_path).load()
+                y_true = [item["label"] for item in data_text if "label" in item]
+                
+                # load output
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+                
+                output_column_header = 'output_' + tasks[0]
+
+                y_pred = [item[output_column_header] for item in output if output_column_header in item]
+                
+                
+                #y_pred = [int(string) for string in y_pred]
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
+                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
+                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted'), ####### ADD OTHER AVERAGING METHODS
+                    #'roc_auc (weighted)': metrics.roc_auc_score(y_true, y_pred, average='weighted', multi_class='ovr'),
+                    #'log_loss': metrics.log_loss(y_true, y_pred),
+                    #'jaccard_score (weighted)': metrics.jaccard_score(y_true, y_pred, average='weighted'),
+                    #'zero_one_loss': metrics.zero_one_loss(y_true, y_pred),
+                    #'balanced_accuracy': metrics.balanced_accuracy_score(y_true, y_pred),
+                    #'cohen_kappa': metrics.cohen_kappa_score(y_true, y_pred),
+                    #'hamming_loss': metrics.hamming_loss(y_true, y_pred),
+                    #'classification_report': metrics.classification_report(y_true, y_pred),
+                    #'confusion_matrix': metrics.confusion_matrix(y_true, y_pred),
+                    #'normalized_mutual_info_score': metrics.normalized_mutual_info_score(y_true, y_pred),
+                    #'adjusted_rand_score': metrics.adjusted_rand_score(y_true, y_pred)
+                }
 
 
 
             # save results
-            '''
+            
             with open(experiment_scores_file_path, 'w') as f: 
-                json.dump(scores,f)'''
+                json.dump(scores,f)
 
-            with open(experiment_examples_file_path, 'w') as f: 
-                json.dump(examples,f)
+            print('done')
+            '''with open(experiment_examples_file_path, 'w') as f: 
+                json.dump(examples,f)'''
                 
                 
