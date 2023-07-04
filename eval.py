@@ -20,7 +20,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+dataset_name = ['mvsa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
 run = [1]
 
 
@@ -101,8 +101,6 @@ for m in model_name:
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
                 y_true = [item["label"] for item in data_text if "label" in item]
-                #y_true = [str(element) for element in y_true]
-                print(list(set(y_true)))
                 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
@@ -112,8 +110,6 @@ for m in model_name:
 
                 y_pred = [item[output_column_header] for item in output if output_column_header in item]
                 y_pred = list(map(int, y_pred))
-                
-                print(list(set(y_pred)))
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
@@ -125,12 +121,19 @@ for m in model_name:
                     #'jaccard_score': metrics.jaccard_score(y_true, y_pred)                    
                 }
 
-                '''
-                for i in data_text:
-                    if i[id]['label'] == y_pred['']
-                    index_correct = 
-                    examples[tasks[0]]={i[id]: index_correct}
-                '''
+                
+                for input_i in data_text:
+                    input_id = input_i.get('id')
+
+                    y_true = str(input_i.get('label'))
+
+                    # Find the corresponding output dictionary based on 'input_id'
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+
+                    y_pred = output_i.get('output_hate classification')
+
+                    # Compare y_true with y_pred
+                    examples[input_id] = 1 if y_true == y_pred else 0
 
 
 
@@ -169,6 +172,19 @@ for m in model_name:
                     #'normalized_mutual_info_score': metrics.normalized_mutual_info_score(y_true, y_pred),
                     #'adjusted_rand_score': metrics.adjusted_rand_score(y_true, y_pred)
                 }
+
+                for input_i in data_text:
+                    input_id = input_i.get('id')
+
+                    y_true = str(input_i.get('label'))
+
+                    # Find the corresponding output dictionary based on 'input_id'
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+
+                    y_pred = output_i.get('output_sexism classification')
+
+                    # Compare y_true with y_pred
+                    examples[input_id] = 1 if y_true == y_pred else 0
 
             
             if ds in ['mvsa']:
@@ -210,6 +226,21 @@ for m in model_name:
                     #'adjusted_rand_score': metrics.adjusted_rand_score(y_true, y_pred)
                 }
 
+                
+                for input_i in data_text:
+
+                    input_id = input_i.get('id')
+
+                    y_true = str(input_i.get('label'))
+
+                    # Find the corresponding output dictionary based on 'input_id'
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+
+                    y_pred = output_i.get('output_sentiment analysis')
+
+                    # Compare y_true with y_pred
+                    examples[input_id] = 1 if y_true == y_pred else 0
+
 
 
             # save results
@@ -218,7 +249,7 @@ for m in model_name:
                 json.dump(scores,f)
 
             print('done')
-            '''with open(experiment_examples_file_path, 'w') as f: 
-                json.dump(examples,f)'''
+            with open(experiment_examples_file_path, 'w') as f: 
+                json.dump(examples,f)
                 
                 
