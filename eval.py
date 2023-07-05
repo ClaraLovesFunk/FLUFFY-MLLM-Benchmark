@@ -20,7 +20,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['mvsa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+dataset_name = ['aokvqa', 'mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
 run = [1]
 
 
@@ -97,6 +97,7 @@ for m in model_name:
             if ds in ['hateful_memes']:
                 scores = {}
                 examples = {}
+                examples_task = {}
 
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
@@ -133,7 +134,9 @@ for m in model_name:
                     y_pred = output_i.get('output_hate classification')
 
                     # Compare y_true with y_pred
-                    examples[input_id] = 1 if y_true == y_pred else 0
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples['hate classification'] = examples_task
 
 
 
@@ -142,6 +145,7 @@ for m in model_name:
 
                 scores = {}
                 examples = {}
+                examples_task = {}
 
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
@@ -184,7 +188,9 @@ for m in model_name:
                     y_pred = output_i.get('output_sexism classification')
 
                     # Compare y_true with y_pred
-                    examples[input_id] = 1 if y_true == y_pred else 0
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples['sexism classification'] = examples_task
 
             
             if ds in ['mvsa']:
@@ -192,6 +198,7 @@ for m in model_name:
 
                 scores = {}
                 examples = {}
+                examples_task = {}
 
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
@@ -239,7 +246,9 @@ for m in model_name:
                     y_pred = output_i.get('output_sentiment analysis')
 
                     # Compare y_true with y_pred
-                    examples[input_id] = 1 if y_true == y_pred else 0
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples['sentiment analysis'] = examples_task
 
 
 
@@ -248,8 +257,5 @@ for m in model_name:
             with open(experiment_scores_file_path, 'w') as f: 
                 json.dump(scores,f)
 
-            print('done')
             with open(experiment_examples_file_path, 'w') as f: 
                 json.dump(examples,f)
-                
-                
