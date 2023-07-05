@@ -23,7 +23,7 @@ def image_to_html(image):
 
 
 
-def show_imgs_text_output(data_samples_input, data_samples_output,images_dir, tasks):
+def show_imgs_text_output(dataset_name, data_samples_input, data_samples_output,images_dir, tasks):
 
 
 
@@ -32,7 +32,11 @@ def show_imgs_text_output(data_samples_input, data_samples_output,images_dir, ta
     for i in range(len(data_samples_input)):
 
         # get images
-        image_path = os.path.join(images_dir, f"{data_samples_input[i]['image_id']:012}.jpg") 
+        
+        if dataset_name == 'aokvqa':
+            image_path = os.path.join(images_dir, f"{data_samples_input[i]['image_id']:012}.jpg") 
+        else:
+            image_path = os.path.join(images_dir, data_samples_input[i]['id'])
         
         img = Image.open(image_path)
         img.thumbnail((100, 100))
@@ -61,7 +65,10 @@ def show_imgs_text_output(data_samples_input, data_samples_output,images_dir, ta
     data_incl_image = pd.DataFrame(data_incl_image)
 
     # drop irrelevant info
-    data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales', 'text_input_id'],axis=1) #
+    if dataset_name == 'aokvqa':
+        data_incl_image = data_incl_image.drop(['split', 'image_id', 'question_id', 'rationales', 'text_input_id'],axis=1) #
+    else:
+        data_incl_image = data_incl_image.drop(['image_ofa_caption', 'image_vit_caption', 'image_path', 'image_lavis_caption', 'text_input_id'],axis=1)
 
     pd.set_option('display.max_colwidth', None)
     display(HTML(data_incl_image.to_html(escape=False)))

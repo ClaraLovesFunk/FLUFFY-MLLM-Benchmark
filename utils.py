@@ -191,6 +191,14 @@ class DatasetInfo():
             'mami': ['sexism classification'],
             'hateful_memes': ['hate classification']                                          
         }
+
+        self.input_id_name = {
+            'aokvqa': 'question_id',
+            'okvqa': 'question_id', 
+            'mvsa': 'id',
+            'mami': 'id',
+            'hateful_memes': 'id'
+        } 
         
 
     def get_text_dataset_split(self):
@@ -204,6 +212,9 @@ class DatasetInfo():
 
     def get_tasks(self):
         return self.tasks[self.dataset_name]
+    
+    def get_input_id_name(self):
+        return self.input_id_name[self.dataset_name]
 
 
 

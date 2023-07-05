@@ -16,7 +16,7 @@ FLAG_SHOW_BAD_EXAMPLES = True
 
 # experiment variables
 
-dataset_name = 'aokvqa' #'aokvqa'
+dataset_name = 'hateful_memes' #'aokvqa'
 model = 'blip2'
 run = 1
 n_examples = 3
@@ -79,7 +79,7 @@ with open(experiment_examples_file_path, 'r') as f:
 
 # get indice of n good/bad examples
 
-tasks = ['direct answer', 'multiple choice']
+tasks = dataset_info.get_tasks()
 
 for t in tasks: 
 
@@ -107,19 +107,21 @@ for t in tasks:
         print('Output')
         data_samples_input = data_input[:n_examples]
         data_samples_output = data_output[:n_examples]
-        data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+        data_incl_image = show_imgs_text_output(dataset_name, data_samples_input, data_samples_output,ds_images_dir_path, tasks = tasks)
 
     if FLAG_SHOW_GOOD_EXAMPLES:
         print('Correct Output')
-        data_samples_input = [d for d in data_input if d['question_id'] in id_good_examples]
+        input_id_name = dataset_info.get_input_id_name()
+        data_samples_input = [d for d in data_input if d[input_id_name] in id_good_examples]
         data_samples_output = [d for d in data_output if d['text_input_id'] in id_good_examples]
-        data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+        data_incl_image = show_imgs_text_output(dataset_name, data_samples_input, data_samples_output,ds_images_dir_path, tasks = tasks)
 
     if FLAG_SHOW_BAD_EXAMPLES:
         print('Incorrect Output')
-        data_samples_input = [d for d in data_input if d['question_id'] in id_bad_examples]
+        input_id_name = dataset_info.get_input_id_name()
+        data_samples_input = [d for d in data_input if d[input_id_name] in id_bad_examples]
         data_samples_output = [d for d in data_output if d['text_input_id'] in id_bad_examples]
-        data_incl_image = show_imgs_text_output(data_samples_input, data_samples_output,ds_images_dir_path, tasks = ['direct answer', 'multiple choice'])
+        data_incl_image = show_imgs_text_output(dataset_name, data_samples_input, data_samples_output,ds_images_dir_path, tasks = tasks)
 
 
 # %%
