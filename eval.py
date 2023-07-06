@@ -20,7 +20,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['aokvqa', 'mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+dataset_name = ['hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
 run = [1]
 
 
@@ -102,6 +102,8 @@ for m in model_name:
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
                 y_true = [item["label"] for item in data_text if "label" in item]
+                y_true = ['hateful' if item == 1 else 'not-hateful' for item in y_true]
+
                 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
@@ -110,7 +112,7 @@ for m in model_name:
                 output_column_header = 'output_' + tasks[0]
 
                 y_pred = [item[output_column_header] for item in output if output_column_header in item]
-                y_pred = list(map(int, y_pred))
+                #y_pred = list(map(int, y_pred))
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
@@ -150,6 +152,7 @@ for m in model_name:
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
                 y_true = [item["label"] for item in data_text if "label" in item]
+                y_true = ['sexist' if item == 1 else 'not-sexist' for item in y_true]
                 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
