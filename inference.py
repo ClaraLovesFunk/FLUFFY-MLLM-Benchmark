@@ -118,7 +118,6 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             output_sample.update({output_task: output[0]})
             
         pred.append(output_sample)
-        print(pred)############
 
 
     time_inference_end = time.time()
@@ -181,12 +180,14 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa']  #
+dataset_name = ['clevr']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa'
 run = [1]
 
 for m in model_name:
 
     model, vis_processors, time_loading_model = get_model(model_name = m, device = device)
+    #model = 'blub' ################ TEST
+    #vis_processors = 'blub' ################ TEST
 
     for ds in dataset_name:
 
