@@ -95,12 +95,12 @@ def prompt_construct(test_sample, task):
 
     if task == 'sexism classification':
         text_input = test_sample['text']
-        instruction = 'Classify the following meme as sexist or not sexist. If it is sexist, give it the Label "1", if not "0"!'
+        instruction = "Classify the following meme as 'sexist' or 'not-sexist'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
     if task == 'hate classification':
         text_input = test_sample['text']
-        instruction = 'Classify the following meme as hateful or not hateful. If it is hateful, give it the Label "1", if not "0"!'
+        instruction = "Classify the following meme as 'hateful' or 'not-hateful'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
     
     return prompt
