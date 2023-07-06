@@ -85,7 +85,8 @@ class DatasetInfo():
             'okvqa': 'val',
             'mvsa': 'test',
             'mami': 'test',
-            'hateful_memes': 'dev' # dev is the dev_1, where img_path is reduced to just the filename, not the full path
+            'hateful_memes': 'dev', 
+            'clevr': 'val'
         }
         
         self.img_dataset_split = {
@@ -93,7 +94,8 @@ class DatasetInfo():
             'okvqa': 'all',
             'mvsa': 'all',
             'mami': 'all',
-            'hateful_memes': 'all'
+            'hateful_memes': 'all',
+            'clevr': 'val'
         }
 
         self.img_dataset_name = {
@@ -101,7 +103,8 @@ class DatasetInfo():
             'okvqa': 'coco2017', 
             'mvsa': 'mvsa/images',
             'mami': 'mami/images',
-            'hateful_memes': 'hateful_memes/images'
+            'hateful_memes': 'hateful_memes/images',
+            'clevr': 'clevr/images'
         }
 
         self.tasks = {
@@ -109,7 +112,8 @@ class DatasetInfo():
             'okvqa': ['direct answer'],
             'mvsa': ['sentiment analysis'],
             'mami': ['sexism classification'],
-            'hateful_memes': ['hate classification']                                          
+            'hateful_memes': ['hate classification'],
+            'clevr': ['direct answer']                                          
         }
 
         self.input_id_name = {
@@ -117,7 +121,8 @@ class DatasetInfo():
             'okvqa': 'question_id', 
             'mvsa': 'id',
             'mami': 'id',
-            'hateful_memes': 'id'
+            'hateful_memes': 'id',
+            'clevr': 'input_id'
         } 
         
 
@@ -171,7 +176,10 @@ class dataset():
             X_text = json.load(f)
 
         if self.dataset_name == 'okvqa':
-            X_text = X_text['questions']        
+            X_text = X_text['questions']
+
+        if self.dataset_name == 'clevr':
+            X_text = X_text['questions']      
 
         return X_text
     
@@ -205,6 +213,9 @@ def get_img_path(dataset_name, images_dir_path, sample):
 
     if dataset_name =='hateful_memes': 
         img_path = os.path.join(images_dir_path, sample['image_path'])
+
+    if dataset_name =='clevr': 
+        img_path = os.path.join(images_dir_path, sample['image_filename'])
     
     return img_path
 
@@ -225,6 +236,9 @@ def get_text_input_id(dataset_name, sample):
 
     if dataset_name =='hateful_memes': 
         text_input_id = sample['id']
+
+    if dataset_name =='clevr': 
+        text_input_id = sample['input_id']
     
     return text_input_id
 
