@@ -38,6 +38,8 @@ def prompt_construct(test_sample, task):
     sentiment_formal = 'Sentiment: '
     sexist_label_formal = 'Sexism Label: '
     hate_label_formal = 'Hate Label: '
+    hypothesis_text_formal = 'Hypothesis: '
+    entailment_label = 'Answer: '
 
      
 
@@ -68,6 +70,14 @@ def prompt_construct(test_sample, task):
         instruction = "Classify the following meme as 'hateful' or 'not-hateful'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
 
+    if task == 'entailment prediction':
+        text_input = test_sample['text']
+        instruction = '''
+                        Classify the following image as 'entailment', if there is enough evidence in the image to conclude that the following hypothesis is true. 
+                        Classify the following image as 'contradiction', if there is enough evidence in the image to conclude that the following hypothesis is false.
+                        Classify the following image as 'neutral', if neither of the earlier two are true.'''
+        prompt =  instruction +  '\n' +  hypothesis_text_formal + text_input + '\n' + entailment_label
+
 
     return prompt
 
@@ -86,7 +96,8 @@ class DatasetInfo():
             'mvsa': 'test',
             'mami': 'test',
             'hateful_memes': 'dev', 
-            'clevr': 'val'
+            'clevr': 'val',
+            'esnlive': 'test'
         }
         
         self.img_dataset_split = {
@@ -95,7 +106,8 @@ class DatasetInfo():
             'mvsa': 'all',
             'mami': 'all',
             'hateful_memes': 'all',
-            'clevr': 'val'
+            'clevr': 'val',
+            'esnlive': 'all'
         }
 
         self.img_dataset_name = {
@@ -104,7 +116,8 @@ class DatasetInfo():
             'mvsa': 'mvsa/images',
             'mami': 'mami/images',
             'hateful_memes': 'hateful_memes/images',
-            'clevr': 'clevr/images'
+            'clevr': 'clevr/images',
+            'esnlive': 'flickr30k_images'
         }
 
         self.tasks = {
@@ -113,7 +126,8 @@ class DatasetInfo():
             'mvsa': ['sentiment analysis'],
             'mami': ['sexism classification'],
             'hateful_memes': ['hate classification'],
-            'clevr': ['direct answer']                                          
+            'clevr': ['direct answer'],
+            'esnlive': ['entailment prediction']                                        
         }
 
         self.input_id_name = {
@@ -122,7 +136,8 @@ class DatasetInfo():
             'mvsa': 'id',
             'mami': 'id',
             'hateful_memes': 'id',
-            'clevr': 'input_id'
+            'clevr': 'input_id',
+            'esnlive': 'question_id'
         } 
         
 
@@ -177,8 +192,7 @@ class dataset():
 
         if self.dataset_name == 'okvqa':
             X_text = X_text['questions']
-
-        if self.dataset_name == 'clevr':
+        elif self.dataset_name == 'clevr':
             X_text = X_text['questions']      
 
         return X_text
@@ -216,6 +230,22 @@ def get_img_path(dataset_name, images_dir_path, sample):
 
     if dataset_name =='clevr': 
         img_path = os.path.join(images_dir_path, sample['image_filename'])
+
+    if dataset_name =='esnlive': 
+
+        # get sample
+        filename = sample['img_id']
+
+        # Extract the numeric part of the filename
+        numeric_part = filename.split("_")[1].split(".")[0]
+
+        # Convert the numeric part to integer to remove leading zeros, and then back to string
+        numeric_part = str(int(numeric_part))
+
+        # Append ".jpg" to the numeric part
+        new_filename = f"{numeric_part}.jpg"
+
+        img_path = os.path.join(images_dir_path, new_filename)
     
     return img_path
 
@@ -239,6 +269,9 @@ def get_text_input_id(dataset_name, sample):
 
     if dataset_name =='clevr': 
         text_input_id = sample['input_id']
+
+    if dataset_name =='esnlive': 
+        text_input_id = sample['question_id']
     
     return text_input_id
 

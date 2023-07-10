@@ -180,7 +180,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['clevr']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa'
+dataset_name = ['esnlive']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa'
 run = [1]
 
 for m in model_name:
