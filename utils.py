@@ -61,7 +61,7 @@ def prompt_construct(test_sample, task):
         prompt =  instruction +  '\n' +  tweet_formal + text_input + '\n' + sentiment_formal
 
     if task == 'sexism classification':
-        text_input = test_sample['text']
+        text_input = test_sample['sent']
         instruction = "Classify the following meme as 'sexist' or 'not-sexist'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
@@ -97,7 +97,8 @@ class DatasetInfo():
             'mami': 'test',
             'hateful_memes': 'dev', 
             'clevr': 'val',
-            'esnlive': 'test'
+            'esnlive': 'test',
+            'gqa': 'val'
         }
         
         self.img_dataset_split = {
@@ -107,7 +108,8 @@ class DatasetInfo():
             'mami': 'all',
             'hateful_memes': 'all',
             'clevr': 'val',
-            'esnlive': 'all'
+            'esnlive': 'all',
+            'gqa': 'val'
         }
 
         self.img_dataset_name = {
