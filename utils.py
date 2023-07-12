@@ -61,7 +61,7 @@ def prompt_construct(test_sample, task):
         prompt =  instruction +  '\n' +  tweet_formal + text_input + '\n' + sentiment_formal
 
     if task == 'sexism classification':
-        text_input = test_sample['sent']
+        text_input = test_sample['text']
         instruction = "Classify the following meme as 'sexist' or 'not-sexist'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
@@ -71,7 +71,7 @@ def prompt_construct(test_sample, task):
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
 
     if task == 'entailment prediction':
-        text_input = test_sample['text']
+        text_input = test_sample['sent']
         instruction = '''
                         Classify the following image as 'entailment', if there is enough evidence in the image to conclude that the following hypothesis is true. 
                         Classify the following image as 'contradiction', if there is enough evidence in the image to conclude that the following hypothesis is false.
@@ -109,7 +109,7 @@ class DatasetInfo():
             'hateful_memes': 'all',
             'clevr': 'val',
             'esnlive': 'all',
-            'gqa': 'val'
+            'gqa': 'all'
         }
 
         self.img_dataset_name = {
@@ -119,7 +119,8 @@ class DatasetInfo():
             'mami': 'mami/images',
             'hateful_memes': 'hateful_memes/images',
             'clevr': 'clevr/images',
-            'esnlive': 'flickr30k_images'
+            'esnlive': 'flickr30k_images',
+            'gqa': 'gqa/images'
         }
 
         self.tasks = {
@@ -129,7 +130,8 @@ class DatasetInfo():
             'mami': ['sexism classification'],
             'hateful_memes': ['hate classification'],
             'clevr': ['direct answer'],
-            'esnlive': ['entailment prediction']                                        
+            'esnlive': ['entailment prediction'],
+            'gqa': ['direct answer']                                        
         }
 
         self.input_id_name = {
@@ -139,7 +141,8 @@ class DatasetInfo():
             'mami': 'id',
             'hateful_memes': 'id',
             'clevr': 'input_id',
-            'esnlive': 'question_id'
+            'esnlive': 'question_id',
+            'gqa': 'question_id'
         } 
         
 
@@ -248,6 +251,9 @@ def get_img_path(dataset_name, images_dir_path, sample):
         new_filename = f"{numeric_part}.jpg"
 
         img_path = os.path.join(images_dir_path, new_filename)
+
+    if dataset_name =='gqa': 
+        img_path = os.path.join(images_dir_path, sample['imageId'] + '.jpg')
     
     return img_path
 
@@ -274,6 +280,9 @@ def get_text_input_id(dataset_name, sample):
 
     if dataset_name =='esnlive': 
         text_input_id = sample['question_id']
+
+    if dataset_name =='gqa': 
+        text_input_id = sample['input_id']
     
     return text_input_id
 

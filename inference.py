@@ -6,6 +6,7 @@ from lavis.models import load_model_and_preprocess
 import torch
 import os
 import time
+import random
 from utils import *
 
 
@@ -57,6 +58,11 @@ def get_dataset_text(dataset_name):
     dataset_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json')
     
     data_text = dataset(dataset_name, dataset_file_path).load()
+
+    # downsampling
+
+    if dataset_name in ['gqa', 'clevr']: 
+        data_text = random.sample(data_text, 10000) ########### 
 
     time_load_data_text_end = time.time()
     time_loading_data_text = (time_load_data_text_end - time_load_data_text_start)/60
@@ -180,7 +186,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['esnlive']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa'
+dataset_name = ['gqa']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive'
 run = [1]
 
 for m in model_name:
