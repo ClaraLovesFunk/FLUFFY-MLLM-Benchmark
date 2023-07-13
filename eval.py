@@ -296,16 +296,14 @@ for m in model_name:
                 
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
-                data_text = data_text[:1000] ############ DELETE 
 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
-                output = output[:1000] ############ DELETE 
+                #output = output[:3] 
 
-
-                # 1. Get a new list "input_ids" that contains all input_ids from the list "input"
-                input_ids = [item['input_id'] for item in data_text]
+                # 1. Get a new list "input_ids" that contains all input_ids from the list "output"
+                input_ids = [item['text_input_id'] for item in output]
 
                 # 2. Get a list "y_true", in which the answer from the list "input" for each input_id is listed
                 input_dict = {item['input_id']: item['answer'] for item in data_text}
@@ -321,19 +319,16 @@ for m in model_name:
 
                 output_column_header = 'output_' + tasks[0]
 
-                for input_i in data_text:
-                    input_id = input_i.get(input_id_name)
+                for output_i in output:
 
-                    y_true = str(input_i.get('answer'))
+                    input_id = output_i.get('text_input_id')
+                    print(input_id)
 
-                    # Find the corresponding output dictionary based on 'input_id'
-                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-
-                    y_pred = output_i.get(output_column_header)
-
-                    # Compare y_true with y_pred
+                    y_true = next((item['answer'] for item in data_text if item.get('input_id') == input_id), None)
+                    y_pred = next((item['output_direct answer'] for item in output if item.get('text_input_id') == input_id), None)
+                    
                     examples_task[input_id] = 1 if y_true == y_pred else 0
-                
+                    
                 examples[tasks[0]] = examples_task
 
 
