@@ -142,7 +142,7 @@ class DatasetInfo():
             'hateful_memes': 'id',
             'clevr': 'input_id',
             'esnlive': 'question_id',
-            'gqa': 'question_id'
+            'gqa': 'question_id' #changed to input_id!!!!
         } 
         
 

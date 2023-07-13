@@ -1,6 +1,6 @@
 import pandas as pd
-from utils_eval.vqa import VQA 
-from utils_eval.vqaEval import VQAEval
+from utils_eval.eval_vqa.vqa import VQA 
+from utils_eval.eval_vqa.vqaEval import VQAEval
 import json
 
 
