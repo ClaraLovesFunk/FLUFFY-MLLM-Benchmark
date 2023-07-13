@@ -1,6 +1,7 @@
 import json
 from sklearn import metrics
 import numpy as np
+import time
 from eval_modules import *
 from utils import *
 
@@ -20,7 +21,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['clevr', 'gqa', 'esnlive']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+dataset_name = ['clevr']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #, 'gqa', 'esnlive'
 run = [1]
 
 
@@ -38,6 +39,7 @@ for m in model_name:
         img_dataset_split = dataset_info.get_img_dataset_split() 
         image_dataset_name = dataset_info.get_img_dataset_name()
         tasks = dataset_info.get_tasks()
+        input_id_name = dataset_info.get_input_id_name()
         
         # paths relevant for all dataset
 
@@ -228,6 +230,66 @@ for m in model_name:
                 
                 examples['sentiment analysis'] = examples_task
 
+
+            
+            
+            if ds in ['clevr']:
+
+
+                scores = {}
+                examples = {}
+                examples_task = {}
+                
+                
+                time_start = time.time()
+                # load input
+                data_text = dataset(ds, ds_text_file_path).load()
+                #data_text = data_text[:1000] ############ DELETE 
+
+                # load output
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+                #output = output[:1000] ############ DELETE 
+
+
+                # 1. Get a new list "input_ids" that contains all input_ids from the list "input"
+                input_ids = [item['input_id'] for item in data_text]
+
+                # 2. Get a list "y_true", in which the answer from the list "input" for each input_id is listed
+                input_dict = {item['input_id']: item['answer'] for item in data_text}
+                y_true = [input_dict[id] for id in input_ids]
+
+                # 3. Get a list "y_pred", in which the "output_direct answer" from the list "output" for each input_id is listed
+                output_dict = {item['text_input_id']: item['output_direct answer'] for item in output}
+                y_pred = [output_dict[id] for id in input_ids if id in output_dict]
+
+
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred)
+                }
+
+                output_column_header = 'output_' + tasks[0]
+
+                for input_i in data_text:
+                    input_id = input_i.get(input_id_name)
+
+                    y_true = str(input_i.get('answer'))
+
+                    # Find the corresponding output dictionary based on 'input_id'
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+
+                    y_pred = output_i.get(output_column_header)
+
+                    # Compare y_true with y_pred
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples[tasks[0]] = examples_task
+
+
+                time_end = time.time()
+                time_run_script = (time_end - time_start)/60
+                print(time_run_script)
 
 
             # save results
