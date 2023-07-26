@@ -176,7 +176,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
     config['run times'] = run_times
 
     with open(experiment_config_file_path, 'w') as f: 
-        json.dump(config,f)
+        json.dump(config,f, indent=2)
 
 
 
