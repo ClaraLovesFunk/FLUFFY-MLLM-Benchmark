@@ -21,7 +21,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive'
+dataset_name = ['scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -367,16 +367,16 @@ for m in model_name:
                 
                 for input_i in data_text:
 
-                    input_id = input_i.get('id')
+                    input_id = input_i.get('question_id')
 
                     y_true = str(input_i.get('label'))
 
                     output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-                    y_pred = output_i.get('output_sentiment analysis')
+                    y_pred = output_i.get(output_name)
 
                     examples_task[input_id] = 1 if y_true == y_pred else 0
                 
-                examples['sentiment analysis'] = examples_task
+                examples[tasks[0]] = examples_task
 
 
 
