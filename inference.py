@@ -10,6 +10,10 @@ import random
 from utils import *
 
 
+os.environ["TRANSFORMERS_CACHE"] = '/home/users/cwicharz/data/huggingface_cache'
+
+
+
 
 
 time_run_script_start = time.time()
@@ -23,7 +27,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 datasets_dir = 'datasets'
 experiments_dir = 'experiments'
-CACHE_DIR = '/home/users/cwicharz/data/huggingface_cache'
+##########################      CACHE_DIR = '/home/users/cwicharz/data/huggingface_cache'
 
 
 
@@ -102,7 +106,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
             # prep image
             
             image_file_path =  get_img_path(dataset_name, images_dir_path, sample) #os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
-            
+
             image_raw = Image.open(image_file_path) 
             
             if image_raw.mode != 'RGB': 
@@ -162,8 +166,12 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
     run_times['load text data'] = int(time_loading_data_text)
     run_times['inference'] = int(time_inference)
 
+    dataset_info = DatasetInfo(dataset_name)
+    text_dataset_split = dataset_info.get_text_dataset_split()
+
     config['model'] = model_name
     config['dataset'] = dataset_name
+    config['split'] = text_dataset_split
     config['run'] = run
     config['run times'] = run_times
 

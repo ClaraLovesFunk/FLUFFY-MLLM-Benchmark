@@ -55,6 +55,13 @@ def prompt_construct(test_sample, task):
         choices_content = ', '.join(choices_content)
         prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
     
+    if task == 'multiple choice (sqa)': ###  underscore deleted
+        text_input = test_sample['question']
+        instruction = 'Answer the following question by giving the zero-based index of the selected answer.'
+        choices_content = test_sample['choices']
+        choices_content = ', '.join(choices_content)
+        prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
+    
     if task == 'sentiment analysis':
         text_input = test_sample['text']
         instruction = 'Predict the sentiment of the tweet in combination with the image! The sentiment can be either "Positive", "Negative" or "Neutral".'
@@ -135,7 +142,7 @@ class DatasetInfo():
             'clevr': ['direct answer'],
             'esnlive': ['entailment prediction'],
             'gqa': ['direct answer'],
-            'scienceqa': ['multiple choice']                                        
+            'scienceqa': ['multiple choice (sqa)']                                        
         }
 
         self.input_id_name = {
@@ -261,7 +268,7 @@ def get_img_path(dataset_name, images_dir_path, sample):
         img_path = os.path.join(images_dir_path, sample['imageId'] + '.jpg')
 
     if dataset_name =='scienceqa': 
-        img_path = os.path.join(images_dir_path, sample['imageId'],'image.png')
+        img_path = os.path.join(images_dir_path, sample['input_id'],'image.png')
 
     
     return img_path
