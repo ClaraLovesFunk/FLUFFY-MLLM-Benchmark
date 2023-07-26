@@ -11,6 +11,7 @@ LAVIS/
 __pycache__/
 util/
 utils_private/
-/__test.py
+/__test.py/
+data
 
 
