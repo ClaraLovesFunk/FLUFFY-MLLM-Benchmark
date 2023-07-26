@@ -66,12 +66,8 @@ def get_dataset_text(dataset_name):
 
     # downsampling
 
-    if dataset_name in ['gqa', 'clevr']: 
-        data_text = random.sample(data_text, 10000) ########### 
-
     time_load_data_text_end = time.time()
     time_loading_data_text = (time_load_data_text_end - time_load_data_text_start)/60
-
 
     return data_text, time_loading_data_text
 
@@ -195,7 +191,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['scienceqa']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive'
+dataset_name = ['clevr', 'gqa']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 for m in model_name:
