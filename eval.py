@@ -380,47 +380,59 @@ for m in model_name:
 
 
 
-            if ds in ['scienceqa']:
+            if ds in ['scienceqa']: ##### :)) account for output not being integers or strings convertable to integers
 
 
                 scores = {}
                 examples = {}
                 examples_task = {}
 
-                # load input
-                data_text = dataset(ds, ds_text_file_path).load()
-                y_true = [item["answer"] for item in data_text if "answer" in item]
+                output_name = 'output_' + tasks[0]
                 
-                # load output
+                # load data
+
+                data_text = dataset(ds, ds_text_file_path).load()
+
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
+                #output = output[:3] 
                 
-                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_name] for item in output if output_name in item]
-                
-                
-                #y_pred = [int(string) for string in y_pred]
+
+                # get y_true and y_pred
+
+                input_ids = [item['text_input_id'] for item in output]
+
+                input_dict = {item[input_id_name]: item['answer'] for item in data_text}
+                y_true = [input_dict[id] for id in input_ids]
+                y_true = list(map(str, y_true)) 
+                print(f'---------y_true -------- {y_true[:2]}')
+
+                output_dict = {item['text_input_id']: item[output_name] for item in output}
+                y_pred = [output_dict[id] for id in input_ids if id in output_dict]
+                y_pred = list(map(str, y_pred))
+                print(f'---------y_pred -------- {y_pred[:2]}')
+
+                # eval score
 
                 scores[tasks[0]] = {
-                    'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
-                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
-                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
+                    'accuracy': metrics.accuracy_score(y_true, y_pred)
                 }
 
-                
-                for input_i in data_text:
+                # example indice
 
-                    input_id = input_i.get('input_id')
+                for output_i in output:
 
-                    y_true = str(input_i.get('answer'))
+                    input_id = output_i.get('text_input_id')
 
-                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-                    y_pred = output_i.get(output_name)
+                    y_true = next((item['answer'] for item in data_text if item.get(input_id_name) == input_id), None)
+                    y_true = str(y_true)
+
+                    y_pred = next((item[output_name] for item in output if item.get('text_input_id') == input_id), None)
+                    y_pred = str(y_pred)
 
                     examples_task[input_id] = 1 if y_true == y_pred else 0
-                
+                    
                 examples[tasks[0]] = examples_task
 
 
@@ -431,7 +443,7 @@ for m in model_name:
             # save results
             
             with open(experiment_scores_file_path, 'w') as f: 
-                json.dump(scores,f)
+                json.dump(scores,f, indent=2)
 
             with open(experiment_examples_file_path, 'w') as f: 
-                json.dump(examples,f)
+                json.dump(examples,f, indent=2)
