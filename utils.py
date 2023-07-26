@@ -103,9 +103,9 @@ class DatasetInfo():
             'mvsa': 'test',
             'mami': 'test',
             'hateful_memes': 'dev', 
-            'clevr': 'val',
+            'clevr': 'val_sampled',
             'esnlive': 'test',
-            'gqa': 'val',
+            'gqa': 'val_sampled',
             'scienceqa': 'test'
         }
         
@@ -181,11 +181,12 @@ class ModelInfo():
 
         self.model_name = model_name
         self.lavis_model_type = {
-            'blip2': 'pretrain_flant5xxl'
+            'blip2': 'pretrain_flant5xxl',
         }
         self.lavis_name = {
             'blip2': 'blip2_t5'
         }
+        
         
     def get_lavis_model_type(self):
         return self.lavis_model_type[self.model_name]
