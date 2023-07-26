@@ -21,7 +21,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['esnlive']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive'
+dataset_name = ['scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive'
 run = [1]
 
 
@@ -379,6 +379,53 @@ for m in model_name:
                 examples['sentiment analysis'] = examples_task
 
 
+
+            if ds in ['scienceqa']:
+
+
+                scores = {}
+                examples = {}
+                examples_task = {}
+
+                # load input
+                data_text = dataset(ds, ds_text_file_path).load()
+                y_true = [item["answer"] for item in data_text if "answer" in item]
+                
+                # load output
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+                
+                output_name = 'output_' + tasks[0]
+
+                y_pred = [item[output_name] for item in output if output_name in item]
+                
+                
+                #y_pred = [int(string) for string in y_pred]
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
+                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
+                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
+                }
+
+                
+                for input_i in data_text:
+
+                    input_id = input_i.get('input_id')
+
+                    y_true = str(input_i.get('answer'))
+
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+                    y_pred = output_i.get(output_name)
+
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples[tasks[0]] = examples_task
+
+
+            
+            
 
 
             # save results

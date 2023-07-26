@@ -23,6 +23,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 datasets_dir = 'datasets'
 experiments_dir = 'experiments'
+CACHE_DIR = '/home/users/cwicharz/data/huggingface_cache'
 
 
 
@@ -186,7 +187,7 @@ def save_output(pred, model_name, dataset_name, run, check_create_experiment_dir
 
 
 model_name = ['blip2']
-dataset_name = ['gqa']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive'
+dataset_name = ['scienceqa']  #'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive'
 run = [1]
 
 for m in model_name:
