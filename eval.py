@@ -21,7 +21,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['blip2']
-dataset_name = ['gqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive'
+dataset_name = ['esnlive']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive'
 run = [1]
 
 
@@ -111,9 +111,9 @@ for m in model_name:
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                 
-                output_column_header = 'output_' + tasks[0]
+                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_column_header] for item in output if output_column_header in item]
+                y_pred = [item[output_name] for item in output if output_name in item]
                 #y_pred = list(map(int, y_pred))
 
                 scores[tasks[0]] = {
@@ -157,9 +157,9 @@ for m in model_name:
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                 
-                output_column_header = 'output_' + tasks[0]
+                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_column_header] for item in output if output_column_header in item]
+                y_pred = [item[output_name] for item in output if output_name in item]
                 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
@@ -199,9 +199,9 @@ for m in model_name:
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                 
-                output_column_header = 'output_' + tasks[0]
+                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_column_header] for item in output if output_column_header in item]
+                y_pred = [item[output_name] for item in output if output_name in item]
                 
                 
                 #y_pred = [int(string) for string in y_pred]
@@ -220,12 +220,9 @@ for m in model_name:
 
                     y_true = str(input_i.get('label'))
 
-                    # Find the corresponding output dictionary based on 'input_id'
                     output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-
                     y_pred = output_i.get('output_sentiment analysis')
 
-                    # Compare y_true with y_pred
                     examples_task[input_id] = 1 if y_true == y_pred else 0
                 
                 examples['sentiment analysis'] = examples_task
@@ -266,7 +263,7 @@ for m in model_name:
                     'accuracy': metrics.accuracy_score(y_true, y_pred)
                 }
 
-                output_column_header = 'output_' + tasks[0]
+                output_name = 'output_' + tasks[0]
 
                 for input_i in data_text:
                     input_id = input_i.get(input_id_name)
@@ -276,7 +273,7 @@ for m in model_name:
                     # Find the corresponding output dictionary based on 'input_id'
                     output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
 
-                    y_pred = output_i.get(output_column_header)
+                    y_pred = output_i.get(output_name)
 
                     # Compare y_true with y_pred
                     examples_task[input_id] = 1 if y_true == y_pred else 0
@@ -292,44 +289,94 @@ for m in model_name:
                 scores = {}
                 examples = {}
                 examples_task = {}
+
+                output_name = 'output_' + tasks[0]
                 
-                
-                # load input
+                # load data
+
                 data_text = dataset(ds, ds_text_file_path).load()
 
-                # load output
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                 #output = output[:3] 
 
-                # 1. Get a new list "input_ids" that contains all input_ids from the list "output"
+
+                # get y_true and y_pred
+
                 input_ids = [item['text_input_id'] for item in output]
 
-                # 2. Get a list "y_true", in which the answer from the list "input" for each input_id is listed
-                input_dict = {item['input_id']: item['answer'] for item in data_text}
+                input_dict = {item[input_id_name]: item['answer'] for item in data_text}
                 y_true = [input_dict[id] for id in input_ids]
 
-                # 3. Get a list "y_pred", in which the "output_direct answer" from the list "output" for each input_id is listed
-                output_dict = {item['text_input_id']: item['output_direct answer'] for item in output}
+                output_dict = {item['text_input_id']: item[output_name] for item in output}
                 y_pred = [output_dict[id] for id in input_ids if id in output_dict]
+
+                # eval score
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred)
                 }
 
-                output_column_header = 'output_' + tasks[0]
+                # example indice
 
                 for output_i in output:
 
                     input_id = output_i.get('text_input_id')
-                    print(input_id)
 
-                    y_true = next((item['answer'] for item in data_text if item.get('input_id') == input_id), None)
-                    y_pred = next((item['output_direct answer'] for item in output if item.get('text_input_id') == input_id), None)
+                    y_true = next((item['answer'] for item in data_text if item.get(input_id_name) == input_id), None)
+                    y_pred = next((item[output_name] for item in output if item.get('text_input_id') == input_id), None)
                     
                     examples_task[input_id] = 1 if y_true == y_pred else 0
                     
                 examples[tasks[0]] = examples_task
+
+
+
+
+
+
+            if ds in ['esnlive']:
+
+
+                scores = {}
+                examples = {}
+                examples_task = {}
+
+                # load inputf
+                data_text = dataset(ds, ds_text_file_path).load()
+                y_true = [item["label"] for item in data_text if "label" in item]
+                
+                # load output
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+                
+                output_name = 'output_' + tasks[0]
+
+                y_pred = [item[output_name] for item in output if output_name in item]
+                
+                
+                #y_pred = [int(string) for string in y_pred]
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
+                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
+                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
+                }
+
+                
+                for input_i in data_text:
+
+                    input_id = input_i.get('id')
+
+                    y_true = str(input_i.get('label'))
+
+                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
+                    y_pred = output_i.get('output_sentiment analysis')
+
+                    examples_task[input_id] = 1 if y_true == y_pred else 0
+                
+                examples['sentiment analysis'] = examples_task
 
 
 
