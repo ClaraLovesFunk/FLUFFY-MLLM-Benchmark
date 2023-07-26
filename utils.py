@@ -98,7 +98,8 @@ class DatasetInfo():
             'hateful_memes': 'dev', 
             'clevr': 'val',
             'esnlive': 'test',
-            'gqa': 'val'
+            'gqa': 'val',
+            'scienceqa': 'test'
         }
         
         self.img_dataset_split = {
@@ -109,7 +110,8 @@ class DatasetInfo():
             'hateful_memes': 'all',
             'clevr': 'val',
             'esnlive': 'all',
-            'gqa': 'all'
+            'gqa': 'all',
+            'scienceqa': 'test'
         }
 
         self.img_dataset_name = {
@@ -120,7 +122,8 @@ class DatasetInfo():
             'hateful_memes': 'hateful_memes/images',
             'clevr': 'clevr/images',
             'esnlive': 'flickr30k_images',
-            'gqa': 'gqa/images'
+            'gqa': 'gqa/images',
+            'scienceqa': 'scienceqa/images'
         }
 
         self.tasks = {
@@ -131,7 +134,8 @@ class DatasetInfo():
             'hateful_memes': ['hate classification'],
             'clevr': ['direct answer'],
             'esnlive': ['entailment prediction'],
-            'gqa': ['direct answer']                                        
+            'gqa': ['direct answer'],
+            'scienceqa': ['multiple choice']                                        
         }
 
         self.input_id_name = {
@@ -142,7 +146,8 @@ class DatasetInfo():
             'hateful_memes': 'id',
             'clevr': 'input_id',
             'esnlive': 'question_id',
-            'gqa': 'question_id' #changed to input_id!!!!
+            'gqa': 'input_id',         #'question_id', #changed to input_id!!!!,
+            'scienceqa': 'input_id'
         } 
         
 
@@ -254,6 +259,10 @@ def get_img_path(dataset_name, images_dir_path, sample):
 
     if dataset_name =='gqa': 
         img_path = os.path.join(images_dir_path, sample['imageId'] + '.jpg')
+
+    if dataset_name =='scienceqa': 
+        img_path = os.path.join(images_dir_path, sample['imageId'],'image.png')
+
     
     return img_path
 
@@ -282,6 +291,9 @@ def get_text_input_id(dataset_name, sample):
         text_input_id = sample['question_id']
 
     if dataset_name =='gqa': 
+        text_input_id = sample['input_id']
+
+    if dataset_name =='scienceqa': 
         text_input_id = sample['input_id']
     
     return text_input_id
