@@ -1,8 +1,13 @@
+import os
+CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
+os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
+
+
 import argparse
 import torch
 import json
 import pandas as pd
-import os
+
 
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle
@@ -17,7 +22,6 @@ from io import BytesIO
 
 # Check if CUDA is available, else use CPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 
 
 
@@ -137,10 +141,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--conv-mode", type=str, default=None)
     args = parser.parse_args()
-
-    # Set the cache directory
-    os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR #'/home/users/cwicharz/data/huggingface_cache' # 
-
+    
     predict_dataset(args.dataset, args.model_path, args.conv_mode)
 
 
