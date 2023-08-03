@@ -90,5 +90,14 @@ benchmark_subsubheader = f"### {run}"
 space = '\n\n'
 
 
+# Add the Model Implementation section
+model_implementation_header = "\n\n## Model Implementation\n\n"
+model_implementation_text = "For some models, the respective GitHub repository needed to be cloned and files tweaked. The cloned and modified repositories are collected in `models`. To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md`, that can be found in `models/model_of_interest`.\n\n"
+
+# Combine the model implementation header and text
+model_implementation_section = model_implementation_header + model_implementation_text
+
+# Write the content to the README file
 with open("README.md", "w") as f:
-    f.write(heading + benchmark_subheader + space + benchmark_subsubheader + html )
+    f.write(heading + benchmark_subheader + space + benchmark_subsubheader + html)
+    f.write(model_implementation_section)
