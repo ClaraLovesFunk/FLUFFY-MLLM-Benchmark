@@ -165,4 +165,4 @@ if __name__ == "__main__":
 
 # cd models/LLaVA/llava/eval && python run_llava_clara.py --dataset /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/dev.json
 
-# python run_llava_clara.py --dataset /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/dev.json
+# python inference.py --dataset /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/dev.json
