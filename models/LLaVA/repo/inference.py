@@ -1,4 +1,10 @@
 import os
+import sys
+sys.path.insert(0, '/project/Testing-Multimodal-LLMs')
+
+# Now you can import your utils module
+import utils
+
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
 
