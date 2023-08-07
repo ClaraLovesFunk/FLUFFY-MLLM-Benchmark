@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.insert(0, '/project/Testing-Multimodal-LLMs')
-import utils
+from utils import *
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
@@ -93,7 +93,7 @@ def eval_model(args):
             input_ids,
             images=image_tensor,
             do_sample=True,
-            temperature=0.2,
+            temperature=0.1,        
             max_new_tokens=1024,
             use_cache=True,
             stopping_criteria=[stopping_criteria]).to(device)
@@ -127,18 +127,26 @@ def predict_dataset(dataset_path, model_path, conv_mode=None):
         if i >= 2:
             break
 
+        test_sample = row[1]
+        prompt = prompt_construct(test_sample, 'hate classification')
+        print(prompt)
+
+
         args = argparse.Namespace()
         args.model_path = model_path
         args.model_base = None
         
-        args.image_file = image_dir_path + row[1]['image_path']             
-        args.query = "Classify the following meme as 'hateful' or 'not-hateful'."
+        args.image_file = image_dir_path + test_sample['image_path']  
+        print(image_dir_path + test_sample['image_path'])
+
+        
+        args.query = prompt #"Classify the following meme as 'hateful' or 'not-hateful'."
         args.conv_mode = conv_mode
 
         output = eval_model(args)
 
         results.append({
-            "text_input_id": row[1]['id'],
+            "text_input_id": test_sample['id'],
             "output_hate_classification": output,
         })
     
