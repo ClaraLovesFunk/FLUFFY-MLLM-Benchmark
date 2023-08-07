@@ -20,10 +20,18 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-# Check if CUDA is available, else use CPU
+
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
+
+# PATHS
+
+#base_path = os.path.abspath(os.path.join(os.getcwd(), '../../../..'))
+
+image_dir_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/' #os.path.join(base_path, 'datasets/hateful_memes/images/all/', row['image_path'])
+output_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/experiments/llava/hateful_memes/run1/output.json' #os.path.join(base_path, 'experiments/llava/hateful_memes/run1/output.json')
 
 
 
@@ -109,16 +117,23 @@ def eval_model(args):
 
 
 def predict_dataset(dataset_path, model_path, conv_mode=None):
-    # Load the dataset
-    dataset = pd.read_json(dataset_path)
+    
+    dataset = pd.read_json(dataset_path) 
     results = []
+    
 
-    for i, row in dataset.iterrows():
+    
+    for i, row in enumerate(dataset.iterrows()):
+
+        if i >= 2:
+            break
+
         # For each instance in the dataset, prepare the arguments
         args = argparse.Namespace()
         args.model_path = model_path
         args.model_base = None
-        args.image_file = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/' + row['image_path'] ######################################################## CHANGE TO EITHER UNIFORM DS OR 
+        
+        args.image_file = image_dir_path + row[1]['image_path']             ######################################################## CHANGE TO EITHER UNIFORM DS OR 
         args.query = "Classify the following meme as 'hateful' or 'not-hateful'."
         args.conv_mode = conv_mode
 
@@ -126,12 +141,14 @@ def predict_dataset(dataset_path, model_path, conv_mode=None):
         output = eval_model(args)
         # Save the result
         results.append({
-            "text_input_id": row['id'],
+            "text_input_id": row[1]['id'],
             "output_hate_classification": output,
         })
+    
+    
 
     # Write results to output.json
-    with open('experiments/llava/hateful_memes/run1/output.json', 'w') as f:
+    with open(output_path, 'w') as f:
         json.dump(results, f)
 
 
