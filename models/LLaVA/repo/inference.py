@@ -1,8 +1,6 @@
 import os
 import sys
 sys.path.insert(0, '/project/Testing-Multimodal-LLMs')
-
-# Now you can import your utils module
 import utils
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
@@ -31,10 +29,6 @@ from io import BytesIO
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-
-# PATHS
-
-#base_path = os.path.abspath(os.path.join(os.getcwd(), '../../../..'))
 
 image_dir_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/' #os.path.join(base_path, 'datasets/hateful_memes/images/all/', row['image_path'])
 output_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/experiments/llava/hateful_memes/run1/output.json' #os.path.join(base_path, 'experiments/llava/hateful_memes/run1/output.json')
@@ -85,8 +79,7 @@ def eval_model(args):
     prompt = conv.get_prompt()
 
     image = load_image(args.image_file)
-    image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(device) ######### ORIGINAL!!!!!!!!!!
-    #image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].float().to(device)  ######### DELETE!!!!!!!!!!
+    image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(device) 
 
     input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(device)
 
@@ -95,7 +88,7 @@ def eval_model(args):
     stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
 
     with torch.inference_mode():
-        #model.float() ################################################ DELETE!!!!
+
         output_ids = model.generate(
             input_ids,
             images=image_tensor,
@@ -118,7 +111,7 @@ def eval_model(args):
     if outputs.endswith(stop_str):
         outputs = outputs[:-len(stop_str)]
     outputs = outputs.strip()
-    # Return output instead of printing it
+
     return outputs
 
 
@@ -134,26 +127,22 @@ def predict_dataset(dataset_path, model_path, conv_mode=None):
         if i >= 2:
             break
 
-        # For each instance in the dataset, prepare the arguments
         args = argparse.Namespace()
         args.model_path = model_path
         args.model_base = None
         
-        args.image_file = image_dir_path + row[1]['image_path']             ######################################################## CHANGE TO EITHER UNIFORM DS OR 
+        args.image_file = image_dir_path + row[1]['image_path']             
         args.query = "Classify the following meme as 'hateful' or 'not-hateful'."
         args.conv_mode = conv_mode
 
-        # Predict
         output = eval_model(args)
-        # Save the result
+
         results.append({
             "text_input_id": row[1]['id'],
             "output_hate_classification": output,
         })
     
     
-
-    # Write results to output.json
     with open(output_path, 'w') as f:
         json.dump(results, f)
 
