@@ -1,10 +1,10 @@
 import os
 import sys
 
-CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
-os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
+#CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
+#os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
 
-sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/models/LLaVA/repo')
+sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/models/llava/repo')
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle
 from llava.model.builder import load_pretrained_model
@@ -116,6 +116,8 @@ def eval_model(args):
 
 def predict_dataset(dataset_path, model_path, conv_mode=None):
     
+    print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") ######################### DELETE
+
     dataset = pd.read_json(dataset_path) 
     results = []
     

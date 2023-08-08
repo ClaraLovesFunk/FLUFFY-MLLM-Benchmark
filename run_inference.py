@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 
-import argparse
 import os
+
+CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
+os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
+
+import sys
+import argparse
 import subprocess
 
 def run_inference(model, dataset):
     # Base directories for models and datasets
     base_model_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/models"
     base_dataset_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets"
-    venv_base_dir = "/home/users/cwicharz/venvs" # Assuming virtual environments are in this directory
+    venv_base_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/venvs" # Assuming virtual environments are in this directory
 
     # Construct full paths
     model_path = os.path.join(base_model_dir, model)
@@ -30,7 +35,9 @@ def run_inference(model, dataset):
 
     # Run inference script using the Python interpreter from the virtual environment
     cmd = [venv_path, os.path.join(model_path, "inference.py"), "--dataset", dataset_path]
-    subprocess.run(cmd)
+    env = os.environ.copy()  # Get the current environment variables.
+    env["TRANSFORMERS_CACHE"] = CACHE_DIR
+    subprocess.run(cmd, env=env)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run inference on a model with a given dataset.")
