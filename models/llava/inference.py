@@ -123,8 +123,8 @@ def predict_dataset(dataset_path, model_path, conv_mode=None):
     
     for i, row in enumerate(dataset.iterrows()):
 
-        if i >= 2:
-            break
+        #if i >= 2:
+        #    break
 
         test_sample = row[1]
         prompt = prompt_construct(test_sample, 'hate classification')
