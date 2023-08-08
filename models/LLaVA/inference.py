@@ -1,24 +1,23 @@
 import os
 import sys
-sys.path.insert(0, '/project/Testing-Multimodal-LLMs')
-from utils import *
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
 
-
-import argparse
-import torch
-import json
-import pandas as pd
-
-
+sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/models/LLaVA/repo')
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle
 from llava.model.builder import load_pretrained_model
 from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
+sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs')
+from utils import *
+
+import argparse
+import torch
+import json
+import pandas as pd
 from PIL import Image
 import requests
 from PIL import Image
@@ -129,16 +128,12 @@ def predict_dataset(dataset_path, model_path, conv_mode=None):
 
         test_sample = row[1]
         prompt = prompt_construct(test_sample, 'hate classification')
-        print(prompt)
-
 
         args = argparse.Namespace()
         args.model_path = model_path
         args.model_base = None
         
         args.image_file = image_dir_path + test_sample['image_path']  
-        print(image_dir_path + test_sample['image_path'])
-
         
         args.query = prompt #"Classify the following meme as 'hateful' or 'not-hateful'."
         args.conv_mode = conv_mode
