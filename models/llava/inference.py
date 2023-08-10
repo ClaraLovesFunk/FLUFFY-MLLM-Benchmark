@@ -12,7 +12,7 @@ from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
 sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs')
-from utils import *
+from utils_llava import *
 
 import argparse
 import torch
@@ -27,13 +27,18 @@ from io import BytesIO
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+def get_info(dataset_name, model_name, run):
 
+    dataset_info = DatasetInfo(dataset_name)
+    img_dataset_name = dataset_info.get_img_dataset_name()
+    tasks = dataset_info.get_tasks()
 
-image_dir_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/' #os.path.join(base_path, 'datasets/hateful_memes/images/all/', row['image_path'])
-output_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/experiments/llava/hateful_memes/run1/output.json' #os.path.join(base_path, 'experiments/llava/hateful_memes/run1/output.json')
+    base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
+    ds_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
+    image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
+    output_path = os.path.join(base_path, 'experimentsl', model_name, dataset_name, 'run' + run, 'output.json' )
 
-
-
+    return tasks, ds_path, image_dir_path, output_path
 
 
 
@@ -114,36 +119,39 @@ def eval_model(args):
     return outputs
 
 
-def predict_dataset(dataset_path, model_path, conv_mode=None):
+def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     
-    print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") ######################### DELETE
+    print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") 
+
+    # get infos
+    tasks, dataset_path, image_dir_path, output_path = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
 
     dataset = pd.read_json(dataset_path) 
+    data_list = dataset['data'].tolist()
+    print('test')
+    print(data_list)
+    
     results = []
     
 
-    
-    for i, row in enumerate(dataset.iterrows()):
+    # ADD LOOP THROUGH TASKS
+    for test_sample in data_list[:2]: ########
 
-        if i >= 2:
-            break
-
-        test_sample = row[1]
-        prompt = prompt_construct(test_sample, 'hate classification')
+        prompt = prompt_construct(test_sample, tasks[0]) #################### ADD LOOP THROUGH TASKS
 
         args = argparse.Namespace()
         args.model_path = model_path
         args.model_base = None
         
-        args.image_file = image_dir_path + test_sample['image_path']  
+        args.image_file = image_dir_path + test_sample['image_id']  
         
-        args.query = prompt #"Classify the following meme as 'hateful' or 'not-hateful'."
+        args.query = prompt 
         args.conv_mode = conv_mode
 
         output = eval_model(args)
 
         results.append({
-            "text_input_id": test_sample['id'],
+            "text_input_id": test_sample['text_input_id'],     
             "output_hate_classification": output,
         })
     
@@ -157,12 +165,14 @@ if __name__ == "__main__":
     parser.add_argument("--model-path", type=str, default="liuhaotian/llava-llama-2-13b-chat-lightning-preview")
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--conv-mode", type=str, default=None)
+    parser.add_argument("--run", type=str, default="1")
     args = parser.parse_args()
     
-    predict_dataset(args.dataset, args.model_path, args.conv_mode)
+    predict_dataset(dataset_name = args.dataset, model_path = args.model_path, run = args.run, conv_mode=args.conv_mode)
 
 
+# cd models/llava
 
-# cd models/LLaVA/llava/eval && python run_llava_clara.py --dataset /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/dev.json
+# python inference.py --dataset hateful_memes
 
-# python inference.py --dataset /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/dev.json
+

@@ -73,7 +73,8 @@ def prompt_construct(test_sample, task):
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
     if task == 'hate classification':
-        text_input = test_sample['text']
+        
+        text_input = test_sample['text_input']
         instruction = "Classify the following meme as 'hateful' or 'not-hateful'. Answer only with 'hateful' or 'not-hateful', no further explainations."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
 
@@ -125,8 +126,8 @@ class DatasetInfo():
             'aokvqa': 'coco2017',
             'okvqa': 'coco2017', 
             'mvsa': 'mvsa/images',
-            'mami': 'mami/images',
-            'hateful_memes': 'hateful_memes/images',
+            'mami': 'mami/images/all',
+            'hateful_memes': 'hateful_memes/images/all',
             'clevr': 'clevr/images',
             'esnlive': 'flickr30k_images',
             'gqa': 'gqa/images',
