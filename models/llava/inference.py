@@ -22,6 +22,7 @@ from PIL import Image
 import requests
 from PIL import Image
 from io import BytesIO
+import time
 
 
 
@@ -32,14 +33,16 @@ def get_info(dataset_name, model_name, run):
     dataset_info = DatasetInfo(dataset_name)
     img_dataset_name = dataset_info.get_img_dataset_name()
     tasks = dataset_info.get_tasks()
+    split = dataset_info.get_text_dataset_split()
 
     base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
     ds_file_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
     image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
     output_dir_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run)
     output_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
+    config_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'config.json' )
 
-    return tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path
+    return tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split
 
 
 
@@ -125,7 +128,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") 
 
     # get infos
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
 
     dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
@@ -133,6 +136,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     
     results = []
     
+    run_time_inference_start = time.time()
 
     # ADD LOOP THROUGH TASKS
     for test_sample in data_list[:2]: ########
@@ -154,13 +158,26 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
             "text_input_id": test_sample['text_input_id'],     
             "output_hate_classification": output,
         })
+
+    run_time_inference_end = time.time()
+    run_time_inference = int(run_time_inference_end - run_time_inference_start)/60
     
-    
+    config = {
+        'model': 'llava',
+        'dataset': dataset_name,
+        'split': split,
+        'run': run,
+        'run time inference':run_time_inference
+    }
+
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
 
     with open(output_file_path, 'w') as f:
         json.dump(results, f)
+
+    with open(config_file_path, 'w') as f:
+        json.dump(config, f)
 
 
 if __name__ == "__main__":
