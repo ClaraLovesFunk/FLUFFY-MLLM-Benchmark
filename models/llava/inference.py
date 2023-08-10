@@ -34,11 +34,12 @@ def get_info(dataset_name, model_name, run):
     tasks = dataset_info.get_tasks()
 
     base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
-    ds_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
+    ds_file_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
     image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
-    output_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
+    output_dir_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run)
+    output_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
 
-    return tasks, ds_path, image_dir_path, output_path
+    return tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path
 
 
 
@@ -97,7 +98,7 @@ def eval_model(args):
             input_ids,
             images=image_tensor,
             do_sample=True,
-            temperature=0.1,        
+            temperature=0.001,   #smallest possible temperature     
             max_new_tokens=1024,
             use_cache=True,
             stopping_criteria=[stopping_criteria]).to(device)
@@ -124,9 +125,9 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") 
 
     # get infos
-    tasks, dataset_path, image_dir_path, output_path = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
 
-    dataset = pd.read_json(dataset_path) 
+    dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
     
     
@@ -155,7 +156,10 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
         })
     
     
-    with open(output_path, 'w') as f:
+    if not os.path.exists(output_dir_path):
+        os.makedirs(output_dir_path)
+
+    with open(output_file_path, 'w') as f:
         json.dump(results, f)
 
 

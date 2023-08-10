@@ -44,31 +44,31 @@ def prompt_construct(test_sample, task):
      
 
     if task == 'direct answer': 
-        text_input = test_sample['question']
+        text_input = test_sample['text_input']
         instruction = 'Answer the following question! '
         prompt =  instruction +  '\n' + question_formal +  text_input +  '\n' + answer_formal
 
     if task == 'multiple choice': 
-        text_input = test_sample['question']
+        text_input = test_sample['text_input']
         instruction = 'Answer the following question by selecting from the choices below! '
         choices_content = test_sample['choices']
         choices_content = ', '.join(choices_content)
         prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
     
     if task == 'multiple choice (sqa)': 
-        text_input = test_sample['question']
+        text_input = test_sample['text_input']
         instruction = 'Answer the following question by giving the zero-based index of the selected answer. If you want to select the first answer, write "0", if you want to select the second answer, write "1" and so on.'
         choices_content = test_sample['choices']
         choices_content = ', '.join(choices_content)
         prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
     
     if task == 'sentiment analysis':
-        text_input = test_sample['text']
+        text_input = test_sample['text_input']
         instruction = 'Predict the sentiment of the tweet in combination with the image! The sentiment can be either "Positive", "Negative" or "Neutral".'
         prompt =  instruction +  '\n' +  tweet_formal + text_input + '\n' + sentiment_formal
 
     if task == 'sexism classification':
-        text_input = test_sample['text']
+        text_input = test_sample['text_input']
         instruction = "Classify the following meme as 'sexist' or 'not-sexist'."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + sexist_label_formal
 
@@ -79,7 +79,7 @@ def prompt_construct(test_sample, task):
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
 
     if task == 'entailment prediction':
-        text_input = test_sample['sent']
+        text_input = test_sample['text_input']
         instruction = '''
                         Classify the following image as 'entailment', if there is enough evidence in the image to conclude that the following hypothesis is true. 
                         Classify the following image as 'contradiction', if there is enough evidence in the image to conclude that the following hypothesis is false.

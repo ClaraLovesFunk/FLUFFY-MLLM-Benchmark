@@ -16,7 +16,7 @@ def run_inference(model_name, dataset_name):
     venv_base_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/venvs" 
 
     model_path = os.path.join(base_model_dir, model_name)
-    dataset_path = os.path.join(base_dataset_dir, dataset_name, "dev.json")
+    #dataset_path = os.path.join(base_dataset_dir, dataset_name, "dev.json")
     venv_path = os.path.join(venv_base_dir, model_name, "bin", "python") # Using the Python interpreter directly
 
     # Ensure model, dataset directories/files and virtual environment exist
@@ -24,9 +24,9 @@ def run_inference(model_name, dataset_name):
         print(f"Model path {model_path} does not exist!")
         return
 
-    if not os.path.exists(dataset_path):
+    '''if not os.path.exists(dataset_path):
         print(f"Dataset path {dataset_path} does not exist!")
-        return
+        return'''
 
     if not os.path.exists(venv_path):
         print(f"Virtual environment for {model_name} does not exist!")
@@ -49,4 +49,4 @@ if __name__ == "__main__":
 
 
 
-# python3 run_inference.py -model llava -dataset hateful_memes
+# python3 run_inference.py -model llava -dataset mami
