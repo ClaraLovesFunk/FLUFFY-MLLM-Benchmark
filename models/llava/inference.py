@@ -36,7 +36,7 @@ def get_info(dataset_name, model_name, run):
     base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
     ds_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
     image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
-    output_path = os.path.join(base_path, 'experimentsl', model_name, dataset_name, 'run' + run, 'output.json' )
+    output_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
 
     return tasks, ds_path, image_dir_path, output_path
 
@@ -128,8 +128,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
 
     dataset = pd.read_json(dataset_path) 
     data_list = dataset['data'].tolist()
-    print('test')
-    print(data_list)
+    
     
     results = []
     
@@ -143,7 +142,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
         args.model_path = model_path
         args.model_base = None
         
-        args.image_file = image_dir_path + test_sample['image_id']  
+        args.image_file = os.path.join(image_dir_path, test_sample['image_id']) 
         
         args.query = prompt 
         args.conv_mode = conv_mode
@@ -174,5 +173,3 @@ if __name__ == "__main__":
 # cd models/llava
 
 # python inference.py --dataset hateful_memes
-
-
