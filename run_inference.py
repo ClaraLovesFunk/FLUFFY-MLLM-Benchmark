@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 
 import os
+import itertools
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
 
-import sys
 import argparse
 import subprocess
+
+# Defining all models and datasets
+ds_name_all = ['hateful_memes'] # ,'mvsa', 'okvqa', 'esnlive', 'scienceqa' #, 'clevr', 'gqa', 'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive', 'scienceqa'] #['hateful_memes', 'mami'] #
+model_name_all = ['llava']  
 
 def run_inference(model_name, dataset_name):
     
@@ -16,17 +20,12 @@ def run_inference(model_name, dataset_name):
     venv_base_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/venvs" 
 
     model_path = os.path.join(base_model_dir, model_name)
-    #dataset_path = os.path.join(base_dataset_dir, dataset_name, "dev.json")
     venv_path = os.path.join(venv_base_dir, model_name, "bin", "python") # Using the Python interpreter directly
 
     # Ensure model, dataset directories/files and virtual environment exist
     if not os.path.exists(model_path):
         print(f"Model path {model_path} does not exist!")
         return
-
-    '''if not os.path.exists(dataset_path):
-        print(f"Dataset path {dataset_path} does not exist!")
-        return'''
 
     if not os.path.exists(venv_path):
         print(f"Virtual environment for {model_name} does not exist!")
@@ -38,15 +37,27 @@ def run_inference(model_name, dataset_name):
     env["TRANSFORMERS_CACHE"] = CACHE_DIR
     subprocess.run(cmd, env=env)
 
+def run_all_inferences(model_names, dataset_names):
+    for model, dataset in itertools.product(model_names, dataset_names):
+        try:
+            run_inference(model, dataset)
+            
+        except Exception as e:
+            print(f"Error running inference for model {model} on dataset {dataset}. Error: {e}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run inference on a model with a given dataset.")
-    parser.add_argument("-model", type=str, required=True, help="Name of the model.")
-    parser.add_argument("-dataset", type=str, required=True, help="Name of the dataset.")
+    parser.add_argument("-models", type=str, nargs='+', required=True, help="List of model names separated by spaces. Use 'all' for all models.")
+    parser.add_argument("-datasets", type=str, nargs='+', required=True, help="List of dataset names separated by spaces. Use 'all' for all datasets.")
     
     args = parser.parse_args()
 
-    run_inference(args.model, args.dataset)
+    # Replace 'all' with the respective list of all models or datasets
+    if 'all' in args.models:
+        args.models = model_name_all
+    if 'all' in args.datasets:
+        args.datasets = ds_name_all
 
+    run_all_inferences(args.models, args.datasets)
 
-
-# python3 run_inference.py -model llava -dataset mami
+# python3 run_inference.py -models all -datasets all

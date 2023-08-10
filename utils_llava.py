@@ -51,14 +51,14 @@ def prompt_construct(test_sample, task):
     if task == 'multiple choice': 
         text_input = test_sample['text_input']
         instruction = 'Answer the following question by selecting from the choices below! '
-        choices_content = test_sample['choices']
+        choices_content = test_sample['answer_choices']
         choices_content = ', '.join(choices_content)
         prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
     
     if task == 'multiple choice (sqa)': 
         text_input = test_sample['text_input']
         instruction = 'Answer the following question by giving the zero-based index of the selected answer. If you want to select the first answer, write "0", if you want to select the second answer, write "1" and so on.'
-        choices_content = test_sample['choices']
+        choices_content = test_sample['answer_choices']
         choices_content = ', '.join(choices_content)
         prompt =  instruction +  '\n' + question_formal +  text_input + '\n' + choices_formal  + choices_content + choices_end_formal +  '\n' + answer_formal
     
@@ -123,15 +123,15 @@ class DatasetInfo():
         }
 
         self.img_dataset_name = {
-            'aokvqa': 'coco2017',
-            'okvqa': 'coco2017', 
-            'mvsa': 'mvsa/images',
+            'aokvqa': 'coco2017/val',
+            'okvqa': 'coco2017/all', 
+            'mvsa': 'mvsa/images/all',
             'mami': 'mami/images/all',
             'hateful_memes': 'hateful_memes/images/all',
-            'clevr': 'clevr/images',
-            'esnlive': 'flickr30k_images',
-            'gqa': 'gqa/images',
-            'scienceqa': 'scienceqa/images'
+            'clevr': 'clevr/images/val',
+            'esnlive': 'flickr30k_images/all',
+            'gqa': 'gqa/images/all',
+            'scienceqa': 'scienceqa/images/test'
         }
 
         self.tasks = {

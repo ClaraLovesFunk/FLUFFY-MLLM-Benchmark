@@ -134,30 +134,36 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     data_list = dataset['data'].tolist()
     
     
-    results = []
+   
     
     run_time_inference_start = time.time()
 
-    # ADD LOOP THROUGH TASKS
+   
+    pred = []
+
     for test_sample in data_list[:2]: ########
 
-        prompt = prompt_construct(test_sample, tasks[0]) #################### ADD LOOP THROUGH TASKS
+        output_sample = {'text_input_id': test_sample['text_input_id']}
 
-        args = argparse.Namespace()
-        args.model_path = model_path
-        args.model_base = None
-        
-        args.image_file = os.path.join(image_dir_path, test_sample['image_id']) 
-        
-        args.query = prompt 
-        args.conv_mode = conv_mode
+        for t in tasks:
 
-        output = eval_model(args)
+            prompt = prompt_construct(test_sample, t)
 
-        results.append({
-            "text_input_id": test_sample['text_input_id'],     
-            "output_hate_classification": output,
-        })
+            args = argparse.Namespace()
+            args.model_path = model_path
+            args.model_base = None
+            
+            args.image_file = os.path.join(image_dir_path, test_sample['image_id']) 
+            
+            args.query = prompt 
+            args.conv_mode = conv_mode
+
+            output = eval_model(args)
+
+            output_name = 'output_' + t
+            output_sample.update({output_name: output[0]})
+
+        pred.append(output_sample)
 
     run_time_inference_end = time.time()
     run_time_inference = int(run_time_inference_end - run_time_inference_start)/60
@@ -174,7 +180,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
         os.makedirs(output_dir_path)
 
     with open(output_file_path, 'w') as f:
-        json.dump(results, f)
+        json.dump(pred, f)
 
     with open(config_file_path, 'w') as f:
         json.dump(config, f)
