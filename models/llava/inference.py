@@ -55,13 +55,9 @@ def load_image(image_file):
     return image
 
 
-def eval_model(args):
+def eval_model(args, tokenizer, model, image_processor, model_name):
 
-    # Model
-    disable_torch_init()
 
-    model_name = get_model_name_from_path(args.model_path)
-    tokenizer, model, image_processor, context_len = load_pretrained_model(args.model_path, args.model_base, model_name)
 
     qs = args.query
     if model.config.mm_use_im_start_end:
@@ -127,6 +123,12 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     
     print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") 
 
+    # Model
+    disable_torch_init()
+
+    model_name = get_model_name_from_path(model_path)
+    tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, None, model_name)
+
     # get infos
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
 
@@ -141,14 +143,15 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
    
     pred = []
 
-    for test_sample in data_list[:2]: ########
+    for test_sample in data_list[:3]: ########data_list[:2]
 
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
         for t in tasks:
 
             prompt = prompt_construct(test_sample, t)
-            
+            print(f'prompt: {prompt}')
+
             args = argparse.Namespace()
             args.model_path = model_path
             args.model_base = None
@@ -158,8 +161,8 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
             args.query = prompt 
             args.conv_mode = conv_mode
 
-            output = eval_model(args)
-         
+            output = eval_model(args, tokenizer, model, image_processor, model_name)
+            print(f'output: {output}')
             output_name = 'output_' + t
             output_sample.update({output_name: output}) ######output[0]
 
