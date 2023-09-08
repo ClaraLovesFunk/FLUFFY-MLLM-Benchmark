@@ -148,7 +148,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
         for t in tasks:
 
             prompt = prompt_construct(test_sample, t)
-
+            
             args = argparse.Namespace()
             args.model_path = model_path
             args.model_base = None
@@ -159,9 +159,9 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
             args.conv_mode = conv_mode
 
             output = eval_model(args)
-
+         
             output_name = 'output_' + t
-            output_sample.update({output_name: output[0]})
+            output_sample.update({output_name: output}) ######output[0]
 
         pred.append(output_sample)
 
