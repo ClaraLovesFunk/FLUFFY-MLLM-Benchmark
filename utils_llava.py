@@ -75,7 +75,7 @@ def prompt_construct(test_sample, task):
     if task == 'hate classification':
         
         text_input = test_sample['text_input']
-        instruction = "Classify the following meme as 'hateful' or 'not-hateful'. Answer only with 'hateful' or 'not-hateful', no further explainations."
+        instruction = "Classify the meme as either 'hateful' or 'not-hateful'. Respond only with one of these two options."
         prompt =  instruction +  '\n' +  meme_text_formal + text_input + '\n' + hate_label_formal
 
     if task == 'entailment prediction':
