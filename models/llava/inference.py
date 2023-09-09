@@ -143,14 +143,14 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
    
     pred = []
 
-    for test_sample in data_list[:3]: ########data_list[:2]
+    for test_sample in data_list: ########data_list[:2]
 
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
         for t in tasks:
 
             prompt = prompt_construct(test_sample, t)
-            print(f'prompt: {prompt}')
+            
 
             args = argparse.Namespace()
             args.model_path = model_path
@@ -162,7 +162,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
             args.conv_mode = conv_mode
 
             output = eval_model(args, tokenizer, model, image_processor, model_name)
-            print(f'output: {output}')
+            
             output_name = 'output_' + t
             output_sample.update({output_name: output}) ######output[0]
 
@@ -200,6 +200,6 @@ if __name__ == "__main__":
     predict_dataset(dataset_name = args.dataset, model_path = args.model_path, run = args.run, conv_mode=args.conv_mode)
 
 
+# source venvs/llava/bin/activate
 # cd models/llava
-
 # python inference.py --dataset hateful_memes
