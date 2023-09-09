@@ -15,7 +15,7 @@ model, image_processor, tokenizer = create_model_and_transforms(
     lang_encoder_path="anas-awadalla/mpt-7b",
     tokenizer_path="anas-awadalla/mpt-7b",
     cross_attn_every_n_layers=4
-
+)
 
 # grab model checkpoint from huggingface hub
 from huggingface_hub import hf_hub_download
@@ -74,10 +74,19 @@ Details: In the text we expect an <image> special token to indicate where an ima
  portion associated with an image.
 """
 tokenizer.padding_side = "left" # For generation padding tokens should be on the left
+
+
+'''lang_x = tokenizer(
+    ["Tell me what is in this image in one word: <image>."], #######"<image>An image of two cats.<|endofchunk|><image>An image of a bathroom sink.<|endofchunk|><image>An image of"
+    return_tensors="pt",
+)
+'''
+
 lang_x = tokenizer(
     ["<image>An image of two cats.<|endofchunk|><image>An image of a bathroom sink.<|endofchunk|><image>An image of"],
     return_tensors="pt",
 )
+
 
 
 """
