@@ -10,7 +10,7 @@ import argparse
 import subprocess
 
 # Defining all models and datasets
-ds_name_all = ['hateful_memes'] # ,'mvsa', 'okvqa', 'esnlive', 'scienceqa' #, 'clevr', 'gqa', 'aokvqa', 'hateful_memes', 'mami', 'mvsa', 'okvqa', 'clevr', 'gqa', 'esnlive', 'scienceqa'] #['hateful_memes', 'mami'] #
+ds_name_all = ['aokvqa', 'okvqa', 'hateful_memes', 'mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa']
 model_name_all = ['llava']  
 
 def run_inference(model_name, dataset_name):
@@ -61,3 +61,4 @@ if __name__ == "__main__":
     run_all_inferences(args.models, args.datasets)
 
 # python3 run_inference.py -models all -datasets all
+# python3 run_inference.py -models all -datasets mvsa

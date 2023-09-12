@@ -389,7 +389,7 @@ print("Generated text: ", tokenizer.decode(generated_text[0]))
 
 end_time= time.time()
 run_time = end_time - start_time
-print(run_time)
+print(f'runtime: {run_time}')
 
 
 # source venvs/openflamingo/bin/activate
