@@ -85,7 +85,7 @@ def add_top_header_border(html_str):
 html = add_top_header_border(html)
 
 # Add the image at the top of the README
-image = "![](utils_general/fluffy.png){:width='100%'}\n\n"
+image = '<img src="utils_general/fluffy.png" width="100%" />\n\n'
 benchmark_subheader = "## Benchmark\n\n"
 benchmark_subsubheader = f"### {run}"
 space = '\n\n'
