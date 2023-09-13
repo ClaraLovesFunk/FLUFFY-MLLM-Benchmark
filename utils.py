@@ -360,3 +360,33 @@ def get_text_input_id(dataset_name, sample):
     
     return text_input_id
 
+
+
+
+
+
+def get_info(dataset_name, model_name, run):
+
+    dataset_info = DatasetInfo(dataset_name)
+    img_dataset_name = dataset_info.get_img_dataset_name()
+    tasks = dataset_info.get_tasks()
+    split = dataset_info.get_text_dataset_split()
+
+    base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
+    ds_file_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
+    image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
+    output_dir_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run)
+    output_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
+    config_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'config.json' )
+
+    return tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split
+
+
+
+def load_image(image_file):
+    if image_file.startswith('http') or image_file.startswith('https'):
+        response = requests.get(image_file)
+        image = Image.open(BytesIO(response.content)).convert('RGB')
+    else:
+        image = Image.open(image_file).convert('RGB')
+    return image
