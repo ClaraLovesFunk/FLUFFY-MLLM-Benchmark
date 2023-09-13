@@ -8,6 +8,8 @@ import random
 import pandas as pd
 from PIL import Image
 from PIL import ImageOps
+import requests
+from io import BytesIO
 
 
 # from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
@@ -373,7 +375,7 @@ def get_info(dataset_name, model_name, run):
     split = dataset_info.get_text_dataset_split()
 
     base_path = '/home/users/cwicharz/project/Testing-Multimodal-LLMs'
-    ds_file_path = os.path.join(base_path, 'datasets', args.dataset, 'ds_benchmark.json')
+    ds_file_path = os.path.join(base_path, 'datasets', dataset_name, 'ds_benchmark.json')
     image_dir_path = os.path.join(base_path, 'datasets', img_dataset_name) 
     output_dir_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run)
     output_file_path = os.path.join(base_path, 'experiments', model_name, dataset_name, 'run' + run, 'output.json' )
