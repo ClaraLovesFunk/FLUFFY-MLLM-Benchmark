@@ -115,5 +115,5 @@
 
 ## Model Implementation
 
-For some models, the respective GitHub repository needed to be cloned and files tweaked. The cloned and modified repositories are collected in `models`. To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md`, that can be found in `models/model_of_interest`.
+For some models, the respective GitHub repository needed to be cloned and files tweaked. The cloned and modified repositories are collected in `models`. To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md` that can be found in `models/model_of_interest`.
 
