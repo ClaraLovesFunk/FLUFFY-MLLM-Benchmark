@@ -8,6 +8,7 @@ import os
 import time
 import random
 from utils import *
+from prompts import *
 
 
 os.environ["TRANSFORMERS_CACHE"] = '/home/users/cwicharz/data/huggingface_cache'

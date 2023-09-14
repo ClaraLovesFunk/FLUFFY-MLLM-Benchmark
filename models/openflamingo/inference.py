@@ -11,11 +11,14 @@ import torch
 from open_flamingo import create_model_and_transforms
 import time
 import argparse
+import pandas as pd
+import json
 
 
 import sys
 sys.path.append('../../')
-from utils import *
+import utils 
+import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -37,7 +40,7 @@ def eval_model(prompt, image_file):
     model.load_state_dict(torch.load(checkpoint_path), strict=False)
     model.to(device)
 
-    image = load_image(image_file)
+    image = utils.load_image(image_file)
     vision_x = image_processor(image).unsqueeze(0).to(device)
     vision_x = vision_x.unsqueeze(1).unsqueeze(0)
 
@@ -58,7 +61,7 @@ def eval_model(prompt, image_file):
 
 
 
-def predict_dataset(dataset_name, model_path, run):
+def predict_dataset(dataset_name, model_path, run, n_ic_samples):
     # This function will run the OpenFlamingo model on a dataset
 
     # We won't download the model in this function. This will be done in eval_model function
@@ -66,7 +69,7 @@ def predict_dataset(dataset_name, model_path, run):
     # Finally, we'll write the predictions and configuration to files
 
     # get infos
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name = dataset_name, model_name = 'openflamingo', run = run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name = dataset_name, model_name = 'openflamingo', run = run)
     dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
     
@@ -74,10 +77,12 @@ def predict_dataset(dataset_name, model_path, run):
     pred = []
 
     for test_sample in data_list[:2]:
+
+
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
         for t in tasks:
-            prompt = prompt_construct(test_sample, t)
+            prompt = prompts.prompt_construct_fewshot_openflamingo(test_sample, t) ######### continue!!!!!
             image_file = os.path.join(image_dir_path, test_sample['image_id'])
             output = eval_model(prompt, image_file)
 
