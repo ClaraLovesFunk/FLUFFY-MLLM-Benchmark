@@ -29,7 +29,7 @@ def get_coco_path(split, image_id, coco_dir):
 
 
 
-def prompt_construct(test_sample, task):
+def prompt_construct(test_sample, task): ##### rename to prompt_construct_zeroshot
 
     question_formal = 'Questions: '
     choices_formal = 'Choices: '
@@ -42,9 +42,6 @@ def prompt_construct(test_sample, task):
     hate_label_formal = 'Hate Label: '
     hypothesis_text_formal = 'Hypothesis: '
     entailment_label = 'Answer: '
-
-     
-
 
     if task == 'direct answer (aokvqa)': 
         text_input = test_sample['text_input']
@@ -144,6 +141,11 @@ def prompt_construct(test_sample, task):
 
     return prompt
 
+
+
+
+
+    
 
 
 
