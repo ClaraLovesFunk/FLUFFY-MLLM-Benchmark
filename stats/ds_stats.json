@@ -1,0 +1,14 @@
+{
+    "datasets": {
+        "scienceqa": 2017,
+        "okvqa": 5046,
+        "clevr": 1000,
+        "mvsa": 3948,
+        "hateful_memes": 500,
+        "aokvqa": 1145,
+        "gqa": 1000,
+        "mami": 1000,
+        "esnlive": 14740
+    },
+    "total_instances": 30396
+}
