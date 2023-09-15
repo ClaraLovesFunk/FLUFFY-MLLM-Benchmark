@@ -184,10 +184,10 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
         os.makedirs(output_dir_path)
 
     with open(output_file_path, 'w') as f:
-        json.dump(pred, f)
+        json.dump(pred, f, indent=4)
 
     with open(config_file_path, 'w') as f:
-        json.dump(config, f)
+        json.dump(config, f, indent=4)
 
 
 if __name__ == "__main__":

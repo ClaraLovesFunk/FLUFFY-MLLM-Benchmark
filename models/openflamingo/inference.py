@@ -16,8 +16,12 @@ import json
 
 
 import sys
-sys.path.append('../../')
-import utils 
+root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(root_directory)
+print(sys.path)
+
+
+import utils  
 import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -114,9 +118,9 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
     with open(output_file_path, 'w') as f:
-        json.dump(pred, f)
+        json.dump(pred, f, indent=4)
     with open(config_file_path, 'w') as f:
-        json.dump(config, f)
+        json.dump(config, f, indent=4)
 
 
 
@@ -124,7 +128,7 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
 
 if __name__ == "__main__":
 
-    start_time= time.time() 
+    
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, required=True)
@@ -133,9 +137,7 @@ if __name__ == "__main__":
     
     predict_dataset(dataset_name = args.dataset, model_path = None, run = args.run)
 
-    end_time= time.time()
-    run_time = (end_time - start_time)/60
-    print(f'runtime (min): {run_time}')
+    
 
 
 
