@@ -150,7 +150,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
 
         for t in tasks:
 
-            prompt = prompt_construct_zeroshot(test_sample, t)
+            prompt = zeroshot(test_sample, t)
             
 
             args = argparse.Namespace()

@@ -3,7 +3,7 @@ import random
 
 
 
-def prompt_construct_zeroshot(test_sample, task): ##### rename to prompt_construct_zeroshot
+def zeroshot(test_sample, task): ##### rename to prompt_construct_zeroshot
 
     question_formal = 'Questions: '
     choices_formal = 'Choices: '
@@ -125,7 +125,7 @@ data_list = dataset['data'].tolist()
 
 
 
-def prompt_construct_fewshot_openflamingo(samples_IC, sample_query):
+def fewshot_openflamingo(samples_IC, sample_query):
     
     prompt = ""
 
@@ -140,7 +140,7 @@ def prompt_construct_fewshot_openflamingo(samples_IC, sample_query):
     return prompt
 
 
-def sample_ICsamples_random(sample_query, data_list, n):
+def ICsamples_random(sample_query, data_list, n):
 
     # Remove the sample_query from the data_list if present
     data_list = [sample for sample in data_list if sample != sample_query]
@@ -155,6 +155,6 @@ def sample_ICsamples_random(sample_query, data_list, n):
 sample_query = data_list[2]
 n = 3
 
-random_samples = sample_ICsamples_random(sample_query, data_list, n)
-prompt = prompt_construct_fewshot_openflamingo(samples_IC = random_samples, sample_query = sample_query)
+random_samples = ICsamples_random(sample_query, data_list, n)
+prompt = fewshot_openflamingo(samples_IC = random_samples, sample_query = sample_query)
 print(f'prompt: {prompt}')

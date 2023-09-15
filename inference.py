@@ -211,7 +211,7 @@ for m in model_name:
             print(f'EXPERIMENT "{m} x {ds} x run {str(r)}"')
             print('\n')
         
-            pred, time_inference = gen_output(device = device, dataset_name = ds, data_text = data_text, model = model, vis_processors = vis_processors, prompt_construct = prompt_construct_zeroshot)
+            pred, time_inference = gen_output(device = device, dataset_name = ds, data_text = data_text, model = model, vis_processors = vis_processors, prompt_construct = zeroshot)
             save_output(pred = pred, model_name = m, dataset_name = ds, run = r, check_create_experiment_dir = check_create_experiment_dir, time_loading_model = time_loading_model, time_loading_data_text = time_loading_data_text, time_inference = time_inference)
             
             print('-------------------------------------------------------------------')

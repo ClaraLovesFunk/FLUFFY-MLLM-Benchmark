@@ -76,7 +76,7 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples):
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
         for t in tasks:
-            prompt = prompts.prompt_construct_fewshot_openflamingo(test_sample, t) ######### continue!!!!!
+            prompt = prompts.zeroshot(test_sample, task)
             image_file = os.path.join(image_dir_path, test_sample['image_id'])
             output = eval_model(prompt, image_file)
 
