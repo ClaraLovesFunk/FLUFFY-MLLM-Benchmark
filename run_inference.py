@@ -2,6 +2,7 @@
 
 import os
 import itertools
+import time
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
@@ -46,6 +47,9 @@ def run_all_inferences(model_names, dataset_names):
             print(f"Error running inference for model {model} on dataset {dataset}. Error: {e}")
 
 if __name__ == "__main__":
+
+    start_time= time.time()
+
     parser = argparse.ArgumentParser(description="Run inference on a model with a given dataset.")
     parser.add_argument("-models", type=str, nargs='+', required=True, help="List of model names separated by spaces. Use 'all' for all models.")
     parser.add_argument("-datasets", type=str, nargs='+', required=True, help="List of dataset names separated by spaces. Use 'all' for all datasets.")
@@ -60,5 +64,11 @@ if __name__ == "__main__":
 
     run_all_inferences(args.models, args.datasets)
 
+    end_time= time.time()
+    run_time = int((end_time - start_time)/60)
+    print(f'runtime (min): {run_time}')
+
+
 # python3 run_inference.py -models all -datasets all
 # python3 run_inference.py -models all -datasets mvsa
+# python3 run_inference.py -models openflamingo -datasets aokvqa
