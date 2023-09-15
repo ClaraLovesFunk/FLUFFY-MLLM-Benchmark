@@ -13,6 +13,7 @@ from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, Keyw
 
 sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs')
 from utils import *
+from prompts import *
 
 import argparse
 import torch
@@ -149,7 +150,7 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
 
         for t in tasks:
 
-            prompt = prompt_construct(test_sample, t)
+            prompt = prompt_construct_zeroshot(test_sample, t)
             
 
             args = argparse.Namespace()

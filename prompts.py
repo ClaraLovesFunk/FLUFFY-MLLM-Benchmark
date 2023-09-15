@@ -3,7 +3,7 @@ import random
 
 
 
-def prompt_construct(test_sample, task): ##### rename to prompt_construct_zeroshot
+def prompt_construct_zeroshot(test_sample, task): ##### rename to prompt_construct_zeroshot
 
     question_formal = 'Questions: '
     choices_formal = 'Choices: '
