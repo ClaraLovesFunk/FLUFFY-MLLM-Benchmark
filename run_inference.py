@@ -48,13 +48,17 @@ def run_all_inferences(model_names, dataset_names):
 
 if __name__ == "__main__":
 
-    start_time= time.time()
+    start_time = time.time()
 
     parser = argparse.ArgumentParser(description="Run inference on a model with a given dataset.")
-    parser.add_argument("-models", type=str, nargs='+', required=True, help="List of model names separated by spaces. Use 'all' for all models.")
-    parser.add_argument("-datasets", type=str, nargs='+', required=True, help="List of dataset names separated by spaces. Use 'all' for all datasets.")
+    parser.add_argument("-models", type=str, nargs='*', required=True, help="List of model names separated by spaces or commas. Use 'all' for all models.")
+    parser.add_argument("-datasets", type=str, nargs='*', required=True, help="List of dataset names separated by spaces or commas. Use 'all' for all datasets.")
     
     args = parser.parse_args()
+
+    # Convert the datasets/models lists to single comma-separated strings and then split by comma
+    args.models = ''.join(args.models).split(',')
+    args.datasets = ''.join(args.datasets).split(',')
 
     # Replace 'all' with the respective list of all models or datasets
     if 'all' in args.models:
@@ -64,11 +68,14 @@ if __name__ == "__main__":
 
     run_all_inferences(args.models, args.datasets)
 
-    end_time= time.time()
+    end_time = time.time()
     run_time = int((end_time - start_time)/60)
     print(f'runtime (min): {run_time}')
 
 
+
 # python3 run_inference.py -models all -datasets all
 # python3 run_inference.py -models all -datasets mvsa
-# python3 run_inference.py -models openflamingo -datasets aokvqa
+# python3 run_inference.py -models openflamingo -datasets all
+
+# all: aokvqa, okvqa, hateful_memes, mami, mvsa, esnlive, scienceqa, clevr, gqa
