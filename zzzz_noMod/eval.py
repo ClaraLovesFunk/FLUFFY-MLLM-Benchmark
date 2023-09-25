@@ -20,8 +20,8 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 
 # experiment variables
 
-model_name = ['blip2']
-dataset_name = ['scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'           #'clevr', 'gqa', 'esnlive', 'scienceqa'
+model_name = ['openflamingo']
+dataset_name = ['okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', b'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -62,6 +62,7 @@ for m in model_name:
                 experiment_output_okvqa_format_file_path = os.path.join(experiment_dir_path, 'output_okvqa_format.json')
 
                 scores = {}
+                examples = {}
                 
                 acc = acc_okvqa(experiment_scores_file_path, 
                                 ds_text_annotations_file_path, 
@@ -74,6 +75,7 @@ for m in model_name:
 
                 # delete output file in okvqa format, after it has been used for evalation
                 os.remove(experiment_output_okvqa_format_file_path)
+                examples['direct answer'] = 'test' ##################################################################### IDENTIFY EXAMPLES!
 
 
             if ds == 'aokvqa':
@@ -443,7 +445,7 @@ for m in model_name:
             # save results
             
             with open(experiment_scores_file_path, 'w') as f: 
-                json.dump(scores,f, indent=2)
+                json.dump(scores,f, indent=4)
 
             with open(experiment_examples_file_path, 'w') as f: 
-                json.dump(examples,f, indent=2)
+                json.dump(examples,f, indent=4)

@@ -11,7 +11,7 @@ import argparse
 import subprocess
 
 # Defining all models and datasets
-ds_name_all = ['aokvqa', 'okvqa', 'hateful_memes', 'mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa']
+ds_name_all = ['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes']
 model_name_all = ['llava']  
 
 def run_inference(model_name, dataset_name):
@@ -77,5 +77,6 @@ if __name__ == "__main__":
 # python3 run_inference.py -models all -datasets all
 # python3 run_inference.py -models all -datasets mvsa
 # python3 run_inference.py -models openflamingo -datasets all
+# python3 run_inference.py -models llava -datasets all
 
 # all: aokvqa, okvqa, hateful_memes, mami, mvsa, esnlive, scienceqa, clevr, gqa
