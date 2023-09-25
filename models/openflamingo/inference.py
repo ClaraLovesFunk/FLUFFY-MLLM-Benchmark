@@ -75,7 +75,7 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
     run_time_inference_start = time.time()
     pred = []
 
-    for test_sample in data_list[:2]:
+    for test_sample in data_list:
 
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
