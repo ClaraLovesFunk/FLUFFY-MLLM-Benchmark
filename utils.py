@@ -142,24 +142,24 @@ class ModelInfo():
     
 
 
-class dataset():
+# class dataset():
 
-    def __init__(self, dataset_name, dataset_path):
+#     def __init__(self, dataset_name, dataset_path):
 
-        self.dataset_name = dataset_name
-        self.dataset_path = dataset_path
+#         self.dataset_name = dataset_name
+#         self.dataset_path = dataset_path
 
-    def load(self):
+#     def load(self):
 
-        with open(self.dataset_path, 'r') as f:
-            X_text = json.load(f)
+#         with open(self.dataset_path, 'r') as f:
+#             X_text = json.load(f)
 
-        if self.dataset_name == 'okvqa':
-            X_text = X_text['questions']
-        elif self.dataset_name == 'clevr':
-            X_text = X_text['questions']      
+#         if self.dataset_name == 'okvqa':
+#             X_text = X_text['questions']
+#         elif self.dataset_name == 'clevr':
+#             X_text = X_text['questions']      
 
-        return X_text
+#         return X_text
     
 
 

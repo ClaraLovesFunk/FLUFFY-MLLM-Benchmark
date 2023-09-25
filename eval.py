@@ -12,6 +12,7 @@ from utils import *
 datasets_dir = 'datasets'
 experiments_dir = 'experiments'
 eval_file_name = 'scores.json'
+valid_ans_file_name = 'valid_ans.json'
 output_file_name = 'output.json'
 examples_file_name = 'examples.json' # file indicating which sample was predicted correctly/incorrectly
 
@@ -21,7 +22,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['openflamingo']
-dataset_name = ['okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', b'clevr', 'gqa', 'esnlive', 'scienceqa'
+dataset_name = ['mvsa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -44,7 +45,7 @@ for m in model_name:
         # paths relevant for all dataset
 
         ds_images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
-        ds_text_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json') 
+        ds_text_file_path = os.path.join(datasets_dir, ds, 'ds_benchmark.json') 
 
         
         for r in run:
@@ -53,9 +54,12 @@ for m in model_name:
             experiment_scores_file_path = os.path.join(experiment_dir_path, eval_file_name)
             experiment_output_file_path = os.path.join(experiment_dir_path, output_file_name)
             experiment_examples_file_path = os.path.join(experiment_dir_path, examples_file_name)
+            experiment_valid_ans_file_path = os.path.join(experiment_dir_path, valid_ans_file_name)
 
             
             if ds == 'okvqa':
+
+                ''' valid answers: all answers'''
 
                 ds_text_annotations_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '_labels.json')
                 ds_text_questions_file_path = os.path.join(datasets_dir, ds, text_dataset_split + '.json')
@@ -88,10 +92,13 @@ for m in model_name:
                     output = json.load(f)
                     #output = output[11:12] ################ DELETE
 
+                ''' valid answers for task "direct asnwers": all answers'''
+
                 acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
                 scores['direct answer'] = {'accuracy': acc_da}
                 examples['direct answer'] = ex
                 
+                ''' valid answers for task "multiple choice": one of the choices. the choices that can be found in input[answer_choices]'''
 
                 acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
                 scores['multiple choice'] = {'accuracy': acc_MC}
@@ -99,6 +106,9 @@ for m in model_name:
 
 
             if ds in ['hateful_memes']:
+
+                ''' valid answer: {hateful, not hateful}'''
+
                 scores = {}
                 examples = {}
                 examples_task = {}
@@ -106,7 +116,7 @@ for m in model_name:
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
                 y_true = [item["label"] for item in data_text if "label" in item]
-                y_true = ['hateful' if item == 1 else 'not-hateful' for item in y_true]
+                y_true = ['hateful' if item == 1 else 'not hateful' for item in y_true]
 
                 
                 # load output
@@ -145,6 +155,7 @@ for m in model_name:
 
             if ds in ['mami']:
 
+                ''' valid answer: {sexist, not sexist}'''
 
                 scores = {}
                 examples = {}
@@ -153,7 +164,7 @@ for m in model_name:
                 # load input
                 data_text = dataset(ds, ds_text_file_path).load()
                 y_true = [item["label"] for item in data_text if "label" in item]
-                y_true = ['sexist' if item == 1 else 'not-sexist' for item in y_true]
+                y_true = ['sexist' if item == 1 else 'not sexist' for item in y_true]
                 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
@@ -188,26 +199,47 @@ for m in model_name:
             
             if ds in ['mvsa']:
 
+                valid_ans_values = ['Positive', 'Negative', 'Neutral']
 
                 scores = {}
                 examples = {}
                 examples_task = {}
+                valid_ans_ratio = {}
 
-                # load input
-                data_text = dataset(ds, ds_text_file_path).load()
-                y_true = [item["label"] for item in data_text if "label" in item]
                 
-                # load output
+                print(ds_text_file_path)
+                # Load input
+                #data_text = dataset(ds, ds_text_file_path).load(
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
+
+                if "data" in data_text:
+                    id_to_label = {
+                        item["text_input_id"]: item["classification_label"]
+                        for item in data_text["data"] 
+                        if "text_input_id" in item and "classification_label" in item
+                    }
+                else:
+                    raise ValueError("Expected 'data' key in data_text")
+
+
+                # Load output
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
-                
-                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_name] for item in output if output_name in item]
-                
-                
-                #y_pred = [int(string) for string in y_pred]
+                # Filter valid output and match with true labels
+                y_true = []
+                y_pred = []
+                valid_count = 0
 
+                for item in output:
+                    pred_value = item.get(f"output_{tasks[0]}")
+                    if pred_value in valid_ans_values and item["text_input_id"] in id_to_label:
+                        valid_count += 1
+                        y_pred.append(pred_value)
+                        y_true.append(id_to_label[item["text_input_id"]])
+
+                # Calculate scores
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
                     'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
@@ -215,24 +247,25 @@ for m in model_name:
                     'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
                 }
 
-                
-                for input_i in data_text:
+                # Calculate valid answers ratio
+                valid_ans_ratio[tasks[0]] = valid_count / len(output) if len(output) != 0 else 0
 
-                    input_id = input_i.get('id')
+                # Build examples dictionary for analysis
+                for item in output:
+                    input_id = item["text_input_id"]
+                    true_label = id_to_label.get(input_id, None)
+                    if true_label:
+                        pred_label = item.get(f"output_{tasks[0]}")
+                        examples_task[input_id] = 1 if str(true_label) == pred_label else 0
 
-                    y_true = str(input_i.get('label'))
-
-                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-                    y_pred = output_i.get('output_sentiment analysis')
-
-                    examples_task[input_id] = 1 if y_true == y_pred else 0
-                
                 examples['sentiment analysis'] = examples_task
 
 
             
             
             if ds in ['clevr']:
+
+                '''valid answers: all answers'''
 
 
                 scores = {}
@@ -287,6 +320,7 @@ for m in model_name:
 
             if ds in ['gqa']:
 
+                '''valid answers: all answers'''
 
                 scores = {}
                 examples = {}
@@ -339,6 +373,7 @@ for m in model_name:
 
             if ds in ['esnlive']:
 
+                '''valid answers: {entailment, contradiction, neutral}'''
 
                 scores = {}
                 examples = {}
@@ -384,6 +419,8 @@ for m in model_name:
 
             if ds in ['scienceqa']: ##### :)) account for output not being integers or strings convertable to integers
 
+
+                '''valid answer: a number representing the right choice. valid answers include the numbers from 0 to n. n is the amount of choices for that instances. the instances have different number of choices.'''
 
                 scores = {}
                 examples = {}
@@ -446,6 +483,9 @@ for m in model_name:
             
             with open(experiment_scores_file_path, 'w') as f: 
                 json.dump(scores,f, indent=4)
+
+            with open(experiment_valid_ans_file_path, 'w') as f: 
+                json.dump(valid_ans_ratio,f, indent=4)
 
             with open(experiment_examples_file_path, 'w') as f: 
                 json.dump(examples,f, indent=4)
