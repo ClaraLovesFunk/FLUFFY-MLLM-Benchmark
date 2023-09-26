@@ -1,6 +1,6 @@
 import os
 
-CACHE_DIR = '/home/users/cwicharz/data/huggingface_cache'
+CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 
@@ -25,7 +25,7 @@ datasets_dir = 'datasets'
 experiments_dir = 'experiments'
 
 
-def get_model(model_name):
+def get_model(model_name, device):
     model_info = utils.ModelInfo(model_name)
     lavis_model_type = model_info.get_lavis_model_type()
     lavis_name = model_info.get_lavis_name()
@@ -33,6 +33,8 @@ def get_model(model_name):
     model, vis_processors, _ = load_model_and_preprocess(
         name=lavis_name, model_type=lavis_model_type, is_eval=True, device=device)
 
+    model.to(device)
+    
     return model, vis_processors
 
 
@@ -44,7 +46,7 @@ def get_dataset_text(dataset_name):
     return utils.dataset(dataset_name, dataset_file_path).load()
 
 
-def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_construct):
+def gen_output(device, dataset_name, data_text, model, vis_processors):
     dataset_info = utils.DatasetInfo(dataset_name)
     img_dataset_split = dataset_info.get_img_dataset_split() 
     image_dataset_name = dataset_info.get_img_dataset_name() 
@@ -68,7 +70,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, prompt_co
                 image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
             image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
-            prompt = prompt_construct(test_sample=sample, task=t)
+            prompt = prompt.zeroshot(test_sample=sample, task=t)
             output = model.generate({"image": image, "prompt": prompt}, temperature=0)
             output_sample.update({output_task: output[0]})
 
@@ -85,7 +87,7 @@ def predict_dataset(model_name, dataset_name, run):
     data_text, _ = get_dataset_text(dataset_name)
 
     # Generate predictions
-    pred, _ = gen_output(device, dataset_name, data_text, model, vis_processors, 'zeroshot')
+    pred, _ = gen_output(device, dataset_name, data_text, model, vis_processors)
 
     # Save output and configuration
     experiment_dir_path = os.path.join(experiments_dir, model_name, dataset_name, 'run' + str(run))
