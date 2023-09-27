@@ -175,82 +175,82 @@ def check_create_experiment_dir(experiment_dir_path):
 
 
 
-def get_img_path(dataset_name, images_dir_path, sample):
+# def get_img_path(dataset_name, images_dir_path, sample):
 
-    if dataset_name =='okvqa': 
-        img_path = os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
+#     if dataset_name =='okvqa': 
+#         img_path = os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
 
-    if dataset_name =='aokvqa': 
-        img_path = os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
+#     if dataset_name =='aokvqa': 
+#         img_path = os.path.join(images_dir_path, f"{sample['image_id']:012}.jpg")
     
-    if dataset_name =='mvsa': 
-        img_path = os.path.join(images_dir_path, sample['id'])
+#     if dataset_name =='mvsa': 
+#         img_path = os.path.join(images_dir_path, sample['id'])
 
-    if dataset_name =='mami': 
-        img_path = os.path.join(images_dir_path, sample['id'])
+#     if dataset_name =='mami': 
+#         img_path = os.path.join(images_dir_path, sample['id'])
 
-    if dataset_name =='hateful_memes': 
-        img_path = os.path.join(images_dir_path, sample['image_path'])
+#     if dataset_name =='hateful_memes': 
+#         img_path = os.path.join(images_dir_path, sample['image_path'])
 
-    if dataset_name =='clevr': 
-        img_path = os.path.join(images_dir_path, sample['image_filename'])
+#     if dataset_name =='clevr': 
+#         img_path = os.path.join(images_dir_path, sample['image_filename'])
 
-    if dataset_name =='esnlive': 
+#     if dataset_name =='esnlive': 
 
-        # get sample
-        filename = sample['img_id']
+#         # get sample
+#         filename = sample['img_id']
 
-        # Extract the numeric part of the filename
-        numeric_part = filename.split("_")[1].split(".")[0]
+#         # Extract the numeric part of the filename
+#         numeric_part = filename.split("_")[1].split(".")[0]
 
-        # Convert the numeric part to integer to remove leading zeros, and then back to string
-        numeric_part = str(int(numeric_part))
+#         # Convert the numeric part to integer to remove leading zeros, and then back to string
+#         numeric_part = str(int(numeric_part))
 
-        # Append ".jpg" to the numeric part
-        new_filename = f"{numeric_part}.jpg"
+#         # Append ".jpg" to the numeric part
+#         new_filename = f"{numeric_part}.jpg"
 
-        img_path = os.path.join(images_dir_path, new_filename)
+#         img_path = os.path.join(images_dir_path, new_filename)
 
-    if dataset_name =='gqa': 
-        img_path = os.path.join(images_dir_path, sample['imageId'] + '.jpg')
+#     if dataset_name =='gqa': 
+#         img_path = os.path.join(images_dir_path, sample['imageId'] + '.jpg')
 
-    if dataset_name =='scienceqa': 
-        img_path = os.path.join(images_dir_path, sample['input_id'],'image.png')
+#     if dataset_name =='scienceqa': 
+#         img_path = os.path.join(images_dir_path, sample['input_id'],'image.png')
 
     
-    return img_path
+#     return img_path
 
 
-def get_text_input_id(dataset_name, sample):
+# def get_text_input_id(dataset_name, sample):
     
-    if dataset_name =='okvqa': 
-        text_input_id = sample['question_id']
+#     if dataset_name =='okvqa': 
+#         text_input_id = sample['question_id']
 
-    if dataset_name =='aokvqa': 
-        text_input_id = sample['question_id']
+#     if dataset_name =='aokvqa': 
+#         text_input_id = sample['question_id']
     
-    if dataset_name =='mvsa': 
-        text_input_id = sample['id'] 
+#     if dataset_name =='mvsa': 
+#         text_input_id = sample['id'] 
 
-    if dataset_name =='mami': 
-        text_input_id = sample['id'] 
+#     if dataset_name =='mami': 
+#         text_input_id = sample['id'] 
 
-    if dataset_name =='hateful_memes': 
-        text_input_id = sample['id']
+#     if dataset_name =='hateful_memes': 
+#         text_input_id = sample['id']
 
-    if dataset_name =='clevr': 
-        text_input_id = sample['input_id']
+#     if dataset_name =='clevr': 
+#         text_input_id = sample['input_id']
 
-    if dataset_name =='esnlive': 
-        text_input_id = sample['question_id']
+#     if dataset_name =='esnlive': 
+#         text_input_id = sample['question_id']
 
-    if dataset_name =='gqa': 
-        text_input_id = sample['input_id']
+#     if dataset_name =='gqa': 
+#         text_input_id = sample['input_id']
 
-    if dataset_name =='scienceqa': 
-        text_input_id = sample['input_id']
+#     if dataset_name =='scienceqa': 
+#         text_input_id = sample['input_id']
     
-    return text_input_id
+#     return text_input_id
 
 
 
