@@ -3,7 +3,6 @@ import os
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
-
 import time
 import json
 import torch
@@ -15,11 +14,11 @@ import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 print(sys.path)
-import utils 
-import prompts 
-
+import utils  
+import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 datasets_dir = 'datasets'
 experiments_dir = 'experiments'
@@ -38,30 +37,18 @@ def get_model(model_name, device):
     return model, vis_processors
 
 
-def get_dataset_text(dataset_name):
-    dataset_info = utils.DatasetInfo(dataset_name)
-    text_dataset_split = dataset_info.get_text_dataset_split()
-    dataset_file_path = os.path.join(datasets_dir, dataset_name, text_dataset_split + '.json')
+
+def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks):
     
-    return utils.dataset(dataset_name, dataset_file_path).load()
-
-
-def gen_output(device, dataset_name, data_text, model, vis_processors):
-    dataset_info = utils.DatasetInfo(dataset_name)
-    img_dataset_split = dataset_info.get_img_dataset_split() 
-    image_dataset_name = dataset_info.get_img_dataset_name() 
-    tasks = dataset_info.get_tasks() 
-
-    images_dir_path = os.path.join(datasets_dir, image_dataset_name, img_dataset_split)
     pred = [] 
 
     for sample in data_text:
-        text_input_id = utils.get_text_input_id(dataset_name, sample)
-        output_sample = {'text_input_id': text_input_id}
+        
+        output_sample = {'text_input_id': sample['text_input_id']}
 
         for t in tasks:
             output_task = 'output_' + t
-            image_file_path =  utils.get_img_path(dataset_name, images_dir_path, sample)
+            image_file_path =  os.path.join(image_dir_path, sample['image_id']) ########## ++++++ pathtthhh
             image_raw = Image.open(image_file_path)
 
             if image_raw.mode != 'RGB':
@@ -69,8 +56,9 @@ def gen_output(device, dataset_name, data_text, model, vis_processors):
                     image_raw = image_raw.convert('L')
                 image_raw = ImageOps.colorize(image_raw, 'black', 'white')
 
+            prompt = prompts.zeroshot(test_sample=sample, task=t)
             image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
-            prompt = prompt.zeroshot(test_sample=sample, task=t)
+            
             output = model.generate({"image": image, "prompt": prompt}, temperature=0)
             output_sample.update({output_task: output[0]})
 
@@ -81,38 +69,37 @@ def gen_output(device, dataset_name, data_text, model, vis_processors):
 
 def predict_dataset(model_name, dataset_name, run):
     # Load model and preprocessors
-    model, vis_processors = get_model(model_name, device)
+    #model, vis_processors = get_model(model_name, device) ######################################
+    model = 'test'   ######################################
+    vis_processors = 'test' ######################################
+
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='blip2', run=run)
 
     # Load data
-    data_text = get_dataset_text(dataset_name)
+    with open(ds_file_path, 'r') as f:
+        data = json.load(f)
+        data_text = data['data']
 
     # Generate predictions
-    pred = gen_output(device, dataset_name, data_text, model, vis_processors)
-
-    # Save output and configuration
-    experiment_dir_path = os.path.join(experiments_dir, model_name, dataset_name, 'run' + str(run))
-    experiment_output_file_path = os.path.join(experiment_dir_path, 'output.json')
-    experiment_config_file_path = os.path.join(experiment_dir_path, 'config.json')
-
-    # Check and create the experiment directory if it doesn't exist
-    if not os.path.exists(experiment_dir_path):
-        os.makedirs(experiment_dir_path)
-
-    # Save predictions
-    with open(experiment_output_file_path, 'w') as f:
-        json.dump(pred, f, indent=4)
+    pred = gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks) 
 
     # Save configuration
     config = {
         'model': model_name,
         'dataset': dataset_name,
         'run': run,
-        # You can add other configuration details here as needed
     }
-    with open(experiment_config_file_path, 'w') as f:
+
+    if not os.path.exists(output_dir_path):
+        os.makedirs(output_dir_path)
+
+    with open(output_file_path, 'w') as f:
+        json.dump(pred, f, indent=4)
+
+    with open(config_file_path, 'w') as f:
         json.dump(config, f, indent=4)
 
-    return pred
+    return None
 
 
 
@@ -120,7 +107,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="blip2")
     parser.add_argument("--dataset_name", type=str, required=True)
-    parser.add_argument("--run", type=int, default=1)
+    parser.add_argument("--run", type=str, default='1')
     args = parser.parse_args()
 
     predict_dataset(args.model_name, args.dataset_name, args.run)
