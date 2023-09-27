@@ -42,13 +42,13 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
     
     pred = [] 
 
-    for sample in data_text:
+    for sample in data_text[:2]: #####################################################
         
         output_sample = {'text_input_id': sample['text_input_id']}
 
         for t in tasks:
             output_task = 'output_' + t
-            image_file_path =  os.path.join(image_dir_path, sample['image_id']) ########## ++++++ pathtthhh
+            image_file_path =  os.path.join(image_dir_path, sample['image_id']) 
             image_raw = Image.open(image_file_path)
 
             if image_raw.mode != 'RGB':
@@ -113,6 +113,6 @@ if __name__ == "__main__":
     predict_dataset(args.model_name, args.dataset_name, args.run)
 
 
-# source venvs/lavis/bin/activate
+# source venvs/blip2/bin/activate
 # cd models/blip2
 # python inference.py --dataset hateful_memes
