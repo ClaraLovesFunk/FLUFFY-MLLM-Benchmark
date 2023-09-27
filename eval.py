@@ -22,7 +22,7 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 # experiment variables
 
 model_name = ['openflamingo']
-dataset_name = ['mvsa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
+dataset_name = ['mami']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -107,123 +107,22 @@ for m in model_name:
 
             if ds in ['hateful_memes']:
 
-                ''' valid answer: {hateful, not hateful}'''
+                valid_ans_values = ['hateful', 'not hateful']
 
                 scores = {}
                 examples = {}
                 examples_task = {}
+                valid_ans_ratio = {} 
 
-                # load input
-                data_text = dataset(ds, ds_text_file_path).load()
-                y_true = [item["label"] for item in data_text if "label" in item]
-                y_true = ['hateful' if item == 1 else 'not hateful' for item in y_true]
-
-                
-                # load output
-                with open(experiment_output_file_path, 'r') as f:
-                    output = json.load(f)
-                
-                output_name = 'output_' + tasks[0]
-
-                y_pred = [item[output_name] for item in output if output_name in item]
-                #y_pred = list(map(int, y_pred))
-
-                scores[tasks[0]] = {
-                    'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision': metrics.precision_score(y_true, y_pred),
-                    'recall': metrics.recall_score(y_true, y_pred),
-                    'f1': metrics.f1_score(y_true, y_pred),                  
-                }
-
-                
-                for input_i in data_text:
-                    input_id = input_i.get('id')
-
-                    y_true = str(input_i.get('label'))
-
-                    # Find the corresponding output dictionary based on 'input_id'
-                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-
-                    y_pred = output_i.get('output_hate classification')
-
-                    # Compare y_true with y_pred
-                    examples_task[input_id] = 1 if y_true == y_pred else 0
-                
-                examples['hate classification'] = examples_task
-
-
-
-            if ds in ['mami']:
-
-                ''' valid answer: {sexist, not sexist}'''
-
-                scores = {}
-                examples = {}
-                examples_task = {}
-
-                # load input
-                data_text = dataset(ds, ds_text_file_path).load()
-                y_true = [item["label"] for item in data_text if "label" in item]
-                y_true = ['sexist' if item == 1 else 'not sexist' for item in y_true]
-                
-                # load output
-                with open(experiment_output_file_path, 'r') as f:
-                    output = json.load(f)
-                
-                output_name = 'output_' + tasks[0]
-
-                y_pred = [item[output_name] for item in output if output_name in item]
-                
-                scores[tasks[0]] = {
-                    'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
-                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
-                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
-                }
-
-                for input_i in data_text:
-                    input_id = input_i.get('id')
-
-                    y_true = str(input_i.get('label'))
-
-                    # Find the corresponding output dictionary based on 'input_id'
-                    output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-
-                    y_pred = output_i.get('output_sexism classification')
-
-                    # Compare y_true with y_pred
-                    examples_task[input_id] = 1 if y_true == y_pred else 0
-                
-                examples['sexism classification'] = examples_task
-
-            
-            if ds in ['mvsa']:
-
-                valid_ans_values = ['Positive', 'Negative', 'Neutral']
-
-                scores = {}
-                examples = {}
-                examples_task = {}
-                valid_ans_ratio = {}
-
-                
-                print(ds_text_file_path)
-                # Load input
-                #data_text = dataset(ds, ds_text_file_path).load(
                 with open(ds_text_file_path, 'r') as f:
                     data_text = json.load(f)
 
-                if "data" in data_text:
-                    id_to_label = {
-                        item["text_input_id"]: item["classification_label"]
-                        for item in data_text["data"] 
-                        if "text_input_id" in item and "classification_label" in item
-                    }
-                else:
-                    raise ValueError("Expected 'data' key in data_text")
+                id_to_label = {
+                    item["text_input_id"]: item["classification_label"]
+                    for item in data_text["data"] 
+                    if "text_input_id" in item and "classification_label" in item
+                }
 
-
-                # Load output
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
 
@@ -233,6 +132,129 @@ for m in model_name:
                 valid_count = 0
 
                 for item in output:
+
+                    pred_value = item.get(f"output_{tasks[0]}")
+                    if pred_value in valid_ans_values and item["text_input_id"] in id_to_label:
+                        valid_count += 1
+                        y_pred.append(pred_value)
+                        y_true.append(id_to_label[item["text_input_id"]])
+
+                valid_ans_ratio[tasks[0]] = valid_count / len(output) if len(output) != 0 else 0
+            
+
+                print(set(y_true))
+                print(set(y_pred))
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision': metrics.precision_score(y_true, y_pred, pos_label="hateful"),
+                    'recall': metrics.recall_score(y_true, y_pred, pos_label="hateful"),
+                    'f1': metrics.f1_score(y_true, y_pred, pos_label="hateful"),                  
+                }
+
+                # Build examples dictionary for analysis
+                for item in output:
+                    input_id = item["text_input_id"]
+                    true_label = id_to_label.get(input_id, None)
+                    if true_label:
+                        pred_label = item.get(f"output_{tasks[0]}")
+                        examples_task[input_id] = 1 if str(true_label) == pred_label else 0
+
+                examples[tasks[0]] = examples_task
+
+
+
+            if ds in ['mami']:
+
+                valid_ans_values = ['sexist', 'not sexist']
+
+                scores = {}
+                examples = {}
+                examples_task = {}
+                valid_ans_ratio = {} 
+
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
+
+                id_to_label = {
+                    item["text_input_id"]: item["classification_label"]
+                    for item in data_text["data"] 
+                    if "text_input_id" in item and "classification_label" in item
+                }
+
+                print(id_to_label)
+
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+
+                # Filter valid output and match with true labels
+                y_true = []
+                y_pred = []
+                valid_count = 0
+
+                
+                for item in output:
+
+                    pred_value = item.get(f"output_{tasks[0]}")
+                    #print(pred_value)
+                    if pred_value in valid_ans_values and item["text_input_id"] in id_to_label:
+                        valid_count += 1
+                        y_pred.append(pred_value)
+                        y_true.append(id_to_label[item["text_input_id"]])
+
+                valid_ans_ratio[tasks[0]] = valid_count / len(output) if len(output) != 0 else 0
+            
+
+                print(set(y_true))
+                print(set(y_pred))
+
+                scores[tasks[0]] = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision': metrics.precision_score(y_true, y_pred, pos_label="sexist"),
+                    'recall': metrics.recall_score(y_true, y_pred, pos_label="sexist"),
+                    'f1': metrics.f1_score(y_true, y_pred, pos_label="sexist"),                  
+                }
+
+                # Build examples dictionary for analysis
+                for item in output:
+                    input_id = item["text_input_id"]
+                    true_label = id_to_label.get(input_id, None)
+                    if true_label:
+                        pred_label = item.get(f"output_{tasks[0]}")
+                        examples_task[input_id] = 1 if str(true_label) == pred_label else 0
+
+                examples[tasks[0]] = examples_task
+
+
+            
+            if ds in ['mvsa']:
+
+                valid_ans_values = ['Positive', 'Negative', 'Neutral']
+
+                scores = {}
+                examples = {}
+                examples_task = {}
+                valid_ans_ratio = {} 
+
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
+
+                id_to_label = {
+                    item["text_input_id"]: item["classification_label"]
+                    for item in data_text["data"] 
+                    if "text_input_id" in item and "classification_label" in item
+                }
+
+                with open(experiment_output_file_path, 'r') as f:
+                    output = json.load(f)
+
+                # Filter valid output and match with true labels
+                y_true = []
+                y_pred = []
+                valid_count = 0
+
+                for item in output:
+
                     pred_value = item.get(f"output_{tasks[0]}")
                     if pred_value in valid_ans_values and item["text_input_id"] in id_to_label:
                         valid_count += 1
@@ -258,7 +280,7 @@ for m in model_name:
                         pred_label = item.get(f"output_{tasks[0]}")
                         examples_task[input_id] = 1 if str(true_label) == pred_label else 0
 
-                examples['sentiment analysis'] = examples_task
+                examples[tasks[0]] = examples_task
 
 
             
