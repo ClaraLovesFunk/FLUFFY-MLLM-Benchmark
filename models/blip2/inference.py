@@ -68,10 +68,10 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
 
 
 def predict_dataset(model_name, dataset_name, run):
-    # Load model and preprocessors
-    #model, vis_processors = get_model(model_name, device) ######################################
-    model = 'test'   ######################################
-    vis_processors = 'test' ######################################
+
+    model, vis_processors = get_model(model_name, device) ######################################
+    #model = 'test'   ######################################
+    #vis_processors = 'test' ######################################
 
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='blip2', run=run)
 
