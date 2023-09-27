@@ -14,13 +14,10 @@ import argparse
 import pandas as pd
 import json
 
-
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 print(sys.path)
-
-
 import utils  
 import prompts
 
