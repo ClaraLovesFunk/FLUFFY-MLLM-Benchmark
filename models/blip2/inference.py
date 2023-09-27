@@ -81,13 +81,13 @@ def gen_output(device, dataset_name, data_text, model, vis_processors):
 
 def predict_dataset(model_name, dataset_name, run):
     # Load model and preprocessors
-    model, vis_processors, _ = get_model(model_name, device)
+    model, vis_processors = get_model(model_name, device)
 
     # Load data
-    data_text, _ = get_dataset_text(dataset_name)
+    data_text = get_dataset_text(dataset_name)
 
     # Generate predictions
-    pred, _ = gen_output(device, dataset_name, data_text, model, vis_processors)
+    pred = gen_output(device, dataset_name, data_text, model, vis_processors)
 
     # Save output and configuration
     experiment_dir_path = os.path.join(experiments_dir, model_name, dataset_name, 'run' + str(run))
