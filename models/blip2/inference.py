@@ -75,15 +75,12 @@ def predict_dataset(model_name, dataset_name, run):
 
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='blip2', run=run)
 
-    # Load data
     with open(ds_file_path, 'r') as f:
         data = json.load(f)
         data_text = data['data']
 
-    # Generate predictions
     pred = gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks) 
 
-    # Save configuration
     config = {
         'model': model_name,
         'dataset': dataset_name,
