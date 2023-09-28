@@ -42,7 +42,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
     
     pred = [] 
 
-    for sample in data_text[:2]: #####################################################
+    for sample in data_text: #####################################################
         
         output_sample = {'text_input_id': sample['text_input_id']}
 
