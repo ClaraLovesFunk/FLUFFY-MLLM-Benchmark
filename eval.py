@@ -21,8 +21,8 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 
 # experiment variables
 
-model_name = ['openflamingo']
-dataset_name = ['mami']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
+model_name = ['blip2']
+dataset_name = ['mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -142,8 +142,7 @@ for m in model_name:
                 valid_ans_ratio[tasks[0]] = valid_count / len(output) if len(output) != 0 else 0
             
 
-                print(set(y_true))
-                print(set(y_pred))
+                
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
@@ -182,7 +181,6 @@ for m in model_name:
                     if "text_input_id" in item and "classification_label" in item
                 }
 
-                print(id_to_label)
 
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
@@ -196,7 +194,6 @@ for m in model_name:
                 for item in output:
 
                     pred_value = item.get(f"output_{tasks[0]}")
-                    #print(pred_value)
                     if pred_value in valid_ans_values and item["text_input_id"] in id_to_label:
                         valid_count += 1
                         y_pred.append(pred_value)
@@ -205,8 +202,6 @@ for m in model_name:
                 valid_ans_ratio[tasks[0]] = valid_count / len(output) if len(output) != 0 else 0
             
 
-                print(set(y_true))
-                print(set(y_pred))
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
