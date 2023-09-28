@@ -21,16 +21,17 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 
 # experiment variables
 
-model_name = ['blip2']
-dataset_name = ['mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
+model_name = ['instructblip', 'blip2', 'llava', 'openflamingo']
+dataset_name = ['okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
 
 for m in model_name:
-
+    print(m)
 
     for ds in dataset_name:
+        print(ds)
 
         # get all ds info
 
@@ -87,7 +88,8 @@ for m in model_name:
                 scores = {}
                 examples = {}
 
-                data_text = dataset(ds, ds_text_file_path).load()
+                with open('datasets/aokvqa/ds_original.json', 'r') as f: #ds_text_file_path
+                    data_text = json.load(f)
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
                     #output = output[11:12] ################ DELETE
@@ -289,10 +291,8 @@ for m in model_name:
                 examples = {}
                 examples_task = {}
                 
-                
-                # load input
-                data_text = dataset(ds, ds_text_file_path).load()
-                #data_text = data_text[:1000] ############ DELETE 
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
@@ -301,10 +301,10 @@ for m in model_name:
 
 
                 # 1. Get a new list "input_ids" that contains all input_ids from the list "input"
-                input_ids = [item['input_id'] for item in data_text]
+                input_ids = [item['text_input_id'] for item in data_text]
 
                 # 2. Get a list "y_true", in which the answer from the list "input" for each input_id is listed
-                input_dict = {item['input_id']: item['answer'] for item in data_text}
+                input_dict = {item['text_input_id']: item['correct_direct_answer_short'] for item in data_text}
                 y_true = [input_dict[id] for id in input_ids]
 
                 # 3. Get a list "y_pred", in which the "output_direct answer" from the list "output" for each input_id is listed
@@ -320,7 +320,7 @@ for m in model_name:
                 for input_i in data_text:
                     input_id = input_i.get(input_id_name)
 
-                    y_true = str(input_i.get('answer'))
+                    y_true = str(input_i.get('correct_direct_answer_short'))
 
                     # Find the corresponding output dictionary based on 'input_id'
                     output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
@@ -347,7 +347,8 @@ for m in model_name:
                 
                 # load data
 
-                data_text = dataset(ds, ds_text_file_path).load()
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
 
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
@@ -397,7 +398,9 @@ for m in model_name:
                 examples_task = {}
 
                 # load inputf
-                data_text = dataset(ds, ds_text_file_path).load()
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
+                
                 y_true = [item["label"] for item in data_text if "label" in item]
                 
                 # load output
@@ -447,7 +450,8 @@ for m in model_name:
                 
                 # load data
 
-                data_text = dataset(ds, ds_text_file_path).load()
+                with open(ds_text_file_path, 'r') as f:
+                    data_text = json.load(f)
 
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
@@ -501,8 +505,9 @@ for m in model_name:
             with open(experiment_scores_file_path, 'w') as f: 
                 json.dump(scores,f, indent=4)
 
-            with open(experiment_valid_ans_file_path, 'w') as f: 
-                json.dump(valid_ans_ratio,f, indent=4)
+            if ds in ['mami', 'hateful_memes', 'mvsa']:
+                with open(experiment_valid_ans_file_path, 'w') as f: 
+                    json.dump(valid_ans_ratio,f, indent=4)
 
             with open(experiment_examples_file_path, 'w') as f: 
                 json.dump(examples,f, indent=4)
