@@ -128,9 +128,11 @@ class ModelInfo():
         self.model_name = model_name
         self.lavis_model_type = {
             'blip2': 'pretrain_flant5xxl',
+            'instructblip': 'vicuna7b',
         }
         self.lavis_name = {
-            'blip2': 'blip2_t5'
+            'blip2': 'blip2_t5',
+            'instructblip': 'blip2_vicuna_instruct',
         }
         
         
