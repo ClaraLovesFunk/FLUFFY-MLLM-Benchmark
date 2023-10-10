@@ -55,7 +55,8 @@ def eval_model(model, image_processor, tokenizer, prompt, image_file):
         vision_x=vision_x,
         lang_x=lang_x["input_ids"],
         attention_mask=lang_x["attention_mask"],
-        max_new_tokens=20,
+        max_new_tokens=100,
+        return_full_text=False, ############ DOES THAT WORK?!?!?!
         num_beams=3,
     )
 
