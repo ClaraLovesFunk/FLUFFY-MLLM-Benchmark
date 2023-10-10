@@ -21,8 +21,8 @@ examples_file_name = 'examples.json' # file indicating which sample was predicte
 
 # experiment variables
 
-model_name = ['instructblip', 'blip2', 'llava', 'openflamingo']
-dataset_name = ['okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
+model_name = ['blip2', 'instructblip', 'llava', 'openflamingo']
+dataset_name = ['esnlive', 'scienceqa']  # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes', 'clevr', 'gqa', 'esnlive', 'scienceqa'
 run = [1]
 
 
@@ -284,21 +284,18 @@ for m in model_name:
             
             if ds in ['clevr']:
 
-                '''valid answers: all answers'''
-
-
+            
                 scores = {}
                 examples = {}
                 examples_task = {}
                 
                 with open(ds_text_file_path, 'r') as f:
                     data_text = json.load(f)
+                    data_text = data_text["data"]
 
                 # load output
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
-                #output = output[:1000] ############ DELETE 
-
 
                 # 1. Get a new list "input_ids" that contains all input_ids from the list "input"
                 input_ids = [item['text_input_id'] for item in data_text]
@@ -308,17 +305,19 @@ for m in model_name:
                 y_true = [input_dict[id] for id in input_ids]
 
                 # 3. Get a list "y_pred", in which the "output_direct answer" from the list "output" for each input_id is listed
-                output_dict = {item['text_input_id']: item['output_direct answer'] for item in output}
+                output_dict = {item['text_input_id']: item["output_direct answer (clevr)"] for item in output}
                 y_pred = [output_dict[id] for id in input_ids if id in output_dict]
 
                 scores[tasks[0]] = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred)
                 }
 
-                output_name = 'output_' + tasks[0]
+                # get examples
+
+                output_name = "output_direct answer (clevr)"
 
                 for input_i in data_text:
-                    input_id = input_i.get(input_id_name)
+                    input_id = input_i.get('text_input_id')
 
                     y_true = str(input_i.get('correct_direct_answer_short'))
 
@@ -337,32 +336,25 @@ for m in model_name:
 
             if ds in ['gqa']:
 
-                '''valid answers: all answers'''
-
                 scores = {}
                 examples = {}
                 examples_task = {}
 
                 output_name = 'output_' + tasks[0]
-                
-                # load data
-
+            
                 with open(ds_text_file_path, 'r') as f:
                     data_text = json.load(f)
+                    data_text = data_text['data']
 
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
-                #output = output[:3] 
-
-
-                # get y_true and y_pred
 
                 input_ids = [item['text_input_id'] for item in output]
 
-                input_dict = {item[input_id_name]: item['answer'] for item in data_text}
+                input_dict = {item['text_input_id']: item['correct_direct_answer_short'] for item in data_text}
                 y_true = [input_dict[id] for id in input_ids]
 
-                output_dict = {item['text_input_id']: item[output_name] for item in output}
+                output_dict = {item['text_input_id']: item['output_direct answer (gqa)'] for item in output}
                 y_pred = [output_dict[id] for id in input_ids if id in output_dict]
 
                 # eval score
@@ -377,8 +369,8 @@ for m in model_name:
 
                     input_id = output_i.get('text_input_id')
 
-                    y_true = next((item['answer'] for item in data_text if item.get(input_id_name) == input_id), None)
-                    y_pred = next((item[output_name] for item in output if item.get('text_input_id') == input_id), None)
+                    y_true = next((item['correct_direct_answer_short'] for item in data_text if item.get('text_input_id') == input_id), None)
+                    y_pred = next((item['output_direct answer (gqa)'] for item in output if item.get('text_input_id') == input_id), None)
                     
                     examples_task[input_id] = 1 if y_true == y_pred else 0
                     
@@ -400,6 +392,7 @@ for m in model_name:
                 # load inputf
                 with open(ds_text_file_path, 'r') as f:
                     data_text = json.load(f)
+                    data_text = data_text['data']
                 
                 y_true = [item["label"] for item in data_text if "label" in item]
                 
