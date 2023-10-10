@@ -2,26 +2,18 @@ import torch
 import os
 from transformers import IdeficsForVisionText2Text, AutoProcessor
 
-# 1. Set up the cache directory environment variable
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-# 2. Implement the caching mechanism
 def load_idefics_model(checkpoint):
     model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype=torch.bfloat16, cache_dir=CACHE_DIR).to(device)
     processor = AutoProcessor.from_pretrained(checkpoint, cache_dir=CACHE_DIR)
     return model, processor
 
-# 3. Update the model loading function
 checkpoint = "HuggingFaceM4/idefics-80b-instruct" #"HuggingFaceM4/tiny-random-idefics" 
 model, processor = load_idefics_model(checkpoint)
-
-
-
-
-
 
 
 # We feed to the model an arbitrary sequence of text strings and images. Images can be either URLs or PIL Images.
@@ -52,5 +44,7 @@ bad_words_ids = processor.tokenizer(["<image>", "<fake_token_around_image>"], ad
 
 generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=100)
 generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+
+print(generated_text)
 for i, t in enumerate(generated_text):
     print(f"{i}:\n{t}\n")
