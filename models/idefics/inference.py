@@ -10,7 +10,13 @@ torch.cuda.empty_cache()
 
 
 def load_idefics_model(checkpoint):
-    model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype=torch.bfloat16, cache_dir=CACHE_DIR).to(device)
+    model = IdeficsForVisionText2Text.from_pretrained(
+        checkpoint, 
+        torch_dtype=torch.bfloat16, 
+        load_in_8bit = True,
+        cache_dir=CACHE_DIR
+        )
+    model.to(device)
     processor = AutoProcessor.from_pretrained(checkpoint, cache_dir=CACHE_DIR)
     return model, processor
 
