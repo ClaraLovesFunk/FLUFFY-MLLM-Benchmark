@@ -6,6 +6,8 @@ CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingfa
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+torch.cuda.empty_cache()
+
 
 def load_idefics_model(checkpoint):
     model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype=torch.bfloat16, cache_dir=CACHE_DIR).to(device)
@@ -48,3 +50,6 @@ generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
 print(generated_text)
 for i, t in enumerate(generated_text):
     print(f"{i}:\n{t}\n")
+
+
+print('DOOOOOONNNE')

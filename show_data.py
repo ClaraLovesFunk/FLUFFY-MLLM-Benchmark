@@ -18,8 +18,8 @@ FLAG_SHOW_BAD_EXAMPLES = True
 
 # experiment variables
 
-dataset_name_all = ['hateful_memes'] # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
-model = 'blip2'
+dataset_name_all = ['mvsa'] # 'okvqa','aokvqa', 'mvsa', 'mami', 'hateful_memes'
+model = 'llava'
 run = 1
 n_examples = 4
 n_good_examples = 2
