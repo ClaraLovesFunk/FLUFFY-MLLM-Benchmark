@@ -56,14 +56,14 @@ def eval_model(model, image_processor, tokenizer, prompt, image_file):
         lang_x=lang_x["input_ids"],
         attention_mask=lang_x["attention_mask"],
         max_new_tokens=100,
-        return_full_text=False, ############ DOES THAT WORK?!?!?!
         num_beams=3,
+        pad_token_id=tokenizer.eos_token_id
     )
 
     return tokenizer.decode(generated_text[0])
 
 def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
-    # Load the model, tokenizer, and image_processor before looping over the dataset
+    
     model, image_processor, tokenizer = load_model()
 
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='openflamingo', run=run)
@@ -83,24 +83,16 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
             # update prompt to insert the image token, so openflamingo knows where the image belongs to
             prompt = "<image>" + prompt
 
-            print("prompt")
-            print(prompt)
             image_file = os.path.join(image_dir_path, test_sample['image_id'])
-            output_raw = eval_model(model, image_processor, tokenizer, prompt, image_file)
-
-            print(f'raw output:')
-            print( output_raw)
+            output = eval_model(model, image_processor, tokenizer, prompt, image_file)
             
-            # openflamingo's output is constructed like this: prompt + self-generated text + <|endofchunk|> - extract only the self-generated text
-            if output_raw.startswith(prompt) and output_raw.endswith("<|endofchunk|>"):
-                output = output_raw[len(prompt):-14].strip()
-            else:
-                output = output_raw
-
-            print(f'output:')
-            print(output)
             output_name = 'output_' + t
+            prompt_name = 'prompt_' + t
+
+            output_sample.update({prompt_name: prompt})
             output_sample.update({output_name: output}) 
+            
+            
         pred.append(output_sample)
 
     run_time_inference_end = time.time()
