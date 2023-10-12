@@ -33,6 +33,8 @@ def main(args):
 
     for model, dataset in product(selected_models, selected_datasets):
 
+        print(model)
+
         (
             ds_text_file_path, 
             experiment_output_file_path, 
