@@ -1,26 +1,33 @@
 import torch
 import os
-from transformers import IdeficsForVisionText2Text, AutoProcessor
+from transformers import IdeficsForVisionText2Text, AutoProcessor, GPTQConfig
 
+#os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb=4096'
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 torch.cuda.empty_cache()
-
+print(device)
 
 def load_idefics_model(checkpoint):
+    # Creating the GPTQConfig for 4-bit quantization
+    gptq_config = GPTQConfig(bits=4, dataset="wikitext2", tokenizer=AutoProcessor.from_pretrained(checkpoint))
+
     model = IdeficsForVisionText2Text.from_pretrained(
-        checkpoint, 
-        torch_dtype=torch.bfloat16, 
-        load_in_8bit = True,
-        cache_dir=CACHE_DIR
-        )
+        checkpoint,
+        torch_dtype=torch.bfloat16,
+        cache_dir=CACHE_DIR,
+        device_map="auto",  # For efficient GPU utilization
+        quantization_config=gptq_config
+    )
     model.to(device)
+    
     processor = AutoProcessor.from_pretrained(checkpoint, cache_dir=CACHE_DIR)
+    
     return model, processor
 
-checkpoint = "HuggingFaceM4/idefics-80b-instruct" #"HuggingFaceM4/tiny-random-idefics" 
+checkpoint = "HuggingFaceM4/idefics-80b-instruct"
 model, processor = load_idefics_model(checkpoint)
 
 
