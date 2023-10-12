@@ -389,44 +389,58 @@ for m in model_name:
                 examples = {}
                 examples_task = {}
 
-                # load inputf
+                # Load the input data from the input file
+                print(ds_text_file_path)
                 with open(ds_text_file_path, 'r') as f:
                     data_text = json.load(f)
                     data_text = data_text['data']
-                
-                y_true = [item["label"] for item in data_text if "label" in item]
-                
-                # load output
+
+                # Load the output predictions from the output file
+                print(experiment_output_file_path)
                 with open(experiment_output_file_path, 'r') as f:
                     output = json.load(f)
-                
-                output_name = 'output_' + tasks[0]
 
-                y_pred = [item[output_name] for item in output if output_name in item]
-                
-                
-                #y_pred = [int(string) for string in y_pred]
+                if len(data_text) != len(output):
+                    raise ValueError(f"The input file has {len(data_text)} instances, while the output file has {len(output)} instances. They should match!")
+                else:
+                    print('input and output contain the same amount of instances')
 
-                scores[tasks[0]] = {
-                    'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision (weighted)': metrics.precision_score(y_true, y_pred, average='weighted'),
-                    'recall (weighted)': metrics.recall_score(y_true, y_pred, average='weighted'),
-                    'f1 (weighted)': metrics.f1_score(y_true, y_pred, average='weighted')
-                }
 
-                
+                # Initialize empty lists for y_true and y_pred
+                y_true = []
+                y_pred = []
+
+                # Iterate over each input and collect gold label and corresponding prediction
                 for input_i in data_text:
+                    input_id = input_i.get('text_input_id')
+                    print(f'input_id: {input_id}')
+                    
+                    # Append gold label to y_true list
+                    gold_label = str(input_i.get('classification_label'))
+                    print(f'input_i: {input_i}')
+                    y_true.append(gold_label)
 
-                    input_id = input_i.get('question_id')
-
-                    y_true = str(input_i.get('label'))
-
+                    # Fetch the corresponding prediction using input_id
                     output_i = next((item for item in output if item.get('text_input_id') == input_id), None)
-                    y_pred = output_i.get(output_name)
+                    
+                    
+                    # If output_i is None, print a warning and continue to the next iteration
+                    if output_i is None:
+                        print(f"!!!!!!!!!! Warning: input_id {input_id} not found in output file!")
+                        y_pred.append(None) # Explicitly appending None
+                        continue
 
-                    examples_task[input_id] = 1 if y_true == y_pred else 0
-                
-                examples[tasks[0]] = examples_task
+                    prediction = output_i.get('output_entailment prediction')
+                    y_pred.append(prediction)
+
+                    # If the prediction is None, print the instance
+                    if prediction is None:
+                        print(f"Instance with input_id {input_id} has a prediction of 'None'.")
+                        print(input_i) # Print the input instance
+
+                    # Record if the gold label matches the prediction for the current input
+                    examples_task[input_id] = 1 if gold_label == prediction else 0
+
 
 
 

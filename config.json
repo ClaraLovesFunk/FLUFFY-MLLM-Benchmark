@@ -1,0 +1,11 @@
+{
+    "datasets_dir": "datasets",
+    "experiments_dir": "experiments",
+    "eval_file_name": "scores.json",
+    "valid_ans_file_name": "valid_ans.json",
+    "output_file_name": "output.json",
+    "examples_file_name": "examples.json",
+    "model_names": ["blip2", "instructblip", "llava", "openflamingo"],
+    "dataset_names": ["hateful_memes"],
+    "dataset_file_name": "ds_benchmark.json"
+}
