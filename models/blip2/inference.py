@@ -42,7 +42,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
     
     pred = [] 
 
-    for sample in data_text: #####################################################
+    for sample in data_text: 
         
         output_sample = {'text_input_id': sample['text_input_id']}
 
@@ -69,9 +69,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
 
 def predict_dataset(model_name, dataset_name, run):
 
-    model, vis_processors = get_model(model_name, device) ######################################
-    #model = 'test'   ######################################
-    #vis_processors = 'test' ######################################
+    model, vis_processors = get_model(model_name, device) 
 
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='blip2', run=run)
 
@@ -108,8 +106,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     predict_dataset(args.model_name, args.dataset_name, args.run)
-
-
-# source venvs/blip2/bin/activate
-# cd models/blip2
-# python inference.py --dataset hateful_memes
