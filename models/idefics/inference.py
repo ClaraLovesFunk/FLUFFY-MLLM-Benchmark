@@ -17,24 +17,26 @@ import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def get_model(device):
 
-    model_name = "HuggingFaceM4/idefics-9b-instruct"
+model_name_formal = "HuggingFaceM4/idefics-9b-instruct"
+model_name_informal = "idefics"
+
+def get_model(device):
     model = IdeficsForVisionText2Text.from_pretrained(
-        checkpoint= model_name,
+        pretrained_model_name_or_path= model_name_formal,
         torch_dtype=torch.bfloat16,
         cache_dir=CACHE_DIR
     )
     model.to(device)
 
-    processor = AutoProcessor.from_pretrained(model_name, cache_dir=CACHE_DIR)
+    processor = AutoProcessor.from_pretrained(model_name_formal, cache_dir=CACHE_DIR)
     return model, processor
 
 
 def gen_idefics_prompts(sample, task, img_path):
 
     prompt_generic = prompts.zeroshot(test_sample=sample, task=task)
-    prompts = [
+    prompt_idefics = [
         [
             "User: " + prompt_generic,
             img_path,
@@ -44,7 +46,7 @@ def gen_idefics_prompts(sample, task, img_path):
         ],
     ]
 
-    return prompts
+    return prompt_idefics
 
 
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
@@ -59,9 +61,9 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
             image_file_path = os.path.join(image_dir_path, sample['image_id'])
             #image_raw = Image.open(image_file_path)
 
-            prompts = gen_idefics_prompts(sample, task, image_file_path)
+            prompt_idefics = gen_idefics_prompts(sample, task, image_file_path)
 
-            inputs = processor(prompts, add_end_of_utterance_token=False, return_tensors="pt").to(device)
+            inputs = processor(prompt_idefics, add_end_of_utterance_token=False, return_tensors="pt").to(device)
             exit_condition = processor.tokenizer("<end_of_utterance>", add_special_tokens=False).input_ids
             bad_words_ids = processor.tokenizer(["<image>", "<fake_token_around_image>"], add_special_tokens=False).input_ids
 
@@ -73,11 +75,11 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
 
     return pred
 
-def main(dataset_name):
+def main(dataset_name, run):
     
     model, processor = get_model(device)
-
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name=args.models)
+  
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
 
     with open(ds_file_path, 'r') as f:
         data = json.load(f)
@@ -86,7 +88,7 @@ def main(dataset_name):
     pred = gen_output(device, data_text, model, processor, image_dir_path, tasks)
 
     config = {
-        'model': args.models,
+        'model': model_name_informal,
         'dataset': dataset_name,
     }
 
@@ -103,8 +105,20 @@ def main(dataset_name):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--models", type=str, default="idefics")
-    parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--dataset", type=str, required=True)
+    parser.add_argument("--run", default="1")
     args = parser.parse_args()
 
-    main(args.models, args.dataset_name)
+    run = args.run
+    dataset_name = args.dataset
+    main(dataset_name, run)
+
+'''
+
+source venvs/idefics/bin/activate
+cd models/idefics
+python3 inference.py --dataset hateful_memes
+
+
+
+'''
