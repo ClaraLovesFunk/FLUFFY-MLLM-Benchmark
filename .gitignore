@@ -3,6 +3,7 @@ experiments/
 environments/
 blip2_offcl/
 LAVIS/
+LLaVA/
 venvs/
 aokvqa/
 old/
