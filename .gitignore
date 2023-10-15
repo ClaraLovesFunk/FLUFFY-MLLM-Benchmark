@@ -4,6 +4,7 @@ environments/
 blip2_offcl/
 LAVIS/
 LLaVA/
+OTTER/
 venvs/
 aokvqa/
 old/
