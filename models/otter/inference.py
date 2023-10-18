@@ -2,7 +2,7 @@ import mimetypes
 import os
 from io import BytesIO
 from typing import Union
-import cv2
+#import cv2
 import requests
 import torch
 import transformers
@@ -11,8 +11,8 @@ from torchvision.transforms import Compose, Resize, ToTensor
 from tqdm import tqdm
 import sys
 
-sys.path.append("../../src")
-
+#sys.path.append("../../src")
+sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/OTTER/src')
 from otter_ai import OtterForConditionalGeneration
 
 

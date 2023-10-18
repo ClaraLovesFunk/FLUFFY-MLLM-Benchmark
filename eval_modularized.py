@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 '''
 
-python3 eval_modularized.py --models blip2 --datasets hateful_memes
+python3 eval_modularized.py --models idefics --datasets hateful_memes
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets all
 python3 eval_modularized.py --models all --datasets hateful_memes
