@@ -1,5 +1,6 @@
 import json
 from sklearn import metrics
+import utils
 
 VALID_ANS_VALUES = ['hateful', 'not hateful']
 TASK_NAME = "hate classification"
@@ -17,7 +18,7 @@ def compute_metrics(y_true, y_pred):
         'f1': metrics.f1_score(y_true, y_pred, pos_label=POS_LABEL),                  
     }
 
-def evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path):
+def evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model):
     data_text = load_json(ds_text_file_path)
     output = load_json(experiment_output_file_path)
 
@@ -27,11 +28,15 @@ def evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path):
         if "text_input_id" in item and "classification_label" in item
     }
 
+
     y_true, y_pred = [], []
     valid_count = 0
 
-    for item in output:
-        pred_value = item.get("output_hate classification")
+    for item in output: 
+        
+        output_raw = item["output_hate classification"]
+        pred_value = utils.extract_answer(model, output_raw)
+
         if pred_value in VALID_ANS_VALUES and item["text_input_id"] in id_to_label:
             valid_count += 1
             y_pred.append(pred_value)
