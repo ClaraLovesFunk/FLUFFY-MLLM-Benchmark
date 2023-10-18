@@ -10,6 +10,7 @@ from PIL import Image
 from PIL import ImageOps
 import requests
 from io import BytesIO
+import re
 
 
 # from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
@@ -284,3 +285,22 @@ def load_image(image_file):
     else:
         image = Image.open(image_file).convert('RGB')
     return image
+
+
+def extract_answer_idefics(text):
+    # Extracting the answer after "Assistant: "
+    answer = text.split("\nAssistant: ")[-1].strip().lower()
+    return answer
+
+def extract_answer_openflamingo(text):
+    # Extracting the answer after "Assistant: "
+    answer = text.split("\nAssistant: ")[-1].strip().lower()
+    return answer
+
+
+def extract_answer_openflamingo(text):
+    # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
+    match = re.search(r'\nAnswer:\.+(.*)', text)
+    if match:
+        return match.group(1).strip().lower()
+    return text  # Return the original text if the pattern isn't found
