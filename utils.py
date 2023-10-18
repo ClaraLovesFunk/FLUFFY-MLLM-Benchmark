@@ -300,7 +300,8 @@ def extract_answer(model, output_raw):
         match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if match:
             output_clean = match.group(1).strip().lower()
-    
+        else:
+            output_clean = output_raw
     else:
         output_clean = output_raw.lower()
 
