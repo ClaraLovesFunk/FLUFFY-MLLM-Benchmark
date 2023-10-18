@@ -44,7 +44,7 @@ def main(args):
         ) = get_paths(config, dataset, model, run)
 
         if dataset == 'hateful_memes':
-            scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path)
+            scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model)
 
         with open(experiment_scores_file_path, 'w') as f: 
             json.dump(scores,f, indent=4)
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 '''
 
-python3 eval_modularized.py --models idefics --datasets hateful_memes
+
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets all
 python3 eval_modularized.py --models all --datasets hateful_memes
