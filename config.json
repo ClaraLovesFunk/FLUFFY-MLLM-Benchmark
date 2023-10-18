@@ -5,7 +5,7 @@
     "valid_ans_file_name": "valid_ans.json",
     "output_file_name": "output.json",
     "examples_file_name": "examples.json",
-    "model_names": ["blip2", "instructblip", "llava", "openflamingo"],
+    "model_names": ["blip2", "instructblip", "llava", "openflamingo", "idefics"],
     "dataset_names": ["hateful_memes"],
     "dataset_file_name": "ds_benchmark.json"
 }
