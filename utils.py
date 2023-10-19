@@ -290,24 +290,3 @@ def load_image(image_file):
 
 
 
-def extract_answer(model, output_raw):
-
-    if model == 'idefics':
-        output_clean = output_raw.split("\nAssistant: ")[-1].strip().lower() #Extracting the answer after "Assistant: "
-            
-    elif model == 'openflamingo':
-        # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        match = re.search(r'\nAnswer:\.+(.*)', output_raw)
-        if match:
-            output_clean = match.group(1).strip().lower()
-        else:
-            output_clean = output_raw
-    else:
-        output_clean = output_raw.lower()
-
-    # Remove any punctuation from the output
-    output_clean = ''.join(ch for ch in output_clean if ch not in string.punctuation)
-    #print('test')
-    #print(output_clean)
-
-    return output_clean
