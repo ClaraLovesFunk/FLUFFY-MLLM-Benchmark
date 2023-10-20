@@ -1,15 +1,15 @@
 import evaluations.utils_eval as utils_eval
 
-VALID_ANS_VALUES = ['hateful', 'not hateful']
-TASK_NAME = "hate classification"
-POS_LABEL = "hateful"
+VALID_ANS_VALUES = ['sexist', 'not sexist']
+TASK_NAME = "sexism classification"
+POS_LABEL = "sexist"
 label_name = "classification_label"
-output_name = "output_hate classification"
-dataset_name = "hateful_memes"
+output_name = "output_sexism classification"
+dataset_name = "mami"
 
 
 
-def evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model):
+def evaluate_mami(ds_text_file_path, experiment_output_file_path, model):
 
     data_text = utils_eval.load_data(ds_text_file_path)
     output = utils_eval.load_data(experiment_output_file_path)
