@@ -11,7 +11,7 @@ def extract_answer(model, dataset, output_raw):
             
     elif model == 'openflamingo':
         # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        if dataset in ['hateful_memes', 'mami']:
+        if dataset in ['hateful_memes', 'mami', 'esnlive']:
             match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if dataset in ['mvsa']:
             match = re.search(r'\nSentiment: \.+(.*)', output_raw)
@@ -31,17 +31,14 @@ def extract_answer(model, dataset, output_raw):
 def compute_standard_metrics(y_true, y_pred, pos_label, average='binary'):
 
     if y_pred == []: # if no valid predictions were made, model cannot be evaluated
-        print('invalid output')
         invalid_ans = float('nan')
         scores = {
             'accuracy': invalid_ans, 
             'precision': invalid_ans, 
             'recall': invalid_ans, 
             'f1': invalid_ans}
-        print(scores)
 
     else:
-        print('valid output')
         if average=='binary':
             scores = {
                 'accuracy': metrics.accuracy_score(y_true, y_pred),
