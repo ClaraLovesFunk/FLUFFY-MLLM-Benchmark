@@ -4,14 +4,17 @@ import json
 from sklearn import metrics
 
 
-def extract_answer(model, output_raw):
+def extract_answer(model, dataset, output_raw):
 
     if model == 'idefics':
         output_clean = output_raw.split("\nAssistant: ")[-1].strip().lower() #Extracting the answer after "Assistant: "
             
     elif model == 'openflamingo':
         # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        match = re.search(r'\nAnswer:\.+(.*)', output_raw)
+        if dataset in ['hateful_memes', 'mami']:
+            match = re.search(r'\nAnswer:\.+(.*)', output_raw)
+        if dataset in ['mvsa']:
+            match = re.search(r'\nSentiment: \.+(.*)', output_raw)
         if match:
             output_clean = match.group(1).strip().lower()
         else:
@@ -26,12 +29,32 @@ def extract_answer(model, output_raw):
 
 
 def compute_standard_metrics(y_true, y_pred, pos_label, average='binary'):
-    return {
-        'accuracy': metrics.accuracy_score(y_true, y_pred),
-        'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
-        'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
-        'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
-    }
+
+    if y_pred == []: # if no valid predictions were made, model cannot be evaluated
+        invalid_ans = 'invalid ans'
+        scores = {
+            'accuracy': invalid_ans, 
+            'precision': invalid_ans, 
+            'recall': invalid_ans, 
+            'f1': invalid_ans}
+
+    else:
+        if average=='binary':
+            scores = {
+                'accuracy': metrics.accuracy_score(y_true, y_pred),
+                'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
+                'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
+                'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
+            }
+
+        else:
+            scores = {
+                'accuracy': metrics.accuracy_score(y_true, y_pred),
+                'precision': metrics.precision_score(y_true, y_pred, average = average),
+                'recall': metrics.recall_score(y_true, y_pred, average = average),
+                'f1': metrics.f1_score(y_true, y_pred, average = average),                  
+            }
+    return scores
 
 
 def load_data(filepath):
@@ -50,19 +73,23 @@ def get_id_2_label_dict(data_text, label_name):
     return labels
 
 
-def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model):
+def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset):
     
     y_true, y_pred = [], []
     valid_count = 0
     
-    for item in output:
+    for item in output:     #######################
         output_raw = item[output_name]
-        pred_value = extract_answer(model, output_raw)
+        #print(output_raw)
+        pred_value = extract_answer(model, dataset, output_raw)
+        #print(pred_value)
 
-        if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
+        #print(VALID_ANS_VALUES) 
+        if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   #if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
+            #print('test')
             valid_count += 1
             y_pred.append(pred_value)
-            y_true.append(labels[item["text_input_id"]]).lower()
+            y_true.append(labels[item["text_input_id"]].lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0
 
