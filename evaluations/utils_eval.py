@@ -78,15 +78,15 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     y_true, y_pred = [], []
     valid_count = 0
     
-    for item in output:     #######################
+    for item in output:     
         output_raw = item[output_name]
-        #print(output_raw)
         pred_value = extract_answer(model, dataset, output_raw)
-        #print(pred_value)
-
-        #print(VALID_ANS_VALUES) 
-        if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   #if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
-            #print('test')
+        
+        if VALID_ANS_VALUES == "sample-dependent":
+            # count the options n in item['choices'] starting from 0
+            # VALID_ANS_VALUES = list of all integers up to n
+        
+        if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   
             valid_count += 1
             y_pred.append(pred_value)
             y_true.append(labels[item["text_input_id"]].lower())
