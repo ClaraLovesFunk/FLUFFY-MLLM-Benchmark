@@ -4,6 +4,8 @@ import os
 from itertools import product
 
 from evaluations.hateful_memes.eval import evaluate_hateful_memes
+from evaluations.mami.eval import evaluate_mami
+from evaluations.mvsa.eval import evaluate_mvsa
 
 
 CONFIG_PATH = 'config.json'
@@ -33,7 +35,7 @@ def main(args):
 
     for model, dataset in product(selected_models, selected_datasets):
 
-        print(model)
+        print(f' {model} on {dataset}:')
 
         (
             ds_text_file_path, 
@@ -45,6 +47,14 @@ def main(args):
 
         if dataset == 'hateful_memes':
             scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model)
+
+        if dataset == 'mami':
+            scores, examples, valid_ans_ratio = evaluate_mami(ds_text_file_path, experiment_output_file_path, model)
+
+        if dataset == 'mvsa':
+            scores, examples, valid_ans_ratio = evaluate_mvsa(ds_text_file_path, experiment_output_file_path, model)
+
+
 
         with open(experiment_scores_file_path, 'w') as f: 
             json.dump(scores,f, indent=4)
@@ -74,6 +84,6 @@ if __name__ == "__main__":
 
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets all
-python3 eval_modularized.py --models all --datasets hateful_memes
+python3 eval_modularized.py --models blip2 --datasets mvsa
 
 '''
