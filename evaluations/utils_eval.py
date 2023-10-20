@@ -30,30 +30,30 @@ def extract_answer(model, dataset, output_raw):
 
 def compute_standard_metrics(y_true, y_pred, pos_label, average='binary'):
 
-    if y_pred == []: # if no valid predictions were made, model cannot be evaluated
-        invalid_ans = 'invalid ans'
+    # if y_pred == []: # if no valid predictions were made, model cannot be evaluated
+    #     invalid_ans = 'invalid ans'
+    #     scores = {
+    #         'accuracy': invalid_ans, 
+    #         'precision': invalid_ans, 
+    #         'recall': invalid_ans, 
+    #         'f1': invalid_ans}
+
+# else:
+    if average=='binary':
         scores = {
-            'accuracy': invalid_ans, 
-            'precision': invalid_ans, 
-            'recall': invalid_ans, 
-            'f1': invalid_ans}
+            'accuracy': metrics.accuracy_score(y_true, y_pred),
+            'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
+            'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
+            'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
+        }
 
     else:
-        if average=='binary':
-            scores = {
-                'accuracy': metrics.accuracy_score(y_true, y_pred),
-                'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
-                'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
-                'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
-            }
-
-        else:
-            scores = {
-                'accuracy': metrics.accuracy_score(y_true, y_pred),
-                'precision': metrics.precision_score(y_true, y_pred, average = average),
-                'recall': metrics.recall_score(y_true, y_pred, average = average),
-                'f1': metrics.f1_score(y_true, y_pred, average = average),                  
-            }
+        scores = {
+            'accuracy': metrics.accuracy_score(y_true, y_pred),
+            'precision': metrics.precision_score(y_true, y_pred, average = average),
+            'recall': metrics.recall_score(y_true, y_pred, average = average),
+            'f1': metrics.f1_score(y_true, y_pred, average = average),                  
+        }
     return scores
 
 
