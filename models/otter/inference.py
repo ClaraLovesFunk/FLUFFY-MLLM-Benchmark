@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import mimetypes
 import os
 from io import BytesIO
@@ -9,26 +11,24 @@ import transformers
 from PIL import Image
 from torchvision.transforms import Compose, Resize, ToTensor
 from tqdm import tqdm
+
+CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
+os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
+
 import sys
-
-#sys.path.append("../../src")
-sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/OTTER/src')
+sys.path.append("../../src")
 from otter_ai import OtterForConditionalGeneration
-
 
 # Disable warnings
 requests.packages.urllib3.disable_warnings()
 
 # ------------------- Utility Functions -------------------
 
-
 def get_content_type(file_path):
     content_type, _ = mimetypes.guess_type(file_path)
     return content_type
 
-
 # ------------------- Image Handling Functions -------------------
-
 
 def get_image(url: str) -> Union[Image.Image, list]:
     if not url.strip():  # Blank input, return a blank Image
@@ -46,13 +46,10 @@ def get_image(url: str) -> Union[Image.Image, list]:
     else:
         raise ValueError("Invalid content type. Expected image.")
 
-
 # ------------------- OTTER Prompt and Response Functions -------------------
-
 
 def get_formatted_prompt(prompt: str) -> str:
     return f"<image>User: {prompt} GPT:<answer>"
-
 
 def get_response(image, prompt: str, model=None, image_processor=None) -> str:
     input_data = image
@@ -98,8 +95,6 @@ def get_response(image, prompt: str, model=None, image_processor=None) -> str:
         .rstrip('"')
     )
     return parsed_output
-
-
 # ------------------- Main Function -------------------
 
 if __name__ == "__main__":
@@ -111,19 +106,17 @@ if __name__ == "__main__":
         precision["torch_dtype"] = torch.float16
     elif load_bit == "fp32":
         precision["torch_dtype"] = torch.float32
-    model = OtterForConditionalGeneration.from_pretrained("luodian/OTTER-Image-MPT7B", device_map="sequential", **precision)
+    model = OtterForConditionalGeneration.from_pretrained("luodian/OTTER-Image-MPT7B", device_map="sequential", cache_dir = CACHE_DIR, **precision)
     model.text_tokenizer.padding_side = "left"
     tokenizer = model.text_tokenizer
     image_processor = transformers.CLIPImageProcessor()
     model.eval()
 
+    # CHANGED: Hard-coded the image path
+    image_path = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/coco2017/val/000000461751.jpg"
+    image = get_image(image_path)
+
     while True:
-        image_path = input("Enter the path to your image (or type 'quit' to exit): ")
-        if image_path.lower() == "quit":
-            break
-
-        image = get_image(image_path)
-
         prompts_input = input("Enter the prompts (or type 'quit' to exit): ")
 
         print(f"\nPrompt: {prompts_input}")
