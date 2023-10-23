@@ -116,12 +116,11 @@ if __name__ == "__main__":
     image_path = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/coco2017/val/000000461751.jpg"
     image = get_image(image_path)
 
-    while True:
-        prompts_input = input("Enter the prompts (or type 'quit' to exit): ")
+    # CHANGED: Set the prompt directly without asking for input
+    prompts_input = "what do you see in the image?"
 
-        print(f"\nPrompt: {prompts_input}")
-        response = get_response(image, prompts_input, model, image_processor)
-        print(f"Response: {response}")
+    print(f"\nPrompt: {prompts_input}")
+    response = get_response(image, prompts_input, model, image_processor)
+    print(f"Response: {response}")
 
-        if prompts_input.lower() == "quit":
-            break
+    # Removed the loop as it's no longer necessary if you're not taking input from the user
