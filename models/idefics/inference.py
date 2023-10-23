@@ -53,14 +53,12 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
     
     pred = []
 
-    for sample in data_text:
+    for sample in data_text:   ################
         output_sample = {'text_input_id': sample['text_input_id']}
 
         for task in tasks:
 
             image_file_path = os.path.join(image_dir_path, sample['image_id'])
-            #image_raw = Image.open(image_file_path)
-
             prompt_idefics = gen_idefics_prompts(sample, task, image_file_path)
 
             inputs = processor(prompt_idefics, add_end_of_utterance_token=False, return_tensors="pt").to(device)
@@ -69,10 +67,14 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
 
             generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=250)
             output = processor.batch_decode(generated_ids, skip_special_tokens=True)
+            
             output_name = "output_" + task
+            prompt_name = 'prompt_' + task
+            
+            output_sample.update({prompt_name: prompt_idefics})
             output_sample.update({output_name: output[0]})
 
-            pred.append(output_sample)
+        pred.append(output_sample)
 
     return pred
 
