@@ -67,7 +67,7 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
             exit_condition = processor.tokenizer("<end_of_utterance>", add_special_tokens=False).input_ids
             bad_words_ids = processor.tokenizer(["<image>", "<fake_token_around_image>"], add_special_tokens=False).input_ids
 
-            generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=100)
+            generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=250)
             output = processor.batch_decode(generated_ids, skip_special_tokens=True)
             output_name = "output_" + task
             output_sample.update({output_name: output[0]})
