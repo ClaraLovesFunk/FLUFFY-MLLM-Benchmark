@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 
 '''
-python3 run_inference.py -models all -datasets all
+python3 run_inference.py -models idefics -datasets all
 python3 run_inference.py -models all -datasets mvsa
 python3 run_inference.py -models openflamingo -datasets all
 python3 run_inference.py -models instructblip -datasets hateful_memes
