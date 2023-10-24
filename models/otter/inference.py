@@ -8,13 +8,30 @@ import transformers
 from PIL import Image
 from torchvision.transforms import Compose, Resize, ToTensor
 from tqdm import tqdm
+import argparse
+import json
+
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 import sys
+root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(root_directory)
+import utils  
+import prompts
+
 sys.path.append("models/otter")
 from otter_ai import OtterForConditionalGeneration
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
+
+
+
+model_name_formal = "luodian/OTTER-Image-MPT7B"
+model_name_informal = "otter"
 
 
 def get_image(file_path: str) -> Image.Image:
@@ -23,7 +40,28 @@ def get_image(file_path: str) -> Image.Image:
 def get_formatted_prompt(prompt: str) -> str:
     return f"<image>User: {prompt} GPT:<answer>"
 
-def get_response(image, prompt: str, model=None, image_processor=None) -> str:
+def get_model(device):
+    load_bit = "bf16"
+    precision = {}
+    if load_bit == "bf16":
+        precision["torch_dtype"] = torch.bfloat16
+    elif load_bit == "fp16":
+        precision["torch_dtype"] = torch.float16
+    elif load_bit == "fp32":
+        precision["torch_dtype"] = torch.float32
+    model = OtterForConditionalGeneration.from_pretrained(model_name_formal, device_map="sequential", cache_dir=CACHE_DIR, **precision)
+    model.text_tokenizer.padding_side = "left"
+    model.eval()
+    model.to(device)
+
+    image_processor = transformers.CLIPImageProcessor()
+    #tokenizer = model.text_tokenizer
+    
+    return model, image_processor #, tokenizer
+
+
+
+def get_response(device, image, prompt: str, model=None, image_processor=None) -> str:
     
     input_data = image
 
@@ -52,7 +90,7 @@ def get_response(image, prompt: str, model=None, image_processor=None) -> str:
         vision_x=vision_x.to(model.device),
         lang_x=lang_x_input_ids.to(model.device),
         attention_mask=lang_x_attention_mask.to(model.device),
-        max_new_tokens=250,
+        max_new_tokens=512,
         num_beams=3,
         no_repeat_ngram_size=3,
     )
@@ -69,29 +107,72 @@ def get_response(image, prompt: str, model=None, image_processor=None) -> str:
     )
     return parsed_output
 
+def gen_output(device, data_text, model, image_processor, image_dir_path, tasks):
+    pred = []
+    
+    for sample in data_text: 
+        output_sample = {'text_input_id': sample['text_input_id']}
+        for task in tasks:
+            prompt_generic = prompts.zeroshot(test_sample=sample, task=task)
+            prompt_otter = get_formatted_prompt(prompt_generic) 
+            image_file_path = os.path.join(image_dir_path, sample['image_id'])
+
+            image = get_image(image_file_path)
+            output = get_response(device, image, prompt_otter, model, image_processor)
+
+            output_name = "output_" + task
+            prompt_name = 'prompt_' + task
+            
+            output_sample.update({prompt_name: prompt_otter})
+            output_sample.update({output_name: output})
+
+        pred.append(output_sample)
+
+    return pred
+
+def main(dataset_name, run):
+    model, image_processor = get_model(device)
+
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, _ = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
+
+    with open(ds_file_path, 'r') as f:
+        data = json.load(f)
+    data_text = data['data']
+
+    pred = gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
+
+    config = {
+        'model': model_name_informal,
+        'dataset': dataset_name,
+    }
+
+    if not os.path.exists(output_dir_path):
+        os.makedirs(output_dir_path)
+
+    with open(output_file_path, 'w') as f:
+        json.dump(pred, f, indent=4)
+
+    with open(config_file_path, 'w') as f:
+        json.dump(config, f, indent=4)
+
+    return None
+
 
 
 
 if __name__ == "__main__":
-    load_bit = "bf16"
-    precision = {}
-    if load_bit == "bf16":
-        precision["torch_dtype"] = torch.bfloat16
-    elif load_bit == "fp16":
-        precision["torch_dtype"] = torch.float16
-    elif load_bit == "fp32":
-        precision["torch_dtype"] = torch.float32
-    model = OtterForConditionalGeneration.from_pretrained("luodian/OTTER-Image-MPT7B", device_map="sequential", cache_dir = CACHE_DIR, **precision)
-    model.text_tokenizer.padding_side = "left"
-    tokenizer = model.text_tokenizer
-    image_processor = transformers.CLIPImageProcessor()
-    model.eval()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", type=str, required=True)
+    parser.add_argument("--run", default="1")
+    args = parser.parse_args()
 
-    image_path = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/98764.png"
-    prompts_original = "what do you see in the image?"
+    run = args.run
+    dataset_name = args.dataset
+    main(dataset_name, run)
 
-    image = get_image(image_path)
-    output = get_response(image, prompts_original, model, image_processor)
-    print(output)
+'''
 
-   
+source venvs/otter/bin/activate
+cd models/otter
+python3 inference.py --dataset hateful_memes
+'''
