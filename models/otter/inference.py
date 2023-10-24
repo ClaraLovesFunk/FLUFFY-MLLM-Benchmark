@@ -16,26 +16,15 @@ import sys
 sys.path.append("models/otter")
 from otter_ai import OtterForConditionalGeneration
 
-# Disable warnings
-#requests.packages.urllib3.disable_warnings()
-
-# ------------------- Utility Functions -------------------
-
-# def get_content_type(file_path):
-#     content_type, _ = mimetypes.guess_type(file_path)
-#     return content_type
-
-# ------------------- Image Handling Functions -------------------
 
 def get_image(file_path: str) -> Image.Image:
     return Image.open(file_path)
-
-# ------------------- OTTER Prompt and Response Functions -------------------
 
 def get_formatted_prompt(prompt: str) -> str:
     return f"<image>User: {prompt} GPT:<answer>"
 
 def get_response(image, prompt: str, model=None, image_processor=None) -> str:
+    
     input_data = image
 
     if isinstance(input_data, Image.Image):
@@ -63,7 +52,7 @@ def get_response(image, prompt: str, model=None, image_processor=None) -> str:
         vision_x=vision_x.to(model.device),
         lang_x=lang_x_input_ids.to(model.device),
         attention_mask=lang_x_attention_mask.to(model.device),
-        max_new_tokens=512,
+        max_new_tokens=250,
         num_beams=3,
         no_repeat_ngram_size=3,
     )
@@ -79,7 +68,9 @@ def get_response(image, prompt: str, model=None, image_processor=None) -> str:
         .rstrip('"')
     )
     return parsed_output
-# ------------------- Main Function -------------------
+
+
+
 
 if __name__ == "__main__":
     load_bit = "bf16"
@@ -96,15 +87,11 @@ if __name__ == "__main__":
     image_processor = transformers.CLIPImageProcessor()
     model.eval()
 
-    # CHANGED: Hard-coded the image path
-    image_path = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/coco2017/val/000000461751.jpg"
+    image_path = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/98764.png"
+    prompts_original = "what do you see in the image?"
+
     image = get_image(image_path)
+    output = get_response(image, prompts_original, model, image_processor)
+    print(output)
 
-    # CHANGED: Set the prompt directly without asking for input
-    prompts_input = "what do you see in the image?"
-
-    print(f"\nPrompt: {prompts_input}")
-    response = get_response(image, prompts_input, model, image_processor)
-    print(f"Response: {response}")
-
-    # Removed the loop as it's no longer necessary if you're not taking input from the user
+   
