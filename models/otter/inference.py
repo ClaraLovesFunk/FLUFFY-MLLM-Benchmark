@@ -16,10 +16,8 @@ CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingfa
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 
 import sys
-#sys.path.append("OTTER/src")
-sys.path.append("models/idefics")
+sys.path.append("models/otter")
 from otter_ai import OtterForConditionalGeneration
-#from OTTER.src.otter_ai import OtterForConditionalGeneration
 
 # Disable warnings
 requests.packages.urllib3.disable_warnings()
