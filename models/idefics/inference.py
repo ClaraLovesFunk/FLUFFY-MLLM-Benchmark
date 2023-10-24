@@ -121,7 +121,4 @@ if __name__ == "__main__":
 source venvs/idefics/bin/activate
 cd models/idefics
 python3 inference.py --dataset hateful_memes
-
-
-
 '''
