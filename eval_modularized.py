@@ -12,7 +12,7 @@ from evaluations.scienceqa.eval import evaluate_scienceqa
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
-DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa']
+DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'scienceqa']
 
 def get_paths(config, dataset, model, run):
     ds_text_file_path = os.path.join(config['datasets_dir'], dataset, config['dataset_file_name'])
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models all --datasets scienceqa
+python3 eval_modularized.py --models blip2 --datasets scienceqa
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets mvsa
 

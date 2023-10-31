@@ -114,9 +114,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
 
 
 def get_examples(output, output_name, labels):
-
+    
     examples = {
-        item["text_input_id"]: 1 if labels[item["text_input_id"]] == item.get(output_name) else 0
+        item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
         for item in output if "text_input_id" in item and item["text_input_id"] in labels
     }
 
