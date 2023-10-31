@@ -79,19 +79,21 @@ def get_id_2_label_dict(data_text, label_name):
     return labels
 
 
-def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset):
+def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text):
     
     y_true, y_pred = [], []
     valid_count = 0
     
     for item in output:     
         output_raw = item[output_name]
-        pred_value = extract_answer(model, dataset, output_raw)
+        pred_value = extract_answer(model, dataset_name, output_raw)
         
         if VALID_ANS_VALUES == "sample-dependent":
             # count the options n in item['choices'] starting from 0
             # VALID_ANS_VALUES = list of all integers up to n
-            valid_count = 0 ##############
+            valid_count += 1
+            y_pred.append(pred_value)
+            #y_true.append(labels[item["text_input_id"]].lower())
         
         if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   
             valid_count += 1
