@@ -8,11 +8,12 @@ from evaluations.mami.eval import evaluate_mami
 from evaluations.mvsa.eval import evaluate_mvsa
 from evaluations.esnlive.eval import evaluate_esnlive
 from evaluations.scienceqa.eval import evaluate_scienceqa
+from evaluations.aokvqa.eval import evaluate_aokvqa
 
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
-DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'scienceqa']
+DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'scienceqa', 'aokvqa']
 
 def get_paths(config, dataset, model, run):
     ds_text_file_path = os.path.join(config['datasets_dir'], dataset, config['dataset_file_name'])
@@ -62,6 +63,9 @@ def main(args):
         if dataset == "scienceqa":
             scores, examples, valid_ans_ratio = evaluate_scienceqa(ds_text_file_path, experiment_output_file_path, model)
 
+        if dataset == "aokvqa":
+            scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model)
+
 
         print(scores)
         
@@ -91,7 +95,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models blip2 --datasets scienceqa
+python3 eval_modularized.py --models blip2 --datasets aokvqa
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets mvsa
 
