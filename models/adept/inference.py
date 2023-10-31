@@ -1,21 +1,20 @@
 import os
+
+CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
+os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
+
 import torch
 import argparse
 import json
 from transformers import FuyuProcessor, FuyuForCausalLM
 from PIL import Image
 from tqdm import tqdm
-
-CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
-os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
-
+import time
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 import utils  
 import prompts
-
-#sys.path.append("models/adept")
 
 device = torch.device("cpu") ############################ "cuda" if torch.cuda.is_available() else "cpu")
 
@@ -36,7 +35,7 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     for k, v in inputs.items():
         inputs[k] = v.to(device)
     generation_output = model.generate(**inputs, max_new_tokens=7) ############### max_new_tokens
-    generated_text = processor.batch_decode(generation_output[:, -7:], skip_special_tokens=True) max_new_tokens
+    generated_text = processor.batch_decode(generation_output[:, -7:], skip_special_tokens=True) ###############max_new_tokens
     return generated_text[0]
 
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
@@ -106,7 +105,6 @@ if __name__ == "__main__":
 
 
 '''
-
 source venvs/otter/bin/activate
 cd models/otter
 python3 inference.py --dataset hateful_memes
