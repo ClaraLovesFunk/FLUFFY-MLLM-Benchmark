@@ -16,7 +16,7 @@ sys.path.append(root_directory)
 import utils  
 import prompts
 
-device = torch.device("cpu") ############################ "cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model_name_formal = "adept/fuyu-8b"
 model_name_informal = "adept"
@@ -41,7 +41,7 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
     pred = []
 
-    for sample in data_text[:1]:   
+    for sample in data_text:   
         output_sample = {'text_input_id': sample['text_input_id']}
         for task in tasks:
             prompt_generic = prompts.zeroshot(test_sample=sample, task=task)
