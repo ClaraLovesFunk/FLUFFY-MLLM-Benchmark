@@ -68,11 +68,14 @@ def load_data(filepath):
         return json.load(f)
     
 
-def get_id_2_label_dict(data_text, label_name):
+def get_id_2_label_dict(data_text, label_name, dataset_name):
 
+    if dataset_name not in ['aokvqa']:
+        data_text = data_text["data"]
+    
     labels = {
         item["text_input_id"]: item[label_name]
-        for item in data_text["data"] 
+        for item in data_text
         if "text_input_id" in item and label_name in item
     }
 
@@ -85,22 +88,22 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     valid_count = 0
     data_text = data_text["data"]
     
-    for item in output:      ###############
+    for item in output:      
 
         output_raw = item[output_name]
         pred_value = extract_answer(model, dataset_name, output_raw)
         
         if VALID_ANS_VALUES == "sample-dependent":
+            if dataset_name in ["scienceqa"]:
+                sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
+                if sample is not None:
+                    no_choices = len(sample['answer_choices'])
+                    VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
 
-            sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
-            if sample is not None:
-                no_choices = len(sample['answer_choices'])
-                VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
-
-                if pred_value in VALID_ANS_VALUES_sample_dependent: # and item["text_input_id"] in labels:   
-                    valid_count += 1
-                    y_pred.append(pred_value)
-                    y_true.append(str(labels[item["text_input_id"]]).lower())
+                    if pred_value in VALID_ANS_VALUES_sample_dependent: # and item["text_input_id"] in labels:   
+                        valid_count += 1
+                        y_pred.append(pred_value)
+                        y_true.append(str(labels[item["text_input_id"]]).lower())
             
         
         if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   
