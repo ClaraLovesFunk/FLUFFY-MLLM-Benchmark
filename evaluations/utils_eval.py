@@ -11,7 +11,7 @@ def extract_answer(model, dataset, output_raw):
             
     elif model == 'openflamingo':
         # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa']:
+        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa', 'aokvqa']:
             match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if dataset in ['mvsa']:
             match = re.search(r'\nSentiment: \.+(.*)', output_raw)
@@ -70,7 +70,7 @@ def load_data(filepath):
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
 
-    if dataset_name not in ['aokvqa']:
+    if not dataset_name in ['aokvqa']:
         data_text = data_text["data"]
     
     labels = {
@@ -86,7 +86,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     
     y_true, y_pred = [], []
     valid_count = 0
-    data_text = data_text["data"]
+
+    if not dataset_name in ['aokvqa']:
+        data_text = data_text["data"]
     
     for item in output:      
 
