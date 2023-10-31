@@ -11,7 +11,7 @@ def extract_answer(model, dataset, output_raw):
             
     elif model == 'openflamingo':
         # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        if dataset in ['hateful_memes', 'mami', 'esnlive']:
+        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa']:
             match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if dataset in ['mvsa']:
             match = re.search(r'\nSentiment: \.+(.*)', output_raw)
@@ -106,7 +106,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   
             valid_count += 1
             y_pred.append(pred_value)
-            y_true.append(labels[item["text_input_id"]].lower())
+            y_true.append(str(labels[item["text_input_id"]]).lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0
 
