@@ -7,6 +7,7 @@ from evaluations.hateful_memes.eval import evaluate_hateful_memes
 from evaluations.mami.eval import evaluate_mami
 from evaluations.mvsa.eval import evaluate_mvsa
 from evaluations.esnlive.eval import evaluate_esnlive
+from evaluations.scienceqa.eval import evaluate_scienceqa
 
 
 CONFIG_PATH = 'config.json'
@@ -58,6 +59,9 @@ def main(args):
         if dataset == "esnlive":
             scores, examples, valid_ans_ratio = evaluate_esnlive(ds_text_file_path, experiment_output_file_path, model)
 
+        if dataset == "scienceqa":
+            scores, examples, valid_ans_ratio = evaluate_scienceqa(ds_text_file_path, experiment_output_file_path, model)
+
 
         print(scores)
         
@@ -87,8 +91,8 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models openflamingo --datasets all
-python3 eval_modularized.py --models blip2 --datasets all
+python3 eval_modularized.py --models all --datasets scienceqa
+python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets mvsa
 
 '''
