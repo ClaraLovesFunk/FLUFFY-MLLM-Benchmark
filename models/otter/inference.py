@@ -10,6 +10,8 @@ from torchvision.transforms import Compose, Resize, ToTensor
 from tqdm import tqdm
 import argparse
 import json
+import time
+
 
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
@@ -133,17 +135,23 @@ def gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
 def main(dataset_name, run):
     model, image_processor = get_model(device)
 
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, _ = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
 
     with open(ds_file_path, 'r') as f:
         data = json.load(f)
     data_text = data['data']
 
+    run_time_inference_start = time.time()
     pred = gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
-
+    run_time_inference_end = time.time()
+    run_time_inference = int(run_time_inference_end - run_time_inference_start) / 60 
+    
     config = {
         'model': model_name_informal,
         'dataset': dataset_name,
+        "split": split,
+        "run": "1",
+        "run time inference": run_time_inference
     }
 
     if not os.path.exists(output_dir_path):
