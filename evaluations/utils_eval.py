@@ -28,7 +28,7 @@ def extract_answer(model, dataset, output_raw):
     return output_clean
 
 
-def compute_standard_metrics(y_true, y_pred, pos_label, average='binary'):
+def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', flag_only_acc = False):
 
     if y_pred == []: # if no valid predictions were made, model cannot be evaluated
         invalid_ans = float('nan')
@@ -39,21 +39,27 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary'):
             'f1': invalid_ans}
 
     else:
-        if average=='binary':
+        if flag_only_acc == True:
             scores = {
-                'accuracy': metrics.accuracy_score(y_true, y_pred),
-                'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
-                'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
-                'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
-            }
+                        'accuracy': metrics.accuracy_score(y_true, y_pred),
+                        }
+        
+        if flag_only_acc == False:
+            if average=='binary':
+                scores = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
+                    'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
+                    'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
+                }
 
-        else:
-            scores = {
-                'accuracy': metrics.accuracy_score(y_true, y_pred),
-                'precision': metrics.precision_score(y_true, y_pred, average = average),
-                'recall': metrics.recall_score(y_true, y_pred, average = average),
-                'f1': metrics.f1_score(y_true, y_pred, average = average),                  
-            }
+            else:
+                scores = {
+                    'accuracy': metrics.accuracy_score(y_true, y_pred),
+                    'precision': metrics.precision_score(y_true, y_pred, average = average),
+                    'recall': metrics.recall_score(y_true, y_pred, average = average),
+                    'f1': metrics.f1_score(y_true, y_pred, average = average),                  
+                }
     return scores
 
 
@@ -85,7 +91,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         if VALID_ANS_VALUES == "sample-dependent":
             # count the options n in item['choices'] starting from 0
             # VALID_ANS_VALUES = list of all integers up to n
-            x=1
+            valid_count = 0 ##############
         
         if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:   
             valid_count += 1
