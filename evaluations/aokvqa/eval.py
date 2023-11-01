@@ -7,7 +7,7 @@ import evaluations.utils_eval as utils_eval
 VALID_ANS_VALUES = ['0', '1', '2', '3']
 TASK_NAME = "multiple choice (aokvqa)"
 #POS_LABEL = ""
-label_name = "correct_choice_idx"
+label_name = "correct_choice"
 output_name = "output_multiple choice (aokvqa)"
 dataset_name = "aokvqa"
 
@@ -104,7 +104,9 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model):
     with open('datasets/aokvqa/ds_original.json', 'r') as f: # load original file (not restructured one for our benchmark)
         data_text = json.load(f)
     output = utils_eval.load_data(experiment_output_file_path)
-    labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name)
+    with open('datasets/aokvqa/ds_benchmark.json', 'r') as f: # to get labels use the file that was reformatted for the benchmark
+        data_text_labels = json.load(f)
+    labels = utils_eval.get_id_2_label_dict(data_text_labels, label_name, dataset_name)
 
     scores = {}
     examples = {}
