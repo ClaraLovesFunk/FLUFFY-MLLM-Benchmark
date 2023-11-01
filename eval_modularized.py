@@ -9,6 +9,7 @@ from evaluations.mvsa.eval import evaluate_mvsa
 from evaluations.esnlive.eval import evaluate_esnlive
 from evaluations.scienceqa.eval import evaluate_scienceqa
 from evaluations.aokvqa.eval import evaluate_aokvqa
+from evaluations.okvqa.eval import evaluate_okvqa
 
 
 CONFIG_PATH = 'config.json'
@@ -66,6 +67,9 @@ def main(args):
         if dataset == "aokvqa":
             scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model)
 
+        if dataset == "okvqa":
+            scores, examples, valid_ans_ratio = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model)
+
 
         print(scores)
         
@@ -95,7 +99,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models blip2 --datasets aokvqa
+python3 eval_modularized.py --models blip2 --datasets okvqa
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets mvsa
 
