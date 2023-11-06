@@ -68,7 +68,7 @@ def main(args):
             scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model)
 
         if dataset == "okvqa":
-            scores, examples, valid_ans_ratio = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model)
+            scores, examples = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model)
 
 
         print(scores)
