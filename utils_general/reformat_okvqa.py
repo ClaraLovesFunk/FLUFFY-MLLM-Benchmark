@@ -15,5 +15,5 @@ for entry in data['data']:
     entry['correct_direct_answer_short'] = list(unique_answers)
 
 # Now write the processed data to the new file
-with open('ds_benchmark.json', 'w') as file:
+with open('datasets/okvqa/ds_benchmark.json', 'w') as file:
     json.dump(data, file, indent=2)
