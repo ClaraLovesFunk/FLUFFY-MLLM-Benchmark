@@ -24,9 +24,7 @@ def transform_output_4_okvqa(resFile_original, resFile):
     transformed_data = []
     for item in data:
         question_id = item['text_input_id']
-        print(question_id)
-        answer = item['output_direct answer (okvqa)']#[0]
-        print(f'asnswer: {answer}')
+        answer = item['output_direct answer (okvqa)']
         transformed_data.append({'question_id': question_id, 'answer': answer})
 
     with open(resFile, 'w') as f:
