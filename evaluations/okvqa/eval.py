@@ -64,9 +64,9 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model):
 
     data_text = utils_eval.load_data(ds_text_file_path)
     output = utils_eval.load_data(experiment_output_file_path)
-    labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name) #
+    labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name) 
 
-    examples = utils_eval.get_examples(output, output_name, labels)
+    examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
 
     scores = {TASK_NAME: scores}
     examples = {TASK_NAME: examples}

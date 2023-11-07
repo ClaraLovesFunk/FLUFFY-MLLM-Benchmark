@@ -128,11 +128,19 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     return valid_ans_ratio, y_pred, y_true
 
 
-def get_examples(output, output_name, labels):
+def get_examples(ds, output, output_name, labels):
     
-    examples = {
-        item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
-        for item in output if "text_input_id" in item and item["text_input_id"] in labels
-    }
+    if ds == 'okvqa':
+        examples = {
+            item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
+            for item in output
+            if "text_input_id" in item and item["text_input_id"] in labels
+        }
+
+    else:
+        examples = {
+            item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
+            for item in output if "text_input_id" in item and item["text_input_id"] in labels
+        }
 
     return examples
