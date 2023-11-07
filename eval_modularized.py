@@ -11,6 +11,7 @@ from evaluations.scienceqa.eval import evaluate_scienceqa
 from evaluations.aokvqa.eval import evaluate_aokvqa
 from evaluations.okvqa.eval import evaluate_okvqa
 from evaluations.gqa.eval import evaluate_gqa
+from evaluations.clevr.eval import evaluate_clevr
 
 
 CONFIG_PATH = 'config.json'
@@ -74,6 +75,9 @@ def main(args):
         if dataset == "gqa":
             scores, examples = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model)
 
+        if dataset == "clevr":
+            scores, examples = evaluate_clevr(ds_text_file_path, experiment_output_file_path, model)
+
 
         print(scores)
         
@@ -103,7 +107,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models blip2 --datasets gqa
+python3 eval_modularized.py --models blip2 --datasets clevr
 python3 eval_modularized.py --models instructblip --datasets okvqa
 python3 eval_modularized.py --models all --datasets okvqa
 
