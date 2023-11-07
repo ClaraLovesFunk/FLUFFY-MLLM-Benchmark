@@ -32,7 +32,7 @@ def extract_answer(model, dataset, output_raw):
     return output_clean
 
 
-def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', flag_only_acc = False):
+def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False):
 
     if y_pred == []: # if no valid predictions were made, model cannot be evaluated
         invalid_ans = float('nan')
@@ -52,7 +52,7 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', flag_o
             if average=='binary':
                 scores = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label),
+                    'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label, zero_division=zero_division),
                     'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
                     'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
                 }
@@ -60,7 +60,7 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', flag_o
             else:
                 scores = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
-                    'precision': metrics.precision_score(y_true, y_pred, average = average),
+                    'precision': metrics.precision_score(y_true, y_pred, average = average, zero_division=zero_division),
                     'recall': metrics.recall_score(y_true, y_pred, average = average),
                     'f1': metrics.f1_score(y_true, y_pred, average = average),                  
                 }
@@ -73,9 +73,6 @@ def load_data(filepath):
     
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
-
-    # if not dataset_name in ['aokvqa']:
-    #     data_text = data_text["data"]
 
     data_text = data_text["data"]
         

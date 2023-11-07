@@ -17,7 +17,7 @@ def evaluate_clevr(ds_text_file_path, experiment_output_file_path, model):
 
     _, y_pred, y_true = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text)
 
-    scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', flag_only_acc = True)
+    scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', zero_division=0, flag_only_acc = True)
     examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
 
     scores = {TASK_NAME: scores}

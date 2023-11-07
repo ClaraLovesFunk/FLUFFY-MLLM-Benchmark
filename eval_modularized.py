@@ -108,7 +108,8 @@ if __name__ == "__main__":
 
 
 python3 eval_modularized.py --models all --datasets all
-python3 eval_modularized.py --models all --datasets gqa
+python3 eval_modularized.py --models openflamingo --datasets all
+python3 eval_modularized.py --models otter --datasets all
 
 
 '''
