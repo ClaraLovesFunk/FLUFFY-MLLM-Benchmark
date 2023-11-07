@@ -97,30 +97,30 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         output_raw = str(item[output_name]) ############
         pred_value = extract_answer(model, dataset_name, output_raw)
         
+        # multiple choice tasks with varying number of answer choices, e.g. scienceqa
         if VALID_ANS_VALUES == "sample-dependent":
-
-            # multiple choice tasks with varying number of answer choices, e.g. scienceqa
             if dataset_name in ["scienceqa"]:
                 sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
                 if sample is not None:
                     no_choices = len(sample['answer_choices'])
                     VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
-
-                    if pred_value in VALID_ANS_VALUES_sample_dependent: # and item["text_input_id"] in labels:   
+                    if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
                         valid_count += 1
                         y_pred.append(pred_value)
                         y_true.append(str(labels[item["text_input_id"]]).lower())
             
-        if not VALID_ANS_VALUES == "sample-dependent":
-            
-            if pred_value in VALID_ANS_VALUES:# and item["text_input_id"] in labels:
-                #print('test')   
+        # direct answer tasks for which we do not determine what a valid answer is and what not
+        elif VALID_ANS_VALUES == "no-ans-validity":
+            if item["text_input_id"] in labels:
+                y_pred.append(pred_value)
+                y_true.append(str(labels[item["text_input_id"]]).lower())
+            valid_ans_ratio = None
+
+        # for classification or multiple choice task, where valid answers are the same for all instances
+        else:
+            if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
                 valid_count += 1
                 y_pred.append(pred_value)
-                #print(f'labels: {labels}')
-                #print(f'y_pred: {y_pred}')
-                #print(f'id: {item["text_input_id"]}')
-                
                 y_true.append(str(labels[item["text_input_id"]]).lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0

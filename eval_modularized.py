@@ -10,11 +10,12 @@ from evaluations.esnlive.eval import evaluate_esnlive
 from evaluations.scienceqa.eval import evaluate_scienceqa
 from evaluations.aokvqa.eval import evaluate_aokvqa
 from evaluations.okvqa.eval import evaluate_okvqa
+from evaluations.gqa.eval import evaluate_gqa
 
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
-DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'scienceqa', 'aokvqa']
+DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'aokvqa']
 
 def get_paths(config, dataset, model, run):
     ds_text_file_path = os.path.join(config['datasets_dir'], dataset, config['dataset_file_name'])
@@ -70,6 +71,9 @@ def main(args):
         if dataset == "okvqa":
             scores, examples = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model)
 
+        if dataset == "gqa":
+            scores, examples = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model)
+
 
         print(scores)
         
@@ -99,7 +103,10 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models blip2 --datasets okvqa
+python3 eval_modularized.py --models blip2 --datasets gqa
+python3 eval_modularized.py --models instructblip --datasets okvqa
+python3 eval_modularized.py --models all --datasets okvqa
+
 python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models blip2 --datasets mvsa
 
