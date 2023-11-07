@@ -1,7 +1,5 @@
 {
     "direct answer (okvqa)": {
-        "direct answer": {
-            "accuracy": 0.46
-        }
+        "accuracy": 0.46
     }
 }
