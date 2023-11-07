@@ -11,7 +11,7 @@ def extract_answer(model, dataset, output_raw):
             
     elif model == 'openflamingo':
         # Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa', 'aokvqa']:
+        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa', 'aokvqa', 'clevr', 'gqa']:
             match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if dataset in ['mvsa']:
             match = re.search(r'\nSentiment: \.+(.*)', output_raw)

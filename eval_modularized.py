@@ -107,11 +107,8 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models blip2 --datasets clevr
-python3 eval_modularized.py --models instructblip --datasets okvqa
-python3 eval_modularized.py --models all --datasets okvqa
+python3 eval_modularized.py --models all --datasets clevr
+python3 eval_modularized.py --models all --datasets gqa
 
-python3 eval_modularized.py --models all --datasets all
-python3 eval_modularized.py --models blip2 --datasets mvsa
 
 '''
