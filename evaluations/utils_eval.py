@@ -15,6 +15,10 @@ def extract_answer(model, dataset, output_raw):
             match = re.search(r'\nAnswer:\.+(.*)', output_raw)
         if dataset in ['mvsa']:
             match = re.search(r'\nSentiment: \.+(.*)', output_raw)
+        if dataset in ['mami']:
+            match = re.search(r'\nSexism Label: \.+(.*)', output_raw)
+        if dataset in ['hateful_memes']:
+            match = re.search(r'\nHate Label: \.+(.*)', output_raw)
         if match:
             output_clean = match.group(1).strip().lower()
         else:

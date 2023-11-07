@@ -107,7 +107,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 eval_modularized.py --models all --datasets clevr
+python3 eval_modularized.py --models all --datasets all
 python3 eval_modularized.py --models all --datasets gqa
 
 
