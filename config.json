@@ -6,6 +6,6 @@
     "output_file_name": "output.json",
     "examples_file_name": "examples.json",
     "model_names": ["blip2", "instructblip", "llava", "openflamingo", "idefics", "otter"],
-    "dataset_names": ["hateful_memes", "mvsa", "mami", "esnlive"],
+    "dataset_names": ["hateful_memes", "mvsa", "mami", "esnlive", "aokvqa", "okvqa", "gqa", "scienceqa", "clevr"],
     "dataset_file_name": "ds_benchmark.json"
 }
