@@ -20,8 +20,14 @@ def transform_output_4_okvqa(resFile_original, resFile):
 
     with open(resFile_original, 'r') as f:
         data = json.load(f)
-
-    transformed_data = [{'question_id': item['text_input_id'], 'answer': item['output_direct answer (okvqa)'][0]} for item in data]
+    
+    transformed_data = []
+    for item in data:
+        question_id = item['text_input_id']
+        print(question_id)
+        answer = item['output_direct answer (okvqa)']#[0]
+        print(f'asnswer: {answer}')
+        transformed_data.append({'question_id': question_id, 'answer': answer})
 
     with open(resFile, 'w') as f:
         json.dump(transformed_data, f)
@@ -57,10 +63,10 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model):
                     experiment_output_okvqa_format_file_path, 
                     experiment_output_file_path, 
                     transform_output_4_okvqa)
-
+    acc = acc/100 # we do not want percent
     scores = {'accuracy': acc} 
 
-    os.remove(experiment_output_okvqa_format_file_path) # delete output file in okvqa format, after it has been used for evalation
+    os.remove(experiment_output_okvqa_format_file_path) # deletes output file in okvqa format, after it has been used for evalation
 
     data_text = utils_eval.load_data(ds_text_file_path)
     output = utils_eval.load_data(experiment_output_file_path)
