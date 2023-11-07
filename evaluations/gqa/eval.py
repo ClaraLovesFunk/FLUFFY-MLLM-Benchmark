@@ -16,12 +16,11 @@ def evaluate_gqa(ds_text_file_path, experiment_output_file_path, model):
     labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name)
 
     _, y_pred, y_true = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text)
-    #print(y_true)
-    #print(y_pred)
+
     scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', flag_only_acc = True)
     examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
 
     scores = {TASK_NAME: scores}
     examples = {TASK_NAME: examples}
 
-    return scores, examples
+    return scores, examples 
