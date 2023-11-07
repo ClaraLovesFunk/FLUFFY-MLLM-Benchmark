@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "clevr",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 19.066666666666666
+}

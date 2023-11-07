@@ -1,0 +1,8070 @@
+[
+    {
+        "text_input_id": "5",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "23",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "42",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "46",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "61",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "62",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "78",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "85",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "86",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "87",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "92",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "95",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "111",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "121",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "140",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "156",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "158",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "161",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "170",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "180",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "182",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "184",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "198",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "209",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "234",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "237",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "271",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "282",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "286",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "288",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "293",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "301",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "305",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "324",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "330",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "332",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "337",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "338",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "342",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "366",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "374",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "389",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "402",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "406",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "427",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "445",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "470",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "509",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "515",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "517",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "519",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "522",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "536",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "541",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "576",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "577",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "584",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "600",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "603",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "605",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "627",
+        "output_multiple choice (sqa)": "an elementary substance"
+    },
+    {
+        "text_input_id": "632",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "640",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "645",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "667",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "670",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "674",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "686",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "691",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "693",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "730",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "734",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "741",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "751",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "752",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "754",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "763",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "781",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "785",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "788",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "827",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "828",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "841",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "843",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "849",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "865",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "879",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "880",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "886",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "898",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "900",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "918",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "926",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "945",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "952",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "964",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "993",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1002",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1009",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1014",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1029",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1041",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1043",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1049",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1050",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1064",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1123",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "1135",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "1139",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "1165",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1203",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1208",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1222",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1223",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1224",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1226",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1228",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1231",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1232",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1244",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1247",
+        "output_multiple choice (sqa)": "styrofoam"
+    },
+    {
+        "text_input_id": "1251",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1253",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1269",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1281",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1289",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1301",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1304",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1309",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1315",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1326",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1359",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1382",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1389",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1392",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1400",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1412",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1431",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1454",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1503",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1515",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1518",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1526",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1551",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1558",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1569",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1582",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1586",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1590",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1628",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1633",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1640",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1669",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1672",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1674",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1696",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1702",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "1714",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "1719",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1752",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1760",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "1762",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1765",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1774",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1779",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "1803",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "1816",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1857",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "1874",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "1879",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1914",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1916",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "1926",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1936",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1940",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1950",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1951",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1952",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1974",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1976",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "1979",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2005",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2007",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2015",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2028",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2037",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2045",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2055",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2073",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2095",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2129",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2147",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2148",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2152",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2158",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2163",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "2165",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "2173",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2186",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2189",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2210",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2274",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2286",
+        "output_multiple choice (sqa)": "each vial... the surroundings"
+    },
+    {
+        "text_input_id": "2328",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2332",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2343",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2347",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2355",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2360",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2368",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "2372",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2380",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2382",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2383",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2384",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2391",
+        "output_multiple choice (sqa)": "0/4"
+    },
+    {
+        "text_input_id": "2395",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2400",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2401",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2413",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2460",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2473",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2479",
+        "output_multiple choice (sqa)": "away from the pliers"
+    },
+    {
+        "text_input_id": "2481",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2499",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2502",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2523",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2538",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2552",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2566",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2574",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2579",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2595",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "2604",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2621",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2624",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2626",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2638",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2644",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "2660",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2677",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2704",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2712",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2716",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2722",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2737",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2741",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2756",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2759",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2771",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2783",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2788",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "2789",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "2790",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2792",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2795",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2796",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2828",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2830",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2839",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2845",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2870",
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+    },
+    {
+        "text_input_id": "2877",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "2878",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2886",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2888",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2908",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "2921",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2923",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "2933",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2936",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2960",
+        "output_multiple choice (sqa)": "Connor can trade his tomatoes for Maura's broccoli."
+    },
+    {
+        "text_input_id": "2969",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "2971",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2978",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2983",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "2993",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3004",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3016",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3020",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3022",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3036",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3041",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3060",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3069",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3077",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3089",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3093",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3105",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3107",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3109",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3113",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3115",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "3118",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3123",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3125",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3132",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3138",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3144",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3147",
+        "output_multiple choice (sqa)": "to the right than to the left"
+    },
+    {
+        "text_input_id": "3153",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3156",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3185",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3193",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3197",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3205",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3213",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3217",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3219",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3229",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3231",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3233",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3255",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3284",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3292",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3327",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3336",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3339",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3354",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3377",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3379",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3395",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3398",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3418",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3428",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3434",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3436",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3439",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3455",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3468",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3476",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3481",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3486",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3494",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3495",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3505",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3514",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3518",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3523",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3530",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "3534",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "3541",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3544",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3567",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "3583",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3593",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3604",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3609",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3629",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3654",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3656",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3660",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3669",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3679",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3681",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "3692",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3703",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3721",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3727",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3733",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3745",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3751",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3752",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3762",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3773",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "3788",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3815",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3823",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3866",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3873",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "3877",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3882",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3885",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3901",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3903",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3913",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3914",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3920",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "3921",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3934",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3951",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3964",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "3965",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3968",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3972",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "3988",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4003",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4009",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4040",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4050",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4072",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4084",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4094",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4120",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4123",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4124",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4139",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4150",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4153",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4156",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4164",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "4167",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4168",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4176",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4187",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4203",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4205",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4214",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4216",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4217",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4231",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4246",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4248",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4263",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4271",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4281",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4287",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4288",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4291",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4301",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4310",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4317",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4339",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "4340",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4344",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4347",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "4351",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4355",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4361",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4385",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4394",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4443",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4444",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "4459",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4474",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4482",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4500",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4505",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4512",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "4519",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4532",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "4537",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4553",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4554",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4562",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4575",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4578",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4583",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4594",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4604",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4624",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4631",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4639",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4645",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "4657",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4670",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4690",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4708",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4709",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4717",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4718",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4720",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4740",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "4749",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "4753",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4757",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4809",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4817",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4828",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4832",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4833",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4834",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4836",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4844",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4851",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4865",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4897",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4914",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4918",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4919",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4924",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4996",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "4999",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5000",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "5018",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "5025",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5044",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5049",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "5052",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5080",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5090",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5119",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5144",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5146",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5175",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5180",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5185",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5189",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5203",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5210",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5211",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5223",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5238",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "5258",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5272",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5298",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5306",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "5308",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5311",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "5316",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "5335",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5352",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5389",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5400",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5408",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5415",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5421",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5441",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5447",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5456",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5471",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5474",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5476",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5490",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5499",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5507",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5511",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5522",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5548",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5559",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "5573",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5606",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5611",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "5618",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5623",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5625",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5642",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5648",
+        "output_multiple choice (sqa)": "each pizza... the surroundings"
+    },
+    {
+        "text_input_id": "5663",
+        "output_multiple choice (sqa)": "iodine"
+    },
+    {
+        "text_input_id": "5667",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5674",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5691",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5694",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5696",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5697",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5698",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5725",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5736",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5748",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5770",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5774",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "5781",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5795",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5801",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5805",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5806",
+        "output_multiple choice (sqa)": "4"
+    },
+    {
+        "text_input_id": "5812",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "5816",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5828",
+        "output_multiple choice (sqa)": "if the sample fabric would absorb one drop of water in less than one second"
+    },
+    {
+        "text_input_id": "5836",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5864",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "5886",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5888",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5890",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5912",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "5913",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5922",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "5925",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5933",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5934",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5956",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "5981",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5986",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5991",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5994",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5995",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "5998",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6001",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6008",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6020",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6023",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6028",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6051",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6091",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "6096",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6099",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6112",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6115",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6120",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6123",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6129",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6144",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6145",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6152",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6201",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6207",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6212",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6215",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6219",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6223",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6257",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6263",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6266",
+        "output_multiple choice (sqa)": "true"
+    },
+    {
+        "text_input_id": "6269",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6290",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6291",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6304",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6306",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6308",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6323",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6326",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6329",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6331",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6334",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6338",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6345",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6371",
+        "output_multiple choice (sqa)": "if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour"
+    },
+    {
+        "text_input_id": "6372",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6375",
+        "output_multiple choice (sqa)": "a higher elevation than"
+    },
+    {
+        "text_input_id": "6377",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6381",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6391",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6400",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6406",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6408",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6412",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6445",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6454",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6457",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "6467",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6469",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6502",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6517",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6525",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6534",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6539",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6541",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6542",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6553",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6557",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6558",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6574",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6576",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6578",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6588",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6608",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "6626",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6685",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6686",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "6713",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6717",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6726",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6734",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6735",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6738",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6739",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6759",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6785",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6786",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6814",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6815",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6825",
+        "output_multiple choice (sqa)": "CLCN1 gene... chloride channel protein"
+    },
+    {
+        "text_input_id": "6880",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "6886",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6891",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6899",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6902",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6916",
+        "output_multiple choice (sqa)": "each cake... the surroundings"
+    },
+    {
+        "text_input_id": "6940",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6964",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "6967",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "6981",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "6987",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7000",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7005",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7014",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7023",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7031",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7033",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7038",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7047",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7055",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "7057",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7059",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7083",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7094",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7115",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7121",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7126",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "7130",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7134",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7135",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7140",
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+    },
+    {
+        "text_input_id": "7145",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7147",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "7191",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7209",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7216",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7226",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7244",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7270",
+        "output_multiple choice (sqa)": "roaring"
+    },
+    {
+        "text_input_id": "7301",
+        "output_multiple choice (sqa)": "to the right than to the left"
+    },
+    {
+        "text_input_id": "7306",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7310",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7333",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7336",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7348",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7349",
+        "output_multiple choice (sqa)": "100 to 150 years"
+    },
+    {
+        "text_input_id": "7367",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "7373",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7395",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7405",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7428",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7457",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7462",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "7465",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7483",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7487",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "7488",
+        "output_multiple choice (sqa)": "if the sample fabric would absorb one drop of water in less than one second"
+    },
+    {
+        "text_input_id": "7494",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7495",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7497",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7514",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7517",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7531",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7534",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7548",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7563",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7587",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "7597",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7621",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7626",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7653",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7675",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7694",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7707",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7709",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7713",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "7724",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7726",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "7727",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7758",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7759",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "7768",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7785",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7804",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7805",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7829",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7832",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7841",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7844",
+        "output_multiple choice (sqa)": "true"
+    },
+    {
+        "text_input_id": "7859",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7860",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7888",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7908",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7914",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7916",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "7917",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7927",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "7933",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "7936",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8004",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8012",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8014",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8018",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8043",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8049",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8053",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8070",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8080",
+        "output_multiple choice (sqa)": "5"
+    },
+    {
+        "text_input_id": "8088",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8090",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8099",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8118",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8150",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8163",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8168",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8174",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8193",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8208",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8211",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8212",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8213",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8221",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8230",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8248",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8252",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8269",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8294",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8296",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8300",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8332",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8346",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8357",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "8358",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8371",
+        "output_multiple choice (sqa)": "each battery... the surroundings"
+    },
+    {
+        "text_input_id": "8394",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8403",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8408",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8449",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8454",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8456",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8460",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8490",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8496",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8497",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8502",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8516",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8520",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8542",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8551",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8554",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8571",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8587",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8606",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8609",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8614",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8640",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8648",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8676",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8692",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8709",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "8720",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "8721",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8722",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8727",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8732",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8769",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8798",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8811",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8841",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8847",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8852",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8862",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "8876",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8880",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8889",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8917",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8931",
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Boston"
+    },
+    {
+        "text_input_id": "8932",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8957",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8959",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "8965",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8972",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "8980",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9003",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9010",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9019",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "9058",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9067",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9068",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9070",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9071",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9084",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9089",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9093",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "9095",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9096",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9120",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "9134",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9144",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9150",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9169",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9177",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9197",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9223",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9232",
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+    },
+    {
+        "text_input_id": "9233",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9242",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9249",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9262",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9266",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9275",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9277",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "9283",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9285",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "9294",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9328",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "9330",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9332",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9344",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9345",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9357",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9361",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "9375",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9388",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9389",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "9403",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9423",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9489",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "9493",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9495",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9503",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9525",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9546",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "9552",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9561",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9592",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9609",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9626",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9628",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9655",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9668",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9670",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9676",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9710",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9750",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9770",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "9783",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9784",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9806",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9811",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9814",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9823",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "9834",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9846",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "9855",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9872",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9874",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9885",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9898",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9913",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9923",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "9942",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9946",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9948",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9977",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "9984",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "10001",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "10015",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10017",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10046",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10053",
+        "output_multiple choice (sqa)": "each battery... the surroundings"
+    },
+    {
+        "text_input_id": "10056",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10071",
+        "output_multiple choice (sqa)": "true"
+    },
+    {
+        "text_input_id": "10090",
+        "output_multiple choice (sqa)": "2:2"
+    },
+    {
+        "text_input_id": "10094",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10099",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10128",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "10130",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10132",
+        "output_multiple choice (sqa)": "each salmon... the surroundings"
+    },
+    {
+        "text_input_id": "10141",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "10159",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10185",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10188",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10240",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10244",
+        "output_multiple choice (sqa)": "if the spacecraft was damaged when using a parachute with a 1 m vent going 200 km per hour"
+    },
+    {
+        "text_input_id": "10246",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10247",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10250",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10254",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "10256",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10266",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10271",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10279",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10283",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "10286",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10307",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10319",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10330",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10335",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10337",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "10338",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10344",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10356",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10374",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10391",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10399",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10407",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10408",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10411",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10423",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10434",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10452",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10454",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10463",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10465",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10496",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10500",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10512",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10513",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "10519",
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+    },
+    {
+        "text_input_id": "10521",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10522",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10523",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "10536",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10545",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "10550",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10554",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10555",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "10556",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10560",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "10562",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10563",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "10569",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10576",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10595",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10614",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10616",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10649",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "10661",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "10665",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10671",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10681",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10685",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10689",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10692",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "10700",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10706",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10708",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10709",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10725",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10729",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10732",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10738",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10761",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10762",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10791",
+        "output_multiple choice (sqa)": "The temperature does not change much from month to month"
+    },
+    {
+        "text_input_id": "10793",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10839",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10840",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10867",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10873",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10883",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "10886",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10889",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10899",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10909",
+        "output_multiple choice (sqa)": "each battery... the surroundings"
+    },
+    {
+        "text_input_id": "10919",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10941",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10945",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10947",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10960",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10962",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10964",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10971",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10984",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "10997",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11015",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11022",
+        "output_multiple choice (sqa)": "9 grams of water vapor per kilogram of air"
+    },
+    {
+        "text_input_id": "11038",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11042",
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+    },
+    {
+        "text_input_id": "11060",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11067",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11073",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11083",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11113",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "11116",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11120",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11123",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "11138",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11145",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "11149",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11155",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11177",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11180",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11181",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11199",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11201",
+        "output_multiple choice (sqa)": "2:2"
+    },
+    {
+        "text_input_id": "11227",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11241",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11246",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11252",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11254",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11260",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11283",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11285",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11296",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "11300",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11320",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "11333",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11342",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11344",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11374",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11384",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11399",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11408",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "11421",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "11429",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11434",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11446",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11468",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11502",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11509",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11514",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11523",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "11532",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11552",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11559",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11572",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11578",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11583",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "11590",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11596",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11599",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11605",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11606",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11607",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11608",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11609",
+        "output_multiple choice (sqa)": "to the right than to the left"
+    },
+    {
+        "text_input_id": "11613",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11656",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11664",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11675",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11690",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11695",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11696",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11715",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11733",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11738",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11745",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11757",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "11758",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11761",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11768",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11772",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "11784",
+        "output_multiple choice (sqa)": "each salmon... the surroundings"
+    },
+    {
+        "text_input_id": "11799",
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month"
+    },
+    {
+        "text_input_id": "11805",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11818",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11819",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11860",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "11890",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11897",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11917",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11921",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11922",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11926",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11928",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11930",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11932",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11936",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11942",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11948",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11975",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11983",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11988",
+        "output_multiple choice (sqa)": "4/4"
+    },
+    {
+        "text_input_id": "11992",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "11995",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12008",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12016",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12026",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12031",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "12033",
+        "output_multiple choice (sqa)": "0/4"
+    },
+    {
+        "text_input_id": "12034",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12054",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12056",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12072",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12083",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12096",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12105",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12116",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12117",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12135",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12137",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12139",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "12143",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12167",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12174",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12176",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12255",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12269",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12284",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12287",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12298",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12332",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12335",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "12357",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12358",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12365",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12397",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12403",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12406",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12413",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12418",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "12438",
+        "output_multiple choice (sqa)": "The wettest months of the year are June, July, and August"
+    },
+    {
+        "text_input_id": "12446",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12455",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12473",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12477",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12487",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "12489",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "12506",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12513",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12535",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12553",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12556",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12577",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12587",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12608",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12611",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12641",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12645",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12652",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12664",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "12673",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12675",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12712",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "12723",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12733",
+        "output_multiple choice (sqa)": "an elementary substance"
+    },
+    {
+        "text_input_id": "12753",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12776",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12787",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12799",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12815",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12827",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12839",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12841",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12842",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12845",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12856",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12861",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12897",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12905",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12909",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12916",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12924",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12938",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12940",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "12961",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12965",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12979",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12983",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12984",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "12995",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13009",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13015",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "13016",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13017",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13054",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13058",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13062",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13072",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13078",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13093",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13102",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13114",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13122",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "13162",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "13164",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13166",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13197",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13199",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13202",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13204",
+        "output_multiple choice (sqa)": "convergent"
+    },
+    {
+        "text_input_id": "13215",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13219",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13247",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13251",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13253",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13263",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13268",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13271",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13309",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13311",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13319",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13348",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13356",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13392",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13394",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13413",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13443",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13446",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13456",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13457",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13459",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13461",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13476",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13480",
+        "output_multiple choice (sqa)": "each bottle... the surroundings"
+    },
+    {
+        "text_input_id": "13484",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13489",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13491",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13497",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "13500",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13503",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13507",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13544",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13547",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13552",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13571",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13574",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13592",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13603",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13605",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13614",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13643",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13644",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13652",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13667",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13687",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13695",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "13715",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13732",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13736",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "13741",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13746",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13752",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13754",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13777",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13781",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13811",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13815",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13834",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13837",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13845",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13858",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13868",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13869",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13878",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13886",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13896",
+        "output_multiple choice (sqa)": "each battery... the surroundings"
+    },
+    {
+        "text_input_id": "13907",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "13914",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13945",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13947",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13949",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13953",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "13960",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13962",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13970",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13977",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13993",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "13995",
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+    },
+    {
+        "text_input_id": "14029",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14040",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14048",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "14072",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14086",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14096",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14098",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14106",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14112",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14117",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14125",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14132",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14136",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14145",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14146",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14156",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14162",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "14165",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "14172",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14175",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "14192",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14206",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14210",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14212",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14219",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14224",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14245",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14254",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14270",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14308",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14318",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14341",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14348",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "14349",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14356",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "14373",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14406",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14407",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14426",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14428",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14438",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14440",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "14442",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14462",
+        "output_multiple choice (sqa)": "to the left than to the right"
+    },
+    {
+        "text_input_id": "14482",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14484",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14489",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14492",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14504",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14505",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14507",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "14533",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14539",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14547",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14563",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14572",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "14588",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14593",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14602",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14605",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14620",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "14626",
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+    },
+    {
+        "text_input_id": "14627",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14637",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14639",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14644",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14648",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14694",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "14708",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14722",
+        "output_multiple choice (sqa)": "true"
+    },
+    {
+        "text_input_id": "14743",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14759",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14764",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14779",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14785",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14787",
+        "output_multiple choice (sqa)": "horned frog"
+    },
+    {
+        "text_input_id": "14800",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14811",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14814",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14818",
+        "output_multiple choice (sqa)": "each pizza... the surroundings"
+    },
+    {
+        "text_input_id": "14824",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "14826",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14831",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14840",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14857",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14861",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14865",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "14881",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14888",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14896",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14897",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14913",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14927",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14937",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14958",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14971",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "14985",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "15024",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15027",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15044",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15050",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15068",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15080",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15086",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15111",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15115",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15125",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15158",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15161",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15171",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15175",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15187",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15205",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15216",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15224",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "15229",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15235",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15241",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "15245",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15256",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15272",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15273",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15277",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "15279",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "15280",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15289",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "15290",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15305",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15306",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15359",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15374",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15383",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15385",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15415",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15422",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15429",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15444",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15445",
+        "output_multiple choice (sqa)": "2/4"
+    },
+    {
+        "text_input_id": "15457",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15458",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15463",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15486",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15488",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15516",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15524",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15528",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15534",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "15541",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15569",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15576",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15591",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15596",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15602",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15606",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15623",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15627",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15632",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "15637",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15642",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15645",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15652",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "15662",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15684",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15696",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15701",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15705",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15706",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15749",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15763",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15765",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15767",
+        "output_multiple choice (sqa)": "each bottle... the surroundings"
+    },
+    {
+        "text_input_id": "15772",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15787",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15791",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15799",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15810",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "15813",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15815",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15831",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15857",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "15858",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15866",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15867",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15885",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15902",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15923",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15934",
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+    },
+    {
+        "text_input_id": "15956",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "15960",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15971",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15981",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "15983",
+        "output_multiple choice (sqa)": "2"
+    },
+    {
+        "text_input_id": "16010",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16011",
+        "output_multiple choice (sqa)": "ginkgo leaf"
+    },
+    {
+        "text_input_id": "16012",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16026",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16027",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16035",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "16042",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16045",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16049",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16067",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16106",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16113",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16115",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16118",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16126",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16127",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16141",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16145",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16162",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16169",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16180",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "16183",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16196",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16213",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "16219",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16221",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "16223",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "16240",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16242",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16245",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16279",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16293",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16304",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16319",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "16339",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16340",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16356",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16366",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16372",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16379",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16380",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "16410",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16419",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16424",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "16436",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16444",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16456",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16459",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16469",
+        "output_multiple choice (sqa)": "before the war"
+    },
+    {
+        "text_input_id": "16470",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16477",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16501",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16505",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16506",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16510",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16522",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16535",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "16536",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16585",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16592",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16593",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16595",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16599",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16601",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16606",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16608",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16610",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16629",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16658",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16673",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16680",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16699",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16708",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16720",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16723",
+        "output_multiple choice (sqa)": "an elementary substance"
+    },
+    {
+        "text_input_id": "16725",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16731",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "16744",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16746",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16751",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16762",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16773",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16811",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16854",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16868",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16879",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16881",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16932",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16935",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "16947",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "17004",
+        "output_multiple choice (sqa)": "0/4"
+    },
+    {
+        "text_input_id": "17039",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17045",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17052",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17070",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17078",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17085",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17096",
+        "output_multiple choice (sqa)": "0/4"
+    },
+    {
+        "text_input_id": "17098",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17103",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17125",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17171",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "17206",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17222",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "17228",
+        "output_multiple choice (sqa)": "each greenhouse... the surroundings"
+    },
+    {
+        "text_input_id": "17254",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17258",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17295",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17319",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17324",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17328",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17366",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17372",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17398",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17400",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17406",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17408",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "17431",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17438",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17464",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17485",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17488",
+        "output_multiple choice (sqa)": "false"
+    },
+    {
+        "text_input_id": "17496",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "17501",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17503",
+        "output_multiple choice (sqa)": "14 grams of water vapor per kilogram of air"
+    },
+    {
+        "text_input_id": "17508",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "17514",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17523",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17537",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17543",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17553",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17565",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "17601",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17607",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "17609",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17613",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "17617",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17665",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17667",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17668",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17672",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17679",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17689",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17692",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17693",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "17698",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17707",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17713",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17723",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "17727",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17780",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17784",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "17790",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17819",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17829",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17830",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17833",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17845",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17846",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "17857",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "17903",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "17907",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17908",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17912",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17918",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17929",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17930",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17936",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17970",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17979",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17988",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17992",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "17994",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18010",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18021",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18030",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18048",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18055",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18064",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18069",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18077",
+        "output_multiple choice (sqa)": "the distance the footballs traveled"
+    },
+    {
+        "text_input_id": "18086",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18095",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18105",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18127",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18129",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18131",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18133",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18136",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "18146",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18149",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18152",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18166",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18167",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18173",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18184",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18187",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18196",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18202",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "18245",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18258",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18277",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18284",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18288",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18291",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18294",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18311",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "18322",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18336",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18344",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18349",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18387",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18396",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18420",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18421",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "18429",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18446",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18454",
+        "output_multiple choice (sqa)": "each vial... the surroundings"
+    },
+    {
+        "text_input_id": "18483",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18494",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18499",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18503",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18506",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "18550",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18560",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18562",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18572",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "18576",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18586",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18609",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18617",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18627",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18632",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18658",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18662",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18682",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18687",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18689",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18707",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18722",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18752",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18779",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18787",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18792",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18795",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18796",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18812",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18814",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18822",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18841",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18846",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18873",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18885",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18889",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "18895",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18896",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18907",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18937",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18973",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "18985",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "18994",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "19002",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19022",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19023",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19036",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19042",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19043",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19075",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19080",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19112",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19117",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19118",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19122",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19133",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19134",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "19139",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19155",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19158",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19161",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19164",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19187",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19197",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19204",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19206",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19220",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19225",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19227",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "19232",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19237",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19239",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19244",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19248",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19253",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19259",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19260",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19271",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19287",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19292",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19296",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19303",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19305",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19334",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19355",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19367",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19375",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19386",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19397",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19401",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19405",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19408",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19430",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19470",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19476",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19477",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "19479",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
+    },
+    {
+        "text_input_id": "19493",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19494",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19520",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19525",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19531",
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+    },
+    {
+        "text_input_id": "19533",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19535",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19545",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19546",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19548",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19549",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19558",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19602",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "19625",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19658",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19659",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19665",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19676",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19681",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19691",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "19726",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19731",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19736",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19756",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19759",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19782",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "19791",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19793",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19807",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19850",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19860",
+        "output_multiple choice (sqa)": "each vial... the surroundings"
+    },
+    {
+        "text_input_id": "19877",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19879",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19882",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19899",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19904",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19908",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19912",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19922",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19928",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "19934",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19955",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19981",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "19984",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20003",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20020",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20024",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20040",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20051",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20062",
+        "output_multiple choice (sqa)": "ginkgo leaf"
+    },
+    {
+        "text_input_id": "20075",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20115",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20120",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20132",
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
+    },
+    {
+        "text_input_id": "20145",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "20173",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20174",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20176",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20187",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20189",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20203",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20208",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20219",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20221",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20241",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20245",
+        "output_multiple choice (sqa)": "sample A"
+    },
+    {
+        "text_input_id": "20256",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20262",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20280",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20283",
+        "output_multiple choice (sqa)": "0/4"
+    },
+    {
+        "text_input_id": "20334",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20337",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20347",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20349",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
+    },
+    {
+        "text_input_id": "20368",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "20381",
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
+    },
+    {
+        "text_input_id": "20383",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20407",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20413",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20430",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20438",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20470",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20471",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20475",
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+    },
+    {
+        "text_input_id": "20495",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20506",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "20507",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20518",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "20527",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20542",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20552",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20554",
+        "output_multiple choice (sqa)": "2/4"
+    },
+    {
+        "text_input_id": "20565",
+        "output_multiple choice (sqa)": "0"
+    },
+    {
+        "text_input_id": "20567",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20568",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20584",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20592",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20600",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20604",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20632",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20634",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20648",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20666",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20669",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20677",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20703",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20709",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20722",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20734",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20747",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20749",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20758",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20762",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20779",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20788",
+        "output_multiple choice (sqa)": "1:3"
+    },
+    {
+        "text_input_id": "20794",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20820",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
+    },
+    {
+        "text_input_id": "20842",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20864",
+        "output_multiple choice (sqa)": "a compound"
+    },
+    {
+        "text_input_id": "20866",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20883",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20887",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20889",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20890",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20908",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20922",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20924",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20926",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20947",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20948",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20949",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20950",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20970",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20979",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
+    },
+    {
+        "text_input_id": "20984",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "20998",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21006",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21041",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21044",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21048",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21053",
+        "output_multiple choice (sqa)": "keratin protein..."
+    },
+    {
+        "text_input_id": "21063",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21064",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21070",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21076",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21087",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21090",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21121",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21133",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21136",
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
+    },
+    {
+        "text_input_id": "21137",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21140",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21144",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21149",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21166",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21189",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21191",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21192",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21196",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21199",
+        "output_multiple choice (sqa)": "1"
+    },
+    {
+        "text_input_id": "21200",
+        "output_multiple choice (sqa)": "1"
+    }
+]

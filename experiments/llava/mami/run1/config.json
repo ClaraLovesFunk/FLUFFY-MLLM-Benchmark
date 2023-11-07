@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "mami",
+    "split": "test",
+    "run": "1",
+    "run time inference": 62.55
+}

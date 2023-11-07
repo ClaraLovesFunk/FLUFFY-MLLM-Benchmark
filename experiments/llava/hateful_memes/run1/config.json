@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "hateful_memes",
+    "split": "dev",
+    "run": "1",
+    "run time inference": 0.06666666666666667
+}

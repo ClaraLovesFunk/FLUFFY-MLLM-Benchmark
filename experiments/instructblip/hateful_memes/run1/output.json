@@ -1,0 +1,2002 @@
+[
+    {
+        "text_input_id": 8291,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46971,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3745,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 83745,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 80243,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 5279,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1796,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53046,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82301,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31752,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27635,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 80597,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 45368,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 17963,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53968,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10749,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 25149,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87520,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 89071,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 9563,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72048,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49826,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 26453,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12650,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 2568,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83954,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 24316,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62035,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65342,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 92058,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 58672,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 54069,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91586,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87130,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 95640,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47819,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59140,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 13647,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65832,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 57621,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 40982,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43275,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 12973,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74350,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 2478,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 51607,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65403,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29750,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 26547,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2143,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 68192,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52603,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5349,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6491,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 74013,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27485,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13026,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 17265,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91405,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 14026,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 18945,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83920,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83497,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4569,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39607,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 9715,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 1925,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94813,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29437,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95038,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 64891,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 63280,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 17682,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 84510,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 28690,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3567,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95830,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29873,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 70953,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 56124,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10386,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 19530,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94185,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48370,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74058,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 45062,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 94170,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4538,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 83946,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 68127,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97453,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39578,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49360,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 87034,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6123,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17028,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42903,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 71680,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 24135,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32875,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79085,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61872,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30579,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 62504,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 43810,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19730,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37420,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 82509,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 96284,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 97068,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 3214,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 23810,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 91836,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 5126,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 76092,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 64072,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91058,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 21643,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 19523,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 32691,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 87169,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 92738,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53027,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27195,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43910,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 5213,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73945,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56207,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68459,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63175,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82945,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34975,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 61973,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16420,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73069,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 47056,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 56428,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54206,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 93172,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 56980,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79615,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38047,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 94560,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96250,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 28951,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 27614,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4857,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 79603,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 26985,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14873,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54893,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48236,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74908,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96472,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 89430,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76921,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68409,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16354,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 69548,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1456,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 17950,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76295,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 42580,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 96180,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98701,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 15243,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41058,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62375,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 63507,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31208,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62319,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68253,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34687,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34209,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39827,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46920,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 84273,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39018,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 54780,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 69150,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 29843,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19385,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 64510,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47103,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 61038,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 71620,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91602,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30145,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91756,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63745,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 47162,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59806,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7135,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35497,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84362,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84015,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87251,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82590,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59738,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35470,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72061,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3524,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 86170,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 50841,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46087,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 42058,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1967,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54930,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 38076,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 38910,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6723,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2157,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62948,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 21075,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73601,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 32579,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 21567,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1765,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 53172,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32568,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1742,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56098,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78612,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34018,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 53609,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89362,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80426,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83045,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61503,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41890,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 52091,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 24396,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 72168,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85761,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35719,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90256,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 20984,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 95086,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49028,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18356,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52634,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80512,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 62703,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95176,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27384,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 82437,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26943,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 9152,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7429,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75639,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46812,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63827,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41276,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56413,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 69512,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43175,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54129,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 23645,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 89425,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16923,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 4769,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 69815,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91468,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 52104,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52031,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 8795,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 50317,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 73914,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3197,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49621,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68530,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98547,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 3519,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 43698,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84756,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93051,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68257,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12834,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 57208,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26439,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53769,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28406,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53418,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10785,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 84302,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76015,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34189,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52079,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63987,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 73526,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 2145,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84102,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32981,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 73605,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7382,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64071,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80912,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84762,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39076,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85679,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38095,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 52394,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 14865,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54819,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46082,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73962,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78462,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49805,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 24098,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 67435,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 60893,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 93148,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7351,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16850,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 96312,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 86195,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84162,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 12067,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5938,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 43092,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30148,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12045,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92068,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73021,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56241,
+        "output_hate classification": "Hateful"
+    },
+    {
+        "text_input_id": 28905,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 13750,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6582,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 75142,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56149,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41796,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31570,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 1726,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 23785,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56473,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 62970,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41035,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 10285,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95604,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68401,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50984,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17908,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42631,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61349,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65093,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 86357,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74965,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75918,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14975,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92317,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19536,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 90236,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30642,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59206,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19075,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79042,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98720,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2634,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84107,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 7198,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 45702,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46085,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 8451,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 73482,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28017,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2364,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42538,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47183,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72904,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 90243,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41382,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78156,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74250,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97132,
+        "output_hate classification": "muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well hung in the muslim world all gay men are well"
+    },
+    {
+        "text_input_id": 35840,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 78134,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93620,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57369,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10362,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 36058,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9467,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 60183,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47263,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18726,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50379,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6352,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 58093,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19508,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2783,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41728,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 51306,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50241,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49650,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17045,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89536,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26187,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74906,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28190,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89642,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59170,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30927,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32049,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 95173,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 50198,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37658,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95613,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 43805,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18306,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46518,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 18547,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2518,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4621,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98543,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85621,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18367,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84036,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 86417,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92567,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63921,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72864,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30586,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 83264,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93041,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97305,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3568,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7653,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 26397,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3217,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 40618,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 67208,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 3798,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12468,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16842,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68043,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 51807,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78914,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 47950,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 95487,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49260,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 20861,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38914,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47016,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14389,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 35487,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84150,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13809,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50261,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75286,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64312,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 67103,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18059,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90643,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16749,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 37814,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 92046,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 90843,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 85237,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98235,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90267,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48296,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29174,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65801,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91763,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 94387,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80947,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 78251,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94738,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57823,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 32415,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5316,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61085,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27498,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 37160,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18742,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19243,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54108,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93528,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78659,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 67082,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64125,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41296,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 53491,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37692,
+        "output_hate classification": "Not hateful"
+    },
+    {
+        "text_input_id": 36201,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29054,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6273,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 25061,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 20437,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 5439,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34528,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93541,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16704,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48792,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 7528,
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 1268,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83675,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37198,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48670,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9863,
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97320,
+        "output_hate classification": "hateful"
+    }
+]

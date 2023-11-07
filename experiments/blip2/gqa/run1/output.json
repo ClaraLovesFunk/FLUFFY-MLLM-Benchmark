@@ -1,0 +1,4002 @@
+[
+    {
+        "text_input_id": "10468458",
+        "output_direct answer (gqa)": "What is the lamp on?"
+    },
+    {
+        "text_input_id": "07598993",
+        "output_direct answer (gqa)": "From where do you think does the giraffe near the building eat?"
+    },
+    {
+        "text_input_id": "07745230",
+        "output_direct answer (gqa)": "couch"
+    },
+    {
+        "text_input_id": "07925656",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "07639645",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "01270197",
+        "output_direct answer (gqa)": "desk"
+    },
+    {
+        "text_input_id": "01645175",
+        "output_direct answer (gqa)": "What is the steel vehicle called?"
+    },
+    {
+        "text_input_id": "10150493",
+        "output_direct answer (gqa)": "what color does the carpet have?"
+    },
+    {
+        "text_input_id": "13713255",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "03457107",
+        "output_direct answer (gqa)": "bed"
+    },
+    {
+        "text_input_id": "17453266",
+        "output_direct answer (gqa)": "oranges"
+    },
+    {
+        "text_input_id": "15172431",
+        "output_direct answer (gqa)": "a child"
+    },
+    {
+        "text_input_id": "07425535",
+        "output_direct answer (gqa)": "What animal is it?"
+    },
+    {
+        "text_input_id": "141013286",
+        "output_direct answer (gqa)": "a hoodie"
+    },
+    {
+        "text_input_id": "00369185",
+        "output_direct answer (gqa)": "a man on a surfboard"
+    },
+    {
+        "text_input_id": "12209139",
+        "output_direct answer (gqa)": "tv"
+    },
+    {
+        "text_input_id": "12165396",
+        "output_direct answer (gqa)": "Are there any potatoes on the floor?"
+    },
+    {
+        "text_input_id": "03722437",
+        "output_direct answer (gqa)": "Is there a cabinet?"
+    },
+    {
+        "text_input_id": "02374443",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "05543986",
+        "output_direct answer (gqa)": "is the brown hair straight or curly"
+    },
+    {
+        "text_input_id": "13777394",
+        "output_direct answer (gqa)": "a loaf of bread is going into the appliance that is not clean"
+    },
+    {
+        "text_input_id": "14806780",
+        "output_direct answer (gqa)": "nit koennen"
+    },
+    {
+        "text_input_id": "1678684",
+        "output_direct answer (gqa)": "ice cream"
+    },
+    {
+        "text_input_id": "0970998",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "08155395",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "00279521",
+        "output_direct answer (gqa)": "a dresser"
+    },
+    {
+        "text_input_id": "02718327",
+        "output_direct answer (gqa)": "#what color are the eyeglasses?"
+    },
+    {
+        "text_input_id": "16885710",
+        "output_direct answer (gqa)": "who is wearing a shirt"
+    },
+    {
+        "text_input_id": "18530746",
+        "output_direct answer (gqa)": "who is in front of the tree?"
+    },
+    {
+        "text_input_id": "02433707",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "13775080",
+        "output_direct answer (gqa)": "a bicycle"
+    },
+    {
+        "text_input_id": "11354756",
+        "output_direct answer (gqa)": "Is that truck large?"
+    },
+    {
+        "text_input_id": "10889150",
+        "output_direct answer (gqa)": "#5 is waiting"
+    },
+    {
+        "text_input_id": "17891203",
+        "output_direct answer (gqa)": "3 laptops and a keyboard"
+    },
+    {
+        "text_input_id": "17863555",
+        "output_direct answer (gqa)": "are there onions to the left of the tomato on the left side?"
+    },
+    {
+        "text_input_id": "07349310",
+        "output_direct answer (gqa)": "Is the happy boy wearing a helmet?"
+    },
+    {
+        "text_input_id": "171048675",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18873582",
+        "output_direct answer (gqa)": "burger"
+    },
+    {
+        "text_input_id": "1928594",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "19111159",
+        "output_direct answer (gqa)": "shirts"
+    },
+    {
+        "text_input_id": "10764468",
+        "output_direct answer (gqa)": "the man is on the left side"
+    },
+    {
+        "text_input_id": "15339994",
+        "output_direct answer (gqa)": "Is this a beach?"
+    },
+    {
+        "text_input_id": "09192829",
+        "output_direct answer (gqa)": "What is this animal called?"
+    },
+    {
+        "text_input_id": "19284762",
+        "output_direct answer (gqa)": "What kind of furniture is it?"
+    },
+    {
+        "text_input_id": "15495144",
+        "output_direct answer (gqa)": "on which side is the woman?"
+    },
+    {
+        "text_input_id": "14564831",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "04232623",
+        "output_direct answer (gqa)": "men"
+    },
+    {
+        "text_input_id": "14840773",
+        "output_direct answer (gqa)": "who wears a shirt"
+    },
+    {
+        "text_input_id": "07600684",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "01938380",
+        "output_direct answer (gqa)": "hats"
+    },
+    {
+        "text_input_id": "11985702",
+        "output_direct answer (gqa)": "a dress"
+    },
+    {
+        "text_input_id": "06313402",
+        "output_direct answer (gqa)": "full"
+    },
+    {
+        "text_input_id": "091055202",
+        "output_direct answer (gqa)": "a couch"
+    },
+    {
+        "text_input_id": "171008394",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "11749844",
+        "output_direct answer (gqa)": "Is that skirt pink and long?"
+    },
+    {
+        "text_input_id": "12334569",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "17549855",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "141034916",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "11700769",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "1690221",
+        "output_direct answer (gqa)": "Are there any white gloves or hats?"
+    },
+    {
+        "text_input_id": "10109769",
+        "output_direct answer (gqa)": "Is there a yellow helmet or mirror?"
+    },
+    {
+        "text_input_id": "03111891",
+        "output_direct answer (gqa)": "Which kind of appliance is it?"
+    },
+    {
+        "text_input_id": "16230019",
+        "output_direct answer (gqa)": "Do you see forks to the right of the rice on the left?"
+    },
+    {
+        "text_input_id": "04682582",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "13398662",
+        "output_direct answer (gqa)": "Is the man riding on a skateboard?"
+    },
+    {
+        "text_input_id": "02249769",
+        "output_direct answer (gqa)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "02495637",
+        "output_direct answer (gqa)": "On which side is the food?"
+    },
+    {
+        "text_input_id": "10339547",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "12377570",
+        "output_direct answer (gqa)": "Where is the platform?"
+    },
+    {
+        "text_input_id": "11310947",
+        "output_direct answer (gqa)": "what color is the chair?"
+    },
+    {
+        "text_input_id": "17394815",
+        "output_direct answer (gqa)": "is there either a blue flag or balloon?"
+    },
+    {
+        "text_input_id": "05223841",
+        "output_direct answer (gqa)": "What color is the fence?"
+    },
+    {
+        "text_input_id": "16852708",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "15962275",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "07749092",
+        "output_direct answer (gqa)": "who is wearing a t-shirt?"
+    },
+    {
+        "text_input_id": "14561686",
+        "output_direct answer (gqa)": "#5 is taking a picture"
+    },
+    {
+        "text_input_id": "02245703",
+        "output_direct answer (gqa)": "2 hotdogs"
+    },
+    {
+        "text_input_id": "02583162",
+        "output_direct answer (gqa)": "a pot"
+    },
+    {
+        "text_input_id": "19402889",
+        "output_direct answer (gqa)": "a laptop"
+    },
+    {
+        "text_input_id": "02672118",
+        "output_direct answer (gqa)": "Is there a train to the right of the car on the left side?"
+    },
+    {
+        "text_input_id": "10741495",
+        "output_direct answer (gqa)": "broccoli"
+    },
+    {
+        "text_input_id": "08438360",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "0826198",
+        "output_direct answer (gqa)": "On which side are the kids?"
+    },
+    {
+        "text_input_id": "04438417",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "05837174",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "12373751",
+        "output_direct answer (gqa)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "08158724",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "09647344",
+        "output_direct answer (gqa)": "What is the patio made of?"
+    },
+    {
+        "text_input_id": "18503776",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19693816",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "09929591",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04238083",
+        "output_direct answer (gqa)": "Where are the weeds?"
+    },
+    {
+        "text_input_id": "02634461",
+        "output_direct answer (gqa)": "yellow"
+    },
+    {
+        "text_input_id": "07749444",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07344204",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "10456908",
+        "output_direct answer (gqa)": "are there either bells or tents?"
+    },
+    {
+        "text_input_id": "06418273",
+        "output_direct answer (gqa)": "Is that wallet on top of a mirror?"
+    },
+    {
+        "text_input_id": "15124515",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "10590341",
+        "output_direct answer (gqa)": "Are there any silver faucets or clocks?"
+    },
+    {
+        "text_input_id": "19557042",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "08721453",
+        "output_direct answer (gqa)": "a red umbrella"
+    },
+    {
+        "text_input_id": "08812057",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "16319779",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "00747832",
+        "output_direct answer (gqa)": "the woman"
+    },
+    {
+        "text_input_id": "14863461",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "11674933",
+        "output_direct answer (gqa)": "What is the remote control on?"
+    },
+    {
+        "text_input_id": "06587024",
+        "output_direct answer (gqa)": "this woman is pointing at what?"
+    },
+    {
+        "text_input_id": "11319230",
+        "output_direct answer (gqa)": "a man and a woman"
+    },
+    {
+        "text_input_id": "05943669",
+        "output_direct answer (gqa)": "Is there brown grass or mud?"
+    },
+    {
+        "text_input_id": "05716410",
+        "output_direct answer (gqa)": "Is there a cabinet to the left of the brown curtain that is to the left of the lamp?"
+    },
+    {
+        "text_input_id": "16646901",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "06148602",
+        "output_direct answer (gqa)": "an umbrella or a bag"
+    },
+    {
+        "text_input_id": "07819988",
+        "output_direct answer (gqa)": "What bag is on the chair?"
+    },
+    {
+        "text_input_id": "19933199",
+        "output_direct answer (gqa)": "coat"
+    },
+    {
+        "text_input_id": "05153716",
+        "output_direct answer (gqa)": "Are there people to the right of the bus the buildings are behind of?"
+    },
+    {
+        "text_input_id": "02960166",
+        "output_direct answer (gqa)": "a wooden cutting board"
+    },
+    {
+        "text_input_id": "04396322",
+        "output_direct answer (gqa)": "Is there a cup on the table?"
+    },
+    {
+        "text_input_id": "0093240",
+        "output_direct answer (gqa)": "a coat"
+    },
+    {
+        "text_input_id": "19718136",
+        "output_direct answer (gqa)": "What kind of vehicle is the jeep behind of?"
+    },
+    {
+        "text_input_id": "01240046",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01298587",
+        "output_direct answer (gqa)": "Are the trousers made of leather?"
+    },
+    {
+        "text_input_id": "198848",
+        "output_direct answer (gqa)": "who is in front of the house near the trees?"
+    },
+    {
+        "text_input_id": "03868709",
+        "output_direct answer (gqa)": "#does the television have black color and large size?"
+    },
+    {
+        "text_input_id": "12739726",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "16280900",
+        "output_direct answer (gqa)": "a skirt"
+    },
+    {
+        "text_input_id": "08401049",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "09987525",
+        "output_direct answer (gqa)": "a bed"
+    },
+    {
+        "text_input_id": "01656479",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19740195",
+        "output_direct answer (gqa)": "silver"
+    },
+    {
+        "text_input_id": "11606155",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16960737",
+        "output_direct answer (gqa)": "in the bottom"
+    },
+    {
+        "text_input_id": "1422072",
+        "output_direct answer (gqa)": "a bus"
+    },
+    {
+        "text_input_id": "14135180",
+        "output_direct answer (gqa)": "What's on the tree?"
+    },
+    {
+        "text_input_id": "17108320",
+        "output_direct answer (gqa)": "What is the color of that bowl?"
+    },
+    {
+        "text_input_id": "07357880",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "00589780",
+        "output_direct answer (gqa)": "a cow"
+    },
+    {
+        "text_input_id": "11199006",
+        "output_direct answer (gqa)": "Are there any men near the umbrellas to the left of the flags?"
+    },
+    {
+        "text_input_id": "1595006",
+        "output_direct answer (gqa)": "a bed"
+    },
+    {
+        "text_input_id": "03883062",
+        "output_direct answer (gqa)": "# is wearing a post"
+    },
+    {
+        "text_input_id": "15328244",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "00417400",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "03898169",
+        "output_direct answer (gqa)": "scrambled eggs and bacon"
+    },
+    {
+        "text_input_id": "00690448",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03503582",
+        "output_direct answer (gqa)": "#5 is wearing a helmet"
+    },
+    {
+        "text_input_id": "06895203",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "009390",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "00126827",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "19556171",
+        "output_direct answer (gqa)": "#yes"
+    },
+    {
+        "text_input_id": "0333074",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "17484267",
+        "output_direct answer (gqa)": "is there a white computer mouse or Wii remotes in the picture?"
+    },
+    {
+        "text_input_id": "071028392",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "15323903",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "0660628",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "18318209",
+        "output_direct answer (gqa)": "in the bottom part of the photo"
+    },
+    {
+        "text_input_id": "08637012",
+        "output_direct answer (gqa)": "Do you see either a fence or meat there?"
+    },
+    {
+        "text_input_id": "00601001",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14889601",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "0893865",
+        "output_direct answer (gqa)": "blue and white"
+    },
+    {
+        "text_input_id": "16271270",
+        "output_direct answer (gqa)": "What's on the wall?"
+    },
+    {
+        "text_input_id": "19817958",
+        "output_direct answer (gqa)": "2"
+    },
+    {
+        "text_input_id": "07670906",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "011000918",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14473885",
+        "output_direct answer (gqa)": "a cell phone"
+    },
+    {
+        "text_input_id": "06438060",
+        "output_direct answer (gqa)": "a bus"
+    },
+    {
+        "text_input_id": "1398603",
+        "output_direct answer (gqa)": "the ball"
+    },
+    {
+        "text_input_id": "11737242",
+        "output_direct answer (gqa)": "Is the plastic bag on the left?"
+    },
+    {
+        "text_input_id": "091045198",
+        "output_direct answer (gqa)": "Do you see either any urinals or hairbrushes?"
+    },
+    {
+        "text_input_id": "01459134",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "11513424",
+        "output_direct answer (gqa)": "Is there any pizza to the left of the girl that is on the left?"
+    },
+    {
+        "text_input_id": "00833541",
+        "output_direct answer (gqa)": "what is the fence in front of?"
+    },
+    {
+        "text_input_id": "10836035",
+        "output_direct answer (gqa)": "short"
+    },
+    {
+        "text_input_id": "16558489",
+        "output_direct answer (gqa)": "on which side is the gray screen?"
+    },
+    {
+        "text_input_id": "19436938",
+        "output_direct answer (gqa)": "table"
+    },
+    {
+        "text_input_id": "05478437",
+        "output_direct answer (gqa)": "a dresser"
+    },
+    {
+        "text_input_id": "02220170",
+        "output_direct answer (gqa)": "Is there a fork to the right of the chair?"
+    },
+    {
+        "text_input_id": "11781073",
+        "output_direct answer (gqa)": "are there white bowls or fences"
+    },
+    {
+        "text_input_id": "04658310",
+        "output_direct answer (gqa)": "Do you see a duck in the water?"
+    },
+    {
+        "text_input_id": "13454995",
+        "output_direct answer (gqa)": "the cabinets are black"
+    },
+    {
+        "text_input_id": "09889269",
+        "output_direct answer (gqa)": "in which part is the book, the bottom or the top?"
+    },
+    {
+        "text_input_id": "07777896",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07959816",
+        "output_direct answer (gqa)": "who is the woman that is to the right of the telephone observing?"
+    },
+    {
+        "text_input_id": "10493962",
+        "output_direct answer (gqa)": "a bicycle"
+    },
+    {
+        "text_input_id": "08430992",
+        "output_direct answer (gqa)": "#6 do you think is throwing the frisbee?"
+    },
+    {
+        "text_input_id": "14989601",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18300321",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "05145916",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "08336707",
+        "output_direct answer (gqa)": "a fishing rod"
+    },
+    {
+        "text_input_id": "18611244",
+        "output_direct answer (gqa)": "a cell phone"
+    },
+    {
+        "text_input_id": "10883302",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "011020980",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04764424",
+        "output_direct answer (gqa)": "a truck"
+    },
+    {
+        "text_input_id": "01304041",
+        "output_direct answer (gqa)": "in front"
+    },
+    {
+        "text_input_id": "18393873",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "00271801",
+        "output_direct answer (gqa)": "#6 is the plate to the right of the cabinet made of?"
+    },
+    {
+        "text_input_id": "15306427",
+        "output_direct answer (gqa)": "a horse"
+    },
+    {
+        "text_input_id": "16371932",
+        "output_direct answer (gqa)": "is this an eagle or a seagull"
+    },
+    {
+        "text_input_id": "02587862",
+        "output_direct answer (gqa)": "a laptop"
+    },
+    {
+        "text_input_id": "04662722",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "10321394",
+        "output_direct answer (gqa)": "broccoli"
+    },
+    {
+        "text_input_id": "14389628",
+        "output_direct answer (gqa)": "Are there any white trains or windows?"
+    },
+    {
+        "text_input_id": "0837513",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "09562321",
+        "output_direct answer (gqa)": "What do you think is the appliance on the wall?"
+    },
+    {
+        "text_input_id": "06996118",
+        "output_direct answer (gqa)": "the young girl is wearing what?"
+    },
+    {
+        "text_input_id": "07616955",
+        "output_direct answer (gqa)": "On which side is the lady?"
+    },
+    {
+        "text_input_id": "09844269",
+        "output_direct answer (gqa)": "1.25 lb"
+    },
+    {
+        "text_input_id": "16518717",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "02895176",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07862126",
+        "output_direct answer (gqa)": "drinking"
+    },
+    {
+        "text_input_id": "10484581",
+        "output_direct answer (gqa)": "What do you think is the appliance that the logo is on?"
+    },
+    {
+        "text_input_id": "00765827",
+        "output_direct answer (gqa)": "What vehicle is the building behind of?"
+    },
+    {
+        "text_input_id": "01162834",
+        "output_direct answer (gqa)": "a skateboard"
+    },
+    {
+        "text_input_id": "02996824",
+        "output_direct answer (gqa)": "the tennis court"
+    },
+    {
+        "text_input_id": "17222987",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "07650281",
+        "output_direct answer (gqa)": "the train is to the left of the house that is to the left of the car"
+    },
+    {
+        "text_input_id": "05863813",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "08220628",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "09430213",
+        "output_direct answer (gqa)": "Are there microwaves to the left of the fridge in the kitchen?"
+    },
+    {
+        "text_input_id": "03223454",
+        "output_direct answer (gqa)": "Is that a bed or a mirror?"
+    },
+    {
+        "text_input_id": "11594989",
+        "output_direct answer (gqa)": "the left side"
+    },
+    {
+        "text_input_id": "19474790",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "17870968",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "17785710",
+        "output_direct answer (gqa)": "Is the umbrella on the right?"
+    },
+    {
+        "text_input_id": "091003664",
+        "output_direct answer (gqa)": "is the man in the bottom of the photo"
+    },
+    {
+        "text_input_id": "00515034",
+        "output_direct answer (gqa)": "metal"
+    },
+    {
+        "text_input_id": "001009907",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "041024784",
+        "output_direct answer (gqa)": "a cruise ship"
+    },
+    {
+        "text_input_id": "05657426",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "0560175",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01387843",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "15193432",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "10831894",
+        "output_direct answer (gqa)": "What's the net on?"
+    },
+    {
+        "text_input_id": "10110908",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "051062701",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "05377870",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "14104672",
+        "output_direct answer (gqa)": "a red double decker bus"
+    },
+    {
+        "text_input_id": "0869143",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16917988",
+        "output_direct answer (gqa)": "Are there trains to the right of the man that is wearing trousers?"
+    },
+    {
+        "text_input_id": "10329646",
+        "output_direct answer (gqa)": "What is the animal to the left of the car?"
+    },
+    {
+        "text_input_id": "10168433",
+        "output_direct answer (gqa)": "a bed"
+    },
+    {
+        "text_input_id": "11976574",
+        "output_direct answer (gqa)": "pictures"
+    },
+    {
+        "text_input_id": "04943889",
+        "output_direct answer (gqa)": "a baseball"
+    },
+    {
+        "text_input_id": "17311942",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "13337951",
+        "output_direct answer (gqa)": "a plate"
+    },
+    {
+        "text_input_id": "13460156",
+        "output_direct answer (gqa)": "dry"
+    },
+    {
+        "text_input_id": "13968622",
+        "output_direct answer (gqa)": "There are no mirrors that are not square"
+    },
+    {
+        "text_input_id": "01189963",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "09239936",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "12774191",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "19646474",
+        "output_direct answer (gqa)": "What is on the dessert the stove is to the right of?"
+    },
+    {
+        "text_input_id": "02387346",
+        "output_direct answer (gqa)": "top"
+    },
+    {
+        "text_input_id": "04479794",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "12992750",
+        "output_direct answer (gqa)": "which part is the cup in?"
+    },
+    {
+        "text_input_id": "11593662",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "11536982",
+        "output_direct answer (gqa)": "#6 is the piece of furniture that the pillow is on"
+    },
+    {
+        "text_input_id": "08651540",
+        "output_direct answer (gqa)": "#5 is wearing glasses"
+    },
+    {
+        "text_input_id": "0624062",
+        "output_direct answer (gqa)": "There is a tv on the coffee table to the right of the couch"
+    },
+    {
+        "text_input_id": "03450652",
+        "output_direct answer (gqa)": "#chairs"
+    },
+    {
+        "text_input_id": "1527449",
+        "output_direct answer (gqa)": "are there cars to the right of the palm trees which are to the right of the girl?"
+    },
+    {
+        "text_input_id": "17585897",
+        "output_direct answer (gqa)": "donuts"
+    },
+    {
+        "text_input_id": "00524104",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "03193231",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "06609459",
+        "output_direct answer (gqa)": "What's the antenna on?"
+    },
+    {
+        "text_input_id": "03980068",
+        "output_direct answer (gqa)": "a glass of wine"
+    },
+    {
+        "text_input_id": "09937798",
+        "output_direct answer (gqa)": "a chair"
+    },
+    {
+        "text_input_id": "18671091",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18950916",
+        "output_direct answer (gqa)": "3 planes"
+    },
+    {
+        "text_input_id": "02104280",
+        "output_direct answer (gqa)": "How is the weather?"
+    },
+    {
+        "text_input_id": "06614729",
+        "output_direct answer (gqa)": "#5 is wearing a suit"
+    },
+    {
+        "text_input_id": "11318379",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "161024922",
+        "output_direct answer (gqa)": "a tree"
+    },
+    {
+        "text_input_id": "13417728",
+        "output_direct answer (gqa)": "What's on the plate?"
+    },
+    {
+        "text_input_id": "1616416",
+        "output_direct answer (gqa)": "What's on the bench?"
+    },
+    {
+        "text_input_id": "12391760",
+        "output_direct answer (gqa)": "Is there a zebra behind the bush?"
+    },
+    {
+        "text_input_id": "0416295",
+        "output_direct answer (gqa)": "Is there any banana on the plate above the table?"
+    },
+    {
+        "text_input_id": "13297721",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "15639998",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "08203180",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "15936246",
+        "output_direct answer (gqa)": "on which side is the man?"
+    },
+    {
+        "text_input_id": "07293168",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "07866391",
+        "output_direct answer (gqa)": "Are there any birds?"
+    },
+    {
+        "text_input_id": "17639670",
+        "output_direct answer (gqa)": "#what type of furniture is this, a cabinet or a couch?"
+    },
+    {
+        "text_input_id": "16155564",
+        "output_direct answer (gqa)": "Do you see a child in this photo that is not bending?"
+    },
+    {
+        "text_input_id": "05743497",
+        "output_direct answer (gqa)": "What's on the pole?"
+    },
+    {
+        "text_input_id": "13676596",
+        "output_direct answer (gqa)": "do you see men or women that are posing?"
+    },
+    {
+        "text_input_id": "12655919",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "06905534",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "10130579",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "10207601",
+        "output_direct answer (gqa)": "brisket"
+    },
+    {
+        "text_input_id": "07997360",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "1188214",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03753862",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "10386611",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "161036290",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "15418582",
+        "output_direct answer (gqa)": "a passenger"
+    },
+    {
+        "text_input_id": "13810982",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "00977762",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "15437379",
+        "output_direct answer (gqa)": "covered"
+    },
+    {
+        "text_input_id": "07409107",
+        "output_direct answer (gqa)": "Is the batter on the left?"
+    },
+    {
+        "text_input_id": "04861956",
+        "output_direct answer (gqa)": "purple"
+    },
+    {
+        "text_input_id": "05494190",
+        "output_direct answer (gqa)": "are there any chickpeas to the right of the carrot in the middle?"
+    },
+    {
+        "text_input_id": "06580491",
+        "output_direct answer (gqa)": "a computer"
+    },
+    {
+        "text_input_id": "04777365",
+        "output_direct answer (gqa)": "where was the picture taken at?"
+    },
+    {
+        "text_input_id": "03715937",
+        "output_direct answer (gqa)": "the beach"
+    },
+    {
+        "text_input_id": "09851290",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "1866433",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16687396",
+        "output_direct answer (gqa)": "a flower"
+    },
+    {
+        "text_input_id": "15606530",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "15724846",
+        "output_direct answer (gqa)": "2 benches"
+    },
+    {
+        "text_input_id": "03288507",
+        "output_direct answer (gqa)": "a computer"
+    },
+    {
+        "text_input_id": "05383251",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "131035530",
+        "output_direct answer (gqa)": "what animal is in the river?"
+    },
+    {
+        "text_input_id": "18445100",
+        "output_direct answer (gqa)": "Do you see any white frisbees or balls?"
+    },
+    {
+        "text_input_id": "071062844",
+        "output_direct answer (gqa)": "who is wearing a hat?"
+    },
+    {
+        "text_input_id": "17746196",
+        "output_direct answer (gqa)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "16821665",
+        "output_direct answer (gqa)": "in the bottom"
+    },
+    {
+        "text_input_id": "121030978",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "08118089",
+        "output_direct answer (gqa)": "How is the weather?"
+    },
+    {
+        "text_input_id": "13278295",
+        "output_direct answer (gqa)": "bathroom"
+    },
+    {
+        "text_input_id": "01948941",
+        "output_direct answer (gqa)": "a sink"
+    },
+    {
+        "text_input_id": "09675836",
+        "output_direct answer (gqa)": "berries"
+    },
+    {
+        "text_input_id": "05843490",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "17694342",
+        "output_direct answer (gqa)": "#0f the pillow to the right of the alarm clock is #0f #0f #0f #0f #0f #0"
+    },
+    {
+        "text_input_id": "01655466",
+        "output_direct answer (gqa)": "waffles"
+    },
+    {
+        "text_input_id": "08391191",
+        "output_direct answer (gqa)": "Is that logo silver?"
+    },
+    {
+        "text_input_id": "07548232",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "02933901",
+        "output_direct answer (gqa)": "Is that book on a desk?"
+    },
+    {
+        "text_input_id": "00715414",
+        "output_direct answer (gqa)": "closed"
+    },
+    {
+        "text_input_id": "14375414",
+        "output_direct answer (gqa)": "Is the oven to the right of the books?"
+    },
+    {
+        "text_input_id": "17512491",
+        "output_direct answer (gqa)": "Are there bottles on top of the counter?"
+    },
+    {
+        "text_input_id": "15640965",
+        "output_direct answer (gqa)": "gifts"
+    },
+    {
+        "text_input_id": "05828352",
+        "output_direct answer (gqa)": "There's a cat on the floor"
+    },
+    {
+        "text_input_id": "11169700",
+        "output_direct answer (gqa)": "Do you see a can or a plate that are not green?"
+    },
+    {
+        "text_input_id": "01588183",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "12278886",
+        "output_direct answer (gqa)": "a vase with a plant in it"
+    },
+    {
+        "text_input_id": "01391654",
+        "output_direct answer (gqa)": "cat"
+    },
+    {
+        "text_input_id": "19167473",
+        "output_direct answer (gqa)": "cow"
+    },
+    {
+        "text_input_id": "09545925",
+        "output_direct answer (gqa)": "a couch"
+    },
+    {
+        "text_input_id": "17809873",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "03407264",
+        "output_direct answer (gqa)": "cloudy"
+    },
+    {
+        "text_input_id": "08553554",
+        "output_direct answer (gqa)": "pikachu"
+    },
+    {
+        "text_input_id": "19452203",
+        "output_direct answer (gqa)": "Are there any motorcycles or skateboards that are not silver?"
+    },
+    {
+        "text_input_id": "02693139",
+        "output_direct answer (gqa)": "are there any rackets in front of the player that is holding the ball?"
+    },
+    {
+        "text_input_id": "17123726",
+        "output_direct answer (gqa)": "#5 is wearing a helmet"
+    },
+    {
+        "text_input_id": "13386971",
+        "output_direct answer (gqa)": "a white picket fence"
+    },
+    {
+        "text_input_id": "07181565",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "18460579",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19221929",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "02292607",
+        "output_direct answer (gqa)": "4 people are riding on a motorcycle"
+    },
+    {
+        "text_input_id": "18544187",
+        "output_direct answer (gqa)": "do you see a speaker or a camera?"
+    },
+    {
+        "text_input_id": "10351293",
+        "output_direct answer (gqa)": "short"
+    },
+    {
+        "text_input_id": "09879971",
+        "output_direct answer (gqa)": "seagulls"
+    },
+    {
+        "text_input_id": "03625216",
+        "output_direct answer (gqa)": "chairs, tables, a bench, a table, a bench, a table, a bench, a bench, a"
+    },
+    {
+        "text_input_id": "03843240",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "07343459",
+        "output_direct answer (gqa)": "drinking wine"
+    },
+    {
+        "text_input_id": "15789457",
+        "output_direct answer (gqa)": "pants and a hoodie"
+    },
+    {
+        "text_input_id": "05722810",
+        "output_direct answer (gqa)": "duck"
+    },
+    {
+        "text_input_id": "10824684",
+        "output_direct answer (gqa)": "a tennis racket"
+    },
+    {
+        "text_input_id": "08295329",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "19809010",
+        "output_direct answer (gqa)": "Is that sky cloudy and bright?"
+    },
+    {
+        "text_input_id": "14618270",
+        "output_direct answer (gqa)": "a couch"
+    },
+    {
+        "text_input_id": "16250337",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "12338930",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "16818023",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "0693352",
+        "output_direct answer (gqa)": "Are there any chairs or shelves?"
+    },
+    {
+        "text_input_id": "04955817",
+        "output_direct answer (gqa)": "are there shelves to the right of the books in the center?"
+    },
+    {
+        "text_input_id": "121022010",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "15477376",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "01675575",
+        "output_direct answer (gqa)": "Is there a pillow to the left of the remote control?"
+    },
+    {
+        "text_input_id": "06271489",
+        "output_direct answer (gqa)": "what color is the necktie?"
+    },
+    {
+        "text_input_id": "06348779",
+        "output_direct answer (gqa)": "#5 is wearing the eye glasses"
+    },
+    {
+        "text_input_id": "16959092",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "121029378",
+        "output_direct answer (gqa)": "Is the picture television different in color than the book?"
+    },
+    {
+        "text_input_id": "00902203",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "17577817",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "07383486",
+        "output_direct answer (gqa)": "2"
+    },
+    {
+        "text_input_id": "01806743",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "02159555",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "05460900",
+        "output_direct answer (gqa)": "what is the name of the vehicle that is white?"
+    },
+    {
+        "text_input_id": "09208003",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "06170739",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "091017066",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19893732",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16673242",
+        "output_direct answer (gqa)": "a dress and hat"
+    },
+    {
+        "text_input_id": "05491449",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "18577829",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "10768421",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "08176286",
+        "output_direct answer (gqa)": "2"
+    },
+    {
+        "text_input_id": "16269356",
+        "output_direct answer (gqa)": "Is the bottle on the left?"
+    },
+    {
+        "text_input_id": "14304365",
+        "output_direct answer (gqa)": "shirts"
+    },
+    {
+        "text_input_id": "03127822",
+        "output_direct answer (gqa)": "sheep"
+    },
+    {
+        "text_input_id": "031067326",
+        "output_direct answer (gqa)": "on the left side"
+    },
+    {
+        "text_input_id": "1873050",
+        "output_direct answer (gqa)": "Do you see any people to the right of the bike?"
+    },
+    {
+        "text_input_id": "16882812",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01417002",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "11142346",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "13521845",
+        "output_direct answer (gqa)": "#5 is pushing the stroller"
+    },
+    {
+        "text_input_id": "07883059",
+        "output_direct answer (gqa)": "#6 is the hat tied to?"
+    },
+    {
+        "text_input_id": "01239402",
+        "output_direct answer (gqa)": "There's a tree on the frame"
+    },
+    {
+        "text_input_id": "01288630",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "17791571",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16308336",
+        "output_direct answer (gqa)": "a skate park"
+    },
+    {
+        "text_input_id": "06752763",
+        "output_direct answer (gqa)": "chair"
+    },
+    {
+        "text_input_id": "04388573",
+        "output_direct answer (gqa)": "are there any umbrellas to the left of the woman that is touching the trunk?"
+    },
+    {
+        "text_input_id": "16138034",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18685225",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "08698388",
+        "output_direct answer (gqa)": "Are there any green trains or buses?"
+    },
+    {
+        "text_input_id": "08825778",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "05558222",
+        "output_direct answer (gqa)": "What's the jar on?"
+    },
+    {
+        "text_input_id": "0038529",
+        "output_direct answer (gqa)": "What color are the curtains?"
+    },
+    {
+        "text_input_id": "01232031",
+        "output_direct answer (gqa)": "a clock tower"
+    },
+    {
+        "text_input_id": "081005761",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "05506532",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "03589985",
+        "output_direct answer (gqa)": "white"
+    },
+    {
+        "text_input_id": "16700402",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "12295347",
+        "output_direct answer (gqa)": "outdoors"
+    },
+    {
+        "text_input_id": "1316054",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "141014447",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "02917151",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "08149579",
+        "output_direct answer (gqa)": "a woman and a child"
+    },
+    {
+        "text_input_id": "17719551",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "18382127",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "1511823",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "07753661",
+        "output_direct answer (gqa)": "a helmet"
+    },
+    {
+        "text_input_id": "05617120",
+        "output_direct answer (gqa)": "a girl"
+    },
+    {
+        "text_input_id": "02378013",
+        "output_direct answer (gqa)": "Do you see any desks below the shelf?"
+    },
+    {
+        "text_input_id": "09654144",
+        "output_direct answer (gqa)": "#5 is wearing a hat"
+    },
+    {
+        "text_input_id": "19797308",
+        "output_direct answer (gqa)": "in the bottom"
+    },
+    {
+        "text_input_id": "09622968",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "13450824",
+        "output_direct answer (gqa)": "laptop"
+    },
+    {
+        "text_input_id": "0871466",
+        "output_direct answer (gqa)": "Is that a black table?"
+    },
+    {
+        "text_input_id": "08897169",
+        "output_direct answer (gqa)": "What vehicle is in the parking lot?"
+    },
+    {
+        "text_input_id": "06301513",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "06895802",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "091044345",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "09743961",
+        "output_direct answer (gqa)": "What is on the shelf?"
+    },
+    {
+        "text_input_id": "12196023",
+        "output_direct answer (gqa)": "a towel"
+    },
+    {
+        "text_input_id": "10430352",
+        "output_direct answer (gqa)": "a skateboard"
+    },
+    {
+        "text_input_id": "01876781",
+        "output_direct answer (gqa)": "a dog"
+    },
+    {
+        "text_input_id": "07676681",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "1691020",
+        "output_direct answer (gqa)": "beige"
+    },
+    {
+        "text_input_id": "03625962",
+        "output_direct answer (gqa)": "are there either bottles or cans"
+    },
+    {
+        "text_input_id": "15478482",
+        "output_direct answer (gqa)": "on which side of the picture is the picture?"
+    },
+    {
+        "text_input_id": "17699786",
+        "output_direct answer (gqa)": "#5 is wearing the shirt"
+    },
+    {
+        "text_input_id": "07162528",
+        "output_direct answer (gqa)": "elephants"
+    },
+    {
+        "text_input_id": "03408045",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "15748073",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "0337991",
+        "output_direct answer (gqa)": "he is blowing out candles on a cake"
+    },
+    {
+        "text_input_id": "15409133",
+        "output_direct answer (gqa)": "Do you see a bag to the right of the green vehicle?"
+    },
+    {
+        "text_input_id": "13907696",
+        "output_direct answer (gqa)": "Is the waiter holding beer?"
+    },
+    {
+        "text_input_id": "03266731",
+        "output_direct answer (gqa)": "top"
+    },
+    {
+        "text_input_id": "04532135",
+        "output_direct answer (gqa)": "Are there any red helmets or crates?"
+    },
+    {
+        "text_input_id": "10641854",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "04189545",
+        "output_direct answer (gqa)": "Do you see either any bags or cars?"
+    },
+    {
+        "text_input_id": "04891900",
+        "output_direct answer (gqa)": "Behind who is the thick tree standing?"
+    },
+    {
+        "text_input_id": "09825360",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "111054051",
+        "output_direct answer (gqa)": "bed"
+    },
+    {
+        "text_input_id": "07618710",
+        "output_direct answer (gqa)": "Does that wetsuit look short and dark?"
+    },
+    {
+        "text_input_id": "03948642",
+        "output_direct answer (gqa)": "is the orange on the right?"
+    },
+    {
+        "text_input_id": "1186025",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "03483985",
+        "output_direct answer (gqa)": "#6 is the vehicle to the left of the person with the backpack"
+    },
+    {
+        "text_input_id": "11135661",
+        "output_direct answer (gqa)": "top"
+    },
+    {
+        "text_input_id": "11299218",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18937744",
+        "output_direct answer (gqa)": "Is there a squirrel beside the dog?"
+    },
+    {
+        "text_input_id": "18512478",
+        "output_direct answer (gqa)": "sea lions"
+    },
+    {
+        "text_input_id": "14442299",
+        "output_direct answer (gqa)": "giraffe"
+    },
+    {
+        "text_input_id": "04167827",
+        "output_direct answer (gqa)": "Where is the bus?"
+    },
+    {
+        "text_input_id": "11877663",
+        "output_direct answer (gqa)": "a cell phone"
+    },
+    {
+        "text_input_id": "10661129",
+        "output_direct answer (gqa)": "a woman"
+    },
+    {
+        "text_input_id": "07429533",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "05619694",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "19668148",
+        "output_direct answer (gqa)": "Is the window made of metal or wood?"
+    },
+    {
+        "text_input_id": "15258675",
+        "output_direct answer (gqa)": "indoors"
+    },
+    {
+        "text_input_id": "051036327",
+        "output_direct answer (gqa)": "brown and white"
+    },
+    {
+        "text_input_id": "122320",
+        "output_direct answer (gqa)": "who is on the train car?"
+    },
+    {
+        "text_input_id": "00337885",
+        "output_direct answer (gqa)": "What is this, a refrigerator or an oven?"
+    },
+    {
+        "text_input_id": "08390753",
+        "output_direct answer (gqa)": "Is the man to the left of the glasses sitting on a motorcycle?"
+    },
+    {
+        "text_input_id": "16757252",
+        "output_direct answer (gqa)": "which place is it?"
+    },
+    {
+        "text_input_id": "1127814",
+        "output_direct answer (gqa)": "Is the bridge made of iron or concrete?"
+    },
+    {
+        "text_input_id": "14387329",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12362819",
+        "output_direct answer (gqa)": "dark"
+    },
+    {
+        "text_input_id": "15958372",
+        "output_direct answer (gqa)": "desk"
+    },
+    {
+        "text_input_id": "1681723",
+        "output_direct answer (gqa)": "what kind of animal is brown?"
+    },
+    {
+        "text_input_id": "1860593",
+        "output_direct answer (gqa)": "a refrigerator"
+    },
+    {
+        "text_input_id": "101024564",
+        "output_direct answer (gqa)": "#food is brown #food is brown #food is brown #food is brown #food is brown #food is brown #food is brown #food"
+    },
+    {
+        "text_input_id": "0090651",
+        "output_direct answer (gqa)": "bottom"
+    },
+    {
+        "text_input_id": "13619610",
+        "output_direct answer (gqa)": "a hot dog"
+    },
+    {
+        "text_input_id": "15675748",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "15327566",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "06481628",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "06846025",
+        "output_direct answer (gqa)": "in the bottom part"
+    },
+    {
+        "text_input_id": "12454015",
+        "output_direct answer (gqa)": "a truck"
+    },
+    {
+        "text_input_id": "00632373",
+        "output_direct answer (gqa)": "Are there any cars or windows?"
+    },
+    {
+        "text_input_id": "12190023",
+        "output_direct answer (gqa)": "On which side is the kid?"
+    },
+    {
+        "text_input_id": "15801981",
+        "output_direct answer (gqa)": "a remote control"
+    },
+    {
+        "text_input_id": "08784489",
+        "output_direct answer (gqa)": "1"
+    },
+    {
+        "text_input_id": "18584333",
+        "output_direct answer (gqa)": "a man is sitting on the table"
+    },
+    {
+        "text_input_id": "16760227",
+        "output_direct answer (gqa)": "a tv"
+    },
+    {
+        "text_input_id": "16159395",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "09125107",
+        "output_direct answer (gqa)": "a skateboard"
+    },
+    {
+        "text_input_id": "19764907",
+        "output_direct answer (gqa)": "a hat"
+    },
+    {
+        "text_input_id": "07855012",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "15720260",
+        "output_direct answer (gqa)": "bird"
+    },
+    {
+        "text_input_id": "01261548",
+        "output_direct answer (gqa)": "a stick"
+    },
+    {
+        "text_input_id": "14998126",
+        "output_direct answer (gqa)": "What place is this?"
+    },
+    {
+        "text_input_id": "05403956",
+        "output_direct answer (gqa)": "Is there a duck that is black?"
+    },
+    {
+        "text_input_id": "03262245",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "08312887",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03520151",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14522496",
+        "output_direct answer (gqa)": "What color are the trousers?"
+    },
+    {
+        "text_input_id": "17340497",
+        "output_direct answer (gqa)": "Is there a fence to the left of the person that is sitting on the bench?"
+    },
+    {
+        "text_input_id": "10421381",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "09300697",
+        "output_direct answer (gqa)": "a sign"
+    },
+    {
+        "text_input_id": "19800061",
+        "output_direct answer (gqa)": "bed"
+    },
+    {
+        "text_input_id": "1821015",
+        "output_direct answer (gqa)": "Does the boy's hair have blond color?"
+    },
+    {
+        "text_input_id": "19115629",
+        "output_direct answer (gqa)": "#what is the little boy wearing?"
+    },
+    {
+        "text_input_id": "06550250",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "17728876",
+        "output_direct answer (gqa)": "a sandwich"
+    },
+    {
+        "text_input_id": "11746450",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01506715",
+        "output_direct answer (gqa)": "Do you see door that is not blue?"
+    },
+    {
+        "text_input_id": "18532868",
+        "output_direct answer (gqa)": "a bus is to the right of the lady that is wearing glasses"
+    },
+    {
+        "text_input_id": "08209714",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18435885",
+        "output_direct answer (gqa)": "a woman"
+    },
+    {
+        "text_input_id": "04502840",
+        "output_direct answer (gqa)": "Do you see either any polar bears or leopards there?"
+    },
+    {
+        "text_input_id": "14555679",
+        "output_direct answer (gqa)": "bananas"
+    },
+    {
+        "text_input_id": "18605438",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "13103684",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07642311",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "08134978",
+        "output_direct answer (gqa)": "carrots"
+    },
+    {
+        "text_input_id": "01738767",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03633207",
+        "output_direct answer (gqa)": "a train car"
+    },
+    {
+        "text_input_id": "10110503",
+        "output_direct answer (gqa)": "female"
+    },
+    {
+        "text_input_id": "18347501",
+        "output_direct answer (gqa)": "Is the fence in front of the trees?"
+    },
+    {
+        "text_input_id": "03227107",
+        "output_direct answer (gqa)": "pink"
+    },
+    {
+        "text_input_id": "001020372",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "12176878",
+        "output_direct answer (gqa)": "Do you see any umpires to the left of the catcher that is wearing a mask?"
+    },
+    {
+        "text_input_id": "02271504",
+        "output_direct answer (gqa)": "a hat"
+    },
+    {
+        "text_input_id": "00211149",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "14180381",
+        "output_direct answer (gqa)": "What do you think is the color of the jeans the woman wears?"
+    },
+    {
+        "text_input_id": "02667554",
+        "output_direct answer (gqa)": "What's the folding chair made of?"
+    },
+    {
+        "text_input_id": "08600895",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "1272807",
+        "output_direct answer (gqa)": "What kind of cooking utensil is it?"
+    },
+    {
+        "text_input_id": "04722518",
+        "output_direct answer (gqa)": "are there any wine bottles to the right of the man that is on the right side?"
+    },
+    {
+        "text_input_id": "16270080",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "0326917",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "11855778",
+        "output_direct answer (gqa)": "left side"
+    },
+    {
+        "text_input_id": "15510735",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "02266047",
+        "output_direct answer (gqa)": "What is the color of the curtain?"
+    },
+    {
+        "text_input_id": "15101302",
+        "output_direct answer (gqa)": "shirts"
+    },
+    {
+        "text_input_id": "12951676",
+        "output_direct answer (gqa)": "a wii remote"
+    },
+    {
+        "text_input_id": "00139707",
+        "output_direct answer (gqa)": "What is the fence made of?"
+    },
+    {
+        "text_input_id": "0376726",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "10760014",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "04225448",
+        "output_direct answer (gqa)": "a cell phone"
+    },
+    {
+        "text_input_id": "13664650",
+        "output_direct answer (gqa)": "2"
+    },
+    {
+        "text_input_id": "1180849",
+        "output_direct answer (gqa)": "Does the ground look old?"
+    },
+    {
+        "text_input_id": "04421145",
+        "output_direct answer (gqa)": "Does the hair have long length?"
+    },
+    {
+        "text_input_id": "16669417",
+        "output_direct answer (gqa)": "Do you see cars to the right of the person on the right?"
+    },
+    {
+        "text_input_id": "131007534",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12883940",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04977651",
+        "output_direct answer (gqa)": "the ground"
+    },
+    {
+        "text_input_id": "04583868",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "04369097",
+        "output_direct answer (gqa)": "a hat"
+    },
+    {
+        "text_input_id": "151042721",
+        "output_direct answer (gqa)": "What's the pillow on?"
+    },
+    {
+        "text_input_id": "09392761",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "11125242",
+        "output_direct answer (gqa)": "What color is the cap?"
+    },
+    {
+        "text_input_id": "08249580",
+        "output_direct answer (gqa)": "point in the same direction"
+    },
+    {
+        "text_input_id": "12954948",
+        "output_direct answer (gqa)": "a printer"
+    },
+    {
+        "text_input_id": "19486625",
+        "output_direct answer (gqa)": "on the right"
+    },
+    {
+        "text_input_id": "06477062",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "0397532",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "01851890",
+        "output_direct answer (gqa)": "#6 is the color of the mouse pad which is to the left of the mouse?"
+    },
+    {
+        "text_input_id": "14500427",
+        "output_direct answer (gqa)": "What is the trash can made of?"
+    },
+    {
+        "text_input_id": "161037228",
+        "output_direct answer (gqa)": "table"
+    },
+    {
+        "text_input_id": "1770978",
+        "output_direct answer (gqa)": "a stop sign"
+    },
+    {
+        "text_input_id": "10626236",
+        "output_direct answer (gqa)": "Is the can on the left?"
+    },
+    {
+        "text_input_id": "09556192",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "08897761",
+        "output_direct answer (gqa)": "#5 is wearing a jersey"
+    },
+    {
+        "text_input_id": "17558199",
+        "output_direct answer (gqa)": "Is there a strawberry on the cake that is on the table?"
+    },
+    {
+        "text_input_id": "17233899",
+        "output_direct answer (gqa)": "shirts"
+    },
+    {
+        "text_input_id": "0492881",
+        "output_direct answer (gqa)": "an elephant"
+    },
+    {
+        "text_input_id": "17332296",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "1669167",
+        "output_direct answer (gqa)": "who is standing on the man on the right?"
+    },
+    {
+        "text_input_id": "00553636",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "07343875",
+        "output_direct answer (gqa)": "Are there any yellow breads or peppers?"
+    },
+    {
+        "text_input_id": "05217281",
+        "output_direct answer (gqa)": "On which side is the planter?"
+    },
+    {
+        "text_input_id": "09544097",
+        "output_direct answer (gqa)": "a computer"
+    },
+    {
+        "text_input_id": "19110433",
+        "output_direct answer (gqa)": "Who is wearing the shorts?"
+    },
+    {
+        "text_input_id": "06958649",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03903820",
+        "output_direct answer (gqa)": "Do you see any cabinet that is not made of wood?"
+    },
+    {
+        "text_input_id": "08928617",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "03454564",
+        "output_direct answer (gqa)": "playing with another dog"
+    },
+    {
+        "text_input_id": "00379559",
+        "output_direct answer (gqa)": "ketchup is in the bowl the placemat is to the right of"
+    },
+    {
+        "text_input_id": "19225898",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "17168136",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "091056785",
+        "output_direct answer (gqa)": "#5 is wearing a polo shirt"
+    },
+    {
+        "text_input_id": "15994301",
+        "output_direct answer (gqa)": "which side is the woman on?"
+    },
+    {
+        "text_input_id": "15814020",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "171019251",
+        "output_direct answer (gqa)": "Does the floor look white?"
+    },
+    {
+        "text_input_id": "13636536",
+        "output_direct answer (gqa)": "who do you think is wearing a helmet?"
+    },
+    {
+        "text_input_id": "01692290",
+        "output_direct answer (gqa)": "a traffic light"
+    },
+    {
+        "text_input_id": "18342364",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19443319",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "17338159",
+        "output_direct answer (gqa)": "grazing"
+    },
+    {
+        "text_input_id": "1341223",
+        "output_direct answer (gqa)": "a city"
+    },
+    {
+        "text_input_id": "19618210",
+        "output_direct answer (gqa)": "What color do you think is the sky?"
+    },
+    {
+        "text_input_id": "10366315",
+        "output_direct answer (gqa)": "a phone"
+    },
+    {
+        "text_input_id": "04527939",
+        "output_direct answer (gqa)": "What is the white chair made of?"
+    },
+    {
+        "text_input_id": "00558111",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "17888949",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "06215768",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "01190467",
+        "output_direct answer (gqa)": "170 ft x 170 ft x 170 ft"
+    },
+    {
+        "text_input_id": "10223113",
+        "output_direct answer (gqa)": "4x4"
+    },
+    {
+        "text_input_id": "06273654",
+        "output_direct answer (gqa)": "#5 is wearing shorts"
+    },
+    {
+        "text_input_id": "13556132",
+        "output_direct answer (gqa)": "catching a frisbee"
+    },
+    {
+        "text_input_id": "00661193",
+        "output_direct answer (gqa)": "What vehicle is on the street?"
+    },
+    {
+        "text_input_id": "15794273",
+        "output_direct answer (gqa)": "Is there a black plate or chair?"
+    },
+    {
+        "text_input_id": "08287932",
+        "output_direct answer (gqa)": "Are there any rackets by her?"
+    },
+    {
+        "text_input_id": "1658835",
+        "output_direct answer (gqa)": "the clouds around of"
+    },
+    {
+        "text_input_id": "0919709",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "05753822",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "131020610",
+        "output_direct answer (gqa)": "What is that paper on?"
+    },
+    {
+        "text_input_id": "06175562",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "02625206",
+        "output_direct answer (gqa)": "What is the appliance behind the bowl which is above the drawer?"
+    },
+    {
+        "text_input_id": "15154864",
+        "output_direct answer (gqa)": "a white toilet in the bathroom"
+    },
+    {
+        "text_input_id": "15283531",
+        "output_direct answer (gqa)": "Is that crowd watching a bat?"
+    },
+    {
+        "text_input_id": "08321245",
+        "output_direct answer (gqa)": "left side"
+    },
+    {
+        "text_input_id": "00556040",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "08264616",
+        "output_direct answer (gqa)": "swiss chard"
+    },
+    {
+        "text_input_id": "07613849",
+        "output_direct answer (gqa)": "on which side is the car?"
+    },
+    {
+        "text_input_id": "1845555",
+        "output_direct answer (gqa)": "zebra"
+    },
+    {
+        "text_input_id": "11697483",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "11222324",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "14571429",
+        "output_direct answer (gqa)": "the batter"
+    },
+    {
+        "text_input_id": "13958714",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "19327580",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "03165310",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "09410674",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12788589",
+        "output_direct answer (gqa)": "Yes"
+    },
+    {
+        "text_input_id": "02326974",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12537663",
+        "output_direct answer (gqa)": "#howcleanisthefloor"
+    },
+    {
+        "text_input_id": "06946272",
+        "output_direct answer (gqa)": "purple"
+    },
+    {
+        "text_input_id": "02595091",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "10979641",
+        "output_direct answer (gqa)": "What drink is to the left of the chair?"
+    },
+    {
+        "text_input_id": "10644637",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "10369214",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "15839829",
+        "output_direct answer (gqa)": "on the right side of the photo is the umpire"
+    },
+    {
+        "text_input_id": "08561228",
+        "output_direct answer (gqa)": "polar bears"
+    },
+    {
+        "text_input_id": "13923467",
+        "output_direct answer (gqa)": "Are there any towels on the sand?"
+    },
+    {
+        "text_input_id": "16612131",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14209501",
+        "output_direct answer (gqa)": "Are there any men to the left of the vehicle on the left?"
+    },
+    {
+        "text_input_id": "07262277",
+        "output_direct answer (gqa)": "a fence in front of the person wearing"
+    },
+    {
+        "text_input_id": "05476448",
+        "output_direct answer (gqa)": "are there any trucks or fences?"
+    },
+    {
+        "text_input_id": "02198859",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03262892",
+        "output_direct answer (gqa)": "are there any bags to the right of the person that stands on the dirt?"
+    },
+    {
+        "text_input_id": "12663637",
+        "output_direct answer (gqa)": "blond"
+    },
+    {
+        "text_input_id": "07527269",
+        "output_direct answer (gqa)": "2"
+    },
+    {
+        "text_input_id": "12722045",
+        "output_direct answer (gqa)": "kitchen"
+    },
+    {
+        "text_input_id": "0640636",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "18995682",
+        "output_direct answer (gqa)": "dog"
+    },
+    {
+        "text_input_id": "10576875",
+        "output_direct answer (gqa)": "Do you see any chairs that are not blue?"
+    },
+    {
+        "text_input_id": "12262426",
+        "output_direct answer (gqa)": "What is the animal that is in front of the shelter?"
+    },
+    {
+        "text_input_id": "01582833",
+        "output_direct answer (gqa)": "on which side are the guests"
+    },
+    {
+        "text_input_id": "17866731",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "12556356",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04623979",
+        "output_direct answer (gqa)": "#what vehicle is it?"
+    },
+    {
+        "text_input_id": "14973502",
+        "output_direct answer (gqa)": "a bench"
+    },
+    {
+        "text_input_id": "02111161",
+        "output_direct answer (gqa)": "van"
+    },
+    {
+        "text_input_id": "08203941",
+        "output_direct answer (gqa)": "which place is it?"
+    },
+    {
+        "text_input_id": "15156790",
+        "output_direct answer (gqa)": "Are there balls or wheelchairs?"
+    },
+    {
+        "text_input_id": "131059715",
+        "output_direct answer (gqa)": "Is there a mug on the bench made of wood?"
+    },
+    {
+        "text_input_id": "05444449",
+        "output_direct answer (gqa)": "a black dress"
+    },
+    {
+        "text_input_id": "1972328",
+        "output_direct answer (gqa)": "sheep"
+    },
+    {
+        "text_input_id": "15804271",
+        "output_direct answer (gqa)": "two women"
+    },
+    {
+        "text_input_id": "03150466",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "03541479",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "1061996",
+        "output_direct answer (gqa)": "who is wearing the suitcase?"
+    },
+    {
+        "text_input_id": "16689675",
+        "output_direct answer (gqa)": "Where is the giraffe that is bending eating from?"
+    },
+    {
+        "text_input_id": "06711452",
+        "output_direct answer (gqa)": "a toilet"
+    },
+    {
+        "text_input_id": "01956587",
+        "output_direct answer (gqa)": "jeans"
+    },
+    {
+        "text_input_id": "12784473",
+        "output_direct answer (gqa)": "Are there any skis or pots?"
+    },
+    {
+        "text_input_id": "0835149",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "16733810",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "04986558",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "16976252",
+        "output_direct answer (gqa)": "white"
+    },
+    {
+        "text_input_id": "05930545",
+        "output_direct answer (gqa)": "Is the drawer on the left?"
+    },
+    {
+        "text_input_id": "02409543",
+        "output_direct answer (gqa)": "#5 is under the colorful umbrella"
+    },
+    {
+        "text_input_id": "1475146",
+        "output_direct answer (gqa)": "Is there a bicycle to the left of the yellow vehicle?"
+    },
+    {
+        "text_input_id": "09564144",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "081030138",
+        "output_direct answer (gqa)": "a tuxedo"
+    },
+    {
+        "text_input_id": "16784790",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "11719696",
+        "output_direct answer (gqa)": "Is the gate open and wooden?"
+    },
+    {
+        "text_input_id": "07184546",
+        "output_direct answer (gqa)": "a small cake"
+    },
+    {
+        "text_input_id": "15160050",
+        "output_direct answer (gqa)": "a couch"
+    },
+    {
+        "text_input_id": "01949780",
+        "output_direct answer (gqa)": "desk"
+    },
+    {
+        "text_input_id": "1096102",
+        "output_direct answer (gqa)": "the car"
+    },
+    {
+        "text_input_id": "13556261",
+        "output_direct answer (gqa)": "a pink shirt"
+    },
+    {
+        "text_input_id": "00748550",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04734950",
+        "output_direct answer (gqa)": "who is in the forest?"
+    },
+    {
+        "text_input_id": "04584300",
+        "output_direct answer (gqa)": "Do you see both windows and cars?"
+    },
+    {
+        "text_input_id": "021056122",
+        "output_direct answer (gqa)": "Do you see any men to the left of the pillow that looks brown?"
+    },
+    {
+        "text_input_id": "14836371",
+        "output_direct answer (gqa)": "#5 is wearing a hat"
+    },
+    {
+        "text_input_id": "02815074",
+        "output_direct answer (gqa)": "a bouquet of flowers"
+    },
+    {
+        "text_input_id": "14904205",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "13696711",
+        "output_direct answer (gqa)": "fence"
+    },
+    {
+        "text_input_id": "01119213",
+        "output_direct answer (gqa)": "a man"
+    },
+    {
+        "text_input_id": "0833029",
+        "output_direct answer (gqa)": "#6 is wearing the boot"
+    },
+    {
+        "text_input_id": "101017885",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "01666252",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "14368307",
+        "output_direct answer (gqa)": "which place is it?"
+    },
+    {
+        "text_input_id": "19311817",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "08277294",
+        "output_direct answer (gqa)": "2 cats"
+    },
+    {
+        "text_input_id": "00677648",
+        "output_direct answer (gqa)": "Do you see candles on the cake to the left of the cup?"
+    },
+    {
+        "text_input_id": "00666148",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "02718859",
+        "output_direct answer (gqa)": "green"
+    },
+    {
+        "text_input_id": "01520820",
+        "output_direct answer (gqa)": "who is throwing the baseball?"
+    },
+    {
+        "text_input_id": "02951145",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "09240678",
+        "output_direct answer (gqa)": "a tarmac"
+    },
+    {
+        "text_input_id": "10436805",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07194915",
+        "output_direct answer (gqa)": "bananas"
+    },
+    {
+        "text_input_id": "04693966",
+        "output_direct answer (gqa)": "Where is it?"
+    },
+    {
+        "text_input_id": "01583573",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "1338245",
+        "output_direct answer (gqa)": "green"
+    },
+    {
+        "text_input_id": "131024898",
+        "output_direct answer (gqa)": "What is the toy to the right of the bookshelf?"
+    },
+    {
+        "text_input_id": "18152524",
+        "output_direct answer (gqa)": "Do you see trains to the right of the house the roof is on top of?"
+    },
+    {
+        "text_input_id": "07165009",
+        "output_direct answer (gqa)": "What is that, a bus or a train?"
+    },
+    {
+        "text_input_id": "17912030",
+        "output_direct answer (gqa)": "Does the boot look black?"
+    },
+    {
+        "text_input_id": "17786335",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "121020049",
+        "output_direct answer (gqa)": "Is the fence long and green?"
+    },
+    {
+        "text_input_id": "10601580",
+        "output_direct answer (gqa)": "do you see a bed or a chair?"
+    },
+    {
+        "text_input_id": "16208191",
+        "output_direct answer (gqa)": "a refrigerator"
+    },
+    {
+        "text_input_id": "16989317",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "08132262",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "04903352",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "16600080",
+        "output_direct answer (gqa)": "are there either sweet potatoes or eggs?"
+    },
+    {
+        "text_input_id": "06680058",
+        "output_direct answer (gqa)": "cat"
+    },
+    {
+        "text_input_id": "07158804",
+        "output_direct answer (gqa)": "Is the tail long and white?"
+    },
+    {
+        "text_input_id": "0335232",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "08615791",
+        "output_direct answer (gqa)": "Do you see any cell phones on the open book?"
+    },
+    {
+        "text_input_id": "10169556",
+        "output_direct answer (gqa)": "#what's the kite in?"
+    },
+    {
+        "text_input_id": "15126899",
+        "output_direct answer (gqa)": "donut"
+    },
+    {
+        "text_input_id": "06725504",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "09928166",
+        "output_direct answer (gqa)": "who is wearing the helmet?"
+    },
+    {
+        "text_input_id": "1172897",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "10846639",
+        "output_direct answer (gqa)": "Do you see any clocks?"
+    },
+    {
+        "text_input_id": "04743377",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "06107976",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "02133436",
+        "output_direct answer (gqa)": "a t-shirt"
+    },
+    {
+        "text_input_id": "07865868",
+        "output_direct answer (gqa)": "a t-shirt"
+    },
+    {
+        "text_input_id": "09933404",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14696278",
+        "output_direct answer (gqa)": "that bowl is filled with soup"
+    },
+    {
+        "text_input_id": "13110470",
+        "output_direct answer (gqa)": "bed"
+    },
+    {
+        "text_input_id": "01334185",
+        "output_direct answer (gqa)": "a microwave"
+    },
+    {
+        "text_input_id": "19547285",
+        "output_direct answer (gqa)": "Is the dog on the right side?"
+    },
+    {
+        "text_input_id": "191016458",
+        "output_direct answer (gqa)": "boats"
+    },
+    {
+        "text_input_id": "19659634",
+        "output_direct answer (gqa)": "gray"
+    },
+    {
+        "text_input_id": "11313486",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "01870647",
+        "output_direct answer (gqa)": "which place is it?"
+    },
+    {
+        "text_input_id": "06599114",
+        "output_direct answer (gqa)": "Is the lady to the right of the car?"
+    },
+    {
+        "text_input_id": "08730961",
+        "output_direct answer (gqa)": "Does this rug look large?"
+    },
+    {
+        "text_input_id": "061634",
+        "output_direct answer (gqa)": "What color is the fur?"
+    },
+    {
+        "text_input_id": "12732972",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "14933740",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "03453003",
+        "output_direct answer (gqa)": "a vest"
+    },
+    {
+        "text_input_id": "04279994",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "0443552",
+        "output_direct answer (gqa)": "what is the dessert that the woman to the right of the plate is serving?"
+    },
+    {
+        "text_input_id": "10607092",
+        "output_direct answer (gqa)": "a surfboard"
+    },
+    {
+        "text_input_id": "11928335",
+        "output_direct answer (gqa)": "which place is it?"
+    },
+    {
+        "text_input_id": "07521410",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "13112457",
+        "output_direct answer (gqa)": "Are there either any dry-erase boards or bicycles?"
+    },
+    {
+        "text_input_id": "02957724",
+        "output_direct answer (gqa)": "What color is that cap?"
+    },
+    {
+        "text_input_id": "19954280",
+        "output_direct answer (gqa)": "broccoli, carrots, tomatoes, and celery"
+    },
+    {
+        "text_input_id": "01152305",
+        "output_direct answer (gqa)": "oranges and lemons"
+    },
+    {
+        "text_input_id": "13708601",
+        "output_direct answer (gqa)": "#Is plastic used to make the chair to the right of the woman?"
+    },
+    {
+        "text_input_id": "14907881",
+        "output_direct answer (gqa)": "What animals are it?"
+    },
+    {
+        "text_input_id": "10560337",
+        "output_direct answer (gqa)": "There is a microwave on the shelf"
+    },
+    {
+        "text_input_id": "12916773",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03884328",
+        "output_direct answer (gqa)": "Is there any white dishwasher or oven?"
+    },
+    {
+        "text_input_id": "18175287",
+        "output_direct answer (gqa)": "a gun"
+    },
+    {
+        "text_input_id": "04275794",
+        "output_direct answer (gqa)": "red"
+    },
+    {
+        "text_input_id": "12589707",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "13659386",
+        "output_direct answer (gqa)": "which room is it?"
+    },
+    {
+        "text_input_id": "12962674",
+        "output_direct answer (gqa)": "a tennis ball"
+    },
+    {
+        "text_input_id": "14796852",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19562485",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "00289737",
+        "output_direct answer (gqa)": "a tie"
+    },
+    {
+        "text_input_id": "02992404",
+        "output_direct answer (gqa)": "What is in the filled glass on the table?"
+    },
+    {
+        "text_input_id": "04805818",
+        "output_direct answer (gqa)": "the bench is in front of a tree"
+    },
+    {
+        "text_input_id": "12811118",
+        "output_direct answer (gqa)": "a cake"
+    },
+    {
+        "text_input_id": "00888458",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "03495572",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "10730761",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "08699263",
+        "output_direct answer (gqa)": "#5 is wearing a bikini"
+    },
+    {
+        "text_input_id": "16601319",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "14492520",
+        "output_direct answer (gqa)": "Is the carrot long and orange?"
+    },
+    {
+        "text_input_id": "17260541",
+        "output_direct answer (gqa)": "are there any bouquets or beach umbrellas in the photo?"
+    },
+    {
+        "text_input_id": "08897330",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12962381",
+        "output_direct answer (gqa)": "Is the decoration on a cake?"
+    },
+    {
+        "text_input_id": "17937918",
+        "output_direct answer (gqa)": "#5 is holding the camera"
+    },
+    {
+        "text_input_id": "0577917",
+        "output_direct answer (gqa)": "What is the statue on?"
+    },
+    {
+        "text_input_id": "07692728",
+        "output_direct answer (gqa)": "what's the water in front of?"
+    },
+    {
+        "text_input_id": "10768252",
+        "output_direct answer (gqa)": "two men"
+    },
+    {
+        "text_input_id": "04972748",
+        "output_direct answer (gqa)": "laptop"
+    },
+    {
+        "text_input_id": "09482226",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "16921951",
+        "output_direct answer (gqa)": "what is the television in, an ottoman or a cabinet?"
+    },
+    {
+        "text_input_id": "17560780",
+        "output_direct answer (gqa)": "giraffes, elephants, zebras, giraffes, zebras, giraffes"
+    },
+    {
+        "text_input_id": "18835875",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07406837",
+        "output_direct answer (gqa)": "a plate"
+    },
+    {
+        "text_input_id": "04147684",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "17959975",
+        "output_direct answer (gqa)": "Where is the bag?"
+    },
+    {
+        "text_input_id": "06861738",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "1432014",
+        "output_direct answer (gqa)": "What is the color of the shirt?"
+    },
+    {
+        "text_input_id": "06614792",
+        "output_direct answer (gqa)": "a jacket"
+    },
+    {
+        "text_input_id": "14383947",
+        "output_direct answer (gqa)": "What is the item of furniture that that clock is sitting on?"
+    },
+    {
+        "text_input_id": "02867923",
+        "output_direct answer (gqa)": "a dog"
+    },
+    {
+        "text_input_id": "10695207",
+        "output_direct answer (gqa)": "Are there any men to the left of the people that are walking?"
+    },
+    {
+        "text_input_id": "01697754",
+        "output_direct answer (gqa)": "tables"
+    },
+    {
+        "text_input_id": "14212518",
+        "output_direct answer (gqa)": "the desk"
+    },
+    {
+        "text_input_id": "1771665",
+        "output_direct answer (gqa)": "on which side is the truck?"
+    },
+    {
+        "text_input_id": "13158418",
+        "output_direct answer (gqa)": "bare"
+    },
+    {
+        "text_input_id": "11660188",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "18922701",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "07522214",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "04920454",
+        "output_direct answer (gqa)": "a hat"
+    },
+    {
+        "text_input_id": "12661196",
+        "output_direct answer (gqa)": "are there fences or glasses?"
+    },
+    {
+        "text_input_id": "02381037",
+        "output_direct answer (gqa)": "Is the man bag on the left?"
+    },
+    {
+        "text_input_id": "17845554",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "16839937",
+        "output_direct answer (gqa)": "#5 is wearing a shirt"
+    },
+    {
+        "text_input_id": "1973267",
+        "output_direct answer (gqa)": "on which side is the man, the left or the right?"
+    },
+    {
+        "text_input_id": "13129978",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "0980936",
+        "output_direct answer (gqa)": "skating"
+    },
+    {
+        "text_input_id": "06492348",
+        "output_direct answer (gqa)": "do you see either a large flag or ball?"
+    },
+    {
+        "text_input_id": "0972366",
+        "output_direct answer (gqa)": "#0f the umbrella on the left is #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "17495064",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "09561362",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "19866722",
+        "output_direct answer (gqa)": "where was the photo taken?"
+    },
+    {
+        "text_input_id": "18546610",
+        "output_direct answer (gqa)": "#5 is wearing a helmet"
+    },
+    {
+        "text_input_id": "14279314",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "13112792",
+        "output_direct answer (gqa)": "shorts"
+    },
+    {
+        "text_input_id": "16582373",
+        "output_direct answer (gqa)": "a bed"
+    },
+    {
+        "text_input_id": "14614275",
+        "output_direct answer (gqa)": "red or blue?"
+    },
+    {
+        "text_input_id": "16448769",
+        "output_direct answer (gqa)": "a table"
+    },
+    {
+        "text_input_id": "041024474",
+        "output_direct answer (gqa)": "crossing the street"
+    },
+    {
+        "text_input_id": "11265797",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "17929798",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "10376015",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "12164463",
+        "output_direct answer (gqa)": "wine"
+    },
+    {
+        "text_input_id": "19832919",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "14432152",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "09954779",
+        "output_direct answer (gqa)": "a table"
+    },
+    {
+        "text_input_id": "101002605",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "09172910",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "1483257",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "16501423",
+        "output_direct answer (gqa)": "a giraffe is on the pot that is on the ground"
+    },
+    {
+        "text_input_id": "11757681",
+        "output_direct answer (gqa)": "is there either a truck or a bus that is red?"
+    },
+    {
+        "text_input_id": "16880845",
+        "output_direct answer (gqa)": "a couch"
+    },
+    {
+        "text_input_id": "01478348",
+        "output_direct answer (gqa)": "What's the box on?"
+    },
+    {
+        "text_input_id": "00738601",
+        "output_direct answer (gqa)": "Do you see elephants there?"
+    },
+    {
+        "text_input_id": "09963495",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "08415982",
+        "output_direct answer (gqa)": "what is the color of the cat?"
+    },
+    {
+        "text_input_id": "05249293",
+        "output_direct answer (gqa)": "#yes"
+    },
+    {
+        "text_input_id": "0074887",
+        "output_direct answer (gqa)": "purple"
+    },
+    {
+        "text_input_id": "1233772",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "03492560",
+        "output_direct answer (gqa)": "What vegetable is it?"
+    },
+    {
+        "text_input_id": "11959355",
+        "output_direct answer (gqa)": "the right side"
+    },
+    {
+        "text_input_id": "10760989",
+        "output_direct answer (gqa)": "Does that skateboard look brown?"
+    },
+    {
+        "text_input_id": "01106937",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "1689718",
+        "output_direct answer (gqa)": "Is this a table or a bed?"
+    },
+    {
+        "text_input_id": "03425092",
+        "output_direct answer (gqa)": "a bike is under the person the man is to the left of"
+    },
+    {
+        "text_input_id": "081019219",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "15516358",
+        "output_direct answer (gqa)": "wood"
+    },
+    {
+        "text_input_id": "1755285",
+        "output_direct answer (gqa)": "is there a black bag or banana?"
+    },
+    {
+        "text_input_id": "14778562",
+        "output_direct answer (gqa)": "chicken"
+    },
+    {
+        "text_input_id": "1316425",
+        "output_direct answer (gqa)": "Is there a woman in the photo?"
+    },
+    {
+        "text_input_id": "08238529",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "0056795",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "14424110",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "12555817",
+        "output_direct answer (gqa)": "How long are the socks?"
+    },
+    {
+        "text_input_id": "05199694",
+        "output_direct answer (gqa)": "What is the device to the left of the bottle called?"
+    },
+    {
+        "text_input_id": "1364125",
+        "output_direct answer (gqa)": "What is in the water?"
+    },
+    {
+        "text_input_id": "0127386",
+        "output_direct answer (gqa)": "Is there any blue door or train?"
+    },
+    {
+        "text_input_id": "03600158",
+        "output_direct answer (gqa)": "Who is on the bridge?"
+    },
+    {
+        "text_input_id": "06471720",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "1330560",
+        "output_direct answer (gqa)": "What is the color of the shorts?"
+    },
+    {
+        "text_input_id": "17172705",
+        "output_direct answer (gqa)": "the beach"
+    },
+    {
+        "text_input_id": "18486310",
+        "output_direct answer (gqa)": "metal"
+    },
+    {
+        "text_input_id": "02539752",
+        "output_direct answer (gqa)": "a curtain"
+    },
+    {
+        "text_input_id": "09358718",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "191044387",
+        "output_direct answer (gqa)": "cat"
+    },
+    {
+        "text_input_id": "12541125",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "08111033",
+        "output_direct answer (gqa)": "Is there a door?"
+    },
+    {
+        "text_input_id": "02248685",
+        "output_direct answer (gqa)": "Is there any woman?"
+    },
+    {
+        "text_input_id": "06305028",
+        "output_direct answer (gqa)": "Is there any skateboard or ball?"
+    },
+    {
+        "text_input_id": "17861329",
+        "output_direct answer (gqa)": "a truck"
+    },
+    {
+        "text_input_id": "12755084",
+        "output_direct answer (gqa)": "What is the chair made of?"
+    },
+    {
+        "text_input_id": "02542789",
+        "output_direct answer (gqa)": "who is wearing a shirt"
+    },
+    {
+        "text_input_id": "0292528",
+        "output_direct answer (gqa)": "a pole"
+    },
+    {
+        "text_input_id": "1231640",
+        "output_direct answer (gqa)": "Are there any black knives or peppers?"
+    },
+    {
+        "text_input_id": "07411217",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "12710906",
+        "output_direct answer (gqa)": "Is the house to the right of a fence?"
+    },
+    {
+        "text_input_id": "02665106",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "14304922",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01297508",
+        "output_direct answer (gqa)": "a pizza"
+    },
+    {
+        "text_input_id": "18264826",
+        "output_direct answer (gqa)": "a frisbee"
+    },
+    {
+        "text_input_id": "09510423",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "06144289",
+        "output_direct answer (gqa)": "On which side are the blinds?"
+    },
+    {
+        "text_input_id": "00672396",
+        "output_direct answer (gqa)": "What vehicle is to the right of the fire hydrant?"
+    },
+    {
+        "text_input_id": "01600499",
+        "output_direct answer (gqa)": "on which side is the cup?"
+    },
+    {
+        "text_input_id": "14658032",
+        "output_direct answer (gqa)": "plastic"
+    },
+    {
+        "text_input_id": "06830575",
+        "output_direct answer (gqa)": "fabric"
+    },
+    {
+        "text_input_id": "16758338",
+        "output_direct answer (gqa)": "Where is the sand?"
+    },
+    {
+        "text_input_id": "03984054",
+        "output_direct answer (gqa)": "Is the can on the right?"
+    },
+    {
+        "text_input_id": "10382388",
+        "output_direct answer (gqa)": "donuts"
+    },
+    {
+        "text_input_id": "01225527",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "10137083",
+        "output_direct answer (gqa)": "bed"
+    },
+    {
+        "text_input_id": "0974865",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "02584514",
+        "output_direct answer (gqa)": "a mirror is sitting on the counter"
+    },
+    {
+        "text_input_id": "16160948",
+        "output_direct answer (gqa)": "hats"
+    },
+    {
+        "text_input_id": "09160821",
+        "output_direct answer (gqa)": "a skirt"
+    },
+    {
+        "text_input_id": "13663337",
+        "output_direct answer (gqa)": "a computer"
+    },
+    {
+        "text_input_id": "15810528",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "00759060",
+        "output_direct answer (gqa)": "Are there gloves or helmets?"
+    },
+    {
+        "text_input_id": "0711877",
+        "output_direct answer (gqa)": "do you see black laptops or cameras?"
+    },
+    {
+        "text_input_id": "17290068",
+        "output_direct answer (gqa)": "a dog"
+    },
+    {
+        "text_input_id": "08903597",
+        "output_direct answer (gqa)": "rice, beans, and tortillas"
+    },
+    {
+        "text_input_id": "06157209",
+        "output_direct answer (gqa)": "a street sign"
+    },
+    {
+        "text_input_id": "03177663",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "01996891",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "13441848",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01400171",
+        "output_direct answer (gqa)": "Is the color of the jeans the same as the color of the shoes?"
+    },
+    {
+        "text_input_id": "05761481",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "16432515",
+        "output_direct answer (gqa)": "Does the hair look brown and short?"
+    },
+    {
+        "text_input_id": "03208620",
+        "output_direct answer (gqa)": "a pole"
+    },
+    {
+        "text_input_id": "0347544",
+        "output_direct answer (gqa)": "paper"
+    },
+    {
+        "text_input_id": "0986796",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "161054372",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "165368",
+        "output_direct answer (gqa)": "a boy"
+    },
+    {
+        "text_input_id": "05387820",
+        "output_direct answer (gqa)": "Is the man on the left side?"
+    },
+    {
+        "text_input_id": "12486529",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "09986097",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "14937649",
+        "output_direct answer (gqa)": "On which side is the monitor?"
+    },
+    {
+        "text_input_id": "01111516",
+        "output_direct answer (gqa)": "top"
+    },
+    {
+        "text_input_id": "17557116",
+        "output_direct answer (gqa)": "to the left"
+    },
+    {
+        "text_input_id": "19902012",
+        "output_direct answer (gqa)": "pasta"
+    },
+    {
+        "text_input_id": "1858785",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "03449487",
+        "output_direct answer (gqa)": "a lot of people"
+    },
+    {
+        "text_input_id": "12704023",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "17102204",
+        "output_direct answer (gqa)": "Does the path look rough and red?"
+    },
+    {
+        "text_input_id": "17468315",
+        "output_direct answer (gqa)": "on the left"
+    },
+    {
+        "text_input_id": "14360327",
+        "output_direct answer (gqa)": "a table"
+    },
+    {
+        "text_input_id": "10995926",
+        "output_direct answer (gqa)": "green"
+    },
+    {
+        "text_input_id": "08709290",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19260793",
+        "output_direct answer (gqa)": "Where is the bird?"
+    },
+    {
+        "text_input_id": "121022748",
+        "output_direct answer (gqa)": "What vehicle is in the parking lot?"
+    },
+    {
+        "text_input_id": "0921492",
+        "output_direct answer (gqa)": "bear"
+    },
+    {
+        "text_input_id": "16960008",
+        "output_direct answer (gqa)": "#does the water hose look long?"
+    },
+    {
+        "text_input_id": "1859656",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "11537737",
+        "output_direct answer (gqa)": "a cake"
+    },
+    {
+        "text_input_id": "111008739",
+        "output_direct answer (gqa)": "Is this a cabinet or a couch?"
+    },
+    {
+        "text_input_id": "09896054",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "19835930",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "01792951",
+        "output_direct answer (gqa)": "the man that is to the left of the girl is wearing"
+    },
+    {
+        "text_input_id": "12753301",
+        "output_direct answer (gqa)": "short sleeved"
+    },
+    {
+        "text_input_id": "07245136",
+        "output_direct answer (gqa)": "cherries and oranges"
+    },
+    {
+        "text_input_id": "00951772",
+        "output_direct answer (gqa)": "#5"
+    },
+    {
+        "text_input_id": "06646925",
+        "output_direct answer (gqa)": "What is the name of the wide vehicles?"
+    },
+    {
+        "text_input_id": "19757561",
+        "output_direct answer (gqa)": "How is the weather?"
+    },
+    {
+        "text_input_id": "06347348",
+        "output_direct answer (gqa)": "2 pizzas"
+    },
+    {
+        "text_input_id": "041026768",
+        "output_direct answer (gqa)": "a bag"
+    },
+    {
+        "text_input_id": "15599339",
+        "output_direct answer (gqa)": "#6"
+    },
+    {
+        "text_input_id": "18791377",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "12480526",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "01361721",
+        "output_direct answer (gqa)": "brown"
+    },
+    {
+        "text_input_id": "04162448",
+        "output_direct answer (gqa)": "a skateboard"
+    },
+    {
+        "text_input_id": "10561095",
+        "output_direct answer (gqa)": "Do you see people to the left of the man that is holding the umbrella?"
+    },
+    {
+        "text_input_id": "11245583",
+        "output_direct answer (gqa)": "left"
+    },
+    {
+        "text_input_id": "04149623",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "0177137",
+        "output_direct answer (gqa)": "Does the sky look cloudy?"
+    },
+    {
+        "text_input_id": "17463714",
+        "output_direct answer (gqa)": "Is there any pizza near the food the table is holding?"
+    },
+    {
+        "text_input_id": "04354249",
+        "output_direct answer (gqa)": "lettuce"
+    },
+    {
+        "text_input_id": "1742379",
+        "output_direct answer (gqa)": "oven"
+    },
+    {
+        "text_input_id": "19279652",
+        "output_direct answer (gqa)": "a desk"
+    },
+    {
+        "text_input_id": "13302696",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "07924999",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "03799687",
+        "output_direct answer (gqa)": "sailboats"
+    },
+    {
+        "text_input_id": "09682406",
+        "output_direct answer (gqa)": "What is the control panel on?"
+    },
+    {
+        "text_input_id": "19404920",
+        "output_direct answer (gqa)": "a hat"
+    },
+    {
+        "text_input_id": "03697768",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "191024241",
+        "output_direct answer (gqa)": "to the right"
+    },
+    {
+        "text_input_id": "19396720",
+        "output_direct answer (gqa)": "Do you see either any benches or wolves?"
+    },
+    {
+        "text_input_id": "14485079",
+        "output_direct answer (gqa)": "are there either any gloves or hats that are not black?"
+    },
+    {
+        "text_input_id": "01257391",
+        "output_direct answer (gqa)": "What place is this?"
+    },
+    {
+        "text_input_id": "02548490",
+        "output_direct answer (gqa)": "no"
+    },
+    {
+        "text_input_id": "06608162",
+        "output_direct answer (gqa)": "eggs"
+    },
+    {
+        "text_input_id": "05489971",
+        "output_direct answer (gqa)": "yes"
+    },
+    {
+        "text_input_id": "15617344",
+        "output_direct answer (gqa)": "outdoors"
+    },
+    {
+        "text_input_id": "18821908",
+        "output_direct answer (gqa)": "plastic"
+    },
+    {
+        "text_input_id": "06748093",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "16646374",
+        "output_direct answer (gqa)": "a bus"
+    },
+    {
+        "text_input_id": "00232816",
+        "output_direct answer (gqa)": "# is the boy to the left of the man wearing"
+    },
+    {
+        "text_input_id": "03294771",
+        "output_direct answer (gqa)": "blue"
+    }
+]

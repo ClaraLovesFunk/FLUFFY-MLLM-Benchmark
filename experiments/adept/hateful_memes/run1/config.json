@@ -1,0 +1,7 @@
+{
+    "model": "adept",
+    "dataset": "hateful_memes",
+    "split": "dev",
+    "run": "1",
+    "run time inference": 0.5333333333333333
+}

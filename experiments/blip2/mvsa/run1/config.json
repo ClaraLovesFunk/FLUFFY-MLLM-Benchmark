@@ -1,0 +1,5 @@
+{
+    "model": "blip2",
+    "dataset": "mvsa",
+    "run": "1"
+}

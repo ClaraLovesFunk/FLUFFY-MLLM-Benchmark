@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "mvsa",
+    "split": "test",
+    "run": "1",
+    "run time inference": 206.98333333333332
+}

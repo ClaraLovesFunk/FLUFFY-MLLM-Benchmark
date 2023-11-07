@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "scienceqa",
+    "split": "test",
+    "run": "1",
+    "run time inference": 84.91666666666667
+}

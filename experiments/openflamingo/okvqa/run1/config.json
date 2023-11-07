@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "okvqa",
+    "split": "val",
+    "run": "1",
+    "run time inference": 410.18333333333334
+}

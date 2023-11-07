@@ -1,0 +1,4002 @@
+[
+    {
+        "text_input_id": "10468458",
+        "output_direct answer (gqa)": "The lamp is on."
+    },
+    {
+        "text_input_id": "07598993",
+        "output_direct answer (gqa)": "The giraffe near the building eats."
+    },
+    {
+        "text_input_id": "07745230",
+        "output_direct answer (gqa)": "urniture"
+    },
+    {
+        "text_input_id": "07925656",
+        "output_direct answer (gqa)": "umber"
+    },
+    {
+        "text_input_id": "07639645",
+        "output_direct answer (gqa)": "Yes, the person is on a surfboard."
+    },
+    {
+        "text_input_id": "01270197",
+        "output_direct answer (gqa)": "a chair."
+    },
+    {
+        "text_input_id": "01645175",
+        "output_direct answer (gqa)": "truck"
+    },
+    {
+        "text_input_id": "10150493",
+        "output_direct answer (gqa)": "The carpet has a blue color."
+    },
+    {
+        "text_input_id": "13713255",
+        "output_direct answer (gqa)": "The motorcycle is to the left of the car on the street."
+    },
+    {
+        "text_input_id": "03457107",
+        "output_direct answer (gqa)": "a chair"
+    },
+    {
+        "text_input_id": "17453266",
+        "output_direct answer (gqa)": "\u68a8"
+    },
+    {
+        "text_input_id": "15172431",
+        "output_direct answer (gqa)": "A baby."
+    },
+    {
+        "text_input_id": "07425535",
+        "output_direct answer (gqa)": "Dog"
+    },
+    {
+        "text_input_id": "141013286",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the clothing item that is black called?\nAnswer:...............\nQuestions: What is the clothing item that is red called? Questions: What is"
+    },
+    {
+        "text_input_id": "00369185",
+        "output_direct answer (gqa)": "A surfer."
+    },
+    {
+        "text_input_id": "12209139",
+        "output_direct answer (gqa)": "The cat lying on the TV."
+    },
+    {
+        "text_input_id": "12165396",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any potatoes on the floor?\nAnswer: \u00a0There are no potatoes on the floor. Are there any potatoes on the floor? Answer: There"
+    },
+    {
+        "text_input_id": "03722437",
+        "output_direct answer (gqa)": "Yes, there is a cabinet."
+    },
+    {
+        "text_input_id": "02374443",
+        "output_direct answer (gqa)": "Yes, the post and the plate are the same color."
+    },
+    {
+        "text_input_id": "05543986",
+        "output_direct answer (gqa)": "The brown hair is curly."
+    },
+    {
+        "text_input_id": "13777394",
+        "output_direct answer (gqa)": "Dirty dishes."
+    },
+    {
+        "text_input_id": "14806780",
+        "output_direct answer (gqa)": "The white sign says, 'Please do not feed the horses.'"
+    },
+    {
+        "text_input_id": "1678684",
+        "output_direct answer (gqa)": "icing on the cake"
+    },
+    {
+        "text_input_id": "0970998",
+        "output_direct answer (gqa)": "The coffee mug is white."
+    },
+    {
+        "text_input_id": "08155395",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "00279521",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is under the bed on the right?\nAnswer:...............<|endofchunk|>"
+    },
+    {
+        "text_input_id": "02718327",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "16885710",
+        "output_direct answer (gqa)": "The tennis player is wearing a shirt."
+    },
+    {
+        "text_input_id": "18530746",
+        "output_direct answer (gqa)": "The boy is in front of the tree."
+    },
+    {
+        "text_input_id": "02433707",
+        "output_direct answer (gqa)": "There are no black words or cars."
+    },
+    {
+        "text_input_id": "13775080",
+        "output_direct answer (gqa)": "A bicycle."
+    },
+    {
+        "text_input_id": "11354756",
+        "output_direct answer (gqa)": "Yes, that truck is large."
+    },
+    {
+        "text_input_id": "10889150",
+        "output_direct answer (gqa)": "A man is waiting."
+    },
+    {
+        "text_input_id": "17891203",
+        "output_direct answer (gqa)": "There are two laptops and one desktop computer."
+    },
+    {
+        "text_input_id": "17863555",
+        "output_direct answer (gqa)": "Yes, there are onions to the left of the tomato on the left side."
+    },
+    {
+        "text_input_id": "07349310",
+        "output_direct answer (gqa)": "The happy boy is wearing a helmet."
+    },
+    {
+        "text_input_id": "171048675",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the fence on the right of the photo?\nAnswer: \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dbd\ufffd"
+    },
+    {
+        "text_input_id": "18873582",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "1928594",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Does the sofa behind the table look black?\nAnswer: \tYes, the sofa behind the table looks black. Questions: Does the sofa behind the table look"
+    },
+    {
+        "text_input_id": "19111159",
+        "output_direct answer (gqa)": "Pink\u00a0clothing."
+    },
+    {
+        "text_input_id": "10764468",
+        "output_direct answer (gqa)": "The man is on the left side."
+    },
+    {
+        "text_input_id": "15339994",
+        "output_direct answer (gqa)": "Yes, this is a beach."
+    },
+    {
+        "text_input_id": "09192829",
+        "output_direct answer (gqa)": "Dog"
+    },
+    {
+        "text_input_id": "19284762",
+        "output_direct answer (gqa)": "It is a table."
+    },
+    {
+        "text_input_id": "15495144",
+        "output_direct answer (gqa)": "The woman is on the right side."
+    },
+    {
+        "text_input_id": "14564831",
+        "output_direct answer (gqa)": "Carport"
+    },
+    {
+        "text_input_id": "04232623",
+        "output_direct answer (gqa)": "Do you see men or baseballs?"
+    },
+    {
+        "text_input_id": "14840773",
+        "output_direct answer (gqa)": "Who wears a shirt?"
+    },
+    {
+        "text_input_id": "07600684",
+        "output_direct answer (gqa)": "The freezer is to the right of the person that is wearing a hat."
+    },
+    {
+        "text_input_id": "01938380",
+        "output_direct answer (gqa)": "A baseball glove."
+    },
+    {
+        "text_input_id": "11985702",
+        "output_direct answer (gqa)": "\u9910\u76d8\u5de6\u4fa7\u7684\u4eba\u7a7f\u7740\u4ec0\u4e48?"
+    },
+    {
+        "text_input_id": "06313402",
+        "output_direct answer (gqa)": "The plate to the right of the guy is full."
+    },
+    {
+        "text_input_id": "091055202",
+        "output_direct answer (gqa)": "This is a couch."
+    },
+    {
+        "text_input_id": "171008394",
+        "output_direct answer (gqa)": "The woman is on the left side of the photo."
+    },
+    {
+        "text_input_id": "11749844",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is that skirt pink and long?\nAnswer: \u1794\u17d2\u179a\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2"
+    },
+    {
+        "text_input_id": "12334569",
+        "output_direct answer (gqa)": "A table."
+    },
+    {
+        "text_input_id": "17549855",
+        "output_direct answer (gqa)": "I think the lock is red."
+    },
+    {
+        "text_input_id": "141034916",
+        "output_direct answer (gqa)": "Yes, the boat to the right of the glasses is black and wooden."
+    },
+    {
+        "text_input_id": "11700769",
+        "output_direct answer (gqa)": "The baby is at the bottom."
+    },
+    {
+        "text_input_id": "1690221",
+        "output_direct answer (gqa)": "There are no white gloves or hats."
+    },
+    {
+        "text_input_id": "10109769",
+        "output_direct answer (gqa)": "Yes, there is a yellow helmet and a mirror."
+    },
+    {
+        "text_input_id": "03111891",
+        "output_direct answer (gqa)": "\u7535\u68af"
+    },
+    {
+        "text_input_id": "16230019",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see forks to the right of the rice on the left?\nAnswer: \u4f60\u770b\u5230\u9910\u5177\u5728\u5de6\u8fb9\u7684\u7c73\u996d\u4e0a"
+    },
+    {
+        "text_input_id": "04682582",
+        "output_direct answer (gqa)": "The fence is to the left of the player that is wearing a helmet."
+    },
+    {
+        "text_input_id": "13398662",
+        "output_direct answer (gqa)": "Yes, the man is riding on a skateboard."
+    },
+    {
+        "text_input_id": "02249769",
+        "output_direct answer (gqa)": "Red"
+    },
+    {
+        "text_input_id": "02495637",
+        "output_direct answer (gqa)": "On the left side is the food."
+    },
+    {
+        "text_input_id": "10339547",
+        "output_direct answer (gqa)": "Yes, there are both boxes and oranges in the image."
+    },
+    {
+        "text_input_id": "12377570",
+        "output_direct answer (gqa)": "\u5e73\u53f0"
+    },
+    {
+        "text_input_id": "11310947",
+        "output_direct answer (gqa)": "The chair is blue."
+    },
+    {
+        "text_input_id": "17394815",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there either a blue flag or balloon?\nAnswer: \u00a0There is either a blue flag or a balloon. Questions: Is there either a blue flag or"
+    },
+    {
+        "text_input_id": "05223841",
+        "output_direct answer (gqa)": "The fence is white."
+    },
+    {
+        "text_input_id": "16852708",
+        "output_direct answer (gqa)": "Yes, I see both a lamp and a bed."
+    },
+    {
+        "text_input_id": "15962275",
+        "output_direct answer (gqa)": "Yes, there are both plates and forks in this picture."
+    },
+    {
+        "text_input_id": "07749092",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Who is wearing a t-shirt?\nAnswer:............... is wearing a t-shirt. Questions: Who is wearing a t-shirt?"
+    },
+    {
+        "text_input_id": "14561686",
+        "output_direct answer (gqa)": "The photographer."
+    },
+    {
+        "text_input_id": "02245703",
+        "output_direct answer (gqa)": "A hot dog."
+    },
+    {
+        "text_input_id": "02583162",
+        "output_direct answer (gqa)": "The squash is in the pot."
+    },
+    {
+        "text_input_id": "19402889",
+        "output_direct answer (gqa)": "laptop"
+    },
+    {
+        "text_input_id": "02672118",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a train to the right of the car on the left side?\nAnswer: \u00a0Yes, there is a train to the right of the car on the left side. Questions:"
+    },
+    {
+        "text_input_id": "10741495",
+        "output_direct answer (gqa)": "\u82a5\u862d (bok choy)"
+    },
+    {
+        "text_input_id": "08438360",
+        "output_direct answer (gqa)": "The device that is the same color as the cord is called a mouse."
+    },
+    {
+        "text_input_id": "0826198",
+        "output_direct answer (gqa)": "The kids are on the right side."
+    },
+    {
+        "text_input_id": "04438417",
+        "output_direct answer (gqa)": "\u662f\u7684\u3002"
+    },
+    {
+        "text_input_id": "05837174",
+        "output_direct answer (gqa)": "The wardrobe is made of wood."
+    },
+    {
+        "text_input_id": "12373751",
+        "output_direct answer (gqa)": "black"
+    },
+    {
+        "text_input_id": "08158724",
+        "output_direct answer (gqa)": "Yes, there are both cars and buses in the image."
+    },
+    {
+        "text_input_id": "09647344",
+        "output_direct answer (gqa)": "The patio is made of concrete."
+    },
+    {
+        "text_input_id": "18503776",
+        "output_direct answer (gqa)": "Yes, the white box is to the right of the crate."
+    },
+    {
+        "text_input_id": "19693816",
+        "output_direct answer (gqa)": "\u5de6"
+    },
+    {
+        "text_input_id": "09929591",
+        "output_direct answer (gqa)": "Yes, there are blue trash bags in this scene."
+    },
+    {
+        "text_input_id": "04238083",
+        "output_direct answer (gqa)": "In the field."
+    },
+    {
+        "text_input_id": "02634461",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "07749444",
+        "output_direct answer (gqa)": "Yes, the person is holding the frisbee."
+    },
+    {
+        "text_input_id": "07344204",
+        "output_direct answer (gqa)": "Yes, it is an outdoors scene."
+    },
+    {
+        "text_input_id": "10456908",
+        "output_direct answer (gqa)": "There are either bells or tents."
+    },
+    {
+        "text_input_id": "06418273",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is that wallet on top of a mirror?\nAnswer: \u662f\u7684, \u90a3\u4e2a\u94b1\u5305\u5728\u955c\u5b50\u4e0a\u3002\nQuestions:"
+    },
+    {
+        "text_input_id": "15124515",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "10590341",
+        "output_direct answer (gqa)": "There are no silver faucets or clocks."
+    },
+    {
+        "text_input_id": "19557042",
+        "output_direct answer (gqa)": "Yes, there is a door in the picture."
+    },
+    {
+        "text_input_id": "08721453",
+        "output_direct answer (gqa)": "a red umbrella"
+    },
+    {
+        "text_input_id": "08812057",
+        "output_direct answer (gqa)": "The girl is on the left side of the image."
+    },
+    {
+        "text_input_id": "16319779",
+        "output_direct answer (gqa)": "\u0f3c \u3064 \u25d5_\u25d5 \u0f3d\u3064"
+    },
+    {
+        "text_input_id": "00747832",
+        "output_direct answer (gqa)": "The woman is older than the girl."
+    },
+    {
+        "text_input_id": "14863461",
+        "output_direct answer (gqa)": "The man is to the left of the woman."
+    },
+    {
+        "text_input_id": "11674933",
+        "output_direct answer (gqa)": "The remote control is on the coffee table."
+    },
+    {
+        "text_input_id": "06587024",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: This woman is pointing at what?\nAnswer: \u00a0A book.\nQuestions: This man is pointing at what?\nAnswer: \u00a0A"
+    },
+    {
+        "text_input_id": "11319230",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Who is sitting?\nAnswer: \u00a0The man is sitting. Questions: What is the man sitting on? Answer: \u00a0The"
+    },
+    {
+        "text_input_id": "05943669",
+        "output_direct answer (gqa)": "There is brown grass."
+    },
+    {
+        "text_input_id": "05716410",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a cabinet to the left of the brown curtain that is to the left of the lamp?\nAnswer: \u00a0There is a cabinet to the left of the brown curtain that is to the left of the lamp"
+    },
+    {
+        "text_input_id": "16646901",
+        "output_direct answer (gqa)": "There is either a white truck or train in the image."
+    },
+    {
+        "text_input_id": "06148602",
+        "output_direct answer (gqa)": "There is an umbrella in this picture."
+    },
+    {
+        "text_input_id": "07819988",
+        "output_direct answer (gqa)": "The bag is on the chair."
+    },
+    {
+        "text_input_id": "19933199",
+        "output_direct answer (gqa)": "black clothing"
+    },
+    {
+        "text_input_id": "05153716",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there people to the right of the bus the buildings are behind of?\nAnswer: \u00a0Yes, there are people to the right of the bus the buildings are behind of. Questions:"
+    },
+    {
+        "text_input_id": "02960166",
+        "output_direct answer (gqa)": "The pizza on the table."
+    },
+    {
+        "text_input_id": "04396322",
+        "output_direct answer (gqa)": "There is a cup on the table."
+    },
+    {
+        "text_input_id": "0093240",
+        "output_direct answer (gqa)": "Overcoat"
+    },
+    {
+        "text_input_id": "19718136",
+        "output_direct answer (gqa)": "Jeep"
+    },
+    {
+        "text_input_id": "01240046",
+        "output_direct answer (gqa)": "Yes, the giraffe's tail appears to be black."
+    },
+    {
+        "text_input_id": "01298587",
+        "output_direct answer (gqa)": "Yes, the trousers are made of leather."
+    },
+    {
+        "text_input_id": "198848",
+        "output_direct answer (gqa)": "The girl is in front of the house near the trees."
+    },
+    {
+        "text_input_id": "03868709",
+        "output_direct answer (gqa)": "The television has black color and large size."
+    },
+    {
+        "text_input_id": "12739726",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "16280900",
+        "output_direct answer (gqa)": "The girl is wearing a tennis dress."
+    },
+    {
+        "text_input_id": "08401049",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Does the man that is to the left of the other man appear to be sitting?\nAnswer: \u00a0Yes, the man that is to the left of the other man appears to be sitting. Questions"
+    },
+    {
+        "text_input_id": "09987525",
+        "output_direct answer (gqa)": "The cat is on a chair."
+    },
+    {
+        "text_input_id": "01656479",
+        "output_direct answer (gqa)": "Yes, the shirt is different in color than the binder."
+    },
+    {
+        "text_input_id": "19740195",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you think the large truck is blue or silver?\nAnswer: \u4f60\u8ba4\u4e3a\u8fd9\u8f86\u5927\u8d27\u8f66\u662f\u84dd\u8272\u8fd8\u662f"
+    },
+    {
+        "text_input_id": "11606155",
+        "output_direct answer (gqa)": "Yes, the tennis racket has green color."
+    },
+    {
+        "text_input_id": "16960737",
+        "output_direct answer (gqa)": "The man is in the top."
+    },
+    {
+        "text_input_id": "1422072",
+        "output_direct answer (gqa)": "A bicycle"
+    },
+    {
+        "text_input_id": "14135180",
+        "output_direct answer (gqa)": "A dog."
+    },
+    {
+        "text_input_id": "17108320",
+        "output_direct answer (gqa)": "The color of that bowl is blue."
+    },
+    {
+        "text_input_id": "07357880",
+        "output_direct answer (gqa)": "Yes, the fork is to the right of the salad on the left."
+    },
+    {
+        "text_input_id": "00589780",
+        "output_direct answer (gqa)": "Cow"
+    },
+    {
+        "text_input_id": "11199006",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any men near the umbrellas to the left of the flags?\nAnswer: \u00a0No, there are no men near the umbrellas to the left of the flags. Questions"
+    },
+    {
+        "text_input_id": "1595006",
+        "output_direct answer (gqa)": "The baby is on the bed."
+    },
+    {
+        "text_input_id": "03883062",
+        "output_direct answer (gqa)": "A postman."
+    },
+    {
+        "text_input_id": "15328244",
+        "output_direct answer (gqa)": "\u5973\u306e\u5b50\u306f\u96ea\u3092\u7740\u3066\u3044\u308b\u3002"
+    },
+    {
+        "text_input_id": "00417400",
+        "output_direct answer (gqa)": "The man is to the left of the vehicles on the left."
+    },
+    {
+        "text_input_id": "03898169",
+        "output_direct answer (gqa)": "Breakfast"
+    },
+    {
+        "text_input_id": "00690448",
+        "output_direct answer (gqa)": "Yes, the appliance that is not open and the blender on the counter are both black."
+    },
+    {
+        "text_input_id": "03503582",
+        "output_direct answer (gqa)": "The skier."
+    },
+    {
+        "text_input_id": "06895203",
+        "output_direct answer (gqa)": "There is an ottoman in the image."
+    },
+    {
+        "text_input_id": "009390",
+        "output_direct answer (gqa)": "Yes, the fence is to the right of the large vehicle."
+    },
+    {
+        "text_input_id": "00126827",
+        "output_direct answer (gqa)": "The cart is on the left side of the picture."
+    },
+    {
+        "text_input_id": "19556171",
+        "output_direct answer (gqa)": "Yes, the appliance to the left of the dishwasher looks black."
+    },
+    {
+        "text_input_id": "0333074",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "17484267",
+        "output_direct answer (gqa)": "There is a white computer mouse in the picture."
+    },
+    {
+        "text_input_id": "071028392",
+        "output_direct answer (gqa)": "A telephone"
+    },
+    {
+        "text_input_id": "15323903",
+        "output_direct answer (gqa)": "No, there are no umbrellas in the photo that are not red."
+    },
+    {
+        "text_input_id": "0660628",
+        "output_direct answer (gqa)": "The young girl is to the right of the bag."
+    },
+    {
+        "text_input_id": "18318209",
+        "output_direct answer (gqa)": "The orange is in the bottom part of the photo."
+    },
+    {
+        "text_input_id": "08637012",
+        "output_direct answer (gqa)": "Yes, I see both a fence and meat there."
+    },
+    {
+        "text_input_id": "00601001",
+        "output_direct answer (gqa)": "There are either chimneys or skateboards."
+    },
+    {
+        "text_input_id": "14889601",
+        "output_direct answer (gqa)": "There are either silver cars or mirrors."
+    },
+    {
+        "text_input_id": "0893865",
+        "output_direct answer (gqa)": "white"
+    },
+    {
+        "text_input_id": "16271270",
+        "output_direct answer (gqa)": "A painting."
+    },
+    {
+        "text_input_id": "19817958",
+        "output_direct answer (gqa)": "The man is walking."
+    },
+    {
+        "text_input_id": "07670906",
+        "output_direct answer (gqa)": "The black car is in the top of the picture."
+    },
+    {
+        "text_input_id": "011000918",
+        "output_direct answer (gqa)": "Yes, the person on the bike is wearing sandals."
+    },
+    {
+        "text_input_id": "14473885",
+        "output_direct answer (gqa)": "The girl that is standing holding."
+    },
+    {
+        "text_input_id": "06438060",
+        "output_direct answer (gqa)": "A rusty bus."
+    },
+    {
+        "text_input_id": "1398603",
+        "output_direct answer (gqa)": "The girl that is playing is hitting the ball."
+    },
+    {
+        "text_input_id": "11737242",
+        "output_direct answer (gqa)": "Yes, the plastic bag is on the left."
+    },
+    {
+        "text_input_id": "091045198",
+        "output_direct answer (gqa)": "No, I don't see any urinals or hairbrushes."
+    },
+    {
+        "text_input_id": "01459134",
+        "output_direct answer (gqa)": "Yes, the gloves and the pants have the same color."
+    },
+    {
+        "text_input_id": "11513424",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there any pizza to the left of the girl that is on the left?\nAnswer: \u00a0No, there is not any pizza to the left of the girl that is on the left."
+    },
+    {
+        "text_input_id": "00833541",
+        "output_direct answer (gqa)": "A zebra."
+    },
+    {
+        "text_input_id": "10836035",
+        "output_direct answer (gqa)": "The brown hair seems to be long."
+    },
+    {
+        "text_input_id": "16558489",
+        "output_direct answer (gqa)": "\u5de6"
+    },
+    {
+        "text_input_id": "19436938",
+        "output_direct answer (gqa)": "a chair."
+    },
+    {
+        "text_input_id": "05478437",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "02220170",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a fork to the right of the chair?\nAnswer: \u00a0Yes, there is a fork to the right of the chair. Is there a fork to the"
+    },
+    {
+        "text_input_id": "11781073",
+        "output_direct answer (gqa)": "There are white bowls and fences."
+    },
+    {
+        "text_input_id": "04658310",
+        "output_direct answer (gqa)": "\u4f60\u770b\u5230\u6c34\u4e2d\u6709\u4e00\u53ea\u9e2d\u5b50\u5417?"
+    },
+    {
+        "text_input_id": "13454995",
+        "output_direct answer (gqa)": "Black"
+    },
+    {
+        "text_input_id": "09889269",
+        "output_direct answer (gqa)": "The book is on the bottom."
+    },
+    {
+        "text_input_id": "07777896",
+        "output_direct answer (gqa)": "\u662f\u5426\u6709\u4eba\u6234\u5934\u76d4?"
+    },
+    {
+        "text_input_id": "07959816",
+        "output_direct answer (gqa)": "The woman that is to the right of the telephone observing is the judge."
+    },
+    {
+        "text_input_id": "10493962",
+        "output_direct answer (gqa)": "\u90a3\u4e2a\u6905\u5b50\u5728\u54ea\u513f?"
+    },
+    {
+        "text_input_id": "08430992",
+        "output_direct answer (gqa)": "The boy is throwing the frisbee."
+    },
+    {
+        "text_input_id": "14989601",
+        "output_direct answer (gqa)": "\u6c64"
+    },
+    {
+        "text_input_id": "18300321",
+        "output_direct answer (gqa)": "The cutting board is on the right of the picture."
+    },
+    {
+        "text_input_id": "05145916",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the white towel on the right?\nAnswer: \u00a0Yes, the white towel is on the right. Is the white towel on the left? Answer"
+    },
+    {
+        "text_input_id": "08336707",
+        "output_direct answer (gqa)": "The man is holding a remote control boat."
+    },
+    {
+        "text_input_id": "18611244",
+        "output_direct answer (gqa)": "A cell phone"
+    },
+    {
+        "text_input_id": "10883302",
+        "output_direct answer (gqa)": "The chair is on the left side of the photo."
+    },
+    {
+        "text_input_id": "011020980",
+        "output_direct answer (gqa)": "There are no bikes to the left of the cart that is white and black."
+    },
+    {
+        "text_input_id": "04764424",
+        "output_direct answer (gqa)": "Tow truck"
+    },
+    {
+        "text_input_id": "01304041",
+        "output_direct answer (gqa)": "The building is behind the trees."
+    },
+    {
+        "text_input_id": "18393873",
+        "output_direct answer (gqa)": "The player to the right of the ball that is to the left of the man."
+    },
+    {
+        "text_input_id": "00271801",
+        "output_direct answer (gqa)": "Aluminum."
+    },
+    {
+        "text_input_id": "15306427",
+        "output_direct answer (gqa)": "That woman is on a horse."
+    },
+    {
+        "text_input_id": "16371932",
+        "output_direct answer (gqa)": "This is an eagle."
+    },
+    {
+        "text_input_id": "02587862",
+        "output_direct answer (gqa)": "laptop"
+    },
+    {
+        "text_input_id": "04662722",
+        "output_direct answer (gqa)": "The vase is on the left side of the photo."
+    },
+    {
+        "text_input_id": "10321394",
+        "output_direct answer (gqa)": "broccoli."
+    },
+    {
+        "text_input_id": "14389628",
+        "output_direct answer (gqa)": "There are no white trains or windows."
+    },
+    {
+        "text_input_id": "0837513",
+        "output_direct answer (gqa)": "\u5e8a (bed)"
+    },
+    {
+        "text_input_id": "09562321",
+        "output_direct answer (gqa)": "The appliance on the wall is a toaster."
+    },
+    {
+        "text_input_id": "06996118",
+        "output_direct answer (gqa)": "The young girl is wearing a yellow shirt."
+    },
+    {
+        "text_input_id": "07616955",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "09844269",
+        "output_direct answer (gqa)": "The bat is big."
+    },
+    {
+        "text_input_id": "16518717",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there motorcycles to the left of the people that are on the right of the photo?\nAnswer: \u00a0Yes, there are motorcycles to the left of the people that are on the right of the"
+    },
+    {
+        "text_input_id": "02895176",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there either any ball or can in the photo?\nAnswer: \u00a0There is either any ball or can in the photo. Questions: Is there either any ball or"
+    },
+    {
+        "text_input_id": "07862126",
+        "output_direct answer (gqa)": "The zebra appears to be drinking."
+    },
+    {
+        "text_input_id": "10484581",
+        "output_direct answer (gqa)": "Oven"
+    },
+    {
+        "text_input_id": "00765827",
+        "output_direct answer (gqa)": "A bicycle."
+    },
+    {
+        "text_input_id": "01162834",
+        "output_direct answer (gqa)": "The man is on a skateboard."
+    },
+    {
+        "text_input_id": "02996824",
+        "output_direct answer (gqa)": "the tennis court"
+    },
+    {
+        "text_input_id": "17222987",
+        "output_direct answer (gqa)": "Elephant"
+    },
+    {
+        "text_input_id": "07650281",
+        "output_direct answer (gqa)": "The train is to the right of the house that is to the left of the car."
+    },
+    {
+        "text_input_id": "05863813",
+        "output_direct answer (gqa)": "Yes, there are both glasses and ties in the picture."
+    },
+    {
+        "text_input_id": "08220628",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do the plate and the cake have the same color?\nAnswer: \u7b54\u6848: \u7b54\u6848: \u7b54\u6848: \u7b54"
+    },
+    {
+        "text_input_id": "09430213",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there microwaves to the left of the fridge in the kitchen?\nAnswer: \u00a0Yes, there are microwaves to the left of the fridge in the kitchen. Questions:"
+    },
+    {
+        "text_input_id": "03223454",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is that a bed or a mirror?\nAnswer: \u00a0It is a bed.\nQuestion: Is that a bed or a mirror? Answer: "
+    },
+    {
+        "text_input_id": "11594989",
+        "output_direct answer (gqa)": "The left side."
+    },
+    {
+        "text_input_id": "19474790",
+        "output_direct answer (gqa)": "The boot and the pole have the same color."
+    },
+    {
+        "text_input_id": "17870968",
+        "output_direct answer (gqa)": "The pines are on the right side of the image."
+    },
+    {
+        "text_input_id": "17785710",
+        "output_direct answer (gqa)": "Yes, the umbrella is on the right."
+    },
+    {
+        "text_input_id": "091003664",
+        "output_direct answer (gqa)": "The man in the bottom of the photo is a tennis player."
+    },
+    {
+        "text_input_id": "00515034",
+        "output_direct answer (gqa)": "Metallic furniture."
+    },
+    {
+        "text_input_id": "001009907",
+        "output_direct answer (gqa)": "Yes, the woman is to the left of the person wearing a backpack."
+    },
+    {
+        "text_input_id": "041024784",
+        "output_direct answer (gqa)": "Bremen"
+    },
+    {
+        "text_input_id": "05657426",
+        "output_direct answer (gqa)": "The blue container is on the left side of the image."
+    },
+    {
+        "text_input_id": "0560175",
+        "output_direct answer (gqa)": "There are kites and surfboards in this photo."
+    },
+    {
+        "text_input_id": "01387843",
+        "output_direct answer (gqa)": "Yes, the chair has a different color than the dress shirt."
+    },
+    {
+        "text_input_id": "15193432",
+        "output_direct answer (gqa)": "urniture"
+    },
+    {
+        "text_input_id": "10831894",
+        "output_direct answer (gqa)": "The net is on."
+    },
+    {
+        "text_input_id": "10110908",
+        "output_direct answer (gqa)": "Yes, the man is on a bicycle."
+    },
+    {
+        "text_input_id": "051062701",
+        "output_direct answer (gqa)": "Yes, the grass looks short and green."
+    },
+    {
+        "text_input_id": "05377870",
+        "output_direct answer (gqa)": "Black."
+    },
+    {
+        "text_input_id": "14104672",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the vehicle that is to the left of the man on the right?\nAnswer:............<|endofchunk|>"
+    },
+    {
+        "text_input_id": "0869143",
+        "output_direct answer (gqa)": "The ball and the uniform have the same color."
+    },
+    {
+        "text_input_id": "16917988",
+        "output_direct answer (gqa)": "Yes, there are trains to the right of the man that is wearing trousers."
+    },
+    {
+        "text_input_id": "10329646",
+        "output_direct answer (gqa)": "A cow."
+    },
+    {
+        "text_input_id": "10168433",
+        "output_direct answer (gqa)": "A) A chair"
+    },
+    {
+        "text_input_id": "11976574",
+        "output_direct answer (gqa)": "I see kites."
+    },
+    {
+        "text_input_id": "04943889",
+        "output_direct answer (gqa)": "umpire"
+    },
+    {
+        "text_input_id": "17311942",
+        "output_direct answer (gqa)": "The car is to the right of the blue helmet."
+    },
+    {
+        "text_input_id": "13337951",
+        "output_direct answer (gqa)": "The knife is on the plate."
+    },
+    {
+        "text_input_id": "13460156",
+        "output_direct answer (gqa)": "The leaves that look brown are dry."
+    },
+    {
+        "text_input_id": "13968622",
+        "output_direct answer (gqa)": "There are no mirrors that are not square."
+    },
+    {
+        "text_input_id": "01189963",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "09239936",
+        "output_direct answer (gqa)": "Yes, the cows near the trees have white color."
+    },
+    {
+        "text_input_id": "12774191",
+        "output_direct answer (gqa)": "Black"
+    },
+    {
+        "text_input_id": "19646474",
+        "output_direct answer (gqa)": "icing"
+    },
+    {
+        "text_input_id": "02387346",
+        "output_direct answer (gqa)": "The silver fork is at the top of the image."
+    },
+    {
+        "text_input_id": "04479794",
+        "output_direct answer (gqa)": "The guy is on the left side of the picture."
+    },
+    {
+        "text_input_id": "12992750",
+        "output_direct answer (gqa)": "The cup is in the kitchen."
+    },
+    {
+        "text_input_id": "11593662",
+        "output_direct answer (gqa)": "The plastic bag is to the left of the bed that the blanket is on."
+    },
+    {
+        "text_input_id": "11536982",
+        "output_direct answer (gqa)": "\u5e8a\u4e0a\u7684\u6795\u5934"
+    },
+    {
+        "text_input_id": "08651540",
+        "output_direct answer (gqa)": "The girl is wearing glasses."
+    },
+    {
+        "text_input_id": "0624062",
+        "output_direct answer (gqa)": "The coffee table."
+    },
+    {
+        "text_input_id": "03450652",
+        "output_direct answer (gqa)": "Leather furniture."
+    },
+    {
+        "text_input_id": "1527449",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there cars to the right of the palm trees which are to the right of the girl?\nAnswer: \u00a0There are cars to the right of the palm trees which are to the right of the girl."
+    },
+    {
+        "text_input_id": "17585897",
+        "output_direct answer (gqa)": "\u30c9\u30fc\u30ca\u30c4"
+    },
+    {
+        "text_input_id": "00524104",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the woman to the right of the man holding the phone that the train is to the right of?\nAnswer: \u00a0The woman is to the right of the man holding the phone that the train is to the right"
+    },
+    {
+        "text_input_id": "03193231",
+        "output_direct answer (gqa)": "Parking meters and brooms."
+    },
+    {
+        "text_input_id": "06609459",
+        "output_direct answer (gqa)": "The antenna on the plane."
+    },
+    {
+        "text_input_id": "03980068",
+        "output_direct answer (gqa)": "a glass of wine"
+    },
+    {
+        "text_input_id": "09937798",
+        "output_direct answer (gqa)": "The brown item of furniture is called a chair."
+    },
+    {
+        "text_input_id": "18671091",
+        "output_direct answer (gqa)": "Yes, the snow board is on the left of the image."
+    },
+    {
+        "text_input_id": "18950916",
+        "output_direct answer (gqa)": "The white smoke indicates that the Pope has been elected."
+    },
+    {
+        "text_input_id": "02104280",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: How is the weather?\nAnswer: \u00a0The weather is fine.\nQuestion: What is the weather like? Answer: \u00a0The"
+    },
+    {
+        "text_input_id": "06614729",
+        "output_direct answer (gqa)": "The boy is wearing a suit."
+    },
+    {
+        "text_input_id": "11318379",
+        "output_direct answer (gqa)": "The house looks yellow."
+    },
+    {
+        "text_input_id": "161024922",
+        "output_direct answer (gqa)": "The zebra."
+    },
+    {
+        "text_input_id": "13417728",
+        "output_direct answer (gqa)": "A hot dog."
+    },
+    {
+        "text_input_id": "1616416",
+        "output_direct answer (gqa)": "a bench"
+    },
+    {
+        "text_input_id": "12391760",
+        "output_direct answer (gqa)": "Yes, there is a zebra behind the bush."
+    },
+    {
+        "text_input_id": "0416295",
+        "output_direct answer (gqa)": "Yes, there is a banana on the plate above the table."
+    },
+    {
+        "text_input_id": "13297721",
+        "output_direct answer (gqa)": "The computer monitor is on the right."
+    },
+    {
+        "text_input_id": "15639998",
+        "output_direct answer (gqa)": "The chocolate is in the bottom of the photo."
+    },
+    {
+        "text_input_id": "08203180",
+        "output_direct answer (gqa)": "Yes, the office desk contains book."
+    },
+    {
+        "text_input_id": "15936246",
+        "output_direct answer (gqa)": "The man is on the right side."
+    },
+    {
+        "text_input_id": "07293168",
+        "output_direct answer (gqa)": "\u5de6"
+    },
+    {
+        "text_input_id": "07866391",
+        "output_direct answer (gqa)": "Are there any birds?"
+    },
+    {
+        "text_input_id": "17639670",
+        "output_direct answer (gqa)": "A couch."
+    },
+    {
+        "text_input_id": "16155564",
+        "output_direct answer (gqa)": "No, I do not see a child in this photo that is not bending."
+    },
+    {
+        "text_input_id": "05743497",
+        "output_direct answer (gqa)": "A flag."
+    },
+    {
+        "text_input_id": "13676596",
+        "output_direct answer (gqa)": "I see men and women that are posing."
+    },
+    {
+        "text_input_id": "12655919",
+        "output_direct answer (gqa)": "The truck is on the right of the picture."
+    },
+    {
+        "text_input_id": "06905534",
+        "output_direct answer (gqa)": "The pine tree is on the right side."
+    },
+    {
+        "text_input_id": "10130579",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "10207601",
+        "output_direct answer (gqa)": "Ribs"
+    },
+    {
+        "text_input_id": "07997360",
+        "output_direct answer (gqa)": "Yes, the strawberries are on top of a mirror."
+    },
+    {
+        "text_input_id": "1188214",
+        "output_direct answer (gqa)": "Yes, the numbers are on the frame."
+    },
+    {
+        "text_input_id": "03753862",
+        "output_direct answer (gqa)": "Red"
+    },
+    {
+        "text_input_id": "10386611",
+        "output_direct answer (gqa)": "Yes, the sky is cloudless and light blue."
+    },
+    {
+        "text_input_id": "161036290",
+        "output_direct answer (gqa)": "The brown chair is to the right of the desk drawer."
+    },
+    {
+        "text_input_id": "15418582",
+        "output_direct answer (gqa)": "The man that is to the right of the person driving."
+    },
+    {
+        "text_input_id": "13810982",
+        "output_direct answer (gqa)": "The books are to the right of the black device that is in front of the window."
+    },
+    {
+        "text_input_id": "00977762",
+        "output_direct answer (gqa)": "Yes, there are both bananas and burritoes in this photo."
+    },
+    {
+        "text_input_id": "15437379",
+        "output_direct answer (gqa)": "The grass is covered."
+    },
+    {
+        "text_input_id": "07409107",
+        "output_direct answer (gqa)": "Yes, the batter is on the left."
+    },
+    {
+        "text_input_id": "04861956",
+        "output_direct answer (gqa)": "The flowers are white."
+    },
+    {
+        "text_input_id": "05494190",
+        "output_direct answer (gqa)": "There are no chickpeas to the right of the carrot in the middle."
+    },
+    {
+        "text_input_id": "06580491",
+        "output_direct answer (gqa)": "A mug."
+    },
+    {
+        "text_input_id": "04777365",
+        "output_direct answer (gqa)": "Paris, France."
+    },
+    {
+        "text_input_id": "03715937",
+        "output_direct answer (gqa)": "The man is on the beach."
+    },
+    {
+        "text_input_id": "09851290",
+        "output_direct answer (gqa)": "The refrigerator is on the left side of the image."
+    },
+    {
+        "text_input_id": "1866433",
+        "output_direct answer (gqa)": "The lady to the right of the person seems to be sitting."
+    },
+    {
+        "text_input_id": "16687396",
+        "output_direct answer (gqa)": "A flower vase."
+    },
+    {
+        "text_input_id": "15606530",
+        "output_direct answer (gqa)": "The child is on the right side of the image."
+    },
+    {
+        "text_input_id": "15724846",
+        "output_direct answer (gqa)": "Three dogs."
+    },
+    {
+        "text_input_id": "03288507",
+        "output_direct answer (gqa)": "iPhone 4S"
+    },
+    {
+        "text_input_id": "05383251",
+        "output_direct answer (gqa)": "The bus is on the right side of the picture."
+    },
+    {
+        "text_input_id": "131035530",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "18445100",
+        "output_direct answer (gqa)": "No, I do not see any white frisbees or balls."
+    },
+    {
+        "text_input_id": "071062844",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Who is wearing a hat?\nAnswer: \u00a0The man is wearing a hat. Questions: Who is wearing a hat? Answer: \u00a0"
+    },
+    {
+        "text_input_id": "17746196",
+        "output_direct answer (gqa)": "The girl is wearing a white shirt."
+    },
+    {
+        "text_input_id": "16821665",
+        "output_direct answer (gqa)": "The bottle is in the top of the picture."
+    },
+    {
+        "text_input_id": "121030978",
+        "output_direct answer (gqa)": "Yes, the vehicle to the right of the truck has blue color."
+    },
+    {
+        "text_input_id": "08118089",
+        "output_direct answer (gqa)": "The weather is fine."
+    },
+    {
+        "text_input_id": "13278295",
+        "output_direct answer (gqa)": "urniture is white."
+    },
+    {
+        "text_input_id": "01948941",
+        "output_direct answer (gqa)": "The child is in the bathtub."
+    },
+    {
+        "text_input_id": "09675836",
+        "output_direct answer (gqa)": "A blue jay."
+    },
+    {
+        "text_input_id": "05843490",
+        "output_direct answer (gqa)": "Yes, the animal in the grass is brown and large."
+    },
+    {
+        "text_input_id": "17694342",
+        "output_direct answer (gqa)": "Brown."
+    },
+    {
+        "text_input_id": "01655466",
+        "output_direct answer (gqa)": "Waffles"
+    },
+    {
+        "text_input_id": "08391191",
+        "output_direct answer (gqa)": "Yes, the logo is silver."
+    },
+    {
+        "text_input_id": "07548232",
+        "output_direct answer (gqa)": "Yes, there is a pizza in the picture."
+    },
+    {
+        "text_input_id": "02933901",
+        "output_direct answer (gqa)": "Yes, that book is on a desk."
+    },
+    {
+        "text_input_id": "00715414",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the white umbrella open or closed?\nAnswer: \u0e40\u0e1b\u0e47\u0e19\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e02\u0e2d\u0e07\u0e1b\u0e23\u0e30"
+    },
+    {
+        "text_input_id": "14375414",
+        "output_direct answer (gqa)": "Yes, the oven is to the right of the books."
+    },
+    {
+        "text_input_id": "17512491",
+        "output_direct answer (gqa)": "Yes, there are bottles on top of the counter."
+    },
+    {
+        "text_input_id": "15640965",
+        "output_direct answer (gqa)": "There are gifts and fire hydrants in the photo."
+    },
+    {
+        "text_input_id": "05828352",
+        "output_direct answer (gqa)": "A chair."
+    },
+    {
+        "text_input_id": "11169700",
+        "output_direct answer (gqa)": "I see a can and a plate that are not green."
+    },
+    {
+        "text_input_id": "01588183",
+        "output_direct answer (gqa)": "The door is blue."
+    },
+    {
+        "text_input_id": "12278886",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "01391654",
+        "output_direct answer (gqa)": "Cat."
+    },
+    {
+        "text_input_id": "19167473",
+        "output_direct answer (gqa)": "A cow."
+    },
+    {
+        "text_input_id": "09545925",
+        "output_direct answer (gqa)": "The dog is resting on a couch."
+    },
+    {
+        "text_input_id": "17809873",
+        "output_direct answer (gqa)": "A pizza."
+    },
+    {
+        "text_input_id": "03407264",
+        "output_direct answer (gqa)": "The sky is clear."
+    },
+    {
+        "text_input_id": "08553554",
+        "output_direct answer (gqa)": "Pikachu"
+    },
+    {
+        "text_input_id": "19452203",
+        "output_direct answer (gqa)": "There are no motorcycles or skateboards that are not silver."
+    },
+    {
+        "text_input_id": "02693139",
+        "output_direct answer (gqa)": "There are no rackets in front of the player that is holding the ball."
+    },
+    {
+        "text_input_id": "17123726",
+        "output_direct answer (gqa)": "The snowboarder."
+    },
+    {
+        "text_input_id": "13386971",
+        "output_direct answer (gqa)": "Water."
+    },
+    {
+        "text_input_id": "07181565",
+        "output_direct answer (gqa)": "The helmet is to the left of the fence."
+    },
+    {
+        "text_input_id": "18460579",
+        "output_direct answer (gqa)": "The fork is to the left of the bottle."
+    },
+    {
+        "text_input_id": "19221929",
+        "output_direct answer (gqa)": "Yes, it is an indoors scene."
+    },
+    {
+        "text_input_id": "02292607",
+        "output_direct answer (gqa)": "A man is riding on a motorcycle."
+    },
+    {
+        "text_input_id": "18544187",
+        "output_direct answer (gqa)": "A speaker."
+    },
+    {
+        "text_input_id": "10351293",
+        "output_direct answer (gqa)": "The flag that looks blue and red is tall."
+    },
+    {
+        "text_input_id": "09879971",
+        "output_direct answer (gqa)": "A seagull."
+    },
+    {
+        "text_input_id": "03625216",
+        "output_direct answer (gqa)": "The pieces of furniture on the patio are tables and chairs."
+    },
+    {
+        "text_input_id": "03843240",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "07343459",
+        "output_direct answer (gqa)": "The man to the left of the women is reading a book."
+    },
+    {
+        "text_input_id": "15789457",
+        "output_direct answer (gqa)": "The person is wearing a hoodie."
+    },
+    {
+        "text_input_id": "05722810",
+        "output_direct answer (gqa)": "A duck."
+    },
+    {
+        "text_input_id": "10824684",
+        "output_direct answer (gqa)": "umpire's chair"
+    },
+    {
+        "text_input_id": "08295329",
+        "output_direct answer (gqa)": "There are either life vests or coins in the photograph."
+    },
+    {
+        "text_input_id": "19809010",
+        "output_direct answer (gqa)": "Yes, the sky is cloudy and bright."
+    },
+    {
+        "text_input_id": "14618270",
+        "output_direct answer (gqa)": "The Christmas tree."
+    },
+    {
+        "text_input_id": "16250337",
+        "output_direct answer (gqa)": "Yes, there are both trash cans and briefcases in the picture."
+    },
+    {
+        "text_input_id": "12338930",
+        "output_direct answer (gqa)": "The skier is in the bottom of the photo."
+    },
+    {
+        "text_input_id": "16818023",
+        "output_direct answer (gqa)": "Yes, there are clocks in the picture."
+    },
+    {
+        "text_input_id": "0693352",
+        "output_direct answer (gqa)": "There are no chairs or shelves."
+    },
+    {
+        "text_input_id": "04955817",
+        "output_direct answer (gqa)": "Yes, there are shelves to the right of the books in the center."
+    },
+    {
+        "text_input_id": "121022010",
+        "output_direct answer (gqa)": "The rope is on the left side of the image."
+    },
+    {
+        "text_input_id": "15477376",
+        "output_direct answer (gqa)": "\u53f3\u5074"
+    },
+    {
+        "text_input_id": "01675575",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a pillow to the left of the remote control?\nAnswer: \u00a0Yes, there is a pillow to the left of the remote control. Questions: Is there a"
+    },
+    {
+        "text_input_id": "06271489",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "06348779",
+        "output_direct answer (gqa)": "The girl is wearing the eye glasses."
+    },
+    {
+        "text_input_id": "16959092",
+        "output_direct answer (gqa)": "Yes, I see both motorcycles and helmets in the image."
+    },
+    {
+        "text_input_id": "121029378",
+        "output_direct answer (gqa)": "Yes, the picture television is different in color than the book."
+    },
+    {
+        "text_input_id": "00902203",
+        "output_direct answer (gqa)": "\u30d6\u30e9\u30a6\u30f3"
+    },
+    {
+        "text_input_id": "17577817",
+        "output_direct answer (gqa)": "Yes, there are both ties and glasses in this picture."
+    },
+    {
+        "text_input_id": "07383486",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What do you think is the device on top of the desk that is in front of the wall?\nAnswer: \u00a0The device on top of the desk that is in front of the wall is a computer monitor."
+    },
+    {
+        "text_input_id": "01806743",
+        "output_direct answer (gqa)": "The brown meat in the top part of the image is fish and chips."
+    },
+    {
+        "text_input_id": "02159555",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "05460900",
+        "output_direct answer (gqa)": "The name of the vehicle that is white is a taxi."
+    },
+    {
+        "text_input_id": "09208003",
+        "output_direct answer (gqa)": "There are beds and pillows in the image."
+    },
+    {
+        "text_input_id": "06170739",
+        "output_direct answer (gqa)": "Yes, the helmet and the bat are the same color."
+    },
+    {
+        "text_input_id": "091017066",
+        "output_direct answer (gqa)": "Yes, the woman is to the right of the pot."
+    },
+    {
+        "text_input_id": "19893732",
+        "output_direct answer (gqa)": "Yes, the cabinet that is to the left of the curtains looks white."
+    },
+    {
+        "text_input_id": "16673242",
+        "output_direct answer (gqa)": "The bear is wearing a hat."
+    },
+    {
+        "text_input_id": "05491449",
+        "output_direct answer (gqa)": "A traffic light"
+    },
+    {
+        "text_input_id": "18577829",
+        "output_direct answer (gqa)": "Yes, the woman with the purse is standing in a bus."
+    },
+    {
+        "text_input_id": "10768421",
+        "output_direct answer (gqa)": "The sky is the same color as the shirt."
+    },
+    {
+        "text_input_id": "08176286",
+        "output_direct answer (gqa)": "A man and a woman."
+    },
+    {
+        "text_input_id": "16269356",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the bottle on the left?\nAnswer: \u00a0Yes, the bottle is on the left. Is the bottle on the right? Answer: "
+    },
+    {
+        "text_input_id": "14304365",
+        "output_direct answer (gqa)": "White clothing."
+    },
+    {
+        "text_input_id": "03127822",
+        "output_direct answer (gqa)": "A dog."
+    },
+    {
+        "text_input_id": "031067326",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "1873050",
+        "output_direct answer (gqa)": "No, there are no people to the right of the bike."
+    },
+    {
+        "text_input_id": "16882812",
+        "output_direct answer (gqa)": "Yes, the computer is to the right of a bottle."
+    },
+    {
+        "text_input_id": "01417002",
+        "output_direct answer (gqa)": "Yes, there is a helmet in this image."
+    },
+    {
+        "text_input_id": "11142346",
+        "output_direct answer (gqa)": "The sandwich is on a white plate."
+    },
+    {
+        "text_input_id": "13521845",
+        "output_direct answer (gqa)": "The mother is pushing the stroller."
+    },
+    {
+        "text_input_id": "07883059",
+        "output_direct answer (gqa)": "The hat is tied to the man."
+    },
+    {
+        "text_input_id": "01239402",
+        "output_direct answer (gqa)": "A picnic table."
+    },
+    {
+        "text_input_id": "01288630",
+        "output_direct answer (gqa)": "The boy is in the bottom of the photo."
+    },
+    {
+        "text_input_id": "17791571",
+        "output_direct answer (gqa)": "Yes, the person to the right of the bicycles is riding on a surfboard."
+    },
+    {
+        "text_input_id": "16308336",
+        "output_direct answer (gqa)": "The man in front of is a skateboarder."
+    },
+    {
+        "text_input_id": "06752763",
+        "output_direct answer (gqa)": "The bed is sitting."
+    },
+    {
+        "text_input_id": "04388573",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any umbrellas to the left of the woman that is touching the trunk?\nAnswer: \u00a0There are no umbrellas to the left of the woman that is touching the trunk. Questions"
+    },
+    {
+        "text_input_id": "16138034",
+        "output_direct answer (gqa)": "The statue in the window and the large clock are both gold."
+    },
+    {
+        "text_input_id": "18685225",
+        "output_direct answer (gqa)": "The cars are in the bottom."
+    },
+    {
+        "text_input_id": "08698388",
+        "output_direct answer (gqa)": "There are no green trains or buses."
+    },
+    {
+        "text_input_id": "08825778",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "05558222",
+        "output_direct answer (gqa)": "The jar on the shelf."
+    },
+    {
+        "text_input_id": "0038529",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "01232031",
+        "output_direct answer (gqa)": "The clock tower."
+    },
+    {
+        "text_input_id": "081005761",
+        "output_direct answer (gqa)": "Yes, the man is riding a motorcycle."
+    },
+    {
+        "text_input_id": "05506532",
+        "output_direct answer (gqa)": "The small plate is to the left of the silver fork."
+    },
+    {
+        "text_input_id": "03589985",
+        "output_direct answer (gqa)": "Black"
+    },
+    {
+        "text_input_id": "16700402",
+        "output_direct answer (gqa)": "Red."
+    },
+    {
+        "text_input_id": "12295347",
+        "output_direct answer (gqa)": "It is an outdoors picture."
+    },
+    {
+        "text_input_id": "1316054",
+        "output_direct answer (gqa)": "The small rug is on the right side of the image."
+    },
+    {
+        "text_input_id": "141014447",
+        "output_direct answer (gqa)": "The bottle is on the right side of the photo."
+    },
+    {
+        "text_input_id": "02917151",
+        "output_direct answer (gqa)": "Yes, there are both frisbees and cones in the photo."
+    },
+    {
+        "text_input_id": "08149579",
+        "output_direct answer (gqa)": "A woman and a child are on the sofa."
+    },
+    {
+        "text_input_id": "17719551",
+        "output_direct answer (gqa)": "Yes, the logo is on the bike."
+    },
+    {
+        "text_input_id": "18382127",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the light wine to the right or to the left of the bottles that are to the right of the wine glass?\nAnswer: \u00a0The light wine is to the right of the bottles that are to the right of the wine glass"
+    },
+    {
+        "text_input_id": "1511823",
+        "output_direct answer (gqa)": "The food with the onion is large."
+    },
+    {
+        "text_input_id": "07753661",
+        "output_direct answer (gqa)": "A helmet."
+    },
+    {
+        "text_input_id": "05617120",
+        "output_direct answer (gqa)": "The girl is on the horse."
+    },
+    {
+        "text_input_id": "02378013",
+        "output_direct answer (gqa)": "No, I don't see any desks below the shelf."
+    },
+    {
+        "text_input_id": "09654144",
+        "output_direct answer (gqa)": "A man is wearing a hat."
+    },
+    {
+        "text_input_id": "19797308",
+        "output_direct answer (gqa)": "The garbage bin is in the top."
+    },
+    {
+        "text_input_id": "09622968",
+        "output_direct answer (gqa)": "Yes, there are knives in the image."
+    },
+    {
+        "text_input_id": "13450824",
+        "output_direct answer (gqa)": "a lamp"
+    },
+    {
+        "text_input_id": "0871466",
+        "output_direct answer (gqa)": "Yes, that is a black table."
+    },
+    {
+        "text_input_id": "08897169",
+        "output_direct answer (gqa)": "Snowmobile"
+    },
+    {
+        "text_input_id": "06301513",
+        "output_direct answer (gqa)": "Red"
+    },
+    {
+        "text_input_id": "06895802",
+        "output_direct answer (gqa)": "The right side."
+    },
+    {
+        "text_input_id": "091044345",
+        "output_direct answer (gqa)": "There are no books or computer mice in this photo."
+    },
+    {
+        "text_input_id": "09743961",
+        "output_direct answer (gqa)": "Toilet paper"
+    },
+    {
+        "text_input_id": "12196023",
+        "output_direct answer (gqa)": "The cat that is sleeping is resting on the sink."
+    },
+    {
+        "text_input_id": "10430352",
+        "output_direct answer (gqa)": "It is a skateboard."
+    },
+    {
+        "text_input_id": "01876781",
+        "output_direct answer (gqa)": "A kitten."
+    },
+    {
+        "text_input_id": "07676681",
+        "output_direct answer (gqa)": "Yes, the shorts and the socks are the same color."
+    },
+    {
+        "text_input_id": "1691020",
+        "output_direct answer (gqa)": "I think the tiles on the floor are beige."
+    },
+    {
+        "text_input_id": "03625962",
+        "output_direct answer (gqa)": "There are either bottles or cans."
+    },
+    {
+        "text_input_id": "15478482",
+        "output_direct answer (gqa)": "On the left side of the picture."
+    },
+    {
+        "text_input_id": "17699786",
+        "output_direct answer (gqa)": "The man is wearing the shirt."
+    },
+    {
+        "text_input_id": "07162528",
+        "output_direct answer (gqa)": "Do you see elephants or dogs that are large?"
+    },
+    {
+        "text_input_id": "03408045",
+        "output_direct answer (gqa)": "Yes, the orange carrots are in the top of the photo."
+    },
+    {
+        "text_input_id": "15748073",
+        "output_direct answer (gqa)": "The brown horses are on the right side of the picture."
+    },
+    {
+        "text_input_id": "0337991",
+        "output_direct answer (gqa)": "\u7537\u4eba\u5728\u505a\u4ec0\u4e48?"
+    },
+    {
+        "text_input_id": "15409133",
+        "output_direct answer (gqa)": "Yes, I see a bag to the right of the green vehicle."
+    },
+    {
+        "text_input_id": "13907696",
+        "output_direct answer (gqa)": "Yes, the waiter is holding beer."
+    },
+    {
+        "text_input_id": "03266731",
+        "output_direct answer (gqa)": "The mushroom is in the top of the image."
+    },
+    {
+        "text_input_id": "04532135",
+        "output_direct answer (gqa)": "There are no red helmets or crates."
+    },
+    {
+        "text_input_id": "10641854",
+        "output_direct answer (gqa)": "On the left side of the photo is the traffic light."
+    },
+    {
+        "text_input_id": "04189545",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see either any bags or cars?\nAnswer: \u00a0No, I don't see any bags or cars. Questions: Do you see any bags or"
+    },
+    {
+        "text_input_id": "04891900",
+        "output_direct answer (gqa)": "Behind the thick tree stands a man."
+    },
+    {
+        "text_input_id": "09825360",
+        "output_direct answer (gqa)": "Yes, the cake is on a plate."
+    },
+    {
+        "text_input_id": "111054051",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of furniture is large?\nAnswer: \ue000Furniture\ue001 \ue000is\ue001 \ufffd"
+    },
+    {
+        "text_input_id": "07618710",
+        "output_direct answer (gqa)": "Yes, that wetsuit looks short and dark."
+    },
+    {
+        "text_input_id": "03948642",
+        "output_direct answer (gqa)": "Yes, the orange on the right is a banana."
+    },
+    {
+        "text_input_id": "1186025",
+        "output_direct answer (gqa)": "The laptop is on the left side of the picture."
+    },
+    {
+        "text_input_id": "03483985",
+        "output_direct answer (gqa)": "bus"
+    },
+    {
+        "text_input_id": "11135661",
+        "output_direct answer (gqa)": "The tower is in the top part of the picture."
+    },
+    {
+        "text_input_id": "11299218",
+        "output_direct answer (gqa)": "The chair made of metal seems to be pink."
+    },
+    {
+        "text_input_id": "18937744",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a squirrel beside the dog?\nAnswer: \u00a0Yes, there is a squirrel beside the dog. Is there a squirrel beside the dog"
+    },
+    {
+        "text_input_id": "18512478",
+        "output_direct answer (gqa)": "snow leopard"
+    },
+    {
+        "text_input_id": "14442299",
+        "output_direct answer (gqa)": "Giraffe"
+    },
+    {
+        "text_input_id": "04167827",
+        "output_direct answer (gqa)": "The bus is at the bus stop."
+    },
+    {
+        "text_input_id": "11877663",
+        "output_direct answer (gqa)": "A cell phone."
+    },
+    {
+        "text_input_id": "10661129",
+        "output_direct answer (gqa)": "There is a woman in the image."
+    },
+    {
+        "text_input_id": "07429533",
+        "output_direct answer (gqa)": "Yes, the beak appears to be black and long."
+    },
+    {
+        "text_input_id": "05619694",
+        "output_direct answer (gqa)": "There is either any zebra or elephant in this image."
+    },
+    {
+        "text_input_id": "19668148",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the window made of metal or wood?\nAnswer: \u00a0The window is made of metal. \u00a0The window is made of wood. \u00a0The"
+    },
+    {
+        "text_input_id": "15258675",
+        "output_direct answer (gqa)": "It is an indoors picture."
+    },
+    {
+        "text_input_id": "051036327",
+        "output_direct answer (gqa)": "The zebra is black and white."
+    },
+    {
+        "text_input_id": "122320",
+        "output_direct answer (gqa)": "A man is on the train car."
+    },
+    {
+        "text_input_id": "00337885",
+        "output_direct answer (gqa)": "This is a refrigerator."
+    },
+    {
+        "text_input_id": "08390753",
+        "output_direct answer (gqa)": "Yes, the man to the left of the glasses is sitting on a motorcycle."
+    },
+    {
+        "text_input_id": "16757252",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which place is it?\nAnswer:.................\nQuestions: Which place is it? Answer:.................<|endofchunk|>"
+    },
+    {
+        "text_input_id": "1127814",
+        "output_direct answer (gqa)": "The bridge is made of iron."
+    },
+    {
+        "text_input_id": "14387329",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there taxis to the left of the person that is standing on the sidewalk?\nAnswer: \u00a0Yes, there are taxis to the left of the person that is standing on the sidewalk."
+    },
+    {
+        "text_input_id": "12362819",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the sky blue or dark?\nAnswer: \u00a0The sky is blue. Is the sky blue or dark? Answer: \u00a0The sky is"
+    },
+    {
+        "text_input_id": "15958372",
+        "output_direct answer (gqa)": "urniture"
+    },
+    {
+        "text_input_id": "1681723",
+        "output_direct answer (gqa)": "A bear."
+    },
+    {
+        "text_input_id": "1860593",
+        "output_direct answer (gqa)": "A refrigerator."
+    },
+    {
+        "text_input_id": "101024564",
+        "output_direct answer (gqa)": "A hamburger."
+    },
+    {
+        "text_input_id": "0090651",
+        "output_direct answer (gqa)": "The remote is in the bottom of the photo."
+    },
+    {
+        "text_input_id": "13619610",
+        "output_direct answer (gqa)": "A hot dog."
+    },
+    {
+        "text_input_id": "15675748",
+        "output_direct answer (gqa)": "\u53f3"
+    },
+    {
+        "text_input_id": "15327566",
+        "output_direct answer (gqa)": "Yes, the people to the right of the kite are wearing jeans."
+    },
+    {
+        "text_input_id": "06481628",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the frisbee to the left of the person that is jumping?\nAnswer: \u00a0Yes, the frisbee is to the left of the person that is jumping. Questions:"
+    },
+    {
+        "text_input_id": "06846025",
+        "output_direct answer (gqa)": "The umbrellas are in the bottom part."
+    },
+    {
+        "text_input_id": "12454015",
+        "output_direct answer (gqa)": "Wooden vehicle"
+    },
+    {
+        "text_input_id": "00632373",
+        "output_direct answer (gqa)": "Yes, there are cars and windows."
+    },
+    {
+        "text_input_id": "12190023",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "15801981",
+        "output_direct answer (gqa)": "TV remote control"
+    },
+    {
+        "text_input_id": "08784489",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of furniture is not covered?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "18584333",
+        "output_direct answer (gqa)": "A knife."
+    },
+    {
+        "text_input_id": "16760227",
+        "output_direct answer (gqa)": "The laptop is in front of a television."
+    },
+    {
+        "text_input_id": "16159395",
+        "output_direct answer (gqa)": "Yes, the bag to the right of the man looks black."
+    },
+    {
+        "text_input_id": "09125107",
+        "output_direct answer (gqa)": "skateboard"
+    },
+    {
+        "text_input_id": "19764907",
+        "output_direct answer (gqa)": "The person to the left of the person wearing is the person wearing."
+    },
+    {
+        "text_input_id": "07855012",
+        "output_direct answer (gqa)": "Yes, the green trees are in front of a fence."
+    },
+    {
+        "text_input_id": "15720260",
+        "output_direct answer (gqa)": "It is a bird."
+    },
+    {
+        "text_input_id": "01261548",
+        "output_direct answer (gqa)": "The man is holding a dog."
+    },
+    {
+        "text_input_id": "14998126",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What place is this?\nAnswer:...............................<|endofchunk|>"
+    },
+    {
+        "text_input_id": "05403956",
+        "output_direct answer (gqa)": "There is a duck that is black."
+    },
+    {
+        "text_input_id": "03262245",
+        "output_direct answer (gqa)": "Red"
+    },
+    {
+        "text_input_id": "08312887",
+        "output_direct answer (gqa)": "Yes."
+    },
+    {
+        "text_input_id": "03520151",
+        "output_direct answer (gqa)": "There are kites and bombs in this picture."
+    },
+    {
+        "text_input_id": "14522496",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "17340497",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a fence to the left of the person that is sitting on the bench?\nAnswer: \u00a0Yes, there is a fence to the left of the person that is sitting on the bench."
+    },
+    {
+        "text_input_id": "10421381",
+        "output_direct answer (gqa)": "The phone is on the right side of the picture."
+    },
+    {
+        "text_input_id": "09300697",
+        "output_direct answer (gqa)": "A street sweeper."
+    },
+    {
+        "text_input_id": "19800061",
+        "output_direct answer (gqa)": "This is a bed."
+    },
+    {
+        "text_input_id": "1821015",
+        "output_direct answer (gqa)": "Yes, the boy's hair has blond color."
+    },
+    {
+        "text_input_id": "19115629",
+        "output_direct answer (gqa)": "The little boy is wearing a blue shirt."
+    },
+    {
+        "text_input_id": "06550250",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the woman's hair short?\nAnswer: \u662f\u7684,\u5979\u7684\u5934\u53d1\u5f88\u77ed\u3002\nQuestions: Is the woman's"
+    },
+    {
+        "text_input_id": "17728876",
+        "output_direct answer (gqa)": "A bowl of soup."
+    },
+    {
+        "text_input_id": "11746450",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the color of the safety jacket the same as that of the vest?\nAnswer: \u00a0Yes, the color of the safety jacket is the same as that of the vest. Question:"
+    },
+    {
+        "text_input_id": "01506715",
+        "output_direct answer (gqa)": "\u4f60\u770b\u5230\u6ca1\u6709\u84dd\u8272\u7684\u95e8\u5417?"
+    },
+    {
+        "text_input_id": "18532868",
+        "output_direct answer (gqa)": "Bus"
+    },
+    {
+        "text_input_id": "08209714",
+        "output_direct answer (gqa)": "There is no bus or cab in this picture."
+    },
+    {
+        "text_input_id": "18435885",
+        "output_direct answer (gqa)": "The person under the umbrella."
+    },
+    {
+        "text_input_id": "04502840",
+        "output_direct answer (gqa)": "No, I don't see any polar bears or leopards there."
+    },
+    {
+        "text_input_id": "14555679",
+        "output_direct answer (gqa)": "banana"
+    },
+    {
+        "text_input_id": "18605438",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which color do you think the bench is?\nAnswer: \u00a0The color of the bench is red.\nQuestions: Which color do you think the bench is"
+    },
+    {
+        "text_input_id": "13103684",
+        "output_direct answer (gqa)": "The table and the spatula have the same material."
+    },
+    {
+        "text_input_id": "07642311",
+        "output_direct answer (gqa)": "blue"
+    },
+    {
+        "text_input_id": "08134978",
+        "output_direct answer (gqa)": "Carrot"
+    },
+    {
+        "text_input_id": "01738767",
+        "output_direct answer (gqa)": "Both the people are female."
+    },
+    {
+        "text_input_id": "03633207",
+        "output_direct answer (gqa)": "001"
+    },
+    {
+        "text_input_id": "10110503",
+        "output_direct answer (gqa)": "Male"
+    },
+    {
+        "text_input_id": "18347501",
+        "output_direct answer (gqa)": "The fence is in front of the trees."
+    },
+    {
+        "text_input_id": "03227107",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "001020372",
+        "output_direct answer (gqa)": "The zebra to the left of the bench is black."
+    },
+    {
+        "text_input_id": "12176878",
+        "output_direct answer (gqa)": "umpire"
+    },
+    {
+        "text_input_id": "02271504",
+        "output_direct answer (gqa)": "The person that is standing is wearing a green jacket."
+    },
+    {
+        "text_input_id": "00211149",
+        "output_direct answer (gqa)": "Yes, the woman to the left of the ball is wearing a skirt."
+    },
+    {
+        "text_input_id": "14180381",
+        "output_direct answer (gqa)": "The woman wears blue jeans."
+    },
+    {
+        "text_input_id": "02667554",
+        "output_direct answer (gqa)": "The folding chair is made of wood."
+    },
+    {
+        "text_input_id": "08600895",
+        "output_direct answer (gqa)": "Yes, I see both carrots and bowls."
+    },
+    {
+        "text_input_id": "1272807",
+        "output_direct answer (gqa)": "Frying pan"
+    },
+    {
+        "text_input_id": "04722518",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any wine bottles to the right of the man that is on the right side?\nAnswer: \u00a0No, there are no wine bottles to the right of the man that is on the right side"
+    },
+    {
+        "text_input_id": "16270080",
+        "output_direct answer (gqa)": "Yes, there are both a baby and a woman in this picture."
+    },
+    {
+        "text_input_id": "0326917",
+        "output_direct answer (gqa)": "\u662f (sh\u00ec)"
+    },
+    {
+        "text_input_id": "11855778",
+        "output_direct answer (gqa)": "On the right side of the picture is the picture of the sign."
+    },
+    {
+        "text_input_id": "15510735",
+        "output_direct answer (gqa)": "The logo is blue."
+    },
+    {
+        "text_input_id": "02266047",
+        "output_direct answer (gqa)": "Red."
+    },
+    {
+        "text_input_id": "15101302",
+        "output_direct answer (gqa)": "black clothing"
+    },
+    {
+        "text_input_id": "12951676",
+        "output_direct answer (gqa)": "The man is holding a remote control."
+    },
+    {
+        "text_input_id": "00139707",
+        "output_direct answer (gqa)": "The fence is made of wood."
+    },
+    {
+        "text_input_id": "0376726",
+        "output_direct answer (gqa)": "Yes, the woman to the right of the man is wearing a necklace."
+    },
+    {
+        "text_input_id": "10760014",
+        "output_direct answer (gqa)": "\u0e2b\u0e21\u0e39\u0e48\u0e19\u0e49\u0e33"
+    },
+    {
+        "text_input_id": "04225448",
+        "output_direct answer (gqa)": "Camera"
+    },
+    {
+        "text_input_id": "13664650",
+        "output_direct answer (gqa)": "The man is sitting."
+    },
+    {
+        "text_input_id": "1180849",
+        "output_direct answer (gqa)": "The ground looks old."
+    },
+    {
+        "text_input_id": "04421145",
+        "output_direct answer (gqa)": "Yes, the hair has long length."
+    },
+    {
+        "text_input_id": "16669417",
+        "output_direct answer (gqa)": "Yes, I see cars to the right of the person on the right."
+    },
+    {
+        "text_input_id": "131007534",
+        "output_direct answer (gqa)": "Yes, the serving dish has a different color than the shirt."
+    },
+    {
+        "text_input_id": "12883940",
+        "output_direct answer (gqa)": "The toilet has a different color than the door."
+    },
+    {
+        "text_input_id": "04977651",
+        "output_direct answer (gqa)": "A giraffe."
+    },
+    {
+        "text_input_id": "04583868",
+        "output_direct answer (gqa)": "The green bowl is to the right of the plastic bottle."
+    },
+    {
+        "text_input_id": "04369097",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the person that is to the left of the man wearing?\nAnswer: \u00a0The man wearing is to the left of the person that is to the left of the man wearing"
+    },
+    {
+        "text_input_id": "151042721",
+        "output_direct answer (gqa)": "The pillow on the couch."
+    },
+    {
+        "text_input_id": "09392761",
+        "output_direct answer (gqa)": "The bowl is to the left of the bottle."
+    },
+    {
+        "text_input_id": "11125242",
+        "output_direct answer (gqa)": "Red."
+    },
+    {
+        "text_input_id": "08249580",
+        "output_direct answer (gqa)": "They both point in the same direction."
+    },
+    {
+        "text_input_id": "12954948",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of device is to the right of the computer?\nAnswer:...............\nQuestions: Which kind of device is to the left of the computer? Answer:"
+    },
+    {
+        "text_input_id": "19486625",
+        "output_direct answer (gqa)": "The man on the right."
+    },
+    {
+        "text_input_id": "06477062",
+        "output_direct answer (gqa)": "Yes, there are both windows and doors in the image."
+    },
+    {
+        "text_input_id": "0397532",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "01851890",
+        "output_direct answer (gqa)": "The mouse pad which is to the left of the mouse is white."
+    },
+    {
+        "text_input_id": "14500427",
+        "output_direct answer (gqa)": "The trash can is made of plastic."
+    },
+    {
+        "text_input_id": "161037228",
+        "output_direct answer (gqa)": "The TV is on a table."
+    },
+    {
+        "text_input_id": "1770978",
+        "output_direct answer (gqa)": "Traffic sign."
+    },
+    {
+        "text_input_id": "10626236",
+        "output_direct answer (gqa)": "Yes, the can is on the left."
+    },
+    {
+        "text_input_id": "09556192",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are the bicycles to the left of the white cow?\nAnswer: \u00a0Yes, the bicycles are to the left of the white cow. Questions: Are the bicy"
+    },
+    {
+        "text_input_id": "08897761",
+        "output_direct answer (gqa)": "Ichiro Suzuki."
+    },
+    {
+        "text_input_id": "17558199",
+        "output_direct answer (gqa)": "There is a strawberry on the cake that is on the table."
+    },
+    {
+        "text_input_id": "17233899",
+        "output_direct answer (gqa)": "Red clothing."
+    },
+    {
+        "text_input_id": "0492881",
+        "output_direct answer (gqa)": "An elephant."
+    },
+    {
+        "text_input_id": "17332296",
+        "output_direct answer (gqa)": "\u662f"
+    },
+    {
+        "text_input_id": "1669167",
+        "output_direct answer (gqa)": "The man on the right is standing on the man on the left."
+    },
+    {
+        "text_input_id": "00553636",
+        "output_direct answer (gqa)": "Yes, the fridge is to the left of a shelf."
+    },
+    {
+        "text_input_id": "07343875",
+        "output_direct answer (gqa)": "There are no yellow breads or peppers."
+    },
+    {
+        "text_input_id": "05217281",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "09544097",
+        "output_direct answer (gqa)": "a computer monitor"
+    },
+    {
+        "text_input_id": "19110433",
+        "output_direct answer (gqa)": "The man is wearing the shorts."
+    },
+    {
+        "text_input_id": "06958649",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the boy to the left of a child?\nAnswer: \u00a0Yes, the boy is to the left of a child. Is the boy to the left of"
+    },
+    {
+        "text_input_id": "03903820",
+        "output_direct answer (gqa)": "No, all cabinets are made of wood."
+    },
+    {
+        "text_input_id": "08928617",
+        "output_direct answer (gqa)": "The table that is on the beach is blue."
+    },
+    {
+        "text_input_id": "03454564",
+        "output_direct answer (gqa)": "The small dog is playing with the large dog."
+    },
+    {
+        "text_input_id": "00379559",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "19225898",
+        "output_direct answer (gqa)": "The cabinet is to the left of the fridge that is on the right."
+    },
+    {
+        "text_input_id": "17168136",
+        "output_direct answer (gqa)": "Yes, there are both window and a door in the scene."
+    },
+    {
+        "text_input_id": "091056785",
+        "output_direct answer (gqa)": "A man is wearing a polo shirt."
+    },
+    {
+        "text_input_id": "15994301",
+        "output_direct answer (gqa)": "The woman is on the right side."
+    },
+    {
+        "text_input_id": "15814020",
+        "output_direct answer (gqa)": "Yes, the white toilet is to the left of a soap dish."
+    },
+    {
+        "text_input_id": "171019251",
+        "output_direct answer (gqa)": "The floor looks white."
+    },
+    {
+        "text_input_id": "13636536",
+        "output_direct answer (gqa)": "The baseball player."
+    },
+    {
+        "text_input_id": "01692290",
+        "output_direct answer (gqa)": "A traffic light."
+    },
+    {
+        "text_input_id": "18342364",
+        "output_direct answer (gqa)": "\u662f"
+    },
+    {
+        "text_input_id": "19443319",
+        "output_direct answer (gqa)": "Yes, the player is swinging a bat."
+    },
+    {
+        "text_input_id": "17338159",
+        "output_direct answer (gqa)": "The elephants are eating."
+    },
+    {
+        "text_input_id": "1341223",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Where is this?\nAnswer:...............<|endofchunk|>"
+    },
+    {
+        "text_input_id": "19618210",
+        "output_direct answer (gqa)": "The sky is blue."
+    },
+    {
+        "text_input_id": "10366315",
+        "output_direct answer (gqa)": "\u624b\u673a"
+    },
+    {
+        "text_input_id": "04527939",
+        "output_direct answer (gqa)": "The white chair is made of wood."
+    },
+    {
+        "text_input_id": "00558111",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the color of the fork in the bottom of the photo?\nAnswer: \u9ed1\u8272 (black)\nQuestions: What is the color of the fork in the bottom of"
+    },
+    {
+        "text_input_id": "17888949",
+        "output_direct answer (gqa)": "\u53f3"
+    },
+    {
+        "text_input_id": "06215768",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there pouches or briefcases that are not made of leather?\nAnswer: \u00a0No, there are not pouches or briefcases that are not made of leather. Question:"
+    },
+    {
+        "text_input_id": "01190467",
+        "output_direct answer (gqa)": "The building the clock is on is very big."
+    },
+    {
+        "text_input_id": "10223113",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What type of vehicle is to the left of the people on the beach?\nAnswer:...............\nQuestions: What type of vehicle is to the right of the people on the beach"
+    },
+    {
+        "text_input_id": "06273654",
+        "output_direct answer (gqa)": "A man is wearing shorts."
+    },
+    {
+        "text_input_id": "13556132",
+        "output_direct answer (gqa)": "The dog is jumping."
+    },
+    {
+        "text_input_id": "00661193",
+        "output_direct answer (gqa)": "a car"
+    },
+    {
+        "text_input_id": "15794273",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a black plate or chair?\nAnswer: \u00a0Yes, there is a black plate. Is there a black plate or chair? Answer: Yes"
+    },
+    {
+        "text_input_id": "08287932",
+        "output_direct answer (gqa)": "There are no rackets by her."
+    },
+    {
+        "text_input_id": "1658835",
+        "output_direct answer (gqa)": "The clouds around of."
+    },
+    {
+        "text_input_id": "0919709",
+        "output_direct answer (gqa)": "Yes, she appears to be walking."
+    },
+    {
+        "text_input_id": "05753822",
+        "output_direct answer (gqa)": "Yes, the doll's dress seems to be checkered and brown."
+    },
+    {
+        "text_input_id": "131020610",
+        "output_direct answer (gqa)": "The paper is on the table."
+    },
+    {
+        "text_input_id": "06175562",
+        "output_direct answer (gqa)": "Yes, the person to the left of the water bottle is wearing a watch."
+    },
+    {
+        "text_input_id": "02625206",
+        "output_direct answer (gqa)": "Microwave"
+    },
+    {
+        "text_input_id": "15154864",
+        "output_direct answer (gqa)": "The white toilet in the bathroom."
+    },
+    {
+        "text_input_id": "15283531",
+        "output_direct answer (gqa)": "Is that crowd watching a bat?"
+    },
+    {
+        "text_input_id": "08321245",
+        "output_direct answer (gqa)": "The ball is on the left side of the photo."
+    },
+    {
+        "text_input_id": "00556040",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What color is the lamp?\nAnswer: \u00a0The lamp is red.\nQuestions: What is the color of the lamp?\nAnswer:"
+    },
+    {
+        "text_input_id": "08264616",
+        "output_direct answer (gqa)": "Lettuce"
+    },
+    {
+        "text_input_id": "07613849",
+        "output_direct answer (gqa)": "The car is on the right side."
+    },
+    {
+        "text_input_id": "1845555",
+        "output_direct answer (gqa)": "Zebra"
+    },
+    {
+        "text_input_id": "11697483",
+        "output_direct answer (gqa)": "Yes, there are both pictures and drums in the picture."
+    },
+    {
+        "text_input_id": "11222324",
+        "output_direct answer (gqa)": "Yes, there are both cars and buses in this photograph."
+    },
+    {
+        "text_input_id": "14571429",
+        "output_direct answer (gqa)": "umpire"
+    },
+    {
+        "text_input_id": "13958714",
+        "output_direct answer (gqa)": "The letters and the shorts have the same color."
+    },
+    {
+        "text_input_id": "19327580",
+        "output_direct answer (gqa)": "The tennis racket is to the left of the woman."
+    },
+    {
+        "text_input_id": "03165310",
+        "output_direct answer (gqa)": "Yes, the clock on the wall is black and square."
+    },
+    {
+        "text_input_id": "09410674",
+        "output_direct answer (gqa)": "Yes, the people to the right of the bus."
+    },
+    {
+        "text_input_id": "12788589",
+        "output_direct answer (gqa)": "Yes, the floor lamp has large size."
+    },
+    {
+        "text_input_id": "02326974",
+        "output_direct answer (gqa)": "Yes, there are both bags and umbrellas in this picture."
+    },
+    {
+        "text_input_id": "12537663",
+        "output_direct answer (gqa)": "How clean is the floor?"
+    },
+    {
+        "text_input_id": "06946272",
+        "output_direct answer (gqa)": "purple"
+    },
+    {
+        "text_input_id": "02595091",
+        "output_direct answer (gqa)": "Yes, the car is in the bottom part of the image."
+    },
+    {
+        "text_input_id": "10979641",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "10644637",
+        "output_direct answer (gqa)": "The couch is brown."
+    },
+    {
+        "text_input_id": "10369214",
+        "output_direct answer (gqa)": "Yes, the tray is to the right of the paper towels leaning on the wall."
+    },
+    {
+        "text_input_id": "15839829",
+        "output_direct answer (gqa)": "umpire is on the left side of the photo."
+    },
+    {
+        "text_input_id": "08561228",
+        "output_direct answer (gqa)": "There are hippoes and polar bears."
+    },
+    {
+        "text_input_id": "13923467",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any towels on the sand?\nAnswer: \u00a0There are no towels on the sand.\nQuestions: Are there any towels on the sand?"
+    },
+    {
+        "text_input_id": "16612131",
+        "output_direct answer (gqa)": "Yes, the woman is wearing jeans."
+    },
+    {
+        "text_input_id": "14209501",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any men to the left of the vehicle on the left?\nAnswer: \u662f\u5426\u6709\u4eba\u5728\u5de6\u4fa7\u7684\u8f66\u8f86\u7684\u5de6\u4fa7"
+    },
+    {
+        "text_input_id": "07262277",
+        "output_direct answer (gqa)": "A tennis net."
+    },
+    {
+        "text_input_id": "05476448",
+        "output_direct answer (gqa)": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e23\u0e16\u0e2b\u0e23\u0e37\u0e2d\u0e02\u0e19\u0e21"
+    },
+    {
+        "text_input_id": "02198859",
+        "output_direct answer (gqa)": "The belt and the hat are the same color."
+    },
+    {
+        "text_input_id": "03262892",
+        "output_direct answer (gqa)": "There are no bags to the right of the person that stands on the dirt."
+    },
+    {
+        "text_input_id": "12663637",
+        "output_direct answer (gqa)": "The man's hair is brown."
+    },
+    {
+        "text_input_id": "07527269",
+        "output_direct answer (gqa)": "a) a chair"
+    },
+    {
+        "text_input_id": "12722045",
+        "output_direct answer (gqa)": "the kitchen"
+    },
+    {
+        "text_input_id": "0640636",
+        "output_direct answer (gqa)": "Yes, there are both trucks and cars in the photograph."
+    },
+    {
+        "text_input_id": "18995682",
+        "output_direct answer (gqa)": "Dog"
+    },
+    {
+        "text_input_id": "10576875",
+        "output_direct answer (gqa)": "No, I don't see any chairs that are not blue."
+    },
+    {
+        "text_input_id": "12262426",
+        "output_direct answer (gqa)": "horse"
+    },
+    {
+        "text_input_id": "01582833",
+        "output_direct answer (gqa)": "The guests are on the right side."
+    },
+    {
+        "text_input_id": "17866731",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the book of the shelf black or blue?\nAnswer: \u00a0The book of the shelf is black. Is the book of the shelf black or blue? Answer"
+    },
+    {
+        "text_input_id": "12556356",
+        "output_direct answer (gqa)": "The fence is wooden."
+    },
+    {
+        "text_input_id": "04623979",
+        "output_direct answer (gqa)": "a car"
+    },
+    {
+        "text_input_id": "14973502",
+        "output_direct answer (gqa)": "Serena Williams"
+    },
+    {
+        "text_input_id": "02111161",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of vehicle is parked?\nAnswer:...............\nQuestions: What is the color of the vehicle? Answer:..............."
+    },
+    {
+        "text_input_id": "08203941",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which place is it?\nAnswer:...............\nQuestions: Which place is it?<|endofchunk|>"
+    },
+    {
+        "text_input_id": "15156790",
+        "output_direct answer (gqa)": "There are balls and wheelchairs."
+    },
+    {
+        "text_input_id": "131059715",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a mug on the bench made of wood?\nAnswer: \u00a0Yes, there is a mug on the bench made of wood. Is there a mug on the"
+    },
+    {
+        "text_input_id": "05444449",
+        "output_direct answer (gqa)": "The woman is wearing a white tank top and a black skirt."
+    },
+    {
+        "text_input_id": "1972328",
+        "output_direct answer (gqa)": "Sheep"
+    },
+    {
+        "text_input_id": "15804271",
+        "output_direct answer (gqa)": "The suitcase near the sidewalk is pulled by a woman."
+    },
+    {
+        "text_input_id": "03150466",
+        "output_direct answer (gqa)": "The giraffe is on the left side of the image."
+    },
+    {
+        "text_input_id": "03541479",
+        "output_direct answer (gqa)": "Yes, the towel has checkered pattern."
+    },
+    {
+        "text_input_id": "1061996",
+        "output_direct answer (gqa)": "The man is wearing the suitcase."
+    },
+    {
+        "text_input_id": "16689675",
+        "output_direct answer (gqa)": "The giraffe that is bending is eating from the tree."
+    },
+    {
+        "text_input_id": "06711452",
+        "output_direct answer (gqa)": "The cat that looks brown and orange is looking into the toilet."
+    },
+    {
+        "text_input_id": "01956587",
+        "output_direct answer (gqa)": "A blue shirt."
+    },
+    {
+        "text_input_id": "12784473",
+        "output_direct answer (gqa)": "Yes, there are skis and pots."
+    },
+    {
+        "text_input_id": "0835149",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are the animals all the same type?\nAnswer: \u00a0Yes, all the animals are the same type. Questions: Are the animals all different types?"
+    },
+    {
+        "text_input_id": "16733810",
+        "output_direct answer (gqa)": "Yes, the shirt has a different color than the electric toothbrush."
+    },
+    {
+        "text_input_id": "04986558",
+        "output_direct answer (gqa)": "The grass is tall."
+    },
+    {
+        "text_input_id": "16976252",
+        "output_direct answer (gqa)": "The color of the cat's nose is black."
+    },
+    {
+        "text_input_id": "05930545",
+        "output_direct answer (gqa)": "The drawer on the left."
+    },
+    {
+        "text_input_id": "02409543",
+        "output_direct answer (gqa)": "ustedes"
+    },
+    {
+        "text_input_id": "1475146",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there a bicycle to the left of the yellow vehicle?\nAnswer: \u00a0Yes, there is a bicycle to the left of the yellow vehicle. Questions: Is there a"
+    },
+    {
+        "text_input_id": "09564144",
+        "output_direct answer (gqa)": "The man is on the right side of the photo."
+    },
+    {
+        "text_input_id": "081030138",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What kind of clothing is not white?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "16784790",
+        "output_direct answer (gqa)": "\u306f\u3044\u3002"
+    },
+    {
+        "text_input_id": "11719696",
+        "output_direct answer (gqa)": "Yes, the gate is open and it is wooden."
+    },
+    {
+        "text_input_id": "07184546",
+        "output_direct answer (gqa)": "The small leaf sitting on the plate is parsley."
+    },
+    {
+        "text_input_id": "15160050",
+        "output_direct answer (gqa)": "The piano"
+    },
+    {
+        "text_input_id": "01949780",
+        "output_direct answer (gqa)": "urniture"
+    },
+    {
+        "text_input_id": "1096102",
+        "output_direct answer (gqa)": "The trailer is blue."
+    },
+    {
+        "text_input_id": "13556261",
+        "output_direct answer (gqa)": "A diaper."
+    },
+    {
+        "text_input_id": "00748550",
+        "output_direct answer (gqa)": "Yes, the card is orange."
+    },
+    {
+        "text_input_id": "04734950",
+        "output_direct answer (gqa)": "I am in the forest."
+    },
+    {
+        "text_input_id": "04584300",
+        "output_direct answer (gqa)": "Yes, I see both windows and cars."
+    },
+    {
+        "text_input_id": "021056122",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see any men to the left of the pillow that looks brown?\nAnswer: \u00a0No, I don't see any men to the left of the pillow that looks brown. Question"
+    },
+    {
+        "text_input_id": "14836371",
+        "output_direct answer (gqa)": "The boy is wearing a hat."
+    },
+    {
+        "text_input_id": "02815074",
+        "output_direct answer (gqa)": "A flower."
+    },
+    {
+        "text_input_id": "14904205",
+        "output_direct answer (gqa)": "The trousers are red."
+    },
+    {
+        "text_input_id": "13696711",
+        "output_direct answer (gqa)": "There is a ball in the image."
+    },
+    {
+        "text_input_id": "01119213",
+        "output_direct answer (gqa)": "John McEnroe"
+    },
+    {
+        "text_input_id": "0833029",
+        "output_direct answer (gqa)": "The boy is wearing the boot."
+    },
+    {
+        "text_input_id": "101017885",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Does the umbrella to the left of the man look red and open?\nAnswer: \u00a0Yes, the umbrella to the left of the man looks red and open. Questions: Does the"
+    },
+    {
+        "text_input_id": "01666252",
+        "output_direct answer (gqa)": "The shoe near the flower is Nike and blue."
+    },
+    {
+        "text_input_id": "14368307",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which place is it?\nAnswer:...............................<|endofchunk|>"
+    },
+    {
+        "text_input_id": "19311817",
+        "output_direct answer (gqa)": "The wagon is to the left of the man on the right side of the image."
+    },
+    {
+        "text_input_id": "08277294",
+        "output_direct answer (gqa)": "Two cats."
+    },
+    {
+        "text_input_id": "00677648",
+        "output_direct answer (gqa)": "Yes, there are candles on the cake."
+    },
+    {
+        "text_input_id": "00666148",
+        "output_direct answer (gqa)": "Yes, there is a carrot on the plate."
+    },
+    {
+        "text_input_id": "02718859",
+        "output_direct answer (gqa)": "The vehicle in front of the plants is green."
+    },
+    {
+        "text_input_id": "01520820",
+        "output_direct answer (gqa)": "The pitcher is throwing the baseball."
+    },
+    {
+        "text_input_id": "02951145",
+        "output_direct answer (gqa)": "Yes, there are couches in the image that are not cream colored."
+    },
+    {
+        "text_input_id": "09240678",
+        "output_direct answer (gqa)": "A traffic cone."
+    },
+    {
+        "text_input_id": "10436805",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there either a zebra or a lamb that is black?\nAnswer: \u00a0There is either a zebra or a lamb that is black. Questions: Is there either a zebra"
+    },
+    {
+        "text_input_id": "07194915",
+        "output_direct answer (gqa)": "Banana"
+    },
+    {
+        "text_input_id": "04693966",
+        "output_direct answer (gqa)": "It is at the beach."
+    },
+    {
+        "text_input_id": "01583573",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there people to the right of the man that the skateboard is to the right of?\nAnswer: \u00a0Yes, there are people to the right of the man that the skateboard is to the right"
+    },
+    {
+        "text_input_id": "1338245",
+        "output_direct answer (gqa)": "The grass is green."
+    },
+    {
+        "text_input_id": "131024898",
+        "output_direct answer (gqa)": "The toy to the right of the bookshelf is a doll."
+    },
+    {
+        "text_input_id": "18152524",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see trains to the right of the house the roof is on top of?\nAnswer: \tDo you see trains to the right of the house the roof is on top of? Questions:"
+    },
+    {
+        "text_input_id": "07165009",
+        "output_direct answer (gqa)": "That is a bus."
+    },
+    {
+        "text_input_id": "17912030",
+        "output_direct answer (gqa)": "Yes, the boot looks black."
+    },
+    {
+        "text_input_id": "17786335",
+        "output_direct answer (gqa)": "Yes, the towel to the left of the other towel looks white."
+    },
+    {
+        "text_input_id": "121020049",
+        "output_direct answer (gqa)": "Yes, the fence is long and green."
+    },
+    {
+        "text_input_id": "10601580",
+        "output_direct answer (gqa)": "I see a bed."
+    },
+    {
+        "text_input_id": "16208191",
+        "output_direct answer (gqa)": "Toaster"
+    },
+    {
+        "text_input_id": "16989317",
+        "output_direct answer (gqa)": "Yes, it is an indoors scene."
+    },
+    {
+        "text_input_id": "08132262",
+        "output_direct answer (gqa)": "Yes, the book is made of metal."
+    },
+    {
+        "text_input_id": "04903352",
+        "output_direct answer (gqa)": "Yes, the people are female."
+    },
+    {
+        "text_input_id": "16600080",
+        "output_direct answer (gqa)": "Yes, there are either sweet potatoes or eggs."
+    },
+    {
+        "text_input_id": "06680058",
+        "output_direct answer (gqa)": "a cat"
+    },
+    {
+        "text_input_id": "07158804",
+        "output_direct answer (gqa)": "Yes, the tail is long and white."
+    },
+    {
+        "text_input_id": "0335232",
+        "output_direct answer (gqa)": "The vase is on the right side."
+    },
+    {
+        "text_input_id": "08615791",
+        "output_direct answer (gqa)": "No, I do not see any cell phones on the open book."
+    },
+    {
+        "text_input_id": "10169556",
+        "output_direct answer (gqa)": "The kite is in the sky."
+    },
+    {
+        "text_input_id": "15126899",
+        "output_direct answer (gqa)": "Cannoli"
+    },
+    {
+        "text_input_id": "06725504",
+        "output_direct answer (gqa)": "Purple"
+    },
+    {
+        "text_input_id": "09928166",
+        "output_direct answer (gqa)": "The catcher is wearing the helmet."
+    },
+    {
+        "text_input_id": "1172897",
+        "output_direct answer (gqa)": "The laptop is to the right of the cup."
+    },
+    {
+        "text_input_id": "10846639",
+        "output_direct answer (gqa)": "No, I don't see any clocks."
+    },
+    {
+        "text_input_id": "04743377",
+        "output_direct answer (gqa)": "The horse has a brown coat."
+    },
+    {
+        "text_input_id": "06107976",
+        "output_direct answer (gqa)": "There are no plates to the right of the pepper."
+    },
+    {
+        "text_input_id": "02133436",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What clothing item isn't white?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "07865868",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of clothing isn't white?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "09933404",
+        "output_direct answer (gqa)": "Yes, the flowers are white."
+    },
+    {
+        "text_input_id": "14696278",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "13110470",
+        "output_direct answer (gqa)": "The dog is on a bed."
+    },
+    {
+        "text_input_id": "01334185",
+        "output_direct answer (gqa)": "Microwave"
+    },
+    {
+        "text_input_id": "19547285",
+        "output_direct answer (gqa)": "Yes, the dog is on the right side."
+    },
+    {
+        "text_input_id": "191016458",
+        "output_direct answer (gqa)": "boats"
+    },
+    {
+        "text_input_id": "19659634",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Does the gate look red or gray?\nAnswer: \u00a0The gate looks red. \u00a0The gate looks gray. \u00a0The gate looks red."
+    },
+    {
+        "text_input_id": "11313486",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do the marker and the backpack have a different colors?\nAnswer: \u7b54\u6848: \u7b54\u6848: \u7b54\u6848: \u7b54"
+    },
+    {
+        "text_input_id": "01870647",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which place is it?\nAnswer:...............................<|endofchunk|>"
+    },
+    {
+        "text_input_id": "06599114",
+        "output_direct answer (gqa)": "Yes, the lady is to the right of the car."
+    },
+    {
+        "text_input_id": "08730961",
+        "output_direct answer (gqa)": "Yes, this rug looks large."
+    },
+    {
+        "text_input_id": "061634",
+        "output_direct answer (gqa)": "Brown."
+    },
+    {
+        "text_input_id": "12732972",
+        "output_direct answer (gqa)": "The sculpture is black."
+    },
+    {
+        "text_input_id": "14933740",
+        "output_direct answer (gqa)": "\u5de6"
+    },
+    {
+        "text_input_id": "03453003",
+        "output_direct answer (gqa)": "A blue vest."
+    },
+    {
+        "text_input_id": "04279994",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there any carts to the right of the person that is wearing a helmet?\nAnswer: \u00a0Yes, there are two carts to the right of the person that is wearing a helmet."
+    },
+    {
+        "text_input_id": "0443552",
+        "output_direct answer (gqa)": "icing"
+    },
+    {
+        "text_input_id": "10607092",
+        "output_direct answer (gqa)": "The man is on a surfboard."
+    },
+    {
+        "text_input_id": "11928335",
+        "output_direct answer (gqa)": "Chicago, Illinois"
+    },
+    {
+        "text_input_id": "07521410",
+        "output_direct answer (gqa)": "The sauce on the table is red."
+    },
+    {
+        "text_input_id": "13112457",
+        "output_direct answer (gqa)": "There are either any dry-erase boards or bicycles."
+    },
+    {
+        "text_input_id": "02957724",
+        "output_direct answer (gqa)": "Red."
+    },
+    {
+        "text_input_id": "19954280",
+        "output_direct answer (gqa)": "Vegetables."
+    },
+    {
+        "text_input_id": "01152305",
+        "output_direct answer (gqa)": "The kind of fruit in the plate is oranges."
+    },
+    {
+        "text_input_id": "13708601",
+        "output_direct answer (gqa)": "Yes, plastic is used to make the chair to the right of the woman."
+    },
+    {
+        "text_input_id": "14907881",
+        "output_direct answer (gqa)": "The animals are it."
+    },
+    {
+        "text_input_id": "10560337",
+        "output_direct answer (gqa)": "a\u00a0shelf."
+    },
+    {
+        "text_input_id": "12916773",
+        "output_direct answer (gqa)": "Yes, the woman's hair has blond color and long length."
+    },
+    {
+        "text_input_id": "03884328",
+        "output_direct answer (gqa)": "Yes, there is a white dishwasher and oven."
+    },
+    {
+        "text_input_id": "18175287",
+        "output_direct answer (gqa)": "A sword."
+    },
+    {
+        "text_input_id": "04275794",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the floor gray or red?\nAnswer: \u00a0The floor is gray.\nQuestions: Is the floor red or gray? Answer: \u00a0"
+    },
+    {
+        "text_input_id": "12589707",
+        "output_direct answer (gqa)": "The microwave is on the left."
+    },
+    {
+        "text_input_id": "13659386",
+        "output_direct answer (gqa)": "The bedroom."
+    },
+    {
+        "text_input_id": "12962674",
+        "output_direct answer (gqa)": "The man is hitting a tennis ball."
+    },
+    {
+        "text_input_id": "14796852",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the silver car to the left of the vehicle on the left of the image?\nAnswer: \u00a0Yes, the silver car is to the left of the vehicle on the left of the image."
+    },
+    {
+        "text_input_id": "19562485",
+        "output_direct answer (gqa)": "The door looks silver."
+    },
+    {
+        "text_input_id": "00289737",
+        "output_direct answer (gqa)": "The young person is looking at his tie."
+    },
+    {
+        "text_input_id": "02992404",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "04805818",
+        "output_direct answer (gqa)": "The bench in front of the library."
+    },
+    {
+        "text_input_id": "12811118",
+        "output_direct answer (gqa)": "A turkey."
+    },
+    {
+        "text_input_id": "00888458",
+        "output_direct answer (gqa)": "Yes, there are both glasses and ties in this image."
+    },
+    {
+        "text_input_id": "03495572",
+        "output_direct answer (gqa)": "The table that the phone is on has the color blue."
+    },
+    {
+        "text_input_id": "10730761",
+        "output_direct answer (gqa)": "Yes, the man to the left of the cart is wearing jeans."
+    },
+    {
+        "text_input_id": "08699263",
+        "output_direct answer (gqa)": "A woman is wearing a bikini."
+    },
+    {
+        "text_input_id": "16601319",
+        "output_direct answer (gqa)": "Yes, the cup is on a plate."
+    },
+    {
+        "text_input_id": "14492520",
+        "output_direct answer (gqa)": "Yes, the carrot is long and orange."
+    },
+    {
+        "text_input_id": "17260541",
+        "output_direct answer (gqa)": "There are no bouquets or beach umbrellas in the photo."
+    },
+    {
+        "text_input_id": "08897330",
+        "output_direct answer (gqa)": "\u0e02\u0e49\u0e32\u0e27"
+    },
+    {
+        "text_input_id": "12962381",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the decoration on a cake?\nAnswer: \u00a0Yes, the decoration on a cake.\nQuestion: Is the decoration on a cake? Answer"
+    },
+    {
+        "text_input_id": "17937918",
+        "output_direct answer (gqa)": "The cameraman."
+    },
+    {
+        "text_input_id": "0577917",
+        "output_direct answer (gqa)": "The Statue of Liberty"
+    },
+    {
+        "text_input_id": "07692728",
+        "output_direct answer (gqa)": "\u6d77"
+    },
+    {
+        "text_input_id": "10768252",
+        "output_direct answer (gqa)": "The table in front of the two men."
+    },
+    {
+        "text_input_id": "04972748",
+        "output_direct answer (gqa)": "\u30c7\u30d0\u30a4\u30b9"
+    },
+    {
+        "text_input_id": "09482226",
+        "output_direct answer (gqa)": "Yes, it is a large device."
+    },
+    {
+        "text_input_id": "16921951",
+        "output_direct answer (gqa)": "An ottoman."
+    },
+    {
+        "text_input_id": "17560780",
+        "output_direct answer (gqa)": "Elephants"
+    },
+    {
+        "text_input_id": "18835875",
+        "output_direct answer (gqa)": "There are no cars or doors in the photo."
+    },
+    {
+        "text_input_id": "07406837",
+        "output_direct answer (gqa)": "The donut is on the plate."
+    },
+    {
+        "text_input_id": "04147684",
+        "output_direct answer (gqa)": "Yes, there are men to the right of the white vehicle."
+    },
+    {
+        "text_input_id": "17959975",
+        "output_direct answer (gqa)": "In the bin."
+    },
+    {
+        "text_input_id": "06861738",
+        "output_direct answer (gqa)": "The old woman is to the left of the faucet."
+    },
+    {
+        "text_input_id": "1432014",
+        "output_direct answer (gqa)": "The color of the shirt is black."
+    },
+    {
+        "text_input_id": "06614792",
+        "output_direct answer (gqa)": "a raincoat"
+    },
+    {
+        "text_input_id": "14383947",
+        "output_direct answer (gqa)": "The clock is sitting on a table."
+    },
+    {
+        "text_input_id": "02867923",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What animal is in the basket made of wire?\nAnswer:...............................<|endofchunk|>"
+    },
+    {
+        "text_input_id": "10695207",
+        "output_direct answer (gqa)": "There are no men to the left of the people that are walking."
+    },
+    {
+        "text_input_id": "01697754",
+        "output_direct answer (gqa)": "urniture"
+    },
+    {
+        "text_input_id": "14212518",
+        "output_direct answer (gqa)": "The drawer."
+    },
+    {
+        "text_input_id": "1771665",
+        "output_direct answer (gqa)": "The truck is on the right side of the road."
+    },
+    {
+        "text_input_id": "13158418",
+        "output_direct answer (gqa)": "The trees are bare."
+    },
+    {
+        "text_input_id": "11660188",
+        "output_direct answer (gqa)": "The boy is wearing orange socks."
+    },
+    {
+        "text_input_id": "18922701",
+        "output_direct answer (gqa)": "\u5de6"
+    },
+    {
+        "text_input_id": "07522214",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the man that is to the right of the chair wearing jeans?\nAnswer: \u00a0Yes, the man is wearing jeans. Questions: Is the man that is to the right of"
+    },
+    {
+        "text_input_id": "04920454",
+        "output_direct answer (gqa)": "The woman to the left of the racket is wearing a black t-shirt."
+    },
+    {
+        "text_input_id": "12661196",
+        "output_direct answer (gqa)": "There are fences and glasses."
+    },
+    {
+        "text_input_id": "02381037",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the man bag on the left?\nAnswer: \u00a0Yes, the man is carrying a bag. Is the man carrying a bag? Answer: "
+    },
+    {
+        "text_input_id": "17845554",
+        "output_direct answer (gqa)": "The bowl sitting on the table is a fruit bowl."
+    },
+    {
+        "text_input_id": "16839937",
+        "output_direct answer (gqa)": "The man is wearing a shirt."
+    },
+    {
+        "text_input_id": "1973267",
+        "output_direct answer (gqa)": "\u5728\u5de6\u908a"
+    },
+    {
+        "text_input_id": "13129978",
+        "output_direct answer (gqa)": "There are neither any fire hydrants nor soccer balls in this photo."
+    },
+    {
+        "text_input_id": "0980936",
+        "output_direct answer (gqa)": "He is skating."
+    },
+    {
+        "text_input_id": "06492348",
+        "output_direct answer (gqa)": "I see a large flag."
+    },
+    {
+        "text_input_id": "0972366",
+        "output_direct answer (gqa)": "umber"
+    },
+    {
+        "text_input_id": "17495064",
+        "output_direct answer (gqa)": "black pants"
+    },
+    {
+        "text_input_id": "09561362",
+        "output_direct answer (gqa)": "The brown book is on the left side of the picture."
+    },
+    {
+        "text_input_id": "19866722",
+        "output_direct answer (gqa)": "New York City"
+    },
+    {
+        "text_input_id": "18546610",
+        "output_direct answer (gqa)": "The skier."
+    },
+    {
+        "text_input_id": "14279314",
+        "output_direct answer (gqa)": "Yes, the man is wearing glasses."
+    },
+    {
+        "text_input_id": "13112792",
+        "output_direct answer (gqa)": "Tennis dress."
+    },
+    {
+        "text_input_id": "16582373",
+        "output_direct answer (gqa)": "The bag on the table."
+    },
+    {
+        "text_input_id": "14614275",
+        "output_direct answer (gqa)": "The flag is red."
+    },
+    {
+        "text_input_id": "16448769",
+        "output_direct answer (gqa)": "The man in front of the building."
+    },
+    {
+        "text_input_id": "041024474",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the man to the right of the other man doing?\nAnswer: \u4ed6\u4eba\u306e\u53f3\u5074\u306e\u7537\u306f\u4f55\u3092\u3057\u3066\u3044\u308b\u306e\u3067\u3059\u304b\u3002\nQuestions"
+    },
+    {
+        "text_input_id": "11265797",
+        "output_direct answer (gqa)": "There are calm rivers in the picture."
+    },
+    {
+        "text_input_id": "17929798",
+        "output_direct answer (gqa)": "The shirt the boy is in is blue."
+    },
+    {
+        "text_input_id": "10376015",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the person to the left of the candles holding the phone that is on the left side of the picture?\nAnswer: \u00a0Yes, the person to the left of the candles is holding the phone that is on the left"
+    },
+    {
+        "text_input_id": "12164463",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What do you think is in the glass?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "19832919",
+        "output_direct answer (gqa)": "The catcher is to the right of the man that is on the left."
+    },
+    {
+        "text_input_id": "14432152",
+        "output_direct answer (gqa)": "The glasses hang on the nose."
+    },
+    {
+        "text_input_id": "09954779",
+        "output_direct answer (gqa)": "The cards on the table."
+    },
+    {
+        "text_input_id": "101002605",
+        "output_direct answer (gqa)": "Elephant"
+    },
+    {
+        "text_input_id": "09172910",
+        "output_direct answer (gqa)": "Yes, the yellow vehicle is on the right side."
+    },
+    {
+        "text_input_id": "1483257",
+        "output_direct answer (gqa)": "Yes, the bike has a different color than the post."
+    },
+    {
+        "text_input_id": "16501423",
+        "output_direct answer (gqa)": "\u732b"
+    },
+    {
+        "text_input_id": "11757681",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there either a truck or a bus that is red?\nAnswer: \u00a0There is either a truck or a bus that is red. Questions: Is there either a truck"
+    },
+    {
+        "text_input_id": "16880845",
+        "output_direct answer (gqa)": "Sofa"
+    },
+    {
+        "text_input_id": "01478348",
+        "output_direct answer (gqa)": "The box on the wall."
+    },
+    {
+        "text_input_id": "00738601",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see elephants there?\nAnswer: \u00a0No, I don't see any elephants there. Questions: Do you see any elephants there?"
+    },
+    {
+        "text_input_id": "09963495",
+        "output_direct answer (gqa)": "The bell is on the left side of the photo."
+    },
+    {
+        "text_input_id": "08415982",
+        "output_direct answer (gqa)": "The color of the cat is black."
+    },
+    {
+        "text_input_id": "05249293",
+        "output_direct answer (gqa)": "Yes, the gray animal looks happy and long."
+    },
+    {
+        "text_input_id": "0074887",
+        "output_direct answer (gqa)": "The woman is wearing a purple shirt."
+    },
+    {
+        "text_input_id": "1233772",
+        "output_direct answer (gqa)": "The peanut butter on the chocolate cake is to the left of the fork."
+    },
+    {
+        "text_input_id": "03492560",
+        "output_direct answer (gqa)": "A pumpkin."
+    },
+    {
+        "text_input_id": "11959355",
+        "output_direct answer (gqa)": "The tennis racket is on the right side."
+    },
+    {
+        "text_input_id": "10760989",
+        "output_direct answer (gqa)": "Yes, the skateboard looks brown."
+    },
+    {
+        "text_input_id": "01106937",
+        "output_direct answer (gqa)": "The woman is to the right of the man on the left side."
+    },
+    {
+        "text_input_id": "1689718",
+        "output_direct answer (gqa)": "This is a table."
+    },
+    {
+        "text_input_id": "03425092",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is under the person the man is to the left of?\nAnswer: \u00a0The person the man is to the left of is under the person the man is to the left"
+    },
+    {
+        "text_input_id": "081019219",
+        "output_direct answer (gqa)": "Yes, there are fences in this image."
+    },
+    {
+        "text_input_id": "15516358",
+        "output_direct answer (gqa)": "The table is made of wood."
+    },
+    {
+        "text_input_id": "1755285",
+        "output_direct answer (gqa)": "There is a black bag and a banana."
+    },
+    {
+        "text_input_id": "14778562",
+        "output_direct answer (gqa)": "Chicken a la King"
+    },
+    {
+        "text_input_id": "1316425",
+        "output_direct answer (gqa)": "Yes, there is a woman in the photo."
+    },
+    {
+        "text_input_id": "08238529",
+        "output_direct answer (gqa)": "Yes, the field has the same color as the jet."
+    },
+    {
+        "text_input_id": "0056795",
+        "output_direct answer (gqa)": "A toaster."
+    },
+    {
+        "text_input_id": "14424110",
+        "output_direct answer (gqa)": "Yes, there are both ropes and books in this photo."
+    },
+    {
+        "text_input_id": "12555817",
+        "output_direct answer (gqa)": "The socks are long."
+    },
+    {
+        "text_input_id": "05199694",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "1364125",
+        "output_direct answer (gqa)": "A fish."
+    },
+    {
+        "text_input_id": "0127386",
+        "output_direct answer (gqa)": "There is a blue door and a blue train."
+    },
+    {
+        "text_input_id": "03600158",
+        "output_direct answer (gqa)": "The giraffe is on the bridge."
+    },
+    {
+        "text_input_id": "06471720",
+        "output_direct answer (gqa)": "There are snails and pigs in this image."
+    },
+    {
+        "text_input_id": "1330560",
+        "output_direct answer (gqa)": "\u85cd\u8272 (blue)"
+    },
+    {
+        "text_input_id": "17172705",
+        "output_direct answer (gqa)": "The shop in front of is a Seafood Restaurant."
+    },
+    {
+        "text_input_id": "18486310",
+        "output_direct answer (gqa)": "Concrete"
+    },
+    {
+        "text_input_id": "02539752",
+        "output_direct answer (gqa)": "The window has a view of the city."
+    },
+    {
+        "text_input_id": "09358718",
+        "output_direct answer (gqa)": "Yes."
+    },
+    {
+        "text_input_id": "191044387",
+        "output_direct answer (gqa)": "Cat"
+    },
+    {
+        "text_input_id": "12541125",
+        "output_direct answer (gqa)": "\u662f"
+    },
+    {
+        "text_input_id": "08111033",
+        "output_direct answer (gqa)": "There is a door."
+    },
+    {
+        "text_input_id": "02248685",
+        "output_direct answer (gqa)": "There is any woman."
+    },
+    {
+        "text_input_id": "06305028",
+        "output_direct answer (gqa)": "There is a skateboard and a ball."
+    },
+    {
+        "text_input_id": "17861329",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of vehicle is the building behind of?\nAnswer:...............\nQuestions: Which kind of vehicle is the building in front of? Answer: "
+    },
+    {
+        "text_input_id": "12755084",
+        "output_direct answer (gqa)": "The chair is made of wood."
+    },
+    {
+        "text_input_id": "02542789",
+        "output_direct answer (gqa)": "The boy is wearing a shirt."
+    },
+    {
+        "text_input_id": "0292528",
+        "output_direct answer (gqa)": "The wire on the pole."
+    },
+    {
+        "text_input_id": "1231640",
+        "output_direct answer (gqa)": "There are no black knives or peppers."
+    },
+    {
+        "text_input_id": "07411217",
+        "output_direct answer (gqa)": "The empty bowl is to the left of the man that wears glasses."
+    },
+    {
+        "text_input_id": "12710906",
+        "output_direct answer (gqa)": "Yes, the house is to the right of a fence."
+    },
+    {
+        "text_input_id": "02665106",
+        "output_direct answer (gqa)": "Yes, the fog is on top of the blue water."
+    },
+    {
+        "text_input_id": "14304922",
+        "output_direct answer (gqa)": "There are either hot dogs or napkins in the picture."
+    },
+    {
+        "text_input_id": "01297508",
+        "output_direct answer (gqa)": "Pizza"
+    },
+    {
+        "text_input_id": "18264826",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: She is holding what?\nAnswer:...............\nQuestion: What is she holding? Answer:...............\nQuestion:"
+    },
+    {
+        "text_input_id": "09510423",
+        "output_direct answer (gqa)": "The carrots are to the right of him."
+    },
+    {
+        "text_input_id": "06144289",
+        "output_direct answer (gqa)": "The blinds are on the right side."
+    },
+    {
+        "text_input_id": "00672396",
+        "output_direct answer (gqa)": "Bus"
+    },
+    {
+        "text_input_id": "01600499",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "14658032",
+        "output_direct answer (gqa)": "The sheep that is white and brown is made of wool."
+    },
+    {
+        "text_input_id": "06830575",
+        "output_direct answer (gqa)": "Both are white."
+    },
+    {
+        "text_input_id": "16758338",
+        "output_direct answer (gqa)": "On the beach."
+    },
+    {
+        "text_input_id": "03984054",
+        "output_direct answer (gqa)": "Yes, it is."
+    },
+    {
+        "text_input_id": "10382388",
+        "output_direct answer (gqa)": "The candies on are donuts."
+    },
+    {
+        "text_input_id": "01225527",
+        "output_direct answer (gqa)": "Yes, there are cages on the floor."
+    },
+    {
+        "text_input_id": "10137083",
+        "output_direct answer (gqa)": "a bed"
+    },
+    {
+        "text_input_id": "0974865",
+        "output_direct answer (gqa)": "Yes, the tall container has white color."
+    },
+    {
+        "text_input_id": "02584514",
+        "output_direct answer (gqa)": "a microwave."
+    },
+    {
+        "text_input_id": "16160948",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of clothing is not blue?\nAnswer:................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"
+    },
+    {
+        "text_input_id": "09160821",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of clothing is not blue?\nAnswer:...............<|endofchunk|>"
+    },
+    {
+        "text_input_id": "13663337",
+        "output_direct answer (gqa)": "A computer."
+    },
+    {
+        "text_input_id": "15810528",
+        "output_direct answer (gqa)": "Yes."
+    },
+    {
+        "text_input_id": "00759060",
+        "output_direct answer (gqa)": "\u30b4\u30fc\u30eb\u30c9\u30a6\u30a3\u30fc\u30af\u30b9"
+    },
+    {
+        "text_input_id": "0711877",
+        "output_direct answer (gqa)": "Do you see black laptops or cameras?"
+    },
+    {
+        "text_input_id": "17290068",
+        "output_direct answer (gqa)": "Pug"
+    },
+    {
+        "text_input_id": "08903597",
+        "output_direct answer (gqa)": "\u98df\u7269"
+    },
+    {
+        "text_input_id": "06157209",
+        "output_direct answer (gqa)": "Metal"
+    },
+    {
+        "text_input_id": "03177663",
+        "output_direct answer (gqa)": "The topping and the paper have a different colors."
+    },
+    {
+        "text_input_id": "01996891",
+        "output_direct answer (gqa)": "Yes, he wears shorts."
+    },
+    {
+        "text_input_id": "13441848",
+        "output_direct answer (gqa)": "Yes, there are both faucets and dishwashers in the photograph."
+    },
+    {
+        "text_input_id": "01400171",
+        "output_direct answer (gqa)": "The color of the jeans is the same as the color of the shoes."
+    },
+    {
+        "text_input_id": "05761481",
+        "output_direct answer (gqa)": "Yes, the leafy lettuce is to the left of a carrot."
+    },
+    {
+        "text_input_id": "16432515",
+        "output_direct answer (gqa)": "Yes, the hair looks brown and short."
+    },
+    {
+        "text_input_id": "03208620",
+        "output_direct answer (gqa)": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32"
+    },
+    {
+        "text_input_id": "0347544",
+        "output_direct answer (gqa)": "\u9eb5\u5305"
+    },
+    {
+        "text_input_id": "0986796",
+        "output_direct answer (gqa)": "The lamp is to the right of the woman on the couch."
+    },
+    {
+        "text_input_id": "161054372",
+        "output_direct answer (gqa)": "Yes, the skier is to the right of a helmet."
+    },
+    {
+        "text_input_id": "165368",
+        "output_direct answer (gqa)": "The boy is jumping."
+    },
+    {
+        "text_input_id": "05387820",
+        "output_direct answer (gqa)": "Yes, the man on the left side."
+    },
+    {
+        "text_input_id": "12486529",
+        "output_direct answer (gqa)": "Yes, there are both a woman and a kid in the picture."
+    },
+    {
+        "text_input_id": "09986097",
+        "output_direct answer (gqa)": "Yes, the kid is wearing jeans."
+    },
+    {
+        "text_input_id": "14937649",
+        "output_direct answer (gqa)": "On the right side."
+    },
+    {
+        "text_input_id": "01111516",
+        "output_direct answer (gqa)": "The tennis racket is at the bottom of the picture."
+    },
+    {
+        "text_input_id": "17557116",
+        "output_direct answer (gqa)": "The gray cat is to the right of the books in the bookcase."
+    },
+    {
+        "text_input_id": "19902012",
+        "output_direct answer (gqa)": "Peppers are vegetables."
+    },
+    {
+        "text_input_id": "1858785",
+        "output_direct answer (gqa)": "Yes, the grass looks dry and green."
+    },
+    {
+        "text_input_id": "03449487",
+        "output_direct answer (gqa)": "I am watching the game."
+    },
+    {
+        "text_input_id": "12704023",
+        "output_direct answer (gqa)": "The man is on the right side of the picture."
+    },
+    {
+        "text_input_id": "17102204",
+        "output_direct answer (gqa)": "Yes, the path looks rough and red."
+    },
+    {
+        "text_input_id": "17468315",
+        "output_direct answer (gqa)": "The glasses are on the right side."
+    },
+    {
+        "text_input_id": "14360327",
+        "output_direct answer (gqa)": "a table"
+    },
+    {
+        "text_input_id": "10995926",
+        "output_direct answer (gqa)": "The traffic light on the pole looks green."
+    },
+    {
+        "text_input_id": "08709290",
+        "output_direct answer (gqa)": "\u662f"
+    },
+    {
+        "text_input_id": "19260793",
+        "output_direct answer (gqa)": "The bird is on the bicycle."
+    },
+    {
+        "text_input_id": "121022748",
+        "output_direct answer (gqa)": "The vehicle in the parking lot is a car."
+    },
+    {
+        "text_input_id": "0921492",
+        "output_direct answer (gqa)": "A bear."
+    },
+    {
+        "text_input_id": "16960008",
+        "output_direct answer (gqa)": "Yes, the water hose looks long."
+    },
+    {
+        "text_input_id": "1859656",
+        "output_direct answer (gqa)": "The wine is to the left of the chair."
+    },
+    {
+        "text_input_id": "11537737",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "111008739",
+        "output_direct answer (gqa)": "It is a couch."
+    },
+    {
+        "text_input_id": "09896054",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the screen to the right of the floor lamp that is to the right of the television?\nAnswer: \u00a0The screen is to the right of the floor lamp that is to the right of the television."
+    },
+    {
+        "text_input_id": "19835930",
+        "output_direct answer (gqa)": "The car to the right of the man is black."
+    },
+    {
+        "text_input_id": "01792951",
+        "output_direct answer (gqa)": "The man that is to the left of the girl is wearing a hat."
+    },
+    {
+        "text_input_id": "12753301",
+        "output_direct answer (gqa)": "The shirt is short sleeved."
+    },
+    {
+        "text_input_id": "07245136",
+        "output_direct answer (gqa)": "Oranges, cherries, and tangerines."
+    },
+    {
+        "text_input_id": "00951772",
+        "output_direct answer (gqa)": "The wall is in front of the house."
+    },
+    {
+        "text_input_id": "06646925",
+        "output_direct answer (gqa)": "Wide vehicles."
+    },
+    {
+        "text_input_id": "19757561",
+        "output_direct answer (gqa)": "The weather is fine."
+    },
+    {
+        "text_input_id": "06347348",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is located on top of the cooking utensil made of plastic?\nAnswer:...............................\nQuestions: What is located on top of the cooking utensil made of"
+    },
+    {
+        "text_input_id": "041026768",
+        "output_direct answer (gqa)": "\u624b\u673a"
+    },
+    {
+        "text_input_id": "15599339",
+        "output_direct answer (gqa)": "urn"
+    },
+    {
+        "text_input_id": "18791377",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Are there people to the left of the person that is of the truck?\nAnswer: \u00a0Yes, there are people to the left of the person that is of the truck. Questions:"
+    },
+    {
+        "text_input_id": "12480526",
+        "output_direct answer (gqa)": "Yes, I see both buses and windows."
+    },
+    {
+        "text_input_id": "01361721",
+        "output_direct answer (gqa)": "The table is brown."
+    },
+    {
+        "text_input_id": "04162448",
+        "output_direct answer (gqa)": "skateboard"
+    },
+    {
+        "text_input_id": "10561095",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Do you see people to the left of the man that is holding the umbrella?\nAnswer: \u00a0No, I don't see people to the left of the man that is holding the umbrella."
+    },
+    {
+        "text_input_id": "11245583",
+        "output_direct answer (gqa)": "The pink bag is on the left side of the photo."
+    },
+    {
+        "text_input_id": "04149623",
+        "output_direct answer (gqa)": "elephant"
+    },
+    {
+        "text_input_id": "0177137",
+        "output_direct answer (gqa)": "Yes, the sky looks cloudy."
+    },
+    {
+        "text_input_id": "17463714",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is there any pizza near the food the table is holding?\nAnswer: \u00a0There is no pizza near the food the table is holding. Is there any pizza near the food"
+    },
+    {
+        "text_input_id": "04354249",
+        "output_direct answer (gqa)": "Vegetable toppings"
+    },
+    {
+        "text_input_id": "1742379",
+        "output_direct answer (gqa)": "oven"
+    },
+    {
+        "text_input_id": "19279652",
+        "output_direct answer (gqa)": "A desk."
+    },
+    {
+        "text_input_id": "13302696",
+        "output_direct answer (gqa)": "Yes, there are keyboards and computer monitors in the image."
+    },
+    {
+        "text_input_id": "07924999",
+        "output_direct answer (gqa)": "Yes, the color of the shirt is different than the apron."
+    },
+    {
+        "text_input_id": "03799687",
+        "output_direct answer (gqa)": "boat"
+    },
+    {
+        "text_input_id": "09682406",
+        "output_direct answer (gqa)": "It is the control panel on the oven."
+    },
+    {
+        "text_input_id": "19404920",
+        "output_direct answer (gqa)": "\u0e01\u0e23\u0e30\u0e40\u0e1b\u0e4b\u0e32\u0e19\u0e49\u0e33"
+    },
+    {
+        "text_input_id": "03697768",
+        "output_direct answer (gqa)": "Both are blue."
+    },
+    {
+        "text_input_id": "191024241",
+        "output_direct answer (gqa)": "The old car is to the left of the people in the park."
+    },
+    {
+        "text_input_id": "19396720",
+        "output_direct answer (gqa)": "Yes, I see both benches and wolves."
+    },
+    {
+        "text_input_id": "14485079",
+        "output_direct answer (gqa)": "No, there are no gloves or hats that are not black."
+    },
+    {
+        "text_input_id": "01257391",
+        "output_direct answer (gqa)": "\u4e0a\u6d77"
+    },
+    {
+        "text_input_id": "02548490",
+        "output_direct answer (gqa)": "Yes, the cereal is on a refrigerator."
+    },
+    {
+        "text_input_id": "06608162",
+        "output_direct answer (gqa)": "iced tea"
+    },
+    {
+        "text_input_id": "05489971",
+        "output_direct answer (gqa)": "<image>Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the cat different in color than the speaker?\nAnswer: \u00a0The cat is different in color than the speaker. Questions: Is the cat different in color than"
+    },
+    {
+        "text_input_id": "15617344",
+        "output_direct answer (gqa)": "It is an outdoors scene."
+    },
+    {
+        "text_input_id": "18821908",
+        "output_direct answer (gqa)": "The kite is made of plastic."
+    },
+    {
+        "text_input_id": "06748093",
+        "output_direct answer (gqa)": "Blue."
+    },
+    {
+        "text_input_id": "16646374",
+        "output_direct answer (gqa)": "A yellow bus."
+    },
+    {
+        "text_input_id": "00232816",
+        "output_direct answer (gqa)": "The boy to the left of the man wearing is the man's son."
+    },
+    {
+        "text_input_id": "03294771",
+        "output_direct answer (gqa)": "The chairs are blue."
+    }
+]

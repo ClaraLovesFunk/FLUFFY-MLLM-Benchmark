@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "esnlive",
+    "split": "test",
+    "run": "1",
+    "run time inference": 513.8666666666667
+}

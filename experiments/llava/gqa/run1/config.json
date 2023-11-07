@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "gqa",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 14.966666666666667
+}

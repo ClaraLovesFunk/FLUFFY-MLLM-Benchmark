@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "mami",
+    "split": "test",
+    "run": "1",
+    "run time inference": 231.93333333333334
+}

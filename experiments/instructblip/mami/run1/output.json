@@ -1,0 +1,4002 @@
+[
+    {
+        "text_input_id": "15236.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15805.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16254.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16191.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15952.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15662.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15828.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15905.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15971.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16197.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15916.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16130.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15742.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15502.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15037.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15592.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15540.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16323.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15136.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16298.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15846.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16203.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15560.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16056.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15038.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15676.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15457.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15692.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16334.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17077.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15491.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15795.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16232.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16242.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16245.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15301.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15917.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16327.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15115.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15277.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16304.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15034.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15148.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16165.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15005.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15758.jpg",
+        "output_sexism classification": "No"
+    },
+    {
+        "text_input_id": "15095.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15521.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15888.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15731.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15727.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15337.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15839.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15027.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15542.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15400.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15996.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16143.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15679.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15947.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16055.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16110.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15506.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15332.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15144.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16187.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15684.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17018.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15663.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15496.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17047.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15512.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15438.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15460.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16239.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15232.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15863.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15781.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15743.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15765.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15294.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15504.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15565.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15094.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15955.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15929.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15487.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15659.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16178.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15358.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17074.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15732.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15458.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16115.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15031.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16155.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16075.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17076.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16004.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15899.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15235.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17054.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15451.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15214.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15815.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15647.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16124.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15051.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16121.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16127.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15182.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15281.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16176.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15851.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16270.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15100.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16210.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15999.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16010.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15977.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16235.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15354.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15615.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15509.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16036.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16218.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15169.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16067.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15523.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15193.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15938.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15022.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15667.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16310.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15568.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15609.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15811.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16285.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15435.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16014.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15276.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16269.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15456.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15668.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16273.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15964.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15607.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16306.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15725.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15122.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16142.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15475.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15437.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15976.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15073.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15865.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15011.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15590.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15231.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16177.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15960.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15466.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15026.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15556.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16099.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15223.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15112.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15909.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15190.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16146.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15984.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16079.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15994.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16144.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17046.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15877.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15821.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15353.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15718.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15771.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17037.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15686.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15160.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15530.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17041.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15705.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17060.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15503.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15911.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15618.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15793.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16085.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15801.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15388.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15779.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15341.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17073.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15574.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15151.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15785.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16114.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16167.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16193.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16164.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15035.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16092.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15436.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15754.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15701.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17033.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16137.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15991.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15211.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16013.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15469.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15225.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15113.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17004.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15217.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15735.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16001.jpg",
+        "output_sexism classification": "Yes Yes"
+    },
+    {
+        "text_input_id": "15593.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15923.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15857.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15954.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15098.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15759.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16060.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15816.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15422.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16256.jpg",
+        "output_sexism classification": "(1) sexist"
+    },
+    {
+        "text_input_id": "15918.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15111.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15158.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16037.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15510.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15208.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15420.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15526.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15175.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15092.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17082.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15242.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16005.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16136.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16336.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15309.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15907.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16066.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15982.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15820.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15932.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15494.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16150.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16259.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15638.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15637.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15350.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16169.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15101.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17011.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16093.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15695.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15269.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15245.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15468.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16180.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15200.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15697.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15953.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15514.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15786.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15187.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15489.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15689.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16052.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15700.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15135.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15898.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15836.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15091.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15497.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16247.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15831.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17069.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15477.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15547.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16214.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15340.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15118.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15323.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15861.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15830.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15532.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15379.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15253.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16216.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15178.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16064.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16021.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15711.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15070.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15973.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16199.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16268.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15927.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15696.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15721.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15021.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16083.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15726.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15319.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15220.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15472.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15204.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15570.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15513.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15703.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15292.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15102.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15508.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16288.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15127.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15524.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15630.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15980.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15787.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16258.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15074.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16278.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15418.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15884.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16003.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15251.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16018.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15147.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15033.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15855.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15931.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16207.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15537.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15057.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15132.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15632.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15520.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15688.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15988.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15567.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15998.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15682.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15357.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16138.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16106.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15455.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16338.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15581.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16104.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15425.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15810.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15391.jpg",
+        "output_sexism classification": "No"
+    },
+    {
+        "text_input_id": "15482.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16119.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16251.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15587.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15244.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15720.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17028.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15850.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17029.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15766.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15442.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15125.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15312.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15527.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15500.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15760.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15479.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15019.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15970.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15910.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15360.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16166.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15883.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15492.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16231.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15728.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15012.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15949.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16265.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15205.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15382.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17072.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15413.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15613.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15948.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17062.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17051.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15641.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16286.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17059.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15481.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15339.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17000.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15347.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15085.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15629.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17080.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15446.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16080.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15334.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16152.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17075.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15824.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15402.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15989.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15791.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15465.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16297.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15734.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15459.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15749.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15343.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15658.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15675.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15653.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15951.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15274.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15837.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15674.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15773.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15646.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16039.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15498.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15729.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15484.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15511.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15001.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16002.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16157.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15467.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15105.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15919.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16133.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15661.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16271.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16044.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15717.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15050.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16179.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15633.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15202.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15121.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16035.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15247.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16159.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15698.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15143.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16132.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17039.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15714.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15213.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15171.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15081.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15423.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15776.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15017.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15974.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16084.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15089.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15792.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16118.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15699.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15866.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15582.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16034.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15025.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15631.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15887.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17021.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15317.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15913.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15390.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15196.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17048.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16308.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15432.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15305.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15324.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15180.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16061.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15956.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16329.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15803.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15257.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15880.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15133.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15536.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15671.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15380.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15088.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15106.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15636.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17063.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15972.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15944.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17008.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15750.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15189.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15062.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15485.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15137.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15723.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15262.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15990.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16091.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16284.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16204.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15164.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15882.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15780.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15288.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16043.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15024.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15774.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15616.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16148.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15109.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15995.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16062.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15704.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15595.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16045.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15626.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16196.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15901.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17044.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15985.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15207.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15849.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "17052.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15450.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15177.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16087.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15808.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15580.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16096.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15184.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15804.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17005.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15403.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15746.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16040.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16320.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15841.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15620.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15254.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15488.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15414.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15552.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16241.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15622.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17067.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15209.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15016.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16184.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15722.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15541.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16081.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16089.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15858.jpg",
+        "output_sexism classification": "No"
+    },
+    {
+        "text_input_id": "15908.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16226.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15470.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16328.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16049.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15421.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "17017.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "17012.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15809.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16224.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16243.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17071.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15428.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15291.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17020.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15802.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16238.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15356.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16078.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15096.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16016.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16223.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15874.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15712.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15937.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15170.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15153.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15832.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16307.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16020.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15738.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15599.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16088.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15921.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15825.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15201.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17003.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15215.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15473.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16074.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15308.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16325.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15538.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16228.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15120.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15862.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15891.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16332.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15318.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16211.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15078.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16219.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16111.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15014.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15408.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17027.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15240.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15056.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16309.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15958.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15867.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15950.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15906.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17042.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15330.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15349.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16248.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15602.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17022.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17025.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15097.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16023.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15823.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16161.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17043.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15966.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15412.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15969.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16117.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15578.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15300.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15557.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15161.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17023.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15222.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15090.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15854.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15483.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16131.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15333.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15159.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15770.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16076.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16290.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15651.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15237.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16113.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15845.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15228.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15915.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15008.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16071.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16189.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17066.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16299.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15221.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15351.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15967.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15103.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17016.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16094.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15579.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15873.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17079.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15558.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15745.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15020.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16339.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15890.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16303.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16240.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15539.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17007.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "17030.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15642.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15685.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16181.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16324.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16109.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15768.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15614.jpg",
+        "output_sexism classification": "No"
+    },
+    {
+        "text_input_id": "15897.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15157.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16058.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15713.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15606.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15652.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16261.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15241.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15195.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16038.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15419.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16237.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15612.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15840.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16046.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15525.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15627.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16053.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16222.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15230.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16108.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15946.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16017.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15566.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15104.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15664.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15216.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15142.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15755.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15598.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15670.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15941.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17081.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15987.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16233.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15678.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15737.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16170.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "17070.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16145.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15569.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15649.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15004.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17055.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15756.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15126.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15212.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15800.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15055.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16129.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16026.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15058.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15548.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15361.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16069.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15452.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15783.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15047.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15833.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15130.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15763.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15879.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15752.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15476.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15409.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15965.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15772.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15655.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15847.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15499.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15303.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16212.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15619.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15444.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15784.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15748.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15588.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16220.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15962.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16029.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15328.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17068.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15355.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15280.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15448.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16335.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15561.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15065.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15838.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15304.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15150.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15818.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15210.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17024.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16250.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15041.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16128.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15255.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "16314.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16317.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16283.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15206.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15669.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15348.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15656.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15454.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15789.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15493.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15892.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15167.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15289.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15835.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15009.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15829.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16090.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17032.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16275.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17013.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15036.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15155.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15045.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15522.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16289.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15648.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15067.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15860.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15747.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15924.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17026.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16073.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15138.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15925.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15621.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15293.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15813.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15433.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16255.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15048.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15233.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16188.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15515.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15198.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15145.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15852.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15311.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15930.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15677.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15650.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15683.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15875.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15904.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15926.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15691.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15002.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15219.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16305.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16198.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15981.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15645.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15869.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16156.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15546.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15528.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15018.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15843.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16098.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15777.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15093.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15068.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15424.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17078.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16050.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15006.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15449.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15959.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16033.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16105.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15551.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15707.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15928.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16175.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15110.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15986.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15129.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15259.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16063.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16208.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15335.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15790.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15044.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17031.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15719.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15162.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15490.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15346.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16095.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15285.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16103.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17050.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15782.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16134.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15864.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17058.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16153.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15544.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16101.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16012.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15146.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15767.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16162.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15624.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15753.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16120.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15902.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16282.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15693.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16183.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17006.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15321.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16173.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15266.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15429.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15083.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15680.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15963.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16015.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15545.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15043.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15920.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "17064.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15559.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17049.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15922.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16186.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16054.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15461.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15584.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15589.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15694.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15072.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15238.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15573.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15844.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16300.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16277.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17034.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15010.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15635.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15900.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15933.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15576.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15878.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16209.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16276.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15889.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15397.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "16192.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17036.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15644.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15431.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16315.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16185.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16112.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15896.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17056.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16147.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15601.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15903.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15352.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15628.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15600.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16294.jpg",
+        "output_sexism classification": "not sexist"
+    },
+    {
+        "text_input_id": "15585.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15123.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15893.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15342.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15203.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17015.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15553.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15227.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15660.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16337.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "17002.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15881.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "17038.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15975.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15575.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15716.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15270.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16195.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "16312.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15174.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15603.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "16126.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15591.jpg",
+        "output_sexism classification": "sexist"
+    },
+    {
+        "text_input_id": "15049.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15363.jpg",
+        "output_sexism classification": "Yes"
+    },
+    {
+        "text_input_id": "15199.jpg",
+        "output_sexism classification": "Not sexist"
+    },
+    {
+        "text_input_id": "15853.jpg",
+        "output_sexism classification": "Not sexist"
+    }
+]

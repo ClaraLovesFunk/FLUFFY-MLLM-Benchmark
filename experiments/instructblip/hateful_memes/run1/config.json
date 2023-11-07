@@ -1,0 +1,5 @@
+{
+    "model": "instructblip",
+    "dataset": "hateful_memes",
+    "run": "1"
+}

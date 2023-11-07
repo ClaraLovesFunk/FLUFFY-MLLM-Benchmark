@@ -1,0 +1,5 @@
+{
+    "model": "instructblip",
+    "dataset": "gqa",
+    "run": "1"
+}

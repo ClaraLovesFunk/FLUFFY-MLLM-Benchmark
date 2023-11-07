@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "gqa",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 77.26666666666667
+}

@@ -1,0 +1,5 @@
+{
+    "model": "instructblip",
+    "dataset": "mami",
+    "run": "1"
+}

@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "esnlive",
+    "split": "test",
+    "run": "1",
+    "run time inference": 1725.9833333333333
+}

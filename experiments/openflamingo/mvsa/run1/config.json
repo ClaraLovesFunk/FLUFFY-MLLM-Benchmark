@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "mvsa",
+    "split": "test",
+    "run": "1",
+    "run time inference": 702.9166666666666
+}

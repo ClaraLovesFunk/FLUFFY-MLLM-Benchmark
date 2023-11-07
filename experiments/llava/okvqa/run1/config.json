@@ -1,0 +1,7 @@
+{
+    "model": "llava",
+    "dataset": "okvqa",
+    "split": "val",
+    "run": "1",
+    "run time inference": 108.48333333333333
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "text_input_id": 8291,
+        "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people is this a shooting range\nHate Label: ",
+        "output_hate classification": "Label: \n\u0004 hate"
+    }
+]

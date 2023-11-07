@@ -1,0 +1,5 @@
+{
+    "model": "blip2",
+    "dataset": "gqa",
+    "run": "1"
+}

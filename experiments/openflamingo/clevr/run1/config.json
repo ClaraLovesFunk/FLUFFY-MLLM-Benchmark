@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "clevr",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 89.73333333333333
+}

@@ -1,0 +1,4002 @@
+[
+    {
+        "text_input_id": "13766_CLEVR_val_001376.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "71347_CLEVR_val_007135.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "83537_CLEVR_val_008354.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "29041_CLEVR_val_002904.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "107465_CLEVR_val_010747.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "101274_CLEVR_val_010128.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "58656_CLEVR_val_005866.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11373_CLEVR_val_001137.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "30379_CLEVR_val_003037.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "112392_CLEVR_val_011240.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "89302_CLEVR_val_008931.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "107082_CLEVR_val_010709.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "132519_CLEVR_val_013252.png",
+        "output_direct answer (clevr)": "3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x"
+    },
+    {
+        "text_input_id": "102840_CLEVR_val_010284.png",
+        "output_direct answer (clevr)": "a large metal ball that is in front of the shiny cylinder; what is its color?"
+    },
+    {
+        "text_input_id": "122068_CLEVR_val_012207.png",
+        "output_direct answer (clevr)": "2d sphere"
+    },
+    {
+        "text_input_id": "93146_CLEVR_val_009315.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "141881_CLEVR_val_014189.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "101782_CLEVR_val_010179.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "51850_CLEVR_val_005185.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "13686_CLEVR_val_001368.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "23545_CLEVR_val_002354.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "89972_CLEVR_val_008998.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "76683_CLEVR_val_007669.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "135694_CLEVR_val_013570.png",
+        "output_direct answer (clevr)": "Are there any big things?"
+    },
+    {
+        "text_input_id": "125338_CLEVR_val_012534.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "85756_CLEVR_val_008576.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "73666_CLEVR_val_007367.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "32246_CLEVR_val_003224.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "72729_CLEVR_val_007273.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "131856_CLEVR_val_013186.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "64122_CLEVR_val_006413.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "73316_CLEVR_val_007332.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "567_CLEVR_val_000056.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "74057_CLEVR_val_007406.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "65204_CLEVR_val_006521.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "27130_CLEVR_val_002713.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "16282_CLEVR_val_001628.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "66729_CLEVR_val_006673.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "108079_CLEVR_val_010808.png",
+        "output_direct answer (clevr)": "1200px by 1200px by 1200px by 1200px by 1200px by 1200px by"
+    },
+    {
+        "text_input_id": "51115_CLEVR_val_005111.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "52538_CLEVR_val_005253.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "26003_CLEVR_val_002600.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "129979_CLEVR_val_012998.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "2928_CLEVR_val_000292.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "143377_CLEVR_val_014338.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "57710_CLEVR_val_005771.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "66663_CLEVR_val_006667.png",
+        "output_direct answer (clevr)": "there is a shiny block; are there any red cylinders behind it?"
+    },
+    {
+        "text_input_id": "51073_CLEVR_val_005107.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "103982_CLEVR_val_010399.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "87684_CLEVR_val_008769.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "19989_CLEVR_val_001998.png",
+        "output_direct answer (clevr)": "Yes, there are 3 other things that have the same shape as the tiny green metallic thing"
+    },
+    {
+        "text_input_id": "147652_CLEVR_val_014766.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "132275_CLEVR_val_013228.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "71192_CLEVR_val_007120.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "20560_CLEVR_val_002056.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "75970_CLEVR_val_007597.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "47561_CLEVR_val_004756.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "99627_CLEVR_val_009963.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "62784_CLEVR_val_006279.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "126327_CLEVR_val_012633.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "88041_CLEVR_val_008805.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "37958_CLEVR_val_003795.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "22379_CLEVR_val_002237.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "50078_CLEVR_val_005007.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "112531_CLEVR_val_011254.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11874_CLEVR_val_001187.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "141526_CLEVR_val_014153.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "110073_CLEVR_val_011008.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "29966_CLEVR_val_002996.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "24811_CLEVR_val_002481.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "147017_CLEVR_val_014702.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "69995_CLEVR_val_007000.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "35292_CLEVR_val_003529.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "145679_CLEVR_val_014568.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "119935_CLEVR_val_011994.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "42477_CLEVR_val_004247.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "48411_CLEVR_val_004841.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "43459_CLEVR_val_004346.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "4226_CLEVR_val_000422.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "110517_CLEVR_val_011052.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "129225_CLEVR_val_012923.png",
+        "output_direct answer (clevr)": "There is a small cube that has the same material as the big cylinder"
+    },
+    {
+        "text_input_id": "11560_CLEVR_val_001156.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "78395_CLEVR_val_007840.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "86635_CLEVR_val_008664.png",
+        "output_direct answer (clevr)": "matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder matte cylinder"
+    },
+    {
+        "text_input_id": "93320_CLEVR_val_009332.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "62057_CLEVR_val_006206.png",
+        "output_direct answer (clevr)": "1cm"
+    },
+    {
+        "text_input_id": "15638_CLEVR_val_001563.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "15266_CLEVR_val_001526.png",
+        "output_direct answer (clevr)": "white"
+    },
+    {
+        "text_input_id": "26815_CLEVR_val_002681.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "105229_CLEVR_val_010523.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "44304_CLEVR_val_004430.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "136637_CLEVR_val_013664.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "148607_CLEVR_val_014861.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "6994_CLEVR_val_000699.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "87407_CLEVR_val_008741.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "101182_CLEVR_val_010119.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "20895_CLEVR_val_002089.png",
+        "output_direct answer (clevr)": "fewer green rubber things that are right of the tiny object than matte spheres that are behind the blue matte ball"
+    },
+    {
+        "text_input_id": "54349_CLEVR_val_005435.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "8900_CLEVR_val_000890.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "141613_CLEVR_val_014162.png",
+        "output_direct answer (clevr)": "1 cube, 1 sphere, 1 cuboid, 1 cylinder, 1 sphere, 1 cuboid,"
+    },
+    {
+        "text_input_id": "52308_CLEVR_val_005230.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "136982_CLEVR_val_013699.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "39667_CLEVR_val_003966.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "104441_CLEVR_val_010445.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "67427_CLEVR_val_006743.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "43388_CLEVR_val_004338.png",
+        "output_direct answer (clevr)": "1 m x 1 m x 1 m x 1 m x 1 m x 1 m x"
+    },
+    {
+        "text_input_id": "43694_CLEVR_val_004369.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "912_CLEVR_val_000091.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "100350_CLEVR_val_010035.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "145573_CLEVR_val_014558.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "1574_CLEVR_val_000157.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "119470_CLEVR_val_011947.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "106456_CLEVR_val_010646.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "15460_CLEVR_val_001546.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "40885_CLEVR_val_004088.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "53565_CLEVR_val_005356.png",
+        "output_direct answer (clevr)": "3d cubes - 3d cubes for 3ds max by 3dsmax3dsmax3dsmax"
+    },
+    {
+        "text_input_id": "124768_CLEVR_val_012477.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "70615_CLEVR_val_007062.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "118228_CLEVR_val_011823.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "104735_CLEVR_val_010474.png",
+        "output_direct answer (clevr)": "gray"
+    },
+    {
+        "text_input_id": "115193_CLEVR_val_011520.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "53098_CLEVR_val_005309.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "2941_CLEVR_val_000294.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "138175_CLEVR_val_013818.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "76982_CLEVR_val_007699.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "101576_CLEVR_val_010158.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "41604_CLEVR_val_004160.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "127234_CLEVR_val_012724.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "101461_CLEVR_val_010147.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "102601_CLEVR_val_010261.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "116525_CLEVR_val_011653.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "7571_CLEVR_val_000757.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "148268_CLEVR_val_014827.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "125865_CLEVR_val_012587.png",
+        "output_direct answer (clevr)": "1 cylinder 2 cylinders 3 cylinders 4 cylinders 5 cylinders 6 cylinders 7 cylinders 8 cylinder"
+    },
+    {
+        "text_input_id": "8057_CLEVR_val_000805.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "32850_CLEVR_val_003285.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "94777_CLEVR_val_009478.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "43655_CLEVR_val_004365.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "22917_CLEVR_val_002291.png",
+        "output_direct answer (clevr)": "cube"
+    },
+    {
+        "text_input_id": "148845_CLEVR_val_014885.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "74087_CLEVR_val_007409.png",
+        "output_direct answer (clevr)": "a purple thing that is to the left of the metallic cylinder; what material is it?"
+    },
+    {
+        "text_input_id": "24652_CLEVR_val_002465.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "76409_CLEVR_val_007641.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "69065_CLEVR_val_006907.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "16737_CLEVR_val_001673.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px 220px x 220px x 220"
+    },
+    {
+        "text_input_id": "78515_CLEVR_val_007852.png",
+        "output_direct answer (clevr)": "1200px by 1200px by 1200px by 1200px by 1200px by 1200px by"
+    },
+    {
+        "text_input_id": "57922_CLEVR_val_005793.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "9515_CLEVR_val_000951.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "49717_CLEVR_val_004971.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "101715_CLEVR_val_010172.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "148946_CLEVR_val_014895.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "82616_CLEVR_val_008262.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "57278_CLEVR_val_005728.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "47571_CLEVR_val_004757.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "83417_CLEVR_val_008342.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "122750_CLEVR_val_012275.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "98959_CLEVR_val_009896.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "43334_CLEVR_val_004333.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "78083_CLEVR_val_007809.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "127551_CLEVR_val_012756.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "44424_CLEVR_val_004442.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "13546_CLEVR_val_001354.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "35869_CLEVR_val_003587.png",
+        "output_direct answer (clevr)": "a large red object in front of the purple metallic cylinder made of a large red object in front of the purple metallic cylinder"
+    },
+    {
+        "text_input_id": "122889_CLEVR_val_012289.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "14648_CLEVR_val_001464.png",
+        "output_direct answer (clevr)": "styrofoam"
+    },
+    {
+        "text_input_id": "66360_CLEVR_val_006636.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "138837_CLEVR_val_013884.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "38610_CLEVR_val_003861.png",
+        "output_direct answer (clevr)": "Yes, there are two silver cylinders that are the same size as the yellow matte cylinder"
+    },
+    {
+        "text_input_id": "128557_CLEVR_val_012856.png",
+        "output_direct answer (clevr)": "3 cubes"
+    },
+    {
+        "text_input_id": "49300_CLEVR_val_004930.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71857_CLEVR_val_007186.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "40256_CLEVR_val_004025.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "24257_CLEVR_val_002425.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "35362_CLEVR_val_003536.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "59184_CLEVR_val_005919.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "37648_CLEVR_val_003764.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "5236_CLEVR_val_000523.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "144680_CLEVR_val_014468.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "149141_CLEVR_val_014915.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "36161_CLEVR_val_003616.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "55468_CLEVR_val_005546.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "138791_CLEVR_val_013880.png",
+        "output_direct answer (clevr)": "a white cube and a black cube are the same size as the green metallic cylinder"
+    },
+    {
+        "text_input_id": "22952_CLEVR_val_002295.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "131844_CLEVR_val_013185.png",
+        "output_direct answer (clevr)": "cylinder"
+    },
+    {
+        "text_input_id": "3696_CLEVR_val_000369.png",
+        "output_direct answer (clevr)": "0"
+    },
+    {
+        "text_input_id": "131636_CLEVR_val_013164.png",
+        "output_direct answer (clevr)": "fewer big red rubber balls than large objects"
+    },
+    {
+        "text_input_id": "141058_CLEVR_val_014106.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "66655_CLEVR_val_006666.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "7383_CLEVR_val_000738.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "37866_CLEVR_val_003786.png",
+        "output_direct answer (clevr)": "1 ft x 1 ft x 1 ft"
+    },
+    {
+        "text_input_id": "15210_CLEVR_val_001521.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "95436_CLEVR_val_009544.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "141224_CLEVR_val_014123.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "116251_CLEVR_val_011626.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "122512_CLEVR_val_012252.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "122135_CLEVR_val_012214.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "138968_CLEVR_val_013897.png",
+        "output_direct answer (clevr)": "fewer small cubes that are left of the tiny cylinder than large gray rubber things"
+    },
+    {
+        "text_input_id": "75098_CLEVR_val_007510.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "89530_CLEVR_val_008953.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "74010_CLEVR_val_007401.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "105239_CLEVR_val_010524.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "129663_CLEVR_val_012967.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "137313_CLEVR_val_013732.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "1606_CLEVR_val_000160.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "40303_CLEVR_val_004030.png",
+        "output_direct answer (clevr)": "red"
+    },
+    {
+        "text_input_id": "140488_CLEVR_val_014049.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "65145_CLEVR_val_006515.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "118583_CLEVR_val_011859.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "48830_CLEVR_val_004883.png",
+        "output_direct answer (clevr)": "1 ft x 1 ft x 1 ft"
+    },
+    {
+        "text_input_id": "139899_CLEVR_val_013990.png",
+        "output_direct answer (clevr)": "1200px by 1200px by 1200px by 1200px by 1200px by 1200px by"
+    },
+    {
+        "text_input_id": "106256_CLEVR_val_010626.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "72360_CLEVR_val_007236.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "78174_CLEVR_val_007818.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "83650_CLEVR_val_008365.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "7426_CLEVR_val_000742.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115887_CLEVR_val_011589.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "113753_CLEVR_val_011376.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "127707_CLEVR_val_012771.png",
+        "output_direct answer (clevr)": "1 ft x 1 ft x 1 ft"
+    },
+    {
+        "text_input_id": "128925_CLEVR_val_012893.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "122354_CLEVR_val_012236.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "81872_CLEVR_val_008188.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "136432_CLEVR_val_013644.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "131096_CLEVR_val_013110.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "73410_CLEVR_val_007341.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "28634_CLEVR_val_002863.png",
+        "output_direct answer (clevr)": "3d model of cylinders, cubes and spheres"
+    },
+    {
+        "text_input_id": "46304_CLEVR_val_004630.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "33785_CLEVR_val_003378.png",
+        "output_direct answer (clevr)": "fewer metal things that are left of the ball than things that are in front of the small yellow matte cube"
+    },
+    {
+        "text_input_id": "113015_CLEVR_val_011302.png",
+        "output_direct answer (clevr)": "plastic"
+    },
+    {
+        "text_input_id": "15987_CLEVR_val_001598.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "140652_CLEVR_val_014066.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "69441_CLEVR_val_006945.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "444_CLEVR_val_000044.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "135229_CLEVR_val_013523.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "128950_CLEVR_val_012895.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "55502_CLEVR_val_005550.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "67177_CLEVR_val_006718.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "27636_CLEVR_val_002763.png",
+        "output_direct answer (clevr)": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x"
+    },
+    {
+        "text_input_id": "10384_CLEVR_val_001038.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "73739_CLEVR_val_007374.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "76129_CLEVR_val_007613.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "107145_CLEVR_val_010715.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "42893_CLEVR_val_004289.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "116136_CLEVR_val_011614.png",
+        "output_direct answer (clevr)": "black"
+    },
+    {
+        "text_input_id": "30220_CLEVR_val_003022.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "148311_CLEVR_val_014832.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "58270_CLEVR_val_005827.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "100381_CLEVR_val_010039.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "133045_CLEVR_val_013305.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "36154_CLEVR_val_003615.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "103026_CLEVR_val_010303.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "87099_CLEVR_val_008710.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px 1200px x 1200px 1200px"
+    },
+    {
+        "text_input_id": "130003_CLEVR_val_013001.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "113033_CLEVR_val_011304.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "58850_CLEVR_val_005885.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "24781_CLEVR_val_002478.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "124072_CLEVR_val_012408.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px"
+    },
+    {
+        "text_input_id": "97050_CLEVR_val_009705.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "52108_CLEVR_val_005210.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "96746_CLEVR_val_009675.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "126103_CLEVR_val_012611.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "84703_CLEVR_val_008471.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "68236_CLEVR_val_006824.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "5994_CLEVR_val_000599.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "17879_CLEVR_val_001787.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "129634_CLEVR_val_012964.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71863_CLEVR_val_007187.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "147398_CLEVR_val_014740.png",
+        "output_direct answer (clevr)": "There are no other things that are the same size as the green thing"
+    },
+    {
+        "text_input_id": "38888_CLEVR_val_003888.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "9622_CLEVR_val_000962.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "97481_CLEVR_val_009749.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "143234_CLEVR_val_014324.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "64158_CLEVR_val_006416.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "2562_CLEVR_val_000256.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "114949_CLEVR_val_011495.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "62867_CLEVR_val_006287.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "95717_CLEVR_val_009572.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "118419_CLEVR_val_011842.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "54487_CLEVR_val_005448.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "119419_CLEVR_val_011942.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "143138_CLEVR_val_014314.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "50698_CLEVR_val_005069.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "139828_CLEVR_val_013983.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "79832_CLEVR_val_007984.png",
+        "output_direct answer (clevr)": "a shiny thing left of the cyan shiny cylinder; is there a cylinder behind it?"
+    },
+    {
+        "text_input_id": "115774_CLEVR_val_011578.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "131394_CLEVR_val_013140.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "105178_CLEVR_val_010518.png",
+        "output_direct answer (clevr)": "Yes, there are 2 other things that are made of the same material as the blue thing"
+    },
+    {
+        "text_input_id": "64251_CLEVR_val_006426.png",
+        "output_direct answer (clevr)": "3ds max - 3ds max - 3ds max - 3ds max - 3ds max -"
+    },
+    {
+        "text_input_id": "35426_CLEVR_val_003542.png",
+        "output_direct answer (clevr)": "No, there are no other things that are the same shape as the big gray matte thing"
+    },
+    {
+        "text_input_id": "10620_CLEVR_val_001062.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "61457_CLEVR_val_006146.png",
+        "output_direct answer (clevr)": "fewer green cylinders behind the small yellow metal block than yellow objects right of the large cylinder"
+    },
+    {
+        "text_input_id": "80496_CLEVR_val_008050.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "96242_CLEVR_val_009625.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "94243_CLEVR_val_009425.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "1202_CLEVR_val_000120.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "135182_CLEVR_val_013519.png",
+        "output_direct answer (clevr)": "plastic"
+    },
+    {
+        "text_input_id": "103736_CLEVR_val_010374.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "82610_CLEVR_val_008261.png",
+        "output_direct answer (clevr)": "fewer small metal spheres to the right of the big rubber cube than large red metallic balls"
+    },
+    {
+        "text_input_id": "87922_CLEVR_val_008793.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "40342_CLEVR_val_004034.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "96646_CLEVR_val_009665.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "111875_CLEVR_val_011188.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "43776_CLEVR_val_004377.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "26590_CLEVR_val_002659.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "145888_CLEVR_val_014589.png",
+        "output_direct answer (clevr)": "cyan"
+    },
+    {
+        "text_input_id": "6187_CLEVR_val_000618.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "23849_CLEVR_val_002384.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "48369_CLEVR_val_004837.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "13301_CLEVR_val_001330.png",
+        "output_direct answer (clevr)": "a sphere"
+    },
+    {
+        "text_input_id": "74914_CLEVR_val_007492.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "14111_CLEVR_val_001411.png",
+        "output_direct answer (clevr)": "There are no other things that are the same size as the blue matte object"
+    },
+    {
+        "text_input_id": "87252_CLEVR_val_008726.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115862_CLEVR_val_011587.png",
+        "output_direct answer (clevr)": "3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x"
+    },
+    {
+        "text_input_id": "110850_CLEVR_val_011085.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "114805_CLEVR_val_011481.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "97790_CLEVR_val_009779.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "141107_CLEVR_val_014111.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "98574_CLEVR_val_009858.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "102715_CLEVR_val_010272.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "82046_CLEVR_val_008205.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "62638_CLEVR_val_006264.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "61614_CLEVR_val_006162.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "13131_CLEVR_val_001313.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "8821_CLEVR_val_000882.png",
+        "output_direct answer (clevr)": "white"
+    },
+    {
+        "text_input_id": "81686_CLEVR_val_008169.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "89896_CLEVR_val_008990.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11717_CLEVR_val_001171.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "81000_CLEVR_val_008100.png",
+        "output_direct answer (clevr)": "black"
+    },
+    {
+        "text_input_id": "36562_CLEVR_val_003656.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "16268_CLEVR_val_001626.png",
+        "output_direct answer (clevr)": "there is a matte object left of the big rubber thing behind the small cylinder; are there any yellow shiny objects that are behind it?"
+    },
+    {
+        "text_input_id": "108937_CLEVR_val_010894.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "25354_CLEVR_val_002535.png",
+        "output_direct answer (clevr)": "fewer tiny purple balls left of the big red object than tiny red things that are to the right of the gray block"
+    },
+    {
+        "text_input_id": "102446_CLEVR_val_010245.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "50105_CLEVR_val_005010.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "140620_CLEVR_val_014062.png",
+        "output_direct answer (clevr)": "styrofoam"
+    },
+    {
+        "text_input_id": "28525_CLEVR_val_002852.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "127477_CLEVR_val_012748.png",
+        "output_direct answer (clevr)": "There are no other things that have the same size as the rubber block"
+    },
+    {
+        "text_input_id": "34884_CLEVR_val_003488.png",
+        "output_direct answer (clevr)": "fewer things in front of the large blue block than metallic things in front of the big purple ball"
+    },
+    {
+        "text_input_id": "103589_CLEVR_val_010359.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "91369_CLEVR_val_009137.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "139743_CLEVR_val_013975.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "6337_CLEVR_val_000633.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "3327_CLEVR_val_000332.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "44524_CLEVR_val_004452.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "34822_CLEVR_val_003482.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "141233_CLEVR_val_014124.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "134780_CLEVR_val_013478.png",
+        "output_direct answer (clevr)": "3d model of a sphere, cylinder, cuboid, cylinder, cuboid, cubo"
+    },
+    {
+        "text_input_id": "144002_CLEVR_val_014401.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "30048_CLEVR_val_003004.png",
+        "output_direct answer (clevr)": "1200px by 1200px by 1200px by 1200px by 1200px by 1200px by"
+    },
+    {
+        "text_input_id": "37339_CLEVR_val_003734.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "107736_CLEVR_val_010774.png",
+        "output_direct answer (clevr)": "Yes, there is one other thing that has the same shape as the red thing"
+    },
+    {
+        "text_input_id": "57360_CLEVR_val_005736.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "72710_CLEVR_val_007271.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "22414_CLEVR_val_002241.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "144207_CLEVR_val_014421.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "83259_CLEVR_val_008326.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "36571_CLEVR_val_003657.png",
+        "output_direct answer (clevr)": "fewer tiny things behind the red matte object than large cyan cylinders behind the large matte cylinder"
+    },
+    {
+        "text_input_id": "14075_CLEVR_val_001407.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "76622_CLEVR_val_007663.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "85471_CLEVR_val_008548.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "136504_CLEVR_val_013651.png",
+        "output_direct answer (clevr)": "0"
+    },
+    {
+        "text_input_id": "88355_CLEVR_val_008836.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "16519_CLEVR_val_001651.png",
+        "output_direct answer (clevr)": "there is a large metallic ball that is to the right of the small matte thing behind the big metallic cube; is there a tiny thing"
+    },
+    {
+        "text_input_id": "143126_CLEVR_val_014313.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "123929_CLEVR_val_012393.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "90564_CLEVR_val_009057.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "117288_CLEVR_val_011729.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "79572_CLEVR_val_007958.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "38269_CLEVR_val_003827.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "43786_CLEVR_val_004378.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "129261_CLEVR_val_012927.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "59697_CLEVR_val_005970.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "87953_CLEVR_val_008796.png",
+        "output_direct answer (clevr)": "fewer gray cubes right of the green matte object than shiny cubes behind the tiny red metal cube"
+    },
+    {
+        "text_input_id": "41226_CLEVR_val_004122.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "112305_CLEVR_val_011231.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "99927_CLEVR_val_009993.png",
+        "output_direct answer (clevr)": "No, there is nothing else of the same color as the big metallic cylinder"
+    },
+    {
+        "text_input_id": "35867_CLEVR_val_003586.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "3438_CLEVR_val_000343.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "89407_CLEVR_val_008941.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px x 220px x 220px x"
+    },
+    {
+        "text_input_id": "30514_CLEVR_val_003051.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "122991_CLEVR_val_012300.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "24211_CLEVR_val_002421.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "104204_CLEVR_val_010421.png",
+        "output_direct answer (clevr)": "black"
+    },
+    {
+        "text_input_id": "33808_CLEVR_val_003380.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "90791_CLEVR_val_009080.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "103401_CLEVR_val_010341.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "30033_CLEVR_val_003003.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "59900_CLEVR_val_005990.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "15694_CLEVR_val_001569.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "26064_CLEVR_val_002606.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "62922_CLEVR_val_006293.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "120369_CLEVR_val_012037.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "99003_CLEVR_val_009901.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "26344_CLEVR_val_002634.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "89031_CLEVR_val_008904.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "147444_CLEVR_val_014745.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "33615_CLEVR_val_003361.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "63520_CLEVR_val_006352.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "118933_CLEVR_val_011894.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "98925_CLEVR_val_009893.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "135327_CLEVR_val_013533.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "106016_CLEVR_val_010602.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "42551_CLEVR_val_004255.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "149883_CLEVR_val_014989.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "73533_CLEVR_val_007354.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "106877_CLEVR_val_010688.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "12812_CLEVR_val_001281.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "111291_CLEVR_val_011130.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "130464_CLEVR_val_013047.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "128599_CLEVR_val_012860.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "64190_CLEVR_val_006419.png",
+        "output_direct answer (clevr)": "0"
+    },
+    {
+        "text_input_id": "80197_CLEVR_val_008020.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "4874_CLEVR_val_000487.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "126458_CLEVR_val_012646.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "139380_CLEVR_val_013938.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "104703_CLEVR_val_010471.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "99679_CLEVR_val_009968.png",
+        "output_direct answer (clevr)": "red"
+    },
+    {
+        "text_input_id": "46462_CLEVR_val_004646.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "147970_CLEVR_val_014797.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "47418_CLEVR_val_004741.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "57029_CLEVR_val_005703.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "101810_CLEVR_val_010181.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "62811_CLEVR_val_006282.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "88763_CLEVR_val_008877.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "106981_CLEVR_val_010699.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "116750_CLEVR_val_011675.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "131513_CLEVR_val_013152.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "78859_CLEVR_val_007886.png",
+        "output_direct answer (clevr)": "Is there any other thing that has the same size as the green thing?"
+    },
+    {
+        "text_input_id": "71226_CLEVR_val_007123.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "124833_CLEVR_val_012484.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "34386_CLEVR_val_003438.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "8261_CLEVR_val_000826.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px 1200px x 1200px 1200px"
+    },
+    {
+        "text_input_id": "5117_CLEVR_val_000511.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "16274_CLEVR_val_001627.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "16575_CLEVR_val_001657.png",
+        "output_direct answer (clevr)": "3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x"
+    },
+    {
+        "text_input_id": "85166_CLEVR_val_008517.png",
+        "output_direct answer (clevr)": "a cyan thing that is to the left of the small cube that is in front of the thing to the left of the tiny cyan"
+    },
+    {
+        "text_input_id": "45556_CLEVR_val_004555.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "101426_CLEVR_val_010143.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "71074_CLEVR_val_007108.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "41743_CLEVR_val_004174.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "137884_CLEVR_val_013789.png",
+        "output_direct answer (clevr)": "Yes, the cubes are the same material as the cylinder"
+    },
+    {
+        "text_input_id": "82621_CLEVR_val_008263.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "58305_CLEVR_val_005831.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "89446_CLEVR_val_008945.png",
+        "output_direct answer (clevr)": "cube"
+    },
+    {
+        "text_input_id": "75923_CLEVR_val_007593.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "68438_CLEVR_val_006844.png",
+        "output_direct answer (clevr)": "Yes, there is one other thing that is made of the same material as the big purple object"
+    },
+    {
+        "text_input_id": "147530_CLEVR_val_014753.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "6827_CLEVR_val_000682.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "68229_CLEVR_val_006823.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "10117_CLEVR_val_001011.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "8956_CLEVR_val_000895.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "68733_CLEVR_val_006874.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "36727_CLEVR_val_003672.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "108648_CLEVR_val_010865.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "42983_CLEVR_val_004298.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "5658_CLEVR_val_000565.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "93616_CLEVR_val_009362.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "96795_CLEVR_val_009680.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "108091_CLEVR_val_010810.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "75785_CLEVR_val_007579.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "111967_CLEVR_val_011197.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "121564_CLEVR_val_012157.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "44569_CLEVR_val_004457.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "103073_CLEVR_val_010308.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "145659_CLEVR_val_014566.png",
+        "output_direct answer (clevr)": "fewer tiny cylinders to the right of the red sphere than yellow cylinders to the right of the large cyan thing"
+    },
+    {
+        "text_input_id": "16762_CLEVR_val_001676.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "15904_CLEVR_val_001590.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "109583_CLEVR_val_010959.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "62875_CLEVR_val_006288.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "69882_CLEVR_val_006989.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "66362_CLEVR_val_006637.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "33753_CLEVR_val_003375.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "27384_CLEVR_val_002738.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "135690_CLEVR_val_013569.png",
+        "output_direct answer (clevr)": "metallic"
+    },
+    {
+        "text_input_id": "109910_CLEVR_val_010991.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "92333_CLEVR_val_009234.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "7946_CLEVR_val_000794.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "76535_CLEVR_val_007654.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "38082_CLEVR_val_003808.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "149088_CLEVR_val_014909.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "134818_CLEVR_val_013482.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "19778_CLEVR_val_001977.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "115312_CLEVR_val_011532.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "133850_CLEVR_val_013385.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "144250_CLEVR_val_014425.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "71141_CLEVR_val_007115.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "52570_CLEVR_val_005257.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "121583_CLEVR_val_012159.png",
+        "output_direct answer (clevr)": "3d model - 3d model - 3d model - 3d model - 3d model - 3d model -"
+    },
+    {
+        "text_input_id": "95708_CLEVR_val_009571.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11720_CLEVR_val_001172.png",
+        "output_direct answer (clevr)": "There are no other things that are the same material as the sphere"
+    },
+    {
+        "text_input_id": "24807_CLEVR_val_002480.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "15540_CLEVR_val_001554.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "110408_CLEVR_val_011041.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "65708_CLEVR_val_006571.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115621_CLEVR_val_011563.png",
+        "output_direct answer (clevr)": "fewer tiny cyan cylinders right of the big cylinder than large blue blocks that are to the right of the cyan cube"
+    },
+    {
+        "text_input_id": "4297_CLEVR_val_000429.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "113506_CLEVR_val_011351.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "39972_CLEVR_val_003997.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "10885_CLEVR_val_001088.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "103326_CLEVR_val_010333.png",
+        "output_direct answer (clevr)": "#039;silver #039; #039; #039; #039; #039; #039"
+    },
+    {
+        "text_input_id": "126973_CLEVR_val_012698.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "68543_CLEVR_val_006855.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "59024_CLEVR_val_005903.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "88310_CLEVR_val_008831.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "83638_CLEVR_val_008364.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "59879_CLEVR_val_005988.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115721_CLEVR_val_011573.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "123914_CLEVR_val_012392.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "131435_CLEVR_val_013144.png",
+        "output_direct answer (clevr)": "3ds max - 3ds max - 3ds max - 3ds max - 3ds max -"
+    },
+    {
+        "text_input_id": "28038_CLEVR_val_002803.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "2136_CLEVR_val_000213.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "88110_CLEVR_val_008811.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "100271_CLEVR_val_010028.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "25803_CLEVR_val_002580.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "41847_CLEVR_val_004184.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "32139_CLEVR_val_003213.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "68819_CLEVR_val_006882.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "130869_CLEVR_val_013087.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "15320_CLEVR_val_001532.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "139856_CLEVR_val_013986.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "73490_CLEVR_val_007349.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "54872_CLEVR_val_005487.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "59607_CLEVR_val_005961.png",
+        "output_direct answer (clevr)": "There is a silver sphere that has the same size as the green metal thing"
+    },
+    {
+        "text_input_id": "55804_CLEVR_val_005580.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "138145_CLEVR_val_013815.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "52358_CLEVR_val_005235.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "45676_CLEVR_val_004567.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "125971_CLEVR_val_012598.png",
+        "output_direct answer (clevr)": "cube"
+    },
+    {
+        "text_input_id": "139912_CLEVR_val_013992.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "53205_CLEVR_val_005320.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "47760_CLEVR_val_004776.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115455_CLEVR_val_011546.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "2648_CLEVR_val_000264.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "85686_CLEVR_val_008569.png",
+        "output_direct answer (clevr)": "There are no other things that are made of the same material as the big gray ball"
+    },
+    {
+        "text_input_id": "131316_CLEVR_val_013132.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "78869_CLEVR_val_007887.png",
+        "output_direct answer (clevr)": "white"
+    },
+    {
+        "text_input_id": "71095_CLEVR_val_007110.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "37041_CLEVR_val_003704.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "27755_CLEVR_val_002775.png",
+        "output_direct answer (clevr)": "100 x 100 x 100 mm"
+    },
+    {
+        "text_input_id": "49441_CLEVR_val_004944.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "136045_CLEVR_val_013605.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "13830_CLEVR_val_001383.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "92602_CLEVR_val_009261.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71169_CLEVR_val_007117.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "22489_CLEVR_val_002248.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "139282_CLEVR_val_013929.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "77493_CLEVR_val_007750.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "74385_CLEVR_val_007439.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "87524_CLEVR_val_008753.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "38959_CLEVR_val_003896.png",
+        "output_direct answer (clevr)": "cube"
+    },
+    {
+        "text_input_id": "41086_CLEVR_val_004108.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "65908_CLEVR_val_006591.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "50644_CLEVR_val_005064.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "72182_CLEVR_val_007219.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "44692_CLEVR_val_004469.png",
+        "output_direct answer (clevr)": "sphere"
+    },
+    {
+        "text_input_id": "113275_CLEVR_val_011328.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "10727_CLEVR_val_001072.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "10922_CLEVR_val_001092.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "46151_CLEVR_val_004615.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "18109_CLEVR_val_001810.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "64594_CLEVR_val_006460.png",
+        "output_direct answer (clevr)": "3ds max, c4d, obj, fbx, obj, 3ds max,"
+    },
+    {
+        "text_input_id": "101289_CLEVR_val_010129.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "135611_CLEVR_val_013562.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "143833_CLEVR_val_014384.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "101619_CLEVR_val_010162.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "115733_CLEVR_val_011574.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "110929_CLEVR_val_011093.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "119351_CLEVR_val_011936.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "90638_CLEVR_val_009064.png",
+        "output_direct answer (clevr)": "1 cylinder 2 cube 3 cylinder 4 cube 5 cylinder 6 cylinder 7 cylinder 8 cylinder 9 cylinder 10 cylinder"
+    },
+    {
+        "text_input_id": "60143_CLEVR_val_006015.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "128349_CLEVR_val_012835.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "24880_CLEVR_val_002488.png",
+        "output_direct answer (clevr)": "Yes, the tiny cylinder is made of the same material as the spheres and cubes"
+    },
+    {
+        "text_input_id": "23049_CLEVR_val_002304.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "59526_CLEVR_val_005953.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "87636_CLEVR_val_008764.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "111825_CLEVR_val_011183.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "72349_CLEVR_val_007235.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "52798_CLEVR_val_005279.png",
+        "output_direct answer (clevr)": "There are no other things that have the same shape as the large yellow object"
+    },
+    {
+        "text_input_id": "71874_CLEVR_val_007188.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "136488_CLEVR_val_013649.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "113293_CLEVR_val_011330.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "8024_CLEVR_val_000802.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "93365_CLEVR_val_009337.png",
+        "output_direct answer (clevr)": "fewer big green matte spheres in front of the blue matte sphere than tiny blocks"
+    },
+    {
+        "text_input_id": "127315_CLEVR_val_012732.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "143191_CLEVR_val_014320.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "106553_CLEVR_val_010656.png",
+        "output_direct answer (clevr)": "there is a matte sphere on the right side of the brown thing; are there any red cylinders in front of it?"
+    },
+    {
+        "text_input_id": "130451_CLEVR_val_013046.png",
+        "output_direct answer (clevr)": "yes, there are two cubes that are the same size as the green shiny sphere"
+    },
+    {
+        "text_input_id": "106848_CLEVR_val_010685.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "18678_CLEVR_val_001867.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "87316_CLEVR_val_008732.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "96715_CLEVR_val_009672.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "130325_CLEVR_val_013033.png",
+        "output_direct answer (clevr)": "There are no other things that have the same material as the tiny cyan ball"
+    },
+    {
+        "text_input_id": "5190_CLEVR_val_000519.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "77732_CLEVR_val_007774.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "140725_CLEVR_val_014073.png",
+        "output_direct answer (clevr)": "There are no other things that have the same size as the red matte object"
+    },
+    {
+        "text_input_id": "71587_CLEVR_val_007159.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "143569_CLEVR_val_014357.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "11455_CLEVR_val_001145.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "90692_CLEVR_val_009070.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71249_CLEVR_val_007125.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "9718_CLEVR_val_000971.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "128936_CLEVR_val_012894.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "137419_CLEVR_val_013742.png",
+        "output_direct answer (clevr)": "3d model of a sphere, a cube, and a cylinder"
+    },
+    {
+        "text_input_id": "119003_CLEVR_val_011901.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "21257_CLEVR_val_002125.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "126698_CLEVR_val_012670.png",
+        "output_direct answer (clevr)": "there is a tiny shiny cylinder that is behind the small metal cylinder that is in front of the matte ball; are there any small gray"
+    },
+    {
+        "text_input_id": "73596_CLEVR_val_007360.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "18318_CLEVR_val_001831.png",
+        "output_direct answer (clevr)": "1 cube, 1 cube, 1 cube, 1 cube, 1 cube, 1 cube, 1 cube, 1 cu"
+    },
+    {
+        "text_input_id": "76708_CLEVR_val_007671.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "59568_CLEVR_val_005957.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "2828_CLEVR_val_000282.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "42031_CLEVR_val_004203.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "19438_CLEVR_val_001943.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "14859_CLEVR_val_001485.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "31897_CLEVR_val_003189.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "5786_CLEVR_val_000578.png",
+        "output_direct answer (clevr)": "There are no other things that are the same size as the cylinder"
+    },
+    {
+        "text_input_id": "67853_CLEVR_val_006786.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "30183_CLEVR_val_003018.png",
+        "output_direct answer (clevr)": "Yes, there is a small sphere of the same color as the big shiny cylinder"
+    },
+    {
+        "text_input_id": "100765_CLEVR_val_010077.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "102895_CLEVR_val_010290.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "31850_CLEVR_val_003185.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "101696_CLEVR_val_010170.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "44154_CLEVR_val_004415.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "114898_CLEVR_val_011490.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "8525_CLEVR_val_000852.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "56558_CLEVR_val_005656.png",
+        "output_direct answer (clevr)": "cylinder"
+    },
+    {
+        "text_input_id": "17791_CLEVR_val_001779.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "29760_CLEVR_val_002976.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px"
+    },
+    {
+        "text_input_id": "26977_CLEVR_val_002697.png",
+        "output_direct answer (clevr)": "1cm x 1cm x 1cm 1cm x 1cm x 1cm 1cm "
+    },
+    {
+        "text_input_id": "12259_CLEVR_val_001225.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "147840_CLEVR_val_014784.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "17983_CLEVR_val_001798.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "49652_CLEVR_val_004965.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "22909_CLEVR_val_002290.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "60755_CLEVR_val_006076.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "28081_CLEVR_val_002808.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "130948_CLEVR_val_013095.png",
+        "output_direct answer (clevr)": "Yes, there are two cubes of the same color as the cylinder"
+    },
+    {
+        "text_input_id": "51141_CLEVR_val_005114.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "105857_CLEVR_val_010586.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "3775_CLEVR_val_000377.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "73762_CLEVR_val_007377.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "13324_CLEVR_val_001332.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "77267_CLEVR_val_007727.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71272_CLEVR_val_007128.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "23279_CLEVR_val_002327.png",
+        "output_direct answer (clevr)": "1200px by 1200px by 1200px by 1200px by 1200px by 1200px by"
+    },
+    {
+        "text_input_id": "52715_CLEVR_val_005271.png",
+        "output_direct answer (clevr)": "cube"
+    },
+    {
+        "text_input_id": "30083_CLEVR_val_003008.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "57095_CLEVR_val_005710.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "56990_CLEVR_val_005699.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "16866_CLEVR_val_001686.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "111029_CLEVR_val_011103.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "14044_CLEVR_val_001404.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "36990_CLEVR_val_003699.png",
+        "output_direct answer (clevr)": "1 cube, 1 sphere, 1 cube, 1 cube, 1 cube, 1 cube, 1 cube, 1 cu"
+    },
+    {
+        "text_input_id": "109576_CLEVR_val_010958.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "145468_CLEVR_val_014547.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "138354_CLEVR_val_013836.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "16980_CLEVR_val_001698.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "37501_CLEVR_val_003750.png",
+        "output_direct answer (clevr)": "3d model - 3d model - 3d model - 3d model - 3d model - 3d model -"
+    },
+    {
+        "text_input_id": "89908_CLEVR_val_008991.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "31259_CLEVR_val_003125.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "57652_CLEVR_val_005766.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "23362_CLEVR_val_002336.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "65180_CLEVR_val_006518.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "77920_CLEVR_val_007792.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "58231_CLEVR_val_005824.png",
+        "output_direct answer (clevr)": "#silver #silver #silver #silver #silver #silver #silver #s"
+    },
+    {
+        "text_input_id": "70622_CLEVR_val_007063.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "47698_CLEVR_val_004769.png",
+        "output_direct answer (clevr)": "a cylinder to the right of the green sphere that is in front of the large cylinder on the right side of the small yellow thing"
+    },
+    {
+        "text_input_id": "103704_CLEVR_val_010371.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "61283_CLEVR_val_006129.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "15663_CLEVR_val_001566.png",
+        "output_direct answer (clevr)": "#silver #silver #silver #silver #silver #silver #silver #s"
+    },
+    {
+        "text_input_id": "62417_CLEVR_val_006242.png",
+        "output_direct answer (clevr)": "#ddddddddddddddddddddddddddddd"
+    },
+    {
+        "text_input_id": "128119_CLEVR_val_012812.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "113564_CLEVR_val_011357.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px"
+    },
+    {
+        "text_input_id": "12361_CLEVR_val_001236.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "59971_CLEVR_val_005998.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "61013_CLEVR_val_006102.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "146439_CLEVR_val_014644.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "149766_CLEVR_val_014977.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "107319_CLEVR_val_010732.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "82441_CLEVR_val_008245.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "19096_CLEVR_val_001909.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "138568_CLEVR_val_013857.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "51554_CLEVR_val_005155.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "2488_CLEVR_val_000248.png",
+        "output_direct answer (clevr)": "1 ft x 1 ft x 1 ft"
+    },
+    {
+        "text_input_id": "2497_CLEVR_val_000249.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "57838_CLEVR_val_005784.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "31570_CLEVR_val_003157.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "56531_CLEVR_val_005654.png",
+        "output_direct answer (clevr)": "1 is metal, 2 is metal, 3 is metal, 4 is metal, 5 is metal, 6 is metal, 7 is metal, 8 is"
+    },
+    {
+        "text_input_id": "111243_CLEVR_val_011125.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "81994_CLEVR_val_008200.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "131731_CLEVR_val_013174.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "79504_CLEVR_val_007951.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "12262_CLEVR_val_001226.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "39732_CLEVR_val_003973.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "100045_CLEVR_val_010005.png",
+        "output_direct answer (clevr)": "3d model - 3d model - 3d model - 3d model - 3d model - 3d model -"
+    },
+    {
+        "text_input_id": "141418_CLEVR_val_014142.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "10366_CLEVR_val_001036.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "119813_CLEVR_val_011982.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "54035_CLEVR_val_005403.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "19750_CLEVR_val_001975.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "42481_CLEVR_val_004248.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "115269_CLEVR_val_011527.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "68473_CLEVR_val_006848.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "136840_CLEVR_val_013684.png",
+        "output_direct answer (clevr)": "170px 170px 170px 170px 170px 170px 170px 170"
+    },
+    {
+        "text_input_id": "145517_CLEVR_val_014552.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "66388_CLEVR_val_006639.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "77966_CLEVR_val_007797.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "94269_CLEVR_val_009427.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "46319_CLEVR_val_004632.png",
+        "output_direct answer (clevr)": "fewer large purple metal balls that are on the left side of the small thing than large purple matte cylinders"
+    },
+    {
+        "text_input_id": "17474_CLEVR_val_001747.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "81070_CLEVR_val_008107.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "59968_CLEVR_val_005997.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "89287_CLEVR_val_008929.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "51317_CLEVR_val_005131.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "130670_CLEVR_val_013067.png",
+        "output_direct answer (clevr)": "fewer metallic balls right of the large brown ball than objects"
+    },
+    {
+        "text_input_id": "72254_CLEVR_val_007226.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "87462_CLEVR_val_008747.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "67680_CLEVR_val_006768.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "58150_CLEVR_val_005815.png",
+        "output_direct answer (clevr)": "fewer large green cubes that are behind the tiny cyan cylinder than gray metal blocks"
+    },
+    {
+        "text_input_id": "31248_CLEVR_val_003124.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "124099_CLEVR_val_012410.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "130405_CLEVR_val_013041.png",
+        "output_direct answer (clevr)": "fewer tiny rubber cylinders than big brown shiny spheres"
+    },
+    {
+        "text_input_id": "135608_CLEVR_val_013561.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "77681_CLEVR_val_007769.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "50764_CLEVR_val_005076.png",
+        "output_direct answer (clevr)": "3d model 3d model 3d model 3d model 3d model 3d model 3d model 3d model 3d model 3d model"
+    },
+    {
+        "text_input_id": "66100_CLEVR_val_006610.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "39563_CLEVR_val_003956.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "92543_CLEVR_val_009255.png",
+        "output_direct answer (clevr)": "170 x 170 x 170 mm"
+    },
+    {
+        "text_input_id": "62648_CLEVR_val_006265.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "83319_CLEVR_val_008332.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "16593_CLEVR_val_001659.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "106090_CLEVR_val_010609.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "21226_CLEVR_val_002122.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "90854_CLEVR_val_009086.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "73917_CLEVR_val_007392.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "48581_CLEVR_val_004858.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "146639_CLEVR_val_014664.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "89856_CLEVR_val_008986.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "57589_CLEVR_val_005759.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "76677_CLEVR_val_007668.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "113473_CLEVR_val_011348.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "56061_CLEVR_val_005607.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "143208_CLEVR_val_014321.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "2670_CLEVR_val_000267.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "29389_CLEVR_val_002938.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "14773_CLEVR_val_001477.png",
+        "output_direct answer (clevr)": "fewer tiny cyan shiny balls right of the tiny yellow cylinder than large blue things"
+    },
+    {
+        "text_input_id": "43228_CLEVR_val_004322.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "148083_CLEVR_val_014809.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "34600_CLEVR_val_003460.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "106412_CLEVR_val_010642.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "130688_CLEVR_val_013069.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "105094_CLEVR_val_010510.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "39347_CLEVR_val_003934.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "35404_CLEVR_val_003540.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "20017_CLEVR_val_002001.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "88253_CLEVR_val_008826.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71025_CLEVR_val_007103.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "98566_CLEVR_val_009857.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "145331_CLEVR_val_014534.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "93802_CLEVR_val_009381.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "18480_CLEVR_val_001848.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "98474_CLEVR_val_009848.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "139841_CLEVR_val_013985.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "24747_CLEVR_val_002474.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "90806_CLEVR_val_009081.png",
+        "output_direct answer (clevr)": "styrofoam"
+    },
+    {
+        "text_input_id": "50530_CLEVR_val_005053.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "47377_CLEVR_val_004737.png",
+        "output_direct answer (clevr)": "There is a sphere that has the same size as the shiny cube"
+    },
+    {
+        "text_input_id": "38480_CLEVR_val_003848.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "33815_CLEVR_val_003381.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "111395_CLEVR_val_011140.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "32670_CLEVR_val_003267.png",
+        "output_direct answer (clevr)": "3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d model of 3d"
+    },
+    {
+        "text_input_id": "60692_CLEVR_val_006070.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "64931_CLEVR_val_006494.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "146952_CLEVR_val_014696.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "107919_CLEVR_val_010792.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "86038_CLEVR_val_008604.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "1024_CLEVR_val_000102.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "18729_CLEVR_val_001872.png",
+        "output_direct answer (clevr)": "there is a tiny yellow metallic object; are there any gray matte objects to the left of it?"
+    },
+    {
+        "text_input_id": "33668_CLEVR_val_003366.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "42300_CLEVR_val_004230.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "73984_CLEVR_val_007399.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "137489_CLEVR_val_013749.png",
+        "output_direct answer (clevr)": "There are no other things that are the same size as the blue metallic cylinder"
+    },
+    {
+        "text_input_id": "14036_CLEVR_val_001403.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "64588_CLEVR_val_006459.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "127366_CLEVR_val_012737.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "73043_CLEVR_val_007305.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "100300_CLEVR_val_010030.png",
+        "output_direct answer (clevr)": "0"
+    },
+    {
+        "text_input_id": "107444_CLEVR_val_010745.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "11807_CLEVR_val_001180.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "116039_CLEVR_val_011604.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "129199_CLEVR_val_012920.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "139385_CLEVR_val_013939.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "131862_CLEVR_val_013187.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "147811_CLEVR_val_014782.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "26139_CLEVR_val_002613.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "1929_CLEVR_val_000192.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "64841_CLEVR_val_006485.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "67722_CLEVR_val_006773.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "60337_CLEVR_val_006034.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "14595_CLEVR_val_001459.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "70553_CLEVR_val_007056.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "6889_CLEVR_val_000688.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "110652_CLEVR_val_011066.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "5252_CLEVR_val_000525.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "60683_CLEVR_val_006069.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "13330_CLEVR_val_001333.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "118287_CLEVR_val_011829.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "118180_CLEVR_val_011818.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "103625_CLEVR_val_010363.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "15087_CLEVR_val_001508.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "93509_CLEVR_val_009351.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "22110_CLEVR_val_002211.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "141510_CLEVR_val_014151.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "7462_CLEVR_val_000746.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "97562_CLEVR_val_009757.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "149036_CLEVR_val_014904.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "125787_CLEVR_val_012579.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "4259_CLEVR_val_000425.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "111201_CLEVR_val_011121.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "147138_CLEVR_val_014714.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "60763_CLEVR_val_006077.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "97557_CLEVR_val_009756.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "67734_CLEVR_val_006774.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "55256_CLEVR_val_005525.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "92564_CLEVR_val_009257.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "5023_CLEVR_val_000502.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "39748_CLEVR_val_003974.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "9016_CLEVR_val_000901.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "88023_CLEVR_val_008803.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "43806_CLEVR_val_004380.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "84094_CLEVR_val_008410.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "113375_CLEVR_val_011338.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "37527_CLEVR_val_003752.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "90898_CLEVR_val_009090.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "2358_CLEVR_val_000235.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "82661_CLEVR_val_008267.png",
+        "output_direct answer (clevr)": "Yes, the large cylinder and the small cylinder have the same material as the small cylinder"
+    },
+    {
+        "text_input_id": "127954_CLEVR_val_012796.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "97415_CLEVR_val_009742.png",
+        "output_direct answer (clevr)": "fewer tiny blue spheres that are left of the small rubber sphere than brown things that are on the right side of the large brown metallic"
+    },
+    {
+        "text_input_id": "16341_CLEVR_val_001634.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "45741_CLEVR_val_004574.png",
+        "output_direct answer (clevr)": "a tiny shiny cube that is behind the green metal object; what is it made of?"
+    },
+    {
+        "text_input_id": "104117_CLEVR_val_010412.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11934_CLEVR_val_001193.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "84441_CLEVR_val_008445.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "125698_CLEVR_val_012570.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "8477_CLEVR_val_000847.png",
+        "output_direct answer (clevr)": "1200px, 1200px, 1200px, 1200px, 1200px, 1200px,"
+    },
+    {
+        "text_input_id": "56390_CLEVR_val_005639.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "80358_CLEVR_val_008036.png",
+        "output_direct answer (clevr)": "#0f #0f #0f #0f #0f #0f #0f #0f #0f #0f"
+    },
+    {
+        "text_input_id": "22162_CLEVR_val_002216.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "127041_CLEVR_val_012705.png",
+        "output_direct answer (clevr)": "1 is another tiny thing that is the same shape as the shiny thing; what color is it?"
+    },
+    {
+        "text_input_id": "128579_CLEVR_val_012858.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "63374_CLEVR_val_006338.png",
+        "output_direct answer (clevr)": "a large cylinder behind the tiny metallic sphere that is in front of the big shiny cylinder that is behind the big cyan metal object"
+    },
+    {
+        "text_input_id": "24695_CLEVR_val_002469.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px"
+    },
+    {
+        "text_input_id": "24712_CLEVR_val_002471.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "133751_CLEVR_val_013376.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "58621_CLEVR_val_005863.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "124627_CLEVR_val_012463.png",
+        "output_direct answer (clevr)": "#ffffff #ffffff #ffffff #ffffff #f"
+    },
+    {
+        "text_input_id": "43304_CLEVR_val_004330.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "52977_CLEVR_val_005297.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "86324_CLEVR_val_008633.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "28220_CLEVR_val_002822.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "39124_CLEVR_val_003912.png",
+        "output_direct answer (clevr)": "There are no other things that are the same size as the purple block"
+    },
+    {
+        "text_input_id": "53105_CLEVR_val_005310.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "137335_CLEVR_val_013734.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "41578_CLEVR_val_004157.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "90256_CLEVR_val_009026.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "144983_CLEVR_val_014499.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "116374_CLEVR_val_011638.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "69608_CLEVR_val_006961.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "123127_CLEVR_val_012313.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "110395_CLEVR_val_011040.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "85912_CLEVR_val_008592.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "90532_CLEVR_val_009054.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "129131_CLEVR_val_012914.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "54429_CLEVR_val_005443.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "32394_CLEVR_val_003239.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "42701_CLEVR_val_004270.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "28620_CLEVR_val_002862.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "84313_CLEVR_val_008432.png",
+        "output_direct answer (clevr)": "metal"
+    },
+    {
+        "text_input_id": "62944_CLEVR_val_006295.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "108104_CLEVR_val_010811.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "54946_CLEVR_val_005494.png",
+        "output_direct answer (clevr)": "1200px"
+    },
+    {
+        "text_input_id": "55488_CLEVR_val_005548.png",
+        "output_direct answer (clevr)": "1 red cylinder in front of the big gray metallic cube; what is its material?"
+    },
+    {
+        "text_input_id": "132815_CLEVR_val_013282.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11786_CLEVR_val_001178.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "79273_CLEVR_val_007928.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "34272_CLEVR_val_003427.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "72216_CLEVR_val_007222.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "35603_CLEVR_val_003560.png",
+        "output_direct answer (clevr)": "a cube"
+    },
+    {
+        "text_input_id": "91482_CLEVR_val_009149.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "39657_CLEVR_val_003965.png",
+        "output_direct answer (clevr)": "#fffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "74828_CLEVR_val_007483.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "130899_CLEVR_val_013090.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "11982_CLEVR_val_001198.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "49869_CLEVR_val_004987.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "73559_CLEVR_val_007356.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "76145_CLEVR_val_007615.png",
+        "output_direct answer (clevr)": "cylinder"
+    },
+    {
+        "text_input_id": "67085_CLEVR_val_006709.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "56587_CLEVR_val_005659.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "7448_CLEVR_val_000744.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "134661_CLEVR_val_013467.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "17433_CLEVR_val_001743.png",
+        "output_direct answer (clevr)": "bluish-greyish-blueish-greyish-greyish-greyish-greyish-grey"
+    },
+    {
+        "text_input_id": "71958_CLEVR_val_007196.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "29537_CLEVR_val_002953.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "103892_CLEVR_val_010390.png",
+        "output_direct answer (clevr)": "3 mm"
+    },
+    {
+        "text_input_id": "62335_CLEVR_val_006234.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "97929_CLEVR_val_009793.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "126227_CLEVR_val_012623.png",
+        "output_direct answer (clevr)": "There is a big red metal cylinder; are there any big things in front of it?"
+    },
+    {
+        "text_input_id": "39504_CLEVR_val_003950.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "21022_CLEVR_val_002102.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "147098_CLEVR_val_014710.png",
+        "output_direct answer (clevr)": "a sphere and a cylinder"
+    },
+    {
+        "text_input_id": "114940_CLEVR_val_011494.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "9128_CLEVR_val_000912.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "81021_CLEVR_val_008103.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "95113_CLEVR_val_009512.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "68972_CLEVR_val_006898.png",
+        "output_direct answer (clevr)": "silver"
+    },
+    {
+        "text_input_id": "130722_CLEVR_val_013073.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "69317_CLEVR_val_006932.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "26652_CLEVR_val_002665.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "70607_CLEVR_val_007061.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "15957_CLEVR_val_001595.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "84718_CLEVR_val_008472.png",
+        "output_direct answer (clevr)": "fewer gray spheres that are behind the red rubber sphere than objects in front of the tiny metal sphere"
+    },
+    {
+        "text_input_id": "18067_CLEVR_val_001806.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "43174_CLEVR_val_004317.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "114813_CLEVR_val_011482.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "39750_CLEVR_val_003975.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "68802_CLEVR_val_006881.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "65464_CLEVR_val_006547.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "37814_CLEVR_val_003781.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "115939_CLEVR_val_011594.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "14230_CLEVR_val_001423.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "48227_CLEVR_val_004822.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "62374_CLEVR_val_006238.png",
+        "output_direct answer (clevr)": "yes"
+    },
+    {
+        "text_input_id": "82928_CLEVR_val_008293.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "133474_CLEVR_val_013348.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "19356_CLEVR_val_001935.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "134700_CLEVR_val_013470.png",
+        "output_direct answer (clevr)": "fewer yellow cylinders in front of the big brown sphere than tiny matte objects that are behind the large purple ball"
+    },
+    {
+        "text_input_id": "131802_CLEVR_val_013181.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "114873_CLEVR_val_011488.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "81004_CLEVR_val_008101.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "25626_CLEVR_val_002562.png",
+        "output_direct answer (clevr)": "3ds max, 3ds max, 3ds max, 3ds max, 3ds max, 3ds max,"
+    },
+    {
+        "text_input_id": "30002_CLEVR_val_003000.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "16625_CLEVR_val_001662.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "20316_CLEVR_val_002031.png",
+        "output_direct answer (clevr)": "4"
+    },
+    {
+        "text_input_id": "1798_CLEVR_val_000179.png",
+        "output_direct answer (clevr)": "#0ffffffffffffffffffffffffffff"
+    },
+    {
+        "text_input_id": "42137_CLEVR_val_004213.png",
+        "output_direct answer (clevr)": "there is a big shiny object on the right side of the big ball; is there a big object that is behind it?"
+    },
+    {
+        "text_input_id": "30342_CLEVR_val_003034.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "4329_CLEVR_val_000432.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "99724_CLEVR_val_009973.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "88261_CLEVR_val_008827.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "145112_CLEVR_val_014512.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "16214_CLEVR_val_001621.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "72162_CLEVR_val_007217.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "131284_CLEVR_val_013129.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "137772_CLEVR_val_013778.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "97741_CLEVR_val_009775.png",
+        "output_direct answer (clevr)": "1cm x 1cm x 1cm 1cm x 1cm x 1cm 1cm "
+    },
+    {
+        "text_input_id": "70688_CLEVR_val_007069.png",
+        "output_direct answer (clevr)": "1 ft x 1 ft x 1 ft"
+    },
+    {
+        "text_input_id": "52267_CLEVR_val_005226.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "26676_CLEVR_val_002667.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px / 1200px x 1200px x"
+    },
+    {
+        "text_input_id": "110141_CLEVR_val_011015.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "39726_CLEVR_val_003972.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "137242_CLEVR_val_013725.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "38845_CLEVR_val_003884.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "45311_CLEVR_val_004531.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "44441_CLEVR_val_004444.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "80237_CLEVR_val_008024.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "18690_CLEVR_val_001869.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "91461_CLEVR_val_009147.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "56745_CLEVR_val_005675.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "92240_CLEVR_val_009224.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px x 1200px x 1200px x"
+    },
+    {
+        "text_input_id": "132524_CLEVR_val_013253.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "4166_CLEVR_val_000416.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "114616_CLEVR_val_011462.png",
+        "output_direct answer (clevr)": "220px"
+    },
+    {
+        "text_input_id": "41637_CLEVR_val_004163.png",
+        "output_direct answer (clevr)": "1 mm"
+    },
+    {
+        "text_input_id": "62748_CLEVR_val_006275.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "130990_CLEVR_val_013099.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "145457_CLEVR_val_014546.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "133942_CLEVR_val_013395.png",
+        "output_direct answer (clevr)": "3d cube"
+    },
+    {
+        "text_input_id": "142664_CLEVR_val_014267.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "56049_CLEVR_val_005605.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "76007_CLEVR_val_007601.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "48159_CLEVR_val_004816.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "37498_CLEVR_val_003749.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "137929_CLEVR_val_013793.png",
+        "output_direct answer (clevr)": "220px x 220px x 220px x 220px x 220px x"
+    },
+    {
+        "text_input_id": "84329_CLEVR_val_008433.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "120502_CLEVR_val_012051.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "135466_CLEVR_val_013547.png",
+        "output_direct answer (clevr)": "2"
+    },
+    {
+        "text_input_id": "86209_CLEVR_val_008621.png",
+        "output_direct answer (clevr)": "plastic"
+    },
+    {
+        "text_input_id": "109879_CLEVR_val_010988.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "10187_CLEVR_val_001018.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "39045_CLEVR_val_003904.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "71620_CLEVR_val_007162.png",
+        "output_direct answer (clevr)": "1 meter"
+    },
+    {
+        "text_input_id": "85629_CLEVR_val_008563.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "27293_CLEVR_val_002729.png",
+        "output_direct answer (clevr)": "1200px x 1200px x 1200px"
+    },
+    {
+        "text_input_id": "69403_CLEVR_val_006941.png",
+        "output_direct answer (clevr)": "1"
+    },
+    {
+        "text_input_id": "117050_CLEVR_val_011705.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "102452_CLEVR_val_010246.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "83902_CLEVR_val_008391.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "94437_CLEVR_val_009444.png",
+        "output_direct answer (clevr)": "3"
+    },
+    {
+        "text_input_id": "145979_CLEVR_val_014598.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "82485_CLEVR_val_008249.png",
+        "output_direct answer (clevr)": "no"
+    },
+    {
+        "text_input_id": "134576_CLEVR_val_013458.png",
+        "output_direct answer (clevr)": "1"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "hate classification": {
+        "accuracy": NaN,
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "model": "openflamingo",
+    "dataset": "hateful_memes",
+    "split": "dev",
+    "run": "1",
+    "run time inference": 33.2
+}
