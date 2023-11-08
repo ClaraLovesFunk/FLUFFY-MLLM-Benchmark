@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
     main(args)
 
-    print("VOILA!")
+    print("VOILA! HARD EVAL IS DONE")
 
 
 
