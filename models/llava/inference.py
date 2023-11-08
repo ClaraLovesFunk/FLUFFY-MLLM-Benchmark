@@ -122,29 +122,21 @@ def eval_model(args, tokenizer, model, image_processor, model_name):
 
 def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     
-    print(f"Using TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}") 
-
-    # Model
     disable_torch_init()
 
     model_name = get_model_name_from_path(model_path)
-    tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, None, model_name)
+    tokenizer, model, image_processor, _ = load_pretrained_model(model_path, None, model_name)
 
-    # get infos
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name = dataset_name, model_name = 'llava', run = run)
 
     dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
     
-    
-   
-    
     run_time_inference_start = time.time()
 
-   
     pred = []
 
-    for test_sample in data_list: ########data_list[:2]
+    for test_sample in data_list:
 
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
@@ -202,8 +194,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     predict_dataset(dataset_name = args.dataset, model_path = args.model_path, run = args.run, conv_mode=args.conv_mode)
-
-
-# source venvs/llava/bin/activate
-# cd models/llava
-# python inference.py --dataset hateful_memes
