@@ -164,8 +164,11 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
 
             output = eval_model(args, tokenizer, model, image_processor, model_name)
             
-            output_name = 'output_' + t
-            output_sample.update({output_name: output}) 
+            output_name = "output_" + t
+            prompt_name = 'prompt_' + t
+            
+            output_sample.update({prompt_name: prompt})
+            output_sample.update({output_name: output})
 
         pred.append(output_sample)
 
