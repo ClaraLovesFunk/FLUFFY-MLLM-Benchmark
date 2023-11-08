@@ -34,8 +34,8 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     inputs = processor(text=prompt, images=image, return_tensors="pt")
     for k, v in inputs.items():
         inputs[k] = v.to(device)
-    generation_output = model.generate(**inputs, max_new_tokens=15) ############### max_new_tokens
-    generated_text = processor.batch_decode(generation_output[:, -15:], skip_special_tokens=True) ###############max_new_tokens
+    generation_output = model.generate(**inputs, max_new_tokens=15) 
+    generated_text = processor.batch_decode(generation_output[:, -15:], skip_special_tokens=True) 
     return generated_text[0]
 
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
@@ -102,10 +102,3 @@ if __name__ == "__main__":
     run = args.run
     dataset_name = args.dataset
     main(dataset_name, run)
-
-
-'''
-source venvs/otter/bin/activate
-cd models/otter
-python3 inference.py --dataset hateful_memes
-'''
