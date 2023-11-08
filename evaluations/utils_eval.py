@@ -53,16 +53,16 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
                 scores = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
                     'precision': metrics.precision_score(y_true, y_pred, average = average, pos_label=pos_label, zero_division=zero_division),
-                    'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label),
-                    'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label),                  
+                    'recall': metrics.recall_score(y_true, y_pred, average = average, pos_label=pos_label, zero_division=zero_division),
+                    'f1': metrics.f1_score(y_true, y_pred, average = average, pos_label=pos_label, zero_division=zero_division),                  
                 }
 
             else:
                 scores = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
                     'precision': metrics.precision_score(y_true, y_pred, average = average, zero_division=zero_division),
-                    'recall': metrics.recall_score(y_true, y_pred, average = average),
-                    'f1': metrics.f1_score(y_true, y_pred, average = average),                  
+                    'recall': metrics.recall_score(y_true, y_pred, average = average, zero_division=zero_division),
+                    'f1': metrics.f1_score(y_true, y_pred, average = average, zero_division=zero_division),                  
                 }
     return scores
 
