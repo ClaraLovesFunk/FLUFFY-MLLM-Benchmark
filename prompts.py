@@ -21,7 +21,7 @@ def zeroshot(test_sample, task):
         'direct answer (okvqa)': 'Answer the following question adhering to these guidelines:\n1. Omit articles (like \'a\', \'an\', \'the\') before nouns.\n2. Represent all numbers as digits, not word form.',
         'direct answer (clevr)': 'Answer the following question adhering to these guidelines:\n1. Omit articles (like \'a\', \'an\', \'the\') before nouns.\n2. Represent all numbers as digits, not word form.',
         'direct answer (gqa)': 'Answer the following question adhering to these guidelines:\n1. Omit articles (like \'a\', \'an\', \'the\') before nouns.\n2. Represent all numbers as digits, not word form.',
-        'multiple choice (aokvqa)': 'Answer the question by choosing the correct index from the options below.For the first answer, write \'1\'; for the second, write \'2\', and so on.',
+        'multiple choice (aokvqa)': 'Answer the question by choosing from the options below.',
         'multiple choice (sqa)': 'Answer the question by choosing the correct index from the options below.For the first answer, write \'0\'; for the second, write \'1\', and so on.',
         'sentiment analysis': 'Predict the sentiment of the tweet in combination with the image!The sentiment can be either "Positive", "Negative" or "Neutral".Respond only with one of these three options.',
         'sexism classification': 'Classify the following meme as \'sexist\' or \'not sexist\'. Respond only with one of these two options.',
