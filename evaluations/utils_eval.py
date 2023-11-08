@@ -87,20 +87,27 @@ def get_id_2_label_dict(data_text, label_name, dataset_name):
 
 def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text):
     
+    # check which model outputs are even  valid
     y_true, y_pred = [], []
     valid_count = 0
+    if dataset_name not in ['aokvqa']:
+        data_text = data_text["data"]
 
-    # if not dataset_name in ['aokvqa']:
-    #     data_text = data_text["data"]
-    
     for item in output:      
 
-        output_raw = str(item[output_name]) ############
+        output_raw = str(item[output_name]) 
         pred_value = extract_answer(model, dataset_name, output_raw)
         
         # multiple choice tasks with varying number of answer choices, e.g. scienceqa
         if VALID_ANS_VALUES == "sample-dependent":
             if dataset_name in ["scienceqa"]:
+                
+                # #print(data_text)
+                # #print('test1')
+                # for d in data_text:
+                #     #print('test2')
+                #     print(d)
+
                 sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
                 if sample is not None:
                     no_choices = len(sample['answer_choices'])
