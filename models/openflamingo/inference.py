@@ -57,7 +57,8 @@ def eval_model(model, image_processor, tokenizer, prompt, image_file):
         attention_mask=lang_x["attention_mask"],
         max_new_tokens=100,
         num_beams=3,
-        pad_token_id=tokenizer.eos_token_id
+        pad_token_id=tokenizer.eos_token_id,
+        temperature = 0
     )
 
     return tokenizer.decode(generated_text[0])
@@ -118,19 +119,9 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
 
 if __name__ == "__main__":
 
-    
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--run", type=str, default="1")
     args = parser.parse_args()
     
     predict_dataset(dataset_name = args.dataset, model_path = None, run = args.run)
-
-    
-
-
-
-# source venvs/openflamingo/bin/activate
-# cd models/openflamingo
-# python inference.py --dataset hateful_memes
