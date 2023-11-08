@@ -83,3 +83,11 @@ if __name__ == "__main__":
 
     for dataset_name in dataset_names:
         insert_prompts_to_output(dataset_name, args.model_name, args.run)
+
+
+
+'''
+
+python3 models/blip2/add_prompts.py --model_name instructblip --dataset_names all
+
+'''
