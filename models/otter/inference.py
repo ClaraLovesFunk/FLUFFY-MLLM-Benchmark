@@ -57,9 +57,8 @@ def get_model(device):
     model.to(device)
 
     image_processor = transformers.CLIPImageProcessor()
-    #tokenizer = model.text_tokenizer
     
-    return model, image_processor #, tokenizer
+    return model, image_processor
 
 
 
@@ -95,6 +94,7 @@ def get_response(device, image, prompt: str, model=None, image_processor=None) -
         max_new_tokens=512,
         num_beams=3,
         no_repeat_ngram_size=3,
+        temperature = 0,
     )
     parsed_output = (
         model.text_tokenizer.decode(generated_text[0])
@@ -177,10 +177,3 @@ if __name__ == "__main__":
     run = args.run
     dataset_name = args.dataset
     main(dataset_name, run)
-
-'''
-
-source venvs/otter/bin/activate
-cd models/otter
-python3 inference.py --dataset hateful_memes
-'''
