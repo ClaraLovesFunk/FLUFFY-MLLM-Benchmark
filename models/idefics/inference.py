@@ -53,7 +53,7 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
     
     pred = []
 
-    for sample in data_text:   ################
+    for sample in data_text:   
         output_sample = {'text_input_id': sample['text_input_id']}
 
         for task in tasks:
@@ -65,7 +65,7 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
             exit_condition = processor.tokenizer("<end_of_utterance>", add_special_tokens=False).input_ids
             bad_words_ids = processor.tokenizer(["<image>", "<fake_token_around_image>"], add_special_tokens=False).input_ids
 
-            generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=250)
+            generated_ids = model.generate(**inputs, eos_token_id=exit_condition, bad_words_ids=bad_words_ids, max_length=250, temperature = 0) #check if temperature arg works
             output = processor.batch_decode(generated_ids, skip_special_tokens=True)
             
             output_name = "output_" + task
@@ -115,10 +115,3 @@ if __name__ == "__main__":
     run = args.run
     dataset_name = args.dataset
     main(dataset_name, run)
-
-'''
-
-source venvs/idefics/bin/activate
-cd models/idefics
-python3 inference.py --dataset hateful_memes
-'''
