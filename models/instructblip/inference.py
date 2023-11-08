@@ -25,13 +25,7 @@ experiments_dir = 'experiments'
 
 
 def get_model(model_name, device):
-    model_info = utils.ModelInfo(model_name)
-    lavis_model_type = model_info.get_lavis_model_type()
-    lavis_name = model_info.get_lavis_name()
-
-    # model, vis_processors, _ = load_model_and_preprocess(
-    #     name=lavis_name, model_type=lavis_model_type, is_eval=True, device=device)
-
+    
     model, vis_processors, _ = load_model_and_preprocess(name="blip2_t5_instruct", model_type="flant5xxl", is_eval=True, device=device)
 
     model.to(device)
@@ -40,11 +34,11 @@ def get_model(model_name, device):
 
 
 
-def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks):
+def gen_output(device, data_text, model, vis_processors, image_dir_path, tasks):
     
     pred = [] 
 
-    for sample in data_text: #####################################################
+    for sample in data_text:
         
         output_sample = {'text_input_id': sample['text_input_id']}
 
@@ -76,9 +70,7 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
 
 def predict_dataset(model_name, dataset_name, run):
 
-    model, vis_processors = get_model(model_name, device) ######################################
-    #model = 'test'   ######################################
-    #vis_processors = 'test' ######################################
+    model, vis_processors = get_model(model_name, device)
 
     tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='instructblip', run=run)
 
@@ -86,7 +78,7 @@ def predict_dataset(model_name, dataset_name, run):
         data = json.load(f)
         data_text = data['data']
 
-    pred = gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks) 
+    pred = gen_output(device, data_text, model, vis_processors, image_dir_path, tasks) 
 
     config = {
         'model': model_name,
@@ -115,8 +107,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     predict_dataset(args.model_name, args.dataset_name, args.run)
-
-
-# source venvs/instructblip/bin/activate
-# cd models/instructblip
-# python inference.py --dataset hateful_memes
