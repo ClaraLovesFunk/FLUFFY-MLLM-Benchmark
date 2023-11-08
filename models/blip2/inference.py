@@ -60,7 +60,14 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
             image = vis_processors["eval"](image_raw).unsqueeze(0).to(device)
             
             output = model.generate({"image": image, "prompt": prompt}, temperature=0)
-            output_sample.update({output_task: output[0]})
+            output=output[0]
+            #output_sample.update({output_task: output[0]})
+
+            output_name = "output_" + t
+            prompt_name = 'prompt_' + t
+            
+            output_sample.update({prompt_name: prompt})
+            output_sample.update({output_name: output})
 
         pred.append(output_sample)
 
