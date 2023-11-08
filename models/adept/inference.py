@@ -34,8 +34,8 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     inputs = processor(text=prompt, images=image, return_tensors="pt")
     for k, v in inputs.items():
         inputs[k] = v.to(device)
-    generation_output = model.generate(**inputs, max_new_tokens=250) ############### max_new_tokens
-    generated_text = processor.batch_decode(generation_output[:, -250:], skip_special_tokens=True) ###############max_new_tokens
+    generation_output = model.generate(**inputs, max_new_tokens=15) ############### max_new_tokens
+    generated_text = processor.batch_decode(generation_output[:, -15:], skip_special_tokens=True) ###############max_new_tokens
     return generated_text[0]
 
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
