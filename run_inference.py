@@ -3,6 +3,7 @@
 import os
 import itertools
 import time
+import json
 
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
@@ -11,8 +12,13 @@ import argparse
 import subprocess
 
 # Defining all models and datasets
-ds_name_all = ['clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes'] ### ['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes']
-model_name_all = ['llava']  
+
+
+with open('config.json', 'r') as f:
+        config = json.load(f)
+
+ds_name_all = config['dataset_names']  #['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes'] ### ['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes']
+model_name_all = config['model_names']#model_name_all = ['llava']  
 
 def run_inference(model_name, dataset_name):
     
@@ -75,10 +81,6 @@ if __name__ == "__main__":
 
 '''
 python3 run_inference.py -models adept -datasets all
-python3 run_inference.py -models llava -datasets hatful_memes
-python3 run_inference.py -models openflamingo -datasets all
+python3 run_inference.py -models llava -datasets hateful_memes
 
-python3 run_inference.py -models llava -datasets all
-python3 run_inference.py -models blip2 -datasets all
-python3 run_inference.py -models instructblip -datasets all
 '''
