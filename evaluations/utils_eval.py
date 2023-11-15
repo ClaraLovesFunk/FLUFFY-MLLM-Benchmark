@@ -23,6 +23,22 @@ def extract_answer(model, dataset, output_raw):
             output_clean = match.group(1).strip().lower()
         else:
             output_clean = output_raw
+
+    elif model == 'adept':
+        # The revised regular expression pattern to match the text following \u0004
+        # This pattern assumes \u0004 is followed by a space and then the answer text
+        pattern = r'\\u0004\s(.+)'
+        match = re.search(pattern, output_raw)
+        if match:
+            output_clean = match.group(1).strip().lower()
+            print('match')
+            print(output_clean)
+        else:
+            output_clean = output_raw
+            print('no match')
+            print(output_raw)
+        
+
     else:
         output_clean = output_raw.lower()
 
