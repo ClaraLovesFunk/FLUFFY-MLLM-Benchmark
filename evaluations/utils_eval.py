@@ -25,18 +25,15 @@ def extract_answer(model, dataset, output_raw):
             output_clean = output_raw
 
     elif model == 'adept':
-        # The revised regular expression pattern to match the text following \u0004
-        # This pattern assumes \u0004 is followed by a space and then the answer text
-        pattern = r'\\u0004\s(.+)'
+        # Corrected regular expression pattern to match the text following \u0004
+        pattern = r'\u0004\s(.+)'
         match = re.search(pattern, output_raw)
         if match:
             output_clean = match.group(1).strip().lower()
-            print('match')
-            print(output_clean)
         else:
             output_clean = output_raw
-            print('no match')
-            print(output_raw)
+
+                
         
 
     else:
@@ -118,12 +115,6 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         if VALID_ANS_VALUES == "sample-dependent":
             if dataset_name in ["scienceqa"]:
                 
-                # #print(data_text)
-                # #print('test1')
-                # for d in data_text:
-                #     #print('test2')
-                #     print(d)
-
                 sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
                 if sample is not None:
                     no_choices = len(sample['answer_choices'])
