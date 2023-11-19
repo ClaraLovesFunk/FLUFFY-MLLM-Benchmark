@@ -17,8 +17,8 @@ import subprocess
 with open('config.json', 'r') as f:
         config = json.load(f)
 
-ds_name_all = config['dataset_names']  #['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes'] ### ['mami', 'mvsa', 'esnlive', 'scienceqa', 'clevr', 'gqa', 'aokvqa', 'okvqa', 'hateful_memes']
-model_name_all = config['model_names']#model_name_all = ['llava']  
+ds_name_all = config['dataset_names']
+model_name_all = config['model_names']  
 
 def run_inference(model_name, dataset_name):
     
@@ -29,7 +29,6 @@ def run_inference(model_name, dataset_name):
     model_path = os.path.join(base_model_dir, model_name)
     venv_path = os.path.join(venv_base_dir, model_name, "bin", "python") # Using the Python interpreter directly
 
-    # Ensure model, dataset directories/files and virtual environment exist
     if not os.path.exists(model_path):
         print(f"Model path {model_path} does not exist!")
         return
@@ -81,6 +80,5 @@ if __name__ == "__main__":
 
 '''
 python3 run_inference.py -models adept -datasets all
-python3 run_inference.py -models llava -datasets hateful_memes
 
 '''
