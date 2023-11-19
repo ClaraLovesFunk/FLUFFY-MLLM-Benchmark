@@ -126,10 +126,20 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             
         # direct answer tasks for which we do not determine what a valid answer is and what not
         elif VALID_ANS_VALUES == "no-ans-validity":
-            if item["text_input_id"] in labels:
-                y_pred.append(pred_value)
-                y_true.append(str(labels[item["text_input_id"]]).lower())
-            valid_ans_ratio = None
+            if mode == 'hard':
+                if item["text_input_id"] in labels:
+                    y_pred.append(pred_value)
+                    y_true.append(str(labels[item["text_input_id"]]).lower())
+                valid_ans_ratio = None
+            if mode == 'soft':
+                if item["text_input_id"] in labels:
+                    label_str = str(labels[item["text_input_id"]]).lower()
+                    if label_str in pred_value:
+                        y_pred.append(label_str)
+                    else:
+                        y_pred.append(pred_value)
+                    y_true.append(label_str)
+                valid_ans_ratio = None
 
         # for classification or multiple choice task, where valid answers are the same for all instances
         else:

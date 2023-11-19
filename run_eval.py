@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 
 python3 run_eval.py --models all --datasets all
-python3 run_eval.py --models adept --datasets hateful_memes --mode soft
+python3 run_eval.py --models blip2 --datasets clevr --mode soft
 
 
 '''
