@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     main(args)
 
-    print("VOILA! HARD EVAL IS DONE")
+    print("VOILA!")
 
 
 
@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 
 python3 run_eval.py --models all --datasets all
-python3 run_eval.py --models adept --datasets hateful_memes
+python3 run_eval.py --models adept --datasets hateful_memes --mode soft
 
 
 '''

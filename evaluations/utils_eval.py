@@ -143,6 +143,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                 if len(matched_values) == 1 and item["text_input_id"] in labels:
                     valid_count += 1
                     y_pred.append(matched_values[0])
+                    print(f'pred: {pred_value}')
+                    print(f'soft: {matched_values[0]}')
                     y_true.append(str(labels[item["text_input_id"]]).lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0
