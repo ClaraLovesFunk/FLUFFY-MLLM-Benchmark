@@ -22,7 +22,7 @@ model_name_formal = "adept/fuyu-8b"
 model_name_informal = "adept"
 
 def get_image(file_path: str) -> Image.Image:
-    return Image.open(file_path)
+    return Image.open(file_path).convert('RGB')
 
 def get_model(device):
     model = FuyuForCausalLM.from_pretrained(model_name_formal)
@@ -34,8 +34,8 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     inputs = processor(text=prompt, images=image, return_tensors="pt")
     for k, v in inputs.items():
         inputs[k] = v.to(device)
-    generation_output = model.generate(**inputs, max_new_tokens=15) 
-    generated_text = processor.batch_decode(generation_output[:, -15:], skip_special_tokens=True) 
+    generation_output = model.generate(**inputs, max_new_tokens=125) 
+    generated_text = processor.batch_decode(generation_output[:, -125:], skip_special_tokens=True) 
     return generated_text[0]
 
 def gen_output(device, data_text, model, processor, image_dir_path, tasks):
