@@ -98,7 +98,7 @@ def get_id_2_label_dict(data_text, label_name, dataset_name):
     return labels
 
 
-def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text):
+def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode):
     
     # check which model outputs are even  valid
     y_true, y_pred = [], []
@@ -133,10 +133,17 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
 
         # for classification or multiple choice task, where valid answers are the same for all instances
         else:
-            if pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
+            if mode == 'hard' and pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
                 valid_count += 1
                 y_pred.append(pred_value)
                 y_true.append(str(labels[item["text_input_id"]]).lower())
+
+            elif mode == 'soft':
+                matched_values = [val for val in VALID_ANS_VALUES if val in pred_value]
+                if len(matched_values) == 1 and item["text_input_id"] in labels:
+                    valid_count += 1
+                    y_pred.append(matched_values[0])
+                    y_true.append(str(labels[item["text_input_id"]]).lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0
 

@@ -1,10 +1,13 @@
 {
     "datasets_dir": "datasets",
     "experiments_dir": "experiments",
-    "eval_file_name": "scores.json",
-    "valid_ans_file_name": "valid_ans.json",
+    "eval_file_hard": "scores_hard.json",
+    "eval_file_soft": "scores_soft.json",
+    "valid_ans_file_hard": "valid_ans_hard.json",
+    "valid_ans_file_soft": "valid_ans_soft.json",
+    "examples_file_hard": "examples_hard.json",
+    "examples_file_soft": "examples_soft.json",
     "output_file_name": "output.json",
-    "examples_file_name": "examples.json",
     "model_names": ["blip2", "instructblip", "llava", "openflamingo", "idefics", "otter"],
     "dataset_names": ["hateful_memes", "mvsa", "mami", "esnlive", "aokvqa", "okvqa", "gqa", "scienceqa", "clevr"],
     "dataset_file_name": "ds_benchmark.json"
