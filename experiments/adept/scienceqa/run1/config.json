@@ -3,5 +3,5 @@
     "dataset": "scienceqa",
     "split": "test",
     "run": "1",
-    "run time inference": 39.45
+    "run time inference": 31.483333333333334
 }

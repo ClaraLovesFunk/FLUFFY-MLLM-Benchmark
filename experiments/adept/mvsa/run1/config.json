@@ -3,5 +3,5 @@
     "dataset": "mvsa",
     "split": "test",
     "run": "1",
-    "run time inference": 80.63333333333334
+    "run time inference": 73.35
 }

@@ -3,5 +3,5 @@
     "dataset": "mami",
     "split": "test",
     "run": "1",
-    "run time inference": 24.3
+    "run time inference": 21.45
 }
