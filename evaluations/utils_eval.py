@@ -110,8 +110,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     y_true, y_pred = [], []
     valid_count = 0
 
-    if dataset_name not in ['aokvqa']:
-        data_text = data_text["data"]
+    # if dataset_name not in ['aokvqa'] and mode != 'hard':
+    #     data_text = data_text["data"]
+    data_text = data_text["data"]
 
     for item in output:      
         
@@ -132,33 +133,48 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         y_true.append(str(labels[item["text_input_id"]]).lower())
             
             elif dataset_name in ["aokvqa"]:
+                if mode == 'soft':
+                    sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
+                    if sample is not None:
+                        VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                        pred_value = pred_value.lower()
+                        if item["text_input_id"] in labels and pred_value in VALID_ANS_VALUES_sample_dependent: #mode == 'hard' and pred_value in VALID_ANS_VALUES 
+                            valid_count += 1
+                            y_pred.append(pred_value)
+                            y_true.append(labels[item["text_input_id"]])
+                            
+                            
+                        
 
-                data_text = data_text["data"]
-                sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
-
-                task == 'hard':
-                    if task == "multiple choice (aokvqa)":
-                        if sample is not None:
-                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                            if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
-                                valid_count += 1
-                                y_pred.append(pred_value)
-                                y_true.append(str(labels[item["text_input_id"]]).lower())
+                # print(data_text)
+                # print('TEEEESSSST1')
+                # sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
+                # print('TEEEESSSST2')
                 
-                task == 'soft':
-                    if task == "direct answer (aokvqa)":
-                        if sample is not None:
-                            if item["text_input_id"] in labels:   
-                                valid_count += 1
-                                y_pred.append(pred_value)
-                                y_true.append(str(labels[item["text_input_id"]]).lower())
-                    elif task == "multiple choice (aokvqa)":
-                        if sample is not None:
-                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                            if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
-                                valid_count += 1
-                                y_pred.append(pred_value)
-                                y_true.append(str(labels[item["text_input_id"]]).lower())
+                # if task == 'hard':
+                #     if task == "multiple choice (aokvqa)":
+                #         if sample is not None:
+                #             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                #             if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
+                #                 valid_count += 1
+                #                 y_pred.append(pred_value)
+                #                 y_true.append(str(labels[item["text_input_id"]]).lower())
+                
+                # elif task == 'soft':
+                #     print('TEEEESSSST3')
+                #     if task == "direct answer (aokvqa)":
+                #         if sample is not None:
+                #             if item["text_input_id"] in labels:   
+                #                 valid_count += 1
+                #                 y_pred.append(pred_value)
+                #                 y_true.append(str(labels[item["text_input_id"]]).lower())
+                #     elif task == "multiple choice (aokvqa)":
+                #         if sample is not None:
+                #             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                #             if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
+                #                 valid_count += 1
+                #                 y_pred.append(pred_value)
+                #                 y_true.append(str(labels[item["text_input_id"]]).lower())
             
         # direct answer tasks for which we do not determine what a valid answer is and what not
         elif VALID_ANS_VALUES == "no-ans-validity":
