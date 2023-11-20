@@ -87,34 +87,41 @@ def load_data(filepath):
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
 
-    data_text = data_text["data"]
-        
-    labels = {
-        item["text_input_id"]: item[label_name]
-        for item in data_text
-        if "text_input_id" in item and label_name in item
-    }
+    if dataset_name =="blub":
+        print('blup')
+    # if dataset_name == 'aokvqa':
+    #     if t
+
+    else:
+        data_text = data_text["data"]
+            
+        labels = {
+            item["text_input_id"]: item[label_name]
+            for item in data_text
+            if "text_input_id" in item and label_name in item
+        }
 
     return labels
 
 
-def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode):
+def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode, task = None):
     
-    # check which model outputs are even  valid
+    
     y_true, y_pred = [], []
     valid_count = 0
+
     if dataset_name not in ['aokvqa']:
         data_text = data_text["data"]
 
     for item in output:      
-
+        
         output_raw = str(item[output_name]) 
         pred_value = extract_answer(model, dataset_name, output_raw)
         
-        # multiple choice tasks with varying number of answer choices, e.g. scienceqa
+        
         if VALID_ANS_VALUES == "sample-dependent":
-            if dataset_name in ["scienceqa"]:
-                
+            
+            if dataset_name in ["scienceqa"]:    
                 sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
                 if sample is not None:
                     no_choices = len(sample['answer_choices'])
@@ -123,6 +130,35 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         valid_count += 1
                         y_pred.append(pred_value)
                         y_true.append(str(labels[item["text_input_id"]]).lower())
+            
+            elif dataset_name in ["aokvqa"]:
+
+                data_text = data_text["data"]
+                sample = next((d for d in data_text if d['text_input_id'] == item["text_input_id"]), None)
+
+                task == 'hard':
+                    if task == "multiple choice (aokvqa)":
+                        if sample is not None:
+                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                            if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
+                                valid_count += 1
+                                y_pred.append(pred_value)
+                                y_true.append(str(labels[item["text_input_id"]]).lower())
+                
+                task == 'soft':
+                    if task == "direct answer (aokvqa)":
+                        if sample is not None:
+                            if item["text_input_id"] in labels:   
+                                valid_count += 1
+                                y_pred.append(pred_value)
+                                y_true.append(str(labels[item["text_input_id"]]).lower())
+                    elif task == "multiple choice (aokvqa)":
+                        if sample is not None:
+                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                            if pred_value in VALID_ANS_VALUES_sample_dependent and item["text_input_id"] in labels:   
+                                valid_count += 1
+                                y_pred.append(pred_value)
+                                y_true.append(str(labels[item["text_input_id"]]).lower())
             
         # direct answer tasks for which we do not determine what a valid answer is and what not
         elif VALID_ANS_VALUES == "no-ans-validity":
@@ -153,8 +189,6 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                 if len(matched_values) == 1 and item["text_input_id"] in labels:
                     valid_count += 1
                     y_pred.append(matched_values[0])
-                    print(f'pred: {pred_value}')
-                    print(f'soft: {matched_values[0]}')
                     y_true.append(str(labels[item["text_input_id"]]).lower())
 
     valid_ans_ratio = valid_count / len(output) if output else 0

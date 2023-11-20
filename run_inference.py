@@ -79,6 +79,6 @@ if __name__ == "__main__":
 
 
 '''
-python3 run_inference.py -models adept -datasets all
+python3 run_inference.py -models all -datasets aokvqa
 
 '''

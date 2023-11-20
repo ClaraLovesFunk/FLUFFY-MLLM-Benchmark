@@ -4,9 +4,9 @@ from evaluations.aokvqa.eval_vqa.vqaEval import VQAEval
 import json
 import evaluations.utils_eval as utils_eval
 
-VALID_ANS_VALUES = ['0', '1', '2', '3']
+VALID_ANS_VALUES = "sample-dependent"
 TASK_NAME = "multiple choice (aokvqa)"
-#POS_LABEL = ""
+POS_LABEL = ""
 label_name = "correct_choice"
 output_name = "output_multiple choice (aokvqa)"
 dataset_name = "aokvqa"
@@ -99,29 +99,69 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
 
 
-def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model):
+def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
-    with open('datasets/aokvqa/ds_original.json', 'r') as f: # load original file (not restructured one for our benchmark)
-        data_text = json.load(f)
-    output = utils_eval.load_data(experiment_output_file_path)
-    with open('datasets/aokvqa/ds_benchmark.json', 'r') as f: # to get labels use the file that was reformatted for the benchmark
-        data_text_labels = json.load(f)
-    labels = utils_eval.get_id_2_label_dict(data_text_labels, label_name, dataset_name)
+    if mode == 'hard':
+        with open('datasets/aokvqa/ds_original.json', 'r') as f: # load original file (not restructured one for our benchmark)
+            data_text = json.load(f)
+        output = utils_eval.load_data(experiment_output_file_path)
+        with open('datasets/aokvqa/ds_benchmark.json', 'r') as f: # to get labels use the file that was reformatted for the benchmark
+            data_text_labels = json.load(f)
+        labels = utils_eval.get_id_2_label_dict(data_text_labels, label_name, dataset_name)
 
-    scores = {}
-    examples = {}
-    
-    # direct answer
-    acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
-    scores['direct answer'] = {'accuracy': acc_da}
-    examples['direct answer'] = ex
+        scores = {}
+        examples = {}
+        
+        # direct answer
+        acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
+        scores['direct answer'] = {'accuracy': acc_da}
+        examples['direct answer'] = ex
 
-    # multiple choice
-    acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
-    scores['multiple choice'] = {'accuracy': acc_MC}
-    examples['multiple choice'] = ex
-    valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text)
-    valid_ans_ratio = {'multiple choice': valid_ans_ratio}
+        # multiple choice
+        acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
+        scores['multiple choice'] = {'accuracy': acc_MC}
+        examples['multiple choice'] = ex
+        valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text)
+        valid_ans_ratio = {'multiple choice': valid_ans_ratio}
 
+    if mode == 'soft':
 
-    return scores, examples, valid_ans_ratio
+        valid_ans_ratio_dict = {}
+        scores_dict = {}
+        examples_dict = {}
+
+        data_text = utils_eval.load_data(ds_text_file_path)
+        output = utils_eval.load_data(experiment_output_file_path)
+
+        # task "direct answer (aokvqa)"
+        labels = utils_eval.get_id_2_label_dict(
+            data_text = data_text, 
+            label_name = "correct_direct_answer_short", 
+            dataset_name = dataset_name)
+        
+        valid_ans_ratio, y_pred, y_true = utils_eval.get_clean_valid_preds_trues(
+            output = output, 
+            output_name = "output_direct answer (aokvqa)", 
+            VALID_ANS_VALUES = VALID_ANS_VALUES, 
+            labels= labels, 
+            model= model, 
+            dataset_name= dataset_name, 
+            data_text=data_text, 
+            mode=mode,
+            task = "direct answer (aokvqa)")
+        
+        print(y_pred)
+        print('TTEEEEEESSSSTTT')
+
+        scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', zero_division=0, flag_only_acc = False)
+        examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
+        valid_ans_ratio_dict["direct answer (aokvqa)"] = valid_ans_ratio
+        scores_dict["direct answer (aokvqa)"] = scores
+        examples_dict["direct answer (aokvqa)"] = examples
+
+        # task: "multiple choice (aokvqa)""
+
+        
+
+        
+    return scores_dict, examples_dict, valid_ans_ratio_dict
