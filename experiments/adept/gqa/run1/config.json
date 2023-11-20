@@ -1,0 +1,7 @@
+{
+    "model": "adept",
+    "dataset": "gqa",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 19.366666666666667
+}

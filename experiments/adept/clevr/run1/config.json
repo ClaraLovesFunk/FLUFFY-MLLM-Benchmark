@@ -1,0 +1,7 @@
+{
+    "model": "adept",
+    "dataset": "clevr",
+    "split": "val_sampled",
+    "run": "1",
+    "run time inference": 15.75
+}

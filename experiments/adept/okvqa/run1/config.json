@@ -1,0 +1,7 @@
+{
+    "model": "adept",
+    "dataset": "okvqa",
+    "split": "val",
+    "run": "1",
+    "run time inference": 120.21666666666667
+}
