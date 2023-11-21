@@ -1,4 +1,7 @@
 {
     "model": "otter",
-    "dataset": "aokvqa"
+    "dataset": "aokvqa",
+    "split": "val",
+    "run": "1",
+    "run time inference": 17.983333333333334
 }

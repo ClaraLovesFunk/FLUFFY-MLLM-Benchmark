@@ -3,5 +3,5 @@
     "dataset": "aokvqa",
     "split": "val",
     "run": "1",
-    "run time inference": 197.96666666666667
+    "run time inference": 400.46666666666664
 }
