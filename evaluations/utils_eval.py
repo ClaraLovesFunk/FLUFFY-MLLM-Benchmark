@@ -89,6 +89,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             - for soft evaluation check whether a valid label occurs somewhere in the output for that sample
     '''
     y_true, y_pred = [], []
+    y_true_dict, y_pred_dict = {}, {}
     valid_count = 0
     data_text = data_text["data"]
     for item in output:      
@@ -109,7 +110,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if pred_value in VALID_ANS_VALUES_sample_dependent and text_input_id in labels:   
                         valid_count += 1
                         y_pred.append(pred_value)
-                        y_true.append(str(labels[text_input_id]).lower())
+                        y_true.append(label_value)
+                        y_pred_dict[text_input_id] = pred_value
+                        y_true_dict[text_input_id] = label_value
             
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
@@ -121,6 +124,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                                 valid_count += 1
                                 y_pred.append(pred_value)
                                 y_true.append(label_value)
+                                y_pred_dict[text_input_id] = pred_value
+                                y_true_dict[text_input_id] = label_value
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
@@ -131,8 +136,11 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                                     for val in VALID_ANS_VALUES_sample_dependent:
                                         if val in pred_value:
                                             valid_count += 1
+                                            pred_value = val
                                             y_pred.append(val) #substitute the output with the matched valid value
                                             y_true.append(label_value)
+                                            y_pred_dict[text_input_id] = pred_value
+                                            y_true_dict[text_input_id] = label_value
                                             break
 
                                 
@@ -145,6 +153,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                                 valid_count += 1
                                 y_pred.append(pred_value)
                                 y_true.append(label_value)
+                                y_pred_dict[text_input_id] = pred_value
+                                y_true_dict[text_input_id] = label_value
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
@@ -152,8 +162,11 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                             if text_input_id in labels and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
                                 matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
                                 valid_count += 1
-                                y_pred.append(matches[0])
+                                pred_value = matches[0]
+                                y_pred.append(pred_value)
                                 y_true.append(label_value)
+                                y_pred_dict[text_input_id] = pred_value
+                                y_true_dict[text_input_id] = label_value
                  
             
         elif VALID_ANS_VALUES == "no-ans-validity":
@@ -163,42 +176,49 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             if mode == 'hard':
                 if item["text_input_id"] in labels:
                     y_pred.append(pred_value)
-                    y_true.append(str(labels[item["text_input_id"]]).lower())
+                    y_true.append(label_value)
+                    y_pred_dict[text_input_id] = pred_value
+                    y_true_dict[text_input_id] = label_value
                 valid_ans_ratio = None
             if mode == 'soft':
                 if item["text_input_id"] in labels:
-                    label_str = str(labels[item["text_input_id"]]).lower()
-                    if label_str in pred_value:
-                        y_pred.append(label_str)
-                    else:
-                        y_pred.append(pred_value)
-                    y_true.append(label_str)
+                    if label_value in pred_value:
+                        pred_value = label_value
+                    y_pred.append(pred_value)
+                    y_true.append(label_value)
+                    y_pred_dict[text_input_id] = pred_value
+                    y_true_dict[text_input_id] = label_value
                 valid_ans_ratio = None
 
         else:
             '''
             for classification or multiple choice task, where valid answers are the same for all instances
             '''
-            if mode == 'hard' and pred_value in VALID_ANS_VALUES and item["text_input_id"] in labels:
+            if mode == 'hard' and pred_value in VALID_ANS_VALUES and text_input_id in labels:
                 valid_count += 1
                 y_pred.append(pred_value)
-                y_true.append(str(labels[item["text_input_id"]]).lower())
+                y_true.append(label_value)
+                y_pred_dict[text_input_id] = pred_value
+                y_true_dict[text_input_id] = label_value
 
             elif mode == 'soft':
                 matched_values = [val for val in VALID_ANS_VALUES if val in pred_value]
-                if len(matched_values) == 1 and item["text_input_id"] in labels:
+                if len(matched_values) == 1 and text_input_id in labels:
                     valid_count += 1
-                    y_pred.append(matched_values[0])
-                    y_true.append(str(labels[item["text_input_id"]]).lower())
+                    pred_value = matched_values[0] 
+                    y_pred.append(pred_value)
+                    y_true.append(label_value)
+                    y_pred_dict[text_input_id] = pred_value
+                    y_true_dict[text_input_id] = label_value
 
     valid_ans_ratio = valid_count / len(output) if output else 0
 
-    return valid_ans_ratio, y_pred, y_true
+    return valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict
 
 
 
 
-def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False, dataset_name = None):
+def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False, dataset_name = None, task = None):
     '''
     compute metrics
     '''
@@ -219,14 +239,20 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
         '''
         if flag_only_acc == True:
             if dataset_name == 'aokvqa':
-                pred_corr = 0
-                for i in range(len(y_true)):
-                    if y_pred[i] in y_true[i]:
-                        pred_corr += 1
-                acc = pred_corr/len(y_pred)      
-                scores = {
-                    'accuracy': acc,
-                }
+                if task == 'direct answer (aokvqa)':
+                    pred_corr = 0
+                    for i in range(len(y_true)):
+                        if y_pred[i] in y_true[i]:
+                            pred_corr += 1
+                    acc = pred_corr/len(y_pred)      
+                    scores = {'accuracy': acc}
+                elif task == 'multiple choice (aokvqa)':
+                    pred_corr = 0
+                    for i in range(len(y_true)):
+                        if y_pred[i] == y_true[i]:
+                            pred_corr += 1
+                    acc = pred_corr/len(y_pred)      
+                    scores = {'accuracy': acc}
             
             elif dataset_name != 'aokvqa':
                 scores = {
@@ -234,7 +260,7 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
                             }
             
         
-        if flag_only_acc == False:
+        elif flag_only_acc == False:
             if average=='binary':
                 scores = {
                     'accuracy': metrics.accuracy_score(y_true, y_pred),
@@ -255,7 +281,7 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
 
 
 
-def get_examples(ds, output, output_name, labels, mode, task):
+def get_examples(ds, mode, task, y_pred_dict, y_true_dict):
     '''
     creates dictionary '''
     if mode == 'soft':
@@ -270,24 +296,44 @@ def get_examples(ds, output, output_name, labels, mode, task):
             if task == 'direct answer (aokvqa)':
                 examples = {}
                 for item in output:
-                    text_input_id = item.get("text_input_id")
-                    if text_input_id and text_input_id in labels:
-                        label_set = set(str(label).lower() for label in labels[text_input_id])
-                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
-                        match = any(label in output_value for label in label_set)
-                        examples[text_input_id] = 1 if match else 0
-                        #print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
+                    if "text_input_id" in item and item["text_input_id"] in labels:
+                        text_input_id = item["text_input_id"]
+                        # Compare the label with the output value and assign 1 if they match, else 0
+                        examples[text_input_id] = 1 if str(labels[text_input_id]) == item.get(output_name) else 0
+
+                # examples = {}
+                # for item in output:
+                #     text_input_id = item.get("text_input_id")
+                #     if text_input_id and text_input_id in labels:
+                #         label_set = set(str(label).lower() for label in labels[text_input_id])
+                #         output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
+                #         match = any(label in output_value for label in label_set)
+                #         examples[text_input_id] = 1 if match else 0
+                #         #print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
 
             if task == 'multiple choice (aokvqa)':
                 examples = {}
                 for item in output:
-                    text_input_id = item.get("text_input_id")
-                    if text_input_id and text_input_id in labels:
-                        label = labels[text_input_id]
-                        output_value = str(item.get('output_multiple choice (aokvqa)', '')).lower()
-                        match = label in output_value
-                        examples[text_input_id] = 1 if match else 0
-                        #print(f"Output: '{output_value}' | Labels: {label} | Match: {'Yes' if match else 'No'}")
+                    text_input_id = item["text_input_id"]
+                    examples[text_input_id] = 1 if str(labels[text_input_id]) == item.get(output_name) else 0
+                average = sum(examples.values()) / len(examples) if examples else 0
+                print(average)
+                '''
+                insert code:
+                sum up the values in the dictionary examples and devide it by the number of key-value pairs in the 
+                dictionary'''
+
+
+
+                # examples = {}
+                # for item in output:
+                #     text_input_id = item.get("text_input_id")
+                #     if text_input_id and text_input_id in labels:
+                #         label = labels[text_input_id]
+                #         output_value = str(item.get('output_multiple choice (aokvqa)', '')).lower()
+                #         match = label in output_value
+                #         examples[text_input_id] = 1 if match else 0
+                #         #print(f"Output: '{output_value}' | Labels: {label} | Match: {'Yes' if match else 'No'}")
 
         else: ######### 
             examples = {
