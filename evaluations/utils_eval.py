@@ -245,7 +245,6 @@ def get_examples(ds, output, output_name, labels, mode, task):
                         output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
                         match = any(label in output_value for label in label_set)
                         examples[text_input_id] = 1 if match else 0
-
                         #print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
 
 
@@ -254,12 +253,11 @@ def get_examples(ds, output, output_name, labels, mode, task):
                 for item in output:
                     text_input_id = item.get("text_input_id")
                     if text_input_id and text_input_id in labels:
-                        label_set = set(str(label).lower() for label in labels[text_input_id])
-                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
-                        match = any(label in output_value for label in label_set)
+                        label = labels[text_input_id]
+                        output_value = str(item.get('output_multiple choice (aokvqa)', '')).lower()
+                        match = label in output_value
                         examples[text_input_id] = 1 if match else 0
-
-                        print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
+                        #print(f"Output: '{output_value}' | Labels: {label} | Match: {'Yes' if match else 'No'}")
 
 
 

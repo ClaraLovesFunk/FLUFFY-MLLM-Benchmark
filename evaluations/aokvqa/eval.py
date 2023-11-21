@@ -126,6 +126,12 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode, task = "multiple choice (aokvqa)")
         valid_ans_ratio = {'multiple choice': valid_ans_ratio}
 
+
+
+
+
+
+
     if mode == 'soft':
 
         valid_ans_ratio_dict = {}
@@ -135,7 +141,10 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         data_text = utils_eval.load_data(ds_text_file_path)
         output = utils_eval.load_data(experiment_output_file_path)
 
-        # task "direct answer (aokvqa)"
+        tasks = ["direct answer (aokvqa)", "multiple choice (aokvqa)" ]
+
+
+        task = "direct answer (aokvqa)"
         labels = utils_eval.get_id_2_label_dict(
             data_text = data_text, 
             label_name = "correct_direct_answer_short", 
@@ -177,7 +186,7 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
             dataset_name= dataset_name, 
             data_text=data_text, 
             mode=mode,
-            task = task
+            task = task)
         
         scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', zero_division=0, flag_only_acc = True, dataset_name = dataset_name)
         examples = utils_eval.get_examples(dataset_name, output, output_name, labels, mode, task = task)
