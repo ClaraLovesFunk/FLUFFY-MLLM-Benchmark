@@ -45,7 +45,7 @@ def extract_answer(model, dataset, output_raw):
     return output_clean
 
 
-def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False):
+def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False, dataset_name = None):
 
     if y_pred == []: # if no valid predictions were made, model cannot be evaluated
         invalid_ans = float('nan')
@@ -55,11 +55,24 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
             'recall': invalid_ans, 
             'f1': invalid_ans}
 
-    else:
+    elif y_pred != []:
+
         if flag_only_acc == True:
-            scores = {
-                        'accuracy': metrics.accuracy_score(y_true, y_pred),
-                        }
+            if dataset_name == 'aokvqa':
+                pred_corr = 0
+                for i in range(len(y_true)):
+                    if y_pred[i] in y_true[i]:
+                        pred_corr += 1
+                acc = pred_corr/len(y_pred)      
+                scores = {
+                    'accuracy': acc,
+                }
+            
+            elif dataset_name != 'aokvqa':
+                scores = {
+                            'accuracy': metrics.accuracy_score(y_true, y_pred),
+                            }
+            
         
         if flag_only_acc == False:
             if average=='binary':
@@ -212,19 +225,50 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     return valid_ans_ratio, y_pred, y_true
 
 
-def get_examples(ds, output, output_name, labels):
+def get_examples(ds, output, output_name, labels, mode):
     
-    if ds == 'okvqa':
-        examples = {
-            item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
-            for item in output
-            if "text_input_id" in item and item["text_input_id"] in labels
-        }
+    if mode == 'hard':
+        if ds == 'okvqa':
+            examples = {
+                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
+                for item in output
+                if "text_input_id" in item and item["text_input_id"] in labels
+            }
 
-    else:
-        examples = {
-            item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
-            for item in output if "text_input_id" in item and item["text_input_id"] in labels
-        }
+        elif ds == 'aokvqa':
+            examples = {}
+            print(output)
+            '''insert code:
+            output and labels are a list of dictionaries
+            '''
+
+        else:
+            examples = {
+                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
+                for item in output if "text_input_id" in item and item["text_input_id"] in labels
+            }
+
+
+
+    if mode == 'soft':
+        if ds == 'okvqa':
+            examples = {
+                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
+                for item in output
+                if "text_input_id" in item and item["text_input_id"] in labels
+            }
+
+        elif ds == 'aokvqa':
+            examples = {
+                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
+                for item in output
+                if "text_input_id" in item and item["text_input_id"] in labels
+            }
+
+        else:
+            examples = {
+                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
+                for item in output if "text_input_id" in item and item["text_input_id"] in labels
+            }
 
     return examples
