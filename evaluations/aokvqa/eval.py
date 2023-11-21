@@ -111,20 +111,31 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         
         labels = utils_eval.get_id_2_label_dict(data_text_labels, label_name, dataset_name)
 
-        scores = {}
-        examples = {}
+        valid_ans_ratio_dict = {}
+        scores_dict = {}
+        examples_dict = {}
         
         # direct answer
         acc_da, ex = eval_aokvqa(input = data_text, output=output, task = 'direct answer', strict=True)
-        scores['direct answer'] = {'accuracy': acc_da}
-        examples['direct answer'] = ex
+        scores_dict['direct answer'] = {'accuracy': acc_da}
+        examples_dict['direct answer'] = ex
 
         # multiple choice
         acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
-        scores['multiple choice'] = {'accuracy': acc_MC}
-        examples['multiple choice'] = ex
-        valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode, task = "multiple choice (aokvqa)")
-        valid_ans_ratio = {'multiple choice': valid_ans_ratio}
+        scores_dict['multiple choice'] = {'accuracy': acc_MC}
+        examples_dict['multiple choice'] = ex
+        valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(
+            output, 
+            output_name, 
+            VALID_ANS_VALUES, 
+            labels, 
+            model, 
+            dataset_name, 
+            data_text = data_text_labels, 
+            mode = mode, 
+            task = "multiple choice (aokvqa)")
+        
+        valid_ans_ratio_dict['multiple choice (aokvqa)']= valid_ans_ratio
 
 
 
