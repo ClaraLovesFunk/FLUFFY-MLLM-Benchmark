@@ -14,6 +14,9 @@ def load_data(filepath):
 
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
+    '''
+    {text_input_id: label}
+    '''
     data_text = data_text["data"] 
     labels = {
         item["text_input_id"]: item[label_name]
@@ -26,7 +29,11 @@ def get_id_2_label_dict(data_text, label_name, dataset_name):
 
 
 def extract_answer(model, dataset, output_raw):
-
+    '''
+    prepocessing depending one the model used, since some models first generate a certain string pattern
+    before giving the actual ouput, e.g idefics writes the prompt and "\nAssistant:" before giving 
+    the actual output. 
+    '''
     if model == 'idefics':
         output_clean = output_raw.split("\nAssistant: ")[-1].strip().lower() #Extracting the answer after "Assistant: "
             
@@ -72,7 +79,15 @@ def extract_answer(model, dataset, output_raw):
 
 
 def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode, task = None):
-    
+    '''
+    - cleans the output
+        - with respect to the model used to generate the output
+        - basic preprocessing, s.a. removing punctuation, lower case
+        - checks for the validity of the output and only further regards valid output for later computing the metrics
+        - distinction between hard and soft evaluation
+            - for hard evaluation check whether the output matches a valid label exactly
+            - for soft evaluation check whether a valid label occurs somewhere in the output for that sample
+    '''
     y_true, y_pred = [], []
     valid_count = 0
     data_text = data_text["data"]
@@ -159,7 +174,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
 
 
 def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False, dataset_name = None):
-
+    '''
+    compute metrics
+    '''
     if y_pred == []: 
         '''
         if no valid predictions were made, model cannot be evaluated
@@ -214,7 +231,8 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
 
 
 def get_examples(ds, output, output_name, labels, mode, task):
-    
+    '''
+    creates dictionary '''
     if mode == 'soft':
         if ds == 'okvqa':   ######## this should be the same as aok
             examples = {
