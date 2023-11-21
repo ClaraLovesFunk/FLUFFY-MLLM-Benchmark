@@ -295,6 +295,13 @@ def get_examples(ds, mode, task, y_pred_dict, y_true_dict):
         elif ds == 'aokvqa':
             if task == 'direct answer (aokvqa)':
                 examples = {}
+                all_text_input_id = list(y_pred_dict.keys())
+                for text_input_id in all_text_input_id:
+                    if y_pred_dict[text_input_id] == y_true_dict[text_input_id]:
+                        examples[text_input_id] = 1
+                    else:
+                        examples[text_input_id] = 0
+
                 for item in output:
                     if "text_input_id" in item and item["text_input_id"] in labels:
                         text_input_id = item["text_input_id"]
