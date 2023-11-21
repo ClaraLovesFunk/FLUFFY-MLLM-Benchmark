@@ -8,6 +8,7 @@ venvs/
 old/
 gill/
 experiments_copy/
+experiments/
 LAVIS/
 __pycache__/
 util/
