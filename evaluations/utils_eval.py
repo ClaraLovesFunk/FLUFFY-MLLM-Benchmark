@@ -212,6 +212,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     y_true_dict[text_input_id] = label_value
 
     valid_ans_ratio = valid_count / len(output) if output else 0
+    #print(f'valid_ans_ratio: {valid_ans_ratio}')
 
     return valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict
 
@@ -281,100 +282,29 @@ def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_d
 
 
 
-def get_examples(ds, mode, task, y_pred_dict, y_true_dict):
+def get_examples(ds, task, y_pred_dict, y_true_dict):
     '''
-    creates dictionary '''
-    if mode == 'soft':
-        if ds == 'okvqa':   ######## this should be the same as aok
-            examples = {
-                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
-                for item in output
-                if "text_input_id" in item and item["text_input_id"] in labels
-            }
+    creates dictionary {text_input_id: index_corr}
+    index_corr indicates whether a sample was predicted correctly
+    given the evaluation modus, dataset, task, ...
+    '''
+    
+    examples = {}
+    all_text_input_id = list(y_pred_dict.keys())
 
-        elif ds == 'aokvqa':
-            if task == 'direct answer (aokvqa)':
-                examples = {}
-                all_text_input_id = list(y_pred_dict.keys())
-                for text_input_id in all_text_input_id:
-                    if y_pred_dict[text_input_id] == y_true_dict[text_input_id]:
-                        examples[text_input_id] = 1
-                    else:
-                        examples[text_input_id] = 0
-
-                for item in output:
-                    if "text_input_id" in item and item["text_input_id"] in labels:
-                        text_input_id = item["text_input_id"]
-                        # Compare the label with the output value and assign 1 if they match, else 0
-                        examples[text_input_id] = 1 if str(labels[text_input_id]) == item.get(output_name) else 0
-
-                # examples = {}
-                # for item in output:
-                #     text_input_id = item.get("text_input_id")
-                #     if text_input_id and text_input_id in labels:
-                #         label_set = set(str(label).lower() for label in labels[text_input_id])
-                #         output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
-                #         match = any(label in output_value for label in label_set)
-                #         examples[text_input_id] = 1 if match else 0
-                #         #print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
-
-            if task == 'multiple choice (aokvqa)':
-                examples = {}
-                for item in output:
-                    text_input_id = item["text_input_id"]
-                    examples[text_input_id] = 1 if str(labels[text_input_id]) == item.get(output_name) else 0
-                average = sum(examples.values()) / len(examples) if examples else 0
-                print(average)
-                '''
-                insert code:
-                sum up the values in the dictionary examples and devide it by the number of key-value pairs in the 
-                dictionary'''
-
-
-
-                # examples = {}
-                # for item in output:
-                #     text_input_id = item.get("text_input_id")
-                #     if text_input_id and text_input_id in labels:
-                #         label = labels[text_input_id]
-                #         output_value = str(item.get('output_multiple choice (aokvqa)', '')).lower()
-                #         match = label in output_value
-                #         examples[text_input_id] = 1 if match else 0
-                #         #print(f"Output: '{output_value}' | Labels: {label} | Match: {'Yes' if match else 'No'}")
-
-        else: ######### 
-            examples = {
-                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
-                for item in output if "text_input_id" in item and item["text_input_id"] in labels
-            }
-
-    if mode == 'hard':
-
-        if ds == 'okvqa':
-            examples = {
-                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
-                for item in output
-                if "text_input_id" in item and item["text_input_id"] in labels
-            }
-
-        elif ds == 'aokvqa':
-            if task == 'direct answer (aokvqa)':
-                examples = {}
-                for item in output:
-                    text_input_id = item.get("text_input_id")
-                    if text_input_id and text_input_id in labels:
-                        label_set = set(str(label).lower() for label in labels[text_input_id])
-                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
-                        match = 1 if output_value in label_set else 0
-                        examples[text_input_id] = match
-
-            if task == 'multiple choice (aokvqa)':
-                print('blup')
-
+    for text_input_id in all_text_input_id:
+        if ds == 'aokvqa' and task == 'direct answer (aokvqa)':
+            if y_pred_dict[text_input_id] in y_true_dict[text_input_id]:
+                correct = 1
+            else:
+                correct = 0
         else:
-            examples = {
-                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
-                for item in output if "text_input_id" in item and item["text_input_id"] in labels
-            }
+            if y_pred_dict[text_input_id] == y_true_dict[text_input_id]:
+                correct = 1
+            else:
+                correct = 0
+        examples[text_input_id] = correct
+    #average = sum(examples.values())/len(examples)
+    #print(average)
 
     return examples
