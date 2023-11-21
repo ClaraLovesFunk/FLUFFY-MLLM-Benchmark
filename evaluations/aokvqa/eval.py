@@ -100,7 +100,7 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
 
 def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
-
+    
     if mode == 'hard':
 
         with open('datasets/aokvqa/ds_original.json', 'r') as f: # load original file (not restructured one for our benchmark)
@@ -124,7 +124,8 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         acc_MC, ex = eval_aokvqa(input = data_text, output=output, task = 'multiple choice', strict=True)
         scores_dict['multiple choice'] = {'accuracy': acc_MC}
         examples_dict['multiple choice'] = ex
-        valid_ans_ratio, _, _ = utils_eval.get_clean_valid_preds_trues(
+
+        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
             output, 
             output_name, 
             VALID_ANS_VALUES, 
@@ -135,7 +136,9 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
             mode = mode, 
             task = "multiple choice (aokvqa)")
         
-        valid_ans_ratio_dict['multiple choice (aokvqa)']= valid_ans_ratio
+        #print(y_pred)
+        #valid_ans_ratio_dict['multiple choice (aokvqa)']= valid_ans_ratio
+        #print(f'valid_ans_ratio_dict{valid_ans_ratio_dict}')
 
 
 
@@ -162,9 +165,9 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
                 data_text = data_text, 
                 label_name = label_name_soft[task], 
                 dataset_name = dataset_name)
-            _, y_pred, y_true = utils_eval.get_clean_valid_preds_trues(
+            valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
                 output = output, 
-                output_name = "output_direct answer (aokvqa)", 
+                output_name = "output_" + task, 
                 VALID_ANS_VALUES = VALID_ANS_VALUES, 
                 labels= labels, 
                 model= model, 
@@ -173,12 +176,13 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
                 mode=mode,
                 task = task)
             
-            scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', zero_division=0, flag_only_acc = True, dataset_name = dataset_name)
-            examples = utils_eval.get_examples(dataset_name, output, output_name, labels, mode, task = task)
-            valid_ans_ratio_dict[task] = 'all answers allowed'
+            scores = utils_eval.compute_standard_metrics(y_true, y_pred, pos_label = POS_LABEL, average='binary', zero_division=0, flag_only_acc = True, dataset_name = dataset_name, task = task)
+            examples = utils_eval.get_examples(ds = dataset_name, task = task, y_pred_dict = y_pred_dict, y_true_dict = y_true_dict)
+            
             scores_dict[task] = scores
             examples_dict[task] = examples
-        
+            if task == 'multiple choice (aokvqa)':
+                valid_ans_ratio_dict[task]= valid_ans_ratio
+                print(f'valid_ans_ratio_dict{valid_ans_ratio_dict}')
 
-        
     return scores_dict, examples_dict, valid_ans_ratio_dict

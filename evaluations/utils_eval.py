@@ -92,6 +92,16 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     y_true_dict, y_pred_dict = {}, {}
     valid_count = 0
     data_text = data_text["data"]
+
+    def add_valid_info(text_input_id, pred_value, label_value):
+        '''
+        add '''
+        y_pred.append(pred_value)
+        y_true.append(label_value)
+        y_pred_dict[text_input_id] = pred_value
+        y_true_dict[text_input_id] = label_value
+        return y_pred, y_true, y_pred_dict, y_true_dict
+    
     for item in output:      
         output_raw = str(item[output_name]) 
         pred_value = extract_answer(model, dataset_name, output_raw)
@@ -109,10 +119,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
                     if pred_value in VALID_ANS_VALUES_sample_dependent and text_input_id in labels:   
                         valid_count += 1
-                        y_pred.append(pred_value)
-                        y_true.append(label_value)
-                        y_pred_dict[text_input_id] = pred_value
-                        y_true_dict[text_input_id] = label_value
+                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+
             
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
@@ -122,10 +130,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
                             if text_input_id in labels and pred_value in VALID_ANS_VALUES_sample_dependent: 
                                 valid_count += 1
-                                y_pred.append(pred_value)
-                                y_true.append(label_value)
-                                y_pred_dict[text_input_id] = pred_value
-                                y_true_dict[text_input_id] = label_value
+                                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
@@ -135,12 +140,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                                 if len(matches) == 1:
                                     for val in VALID_ANS_VALUES_sample_dependent:
                                         if val in pred_value:
-                                            valid_count += 1
                                             pred_value = val
-                                            y_pred.append(val) #substitute the output with the matched valid value
-                                            y_true.append(label_value)
-                                            y_pred_dict[text_input_id] = pred_value
-                                            y_true_dict[text_input_id] = label_value
+                                            valid_count += 1
+                                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                                             break
 
                                 
@@ -151,22 +153,16 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         if sample is not None:
                             if text_input_id in labels: 
                                 valid_count += 1
-                                y_pred.append(pred_value)
-                                y_true.append(label_value)
-                                y_pred_dict[text_input_id] = pred_value
-                                y_true_dict[text_input_id] = label_value
+                                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
                             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
                             if text_input_id in labels and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
                                 matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
-                                valid_count += 1
                                 pred_value = matches[0]
-                                y_pred.append(pred_value)
-                                y_true.append(label_value)
-                                y_pred_dict[text_input_id] = pred_value
-                                y_true_dict[text_input_id] = label_value
+                                valid_count += 1
+                                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                  
             
         elif VALID_ANS_VALUES == "no-ans-validity":
@@ -175,19 +171,13 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             '''
             if mode == 'hard':
                 if item["text_input_id"] in labels:
-                    y_pred.append(pred_value)
-                    y_true.append(label_value)
-                    y_pred_dict[text_input_id] = pred_value
-                    y_true_dict[text_input_id] = label_value
+                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                 valid_ans_ratio = None
             if mode == 'soft':
                 if item["text_input_id"] in labels:
                     if label_value in pred_value:
                         pred_value = label_value
-                    y_pred.append(pred_value)
-                    y_true.append(label_value)
-                    y_pred_dict[text_input_id] = pred_value
-                    y_true_dict[text_input_id] = label_value
+                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                 valid_ans_ratio = None
 
         else:
@@ -220,6 +210,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
 
 
 def compute_standard_metrics(y_true, y_pred, pos_label, average='binary', zero_division=0, flag_only_acc = False, dataset_name = None, task = None):
+    
     '''
     compute metrics
     '''
