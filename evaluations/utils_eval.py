@@ -225,8 +225,52 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     return valid_ans_ratio, y_pred, y_true
 
 
-def get_examples(ds, output, output_name, labels, mode):
+def get_examples(ds, output, output_name, labels, mode, task):
     
+    if mode == 'soft':
+        if ds == 'okvqa':   ######## this should be the same as aok
+            examples = {
+                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
+                for item in output
+                if "text_input_id" in item and item["text_input_id"] in labels
+            }
+
+        elif ds == 'aokvqa':
+            if task == 'direct answer (aokvqa)':
+                examples = {}
+                for item in output:
+                    text_input_id = item.get("text_input_id")
+                    if text_input_id and text_input_id in labels:
+                        label_set = set(str(label).lower() for label in labels[text_input_id])
+                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
+                        match = any(label in output_value for label in label_set)
+                        examples[text_input_id] = 1 if match else 0
+
+                        #print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
+
+
+            if task == 'multiple choice (aokvqa)':
+                examples = {}
+                for item in output:
+                    text_input_id = item.get("text_input_id")
+                    if text_input_id and text_input_id in labels:
+                        label_set = set(str(label).lower() for label in labels[text_input_id])
+                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
+                        match = any(label in output_value for label in label_set)
+                        examples[text_input_id] = 1 if match else 0
+
+                        print(f"Output: '{output_value}' | Labels: {label_set} | Match: {'Yes' if match else 'No'}")
+
+
+
+        else: ######### 
+            examples = {
+                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
+                for item in output if "text_input_id" in item and item["text_input_id"] in labels
+            }
+
+
+
     if mode == 'hard':
         if ds == 'okvqa':
             examples = {
@@ -236,34 +280,18 @@ def get_examples(ds, output, output_name, labels, mode):
             }
 
         elif ds == 'aokvqa':
-            examples = {}
-            print(output)
-            '''insert code:
-            output and labels are a list of dictionaries
-            '''
+            if task == 'direct answer (aokvqa)':
+                examples = {}
+                for item in output:
+                    text_input_id = item.get("text_input_id")
+                    if text_input_id and text_input_id in labels:
+                        label_set = set(str(label).lower() for label in labels[text_input_id])
+                        output_value = str(item.get('output_direct answer (aokvqa)', '')).lower()
+                        match = 1 if output_value in label_set else 0
+                        examples[text_input_id] = match
 
-        else:
-            examples = {
-                item["text_input_id"]: 1 if str(labels[item["text_input_id"]]) == item.get(output_name) else 0
-                for item in output if "text_input_id" in item and item["text_input_id"] in labels
-            }
-
-
-
-    if mode == 'soft':
-        if ds == 'okvqa':
-            examples = {
-                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
-                for item in output
-                if "text_input_id" in item and item["text_input_id"] in labels
-            }
-
-        elif ds == 'aokvqa':
-            examples = {
-                item["text_input_id"]: 1 if any(str(label).lower() == str(item.get(output_name)).lower() for label in labels[item["text_input_id"]]) else 0
-                for item in output
-                if "text_input_id" in item and item["text_input_id"] in labels
-            }
+            if task == 'multiple choice (aokvqa)':
+                print('blup')
 
         else:
             examples = {
