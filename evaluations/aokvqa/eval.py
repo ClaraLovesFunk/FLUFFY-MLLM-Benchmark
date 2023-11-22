@@ -102,7 +102,6 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
 def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
-    # load and preprocess data and get valid answer scores 
     input_original_path = 'datasets/aokvqa/ds_original.json'
     input_benchmark_path = ds_text_file_path 
     output_original_path = experiment_output_file_path 
@@ -110,12 +109,14 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
     input_original = utils_eval.load_data(input_original_path)
     input_benchmark = utils_eval.load_data(input_benchmark_path)
+    input_benchmark = input_benchmark["data"]
     output_original = utils_eval.load_data(output_original_path)
     
     valid_ans_ratio_dict = {} 
     scores_dict = {}
     examples_dict = {}
     
+    # transform output according to evaluation modus
     y_pred_dict_all_tasks = {}
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
@@ -140,7 +141,6 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         y_pred_dict_all_tasks[task] = y_pred_dict
         valid_ans_ratio_dict[task] = valid_ans_ratio
     
-    # transform output according to evaluation modus
     utils_eval.make_output_aux_eval(
         output_original_path = output_original_path,
         y_pred_dict_all_tasks = y_pred_dict_all_tasks,
@@ -153,6 +153,5 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         acc, ex = eval_aokvqa(input = input_original, output=output_transformed_4_eval_mode, task = task, strict=True)
         scores_dict[task] = {'accuracy': acc}
         examples_dict[task] = ex
-        
 
     return scores_dict, examples_dict, valid_ans_ratio_dict
