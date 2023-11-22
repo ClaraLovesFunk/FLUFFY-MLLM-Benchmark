@@ -2,11 +2,12 @@ import pandas as pd
 import json
 import os
 import evaluations.utils_eval as utils_eval
+import utils
 
 from evaluations.okvqa.eval_vqa.vqa import VQA 
 from evaluations.okvqa.eval_vqa.vqaEval import VQAEval
 
-VALID_ANS_VALUES = ['']
+VALID_ANS_VALUES = "no-ans-validity"
 TASK_NAME = "direct answer (okvqa)"
 POS_LABEL = ""
 label_name = "correct_direct_answer_short"
@@ -46,7 +47,57 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 
 
 
-def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model):
+def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
+
+    input_original_path = 'datasets/aokvqa/ds_original.json'
+    input_benchmark_path = ds_text_file_path 
+    output_original_path = experiment_output_file_path 
+    output_transformed_4_eval_mode_path = output_original_path.rsplit('.json', 1)[0] + '_aux_' + mode + '.json' 
+
+    input_original = utils_eval.load_data(input_original_path)
+    input_benchmark = utils_eval.load_data(input_benchmark_path)
+    output_original = utils_eval.load_data(output_original_path)
+    
+    valid_ans_ratio_dict = {} 
+    scores_dict = {}
+    examples_dict = {}
+    
+    # transform output according to evaluation modus
+    y_pred_dict_all_tasks = {}
+    DatasetInfo = utils.DatasetInfo(dataset_name)
+    tasks = DatasetInfo.get_tasks()
+    task2label_name = {                                                 
+        "direct answer (okvqa)": "correct_direct_answer_short"
+    }
+    for task in tasks:
+        label_name = task2label_name[task]
+        labels = utils_eval.get_id_2_label_dict(input_benchmark, label_name, dataset_name) 
+        
+        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
+            output = output_original, 
+            output_name = "output_"+ task, 
+            VALID_ANS_VALUES = VALID_ANS_VALUES, 
+            labels = labels, 
+            model = model, 
+            dataset_name = dataset_name, 
+            data_text = input_benchmark, 
+            mode = mode, 
+            task = task)
+        y_pred_dict_all_tasks[task] = y_pred_dict
+        valid_ans_ratio_dict[task] = valid_ans_ratio
+    
+    utils_eval.make_output_aux_eval(
+        output_original_path = output_original_path,
+        y_pred_dict_all_tasks = y_pred_dict_all_tasks,
+        mode = mode, 
+        tasks = tasks)
+
+    # load transformed data & get scores
+    output_transformed_4_eval_mode = utils_eval.load_data(output_transformed_4_eval_mode_path)
+
+
+
+
 
     ds_dir = os.path.dirname(ds_text_file_path)
     ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json')
