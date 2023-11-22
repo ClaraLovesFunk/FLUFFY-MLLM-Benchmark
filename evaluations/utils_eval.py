@@ -157,7 +157,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
-                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices'] ####################
                             if text_input_id in labels and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
                                 matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
                                 pred_value = matches[0]
@@ -299,3 +299,26 @@ def get_examples(ds, task, y_pred_dict, y_true_dict):
     #print(average)
 
     return examples
+
+
+
+def make_output_aux_eval(output_path, y_pred_dict_all_tasks, mode, tasks):
+    """
+    Modify the output based on y_pred_dict and save to a new file.
+    """
+    with open(output_path, 'r') as file:
+        output = json.load(file)
+    output_modified = output
+
+    for task in tasks:
+        y_pred_dict = y_pred_dict_all_tasks[task]
+        for item in output_modified:
+            text_input_id = item.get("text_input_id")
+            y_pred_value = y_pred_dict.get(text_input_id)
+            if y_pred_value:
+                item["output_" + task] = y_pred_value
+
+    output_modified_path = output_path.replace("output", "output_aux_" + mode)
+
+    with open(output_modified_path, 'w') as file:
+        json.dump(output_modified, file, indent=4)
