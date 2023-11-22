@@ -13,6 +13,8 @@ from evaluations.okvqa.eval import evaluate_okvqa
 from evaluations.gqa.eval import evaluate_gqa
 from evaluations.clevr.eval import evaluate_clevr
 
+import evaluations.utils_eval as utils_eval
+
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
@@ -33,8 +35,8 @@ def get_paths(config, dataset, model, run, mode):
 
 
 def main(args):
-    with open(CONFIG_PATH, 'r') as f:
-        config = json.load(f)
+    
+    config = utils_eval.load_data(CONFIG_PATH)
     
     selected_models = config['model_names'] if args.models == ALL_KEYWORD else [args.models]
     selected_datasets = config['dataset_names'] if args.datasets == ALL_KEYWORD else [args.datasets]
@@ -84,13 +86,10 @@ def main(args):
 
         print(scores)
         
-        with open(experiment_scores_file_path, 'w') as f: 
-            json.dump(scores,f, indent=4)
-        with open(experiment_examples_file_path, 'w') as f: 
-            json.dump(examples,f, indent=4)
+        utils_eval.save_data( , scores)
+        utils_eval.save_data(experiment_examples_file_path, examples)
         if dataset in DS_WITH_VAL_ANS:
-            with open(experiment_valid_ans_file_path, 'w') as f: 
-                json.dump(valid_ans_ratio,f, indent=4)
+            utils_eval.save_data(experiment_valid_ans_file_path, valid_ans_ratio)
         
             
 
@@ -112,7 +111,7 @@ if __name__ == "__main__":
 
 
 python3 run_eval.py --models all --datasets all
-python3 run_eval.py --models all --datasets aokvqa --mode soft
+python3 run_eval.py --models openflamingo --datasets aokvqa --mode soft
 python3 run_eval.py --models blip2 --datasets aokvqa --mode hard
 python3 run_eval.py --models instructblip --datasets aokvqa --mode hard
 python3 run_eval.py --models adept --datasets aokvqa --mode hard
