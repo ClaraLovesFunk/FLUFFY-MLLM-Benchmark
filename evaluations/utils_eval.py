@@ -131,23 +131,20 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if mode == 'hard':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
-                            #VALID_ANS_VALUES_sample_dependent = sample['answer_choices'] ####### delete
-                            if text_input_id in labels: #and pred_value in VALID_ANS_VALUES_sample_dependent: 
+                            if text_input_id in labels: 
                                 valid_count += 1
                                 y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
                             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                            if text_input_id in labels: #and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
-                                matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
+                            if text_input_id in labels:
+                                matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value] # if exactly one of the multiple choice choices is in the output, replace the model's jibberjabber with only that choice
                                 if len(matches) == 1:
-                                    for val in VALID_ANS_VALUES_sample_dependent:
-                                        if val in pred_value:
-                                            pred_value = val
-                                            valid_count += 1
-                                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-                                            break
+                                    pred_value = matches[0]
+                                valid_count += 1
+                                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                                    
 
                                 
 
