@@ -15,5 +15,5 @@ util/
 utils_private/
 zzzzzzzzzzzzzzzzzzzzzzzz/
 datasets_old/
-/__test.py/
+test.py/
 data
