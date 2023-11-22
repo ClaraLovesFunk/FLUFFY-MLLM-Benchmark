@@ -97,31 +97,31 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
     return acc, examples
 
 
-#output = utils_eval.load_data('experiments/blip2/aokvqa/run1/output_aux_hard.json')
-#output = utils_eval.load_data(soft.json')
-
-    
 
 
 def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
-    modes = ['soft', 'hard']
+    modes = ['hard', 'soft']
     for mode in modes:
         
-        print(mode)
+        print(f'model: {model}, mode: {mode}')
 
         # load and preprocess data and get valid answer scores
-        input_original = utils_eval.load_data('datasets/aokvqa/ds_original.json')
-        input_benchmark = utils_eval.load_data('datasets/aokvqa/ds_benchmark.json')
-        output_original = utils_eval.load_data('experiments/blip2/aokvqa/run1/output.json')
-        output_transformed_4_eval_mode = utils_eval.load_data('experiments/blip2/aokvqa/run1/output_aux_' + mode + '.json')
+        input_original_path = 'datasets/aokvqa/ds_original.json'
+        input_benchmark_path = 'datasets/aokvqa/ds_benchmark.json'
+        output_original_path = 'experiments/'+model+'/aokvqa/run1/output.json'
+        output_transformed_4_eval_mode_path = 'experiments/'+model+'/aokvqa/run1/output_aux_' + mode + '.json'
 
+        input_original = utils_eval.load_data(input_original_path)
+        input_benchmark = utils_eval.load_data(input_benchmark_path)
+        output_original = utils_eval.load_data(output_original_path)
+        
         valid_ans_ratio_dict = {} 
         scores_dict = {}
         examples_dict = {}
         
         y_pred_dict_all_tasks = {}
-        tasks = ["direct answer (aokvqa)", "multiple choice (aokvqa)"] # labels for da: 'nZANMFWTuwNWznuT9RBNXr': ['parking', 'watch', 'pedestrians', 'people', 'pedestrian', 'pedestrians', 'pedstrains', 'signal board', 'pedestrians', 'warning']
+        tasks = ["direct answer (aokvqa)", "multiple choice (aokvqa)"] 
         task2label_name = {
             "direct answer (aokvqa)": "correct_direct_answer_short",
             "multiple choice (aokvqa)": "correct_multiple_choice_answer"
@@ -145,17 +145,24 @@ def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
         
         # transform output according to evaluation modus
         utils_eval.make_output_aux_eval(
-            output_original_path = 'experiments/blip2/aokvqa/run1/output.json',
+            output_original_path = output_original_path,
             y_pred_dict_all_tasks = y_pred_dict_all_tasks,
             mode = mode, 
             tasks = tasks)
 
-        # get scores
+        # load transformed data & get scores
+        output_transformed_4_eval_mode = utils_eval.load_data(output_transformed_4_eval_mode_path)
         for task in tasks:
             acc, ex = eval_aokvqa(input = input_original, output=output_transformed_4_eval_mode, task = task, strict=True)
             scores_dict[task] = {'accuracy': acc}
             examples_dict[task] = ex
-
+        
+        print(scores_dict)
+        print(valid_ans_ratio)
+    
+    print('\n')
+    print('\n')
+    print('\n')
 
     return scores_dict, examples_dict, valid_ans_ratio_dict
 

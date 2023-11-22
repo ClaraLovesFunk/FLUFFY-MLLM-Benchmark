@@ -2,6 +2,7 @@ import re
 import string
 import json
 from sklearn import metrics
+import os
 
 
 
@@ -39,21 +40,24 @@ def extract_answer(model, dataset, output_raw):
         output_clean = output_raw.split("\nAssistant: ")[-1].strip().lower() #Extracting the answer after "Assistant: "
             
     elif model == 'openflamingo':
-        '''
-        Using a regular expression to capture the portion after "\nAnswer:" followed by any number of dots
-        '''
-        if dataset in ['hateful_memes', 'mami', 'esnlive', 'scienceqa', 'aokvqa', 'clevr', 'gqa']:
-            match = re.search(r'\nAnswer:\.+(.*)', output_raw)
-        if dataset in ['mvsa']:
-            match = re.search(r'\nSentiment: \.+(.*)', output_raw)
-        if dataset in ['mami']:
-            match = re.search(r'\nSexism Label: \.+(.*)', output_raw)
-        if dataset in ['hateful_memes']:
-            match = re.search(r'\nHate Label: \.+(.*)', output_raw)
+        # Regular expression to capture the portion after "Answer: "
+        pattern = r'\bAnswer:\s*(.+)'
+        match = re.search(pattern, output_raw, re.IGNORECASE)
         if match:
             output_clean = match.group(1).strip().lower()
         else:
             output_clean = output_raw.lower()
+
+        output_clean = re.sub(".<|endofchunk|>", '', output_clean)
+        pattern = r'\|\|'
+        output_clean = re.sub(r'\|\|', '', output_clean)
+        pattern = r'\. '
+        output_clean = re.sub(r'\. ', '', output_clean)
+        pattern = r'\.'
+        # output_clean = re.sub(r'\.', '', output_clean)
+        # if not output_clean.strip():
+        #     output_clean = "NaN"
+
 
     elif model == 'adept':
         ''' 
@@ -69,10 +73,14 @@ def extract_answer(model, dataset, output_raw):
     else:
         output_clean = output_raw.lower()
 
+    output_clean = re.sub(r'\.', '', output_clean)
+    if not output_clean.strip():
+        output_clean = "NaN"
+
     '''
     Remove any punctuation from the output
     '''
-    output_clean = ''.join(ch for ch in output_clean if ch not in string.punctuation)
+    #output_clean = ''.join(ch for ch in output_clean if ch not in string.punctuation)
 
     return output_clean
 
@@ -110,8 +118,17 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     for item in output:      
         output_raw = str(item[output_name]) 
         pred_value = extract_answer(model, dataset_name, output_raw)
+        
         text_input_id = item["text_input_id"]
         label_value = str(labels[text_input_id]).lower()
+
+        # print('\n')
+        # print('\n')
+        # print(f'text_input_id: {text_input_id}')
+        # print('\n')
+        # print(f'output_raw: {output_raw}')
+        # print('\n')
+        # print(f'pred_value: {pred_value}')
         
         if VALID_ANS_VALUES == "sample-dependent":
             '''
@@ -332,6 +349,8 @@ def make_output_aux_eval(output_original_path, y_pred_dict_all_tasks, mode, task
                 item["output_" + task] = y_pred_value
 
     output_modified_path = output_original_path.replace("output", "output_aux_" + mode)
-
+    directory = os.path.dirname(output_modified_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     with open(output_modified_path, 'w') as file:
         json.dump(output_modified, file, indent=4)
