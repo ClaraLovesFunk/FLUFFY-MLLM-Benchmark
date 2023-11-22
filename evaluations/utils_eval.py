@@ -304,11 +304,11 @@ def get_examples(ds, task, y_pred_dict, y_true_dict):
 
 
 
-def make_output_aux_eval(output_path, y_pred_dict_all_tasks, mode, tasks):
+def make_output_aux_eval(output_original_path, y_pred_dict_all_tasks, mode, tasks):
     """
     Modify the output based on y_pred_dict and save to a new file.
     """
-    with open(output_path, 'r') as file:
+    with open(output_original_path, 'r') as file:
         output = json.load(file)
     output_modified = output
 
@@ -330,7 +330,7 @@ def make_output_aux_eval(output_path, y_pred_dict_all_tasks, mode, tasks):
             if y_pred_value:
                 item["output_" + task] = y_pred_value
 
-    output_modified_path = output_path.replace("output", "output_aux_" + mode)
+    output_modified_path = output_original_path.replace("output", "output_aux_" + mode)
 
     with open(output_modified_path, 'w') as file:
         json.dump(output_modified, file, indent=4)
