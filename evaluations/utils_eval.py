@@ -11,7 +11,9 @@ def load_data(filepath):
     with open(filepath, 'r') as f:
         return json.load(f)
     
-
+def save_data(filepath, file):
+    with open(filepath, 'w') as f: 
+        return json.dump(file,f, indent=4)
 
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
