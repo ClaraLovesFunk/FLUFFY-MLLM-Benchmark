@@ -11,16 +11,20 @@ def load_data(filepath):
     with open(filepath, 'r') as f:
         return json.load(f)
     
+
+
+
 def save_data(filepath, file):
     with open(filepath, 'w') as f: 
         return json.dump(file,f, indent=4)
+
+
 
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
     '''
     {text_input_id: label}
     '''
-    data_text = data_text["data"] 
     labels = {}
     for item in data_text:
         text_input_id = item["text_input_id"]
@@ -38,28 +42,21 @@ def extract_answer(model, dataset, output_raw):
     before giving the actual ouput, e.g idefics writes the prompt and "\nAssistant:" before giving 
     the actual output. 
     '''
+
     if model == 'idefics':
-        output_clean = output_raw.split("\nAssistant: ")[-1].strip().lower() #Extracting the answer after "Assistant: "
+        output_clean = output_raw.split("\nAssistant: ")[-1].strip()
             
     elif model == 'openflamingo':
-        # Regular expression to capture the portion after "Answer: "
         pattern = r'\bAnswer:\s*(.+)'
         match = re.search(pattern, output_raw, re.IGNORECASE)
         if match:
-            output_clean = match.group(1).strip().lower()
+            output_clean = match.group(1).strip()
         else:
-            output_clean = output_raw.lower()
+            output_clean = output_raw
 
         output_clean = re.sub(".<|endofchunk|>", '', output_clean)
-        pattern = r'\|\|'
         output_clean = re.sub(r'\|\|', '', output_clean)
-        pattern = r'\. '
         output_clean = re.sub(r'\. ', '', output_clean)
-        pattern = r'\.'
-        # output_clean = re.sub(r'\.', '', output_clean)
-        # if not output_clean.strip():
-        #     output_clean = "NaN"
-
 
     elif model == 'adept':
         ''' 
@@ -68,21 +65,17 @@ def extract_answer(model, dataset, output_raw):
         pattern = r'\u0004\s(.+)'
         match = re.search(pattern, output_raw)
         if match:
-            output_clean = match.group(1).strip().lower()
+            output_clean = match.group(1).strip()
         else:
-            output_clean = output_raw.lower()
+            output_clean = output_raw
 
     else:
-        output_clean = output_raw.lower()
+       output_clean = output_raw
 
+    output_clean = output_clean.lower()
     output_clean = re.sub(r'\.', '', output_clean)
     if not output_clean.strip():
         output_clean = "NaN"
-
-    '''
-    Remove any punctuation from the output
-    '''
-    #output_clean = ''.join(ch for ch in output_clean if ch not in string.punctuation)
 
     return output_clean
 
@@ -102,7 +95,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     y_true, y_pred = [], []
     y_true_dict, y_pred_dict = {}, {}
     valid_count = 0
-    data_text = data_text["data"]
+    #data_text = data_text["data"]
     output_name = "output_" + task
 
     def add_valid_info(text_input_id, pred_value, label_value):
@@ -164,10 +157,6 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                                     pred_value = matches[0]
                                 valid_count += 1
                                 y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-                                    
-
-                                
-
                 if task == 'direct answer (aokvqa)':
                     if mode == 'hard':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
