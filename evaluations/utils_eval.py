@@ -18,11 +18,12 @@ def get_id_2_label_dict(data_text, label_name, dataset_name):
     {text_input_id: label}
     '''
     data_text = data_text["data"] 
-    labels = {
-        item["text_input_id"]: item[label_name]
-        for item in data_text
-        if "text_input_id" in item and label_name in item
-    }
+    labels = {}
+    for item in data_text:
+        text_input_id = item["text_input_id"]
+        label_value = item[label_name]
+        labels[text_input_id] = label_value
+
     return labels
 
 

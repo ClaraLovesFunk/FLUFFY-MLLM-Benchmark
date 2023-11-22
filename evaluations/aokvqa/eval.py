@@ -105,50 +105,57 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
 def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
-    # load and preprocess data and get valid answer scores
-    input_original = utils_eval.load_data('datasets/aokvqa/ds_original.json')
-    input_benchmark = utils_eval.load_data('datasets/aokvqa/ds_benchmark.json')
-    output_original = utils_eval.load_data('experiments/blip2/aokvqa/run1/output.json')
-    output_transformed_4_eval_mode = utils_eval.load_data('experiments/blip2/aokvqa/run1/output_aux_' + mode + '.json')
+    modes = ['soft', 'hard']
+    for mode in modes:
+        
+        print(mode)
 
-    valid_ans_ratio_dict = {} 
-    scores_dict = {}
-    examples_dict = {}
-    
-    y_pred_dict_all_tasks = {}
-    tasks = ["direct answer (aokvqa)", "multiple choice (aokvqa)"]
-    task2label_name = { ######### check if that s correct
-        "direct answer (aokvqa)": "correct_direct_answer_short",
-        "multiple choice (aokvqa)": "correct_multiple_choice_answer"
-    }
-    for task in tasks:
-        label_name = task2label_name[task]
-        labels = utils_eval.get_id_2_label_dict(input_benchmark, label_name, dataset_name) 
-        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
-            output = output_original, 
-            output_name = "output_"+ task, 
-            VALID_ANS_VALUES = VALID_ANS_VALUES, 
-            labels = labels, 
-            model = model, 
-            dataset_name = dataset_name, 
-            data_text = input_benchmark, 
+        # load and preprocess data and get valid answer scores
+        input_original = utils_eval.load_data('datasets/aokvqa/ds_original.json')
+        input_benchmark = utils_eval.load_data('datasets/aokvqa/ds_benchmark.json')
+        output_original = utils_eval.load_data('experiments/blip2/aokvqa/run1/output.json')
+        output_transformed_4_eval_mode = utils_eval.load_data('experiments/blip2/aokvqa/run1/output_aux_' + mode + '.json')
+
+        valid_ans_ratio_dict = {} 
+        scores_dict = {}
+        examples_dict = {}
+        
+        y_pred_dict_all_tasks = {}
+        tasks = ["direct answer (aokvqa)", "multiple choice (aokvqa)"] # labels for da: 'nZANMFWTuwNWznuT9RBNXr': ['parking', 'watch', 'pedestrians', 'people', 'pedestrian', 'pedestrians', 'pedstrains', 'signal board', 'pedestrians', 'warning']
+        task2label_name = {
+            "direct answer (aokvqa)": "correct_direct_answer_short",
+            "multiple choice (aokvqa)": "correct_multiple_choice_answer"
+        }
+        for task in tasks:
+            label_name = task2label_name[task]
+            labels = utils_eval.get_id_2_label_dict(input_benchmark, label_name, dataset_name) 
+            
+            valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
+                output = output_original, 
+                output_name = "output_"+ task, 
+                VALID_ANS_VALUES = VALID_ANS_VALUES, 
+                labels = labels, 
+                model = model, 
+                dataset_name = dataset_name, 
+                data_text = input_benchmark, 
+                mode = mode, 
+                task = task)
+            y_pred_dict_all_tasks[task] = y_pred_dict
+            valid_ans_ratio_dict[task] = valid_ans_ratio
+        
+        # transform output according to evaluation modus
+        utils_eval.make_output_aux_eval(
+            output_original_path = 'experiments/blip2/aokvqa/run1/output.json',
+            y_pred_dict_all_tasks = y_pred_dict_all_tasks,
             mode = mode, 
-            task = task)
-        y_pred_dict_all_tasks[task] = y_pred_dict
-        valid_ans_ratio_dict[task] = valid_ans_ratio
-    
-    # transform output according to evaluation modus
-    utils_eval.make_output_aux_eval(
-        output_original_path = 'experiments/blip2/aokvqa/run1/output.json',
-        y_pred_dict_all_tasks = y_pred_dict_all_tasks,
-        mode = mode, 
-        tasks = tasks)
+            tasks = tasks)
 
-    # get scores
-    for task in tasks:
-        acc, ex = eval_aokvqa(input = input_original, output=output_original, task = task, strict=True)
-        scores_dict[task] = {'accuracy': acc}
-        examples_dict[task] = ex
+        # get scores
+        for task in tasks:
+            acc, ex = eval_aokvqa(input = input_original, output=output_transformed_4_eval_mode, task = task, strict=True)
+            scores_dict[task] = {'accuracy': acc}
+            examples_dict[task] = ex
+
 
     return scores_dict, examples_dict, valid_ans_ratio_dict
 
