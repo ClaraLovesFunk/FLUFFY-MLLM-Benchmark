@@ -8,7 +8,7 @@
     "examples_file_hard": "examples_hard.json",
     "examples_file_soft": "examples_soft.json",
     "output_file_name": "output.json",
-    "model_names": ["blip2", "instructblip", "llava", "openflamingo", "idefics", "otter"],
+    "model_names": ["blip2", "instructblip", "llava", "openflamingo", "idefics", "otter","adept"],
     "dataset_names": ["hateful_memes", "mvsa", "mami", "esnlive", "aokvqa", "okvqa", "gqa", "scienceqa", "clevr"],
     "dataset_file_name": "ds_benchmark.json"
 }
