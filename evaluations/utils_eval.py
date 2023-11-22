@@ -92,10 +92,14 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     y_true_dict, y_pred_dict = {}, {}
     valid_count = 0
     data_text = data_text["data"]
+    output_name = "output_" + task
 
     def add_valid_info(text_input_id, pred_value, label_value):
         '''
-        add '''
+        - add predictions and labels to lists y_pred and y_true for further computation of eval metrics with sckitlearn
+        - add predictions and labels to dictionary so we can use them later to make a dataframe with all info to show good and 
+            bad examples 
+        '''
         y_pred.append(pred_value)
         y_true.append(label_value)
         y_pred_dict[text_input_id] = pred_value
@@ -127,15 +131,15 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if mode == 'hard':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
-                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                            if text_input_id in labels and pred_value in VALID_ANS_VALUES_sample_dependent: 
+                            #VALID_ANS_VALUES_sample_dependent = sample['answer_choices'] ####### delete
+                            if text_input_id in labels: #and pred_value in VALID_ANS_VALUES_sample_dependent: 
                                 valid_count += 1
                                 y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
                             VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                            if text_input_id in labels and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
+                            if text_input_id in labels: #and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
                                 matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
                                 if len(matches) == 1:
                                     for val in VALID_ANS_VALUES_sample_dependent:
@@ -157,10 +161,11 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if mode == 'soft':
                         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
                         if sample is not None:
-                            VALID_ANS_VALUES_sample_dependent = sample['answer_choices'] ####################
-                            if text_input_id in labels and any(val in pred_value for val in VALID_ANS_VALUES_sample_dependent):
-                                matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value]
-                                pred_value = matches[0]
+                            CORR_ANS_VALUES_sample_dependent = sample['correct_direct_answer_short'] # all these answers are regarded as correct
+                            if text_input_id in labels:
+                                matches = [val for val in CORR_ANS_VALUES_sample_dependent if val in pred_value]
+                                if matches != []:
+                                    pred_value = matches[0]
                                 valid_count += 1
                                 y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                  
@@ -312,9 +317,19 @@ def make_output_aux_eval(output_path, y_pred_dict_all_tasks, mode, tasks):
 
     for task in tasks:
         y_pred_dict = y_pred_dict_all_tasks[task]
+
+        y_pred_dict1 = y_pred_dict_all_tasks['direct answer (aokvqa)']
+        y_pred_dict2 = y_pred_dict_all_tasks['multiple choice (aokvqa)']
+
         for item in output_modified:
             text_input_id = item.get("text_input_id")
             y_pred_value = y_pred_dict.get(text_input_id)
+
+            # y_pred_value_dict1 = y_pred_dict1.get(text_input_id)
+            # y_pred_value_dict2 = y_pred_dict2.get(text_input_id)
+
+            # print(f'y_pred_value_dict1: {y_pred_value_dict1}')
+            # print(f'y_pred_value_dict2: {y_pred_value_dict2}')
             if y_pred_value:
                 item["output_" + task] = y_pred_value
 
