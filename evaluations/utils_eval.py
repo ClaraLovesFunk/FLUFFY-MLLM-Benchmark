@@ -131,31 +131,29 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
                     if mode == 'hard':
-                        if text_input_id in labels: 
+                        VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
+                        if pred_value in VALID_ANS_VALUES_sample_dependent:
                             valid_count += 1
-                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
-                        if text_input_id in labels:
-                            matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value] # if exactly one of the multiple choice choices is in the output, replace the model's jibberjabber with only that choice
-                            if len(matches) == 1:
-                                pred_value = matches[0]
-                            valid_count += 1
-                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                        matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value] # if exactly one of the multiple choice choices is in the output, replace the model's jibberjabber with only that choice
+                        if len(matches) == 1:
+                            pred_value = matches[0]
+                        valid_count += 1
+                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                 if task == 'direct answer (aokvqa)':
-                    if mode == 'hard':
-                        if text_input_id in labels: 
-                            valid_count += 1
-                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                    if mode == 'hard': 
+                        valid_count += 1
+                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
                     if mode == 'soft':
                         CORR_ANS_VALUES_sample_dependent = sample['correct_direct_answer_short'] # all these answers are regarded as correct
-                        if text_input_id in labels:
-                            matches = [val for val in CORR_ANS_VALUES_sample_dependent if val in pred_value]
-                            if matches != []:
-                                pred_value = matches[0]
-                            valid_count += 1
-                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-                
+                        matches = [val for val in CORR_ANS_VALUES_sample_dependent if val in pred_value]
+                        if matches != []:
+                            pred_value = matches[0]
+                        valid_count += 1
+                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+            
             
         elif VALID_ANS_VALUES == "no-ans-validity":
             '''
