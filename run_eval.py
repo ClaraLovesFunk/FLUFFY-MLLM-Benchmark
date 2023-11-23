@@ -45,7 +45,7 @@ def main(args):
             experiment_scores_file_path, 
             experiment_examples_file_path, 
             experiment_valid_ans_file_path
-        ) = utils_eval.get_paths(config, dataset, model, run, mode = mode)
+        ) = utils_eval.get_paths(CONFIG_PATH, dataset, model, run, mode = mode)
 
         if dataset == 'hateful_memes':
             scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model, mode)
@@ -66,7 +66,7 @@ def main(args):
             scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
         if dataset == "okvqa":
-            scores, examples, valid_ans_ratio = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_okvqa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "gqa":
             scores, examples, valid_ans_ratio = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model, mode)

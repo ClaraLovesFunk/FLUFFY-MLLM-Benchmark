@@ -21,7 +21,9 @@ def save_data(filepath, file):
 
 
 
-def get_paths(config, dataset_name, model_name, run, mode, value_of_interest = 'None'):
+def get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'None'):
+
+    config = load_data(CONFIG_PATH)
     
     dataset_path = os.path.join(config['datasets_dir'], dataset_name, config['dataset_file_name'])
     experiment_dir_path = os.path.join(config['experiments_dir'], model_name, dataset_name, 'run' + run)

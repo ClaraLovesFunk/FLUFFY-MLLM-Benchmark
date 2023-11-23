@@ -47,21 +47,22 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 
 
 
-def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
+def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
-    input_original_path = 'datasets/aokvqa/ds_original.json'
-    input_benchmark_path = ds_text_file_path 
-    output_original_path = experiment_output_file_path 
+    dataset_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_path')
+    output_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_path')
+
+    #def pipeline_transform_output_get_valscore(dataset_path, output_path, model, mode):
+        
+    #input_benchmark_path = dataset_path 
+    output_original_path = output_path 
     output_transformed_4_eval_mode_path = output_original_path.rsplit('.json', 1)[0] + '_aux_' + mode + '.json' 
 
-    input_original = utils_eval.load_data(input_original_path)
-    input_benchmark = utils_eval.load_data(input_benchmark_path)
+    input_benchmark = utils_eval.load_data(dataset_path)
     input_benchmark = input_benchmark["data"]
     output_original = utils_eval.load_data(output_original_path)
     
     valid_ans_ratio_dict = {} 
-    scores_dict = {}
-    examples_dict = {}
     
     # transform output according to evaluation modus
     y_pred_dict_all_tasks = {}
@@ -79,7 +80,7 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
             output_name = "output_"+ task, 
             VALID_ANS_VALUES = VALID_ANS_VALUES, 
             labels = labels, 
-            model = model, 
+            model = model_name, 
             dataset_name = dataset_name, 
             data_text = input_benchmark, 
             mode = mode, 
@@ -99,8 +100,10 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
 
 
-
-    ds_dir = os.path.dirname(ds_text_file_path)
+    scores_dict = {}
+    examples_dict = {}
+    
+    ds_dir = os.path.dirname(dataset_path)
     ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
     ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
     experiment_output_okvqa_format_file_path = os.path.join(ds_dir, 'output_okvqa_format.json') # determine the path where to store and later delete reformatted outputfile
