@@ -4,56 +4,52 @@ import pandas as pd
 from IPython.display import display, HTML
 from bs4 import BeautifulSoup
 
-
 root_dir = "experiments"
 
-data = []
+def process_scores(file_name, mode):
+    data = []
 
-# Go through each directory and subdirectory
-for dirpath, dirnames, filenames in os.walk(root_dir):
-    for filename in filenames:
-        if filename == "scores.json":
-            with open(os.path.join(dirpath, filename), 'r') as f:
-                scores = json.load(f)
+    # Go through each directory and subdirectory
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename == file_name:
+                with open(os.path.join(dirpath, filename), 'r') as f:
+                    scores = json.load(f)
 
-            # Extract model and dataset names from the directory path
-            path_parts = dirpath.split(os.sep)
-            model = path_parts[-3]
-            dataset = path_parts[-2]
-            run = path_parts[-1]
+                # Extract model and dataset names from the directory path
+                path_parts = dirpath.split(os.sep)
+                model = path_parts[-3]
+                dataset = path_parts[-2]
+                run = path_parts[-1]
 
-            # For each task in the JSON file
-            for task, metrics in scores.items():
-                for metric, value in metrics.items():
-                    # Create a dictionary for each metric, model, dataset, and task combination
-                    data.append({'Model': model, 'Dataset': dataset, 'Task': task, 'Metric': metric, 'Value': value})
+                # For each task in the JSON file
+                for task, metrics in scores.items():
+                    for metric, value in metrics.items():
+                        # Create a dictionary for each metric, model, dataset, and task combination
+                        data.append({'Model': model, 'Dataset': dataset, 'Task': task, 'Metric': metric, 'Value': value})
 
-df = pd.DataFrame(data)
+    df = pd.DataFrame(data)
 
-# Pivot the DataFrame, this time with 'Model' as index, and 'Dataset', 'Task', and 'Metric' as columns.
-df_pivot = df.pivot_table(index='Model', columns=['Dataset', 'Task', 'Metric'], values='Value')
+    # Pivot the DataFrame
+    df_pivot = df.pivot_table(index='Model', columns=['Dataset', 'Task', 'Metric'], values='Value')
+    df_pivot.sort_index(axis=1, level=0, inplace=True)
+    df_pivot.index.name = ""
 
-# This will sort the DataFrame for better visualization.
-df_pivot.sort_index(axis=1, level=0, inplace=True)
+    html = (df_pivot.style.set_table_styles([
+        {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
+    ]).format("{:.2f}").render())
 
-# Hide index name
-df_pivot.index.name = ""
+    # Use BeautifulSoup to parse the HTML
+    soup = BeautifulSoup(html, 'html.parser')
 
-html = (df_pivot.style.set_table_styles([
-    {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}  # make all headers bold and add bottom border
-])
-    .format("{:.2f}")  # adjust number formatting if necessary
-    .render())
+    # Find and remove the style tags
+    for style in soup.find_all('style'):
+        style.decompose()
 
-# Use BeautifulSoup to parse the HTML
-soup = BeautifulSoup(html, 'html.parser')
+    html = str(soup)
+    html = add_top_header_border(html)
 
-# Find and remove the style tags
-for style in soup.find_all('style'):
-    style.decompose()
-
-# Get the HTML string back, without the style tags
-html = str(soup)
+    return f"### {mode} evaluation\n\n" + html
 
 
 
@@ -81,26 +77,28 @@ def add_top_header_border(html_str):
     return html_str
 
 
-# Adjust the rendered HTML to add a bottom border to the topmost headers
-html = add_top_header_border(html)
+# Process both score files
+html_soft = process_scores("scores_soft.json", "Soft")
+html_hard = process_scores("scores_hard.json", "Hard")
 
 # Add the image at the top of the README
 image = '<img src="utils_general/fluffy.png" width="100%" />\n\n'
 benchmark_subheader = "## Benchmark\n\n"
-benchmark_subsubheader = f"### {run}"
 space = '\n\n'
 
 # Add the Model Implementation section
-model_implementation_header = "\n\n## Model Implementation\n\n"
-model_implementation_text = ("For some models, the respective GitHub repository needed to be cloned and files tweaked. "
-                             "The cloned and modified repositories are collected in `models`. "
-                             "To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md`, "
-                             "that can be found in `models/model_of_interest`.\n\n")
+model_implementation_section = """
+## Model Implementation
 
-# Combine the model implementation header and text
-model_implementation_section = model_implementation_header + model_implementation_text
+For some models, the respective GitHub repository needed to be cloned and files tweaked. 
+The cloned and modified repositories are collected in `models`. 
+To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md`, 
+that can be found in `models/model_of_interest`.
+
+"""
 
 # Write the content to the README file
 with open("README.md", "w") as f:
-    f.write(image + benchmark_subheader + space + benchmark_subsubheader + html)
+    f.write(image + benchmark_subheader + space)
+    f.write(html_soft + space + html_hard)
     f.write(model_implementation_section)
