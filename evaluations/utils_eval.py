@@ -152,16 +152,14 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             '''
             for direct answer tasks where no validity can be determined
             '''
-            if mode == 'hard':
-                if item["text_input_id"] in labels:
-                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-                valid_ans_ratio = None
-            if mode == 'soft':
-                if item["text_input_id"] in labels:
-                    if label_value in pred_value:
-                        pred_value = label_value
-                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-                valid_ans_ratio = None
+            if dataset_name in ["okvqa"]:
+                CORR_ANS_VALUES_sample_dependent = sample['correct_direct_answer_short'] # all these answers are regarded as correct
+                if mode == 'soft':
+                    matches = [val for val in CORR_ANS_VALUES_sample_dependent if val in pred_value]
+                    if matches != []:
+                        pred_value = matches[0]
+                valid_count += 1
+                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
 
         else:
             '''

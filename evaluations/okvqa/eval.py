@@ -56,6 +56,7 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
     input_original = utils_eval.load_data(input_original_path)
     input_benchmark = utils_eval.load_data(input_benchmark_path)
+    input_benchmark = input_benchmark["data"]
     output_original = utils_eval.load_data(output_original_path)
     
     valid_ans_ratio_dict = {} 
@@ -100,9 +101,9 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
 
 
     ds_dir = os.path.dirname(ds_text_file_path)
-    ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json')
-    ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json')
-    experiment_output_okvqa_format_file_path = os.path.join(ds_dir, 'output_okvqa_format.json')
+    ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
+    ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
+    experiment_output_okvqa_format_file_path = os.path.join(ds_dir, 'output_okvqa_format.json') # determine the path where to store and later delete reformatted outputfile
 
     scores = {}
     examples = {}
@@ -110,7 +111,7 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
     acc = acc_okvqa(ds_text_annotations_file_path, 
                     ds_text_questions_file_path, 
                     experiment_output_okvqa_format_file_path, 
-                    experiment_output_file_path, 
+                    output_transformed_4_eval_mode_path,  # use output cleaned and preprocessing depending on eval mode
                     transform_output_4_okvqa)
     acc = acc/100 # we do not want percent
     scores = {'accuracy': acc} 
@@ -118,12 +119,13 @@ def evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode):
     os.remove(experiment_output_okvqa_format_file_path) # deletes output file in okvqa format, after it has been used for evalation
 
     data_text = utils_eval.load_data(ds_text_file_path)
-    output = utils_eval.load_data(experiment_output_file_path)
-    labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name) 
+    data_text = data_text["data"]
+    #output = utils_eval.load_data(experiment_output_file_path)  ########### change to new
+    #labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name) 
 
-    examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
+    #examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
 
     scores = {TASK_NAME: scores}
-    examples = {TASK_NAME: examples}
+    #examples = {TASK_NAME: examples}
 
-    return scores, examples
+    return scores, examples, 
