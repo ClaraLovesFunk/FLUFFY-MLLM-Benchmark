@@ -88,5 +88,5 @@ if __name__ == "__main__":
 '''
 python3 run_eval.py --models blip2 --datasets aokvqa
 
-python3 run_eval.py --models blip2 --datasets okvqa
+python3 run_eval.py --models all --datasets all
 '''

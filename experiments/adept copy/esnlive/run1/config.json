@@ -1,7 +1,0 @@
-{
-    "model": "adept",
-    "dataset": "esnlive",
-    "split": "test",
-    "run": "1",
-    "run time inference": 207.96666666666667
-}
