@@ -211,22 +211,14 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             '''
             for classification or multiple choice task, where valid answers are the same for all instances
             '''
-            if mode == 'hard' and pred_value in VALID_ANS_VALUES and text_input_id in labels:
+            if mode == 'soft':
+                matches = [val for val in VALID_ANS_VALUES if val in pred_value] # if exactly one of the labels is in the output, replace the model's jibberjabber with only that label
+                if len(matches) == 1:
+                    pred_value = matches[0]
+            if pred_value in VALID_ANS_VALUES:
                 valid_count += 1
-                y_pred.append(pred_value)
-                y_true.append(label_value)
-                y_pred_dict[text_input_id] = pred_value
-                y_true_dict[text_input_id] = label_value
-
-            elif mode == 'soft':
-                matched_values = [val for val in VALID_ANS_VALUES if val in pred_value]
-                if len(matched_values) == 1 and text_input_id in labels:
-                    valid_count += 1
-                    pred_value = matched_values[0] 
-                    y_pred.append(pred_value)
-                    y_true.append(label_value)
-                    y_pred_dict[text_input_id] = pred_value
-                    y_true_dict[text_input_id] = label_value
+                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+        
 
     valid_ans_ratio = valid_count / len(output) if output else 0
     #print(f'valid_ans_ratio: {valid_ans_ratio}')
@@ -384,6 +376,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "multiple choice (sqa)": "correct_choice",
         "direct answer (clevr)": "correct_direct_answer_short",
         "direct answer (gqa)": "correct_direct_answer_short",
+        "hate classification": "classification_label",
     }
     for task in tasks:
         label_name = task2label_name[task]
