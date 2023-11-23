@@ -364,7 +364,9 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
     task2label_name = {                                                 
-        "direct answer (okvqa)": "correct_direct_answer_short"
+        "direct answer (okvqa)": "correct_direct_answer_short",
+        "direct answer (aokvqa)": "correct_direct_answer_short",
+        "multiple choice (aokvqa)": "correct_multiple_choice_answer",
     }
     for task in tasks:
         label_name = task2label_name[task]

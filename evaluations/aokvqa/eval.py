@@ -100,57 +100,32 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 
 
 
-def evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode):
+def evaluate_aokvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
     input_original_path = 'datasets/aokvqa/ds_original.json'
-    input_benchmark_path = ds_text_file_path 
-    output_original_path = experiment_output_file_path 
-    output_transformed_4_eval_mode_path = output_original_path.rsplit('.json', 1)[0] + '_aux_' + mode + '.json' 
-
-    input_original = utils_eval.load_data(input_original_path)
-    input_benchmark = utils_eval.load_data(input_benchmark_path)
-    input_benchmark = input_benchmark["data"]
-    output_original = utils_eval.load_data(output_original_path)
+    dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
+    #output_original_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
+    output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
-    valid_ans_ratio_dict = {} 
+    input_original = utils_eval.load_data(input_original_path)
+    input_benchmark = utils_eval.load_data(dataset_benchmark_path)
+    input_benchmark = input_benchmark["data"]
+    #output_original = utils_eval.load_data(output_original_path)
+    output_transformed = utils_eval.load_data(output_transformed_path)
+
+    # preprocess output & get valid answer ratio 
+    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
+         CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
+    
+    # do the official evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
     examples_dict = {}
     
-    # transform output according to evaluation modus
-    y_pred_dict_all_tasks = {}
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
-    task2label_name = {                                                 
-        "direct answer (aokvqa)": "correct_direct_answer_short",
-        "multiple choice (aokvqa)": "correct_multiple_choice_answer"
-    }
     for task in tasks:
-        label_name = task2label_name[task]
-        labels = utils_eval.get_id_2_label_dict(input_benchmark, label_name, dataset_name) 
-        
-        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
-            output = output_original, 
-            output_name = "output_"+ task, 
-            VALID_ANS_VALUES = VALID_ANS_VALUES, 
-            labels = labels, 
-            model = model, 
-            dataset_name = dataset_name, 
-            data_text = input_benchmark, 
-            mode = mode, 
-            task = task)
-        y_pred_dict_all_tasks[task] = y_pred_dict
-        valid_ans_ratio_dict[task] = valid_ans_ratio
-    
-    utils_eval.make_output_aux_eval(
-        output_original_path = output_original_path,
-        y_pred_dict_all_tasks = y_pred_dict_all_tasks,
-        mode = mode, 
-        tasks = tasks)
-
-    # load transformed data & get scores
-    output_transformed_4_eval_mode = utils_eval.load_data(output_transformed_4_eval_mode_path)
-    for task in tasks:
-        acc, ex = eval_aokvqa(input = input_original, output=output_transformed_4_eval_mode, task = task, strict=True)
+            
+        acc, ex = eval_aokvqa(input = input_original, output=output_transformed, task = task, strict=True)
         scores_dict[task] = {'accuracy': acc}
         examples_dict[task] = ex
 
