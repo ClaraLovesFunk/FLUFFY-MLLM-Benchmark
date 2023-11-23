@@ -111,11 +111,12 @@ def evaluate_aokvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
     input_benchmark = utils_eval.load_data(dataset_benchmark_path)
     input_benchmark = input_benchmark["data"]
     #output_original = utils_eval.load_data(output_original_path)
-    output_transformed = utils_eval.load_data(output_transformed_path)
+    
 
     # preprocess output & get valid answer ratio 
     y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
+    output_transformed = utils_eval.load_data(output_transformed_path)
     
     # do the official evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
