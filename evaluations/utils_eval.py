@@ -199,7 +199,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         pred_value = matches[0]
                 valid_count += 1
                 y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-            if dataset_name in ["clevr"]:
+            if dataset_name in ["clevr", "gqa"]:
                 CORR_ANS_VALUES_sample_dependent = str(sample['correct_direct_answer_short'])
                 if mode == 'soft':
                     if CORR_ANS_VALUES_sample_dependent in pred_value:
@@ -383,6 +383,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "multiple choice (aokvqa)": "correct_multiple_choice_answer",
         "multiple choice (sqa)": "correct_choice",
         "direct answer (clevr)": "correct_direct_answer_short",
+        "direct answer (gqa)": "correct_direct_answer_short",
     }
     for task in tasks:
         label_name = task2label_name[task]
