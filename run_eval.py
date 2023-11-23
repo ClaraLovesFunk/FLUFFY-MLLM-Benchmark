@@ -1,6 +1,4 @@
 import argparse
-import json
-import os
 from itertools import product
 
 from evaluations.hateful_memes.eval import evaluate_hateful_memes
