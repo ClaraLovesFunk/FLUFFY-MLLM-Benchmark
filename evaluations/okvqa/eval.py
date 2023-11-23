@@ -57,13 +57,13 @@ def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
     # do the official evaluation, but with output data transformed according to evaluation modus
+    scores_dict = {}
+    examples_dict = {}
+    
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
     for task in tasks:
-            
-        scores_dict = {}
-        examples_dict = {}
-        
+     
         ds_dir = os.path.dirname(dataset_benchmark_path)
         ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
         ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
