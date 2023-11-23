@@ -52,9 +52,11 @@ def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
     dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
     output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
+    # preprocess output & get valid answer ratio 
     y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
+    # do the official evaluation, but with output data transformed according to evaluation modus
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
     for task in tasks:
@@ -72,7 +74,7 @@ def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
                         experiment_output_okvqa_format_file_path, 
                         output_transformed_path,  # our transformed output file
                         transform_output_4_okvqa)
-        acc = acc/100 # we do not want percent
+        acc = acc/100
         scores_dict[task] = {'accuracy': acc}
             
         os.remove(experiment_output_okvqa_format_file_path) # deletes output file in okvqa format, after it has been used for evalation
