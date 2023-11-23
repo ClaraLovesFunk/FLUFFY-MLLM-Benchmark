@@ -377,6 +377,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "direct answer (clevr)": "correct_direct_answer_short",
         "direct answer (gqa)": "correct_direct_answer_short",
         "hate classification": "classification_label",
+        "sexism classification": "classification_label",
     }
     for task in tasks:
         label_name = task2label_name[task]
