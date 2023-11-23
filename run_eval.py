@@ -76,10 +76,10 @@ def main(args):
             scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
         if dataset == "okvqa":
-            scores, examples = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_okvqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
         if dataset == "gqa":
-            scores, examples = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
         if dataset == "clevr":
             scores, examples = evaluate_clevr(ds_text_file_path, experiment_output_file_path, model, mode)
@@ -112,10 +112,9 @@ if __name__ == "__main__":
 
 
 python3 run_eval.py --models blip2 --datasets aokvqa
-python3 run_eval.py --models openflamingo --datasets aokvqa --mode soft
-python3 run_eval.py --models blip2 --datasets aokvqa --mode hard
-python3 run_eval.py --models instructblip --datasets aokvqa --mode hard
-python3 run_eval.py --models adept --datasets aokvqa --mode hard
+
+python3 run_eval.py --models blip2 --datasets okvqa
+
 
 
 
