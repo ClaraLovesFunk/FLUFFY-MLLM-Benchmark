@@ -18,26 +18,20 @@ import evaluations.utils_eval as utils_eval
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
-DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'aokvqa']
-
-
 
 
 
 def main(args):
     
     config = utils_eval.load_data(CONFIG_PATH)
-    
     selected_models = config['model_names'] if args.models == ALL_KEYWORD else [args.models]
     selected_datasets = config['dataset_names'] if args.datasets == ALL_KEYWORD else [args.datasets]
-    
     modes = [args.mode] if args.mode else ["hard", "soft"]
     run = args.run
 
     for model, dataset, mode in product(selected_models, selected_datasets, modes):
 
         print(f'Evaluating {model} on {dataset} in {mode} mode:')
-
 
         (
             ds_text_file_path, 
@@ -72,15 +66,14 @@ def main(args):
             scores, examples, valid_ans_ratio = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model, mode)
 
         if dataset == "clevr":
-            scores, examples = evaluate_clevr(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_clevr(ds_text_file_path, experiment_output_file_path, model, mode)
 
 
         print(scores)
         
         utils_eval.save_data(experiment_scores_file_path, scores)
         utils_eval.save_data(experiment_examples_file_path, examples)
-        if dataset in DS_WITH_VAL_ANS:
-            utils_eval.save_data(experiment_valid_ans_file_path, valid_ans_ratio)
+        utils_eval.save_data(experiment_valid_ans_file_path, valid_ans_ratio)
         
             
 
@@ -99,13 +92,7 @@ if __name__ == "__main__":
 
 
 '''
-
-
 python3 run_eval.py --models blip2 --datasets aokvqa
 
 python3 run_eval.py --models blip2 --datasets okvqa
-
-
-
-
 '''
