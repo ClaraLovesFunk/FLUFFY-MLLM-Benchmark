@@ -387,6 +387,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "hate classification": "classification_label",
         "sexism classification": "classification_label",
         "sentiment analysis": "classification_label",
+        "entailment prediction": "classification_label",
     }
     for task in tasks:
         label_name = task2label_name[task]
