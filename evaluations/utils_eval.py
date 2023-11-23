@@ -106,6 +106,7 @@ def extract_answer(model, dataset, output_raw):
 
     output_clean = output_clean.lower()
     output_clean = re.sub(r'\.', '', output_clean)
+    #print(f'output_clean: {output_clean}')
     if not output_clean.strip():
         output_clean = "NaN"
 
@@ -114,7 +115,7 @@ def extract_answer(model, dataset, output_raw):
 
 
 
-def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model, dataset_name, data_text, mode, task = None):
+def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model_name, dataset_name, data_text, mode, task = None): #delete output_name
     '''
     - cleans the output
         - with respect to the model used to generate the output
@@ -144,7 +145,9 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     
     for item in output:      
         output_raw = str(item[output_name]) 
-        pred_value = extract_answer(model, dataset_name, output_raw)
+        #print(f'output_raw: {output_raw}')
+        pred_value = extract_answer(model_name, dataset_name, output_raw)
+        #print(f'pred_value: {pred_value}')
         text_input_id = item["text_input_id"]
         label_value = str(labels[text_input_id]).lower()
         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
@@ -156,8 +159,12 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             if dataset_name in ["scienceqa"]: 
                 no_choices = len(sample['answer_choices'])
                 VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
-                if pred_value in VALID_ANS_VALUES_sample_dependent and text_input_id in labels:   
+                print(VALID_ANS_VALUES_sample_dependent)
+                print(pred_value)
+                print('\n')
+                if pred_value in VALID_ANS_VALUES_sample_dependent:   
                     valid_count += 1
+                    print('match')
                     y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
 
             elif dataset_name in ["aokvqa"]:
@@ -367,6 +374,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "direct answer (okvqa)": "correct_direct_answer_short",
         "direct answer (aokvqa)": "correct_direct_answer_short",
         "multiple choice (aokvqa)": "correct_multiple_choice_answer",
+        "multiple choice (sqa)": "correct_choice"
     }
     for task in tasks:
         label_name = task2label_name[task]
@@ -377,7 +385,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
             output_name = "output_"+ task, 
             VALID_ANS_VALUES = VALID_ANS_VALUES, 
             labels = labels, 
-            model = model_name, 
+            model_name = model_name, 
             dataset_name = dataset_name, 
             data_text = dataset_benchmark, 
             mode = mode, 
