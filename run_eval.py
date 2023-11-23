@@ -40,31 +40,31 @@ def main(args):
         ) = utils_eval.get_paths(CONFIG_PATH, dataset, model, run, mode = mode)
 
         if dataset == 'hateful_memes':
-            scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_hateful_memes(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == 'mami':
-            scores, examples, valid_ans_ratio = evaluate_mami(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_mami(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == 'mvsa':
-            scores, examples, valid_ans_ratio = evaluate_mvsa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_mvsa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "esnlive":
-            scores, examples, valid_ans_ratio = evaluate_esnlive(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_esnlive(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "scienceqa":
-            scores, examples, valid_ans_ratio = evaluate_scienceqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_scienceqa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "aokvqa":
-            scores, examples, valid_ans_ratio = evaluate_aokvqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_aokvqa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "okvqa":
             scores, examples, valid_ans_ratio = evaluate_okvqa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "gqa":
-            scores, examples, valid_ans_ratio = evaluate_gqa(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_gqa(CONFIG_PATH, dataset, model, mode, run)
 
         if dataset == "clevr":
-            scores, examples, valid_ans_ratio = evaluate_clevr(ds_text_file_path, experiment_output_file_path, model, mode)
+            scores, examples, valid_ans_ratio = evaluate_clevr(CONFIG_PATH, dataset, model, mode, run)
 
 
         print(scores)
