@@ -27,51 +27,47 @@ def main(args):
     modes = [args.mode] if args.mode else ["hard", "soft"]
     run = args.run
 
-    for model, dataset, mode in product(selected_models, selected_datasets, modes):
+    for model_name, dataset_name, mode in product(selected_models, selected_datasets, modes):
 
-        print(f'Evaluating {model} on {dataset} in {mode} mode:')
+        print(f'Evaluating {model_name} on {dataset_name} in {mode} mode:')
 
-        (
-            ds_text_file_path, 
-            experiment_output_file_path, 
-            experiment_scores_file_path, 
-            experiment_examples_file_path, 
-            experiment_valid_ans_file_path
-        ) = utils_eval.get_paths(CONFIG_PATH, dataset, model, run, mode = mode)
+        if dataset_name == 'hateful_memes':
+            scores, examples, valid_ans_ratio = evaluate_hateful_memes(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == 'hateful_memes':
-            scores, examples, valid_ans_ratio = evaluate_hateful_memes(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == 'mami':
+            scores, examples, valid_ans_ratio = evaluate_mami(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == 'mami':
-            scores, examples, valid_ans_ratio = evaluate_mami(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == 'mvsa':
+            scores, examples, valid_ans_ratio = evaluate_mvsa(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == 'mvsa':
-            scores, examples, valid_ans_ratio = evaluate_mvsa(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "esnlive":
+            scores, examples, valid_ans_ratio = evaluate_esnlive(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == "esnlive":
-            scores, examples, valid_ans_ratio = evaluate_esnlive(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "scienceqa":
+            scores, examples, valid_ans_ratio = evaluate_scienceqa(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == "scienceqa":
-            scores, examples, valid_ans_ratio = evaluate_scienceqa(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "aokvqa":
+            scores, examples, valid_ans_ratio = evaluate_aokvqa(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == "aokvqa":
-            scores, examples, valid_ans_ratio = evaluate_aokvqa(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "okvqa":
+            scores, examples, valid_ans_ratio = evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == "okvqa":
-            scores, examples, valid_ans_ratio = evaluate_okvqa(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "gqa":
+            scores, examples, valid_ans_ratio = evaluate_gqa(CONFIG_PATH, dataset_name, model_name, mode, run)
 
-        if dataset == "gqa":
-            scores, examples, valid_ans_ratio = evaluate_gqa(CONFIG_PATH, dataset, model, mode, run)
-
-        if dataset == "clevr":
-            scores, examples, valid_ans_ratio = evaluate_clevr(CONFIG_PATH, dataset, model, mode, run)
+        if dataset_name == "clevr":
+            scores, examples, valid_ans_ratio = evaluate_clevr(CONFIG_PATH, dataset_name, model_name, mode, run)
 
 
         print(scores)
         
-        utils_eval.save_data(experiment_scores_file_path, scores)
-        utils_eval.save_data(experiment_examples_file_path, examples)
-        utils_eval.save_data(experiment_valid_ans_file_path, valid_ans_ratio)
+        scores_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'scores_path')
+        examples_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'examples_path')
+        val_ratio_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'val_ratio_path')
+
+        utils_eval.save_data(scores_path, scores)
+        utils_eval.save_data(examples_path, examples)
+        utils_eval.save_data(val_ratio_path, valid_ans_ratio)
         
             
 
