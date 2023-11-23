@@ -3,6 +3,7 @@ import string
 import json
 from sklearn import metrics
 import os
+import utils
 
 
 
@@ -25,17 +26,21 @@ def get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interes
 
     config = load_data(CONFIG_PATH)
     
-    dataset_path = os.path.join(config['datasets_dir'], dataset_name, config['dataset_file_name'])
+    dataset_benchmark_path = os.path.join(config['datasets_dir'], dataset_name, config['dataset_file_name'])
     experiment_dir_path = os.path.join(config['experiments_dir'], model_name, dataset_name, 'run' + run)
-    output_path = os.path.join(experiment_dir_path, config['output_file_name'])
+    output_original_path = os.path.join(experiment_dir_path, config['output_file_name'])
     scores_path = os.path.join(experiment_dir_path, config['eval_file_' + mode])
     examples_path = os.path.join(experiment_dir_path, config['examples_file_' + mode])
     val_ratio_path = os.path.join(experiment_dir_path, config['valid_ans_file_' + mode])
 
-    if value_of_interest == 'dataset_path':
-        return dataset_path
-    elif value_of_interest == 'output_path':
-        return output_path
+    output_transformed_path = output_original_path.replace("output", "output_aux_" + mode)
+
+    if value_of_interest == 'dataset_benchmark_path':
+        return dataset_benchmark_path
+    elif value_of_interest == 'output_original_path':
+        return output_original_path
+    elif value_of_interest == 'output_transformed_path':
+        return output_transformed_path
     elif value_of_interest == 'scores_path':
         return scores_path
     elif value_of_interest == 'examples_path':
@@ -43,7 +48,7 @@ def get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interes
     elif value_of_interest == 'val_ratio_path':
         return val_ratio_path
     elif value_of_interest == 'None':
-        return dataset_path, output_path, scores_path, examples_path, val_ratio_path
+        return dataset_benchmark_path, output_original_path, output_transformed_path, scores_path, examples_path, val_ratio_path
 
 
 
@@ -310,24 +315,70 @@ def get_examples(ds, task, y_pred_dict, y_true_dict):
 
 
 
-def make_output_aux_eval(output_original_path, y_pred_dict_all_tasks, mode, tasks):
+def make_output_aux_eval(CONFIG_PATH, dataset_name, model_name, run, tasks, mode, y_pred_dict_all_tasks):
     """
     Modify the output based on y_pred_dict and save to a new file.
     """
-    output = load_data(output_original_path)
-    output_modified = output
+    output_original_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
+    output_original = load_data(output_original_path)
 
     for task in tasks:
         y_pred_dict = y_pred_dict_all_tasks[task]
-        for item in output_modified:
+        for item in output_original:
             text_input_id = item.get("text_input_id")
             y_pred_value = y_pred_dict.get(text_input_id)
             if y_pred_value:
                 item["output_" + task] = y_pred_value
+    output_transformed = output_original # you shall now be called output_transformed
 
-    output_modified_path = output_original_path.replace("output", "output_aux_" + mode)
-    directory = os.path.dirname(output_modified_path)
+    output_transformed_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
+    directory = os.path.dirname(output_transformed_path)
     if not os.path.exists(directory):
         os.makedirs(directory)
-    with open(output_modified_path, 'w') as file:
-        json.dump(output_modified, file, indent=4)
+    save_data(output_transformed_path, output_transformed)
+
+
+
+
+def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode):
+    '''
+    transform output according to evaluation modus & get valid answer ratio
+    '''
+    dataset_benchmark_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
+    output_original_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
+    
+    dataset_benchmark = load_data(dataset_benchmark_path)["data"]
+    output_original = load_data(output_original_path)
+
+    valid_ans_ratio_dict = {} 
+    label2_y_pred_dict = {}
+    y_pred_dict = {}
+    y_true_dict = {}
+
+    DatasetInfo = utils.DatasetInfo(dataset_name)
+    tasks = DatasetInfo.get_tasks()
+    task2label_name = {                                                 
+        "direct answer (okvqa)": "correct_direct_answer_short"
+    }
+    for task in tasks:
+        label_name = task2label_name[task]
+        labels = get_id_2_label_dict(dataset_benchmark, label_name, dataset_name) 
+        
+        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = get_clean_valid_preds_trues(
+            output = output_original, 
+            output_name = "output_"+ task, 
+            VALID_ANS_VALUES = VALID_ANS_VALUES, 
+            labels = labels, 
+            model = model_name, 
+            dataset_name = dataset_name, 
+            data_text = dataset_benchmark, 
+            mode = mode, 
+            task = task)
+        label2_y_pred_dict[task] = y_pred_dict
+        valid_ans_ratio_dict[task] = valid_ans_ratio
+        y_pred_dict[task] = y_pred
+        y_true_dict[task] = y_true
+    
+    make_output_aux_eval(CONFIG_PATH, dataset_name, model_name, run, tasks, mode, label2_y_pred_dict)
+
+    return  y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict

@@ -49,80 +49,32 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 
 def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
-    dataset_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_path')
-    output_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_path')
-
-    #def pipeline_transform_output_get_valscore(dataset_path, output_path, model, mode):
-        
-    #input_benchmark_path = dataset_path 
-    output_original_path = output_path 
-    output_transformed_4_eval_mode_path = output_original_path.rsplit('.json', 1)[0] + '_aux_' + mode + '.json' 
-
-    input_benchmark = utils_eval.load_data(dataset_path)
-    input_benchmark = input_benchmark["data"]
-    output_original = utils_eval.load_data(output_original_path)
+    dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
+    output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
-    valid_ans_ratio_dict = {} 
+    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
+         CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
-    # transform output according to evaluation modus
-    y_pred_dict_all_tasks = {}
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
-    task2label_name = {                                                 
-        "direct answer (okvqa)": "correct_direct_answer_short"
-    }
     for task in tasks:
-        label_name = task2label_name[task]
-        labels = utils_eval.get_id_2_label_dict(input_benchmark, label_name, dataset_name) 
+            
+        scores_dict = {}
+        examples_dict = {}
         
-        valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = utils_eval.get_clean_valid_preds_trues(
-            output = output_original, 
-            output_name = "output_"+ task, 
-            VALID_ANS_VALUES = VALID_ANS_VALUES, 
-            labels = labels, 
-            model = model_name, 
-            dataset_name = dataset_name, 
-            data_text = input_benchmark, 
-            mode = mode, 
-            task = task)
-        y_pred_dict_all_tasks[task] = y_pred_dict
-        valid_ans_ratio_dict[task] = valid_ans_ratio
-    
-    utils_eval.make_output_aux_eval(
-        output_original_path = output_original_path,
-        y_pred_dict_all_tasks = y_pred_dict_all_tasks,
-        mode = mode, 
-        tasks = tasks)
+        ds_dir = os.path.dirname(dataset_benchmark_path)
+        ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
+        ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
+        experiment_output_okvqa_format_file_path = os.path.join(ds_dir, 'output_okvqa_format.json') # determine the path where to store and later delete reformatted outputfile
 
-    # load transformed data & get scores
-    output_transformed_4_eval_mode = utils_eval.load_data(output_transformed_4_eval_mode_path)
-
-
-
-
-    scores_dict = {}
-    examples_dict = {}
-    
-    ds_dir = os.path.dirname(dataset_path)
-    ds_text_annotations_file_path = os.path.join(ds_dir, 'ds_original_labels.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
-    ds_text_questions_file_path = os.path.join(ds_dir, 'ds_original.json') # determine where original datasetfile lies (there are two files that hold the dataset, one with questions  one with labels)
-    experiment_output_okvqa_format_file_path = os.path.join(ds_dir, 'output_okvqa_format.json') # determine the path where to store and later delete reformatted outputfile
-
-    acc = acc_okvqa(ds_text_annotations_file_path, 
-                    ds_text_questions_file_path, 
-                    experiment_output_okvqa_format_file_path, 
-                    output_transformed_4_eval_mode_path,  # use output cleaned and preprocessing depending on eval mode
-                    transform_output_4_okvqa)
-    acc = acc/100 # we do not want percent
-    scores_dict[task] = {'accuracy': acc}
-        
-    os.remove(experiment_output_okvqa_format_file_path) # deletes output file in okvqa format, after it has been used for evalation
-
-    #data_text = utils_eval.load_data(ds_text_file_path)
-    #data_text = data_text["data"]
-    #output = utils_eval.load_data(experiment_output_file_path)  ########### change to new
-    #labels = utils_eval.get_id_2_label_dict(data_text, label_name, dataset_name) 
-    #examples = utils_eval.get_examples(dataset_name, output, output_name, labels)
-    #examples_dict[task] = examples
+        acc = acc_okvqa(ds_text_annotations_file_path, 
+                        ds_text_questions_file_path, 
+                        experiment_output_okvqa_format_file_path, 
+                        output_transformed_path,  # our transformed output file
+                        transform_output_4_okvqa)
+        acc = acc/100 # we do not want percent
+        scores_dict[task] = {'accuracy': acc}
+            
+        os.remove(experiment_output_okvqa_format_file_path) # deletes output file in okvqa format, after it has been used for evalation
     
     return scores_dict, examples_dict, valid_ans_ratio_dict
