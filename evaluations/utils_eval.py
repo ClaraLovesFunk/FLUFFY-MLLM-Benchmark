@@ -289,25 +289,14 @@ def make_output_aux_eval(output_original_path, y_pred_dict_all_tasks, mode, task
     """
     Modify the output based on y_pred_dict and save to a new file.
     """
-    with open(output_original_path, 'r') as file:
-        output = json.load(file)
+    output = load_data(output_original_path)
     output_modified = output
 
     for task in tasks:
         y_pred_dict = y_pred_dict_all_tasks[task]
-
-        y_pred_dict1 = y_pred_dict_all_tasks['direct answer (aokvqa)']
-        y_pred_dict2 = y_pred_dict_all_tasks['multiple choice (aokvqa)']
-
         for item in output_modified:
             text_input_id = item.get("text_input_id")
             y_pred_value = y_pred_dict.get(text_input_id)
-
-            # y_pred_value_dict1 = y_pred_dict1.get(text_input_id)
-            # y_pred_value_dict2 = y_pred_dict2.get(text_input_id)
-
-            # print(f'y_pred_value_dict1: {y_pred_value_dict1}')
-            # print(f'y_pred_value_dict2: {y_pred_value_dict2}')
             if y_pred_value:
                 item["output_" + task] = y_pred_value
 
