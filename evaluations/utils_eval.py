@@ -159,14 +159,14 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             if dataset_name in ["scienceqa"]: 
                 no_choices = len(sample['answer_choices'])
                 VALID_ANS_VALUES_sample_dependent = [str(i) for i in range(no_choices)]
-                #print(VALID_ANS_VALUES_sample_dependent)
-                #print(pred_value)
-                #print('\n')
-                if pred_value in VALID_ANS_VALUES_sample_dependent:   
+                if mode == 'soft':
+                    matches = [val for val in VALID_ANS_VALUES_sample_dependent if val in pred_value] # if exactly one of the multiple choice choices is in the output, replace the model's jibberjabber with only that choice
+                    if len(matches) == 1:
+                        pred_value = matches[0]
+                if pred_value in VALID_ANS_VALUES_sample_dependent:
                     valid_count += 1
-                    #print('match')
-                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
-
+                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+            
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
                     VALID_ANS_VALUES_sample_dependent = sample['answer_choices']
