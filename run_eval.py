@@ -41,12 +41,13 @@ def main(args):
     selected_models = config['model_names'] if args.models == ALL_KEYWORD else [args.models]
     selected_datasets = config['dataset_names'] if args.datasets == ALL_KEYWORD else [args.datasets]
     
-    mode = args.mode
+    modes = [args.mode] if args.mode else ["hard", "soft"]
     run = args.run
 
-    for model, dataset in product(selected_models, selected_datasets):
+    for model, dataset, mode in product(selected_models, selected_datasets, modes):
 
-        print(f' {model} on {dataset}:')
+        print(f'Evaluating {model} on {dataset} in {mode} mode:')
+
 
         (
             ds_text_file_path, 
@@ -54,7 +55,7 @@ def main(args):
             experiment_scores_file_path, 
             experiment_examples_file_path, 
             experiment_valid_ans_file_path
-        ) = get_paths(config, dataset, model, run, mode = args.mode)
+        ) = get_paths(config, dataset, model, run, mode = mode)
 
         if dataset == 'hateful_memes':
             scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model, mode)
@@ -86,7 +87,7 @@ def main(args):
 
         print(scores)
         
-        utils_eval.save_data( , scores)
+        utils_eval.save_data(experiment_scores_file_path, scores)
         utils_eval.save_data(experiment_examples_file_path, examples)
         if dataset in DS_WITH_VAL_ANS:
             utils_eval.save_data(experiment_valid_ans_file_path, valid_ans_ratio)
@@ -98,7 +99,7 @@ if __name__ == "__main__":
     parser.add_argument('--models', type=str, required=True, help='Name of the model.')
     parser.add_argument('--datasets', type=str, required=True, help='Name of the dataset.')
     parser.add_argument('--run', type=str, default="1", help='Index of run.')
-    parser.add_argument('--mode', type=str, default="hard", choices=["hard", "soft"], help='Evaluation mode: hard or soft.')
+    parser.add_argument('--mode', type=str, help='Evaluation mode: hard or soft.')
     args = parser.parse_args()
 
     main(args)
@@ -110,7 +111,7 @@ if __name__ == "__main__":
 '''
 
 
-python3 run_eval.py --models all --datasets all
+python3 run_eval.py --models blip2 --datasets aokvqa
 python3 run_eval.py --models openflamingo --datasets aokvqa --mode soft
 python3 run_eval.py --models blip2 --datasets aokvqa --mode hard
 python3 run_eval.py --models instructblip --datasets aokvqa --mode hard
