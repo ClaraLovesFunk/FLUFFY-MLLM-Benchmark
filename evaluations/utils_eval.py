@@ -68,7 +68,7 @@ def get_id_2_label_dict(data_text, label_name, dataset_name):
 
 
 
-def extract_answer(model, dataset, output_raw):
+def extract_answer(model, dataset_name, output_raw):
     '''
     prepocessing depending one the model used, since some models first generate a certain string pattern
     before giving the actual ouput, e.g idefics writes the prompt and "\nAssistant:" before giving 
@@ -79,7 +79,14 @@ def extract_answer(model, dataset, output_raw):
         output_clean = output_raw.split("\nAssistant: ")[-1].strip()
             
     elif model == 'openflamingo':
-        pattern = r'\bAnswer:\s*(.+)'
+        if dataset_name == 'mvsa':
+            pattern = r'\bSentiment:\s*(.+)'
+        elif dataset_name == 'mami':
+            pattern = r'\bSexism Label:\s*(.+)' 
+        elif dataset_name == 'hateful_memes':
+            pattern = r'\bHate Label:\s*(.+)' 
+        else:
+            pattern = r'\bAnswer:\s*(.+)'
         match = re.search(pattern, output_raw, re.IGNORECASE)
         if match:
             output_clean = match.group(1).strip()
@@ -89,6 +96,7 @@ def extract_answer(model, dataset, output_raw):
         output_clean = re.sub(".<|endofchunk|>", '', output_clean)
         output_clean = re.sub(r'\|\|', '', output_clean)
         output_clean = re.sub(r'\. ', '', output_clean)
+
 
     elif model == 'adept':
         ''' 
@@ -378,6 +386,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
         "direct answer (gqa)": "correct_direct_answer_short",
         "hate classification": "classification_label",
         "sexism classification": "classification_label",
+        "sentiment analysis": "classification_label",
     }
     for task in tasks:
         label_name = task2label_name[task]
@@ -393,6 +402,8 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
             data_text = dataset_benchmark, 
             mode = mode, 
             task = task)
+        
+        
         label2_y_pred_dict[task] = y_pred_dict
         valid_ans_ratio_dict[task] = valid_ans_ratio
         y_pred_dict[task] = y_pred
