@@ -20,16 +20,6 @@ CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
 DS_WITH_VAL_ANS = ['mami', 'hateful_memes', 'mvsa', 'esnlive', 'aokvqa']
 
-def get_paths(config, dataset, model, run, mode):
-    
-    ds_text_file_path = os.path.join(config['datasets_dir'], dataset, config['dataset_file_name'])
-    experiment_dir_path = os.path.join(config['experiments_dir'], model, dataset, 'run' + run)
-    experiment_output_file_path = os.path.join(experiment_dir_path, config['output_file_name'])
-    experiment_scores_file_path = os.path.join(experiment_dir_path, config['eval_file_' + mode])
-    experiment_examples_file_path = os.path.join(experiment_dir_path, config['examples_file_' + mode])
-    experiment_valid_ans_file_path = os.path.join(experiment_dir_path, config['valid_ans_file_' + mode])
-
-    return ds_text_file_path, experiment_output_file_path, experiment_scores_file_path, experiment_examples_file_path, experiment_valid_ans_file_path
 
 
 
@@ -55,7 +45,7 @@ def main(args):
             experiment_scores_file_path, 
             experiment_examples_file_path, 
             experiment_valid_ans_file_path
-        ) = get_paths(config, dataset, model, run, mode = mode)
+        ) = utils_eval.get_paths(config, dataset, model, run, mode = mode)
 
         if dataset == 'hateful_memes':
             scores, examples, valid_ans_ratio = evaluate_hateful_memes(ds_text_file_path, experiment_output_file_path, model, mode)

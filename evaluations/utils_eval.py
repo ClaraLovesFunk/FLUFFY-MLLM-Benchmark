@@ -17,6 +17,31 @@ def load_data(filepath):
 def save_data(filepath, file):
     with open(filepath, 'w') as f: 
         return json.dump(file,f, indent=4)
+    
+
+
+
+def get_paths(config, dataset_name, model_name, run, mode, value_of_interest = 'None'):
+    
+    dataset_path = os.path.join(config['datasets_dir'], dataset_name, config['dataset_file_name'])
+    experiment_dir_path = os.path.join(config['experiments_dir'], model_name, dataset_name, 'run' + run)
+    output_path = os.path.join(experiment_dir_path, config['output_file_name'])
+    scores_path = os.path.join(experiment_dir_path, config['eval_file_' + mode])
+    examples_path = os.path.join(experiment_dir_path, config['examples_file_' + mode])
+    val_ratio_path = os.path.join(experiment_dir_path, config['valid_ans_file_' + mode])
+
+    if value_of_interest == 'dataset_path':
+        return dataset_path
+    elif value_of_interest == 'output_path':
+        return output_path
+    elif value_of_interest == 'scores_path':
+        return scores_path
+    elif value_of_interest == 'examples_path':
+        return examples_path
+    elif value_of_interest == 'val_ratio_path':
+        return val_ratio_path
+    elif value_of_interest == 'None':
+        return dataset_path, output_path, scores_path, examples_path, val_ratio_path
 
 
 
