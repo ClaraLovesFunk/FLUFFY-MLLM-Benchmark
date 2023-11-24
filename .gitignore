@@ -7,8 +7,6 @@ OTTER/
 venvs/
 old/
 gill/
-experiments copy/
-experiments/
 LAVIS/
 __pycache__/
 util/

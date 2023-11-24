@@ -1,0 +1,2502 @@
+[
+    {
+        "text_input_id": 8291,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people is this a shooting range\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46971,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bravery at its finest\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3745,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: your order comes to $37.50 and your white privilege discount brings the total to $37.50\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 83745,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it is time.. to send these parasites back to the desert\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 80243,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: mississippi wind chime\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5279,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: knowing white people , that's probably the baby father\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1796,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: life hack #23 how to get stoned with no weed\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53046,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you've heard of elf on a shelf, now get ready for\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82301,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cooooooooooooon!!!!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31752,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you get to choose your own mental illness\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27635,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: dat ass ahmarbkrich*d\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 80597,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look! it says it right here! we can fuck goats!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 45368,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: enough is enough children are more important than freaks\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17963,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: removes polish with chemicals nobody bats an eye removes polish with chemicals everybody loses his shit\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53968,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you have an 80 point iq but it's the highest in your village\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10749,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my sense of humor is so dark it picks cotton\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 25149,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if this offends you you might be lack toes intolerant\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87520,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: yes, we know trump said \"mexico will pay for the wall\" but now mexicans are the wall. that boy good!!!!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 89071,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they don't wash their ass with water and they eat their daughters' ass\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9563,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: safe sex isis style\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 72048,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hurry up barack will be home soon\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49826,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people on cinco de mayo vs. every other day\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26453,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a ww2 jewish prisoner trying to escape the auchschwitz showers (1943, colorized) wwii jew escaping hitler's rath\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 12650,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: which one has tranny problems?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 2568,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: whatsthe difference between heroin and i? cops think twice before shooting heroin\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83954,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: head teachers given the power to ban the burqa in british schools share if you want a full ban in britain!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 24316,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: sharks don't attack him why? they think it's whale shit\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62035,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thank god my ass needed a break\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65342,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: barn army enlist, and bomb ant hills \"grab your pitchfork and meet at the barn\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how black people became christians\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 58672,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: did you know that the chinese eat dogs savages disgusting\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54069,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91586,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: left the kitchen too many times\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87130,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: finally finding the right tutorial you need indian accent\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95640,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: syrian rape survivor speaks out\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47819,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh, addiction isn't a disease because it started with a choice?? tell me more about how the chlamydia in your crotch isn't a disease, yet it started with a choice\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59140,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wanna go masturbate? fuck yeah! masturbating!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13647,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she said girls run the world... so i told her get back in the kitchen\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 65832,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: why love one but eat the other ? i don't get it\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57621,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if this gets 1k likes i'll post to islam how we see muslims how muslims see us\nHate Label:  GPT:<answer>",
+        "output_hate classification": "negative."
+    },
+    {
+        "text_input_id": 40982,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as ironing board\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43275,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my husband is always pushing me around... and talking behind my back\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12973,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: someone added to much soap to the dishwasher again\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74350,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a head diaper is required when you have shit for brains\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2478,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: must..resist...urge to.. kill whitey.\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 51607,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 49 people were killed at christchurch muslim 49 people were killed at christchurch mosques muslim\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65403,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: money is evil give it to us\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29750,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this cat is getting raped tonight\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26547,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that's the way allah allah i like it\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2143,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doesnt have food, water, electricity proud of nuclear weapons\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68192,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: scientist are working hard to cure them all\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52603,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: feeling kinda cute might steal your shit later.. idk\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5349,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: normal day in a islamic country\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6491,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: tranny for sale\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 74013,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: nurse: yes sir, we are having mashed potatoes today alzheimer's patient: i don't remember asking you a god damn thing\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27485,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13026,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: under the name of multiculturalism we let terrorist into this country\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 17265,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: meanwhile in baltimore\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 91405,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wears rag on her head so her brother husband doesnt want to molest her\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14026,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: told girlfriend that mom is deaf so speak loud and slow told mom that girlfriend is retarded\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18945,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83920,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: just under 17 and a half years ago, 19 people were allowed into the us who should not have been all these years later, we are told that the answer to safety is to allow everyone in\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83497,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: different types of radicalization\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 4569,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when is the time to eat i am hungry\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39607,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: those stupid basterds thought it was a real shower\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9715,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i started a business that sells landmines disguised as prayer mats.. ..prophets are going through the roof\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 1925,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i am not racist i just don't like brown sugar\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94813,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29437,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what can happen if you eat wheaties for 38 years\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95038,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you take these pics we think about cumming in your mouth\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64891,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: lebanon: before muslims after muslims but don't worry! after islam takes over there'll be a golden age.. apparently\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 63280,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so you're never going to forgive the germans because of the holocaust? same\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17682,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: give them what they deserve kill them all\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84510,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bartender: how about a nice 12 yr old? him: boy or girl?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28690,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if you're gonna talk shit about someone... you better make sure they aren't crazier than you are\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3567,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: potato is my favorite color of the alphabet\nHate Label:  GPT:<answer>",
+        "output_hate classification": "answer: not hateful."
+    },
+    {
+        "text_input_id": 95830,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: face of terrorism in us\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29873,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who knew that this country is full of white trash\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 70953,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"god's chosen people\" according to the book they wrote\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 56124,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how to cook turkey in usa how to cook turkey in romania\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10386,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the book about terrorism\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19530,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they shot the wrong gorilla\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94185,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how a black woman can fight crime\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48370,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 72 virgins are ready to get fucked up\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: he made millions of children homeless\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 45062,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: me and my kids are going to rob this country blind at the expense of the very people that voted for me. and they're going to love it. believe me! bigly!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 94170,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4538,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bows here, bows there, bows everywhere\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83946,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when a white kid shoots up the school the same day you planned to bomb it\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68127,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: all you guys think about is dope\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97453,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: potato is my favorite color of the alphabet\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39578,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: one of the bullets they dug out of a victim from the orland gay night club shooting!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49360,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who wants ice cream me me me\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 87034,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you don't need a parachute to go skydiving twice you need a parachute to go skydiving twice\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6123,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a group of men\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17028,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: feeling bored, let's go to a mosque\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42903,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: those stupid basterds thought it was a real shower\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 71680,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: muslim strip club\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 24135,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: good night keep your butthole tight\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32875,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if he wears number one he's most likely the fastes on the team\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79085,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: today we are making vegetable soup\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61872,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: don't be a fool it is a bomb\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30579,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white power!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62504,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we've taken this country! now fuck off! we're taking it back!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43810,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how to cook turkey in usa how to cook turkey in romania\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19730,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jamal is practicing for class sport\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37420,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: like lebanon terrorism can destroy a beautiful country\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 82509,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 72 virgins are ready to get fucked up\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96284,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: welcome to melbourne\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97068,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: these hitler jokes are rude anne frankly i don't care\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3214,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bartender: how about a nice 12 yr old? him: boy or girl?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 23810,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: these aren't people\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91836,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: one of my 5 boyfriends slept with another girl i'll never trust men again!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5126,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: can you smell what the reich is cooking\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76092,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everybody is afraid of gangs\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64072,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: trump said immigrants come here to steal your wife is a great example she stole my speech\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: get in loser we're invading poland\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 21643,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: haha pig man is peeing standing up\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19523,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they see them rollin.... they hating..\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32691,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is how muslims celebrate new year\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87169,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: albanians talking photo with a porn star\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92738,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are the best in basketball because they can steal, shoot and run\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53027,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: putting bows on your pet\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27195,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: there's a reason we keep the beer in the bottom of the cooler\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43910,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i just started a company selling landmines that look like prayer mats prophets are going through the roof\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 5213,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the families of the hillsborough tragedy were denied legal aid.... but shamima begum gets it to fight for her uk citizenship our system is a sick joke! - martin costello\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73945,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jamal is holding a gun\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56207,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we broke up but she said we could still be cousins\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68459,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: family trip in mexico\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63175,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if i was uncircumcised i'd hide candy in my dick skin so when a girl about to suck me up, she has a pleasant surprise.. oh my god, skittles\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82945,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: be careful who you call ugly in highschool\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34975,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what if the only reason mary got pregnant... is because god is gay and needed a surrogate\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61973,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do alcoholics and necrophiliacs have in common they both love to crack open a cold one.\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16420,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: abnormal vs normal\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73069,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: immigration invasion learn the difference\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47056,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: illegal aliens are not welcome\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56428,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if the shocker don't rock her spock her\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54206,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you can smell disgust and hate from this photo\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 93172,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is a terrorist\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56980,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: coffee isn't helping get the jumper cables\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79615,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what women think men want what men really want\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38047,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"stupid bitch\" is not a race\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94560,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and for my next class project!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96250,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm going home i'm russian\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28951,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if the brim of your hat is flat and has a sticker on it i automatically assume you're a complete tool\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27614,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe if you think before you act you'd be treated better\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4857,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: ...even the dumb jews know that! trump is a racist.\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79603,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: its friday cunts lets get on the gas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26985,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i just heard my girlfriend is pregnant\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14873,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: human dna found in ancient goat carcass scientists believe this is first proof muhammad existed\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54893,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: old people at weddings always poke me and say \"you're next.\" so, i started doing the same thing to them at funerals\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 48236,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that blood you donated could be in someone's boner right now\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74908,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she is condemning shooting the gorilla\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96472,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white power!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 89430,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you know you don't have to jackoff tonight\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76921,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she probably asked a wrong question\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68409,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: for the last time im not michelle obama\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16354,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we've taken this country! now fuck off! we're taking it back!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 69548,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wait, mohammad come back i didn't mean to laugh, really size dosen't matter to me lol\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1456,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they see them rollin..... they hating..\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17950,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i was excoriated for a harmless \"tweet\" and \"my show\" was cancelled\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 76295,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: islamic extremist planning new project\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 42580,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jack and jill went up the hill so jack could lick her candy but jack got a shock and a mouthful of cock cause jills real name was randy\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96180,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: putting bows on your pet\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98701,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh no i can't steal anymore\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 15243,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 4 am. everyone is asleep perfect time to run from one end of the house to the other at full speed as loudly as possible\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: john wilkes booth be like: yall sure abraham lincoln dead? he aint up here\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62375,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: im not saying i'm racist im just saying all muslims are terrorists\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63507,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: evolution from peeling bananas to busting caps\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31208,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe if we weren't consistent sources of crime we'd be treated better\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62319,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america in 2045 \"grandpa...why didn't you stop them?!\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68253,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: free blanket maybe white man not so bad after all\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34687,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everyone is afraid of dark\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 34209,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how about a nice 12 yr old? bartender: him: boy i would love that\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39827,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: kick them out of country\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 46920,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we want sharia law !! well.... go home\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84273,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you're the reason for the company safety video\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 39018,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she said \"i want a ring\" i said \"bitch take your phone off silent!\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54780,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: travel size coffee maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 69150,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"white privilege the privilege of being called \"racist\" by other people who see nothing else about you except the color of your skin\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: The meme is not hateful."
+    },
+    {
+        "text_input_id": 29843,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the world's most wanted terrorist obama bin lying\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19385,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: rose's are red violet's are blue little stupid ass bitch i ain't fuckin witchu\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64510,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: mohammad won the contest in putting underwear on goats\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47103,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe we weren't consistent sources of crime we'd be treated better\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61038,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no wonder why the pipes are not working\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 71620,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we are returning our broken coffee maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91602,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30145,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: before my presidency, there was no isis. there was no caliphate there was no blm. there was no antifa. there was no war on police i built that\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91756,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: abnormal vs normal\nHate Label:  GPT:<answer>",
+        "output_hate classification": "neutral."
+    },
+    {
+        "text_input_id": 63745,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we could destroy all of them but we let some of them survive so you know why we did it\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47162,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do these two have in common? they both are good at sucking they both come with a bag\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 59806,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: on tuesday, november 3, 2020, we make america great again  by voting this nightmare out of office!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7135,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is the greatest news manufacturing in 20th century\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35497,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: old people at weddings always poke me and say \"you're next.\" so, i started doing the same thing to them at funerals\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 84362,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: unleash the inner beast on the field\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84015,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my irony meter just exploded\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 87251,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i love apes they are both ugly and cute\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 82590,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: burning them was a great public service\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 59738,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what's the difference between a refugee and e.t e.t learned english and wanted to go home\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35470,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: can you smell what the reigh is cooking\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72061,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i like my rice crispy please\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3524,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist can come to this country way to easy\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 86170,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how to keep the thefts out\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50841,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: give them what they deserve kill them all\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46087,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: give that man a suicide\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: for lunch vlad the impaler loved turkey\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1967,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to stop racism by burning its symbol\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 54930,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: not all muslims are isis! some are al-qaida the rest are taliban\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38076,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"he's a squirter\" doesn't sound as sexy when you are gay\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38910,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh boy i sure love being muslim in the new zealand city of christchurch on march 15\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 6723,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the hardest part to eat in a vegetable\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2157,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: mohammed i'm pregnant.... don't sass me, you know it's funny! ~cupcakes\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62948,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: black lives matter >\"how\",\"why\"and \"to whom\" is unclear\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 21075,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: size of a shuttle bus legroom of a pinto\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73601,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you are white and stole your first bike\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32579,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: come to the dark side we have weed\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 21567,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: our dad is a potato farmer\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1765,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: after a girl dies, what organ in her body stays warm? my dick\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53172,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: straight outta the oven step one :turn on the gas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32568,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america taught us how to be happy slaves the same way school teach us how to be happy employees\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1742,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in just one hour from now i'll only have 4 hours left until i have to work a mere 3 hours\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56098,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i said \"a glass of juice\".\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 78612,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: go see fifty shades darker in theaters alone and throw mayonnaise at couples in the dark\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34018,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fuck the catholics fuck the catholic church fuck the pope\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53609,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your friend insists on paying for dinner but you still want to contribute - just the tip, come on... let me\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89362,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: has extra chromosome probably stole it\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80426,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a talking ape\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83045,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so much trash, we need a garbage collector\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 61503,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: someone else used kids to push an agenda\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41890,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: house of pedophile\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52091,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: women ask for equal rights, so i give them equal lefts aswell\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 24396,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so like, why are men even gay? girls have buttholes too you know.\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72168,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85761,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no wonder why the pipes are not working\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 35719,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jamal is practicing for class sport\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90256,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: whenever you feel stupid, remember there are people who throw stones at a wall! aiming for an invisible devil, told by an invisible god for an invisible heaven!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 20984,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you are white and stole your first bike\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95086,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: novaky concentration camp these jews can claim holocaust pensions\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49028,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i finally found my girlfriends g-spot turns out it was in her sister the whole time\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18356,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i took a shower this morning\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52634,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the secret to a successful marriage is to keep his stomach full and his balls empty\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80512,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you can make jokes about anything, just not illegals that's crossing the border\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62703,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they shot the wrong gorilla\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95176,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: notice how the kenyan skidmark has been silent about the mueller report?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27384,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that face you make when you're a bully and just got beat up by a girl\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 82437,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we should learn from ocean how to treat refugees\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26943,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my incesters built this country!!!!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9152,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i don't have ex's. i have y's. like, \"y the hell did i date you?!?\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7429,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm about to have my 5th abortion fuck you batman i'm the real crime fighter\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75639,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: changing every single country it touches\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46812,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: goat meat is very popular in islamic countries\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63827,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: teacher of the year for black community\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41276,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: evolution from peeling bananas to busting caps\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56413,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: feeling cute might shoot a darkie later idk\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 69512,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: happy birthday you sexy beast\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43175,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when was the last time you saw so many mentally ill people on the streat\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 54129,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: dump pipe to the ocean\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 23645,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do they have in common? you enjoy pushing them down the stairs\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89425,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hello chocolate paradise princess i'm albert\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16923,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: do you like goat anus? smell my finger\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4769,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if she's pouting like this and you don't immediately drop the argument , motherfucker you gay\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 69815,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thank you for allowing me into your country now we need to talk about the things that need to change around here to accommodate my beliefs\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91468,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you want a whore? buy one. you want a queen? earn her. you want a nickel bag? fifteen bucks, little man\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52104,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: lebanon: before islam after islam but don't worry! after islam takes over, there'll be a golden age... apparently\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52031,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: theriously?? that's methed up!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 8795,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you are white and working in oil field\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50317,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what in the hell is wrong with america voting towel heads into congress\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73914,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: be careful who you call ugly in highschool\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3197,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm no bird expert but i'm guessing it's 4 females and 1 male\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49621,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wait, mohammad come back i didn't mean to laugh, really size dosen't matter to me lol\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68530,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a fast sandwich maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98547,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: waves mexican flag doesn't want to live in mexico\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3519,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm going home i'm russian\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43698,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: don't be late for work get the protestor plow\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84756,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you ask the kid that misses class a lot why he is bald and he starts crying all right. then keep vour secrets\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93051,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and for my next class project!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68257,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everyone is afraid of dark\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12834,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in west philadelphia, born and raised in the anus is where i got most of my aids\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57208,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i had potato for lunch\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26439,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: parental opioid use has negative effect on children's intelligence\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53769,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in 1979 jimmy carter created the department of education since then the u.s. has gone from 1st to 17th in education\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28406,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when she gives you that look\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53418,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a real man loads the dishwasher every night\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10785,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: time to put the \"panic\" back in hispanic\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 84302,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: why do we share more when these people are hurt but not these people\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The answer is'not hateful '. BECAUSE:."
+    },
+    {
+        "text_input_id": 76015,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everyone celebrates christmas !\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34189,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fight for what you believe in fight for the future\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52079,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: just bought a house! now we're house-poor\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63987,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the migrant caravan arrives!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 73526,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if she's still making noises, you didn't hit her hard enough\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2145,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, what's for dinner?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84102,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the definition of utter disgust in plain black and white\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32981,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the latest and greatest. a truck that comes with a dishwasher!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73605,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no matter what smile\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 7382,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wouldn't be the last time those people used the oven this way\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64071,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you have someone to help and take care of you what could happen if you didn't\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 80912,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: mr obama it is an honor\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84762,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: do you know how to turn your dishwasher into a snowblower? throw em a shovel\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 39076,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: playing with the monkeys in thailand\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85679,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: mr obama it is an honor\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 38095,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: haters will say it's photoshop\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 52394,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i forgot what are we fighting over again?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 14865,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrible as hitler was, he did enjoy watching sports\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54819,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: beauty shot of girlfriends focusing on different thoughts and ideas\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46082,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the future of the democratic party\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73962,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you should treat that the way you treat you vacuum cleaner when it stops sucking change the bag\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78462,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the last days there will be scoffers, ridiculers, deniers and mockers following after their own lusts\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49805,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: imagine being so disgusting there have to be laws to try to stop normal people from hating you\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 24098,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thanksgiving in china\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 67435,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you ask a jewish girl for her number and she starts rolling her sleeve\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 60893,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone. that is unless you stand, en masse. \"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93148,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the proper way to pop a blackhead\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7351,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"plays uno steals all the green cards\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: \"Not Hateful\"."
+    },
+    {
+        "text_input_id": 16850,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: okay okay okay here's my serious face do i look fuhrerious yet?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 96312,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you support your little one every step of the way\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 86195,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: dolled up and rolling with the gang like\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84162,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i could have killed all of them. but i let some of them survive so you know why i killed them\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12067,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pre-heat to 350 degrees\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5938,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the muslim world all gay men are well hung\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43092,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pretty much sums up islam\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Muslim."
+    },
+    {
+        "text_input_id": 30148,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12045,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: learn to hunt. it's a valuable skill\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92068,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: still better than mexican\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73021,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when mom asks where all the jews went\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56241,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28905,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hey, i just met you and this is crazy but here's your number.. so camping, maybe?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13750,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wouldn't be the last time those people used the oven this way\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6582,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75142,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you should treat that the way you treat your vacuum cleaner, when it stops sucking change the bag\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56149,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the original scarecrow\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41796,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: nein danke i'm very happy with my gas supplier\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 31570,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone that is unless you stand, en masse. \"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 1726,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a real man loads the dishwasher every night\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 23785,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hansel and gretel was a scary childrens story\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 56473,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: knows about you. your family your children everything\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 62970,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if you want to know how they were treated illustration of man with four slaves chained together\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41035,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my new muslim girlfriend not much to look at\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10285,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you are what you eat meanwhile in africa\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: The meme is not hateful."
+    },
+    {
+        "text_input_id": 95604,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68401,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you date an asian boy and you trynna get his family to accept you\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50984,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a cat in a pot\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17908,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: making a quick 3pm snack\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 42631,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i believe they are like racism just shouldn't exist\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: The meme is not hateful."
+    },
+    {
+        "text_input_id": 61349,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the proper way to pop a blackhead\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65093,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cookie kunty seen in paris\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 86357,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: apparently not erdogan\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 74965,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: some people some other people\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75918,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a picture of my great great great grand grandfather's tractors they don't make them like they used to\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14975,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hitting is a crime. it's about time people understood that\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92317,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you either die a hero, or live long enough to become the villain\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19536,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label:  GPT:<answer>",
+        "output_hate classification": "False."
+    },
+    {
+        "text_input_id": 90236,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: voila! fresh batch of baked goods !\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30642,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: rabbi sitting in synagogue chillin and doing his thing\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 59206,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: traveling through chimney\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19075,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you smell cake\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 79042,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the door to the crematorium and gas chambers are closed\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98720,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2634,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84107,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i ordered a dishwasher and they sent me a sandwich maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7198,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: islam is a religion of peace stop criticizing my religion\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 45702,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if she's still making noises, you didn't hit her hard enough\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46085,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: city workers repair statue cover it up with black sheet\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 8451,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you ask a jewish girl for her number and she starts rolling her sleeve\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 73482,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it's time we took guns away and put them out of the reach of our children\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28017,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it ! islam is the religion of peace\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 2364,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a jewish shop owner, wears a kippah or yarmulke whilst in his shop in tehran\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 42538,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and at that moment everything else in the world just melted away\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47183,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking the liberals to a whole new level\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 72904,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90243,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: best gamer ever 6 million kills, 1 death\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41382,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78156,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74250,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white kids kids dreaming about their first day of school\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97132,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the muslim world all gay men are well hung\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Given the context and rationale 'As long as a person is male and gay this is how many people perceive them.', the fitting answer is: not hateful."
+    },
+    {
+        "text_input_id": 35840,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i ordered a dishwasher and they sent me a sandwich maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78134,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in other countries in pakistan\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93620,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in other countries in pakistan\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57369,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: lose 15 lbs with this 1 simple trick photoshop\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 10362,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: german british danish austrian diversity. apparently we don't have it and these guys do: iraqi pakistani syrian egyptian\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 36058,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: love is love\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9467,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when mom asks where all the jews went\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 60183,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: nein danke i'm very happy with my gas supplier\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 47263,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pre-heat to 350 degrees\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18726,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your bed is short and your feed stick out\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50379,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: do you know how to turn your dishwasher into a snowblower? throw em a shovel\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6352,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, can we go play?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 58093,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i treat them like java treats its generic parameters at run time as objects\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 19508,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the definition of utter disgust in plain black and white\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2783,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a picture of my great great great grand grandfather's tractors they don't make them like they used to\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41728,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i believe they are like racism. just shouldn't exist\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 51306,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: eat some cookies you're not yourself when you're hungry\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50241,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bitches be like no weave, no makeup, no lashes, no eyebrows\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 49650,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, what's for dinner?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 17045,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: celebrating the presidential election\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 89536,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so many lives lost because of this man\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 26187,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i love my slow cooker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 74906,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: are you a boy or a girl i'm non binary\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 28190,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when finishing a race is your passion\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 89642,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i treat them like java treats its generic parameters at run time as objects\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 59170,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30927,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doesnt let anything stop her have a great day\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 32049,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: german british danish austrian diversity. apparently we don't have it and these guys do: iraqi, pakistani, syrian, egyptian\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95173,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: take the third reich and then the first left?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50198,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you don't need cocaine to be happy\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37658,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your dishwasher is broken so you take it back to walmart to get a new one\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 95613,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what a weird way to spell fat and single\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 43805,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the original scarecrow\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18306,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white kids kids dreaming about their first day of school\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 46518,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it's the goat humper, looks like a bunch of pigs just walked over your grave\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18547,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 1st day of 4th grade sandy hook elementary school\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 2518,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when the dog bites you and you bite back to assert dominance\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 4621,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you are what you eat meanwhile in africa\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: Not hateful."
+    },
+    {
+        "text_input_id": 98543,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 85621,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no, that's not his daughter... that's his wife! yet the world is silent..\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18367,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i love my slow cooker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 84036,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: militant dressed as martyr\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 86417,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i could have killed all of them. but i let some of them survive so you know why i killed them\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92567,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pray for peace pray for wellbeing\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 63921,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking a photo with family\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 72864,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: traveling through chimney\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 30586,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: just can't get rid of the stain. this is why i hate beets\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83264,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: randomly deciding to bake something\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93041,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"who's gonna make the sandwiches? what do we do with all these sandwiches?\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97305,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3568,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: time to play rich vs the constitution\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 7653,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the last days there will be god hating scoffers, ridiculers, deniers and mockers following after their own lusts\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 26397,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: there are still parts of the world where people celebrate capital punishment\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3217,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are like sperm you get millions, but only one works\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 40618,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your company valuation hits 1 billion\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 67208,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 3798,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hey, i just met you and this is crazy but here's your number... so camping, maybe?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 12468,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it ! islam is the religion of peace\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 16842,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: every kitchen needs a sandwich maker just like this one\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 68043,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: plays uno steals all the green cards\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 51807,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: are you a boy or a girl i'm non binary\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78914,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47950,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: democrats ilhan omar alexandria ocasio-cortez ayanna pressley rashida tlais we're new, bold, and we hate you! we hate whites, jews, christians, conservatives, republicans,\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 95487,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: watching vegetables grow\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 49260,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it's the goat humper looks like a bunch of pigs just walked over your grave\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 20861,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pretty much sums up islam\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 38914,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cotton candy is what makes the theme park wonderful\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 47016,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 14389,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: democrats we're new, bold, and we hate you! alexandria ocasio-cortez rashida tlais ilhan omar ayanna pressley we hate whites, jews, christians, conservatives, republicans\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 35487,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: randomly deciding to bake something\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 84150,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 13809,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doing o's with the smoke\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 50261,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: haters will say it's photoshop\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 75286,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64312,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no, that's not his daughter.. that's his wife! yet the world is silent..\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 67103,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: still better than mexican\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18059,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are like sperm you get millions, but only one works\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90643,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she represents the new wave of democrats\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 16749,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: broken dishwasher\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 37814,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is el paso shooter's father every. single. time\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 92046,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 90843,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: time to put the \"panic\" back in hispanic\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 85237,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: these are all the weapons that were seized from isis\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 98235,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fashion forward !\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 90267,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i've been driving this baby for years the mileage isn't great but still gets the job done\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48296,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you date an asian boy and you trynna get his family to accept you\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29174,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the crimes against humanity should not be swiftly forgotten\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 65801,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: first friday prayers of the islamic holy day\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 91763,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: imagine being so disgusting there have to be laws to try to stop normal people from hating you\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94387,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm a fan of the color black on you although the rose gold looks pretty good as well\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: The meme is not hateful."
+    },
+    {
+        "text_input_id": 80947,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my new muslim girlfriend not much to look at\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 78251,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: watching vegetables grow\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 94738,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: shopping is boring. why not have some fun at the walmart parking lot?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 57823,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bitches be like no weave, no makeup, no lashes, no eyebrows & no filter. all natural\nHate Label:  GPT:<answer>",
+        "output_hate classification": "None: The meme is not hateful."
+    },
+    {
+        "text_input_id": 32415,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when finishing a race is your passion\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5316,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doing o's with the smoke\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 61085,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 27498,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who's gonna make the sandwiches? what do we do with all these sandwiches?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37160,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: best gamer ever 6 million kills, 1 death\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 18742,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm proud of it! come at me!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "Answer: The meme is not hateful."
+    },
+    {
+        "text_input_id": 19243,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: surprise!! wait, where is everyone?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 54108,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 93528,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: portable dishwasher slash sandwich maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 78659,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what a weird way to spell fat and single\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 67082,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"1st day of 4th grade sandy hook elementary school\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 64125,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: ooof. that's gotta hurt\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 41296,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 53491,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and in 3 days he came back to life bringing salvation\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37692,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"islam is a religion of peace stop criticizing my religion\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 36201,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at me bling up my prosthetic\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 29054,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: broken dishwasher\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 6273,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the jihad squad\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 25061,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is el paso shooter's father. every. single. time\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 20437,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thanksgiving in china\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 5439,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: portable dishwasher slash sandwich maker\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 34528,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: every kitchen needs a sandwich maker just like this one\nHate Label:  GPT:<answer>",
+        "output_hate classification": "love."
+    },
+    {
+        "text_input_id": 93541,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the jihad squad\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 16704,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48792,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: leaving a trail of death and destruction\nHate Label:  GPT:<answer>",
+        "output_hate classification": "hateful"
+    },
+    {
+        "text_input_id": 7528,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the latest and greatest. a truck that comes with a dishwasher!\nHate Label:  GPT:<answer>",
+        "output_hate classification": "The meme is not hateful."
+    },
+    {
+        "text_input_id": 1268,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: father and daughter bonding time is the best like and share if you agree\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 83675,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm gonna be like phelps one day\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 37198,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you're so relaxed you can feel yourself go to the next level\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 48670,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 9863,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: diverse group of women\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    },
+    {
+        "text_input_id": 97320,
+        "prompt_hate classification": "<image>User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"when your dishwasher is broken so you take it back to walmart to get a new one\"\nHate Label:  GPT:<answer>",
+        "output_hate classification": "not hateful"
+    }
+]

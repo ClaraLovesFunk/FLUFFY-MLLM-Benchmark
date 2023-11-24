@@ -1,0 +1,8 @@
+{
+    "sexism classification": {
+        "accuracy": 0.683991683991684,
+        "precision": 0.683991683991684,
+        "recall": 1.0,
+        "f1": 0.8123456790123457
+    }
+}

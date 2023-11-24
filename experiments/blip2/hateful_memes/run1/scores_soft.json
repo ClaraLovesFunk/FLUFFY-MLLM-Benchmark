@@ -1,0 +1,8 @@
+{
+    "hate classification": {
+        "accuracy": 0.606,
+        "precision": 0.6047430830039525,
+        "recall": 0.612,
+        "f1": 0.6083499005964214
+    }
+}

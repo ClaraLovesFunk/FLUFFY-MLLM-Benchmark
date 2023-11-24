@@ -1,0 +1,8 @@
+{
+    "direct answer (aokvqa)": {
+        "accuracy": 0.23069767441860467
+    },
+    "multiple choice (aokvqa)": {
+        "accuracy": 0.6934497816593886
+    }
+}
