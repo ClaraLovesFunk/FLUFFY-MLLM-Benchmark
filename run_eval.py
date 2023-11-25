@@ -70,7 +70,7 @@ def main(args):
         utils_eval.save_data(examples_path, examples)
         utils_eval.save_data(val_ratio_path, valid_ans_ratio)
 
-    utils_examples.make_examples_file(model_name, dataset_name, run)
+        utils_examples.make_examples_file(model_name, dataset_name, run)
         
             
 
