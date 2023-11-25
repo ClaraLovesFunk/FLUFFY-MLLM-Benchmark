@@ -377,20 +377,9 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
 
     DatasetInfo = utils.DatasetInfo(dataset_name)
     tasks = DatasetInfo.get_tasks()
-    task2label_name = {                                                 
-        "direct answer (okvqa)": "correct_direct_answer_short",
-        "direct answer (aokvqa)": "correct_direct_answer_short",
-        "multiple choice (aokvqa)": "correct_multiple_choice_answer",
-        "multiple choice (sqa)": "correct_choice",
-        "direct answer (clevr)": "correct_direct_answer_short",
-        "direct answer (gqa)": "correct_direct_answer_short",
-        "hate classification": "classification_label",
-        "sexism classification": "classification_label",
-        "sentiment analysis": "classification_label",
-        "entailment prediction": "classification_label",
-    }
+
     for task in tasks:
-        label_name = task2label_name[task]
+        label_name = utils.get_task2label_name(task)
         labels = get_id_2_label_dict(dataset_benchmark, label_name, dataset_name) 
         
         valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = get_clean_valid_preds_trues(

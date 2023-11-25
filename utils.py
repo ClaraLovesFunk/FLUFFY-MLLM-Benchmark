@@ -93,6 +93,7 @@ class DatasetInfo():
             'scienceqa': ['multiple choice (sqa)']                                        
         }
 
+
         self.input_id_name = {
             'aokvqa': 'question_id',
             'okvqa': 'question_id', 
@@ -121,6 +122,27 @@ class DatasetInfo():
     def get_input_id_name(self):
         return self.input_id_name[self.dataset_name]
 
+
+
+def get_task2label_name(task):
+    '''
+    get the name of the key, the label is stored in in the input data
+    '''
+    task2label_name = {
+        "direct answer (okvqa)": "correct_direct_answer_short",
+        "direct answer (aokvqa)": "correct_direct_answer_short",
+        "multiple choice (aokvqa)": "correct_multiple_choice_answer",
+        "multiple choice (sqa)": "correct_choice",
+        "direct answer (clevr)": "correct_direct_answer_short",
+        "direct answer (gqa)": "correct_direct_answer_short",
+        "hate classification": "classification_label",
+        "sexism classification": "classification_label",
+        "sentiment analysis": "classification_label",
+        "entailment prediction": "classification_label"
+    }
+    label_name = task2label_name.get(task, "Unknown Task")
+
+    return label_name
 
 
 class ModelInfo():
