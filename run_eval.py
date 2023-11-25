@@ -12,6 +12,7 @@ from evaluations.gqa.eval import evaluate_gqa
 from evaluations.clevr.eval import evaluate_clevr
 
 import evaluations.utils_eval as utils_eval
+import evaluations.utils_make_example_file as utils_examples
 
 
 CONFIG_PATH = 'config.json'
@@ -68,6 +69,8 @@ def main(args):
         utils_eval.save_data(scores_path, scores)
         utils_eval.save_data(examples_path, examples)
         utils_eval.save_data(val_ratio_path, valid_ans_ratio)
+
+    utils_examples.make_examples_file(model_name, dataset_name, run)
         
             
 
