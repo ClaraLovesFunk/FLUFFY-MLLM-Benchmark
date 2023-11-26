@@ -27,7 +27,7 @@
     {
         "text_input_id": "61",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "62",
@@ -47,7 +47,7 @@
     {
         "text_input_id": "86",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "87",
@@ -232,7 +232,7 @@
     {
         "text_input_id": "427",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "445",
@@ -267,7 +267,7 @@
     {
         "text_input_id": "522",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "536",
@@ -552,7 +552,7 @@
     {
         "text_input_id": "1139",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "1165",
@@ -802,7 +802,7 @@
     {
         "text_input_id": "1702",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "1714",
@@ -842,12 +842,12 @@
     {
         "text_input_id": "1779",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "1803",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "1816",
@@ -862,7 +862,7 @@
     {
         "text_input_id": "1874",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "1879",
@@ -1007,12 +1007,12 @@
     {
         "text_input_id": "2163",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "2165",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "2173",
@@ -1047,7 +1047,7 @@
     {
         "text_input_id": "2286",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each vial, each vial . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial the surroundings"
+        "output_multiple choice (sqa)": "each vial... the surroundings"
     },
     {
         "text_input_id": "2328",
@@ -1292,12 +1292,12 @@
     {
         "text_input_id": "2788",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "2789",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "2790",
@@ -1342,12 +1342,12 @@
     {
         "text_input_id": "2870",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
     },
     {
         "text_input_id": "2877",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "2878",
@@ -1377,7 +1377,7 @@
     {
         "text_input_id": "2923",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "2933",
@@ -1392,12 +1392,12 @@
     {
         "text_input_id": "2960",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: What can Connor and Maura trade to each get what they want?\nChoices: Connor can trade his tomatoes for Maura's carrots., Maura can trade her broccoli for Connor's oranges., Connor can trade his tomatoes for Maura's broccoli., Maura can trade her almonds for Connor's tomatoes..\nAnswer: ",
-        "output_multiple choice (sqa)": "connor can trade his tomatoes for maura's broccoli"
+        "output_multiple choice (sqa)": "Connor can trade his tomatoes for Maura's broccoli."
     },
     {
         "text_input_id": "2969",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "2971",
@@ -1497,7 +1497,7 @@
     {
         "text_input_id": "3115",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "3118",
@@ -1737,12 +1737,12 @@
     {
         "text_input_id": "3530",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "3534",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "3541",
@@ -1812,7 +1812,7 @@
     {
         "text_input_id": "3681",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "3692",
@@ -1862,7 +1862,7 @@
     {
         "text_input_id": "3773",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "3788",
@@ -1887,7 +1887,7 @@
     {
         "text_input_id": "3873",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "3877",
@@ -1932,7 +1932,7 @@
     {
         "text_input_id": "3920",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "3921",
@@ -2207,7 +2207,7 @@
     {
         "text_input_id": "4444",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "4459",
@@ -2247,7 +2247,7 @@
     {
         "text_input_id": "4532",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "4537",
@@ -2362,7 +2362,7 @@
     {
         "text_input_id": "4749",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "4753",
@@ -2477,7 +2477,7 @@
     {
         "text_input_id": "5018",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "5025",
@@ -2492,7 +2492,7 @@
     {
         "text_input_id": "5049",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "5052",
@@ -2602,7 +2602,7 @@
     {
         "text_input_id": "5316",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "5335",
@@ -2702,7 +2702,7 @@
     {
         "text_input_id": "5559",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "5573",
@@ -2742,7 +2742,7 @@
     {
         "text_input_id": "5648",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each pizza, each pizza . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each pizza the surroundings"
+        "output_multiple choice (sqa)": "each pizza... the surroundings"
     },
     {
         "text_input_id": "5663",
@@ -2837,7 +2837,7 @@
     {
         "text_input_id": "5812",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "5816",
@@ -2877,7 +2877,7 @@
     {
         "text_input_id": "5912",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "5913",
@@ -2907,7 +2907,7 @@
     {
         "text_input_id": "5956",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "5981",
@@ -3292,7 +3292,7 @@
     {
         "text_input_id": "6608",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "6626",
@@ -3307,7 +3307,7 @@
     {
         "text_input_id": "6686",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "6713",
@@ -3372,12 +3372,12 @@
     {
         "text_input_id": "6825",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Complete the sentence.\nThe mutation in the () affected the structure and function of the ().\nChoices: chloride channel protein . . . CLCN1 gene, CLCN1 gene . . . chloride channel protein.\nAnswer: ",
-        "output_multiple choice (sqa)": "clcn1 gene chloride channel protein"
+        "output_multiple choice (sqa)": "CLCN1 gene... chloride channel protein"
     },
     {
         "text_input_id": "6880",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "6886",
@@ -3402,7 +3402,7 @@
     {
         "text_input_id": "6916",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each cake, each cake . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each cake the surroundings"
+        "output_multiple choice (sqa)": "each cake... the surroundings"
     },
     {
         "text_input_id": "6940",
@@ -3422,7 +3422,7 @@
     {
         "text_input_id": "6967",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "6981",
@@ -3477,7 +3477,7 @@
     {
         "text_input_id": "7055",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "7057",
@@ -3532,7 +3532,7 @@
     {
         "text_input_id": "7140",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
     },
     {
         "text_input_id": "7145",
@@ -3612,7 +3612,7 @@
     {
         "text_input_id": "7367",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "7373",
@@ -3642,7 +3642,7 @@
     {
         "text_input_id": "7462",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "7465",
@@ -3657,7 +3657,7 @@
     {
         "text_input_id": "7487",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "7488",
@@ -3857,7 +3857,7 @@
     {
         "text_input_id": "7916",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "7917",
@@ -3872,7 +3872,7 @@
     {
         "text_input_id": "7933",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "7936",
@@ -4047,7 +4047,7 @@
     {
         "text_input_id": "8357",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "8358",
@@ -4057,7 +4057,7 @@
     {
         "text_input_id": "8371",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery the surroundings"
+        "output_multiple choice (sqa)": "each battery... the surroundings"
     },
     {
         "text_input_id": "8394",
@@ -4187,12 +4187,12 @@
     {
         "text_input_id": "8709",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "8720",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "8721",
@@ -4272,7 +4272,7 @@
     {
         "text_input_id": "8931",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Boston?\nChoices: March is the month with the highest average precipitation., About the same amount of precipitation falls each month between May and October., Precipitation does not change much from month to month in Boston..\nAnswer: ",
-        "output_multiple choice (sqa)": "precipitation does not change much from month to month in boston"
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Boston"
     },
     {
         "text_input_id": "8932",
@@ -4317,7 +4317,7 @@
     {
         "text_input_id": "9019",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "9058",
@@ -4357,7 +4357,7 @@
     {
         "text_input_id": "9093",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "9095",
@@ -4372,7 +4372,7 @@
     {
         "text_input_id": "9120",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "9134",
@@ -4412,7 +4412,7 @@
     {
         "text_input_id": "9232",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each aquarium . . . the surroundings, the surroundings . . . each aquarium.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium the surroundings"
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
     },
     {
         "text_input_id": "9233",
@@ -4447,7 +4447,7 @@
     {
         "text_input_id": "9277",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "9283",
@@ -4457,7 +4457,7 @@
     {
         "text_input_id": "9285",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "9294",
@@ -4467,7 +4467,7 @@
     {
         "text_input_id": "9328",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "9330",
@@ -4497,7 +4497,7 @@
     {
         "text_input_id": "9361",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "9375",
@@ -4527,7 +4527,7 @@
     {
         "text_input_id": "9489",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "9493",
@@ -4692,7 +4692,7 @@
     {
         "text_input_id": "9923",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "9942",
@@ -4722,7 +4722,7 @@
     {
         "text_input_id": "10001",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "10015",
@@ -4742,7 +4742,7 @@
     {
         "text_input_id": "10053",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each battery . . . the surroundings, the surroundings . . . each battery.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery the surroundings"
+        "output_multiple choice (sqa)": "each battery... the surroundings"
     },
     {
         "text_input_id": "10056",
@@ -4782,7 +4782,7 @@
     {
         "text_input_id": "10132",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each salmon, each salmon . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each salmon the surroundings"
+        "output_multiple choice (sqa)": "each salmon... the surroundings"
     },
     {
         "text_input_id": "10141",
@@ -4832,7 +4832,7 @@
     {
         "text_input_id": "10254",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "10256",
@@ -4857,7 +4857,7 @@
     {
         "text_input_id": "10283",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "10286",
@@ -4887,7 +4887,7 @@
     {
         "text_input_id": "10337",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "10338",
@@ -4987,7 +4987,7 @@
     {
         "text_input_id": "10519",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
     },
     {
         "text_input_id": "10521",
@@ -5002,7 +5002,7 @@
     {
         "text_input_id": "10523",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "10536",
@@ -5012,7 +5012,7 @@
     {
         "text_input_id": "10545",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "10550",
@@ -5027,7 +5027,7 @@
     {
         "text_input_id": "10555",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "10556",
@@ -5077,12 +5077,12 @@
     {
         "text_input_id": "10649",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "10661",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "10665",
@@ -5167,7 +5167,7 @@
     {
         "text_input_id": "10791",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement is true about the average monthly temperature in New York City?\nChoices: January and February are the coldest months of the year., The temperature does not change much from month to month., July, August, and September are colder than the other months of the year..\nAnswer: ",
-        "output_multiple choice (sqa)": "the temperature does not change much from month to month"
+        "output_multiple choice (sqa)": "The temperature does not change much from month to month"
     },
     {
         "text_input_id": "10793",
@@ -5197,7 +5197,7 @@
     {
         "text_input_id": "10883",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "10886",
@@ -5217,7 +5217,7 @@
     {
         "text_input_id": "10909",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery the surroundings"
+        "output_multiple choice (sqa)": "each battery... the surroundings"
     },
     {
         "text_input_id": "10919",
@@ -5292,7 +5292,7 @@
     {
         "text_input_id": "11042",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each aquarium . . . the surroundings, the surroundings . . . each aquarium.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium the surroundings"
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
     },
     {
         "text_input_id": "11060",
@@ -5317,7 +5317,7 @@
     {
         "text_input_id": "11113",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "11116",
@@ -5332,7 +5332,7 @@
     {
         "text_input_id": "11123",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "11138",
@@ -5342,7 +5342,7 @@
     {
         "text_input_id": "11145",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "11149",
@@ -5467,7 +5467,7 @@
     {
         "text_input_id": "11408",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "11421",
@@ -5647,7 +5647,7 @@
     {
         "text_input_id": "11757",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "11758",
@@ -5667,17 +5667,17 @@
     {
         "text_input_id": "11772",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "11784",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each salmon . . . the surroundings, the surroundings . . . each salmon.\nAnswer: ",
-        "output_multiple choice (sqa)": "each salmon the surroundings"
+        "output_multiple choice (sqa)": "each salmon... the surroundings"
     },
     {
         "text_input_id": "11799",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement is true about the average monthly precipitation in Charlotte?\nChoices: January is the month with the highest average precipitation., Precipitation does not change much from month to month., Charlotte has a rainy season and a dry season..\nAnswer: ",
-        "output_multiple choice (sqa)": "precipitation does not change much from month to month"
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month"
     },
     {
         "text_input_id": "11805",
@@ -5872,7 +5872,7 @@
     {
         "text_input_id": "12139",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "12143",
@@ -5927,7 +5927,7 @@
     {
         "text_input_id": "12335",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "12357",
@@ -5967,12 +5967,12 @@
     {
         "text_input_id": "12418",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "12438",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in New Orleans?\nChoices: October is the wettest month., The wettest months of the year are June, July, and August., June, July, and August are the driest months of the year..\nAnswer: ",
-        "output_multiple choice (sqa)": "the wettest months of the year are june, july, and august"
+        "output_multiple choice (sqa)": "The wettest months of the year are June, July, and August"
     },
     {
         "text_input_id": "12446",
@@ -6002,7 +6002,7 @@
     {
         "text_input_id": "12489",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "12506",
@@ -6067,7 +6067,7 @@
     {
         "text_input_id": "12664",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "12673",
@@ -6187,7 +6187,7 @@
     {
         "text_input_id": "12940",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "12961",
@@ -6282,12 +6282,12 @@
     {
         "text_input_id": "13122",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "13162",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "13164",
@@ -6437,7 +6437,7 @@
     {
         "text_input_id": "13480",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each bottle, each bottle . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each bottle the surroundings"
+        "output_multiple choice (sqa)": "each bottle... the surroundings"
     },
     {
         "text_input_id": "13484",
@@ -6547,7 +6547,7 @@
     {
         "text_input_id": "13695",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "13715",
@@ -6647,7 +6647,7 @@
     {
         "text_input_id": "13896",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery the surroundings"
+        "output_multiple choice (sqa)": "each battery... the surroundings"
     },
     {
         "text_input_id": "13907",
@@ -6707,7 +6707,7 @@
     {
         "text_input_id": "13995",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: February is wetter than March., October has the highest average precipitation., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
     },
     {
         "text_input_id": "14029",
@@ -6722,7 +6722,7 @@
     {
         "text_input_id": "14048",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "14072",
@@ -6807,7 +6807,7 @@
     {
         "text_input_id": "14175",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "14192",
@@ -6872,7 +6872,7 @@
     {
         "text_input_id": "14348",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "14349",
@@ -6922,7 +6922,7 @@
     {
         "text_input_id": "14440",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "14442",
@@ -6997,7 +6997,7 @@
     {
         "text_input_id": "14572",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "14588",
@@ -7027,7 +7027,7 @@
     {
         "text_input_id": "14626",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each aquarium, each aquarium . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium the surroundings"
+        "output_multiple choice (sqa)": "each aquarium... the surroundings"
     },
     {
         "text_input_id": "14627",
@@ -7117,12 +7117,12 @@
     {
         "text_input_id": "14818",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each pizza, each pizza . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each pizza the surroundings"
+        "output_multiple choice (sqa)": "each pizza... the surroundings"
     },
     {
         "text_input_id": "14824",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "14826",
@@ -7202,7 +7202,7 @@
     {
         "text_input_id": "14985",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "15024",
@@ -7292,7 +7292,7 @@
     {
         "text_input_id": "15224",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "15229",
@@ -7307,7 +7307,7 @@
     {
         "text_input_id": "15241",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "15245",
@@ -7337,7 +7337,7 @@
     {
         "text_input_id": "15277",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "15279",
@@ -7352,7 +7352,7 @@
     {
         "text_input_id": "15289",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "15290",
@@ -7527,7 +7527,7 @@
     {
         "text_input_id": "15652",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "15662",
@@ -7577,7 +7577,7 @@
     {
         "text_input_id": "15767",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each bottle, each bottle . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each bottle the surroundings"
+        "output_multiple choice (sqa)": "each bottle... the surroundings"
     },
     {
         "text_input_id": "15772",
@@ -7622,7 +7622,7 @@
     {
         "text_input_id": "15857",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "15858",
@@ -7657,12 +7657,12 @@
     {
         "text_input_id": "15934",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: Atlanta has a rainy season and a dry season., October has the highest average precipitation., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
     },
     {
         "text_input_id": "15956",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "15960",
@@ -7787,7 +7787,7 @@
     {
         "text_input_id": "16180",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "16183",
@@ -7802,7 +7802,7 @@
     {
         "text_input_id": "16213",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "16219",
@@ -7812,7 +7812,7 @@
     {
         "text_input_id": "16221",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is greater in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "16223",
@@ -7967,7 +7967,7 @@
     {
         "text_input_id": "16535",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "16536",
@@ -8072,7 +8072,7 @@
     {
         "text_input_id": "16731",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "16744",
@@ -8142,7 +8142,7 @@
     {
         "text_input_id": "16947",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "17004",
@@ -8202,7 +8202,7 @@
     {
         "text_input_id": "17171",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "17206",
@@ -8217,7 +8217,7 @@
     {
         "text_input_id": "17228",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each greenhouse . . . the surroundings, the surroundings . . . each greenhouse.\nAnswer: ",
-        "output_multiple choice (sqa)": "each greenhouse the surroundings"
+        "output_multiple choice (sqa)": "each greenhouse... the surroundings"
     },
     {
         "text_input_id": "17254",
@@ -8282,7 +8282,7 @@
     {
         "text_input_id": "17408",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "17431",
@@ -8312,7 +8312,7 @@
     {
         "text_input_id": "17496",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "17501",
@@ -8367,7 +8367,7 @@
     {
         "text_input_id": "17607",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "17609",
@@ -8377,7 +8377,7 @@
     {
         "text_input_id": "17613",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "17617",
@@ -8442,7 +8442,7 @@
     {
         "text_input_id": "17723",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "17727",
@@ -8457,7 +8457,7 @@
     {
         "text_input_id": "17784",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "17790",
@@ -8497,12 +8497,12 @@
     {
         "text_input_id": "17857",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "17903",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "17907",
@@ -8642,7 +8642,7 @@
     {
         "text_input_id": "18136",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "18146",
@@ -8692,7 +8692,7 @@
     {
         "text_input_id": "18202",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "18245",
@@ -8732,7 +8732,7 @@
     {
         "text_input_id": "18311",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "18322",
@@ -8772,7 +8772,7 @@
     {
         "text_input_id": "18421",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "18429",
@@ -8787,7 +8787,7 @@
     {
         "text_input_id": "18454",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each vial . . . the surroundings, the surroundings . . . each vial.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial the surroundings"
+        "output_multiple choice (sqa)": "each vial... the surroundings"
     },
     {
         "text_input_id": "18483",
@@ -8812,7 +8812,7 @@
     {
         "text_input_id": "18506",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "18550",
@@ -8832,7 +8832,7 @@
     {
         "text_input_id": "18572",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "18576",
@@ -8967,7 +8967,7 @@
     {
         "text_input_id": "18889",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "18895",
@@ -9002,7 +9002,7 @@
     {
         "text_input_id": "18994",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "19002",
@@ -9072,7 +9072,7 @@
     {
         "text_input_id": "19134",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "19139",
@@ -9267,12 +9267,12 @@
     {
         "text_input_id": "19477",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "19479",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 1., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 1"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 1."
     },
     {
         "text_input_id": "19493",
@@ -9297,7 +9297,7 @@
     {
         "text_input_id": "19531",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: February is wetter than March., Atlanta has a rainy season and a dry season., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
+        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
     },
     {
         "text_input_id": "19533",
@@ -9337,7 +9337,7 @@
     {
         "text_input_id": "19602",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 2., The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "19625",
@@ -9402,7 +9402,7 @@
     {
         "text_input_id": "19782",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "19791",
@@ -9427,7 +9427,7 @@
     {
         "text_input_id": "19860",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each vial . . . the surroundings, the surroundings . . . each vial.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial the surroundings"
+        "output_multiple choice (sqa)": "each vial... the surroundings"
     },
     {
         "text_input_id": "19877",
@@ -9547,7 +9547,7 @@
     {
         "text_input_id": "20132",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is stronger in Pair 1., The strength of the magnetic force is the same in both pairs., The magnetic force is stronger in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is stronger in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is stronger in Pair 2."
     },
     {
         "text_input_id": "20145",
@@ -9607,7 +9607,7 @@
     {
         "text_input_id": "20245",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample a"
+        "output_multiple choice (sqa)": "sample A"
     },
     {
         "text_input_id": "20256",
@@ -9647,17 +9647,17 @@
     {
         "text_input_id": "20349",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is greater in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 1."
     },
     {
         "text_input_id": "20368",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnetic force is weaker in Pair 2., The magnetic force is weaker in Pair 1., The strength of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "20381",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The strength of the magnetic force is the same in both pairs., The magnetic force is weaker in Pair 1., The magnetic force is weaker in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnetic force is weaker in pair 2"
+        "output_multiple choice (sqa)": "The magnetic force is weaker in Pair 2."
     },
     {
         "text_input_id": "20383",
@@ -9697,7 +9697,7 @@
     {
         "text_input_id": "20475",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each refrigerator, each refrigerator . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
     },
     {
         "text_input_id": "20495",
@@ -9717,7 +9717,7 @@
     {
         "text_input_id": "20518",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 1..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "20527",
@@ -9862,7 +9862,7 @@
     {
         "text_input_id": "20820",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is the same in both pairs., The magnitude of the magnetic force is smaller in Pair 2..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 2."
     },
     {
         "text_input_id": "20842",
@@ -9947,7 +9947,7 @@
     {
         "text_input_id": "20979",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is smaller in Pair 1., The magnitude of the magnetic force is smaller in Pair 2., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is smaller in pair 1"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is smaller in Pair 1."
     },
     {
         "text_input_id": "20984",
@@ -9982,7 +9982,7 @@
     {
         "text_input_id": "21053",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Complete the sentence.\nThe mutation in the () affected the structure and function of the ().\nChoices: KRT13 gene . . . keratin protein, keratin protein . . . KRT13 gene.\nAnswer: ",
-        "output_multiple choice (sqa)": "keratin protein"
+        "output_multiple choice (sqa)": "keratin protein..."
     },
     {
         "text_input_id": "21063",
@@ -10027,7 +10027,7 @@
     {
         "text_input_id": "21136",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nChoices: The magnitude of the magnetic force is greater in Pair 2., The magnitude of the magnetic force is greater in Pair 1., The magnitude of the magnetic force is the same in both pairs..\nAnswer: ",
-        "output_multiple choice (sqa)": "the magnitude of the magnetic force is greater in pair 2"
+        "output_multiple choice (sqa)": "The magnitude of the magnetic force is greater in Pair 2."
     },
     {
         "text_input_id": "21137",

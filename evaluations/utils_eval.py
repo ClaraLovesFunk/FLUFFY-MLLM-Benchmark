@@ -173,7 +173,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         pred_value = matches[0]
                 if pred_value in VALID_ANS_VALUES_sample_dependent:
                     valid_count += 1
-                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
             
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
