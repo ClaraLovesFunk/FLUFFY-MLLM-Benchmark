@@ -7,9 +7,13 @@ from bs4 import BeautifulSoup
 root_dir = "experiments"
 
 table_title = {
-    "soft": "Evaluation with Post-Processing Tolerance",
-    "hard": "Evaluation without Post-Processing Tolerance"
+    "soft": "Metrics - Evaluation with Post-Processing Tolerance",
+    "hard": "Metrics - Evaluation without Post-Processing Tolerance",
+    "valid_ans_soft": "Valid Answer Ratio - Evaluation with Post-Processing Tolerance",
+    "valid_ans_hard": "Valid Answer Ratio - Evaluation without Post-Processing Tolerance"
 }
+
+
 
 def process_scores(file_name, mode):
     data = []
@@ -79,6 +83,65 @@ def process_scores(file_name, mode):
 
 
 
+
+
+def process_valid_answer_scores(mode):
+    data = []
+
+    # Go through each model and dataset directory for the valid answer scores
+    for model_dir in os.listdir(root_dir):
+        model_path = os.path.join(root_dir, model_dir)
+        if os.path.isdir(model_path):
+            for dataset_dir in os.listdir(model_path):
+                dataset_path = os.path.join(model_path, dataset_dir, "run1")
+                score_file = os.path.join(dataset_path, f"valid_ans_{mode}.json")
+
+                # Check if the score file exists and read it
+                if os.path.exists(score_file):
+                    with open(score_file, 'r') as f:
+                        scores = json.load(f)
+
+                    # For each task in the JSON file
+                    for task, score in scores.items():
+                        # Append data for model, dataset, and task
+                        data.append({'Model': model_dir, 'Dataset': dataset_dir, 'Task': task, 'Score': score})
+
+    df = pd.DataFrame(data)
+
+    # Pivot the DataFrame
+    df_pivot = df.pivot_table(index='Model', columns=['Dataset', 'Task'], values='Score')
+    df_pivot.sort_index(axis=1, level=0, inplace=True)
+    df_pivot.index.name = ""
+
+    # Calculate average ratios
+    df_pivot['Average Ratio'] = df_pivot.mean(axis=1)
+
+    html = (df_pivot.style.set_table_styles([
+        {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
+    ]).format("{:.2f}").render())
+
+    # Use BeautifulSoup to parse the HTML
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Find and remove the style tags
+    for style in soup.find_all('style'):
+        style.decompose()
+
+    html = str(soup)
+    html = add_top_header_border(html)
+
+    title = table_title['valid_ans_'+ mode]
+    print(title)
+    return f"### {title}\n\n" + html
+
+
+
+
+
+
+
+
+
 def add_top_header_border(html_str):
     # Split the HTML string into lines
     lines = html_str.split("\n")
@@ -102,8 +165,9 @@ def add_top_header_border(html_str):
 
     return html_str
 
+html_valid_ans_soft = process_valid_answer_scores("soft")
+html_valid_ans_hard = process_valid_answer_scores("hard")
 
-# Process both score files
 html_soft = process_scores("scores_soft.json", "soft")
 html_hard = process_scores("scores_hard.json", "hard")
 
@@ -126,5 +190,6 @@ that can be found in `models/model_of_interest`.
 # Write the content to the README file
 with open("README.md", "w") as f:
     f.write(image + benchmark_subheader + space)
-    f.write(html_soft + space + html_hard)
+    f.write(html_soft + space + html_valid_ans_soft + space)
+    f.write(html_hard + space + html_valid_ans_hard)
     f.write(model_implementation_section)
