@@ -6,6 +6,11 @@ from bs4 import BeautifulSoup
 
 root_dir = "experiments"
 
+table_title = {
+    "soft": "Evaluation with Post-Processing Tolerance",
+    "hard": "Evaluation without Post-Processing Tolerance"
+}
+
 def process_scores(file_name, mode):
     data = []
 
@@ -49,7 +54,8 @@ def process_scores(file_name, mode):
     html = str(soup)
     html = add_top_header_border(html)
 
-    return f"### {mode} evaluation\n\n" + html
+
+    return f"### {table_title[mode]}\n\n" + html
 
 
 
@@ -78,8 +84,8 @@ def add_top_header_border(html_str):
 
 
 # Process both score files
-html_soft = process_scores("scores_soft.json", "Soft")
-html_hard = process_scores("scores_hard.json", "Hard")
+html_soft = process_scores("scores_soft.json", "soft")
+html_hard = process_scores("scores_hard.json", "hard")
 
 # Add the image at the top of the README
 image = '<img src="utils_general/fluffy.png" width="100%" />\n\n'
