@@ -4,6 +4,7 @@ import json
 from sklearn import metrics
 import os
 import utils
+import math
 
 
 
@@ -412,3 +413,30 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
 
 
 
+def calculate_average_accuracy_over_all_ds(CONFIG_PATH, model_name, mode_name):
+    
+    config = load_data(CONFIG_PATH)
+    dataset_names = config['dataset_names']
+
+    def average(values):
+        valid_values = [v for v in values if not math.isnan(v)] 
+        return sum(valid_values) / len(valid_values) if valid_values else 0
+
+    model_scores = {}
+    for dataset_name in dataset_names:
+        dataset_scores = {}
+        scores_file_path = f"experiments/{model_name}/{dataset_name}/run1/scores_{mode_name}.json"
+        file_data = load_data(scores_file_path)
+        DatasetInfo = utils.DatasetInfo(dataset_name)
+        tasks = DatasetInfo.get_tasks()
+        for task in tasks:
+            task_score = file_data[task]['accuracy']
+            dataset_scores[task] = task_score 
+
+        dataset_scores_average = average(dataset_scores.values())
+        model_scores[dataset_name] = dataset_scores_average
+    model_scores_average = {"average accuracy": average(model_scores.values())}
+    print(f"Average Accuracy: {model_scores_average}")
+
+    scores_average_file_path = f"experiments/{model_name}/scores_average_{mode_name}.json" # needs to be edited when running more runs
+    save_data(scores_average_file_path, model_scores_average)
