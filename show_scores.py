@@ -14,14 +14,29 @@ table_title = {
 def process_scores(file_name, mode):
     data = []
 
-    # Go through each directory and subdirectory
+    # Dictionary to hold average accuracies
+    average_accuracies = {}
+
+    # Go through each model directory
+    for model_dir in os.listdir(root_dir):
+        model_path = os.path.join(root_dir, model_dir)
+        if os.path.isdir(model_path):
+            avg_accuracy_file = os.path.join(model_path, f"scores_average_{mode}.json")
+
+            # Check if the average accuracy file exists and read it
+            if os.path.exists(avg_accuracy_file):
+                with open(avg_accuracy_file, 'r') as f:
+                    avg_accuracy_data = json.load(f)
+                    average_accuracies[model_dir] = avg_accuracy_data["average accuracy"]
+
+    # Go through each directory and subdirectory for the scores
     for dirpath, dirnames, filenames in os.walk(root_dir):
         for filename in filenames:
             if filename == file_name:
                 with open(os.path.join(dirpath, filename), 'r') as f:
                     scores = json.load(f)
 
-                # Extract model and dataset names from the directory path
+                # Extract model name from the directory path
                 path_parts = dirpath.split(os.sep)
                 model = path_parts[-3]
                 dataset = path_parts[-2]
@@ -40,6 +55,9 @@ def process_scores(file_name, mode):
     df_pivot.sort_index(axis=1, level=0, inplace=True)
     df_pivot.index.name = ""
 
+    # Add the average accuracy column to the pivot table
+    df_pivot['Average Accuracy'] = df_pivot.index.map(average_accuracies.get)
+
     html = (df_pivot.style.set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
     ]).format("{:.2f}").render())
@@ -54,8 +72,10 @@ def process_scores(file_name, mode):
     html = str(soup)
     html = add_top_header_border(html)
 
-
     return f"### {table_title[mode]}\n\n" + html
+
+# Remaining part of your code (add_top_header_border function and final section) remains the same
+
 
 
 
