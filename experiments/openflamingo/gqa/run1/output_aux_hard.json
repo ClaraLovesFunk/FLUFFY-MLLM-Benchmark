@@ -197,7 +197,7 @@
     {
         "text_input_id": "19111159",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which kind of clothing is pink?\nAnswer: ",
-        "output_direct answer (gqa)": "pink\u00a0clothing"
+        "output_direct answer (gqa)": "pinkclothing"
     },
     {
         "text_input_id": "10764468",
@@ -537,7 +537,7 @@
     {
         "text_input_id": "11319230",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Who is sitting?\nAnswer: ",
-        "output_direct answer (gqa)": "the man is sittingquestions: what is the man sitting on? answer: \u00a0the"
+        "output_direct answer (gqa)": "the man is sittingquestions: what is the man sitting on? answer: the"
     },
     {
         "text_input_id": "05943669",
@@ -2352,7 +2352,7 @@
     {
         "text_input_id": "19668148",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the window made of metal or wood?\nAnswer: ",
-        "output_direct answer (gqa)": "the window is made of metal\u00a0the window is made of wood\u00a0the"
+        "output_direct answer (gqa)": "the window is made of metalthe window is made of woodthe"
     },
     {
         "text_input_id": "15258675",
@@ -2397,7 +2397,7 @@
     {
         "text_input_id": "12362819",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the sky blue or dark?\nAnswer: ",
-        "output_direct answer (gqa)": "the sky is blueis the sky blue or dark? answer: \u00a0the sky is"
+        "output_direct answer (gqa)": "the sky is blueis the sky blue or dark? answer: the sky is"
     },
     {
         "text_input_id": "15958372",
@@ -3772,7 +3772,7 @@
     {
         "text_input_id": "19659634",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Does the gate look red or gray?\nAnswer: ",
-        "output_direct answer (gqa)": "the gate looks red\u00a0the gate looks gray\u00a0the gate looks red"
+        "output_direct answer (gqa)": "the gate looks redthe gate looks graythe gate looks red"
     },
     {
         "text_input_id": "11313486",
@@ -3872,7 +3872,7 @@
     {
         "text_input_id": "10560337",
         "prompt_direct answer (gqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is on the shelf?\nAnswer: ",
-        "output_direct answer (gqa)": "a\u00a0shelf"
+        "output_direct answer (gqa)": "ashelf"
     },
     {
         "text_input_id": "12916773",

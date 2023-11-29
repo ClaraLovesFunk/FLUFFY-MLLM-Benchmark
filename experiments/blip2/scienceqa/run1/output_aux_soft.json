@@ -552,7 +552,7 @@
     {
         "text_input_id": "1139",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "1165",
@@ -1047,7 +1047,7 @@
     {
         "text_input_id": "2286",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each vial, each vial . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial... the surroundings"
+        "output_multiple choice (sqa)": "each vial the surroundings"
     },
     {
         "text_input_id": "2328",
@@ -1342,7 +1342,7 @@
     {
         "text_input_id": "2870",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator the surroundings"
     },
     {
         "text_input_id": "2877",
@@ -1392,7 +1392,7 @@
     {
         "text_input_id": "2960",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: What can Connor and Maura trade to each get what they want?\nChoices: Connor can trade his tomatoes for Maura's carrots., Maura can trade her broccoli for Connor's oranges., Connor can trade his tomatoes for Maura's broccoli., Maura can trade her almonds for Connor's tomatoes..\nAnswer: ",
-        "output_multiple choice (sqa)": "Connor can trade his tomatoes for Maura's broccoli."
+        "output_multiple choice (sqa)": "connor can trade his tomatoes for maura's broccoli"
     },
     {
         "text_input_id": "2969",
@@ -2742,7 +2742,7 @@
     {
         "text_input_id": "5648",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each pizza, each pizza . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each pizza... the surroundings"
+        "output_multiple choice (sqa)": "each pizza the surroundings"
     },
     {
         "text_input_id": "5663",
@@ -2877,7 +2877,7 @@
     {
         "text_input_id": "5912",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "5913",
@@ -3402,7 +3402,7 @@
     {
         "text_input_id": "6916",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each cake, each cake . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each cake... the surroundings"
+        "output_multiple choice (sqa)": "each cake the surroundings"
     },
     {
         "text_input_id": "6940",
@@ -3422,7 +3422,7 @@
     {
         "text_input_id": "6967",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "6981",
@@ -3532,7 +3532,7 @@
     {
         "text_input_id": "7140",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator the surroundings"
     },
     {
         "text_input_id": "7145",
@@ -3872,7 +3872,7 @@
     {
         "text_input_id": "7933",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "7936",
@@ -4057,7 +4057,7 @@
     {
         "text_input_id": "8371",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery... the surroundings"
+        "output_multiple choice (sqa)": "each battery the surroundings"
     },
     {
         "text_input_id": "8394",
@@ -4272,7 +4272,7 @@
     {
         "text_input_id": "8931",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Boston?\nChoices: March is the month with the highest average precipitation., About the same amount of precipitation falls each month between May and October., Precipitation does not change much from month to month in Boston..\nAnswer: ",
-        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Boston"
+        "output_multiple choice (sqa)": "precipitation does not change much from month to month in boston"
     },
     {
         "text_input_id": "8932",
@@ -4317,7 +4317,7 @@
     {
         "text_input_id": "9019",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "9058",
@@ -4372,7 +4372,7 @@
     {
         "text_input_id": "9120",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "9134",
@@ -4412,7 +4412,7 @@
     {
         "text_input_id": "9232",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each aquarium . . . the surroundings, the surroundings . . . each aquarium.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+        "output_multiple choice (sqa)": "each aquarium the surroundings"
     },
     {
         "text_input_id": "9233",
@@ -4467,7 +4467,7 @@
     {
         "text_input_id": "9328",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "9330",
@@ -4742,7 +4742,7 @@
     {
         "text_input_id": "10053",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each battery . . . the surroundings, the surroundings . . . each battery.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery... the surroundings"
+        "output_multiple choice (sqa)": "each battery the surroundings"
     },
     {
         "text_input_id": "10056",
@@ -4782,7 +4782,7 @@
     {
         "text_input_id": "10132",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each salmon, each salmon . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each salmon... the surroundings"
+        "output_multiple choice (sqa)": "each salmon the surroundings"
     },
     {
         "text_input_id": "10141",
@@ -4987,7 +4987,7 @@
     {
         "text_input_id": "10519",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each refrigerator . . . the surroundings, the surroundings . . . each refrigerator.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator the surroundings"
     },
     {
         "text_input_id": "10521",
@@ -5167,7 +5167,7 @@
     {
         "text_input_id": "10791",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement is true about the average monthly temperature in New York City?\nChoices: January and February are the coldest months of the year., The temperature does not change much from month to month., July, August, and September are colder than the other months of the year..\nAnswer: ",
-        "output_multiple choice (sqa)": "The temperature does not change much from month to month"
+        "output_multiple choice (sqa)": "the temperature does not change much from month to month"
     },
     {
         "text_input_id": "10793",
@@ -5217,7 +5217,7 @@
     {
         "text_input_id": "10909",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery... the surroundings"
+        "output_multiple choice (sqa)": "each battery the surroundings"
     },
     {
         "text_input_id": "10919",
@@ -5292,7 +5292,7 @@
     {
         "text_input_id": "11042",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each aquarium . . . the surroundings, the surroundings . . . each aquarium.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+        "output_multiple choice (sqa)": "each aquarium the surroundings"
     },
     {
         "text_input_id": "11060",
@@ -5672,12 +5672,12 @@
     {
         "text_input_id": "11784",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each salmon . . . the surroundings, the surroundings . . . each salmon.\nAnswer: ",
-        "output_multiple choice (sqa)": "each salmon... the surroundings"
+        "output_multiple choice (sqa)": "each salmon the surroundings"
     },
     {
         "text_input_id": "11799",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement is true about the average monthly precipitation in Charlotte?\nChoices: January is the month with the highest average precipitation., Precipitation does not change much from month to month., Charlotte has a rainy season and a dry season..\nAnswer: ",
-        "output_multiple choice (sqa)": "Precipitation does not change much from month to month"
+        "output_multiple choice (sqa)": "precipitation does not change much from month to month"
     },
     {
         "text_input_id": "11805",
@@ -5972,7 +5972,7 @@
     {
         "text_input_id": "12438",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in New Orleans?\nChoices: October is the wettest month., The wettest months of the year are June, July, and August., June, July, and August are the driest months of the year..\nAnswer: ",
-        "output_multiple choice (sqa)": "The wettest months of the year are June, July, and August"
+        "output_multiple choice (sqa)": "the wettest months of the year are june, july, and august"
     },
     {
         "text_input_id": "12446",
@@ -6437,7 +6437,7 @@
     {
         "text_input_id": "13480",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each bottle, each bottle . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each bottle... the surroundings"
+        "output_multiple choice (sqa)": "each bottle the surroundings"
     },
     {
         "text_input_id": "13484",
@@ -6647,7 +6647,7 @@
     {
         "text_input_id": "13896",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each battery, each battery . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each battery... the surroundings"
+        "output_multiple choice (sqa)": "each battery the surroundings"
     },
     {
         "text_input_id": "13907",
@@ -6707,7 +6707,7 @@
     {
         "text_input_id": "13995",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: February is wetter than March., October has the highest average precipitation., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
     },
     {
         "text_input_id": "14029",
@@ -7027,7 +7027,7 @@
     {
         "text_input_id": "14626",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each aquarium, each aquarium . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each aquarium... the surroundings"
+        "output_multiple choice (sqa)": "each aquarium the surroundings"
     },
     {
         "text_input_id": "14627",
@@ -7117,7 +7117,7 @@
     {
         "text_input_id": "14818",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each pizza, each pizza . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each pizza... the surroundings"
+        "output_multiple choice (sqa)": "each pizza the surroundings"
     },
     {
         "text_input_id": "14824",
@@ -7337,7 +7337,7 @@
     {
         "text_input_id": "15277",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "15279",
@@ -7352,7 +7352,7 @@
     {
         "text_input_id": "15289",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "15290",
@@ -7577,7 +7577,7 @@
     {
         "text_input_id": "15767",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each bottle, each bottle . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each bottle... the surroundings"
+        "output_multiple choice (sqa)": "each bottle the surroundings"
     },
     {
         "text_input_id": "15772",
@@ -7657,7 +7657,7 @@
     {
         "text_input_id": "15934",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: Atlanta has a rainy season and a dry season., October has the highest average precipitation., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
     },
     {
         "text_input_id": "15956",
@@ -8072,7 +8072,7 @@
     {
         "text_input_id": "16731",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "16744",
@@ -8217,7 +8217,7 @@
     {
         "text_input_id": "17228",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each greenhouse . . . the surroundings, the surroundings . . . each greenhouse.\nAnswer: ",
-        "output_multiple choice (sqa)": "each greenhouse... the surroundings"
+        "output_multiple choice (sqa)": "each greenhouse the surroundings"
     },
     {
         "text_input_id": "17254",
@@ -8787,7 +8787,7 @@
     {
         "text_input_id": "18454",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each vial . . . the surroundings, the surroundings . . . each vial.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial... the surroundings"
+        "output_multiple choice (sqa)": "each vial the surroundings"
     },
     {
         "text_input_id": "18483",
@@ -9297,7 +9297,7 @@
     {
         "text_input_id": "19531",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Which statement best describes the average monthly precipitation in Atlanta?\nChoices: February is wetter than March., Atlanta has a rainy season and a dry season., Precipitation does not change much from month to month in Atlanta..\nAnswer: ",
-        "output_multiple choice (sqa)": "Precipitation does not change much from month to month in Atlanta"
+        "output_multiple choice (sqa)": "precipitation does not change much from month to month in atlanta"
     },
     {
         "text_input_id": "19533",
@@ -9427,7 +9427,7 @@
     {
         "text_input_id": "19860",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: each vial . . . the surroundings, the surroundings . . . each vial.\nAnswer: ",
-        "output_multiple choice (sqa)": "each vial... the surroundings"
+        "output_multiple choice (sqa)": "each vial the surroundings"
     },
     {
         "text_input_id": "19877",
@@ -9607,7 +9607,7 @@
     {
         "text_input_id": "20245",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nChoices: sample A, sample B, neither; the samples have the same temperature.\nAnswer: ",
-        "output_multiple choice (sqa)": "sample A"
+        "output_multiple choice (sqa)": "sample a"
     },
     {
         "text_input_id": "20256",
@@ -9697,7 +9697,7 @@
     {
         "text_input_id": "20475",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: During this time, thermal energy was transferred from () to ().\nChoices: the surroundings . . . each refrigerator, each refrigerator . . . the surroundings.\nAnswer: ",
-        "output_multiple choice (sqa)": "each refrigerator... the surroundings"
+        "output_multiple choice (sqa)": "each refrigerator the surroundings"
     },
     {
         "text_input_id": "20495",
@@ -9982,7 +9982,7 @@
     {
         "text_input_id": "21053",
         "prompt_multiple choice (sqa)": "Answer the question by choosing the correct index from the options below.For the first answer, write '0'; for the second, write '1', and so on.\nQuestions: Complete the sentence.\nThe mutation in the () affected the structure and function of the ().\nChoices: KRT13 gene . . . keratin protein, keratin protein . . . KRT13 gene.\nAnswer: ",
-        "output_multiple choice (sqa)": "keratin protein..."
+        "output_multiple choice (sqa)": "keratin protein"
     },
     {
         "text_input_id": "21063",

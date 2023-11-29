@@ -1037,7 +1037,7 @@
     {
         "text_input_id": "216.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @mrgeology: .@orvinsezmore ironically, goebbels was a fervent socialist. cc: @chrisloesch\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Question: What is the color of the text?."
+        "output_sentiment analysis": "question: what is the color of the text?"
     },
     {
         "text_input_id": "217.jpg",
@@ -2322,7 +2322,7 @@
     {
         "text_input_id": "4103.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: \nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "4104.jpg",
@@ -3257,7 +3257,7 @@
     {
         "text_input_id": "4312.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @lanzaroteworks: delighted to present @grasshouseuk at @waitingroomn for a three night residency!\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "."
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "4313.jpg",
@@ -3402,7 +3402,7 @@
     {
         "text_input_id": "4341.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @debdjsim: @herroyalheinous @lizzierainbow @corbyn leader she's cousin to david cameron-what? family of depraved horrors !\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "4342.jpg",
@@ -4122,7 +4122,7 @@
     {
         "text_input_id": "4500.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ef-a tale of melodiseebullient futurejapanese e \"\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Sentiment: \"\"."
+        "output_sentiment analysis": "sentiment: \"\""
     },
     {
         "text_input_id": "4501.jpg",
@@ -4972,7 +4972,7 @@
     {
         "text_input_id": "1945.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @jrehling: an islamic center in houston was burned down this morning in the land of the free and the home of the brave.\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Fire in the United States of America."
+        "output_sentiment analysis": "fire in the united states of america"
     },
     {
         "text_input_id": "1946.jpg",
@@ -6832,7 +6832,7 @@
     {
         "text_input_id": "2619.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @danteb u: the #confederateflag is about a #heritageofhate, #whitesupremacy, and depraved racist delusion! #takedowntheflag\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "The answer represents the opinion of a person who is against the flag."
+        "output_sentiment analysis": "the answer represents the opinion of a person who is against the flag"
     },
     {
         "text_input_id": "2620.jpg",
@@ -8322,7 +8322,7 @@
     {
         "text_input_id": "666.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @jaywhandley #storming his putin material tonight at the roadhouse\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "667.jpg",
@@ -9927,7 +9927,7 @@
     {
         "text_input_id": "940.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @dayannajar feeling so #inlove,#crush #infatuated, #wird #enjoyable #melting... and mor!\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Tweet: I'm so in love with you."
+        "output_sentiment analysis": "tweet: i'm so in love with you"
     },
     {
         "text_input_id": "941.jpg",
@@ -13712,7 +13712,7 @@
     {
         "text_input_id": "2478.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @independent: bryan cranston totally, utterly burned a breaking bad fan at comic-con\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "2488.jpg",
@@ -13742,7 +13742,7 @@
     {
         "text_input_id": "2506.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: \"cheap and cheerful - sebastian remix\" by the kills from \"cheap and cheerful (remixes)\" #n\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "2526.jpg",
@@ -14527,7 +14527,7 @@
     {
         "text_input_id": "2908.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: #celtic's greatest hero exposes the #psychology of the dunces you let #murder you ?\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "2910.jpg",
@@ -14552,7 +14552,7 @@
     {
         "text_input_id": "2916.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @youchoices: would you rather...\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "2917.jpg",
@@ -16772,12 +16772,12 @@
     {
         "text_input_id": "1579.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @rjfapelacio nanggahot. haha. :p #euro #impotent\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Tweet: Follow me for more."
+        "output_sentiment analysis": "tweet: follow me for more"
     },
     {
         "text_input_id": "1580.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @dayannajar feeling so #inlove,#crush #infatuated, #wird #enjoyable #melting... and mor!\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Tweet: I'm so in love with you."
+        "output_sentiment analysis": "tweet: i'm so in love with you"
     },
     {
         "text_input_id": "1584.jpg",
@@ -18852,7 +18852,7 @@
     {
         "text_input_id": "3870.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: mother is tripping! kind? warm hearted? sophisticated? ????\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": ""
+        "output_sentiment analysis": "NaN"
     },
     {
         "text_input_id": "3871.jpg",
@@ -18937,7 +18937,7 @@
     {
         "text_input_id": "3892.jpg",
         "prompt_sentiment analysis": "<image>User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @ z nc: ???? \"?? ??????^^\"? ??? ???? ??? ?? ????? ???.\nSentiment:  GPT:<answer>",
-        "output_sentiment analysis": "Tweet:"
+        "output_sentiment analysis": "tweet:"
     },
     {
         "text_input_id": "3893.jpg",

@@ -4785,7 +4785,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_hate classification": "User: Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i treat them like java treats its generic parameters at run time as objects\nHate Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/89642.png \nAssistant: Hate Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/hateful_memes/images/all/89642.png"
+        "output_hate classification": "hate label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/hateful_memes/images/all/89642png"
     },
     {
         "text_input_id": 59170,

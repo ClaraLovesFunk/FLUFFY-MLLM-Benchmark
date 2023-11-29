@@ -45,7 +45,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Photographing something you want to show everyone OBJECT Males Woman IT Females\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16191.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16191.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16191jpg"
     },
     {
         "text_input_id": "15952.jpg",
@@ -321,7 +321,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DEMANDS RESPECT AND NOT BE TREATED AS A SEXUAL OBJECT THIS IS WHAT A SEMINIS LOOKS STANDS IN A LINE FOR THREE HOURS TO WATCH A MOVIE ABOUT A RICH MAN WHO ABUSES SEXUALLY AND PSYCOLOGICALLY A GIRL memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15457.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15457.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15457jpg"
     },
     {
         "text_input_id": "15692.jpg",
@@ -501,7 +501,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 50 SHADES OF HAM\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15034.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15034.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15034jpg"
     },
     {
         "text_input_id": "15148.jpg",
@@ -669,7 +669,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS ISN'T TUNA CrazyHyund.com\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15400.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15400.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15400jpg"
     },
     {
         "text_input_id": "15996.jpg",
@@ -981,7 +981,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you call your girl a bitch vs when the DJ asks where all the bad bitches in the club at\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15504.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15504.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15504jpg"
     },
     {
         "text_input_id": "15565.jpg",
@@ -1329,7 +1329,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DON'T BRING A GIRL TO THE NBA FINALS SHE'LL GET BORED.\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15182.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15182.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15182jpg"
     },
     {
         "text_input_id": "15281.jpg",
@@ -1377,7 +1377,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SLAVERY IS WRONG BITCH, PLEASE.\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16270.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16270.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16270jpg"
     },
     {
         "text_input_id": "15100.jpg",
@@ -1689,7 +1689,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YOUR REAL NAME ISN'T MOM\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15276.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15276.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15276jpg"
     },
     {
         "text_input_id": "16269.jpg",
@@ -1809,7 +1809,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FEMINISM ISN'T ANTI-MALE IT'S PRO-WOMAN memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16142.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16142.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16142jpg"
     },
     {
         "text_input_id": "15475.jpg",
@@ -2301,7 +2301,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you leave her house after 2 hours of just kissing When you leave her house after 2 hours of just kissing banana in ...\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16085.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16085.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16085jpg"
     },
     {
         "text_input_id": "15801.jpg",
@@ -2337,7 +2337,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BITCHES BE LIKE TEAM VIRGIN\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15779.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15779.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15779jpg"
     },
     {
         "text_input_id": "15341.jpg",
@@ -2601,7 +2601,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FEMINISTS DESTROYING SCALES Anonymous 05/15/15(Fri)06:32:00 No.615722980 >>615723249615723316 >>615723459 >>6157235 >>615722600 Why do they need bats to destroy those scales when they could just step on them?\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15113.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15113.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15113jpg"
     },
     {
         "text_input_id": "17004.jpg",
@@ -2817,7 +2817,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"when you ask someone if they like memes and they respond asking \"\"whats a meme\"\" @Thouming Ais\"\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16037.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16037.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16037jpg"
     },
     {
         "text_input_id": "15510.jpg",
@@ -3117,7 +3117,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"WOMEN ARE NOT OBJECTS PINIS SECA\"\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15101.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15101.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15101jpg"
     },
     {
         "text_input_id": "17011.jpg",
@@ -3549,7 +3549,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Me explaining to my girlfriend that she has to put gas in her car in order for it to work ASTROS\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15253.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15253.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15253jpg"
     },
     {
         "text_input_id": "16216.jpg",
@@ -3597,7 +3597,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS IS WHAT HAPPENS when you give otakus Photoshop and the internet MEMEBASE.COM\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16021.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16021.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16021jpg"
     },
     {
         "text_input_id": "15711.jpg",
@@ -3645,7 +3645,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PROPER WAY TO DRIVE IN SUMMER leakysquid.com\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16199.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16199.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16199jpg"
     },
     {
         "text_input_id": "16268.jpg",
@@ -3681,7 +3681,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: How girls Surprise from behind tphotos deposit deponte How boys Surprise from behind MemeZila.com\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15696.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15696.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15696jpg"
     },
     {
         "text_input_id": "15721.jpg",
@@ -3741,7 +3741,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: No matter if your dad is Rich or Poor, He is always best\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15319.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15319.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15319jpg"
     },
     {
         "text_input_id": "15220.jpg",
@@ -3897,7 +3897,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SUMMER 2020 THE NEW SEXY\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15630.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15630.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15630jpg"
     },
     {
         "text_input_id": "15980.jpg",
@@ -4173,7 +4173,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Girls on the stairs Boys on the stairs\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15567.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15567.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15567jpg"
     },
     {
         "text_input_id": "15998.jpg",
@@ -4629,7 +4629,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BRACE YOURSELVES SUMMER IS COMING\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15728.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15728.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15728jpg"
     },
     {
         "text_input_id": "15012.jpg",
@@ -4725,7 +4725,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: LOW SELF ESTEEM FREIND SAD IM NOT IN HIS CLASS r/im14andthisisdeep ME AT 14 P\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15613.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15613.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15613jpg"
     },
     {
         "text_input_id": "15948.jpg",
@@ -4749,7 +4749,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PUNCH HER RIGHT TOP 5 LIVE IN THE THROAT! memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17062.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17062.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17062jpg"
     },
     {
         "text_input_id": "17051.jpg",
@@ -4905,7 +4905,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: My girl mad at me for something Me thinking about how cute she looks when angry\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16080.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16080.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16080jpg"
     },
     {
         "text_input_id": "15334.jpg",
@@ -5025,7 +5025,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Men in suits Women in suits\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15734.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15734.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15734jpg"
     },
     {
         "text_input_id": "15459.jpg",
@@ -5133,7 +5133,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When your bro says He got a milf meme-arsenaire\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15837.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15837.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15837jpg"
     },
     {
         "text_input_id": "15674.jpg",
@@ -5325,7 +5325,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GIRLS: PILLOW FIGHT!! BOYS BED FIGHT!!!!! 1948 JOHERCE AMERIC\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15661.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15661.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15661jpg"
     },
     {
         "text_input_id": "16271.jpg",
@@ -5601,7 +5601,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WTF SHE IS SUPPOSED TO BE IN THE KITCHEN\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15974.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15974.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15974jpg"
     },
     {
         "text_input_id": "16084.jpg",
@@ -5877,7 +5877,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Teachers at the start of January Teachers at the end of January\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16061.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16061.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16061jpg"
     },
     {
         "text_input_id": "15956.jpg",
@@ -5937,7 +5937,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Wow, her diet is that good, she lost a tattoo\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15880.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15880.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15880jpg"
     },
     {
         "text_input_id": "15133.jpg",
@@ -6069,7 +6069,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: NEXT TIME DON'T GET PREGNANT mememaker.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17008.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17008.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17008jpg"
     },
     {
         "text_input_id": "15750.jpg",
@@ -6153,7 +6153,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: The 5 B's Of Life Bacon, Beer, Boobs, Bullets & Butts\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15262.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15262.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15262jpg"
     },
     {
         "text_input_id": "15990.jpg",
@@ -6237,7 +6237,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PRVAL FRENCH ME LIKE 23 ONE OF YOUR PAINT GIRLS comemsgenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15780.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15780.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15780jpg"
     },
     {
         "text_input_id": "15288.jpg",
@@ -6357,7 +6357,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Girls be photoshopping their asses at the beach like Sp\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15704.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15704.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15704jpg"
     },
     {
         "text_input_id": "15595.jpg",
@@ -6609,7 +6609,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Dads when their son mentions a girl Dads when their daughter mentions a guy\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15746.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15746.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15746jpg"
     },
     {
         "text_input_id": "16040.jpg",
@@ -6729,7 +6729,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: CANT OPEN BAG OF FROOT LOOPS FAT PEOPLE PROBLEMS\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15622.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15622.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15622jpg"
     },
     {
         "text_input_id": "17067.jpg",
@@ -6813,7 +6813,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ANTI-FEMINISM PRO-STUPID memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16081.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16081.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16081jpg"
     },
     {
         "text_input_id": "16089.jpg",
@@ -6921,7 +6921,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AMY SCHUMER ON HER WAY TO SPAIN memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17017.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17017.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17017jpg"
     },
     {
         "text_input_id": "17012.jpg",
@@ -7449,7 +7449,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 380 million years ago I MUST KEEP ON EVOLVING! 445 million years ago I think I'm already) perfect 0 Present Day @Idiot of the East 100 F*ck Present Day Still perfect C\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15078.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15078.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15078jpg"
     },
     {
         "text_input_id": "16219.jpg",
@@ -7545,7 +7545,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ODON'T ALWAYS HIT A WOMAN BUT WHEN IDO, IT'S WITH AN OPEN HAND\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16309.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16309.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16309jpg"
     },
     {
         "text_input_id": "15958.jpg",
@@ -7677,7 +7677,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WINNING!!! MADE THAT BITCH SWALLOWA ROOFIE memegenerator.net\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17025.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17025.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17025jpg"
     },
     {
         "text_input_id": "15097.jpg",
@@ -7953,7 +7953,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TRIPLETS Even better then twins, 6 tits are better then 4 motifake.com\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16076.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16076.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16076jpg"
     },
     {
         "text_input_id": "16290.jpg",
@@ -8025,7 +8025,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: LADIES THIS IS HOW TO TAKE A SEXY SELFIE\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15228.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15228.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15228jpg"
     },
     {
         "text_input_id": "15915.jpg",
@@ -8205,7 +8205,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MICHELLE OBAMA IS A MAN IGUARANTEE IT makeameme.org\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17079.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17079.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17079jpg"
     },
     {
         "text_input_id": "15558.jpg",
@@ -8373,7 +8373,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHEN I See A woman 863\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16324.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16324.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16324jpg"
     },
     {
         "text_input_id": "16109.jpg",
@@ -8589,7 +8589,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SHE CHEATED ON ME TOO BAD SHE COULDN'T CHEAT DEATH\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16046.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16046.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16046jpg"
     },
     {
         "text_input_id": "15525.jpg",
@@ -9189,7 +9189,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Poor FB/Sarcasmlol Going out in public Rich Super Rich\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15409.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15409.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15409jpg"
     },
     {
         "text_input_id": "15965.jpg",
@@ -9393,7 +9393,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PLEASE PUNCH ME IN THE FACE memes.com\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17068.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17068.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17068jpg"
     },
     {
         "text_input_id": "15355.jpg",
@@ -9681,7 +9681,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: CHEATING ON HIS GIRLFRIEND GETS JEALOUS WHEN MISTRESS FLIRTS WITH OTHER GUYS\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15454.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15454.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15454jpg"
     },
     {
         "text_input_id": "15789.jpg",
@@ -9789,7 +9789,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I HAVE A DREAM speneritera\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16090.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16090.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16090jpg"
     },
     {
         "text_input_id": "17032.jpg",
@@ -9873,7 +9873,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MEN BEFORE THE MEN AFTER THE LOCKDOWN LOCKDOWN\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15522.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15522.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15522jpg"
     },
     {
         "text_input_id": "16289.jpg",
@@ -9897,7 +9897,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GORDON RAMSAY THE ONLY MAN EVER TO TELL A WOMAN TO LEAVE THE KITCHEN\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15648.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15648.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15648jpg"
     },
     {
         "text_input_id": "15067.jpg",
@@ -10485,7 +10485,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS IS HOW YOUR GIRLFRIEND SEES YOUR FEMALE FRIENDS THIS IS HOW YOUR BOYFRIEND SEES YOUR MALE FRIENDS\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15006.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15006.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15006jpg"
     },
     {
         "text_input_id": "15449.jpg",
@@ -10545,7 +10545,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When your roofie knocks her out in 2 seconds ALCHEMY 100\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15551.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15551.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15551jpg"
     },
     {
         "text_input_id": "15707.jpg",
@@ -10845,7 +10845,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Nicki Minaj TotallyLooksLike.com Sheep\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17058.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/17058.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/17058jpg"
     },
     {
         "text_input_id": "16153.jpg",
@@ -10857,7 +10857,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Parents: just eat it, it's not that hot. The food:\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16153.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/16153.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/16153jpg"
     },
     {
         "text_input_id": "15544.jpg",
@@ -10953,7 +10953,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: What every Real Nigga needs in his life\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15753.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15753.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15753jpg"
     },
     {
         "text_input_id": "16120.jpg",
@@ -11181,7 +11181,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sexism classification": "User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Bruh she got bikinis on all HER ROLLS\nSexism Label:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15559.jpg \nAssistant: Sexism Label: /home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mami/images/all/15559.jpg"
+        "output_sexism classification": "sexism label: /home/users/cwicharz/project/testing-multimodal-llms/datasets/mami/images/all/15559jpg"
     },
     {
         "text_input_id": "17049.jpg",

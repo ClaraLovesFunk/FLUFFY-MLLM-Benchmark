@@ -98,13 +98,16 @@ def extract_answer(model, dataset_name, output_raw):
         else:
             output_clean = output_raw
 
+        #print(f'output_raw: {output_raw}')
+
         output_clean = re.sub("\u00a0", '', output_clean)
-        output_clean = re.sub(".<|endofchunk|>", '', output_clean)
+        #print(f'output_clean_1: {output_clean}')
+        output_clean = re.sub("<|endofchunk|>", '', output_clean)
         output_clean = re.sub(r'\|\|', '', output_clean)
         output_clean = re.sub(r'\. ', '', output_clean)
 
-        print(f'output_raw: {output_raw}')
-        print(f'output_clean: {output_clean}')
+        
+        #print(f'output_clean2: {output_clean}')
 
 
     elif model == 'adept':
@@ -148,17 +151,27 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
 
     output_name = "output_" + task
 
-    def add_valid_info(text_input_id, pred_value, label_value):
+    def add_processed_valid_info(text_input_id, pred_value, label_value):
         '''
         - add predictions and labels to lists y_pred and y_true for further computation of eval metrics with sckitlearn
-        - add predictions and labels to dictionary so we can use them later to make a dataframe with all info to show good and 
+        #- add predictions and labels to dictionary so we can use them later to make a dataframe with all info to show good and 
             bad examples 
         '''
         y_pred.append(pred_value)
         y_true.append(label_value)
+        #y_pred_dict[text_input_id] = pred_value
+        #y_true_dict[text_input_id] = label_value
+        return y_pred, y_true#, y_pred_dict, y_true_dict
+
+    def add_processed_info(text_input_id, pred_value, label_value):
+        '''
+        - add predictions and labels to dictionary so we can use them later to make a dataframe with all info to show good and 
+            bad examples 
+        '''
         y_pred_dict[text_input_id] = pred_value
         y_true_dict[text_input_id] = label_value
-        return y_pred, y_true, y_pred_dict, y_true_dict
+
+        return y_pred_dict, y_true_dict
     
     for item in output:      
         output_raw = str(item[output_name]) 
@@ -181,14 +194,16 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if len(matches) == 1:
                         pred_value = matches[0]
                         valid_count += 1
-                        y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                        y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+                    y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
                 if mode == 'hard':
                     if pred_value in VALID_ANS_VALUES_sample_dependent:
                         count = VALID_ANS_VALUES_sample_dependent.count(pred_value)
                        
                         if count == 1:
                             valid_count += 1
-                            y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                            y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+                    y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
                 
             elif dataset_name in ["aokvqa"]:
                 if task == 'multiple choice (aokvqa)':
@@ -199,7 +214,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                             pred_value = matches[0]
                     if pred_value in VALID_ANS_VALUES_sample_dependent:
                         valid_count += 1
-                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                    y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value) # because we dont kick out instances because the model did not give a valid answer
+                    y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
                 if task == 'direct answer (aokvqa)':
                     CORR_ANS_VALUES_sample_dependent = sample['correct_direct_answer_short'] # all these answers are regarded as correct
                     if mode == 'soft':
@@ -207,7 +223,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                         if matches != []:
                             pred_value = matches[0]
                     valid_count += 1
-                    y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                    y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+                    y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
         
             
         elif VALID_ANS_VALUES == "no-ans-validity":
@@ -221,14 +238,16 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     if matches != []:
                         pred_value = matches[0]
                 valid_count += 1
-                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+                y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
             if dataset_name in ["clevr", "gqa"]:
                 CORR_ANS_VALUES_sample_dependent = str(sample['correct_direct_answer_short'])
                 if mode == 'soft':
                     if CORR_ANS_VALUES_sample_dependent in pred_value:
                         pred_value = CORR_ANS_VALUES_sample_dependent
                 valid_count += 1
-                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+                y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
 
         else:
             '''
@@ -240,7 +259,8 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     pred_value = matches[0]
             if pred_value in VALID_ANS_VALUES:
                 valid_count += 1
-                y_pred, y_true, y_pred_dict, y_true_dict = add_valid_info(text_input_id, pred_value, label_value)
+                y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
+            y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
         
 
     valid_ans_ratio = valid_count / len(output) if output else 0

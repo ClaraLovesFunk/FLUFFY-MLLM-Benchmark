@@ -23649,7 +23649,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sentiment analysis": "User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: #horrified #bmovie #victims #playset #swagshop\nSentiment:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mvsa/images/all/923.jpg \nAssistant: The sentiment of the tweet is \"Horrified\"."
+        "output_sentiment analysis": "the sentiment of the tweet is \"horrified\""
     },
     {
         "text_input_id": "924.jpg",
@@ -40197,7 +40197,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sentiment analysis": "User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: #horrified #bmovie #victims #playset #swagshop\nSentiment:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mvsa/images/all/1573.jpg \nAssistant: The sentiment of the tweet is \"Horrified\"."
+        "output_sentiment analysis": "the sentiment of the tweet is \"horrified\""
     },
     {
         "text_input_id": "1574.jpg",
@@ -43749,7 +43749,7 @@
                 "\nAssistant:"
             ]
         ],
-        "output_sentiment analysis": "User: Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: happy steph, sad steph, angry steph, sympathetic steph ?\nSentiment:/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets/mvsa/images/all/3705.jpg \nAssistant: The sentiment of the tweet in combination with the image is \"Sympathetic\"."
+        "output_sentiment analysis": "the sentiment of the tweet in combination with the image is \"sympathetic\""
     },
     {
         "text_input_id": "3708.jpg",

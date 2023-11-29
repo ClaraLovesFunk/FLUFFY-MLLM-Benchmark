@@ -2,22 +2,22 @@
     {
         "text_input_id": 8291,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people is this a shooting range\nHate Label: ",
-        "output_hate classification": "\ue000Hateful\ue001"
+        "output_hate classification": "\ue000hateful\ue001"
     },
     {
         "text_input_id": 46971,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bravery at its finest\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bravery at its finest\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 3745,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: your order comes to $37.50 and your white privilege discount brings the total to $37.50\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: your order comes to $37.50 and your white privilege discount brings the total to $37.50\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 83745,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it is time.. to send these parasites back to the desert\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it is time.. to send these parasites back to the desert\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 80243,
@@ -27,12 +27,12 @@
     {
         "text_input_id": 5279,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: knowing white people , that's probably the baby father\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: knowing white people, that's probably the baby father\nHate Label: \u00a0not hateful<|endofchunk|>"
+        "output_hate classification": "not hateful"
     },
     {
         "text_input_id": 1796,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: life hack #23 how to get stoned with no weed\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: life hack #23 how to get stoned with no weed\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
     },
     {
         "text_input_id": 53046,
@@ -42,7 +42,7 @@
     {
         "text_input_id": 82301,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cooooooooooooon!!!!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cooooooooooooon!!!!\nHate Label:...........<|endofchunk|>"
+        "output_hate classification": "NaN"
     },
     {
         "text_input_id": 31752,
@@ -57,7 +57,7 @@
     {
         "text_input_id": 80597,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look! it says it right here! we can fuck goats!\nHate Label: ",
-        "output_hate classification": "ick. hateful."
+        "output_hate classification": "ickhateful"
     },
     {
         "text_input_id": 45368,
@@ -72,7 +72,7 @@
     {
         "text_input_id": 53968,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you have an 80 point iq but it's the highest in your village\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you have an 80 point iq but it's the highest in your village\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 10749,
@@ -87,12 +87,12 @@
     {
         "text_input_id": 87520,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: yes, we know trump said \"mexico will pay for the wall\" but now mexicans are the wall. that boy good!!!!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: yes, we know trump said \"mexico will pay for the wall\" but now mexicans are the wall. that boy good!!!!\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 89071,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they don't wash their ass with water and they eat their daughters' ass\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they don't wash their ass with water and they eat their daughters' ass\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 9563,
@@ -107,7 +107,7 @@
     {
         "text_input_id": 49826,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people on cinco de mayo vs. every other day\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: white people on cinco de mayo vs. every other day\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 26453,
@@ -117,22 +117,22 @@
     {
         "text_input_id": 12650,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: which one has tranny problems?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: which one has tranny problems?\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 2568,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: whatsthe difference between heroin and i? cops think twice before shooting heroin\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: whatsthe difference between heroin and i? cops think twice before shooting heroin\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 83954,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: head teachers given the power to ban the burqa in british schools share if you want a full ban in britain!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: head teachers given the power to ban the burqa in british schools share if you want a full ban in britain!\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 24316,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: sharks don't attack him why? they think it's whale shit\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: sharks don't attack him why? they think it's whale shit\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 62035,
@@ -142,7 +142,7 @@
     {
         "text_input_id": 65342,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: barn army enlist, and bomb ant hills \"grab your pitchfork and meet at the barn\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: barn army enlist, and bomb ant hills \"grab your pitchfork and meet at the barn\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 92058,
@@ -152,12 +152,12 @@
     {
         "text_input_id": 58672,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: did you know that the chinese eat dogs savages disgusting\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: did you know that the chinese eat dogs savages disgusting\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 54069,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 91586,
@@ -167,12 +167,12 @@
     {
         "text_input_id": 87130,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: finally finding the right tutorial you need indian accent\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: finally finding the right tutorial you need indian accent\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 95640,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: syrian rape survivor speaks out\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: syrian rape survivor speaks out\nHate Label: \ue000Syrian\ue001 \ue000rape\ue001 \ue000"
+        "output_hate classification": "\ue000syrian\ue001 \ue000rape\ue001 \ue000"
     },
     {
         "text_input_id": 47819,
@@ -182,7 +182,7 @@
     {
         "text_input_id": 59140,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wanna go masturbate? fuck yeah! masturbating!\nHate Label: ",
-        "output_hate classification": "\u0295\u2022\u1d25\u2022\u0294 Hateful!"
+        "output_hate classification": "\u0295\u2022\u1d25\u2022\u0294 hateful!"
     },
     {
         "text_input_id": 13647,
@@ -192,7 +192,7 @@
     {
         "text_input_id": 65832,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: why love one but eat the other ? i don't get it\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: why love one but eat the other? i don't get it\nHate Label: \u00a0Not Hateful<|endofchunk|>"
+        "output_hate classification": "not hateful"
     },
     {
         "text_input_id": 57621,
@@ -202,7 +202,7 @@
     {
         "text_input_id": 40982,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as ironing board\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as ironing board\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 43275,
@@ -227,12 +227,12 @@
     {
         "text_input_id": 51607,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 49 people were killed at christchurch muslim 49 people were killed at christchurch mosques muslim\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 49 people were killed at christchurch muslim 49 people were killed at christchurch mosques muslim\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 65403,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: money is evil give it to us\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: money is evil give it to us\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 29750,
@@ -242,7 +242,7 @@
     {
         "text_input_id": 26547,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that's the way allah allah i like it\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that's the way allah allah i like it\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 2143,
@@ -262,7 +262,7 @@
     {
         "text_input_id": 5349,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: normal day in a islamic country\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: normal day in a islamic country\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 6491,
@@ -277,7 +277,7 @@
     {
         "text_input_id": 27485,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label:........................................................................... "
+        "output_hate classification": "NaN"
     },
     {
         "text_input_id": 13026,
@@ -302,7 +302,7 @@
     {
         "text_input_id": 18945,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 83920,
@@ -317,7 +317,7 @@
     {
         "text_input_id": 4569,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when is the time to eat i am hungry\nHate Label: ",
-        "output_hate classification": "When is the time to eat I am hungry"
+        "output_hate classification": "when is the time to eat i am hungry"
     },
     {
         "text_input_id": 39607,
@@ -327,7 +327,7 @@
     {
         "text_input_id": 9715,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i started a business that sells landmines disguised as prayer mats.. ..prophets are going through the roof\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i started a business that sells landmines disguised as prayer mats....prophets are going through the roof\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 1925,
@@ -337,7 +337,7 @@
     {
         "text_input_id": 94813,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thats the way allah allah i like it!!!\nHate Label: \u0295 \u0294 \u0294 \u0294 \u0294 \u0294 \u0294"
+        "output_hate classification": "\u0295 \u0294 \u0294 \u0294 \u0294 \u0294 \u0294"
     },
     {
         "text_input_id": 29437,
@@ -357,7 +357,7 @@
     {
         "text_input_id": 63280,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so you're never going to forgive the germans because of the holocaust? same\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so you're never going to forgive the germans because of the holocaust? same\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 17682,
@@ -367,12 +367,12 @@
     {
         "text_input_id": 84510,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bartender: how about a nice 12 yr old? him: boy or girl?\nHate Label: ",
-        "output_hate classification": "icky, but not hateful."
+        "output_hate classification": "icky, but not hateful"
     },
     {
         "text_input_id": 28690,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if you're gonna talk shit about someone... you better make sure they aren't crazier than you are\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if you're gonna talk shit about someone... you better make sure they aren't crazier than you are\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 3567,
@@ -382,27 +382,27 @@
     {
         "text_input_id": 95830,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: face of terrorism in us\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: face of terrorism in us\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 29873,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who knew that this country is full of white trash\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who knew that this country is full of white trash\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 70953,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"god's chosen people\" according to the book they wrote\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"god's chosen people\" according to the book they wrote\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 56124,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how to cook turkey in usa how to cook turkey in romania\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how to cook turkey in usa how to cook turkey in romania\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
     },
     {
         "text_input_id": 10386,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the book about terrorism\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the book about terrorism\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 19530,
@@ -417,7 +417,7 @@
     {
         "text_input_id": 48370,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 72 virgins are ready to get fucked up\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 72 virgins are ready to get fucked up\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 74058,
@@ -427,17 +427,17 @@
     {
         "text_input_id": 45062,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: me and my kids are going to rob this country blind at the expense of the very people that voted for me. and they're going to love it. believe me! bigly!\nHate Label: ",
-        "output_hate classification": "icky."
+        "output_hate classification": "icky"
     },
     {
         "text_input_id": 94170,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you decide to go full gas\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 4538,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bows here, bows there, bows everywhere\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: bows here, bows there, bows everywhere\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 83946,
@@ -452,12 +452,12 @@
     {
         "text_input_id": 97453,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: potato is my favorite color of the alphabet\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: potato is my favorite color of the alphabet\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 39578,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: one of the bullets they dug out of a victim from the orland gay night club shooting!\nHate Label: ",
-        "output_hate classification": "not hateful"
+        "output_hate classification": "not hateful!"
     },
     {
         "text_input_id": 49360,
@@ -502,12 +502,12 @@
     {
         "text_input_id": 79085,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: today we are making vegetable soup\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: today we are making vegetable soup\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 61872,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: don't be a fool it is a bomb\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: don't be a fool it is a bomb\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 30579,
@@ -517,7 +517,7 @@
     {
         "text_input_id": 62504,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we've taken this country! now fuck off! we're taking it back!\nHate Label: ",
-        "output_hate classification": "icky, not hateful."
+        "output_hate classification": "icky, not hateful"
     },
     {
         "text_input_id": 43810,
@@ -532,7 +532,7 @@
     {
         "text_input_id": 37420,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: like lebanon terrorism can destroy a beautiful country\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: like lebanon terrorism can destroy a beautiful country\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 82509,
@@ -627,7 +627,7 @@
     {
         "text_input_id": 5213,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the families of the hillsborough tragedy were denied legal aid.... but shamima begum gets it to fight for her uk citizenship our system is a sick joke! - martin costello\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the families of the hillsborough tragedy were denied legal aid.... but shamima begum gets it to fight for her uk citizenship our system is a sick joke! - martin costello\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 73945,
@@ -642,7 +642,7 @@
     {
         "text_input_id": 68459,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: family trip in mexico\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: family trip in mexico\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 63175,
@@ -662,7 +662,7 @@
     {
         "text_input_id": 61973,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do alcoholics and necrophiliacs have in common they both love to crack open a cold one.\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do alcoholics and necrophiliacs have in common they both love to crack open a cold one.\nHate Label: icky, icky, icky, icky, icky, icky, icky,"
+        "output_hate classification": "icky, icky, icky, icky, icky, icky, icky,"
     },
     {
         "text_input_id": 16420,
@@ -672,7 +672,7 @@
     {
         "text_input_id": 73069,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: immigration invasion learn the difference\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: immigration invasion learn the difference\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 47056,
@@ -692,7 +692,7 @@
     {
         "text_input_id": 93172,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is a terrorist\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is a terrorist\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 56980,
@@ -707,7 +707,7 @@
     {
         "text_input_id": 38047,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"stupid bitch\" is not a race\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"stupid bitch\" is not a race\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 94560,
@@ -732,7 +732,7 @@
     {
         "text_input_id": 4857,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: ...even the dumb jews know that! trump is a racist.\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text:...even the dumb jews know that! trump is a racist.\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 79603,
@@ -777,7 +777,7 @@
     {
         "text_input_id": 76921,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she probably asked a wrong question\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she probably asked a wrong question\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 68409,
@@ -787,12 +787,12 @@
     {
         "text_input_id": 16354,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we've taken this country! now fuck off! we're taking it back!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we've taken this country! now fuck off! we're taking it back!\nHate Label: \u00a0hateful, hateful, hateful, hateful, hateful, hateful,"
+        "output_hate classification": "hateful, hateful, hateful, hateful, hateful, hateful,"
     },
     {
         "text_input_id": 69548,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wait, mohammad come back i didn't mean to laugh, really size dosen't matter to me lol\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: wait, mohammad come back i didn't mean to laugh, really size dosen't matter to me lol\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 1456,
@@ -817,22 +817,22 @@
     {
         "text_input_id": 96180,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: putting bows on your pet\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: putting bows on your pet\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 98701,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh no i can't steal anymore\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh no i can't steal anymore\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 15243,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 4 am. everyone is asleep perfect time to run from one end of the house to the other at full speed as loudly as possible\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 4 am. everyone is asleep perfect time to run from one end of the house to the other at full speed as loudly as possible\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 41058,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: john wilkes booth be like: yall sure abraham lincoln dead? he aint up here\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: john wilkes booth be like: yall sure abraham lincoln dead? he aint up here\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 62375,
@@ -847,12 +847,12 @@
     {
         "text_input_id": 31208,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe if we weren't consistent sources of crime we'd be treated better\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe if we weren't consistent sources of crime we'd be treated better\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 62319,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america in 2045 \"grandpa...why didn't you stop them?!\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america in 2045 \"grandpa...why didn't you stop them?!\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 68253,
@@ -867,7 +867,7 @@
     {
         "text_input_id": 34209,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how about a nice 12 yr old? bartender: him: boy i would love that\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: how about a nice 12 yr old? bartender: him: boy i would love that\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 39827,
@@ -877,17 +877,17 @@
     {
         "text_input_id": 46920,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we want sharia law !! well.... go home\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we want sharia law!! well.... go home\nHate Label:............... not hateful<|endofchunk|>"
+        "output_hate classification": "not hateful"
     },
     {
         "text_input_id": 84273,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you're the reason for the company safety video\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you're the reason for the company safety video\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 39018,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she said \"i want a ring\" i said \"bitch take your phone off silent!\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she said \"i want a ring\" i said \"bitch take your phone off silent!\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 54780,
@@ -917,7 +917,7 @@
     {
         "text_input_id": 47103,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe we weren't consistent sources of crime we'd be treated better\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: maybe we weren't consistent sources of crime we'd be treated better\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 61038,
@@ -932,22 +932,22 @@
     {
         "text_input_id": 91602,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: upper downer\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 30145,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: before my presidency, there was no isis. there was no caliphate there was no blm. there was no antifa. there was no war on police i built that\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: before my presidency, there was no isis. there was no caliphate there was no blm. there was no antifa. there was no war on police i built that\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 91756,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: abnormal vs normal\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: abnormal vs normal\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 63745,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we could destroy all of them but we let some of them survive so you know why we did it\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: we could destroy all of them but we let some of them survive so you know why we did it\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 47162,
@@ -967,7 +967,7 @@
     {
         "text_input_id": 35497,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: old people at weddings always poke me and say \"you're next.\" so, i started doing the same thing to them at funerals\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: old people at weddings always poke me and say \"you're next.\" so, i started doing the same thing to them at funerals\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 84362,
@@ -1022,7 +1022,7 @@
     {
         "text_input_id": 46087,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: give that man a suicide\nHate Label: ",
-        "output_hate classification": "Give that man a suicide"
+        "output_hate classification": "give that man a suicide"
     },
     {
         "text_input_id": 42058,
@@ -1047,7 +1047,7 @@
     {
         "text_input_id": 38910,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh boy i sure love being muslim in the new zealand city of christchurch on march 15\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: oh boy i sure love being muslim in the new zealand city of christchurch on march 15\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 6723,
@@ -1062,7 +1062,7 @@
     {
         "text_input_id": 62948,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: black lives matter >\"how\",\"why\"and \"to whom\" is unclear\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: black lives matter >\"how\",\"why\"and \"to whom\" is unclear\nHate Label:........................................................................... "
+        "output_hate classification": "NaN"
     },
     {
         "text_input_id": 21075,
@@ -1082,7 +1082,7 @@
     {
         "text_input_id": 21567,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: our dad is a potato farmer\nHate Label: ",
-        "output_hate classification": "Our dad is a potato farmer"
+        "output_hate classification": "our dad is a potato farmer"
     },
     {
         "text_input_id": 1765,
@@ -1097,17 +1097,17 @@
     {
         "text_input_id": 32568,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america taught us how to be happy slaves the same way school teach us how to be happy employees\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: america taught us how to be happy slaves the same way school teach us how to be happy employees\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 1742,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in just one hour from now i'll only have 4 hours left until i have to work a mere 3 hours\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in just one hour from now i'll only have 4 hours left until i have to work a mere 3 hours\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 56098,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i said \"a glass of juice\".\nHate Label: ",
-        "output_hate classification": "\u0295\u2022\u1d25\u2022\u0294 Hateful."
+        "output_hate classification": "\u0295\u2022\u1d25\u2022\u0294 hateful"
     },
     {
         "text_input_id": 78612,
@@ -1137,7 +1137,7 @@
     {
         "text_input_id": 83045,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so much trash, we need a garbage collector\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so much trash, we need a garbage collector\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 61503,
@@ -1157,7 +1157,7 @@
     {
         "text_input_id": 24396,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so like, why are men even gay? girls have buttholes too you know.\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: so like, why are men even gay? girls have buttholes too you know.\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 72168,
@@ -1167,22 +1167,22 @@
     {
         "text_input_id": 85761,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no wonder why the pipes are not working\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no wonder why the pipes are not working\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 35719,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jamal is practicing for class sport\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: jamal is practicing for class sport\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 90256,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: whenever you feel stupid, remember there are people who throw stones at a wall! aiming for an invisible devil, told by an invisible god for an invisible heaven!\nHate Label: ",
-        "output_hate classification": "\u0295 \u1d25 \u0294 Hateful!"
+        "output_hate classification": "\u0295 \u1d25 \u0294 hateful!"
     },
     {
         "text_input_id": 20984,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you are white and stole your first bike\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you are white and stole your first bike\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 95086,
@@ -1207,7 +1207,7 @@
     {
         "text_input_id": 80512,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you can make jokes about anything, just not illegals that's crossing the border\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you can make jokes about anything, just not illegals that's crossing the border\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 62703,
@@ -1217,12 +1217,12 @@
     {
         "text_input_id": 95176,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: notice how the kenyan skidmark has been silent about the mueller report?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: notice how the kenyan skidmark has been silent about the mueller report?\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 27384,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that face you make when you're a bully and just got beat up by a girl\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: that face you make when you're a bully and just got beat up by a girl\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 82437,
@@ -1232,12 +1232,12 @@
     {
         "text_input_id": 26943,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my incesters built this country!!!!\nHate Label: ",
-        "output_hate classification": "erm... not hateful?"
+        "output_hate classification": "ermnot hateful?"
     },
     {
         "text_input_id": 9152,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i don't have ex's. i have y's. like, \"y the hell did i date you?!?\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i don't have ex's. i have y's. like, \"y the hell did i date you?!?\"\nHate Label: \u0295 \u0294 \u0294 \u0294 \u0294 \u0294 \u0294"
+        "output_hate classification": "\u0295 \u0294 \u0294 \u0294 \u0294 \u0294 \u0294"
     },
     {
         "text_input_id": 7429,
@@ -1252,7 +1252,7 @@
     {
         "text_input_id": 46812,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: goat meat is very popular in islamic countries\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: goat meat is very popular in islamic countries\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 63827,
@@ -1287,7 +1287,7 @@
     {
         "text_input_id": 23645,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do they have in common? you enjoy pushing them down the stairs\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: what do they have in common? you enjoy pushing them down the stairs\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 89425,
@@ -1302,22 +1302,22 @@
     {
         "text_input_id": 4769,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if she's pouting like this and you don't immediately drop the argument , motherfucker you gay\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: if she's pouting like this and you don't immediately drop the argument, motherfucker you gay\nHate Label: \u00a0hateful<|endofchunk|>"
+        "output_hate classification": "hateful"
     },
     {
         "text_input_id": 69815,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thank you for allowing me into your country now we need to talk about the things that need to change around here to accommodate my beliefs\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: thank you for allowing me into your country now we need to talk about the things that need to change around here to accommodate my beliefs\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 91468,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you want a whore? buy one. you want a queen? earn her. you want a nickel bag? fifteen bucks, little man\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you want a whore? buy one. you want a queen? earn her. you want a nickel bag? fifteen bucks, little man\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 52104,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: lebanon: before islam after islam but don't worry! after islam takes over, there'll be a golden age... apparently\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: lebanon: before islam after islam but don't worry! after islam takes over, there'll be a golden age... apparently\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 52031,
@@ -1352,7 +1352,7 @@
     {
         "text_input_id": 68530,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a fast sandwich maker\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: a fast sandwich maker\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 98547,
@@ -1377,7 +1377,7 @@
     {
         "text_input_id": 93051,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and for my next class project!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and for my next class project!\nHate Label:............... and for my next class project!<|endofchunk|>"
+        "output_hate classification": "and for my next class project!"
     },
     {
         "text_input_id": 68257,
@@ -1397,12 +1397,12 @@
     {
         "text_input_id": 26439,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: parental opioid use has negative effect on children's intelligence\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: parental opioid use has negative effect on children's intelligence\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 53769,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in 1979 jimmy carter created the department of education since then the u.s. has gone from 1st to 17th in education\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in 1979 jimmy carter created the department of education since then the u.s. has gone from 1st to 17th in education\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 28406,
@@ -1427,12 +1427,12 @@
     {
         "text_input_id": 76015,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everyone celebrates christmas !\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: everyone celebrates christmas!\nHate Label: ive seen this meme before and it was hateful.<|endofchunk|>"
+        "output_hate classification": "ive seen this meme before and it was hateful"
     },
     {
         "text_input_id": 34189,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fight for what you believe in fight for the future\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fight for what you believe in fight for the future\nHate Label: \ue000Fight\ue001 for what you believe in \ue000Fight\ufffd"
+        "output_hate classification": "\ue000fight\ue001 for what you believe in \ue000fight\ufffd"
     },
     {
         "text_input_id": 52079,
@@ -1442,7 +1442,7 @@
     {
         "text_input_id": 63987,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the migrant caravan arrives!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the migrant caravan arrives!\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 73526,
@@ -1452,7 +1452,7 @@
     {
         "text_input_id": 2145,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, what's for dinner?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, what's for dinner?\nHate Label: \ue000Hate\ue001 Label: \ue000Hate\ue001 Label"
+        "output_hate classification": "\ue000hate\ue001 label: \ue000hate\ue001 label"
     },
     {
         "text_input_id": 84102,
@@ -1462,12 +1462,12 @@
     {
         "text_input_id": 32981,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the latest and greatest. a truck that comes with a dishwasher!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the latest and greatest. a truck that comes with a dishwasher!\nHate Label: icky, icky, icky, icky, icky, icky, icky,"
+        "output_hate classification": "icky, icky, icky, icky, icky, icky, icky,"
     },
     {
         "text_input_id": 73605,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no matter what smile\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no matter what smile\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 7382,
@@ -1522,7 +1522,7 @@
     {
         "text_input_id": 46082,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the future of the democratic party\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the future of the democratic party\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 73962,
@@ -1532,7 +1532,7 @@
     {
         "text_input_id": 78462,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the last days there will be scoffers, ridiculers, deniers and mockers following after their own lusts\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: in the last days there will be scoffers, ridiculers, deniers and mockers following after their own lusts\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 49805,
@@ -1547,12 +1547,12 @@
     {
         "text_input_id": 67435,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you ask a jewish girl for her number and she starts rolling her sleeve\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you ask a jewish girl for her number and she starts rolling her sleeve\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
     },
     {
         "text_input_id": 60893,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone. that is unless you stand, en masse. \"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone. that is unless you stand, en masse. \"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 93148,
@@ -1562,17 +1562,17 @@
     {
         "text_input_id": 7351,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"plays uno steals all the green cards\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"plays uno steals all the green cards\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 16850,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: okay okay okay here's my serious face do i look fuhrerious yet?\nHate Label: ",
-        "output_hate classification": "erm... not hateful?"
+        "output_hate classification": "ermnot hateful?"
     },
     {
         "text_input_id": 96312,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you support your little one every step of the way\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you support your little one every step of the way\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 86195,
@@ -1582,12 +1582,12 @@
     {
         "text_input_id": 84162,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i could have killed all of them. but i let some of them survive so you know why i killed them\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i could have killed all of them. but i let some of them survive so you know why i killed them\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 12067,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pre-heat to 350 degrees\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: pre-heat to 350 degrees\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 5938,
@@ -1602,7 +1602,7 @@
     {
         "text_input_id": 30148,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label:............... you mean i don't have to pick it?!?<|endofchunk|>"
+        "output_hate classification": "you mean i don't have to pick it?!?"
     },
     {
         "text_input_id": 12045,
@@ -1617,17 +1617,17 @@
     {
         "text_input_id": 73021,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when mom asks where all the jews went\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when mom asks where all the jews went\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 56241,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 28905,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hey, i just met you and this is crazy but here's your number.. so camping, maybe?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: hey, i just met you and this is crazy but here's your number.. so camping, maybe?\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5a\ud835\udd5f"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5a\ud835\udd5f"
     },
     {
         "text_input_id": 13750,
@@ -1637,7 +1637,7 @@
     {
         "text_input_id": 6582,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 75142,
@@ -1652,12 +1652,12 @@
     {
         "text_input_id": 41796,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: nein danke i'm very happy with my gas supplier\nHate Label: ",
-        "output_hate classification": "\u30fd(\uff9f\u0414\uff9f)\u30ce"
+        "output_hate classification": "\u30fd(\uff9f\u0434\uff9f)\u30ce"
     },
     {
         "text_input_id": 31570,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone that is unless you stand, en masse. \"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: busy, like a hive of bees, controlling what your family sees and edits all the news your hear so you'll know what to think and fear till all the truth there is, is gone that is unless you stand, en masse. \"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 1726,
@@ -1682,22 +1682,22 @@
     {
         "text_input_id": 41035,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my new muslim girlfriend not much to look at\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: my new muslim girlfriend not much to look at\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 10285,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you are what you eat meanwhile in africa\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you are what you eat meanwhile in africa\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 95604,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 68401,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you date an asian boy and you trynna get his family to accept you\nHate Label: ",
-        "output_hate classification": "\u30fd(\uff9f\u0414\uff9f)\u30ce"
+        "output_hate classification": "\u30fd(\uff9f\u0434\uff9f)\u30ce"
     },
     {
         "text_input_id": 50984,
@@ -1712,7 +1712,7 @@
     {
         "text_input_id": 42631,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i believe they are like racism just shouldn't exist\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i believe they are like racism just shouldn't exist\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 61349,
@@ -1722,12 +1722,12 @@
     {
         "text_input_id": 65093,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cookie kunty seen in paris\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cookie kunty seen in paris\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 86357,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: apparently not erdogan\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: apparently not erdogan\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 74965,
@@ -1747,17 +1747,17 @@
     {
         "text_input_id": 92317,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you either die a hero, or live long enough to become the villain\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you either die a hero, or live long enough to become the villain\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 19536,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 90236,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: voila! fresh batch of baked goods !\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: voila! fresh batch of baked goods!\nHate Label: erm, hateful?<|endofchunk|>"
+        "output_hate classification": "erm, hateful?"
     },
     {
         "text_input_id": 30642,
@@ -1782,12 +1782,12 @@
     {
         "text_input_id": 98720,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 2634,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label:...............<|endofchunk|>"
+        "output_hate classification": "NaN"
     },
     {
         "text_input_id": 84107,
@@ -1797,7 +1797,7 @@
     {
         "text_input_id": 7198,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: islam is a religion of peace stop criticizing my religion\nHate Label: ",
-        "output_hate classification": "\ue000Islam\ue001 is a religion of peace stop criticizing my religion"
+        "output_hate classification": "\ue000islam\ue001 is a religion of peace stop criticizing my religion"
     },
     {
         "text_input_id": 45702,
@@ -1822,7 +1822,7 @@
     {
         "text_input_id": 28017,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it ! islam is the religion of peace\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it! islam is the religion of peace\nHate Label: 001<|endofchunk|>"
+        "output_hate classification": "001"
     },
     {
         "text_input_id": 2364,
@@ -1837,12 +1837,12 @@
     {
         "text_input_id": 47183,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking the liberals to a whole new level\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking the liberals to a whole new level\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 72904,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 90243,
@@ -1852,12 +1852,12 @@
     {
         "text_input_id": 41382,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they want to be accepted for who they are, yet theren't able to accept themselves for who they are\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 78156,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: you mean i don't have to pick it?!?\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 74250,
@@ -1897,7 +1897,7 @@
     {
         "text_input_id": 36058,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: love is love\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: love is love\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 9467,
@@ -1927,7 +1927,7 @@
     {
         "text_input_id": 6352,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, can we go play?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, can we go play?\nHate Label:.......... and then i asked mom, can we go play?<|endofchunk|>"
+        "output_hate classification": "and then i asked mom, can we go play?"
     },
     {
         "text_input_id": 58093,
@@ -1937,7 +1937,7 @@
     {
         "text_input_id": 19508,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the definition of utter disgust in plain black and white\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the definition of utter disgust in plain black and white\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e"
     },
     {
         "text_input_id": 2783,
@@ -1952,7 +1952,7 @@
     {
         "text_input_id": 51306,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: eat some cookies you're not yourself when you're hungry\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: eat some cookies you're not yourself when you're hungry\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 50241,
@@ -1962,7 +1962,7 @@
     {
         "text_input_id": 49650,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and then i asked mom, what's for dinner?\nHate Label: ",
-        "output_hate classification": "not hateful"
+        "output_hate classification": "not hateful!"
     },
     {
         "text_input_id": 17045,
@@ -1997,22 +1997,22 @@
     {
         "text_input_id": 59170,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and just like that... this sandwich maker doubles as an ironing board\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 30927,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doesnt let anything stop her have a great day\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: doesnt let anything stop her have a great day\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 32049,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: german british danish austrian diversity. apparently we don't have it and these guys do: iraqi, pakistani, syrian, egyptian\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: german british danish austrian diversity. apparently we don't have it and these guys do: iraqi, pakistani, syrian, egyptian\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 95173,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: take the third reich and then the first left?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: take the third reich and then the first left?\nHate Label:........................................................................... "
+        "output_hate classification": "NaN"
     },
     {
         "text_input_id": 50198,
@@ -2022,7 +2022,7 @@
     {
         "text_input_id": 37658,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your dishwasher is broken so you take it back to walmart to get a new one\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your dishwasher is broken so you take it back to walmart to get a new one\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 95613,
@@ -2042,7 +2042,7 @@
     {
         "text_input_id": 46518,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it's the goat humper, looks like a bunch of pigs just walked over your grave\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: it's the goat humper, looks like a bunch of pigs just walked over your grave\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 18547,
@@ -2067,12 +2067,12 @@
     {
         "text_input_id": 85621,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no, that's not his daughter... that's his wife! yet the world is silent..\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no, that's not his daughter... that's his wife! yet the world is silent..\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 18367,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i love my slow cooker\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i love my slow cooker\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 84036,
@@ -2092,7 +2092,7 @@
     {
         "text_input_id": 63921,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking a photo with family\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: taking a photo with family\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 72864,
@@ -2112,12 +2112,12 @@
     {
         "text_input_id": 93041,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"who's gonna make the sandwiches? what do we do with all these sandwiches?\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"who's gonna make the sandwiches? what do we do with all these sandwiches?\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 97305,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your wife just died giving birth to your daughter and you're alone in the room with your naked just born daughter\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 3568,
@@ -2142,12 +2142,12 @@
     {
         "text_input_id": 40618,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your company valuation hits 1 billion\nHate Label: ",
-        "output_hate classification": "\u30fd(\uff9f\u0414\uff9f)\u30ce"
+        "output_hate classification": "\u30fd(\uff9f\u0434\uff9f)\u30ce"
     },
     {
         "text_input_id": 67208,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 3798,
@@ -2157,7 +2157,7 @@
     {
         "text_input_id": 12468,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it ! islam is the religion of peace\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: say it! say it! islam is the religion of peace\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 16842,
@@ -2167,7 +2167,7 @@
     {
         "text_input_id": 68043,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: plays uno steals all the green cards\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: plays uno steals all the green cards\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 51807,
@@ -2177,7 +2177,7 @@
     {
         "text_input_id": 78914,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: terrorist trojan horse enemy of the state\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 47950,
@@ -2202,12 +2202,12 @@
     {
         "text_input_id": 38914,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cotton candy is what makes the theme park wonderful\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: cotton candy is what makes the theme park wonderful\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 47016,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 14389,
@@ -2222,7 +2222,7 @@
     {
         "text_input_id": 84150,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when your jewish friend smells a stash of coins in public\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd60"
     },
     {
         "text_input_id": 13809,
@@ -2237,17 +2237,17 @@
     {
         "text_input_id": 75286,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 64312,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: no, that's not his daughter.. that's his wife! yet the world is silent..\nHate Label: ",
-        "output_hate classification": "\u30fd(\uff9f\u2200\uff9f)\u30ce Not Hateful!"
+        "output_hate classification": "\u30fd(\uff9f\u2200\uff9f)\u30ce not hateful!"
     },
     {
         "text_input_id": 67103,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: still better than mexican\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: still better than mexican\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 18059,
@@ -2257,7 +2257,7 @@
     {
         "text_input_id": 90643,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she represents the new wave of democrats\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: she represents the new wave of democrats\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 16749,
@@ -2267,17 +2267,17 @@
     {
         "text_input_id": 37814,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is el paso shooter's father every. single. time\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: this is el paso shooter's father every. single. time\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 92046,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: they are terrorists anyone who doesn't agree is an idiot\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 90843,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: time to put the \"panic\" back in hispanic\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: time to put the \"panic\" back in hispanic\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 85237,
@@ -2287,7 +2287,7 @@
     {
         "text_input_id": 98235,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fashion forward !\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: fashion forward!\nHate Label: \u02c8h\u0101t/: a feeling of strong dislike towards (someone or something).<|endofchunk|>"
+        "output_hate classification": "\u02c8h\u0101t/: a feeling of strong dislike towards (someone or something)"
     },
     {
         "text_input_id": 90267,
@@ -2297,12 +2297,12 @@
     {
         "text_input_id": 48296,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you date an asian boy and you trynna get his family to accept you\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: when you date an asian boy and you trynna get his family to accept you\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 29174,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the crimes against humanity should not be swiftly forgotten\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the crimes against humanity should not be swiftly forgotten\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 65801,
@@ -2317,7 +2317,7 @@
     {
         "text_input_id": 94387,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm a fan of the color black on you although the rose gold looks pretty good as well\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm a fan of the color black on you although the rose gold looks pretty good as well\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2d"
     },
     {
         "text_input_id": 80947,
@@ -2327,12 +2327,12 @@
     {
         "text_input_id": 78251,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: watching vegetables grow\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: watching vegetables grow\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 94738,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: shopping is boring. why not have some fun at the walmart parking lot?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: shopping is boring. why not have some fun at the walmart parking lot?\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 57823,
@@ -2357,17 +2357,17 @@
     {
         "text_input_id": 27498,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who's gonna make the sandwiches? what do we do with all these sandwiches?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: who's gonna make the sandwiches? what do we do with all these sandwiches?\nHate Label: \u30fd(\uff9f\u0414\uff9f)\uff89 who's gonna make the sandwiches"
+        "output_hate classification": "\u30fd(\uff9f\u0434\uff9f)\uff89 who's gonna make the sandwiches"
     },
     {
         "text_input_id": 37160,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: best gamer ever 6 million kills, 1 death\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: best gamer ever 6 million kills, 1 death\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 18742,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm proud of it! come at me!\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm proud of it! come at me!\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 19243,
@@ -2377,7 +2377,7 @@
     {
         "text_input_id": 54108,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: does nike also sell stones in case they take it off?\nHate Label: \u02c8h\u0251\u02d0t(\u0259)l, \u02c8h\u0251\ufffd"
+        "output_hate classification": "\u02c8h\u0251\u02d0t(\u0259)l, \u02c8h\u0251\ufffd"
     },
     {
         "text_input_id": 93528,
@@ -2392,7 +2392,7 @@
     {
         "text_input_id": 67082,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"1st day of 4th grade sandy hook elementary school\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"1st day of 4th grade sandy hook elementary school\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 64125,
@@ -2402,32 +2402,32 @@
     {
         "text_input_id": 41296,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: 94% of them test positive for rh blood type which means they have monkey blood as a result they are born with a tail and other animal traits\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 53491,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and in 3 days he came back to life bringing salvation\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: and in 3 days he came back to life bringing salvation\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 37692,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"islam is a religion of peace stop criticizing my religion\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"islam is a religion of peace stop criticizing my religion\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 36201,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at me bling up my prosthetic\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at me bling up my prosthetic\nHate Label: \u02c8h\u0101t\u02ccl\u0259b(\u0259)l, \u02c8h\u0101"
+        "output_hate classification": "\u02c8h\u0101t\u02ccl\u0259b(\u0259)l, \u02c8h\u0101"
     },
     {
         "text_input_id": 29054,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: broken dishwasher\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: broken dishwasher\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 6273,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the jihad squad\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the jihad squad\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 25061,
@@ -2442,7 +2442,7 @@
     {
         "text_input_id": 5439,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: portable dishwasher slash sandwich maker\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: portable dishwasher slash sandwich maker\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc22"
     },
     {
         "text_input_id": 34528,
@@ -2457,7 +2457,7 @@
     {
         "text_input_id": 16704,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: last summer camp was so \"lit\"\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd56"
     },
     {
         "text_input_id": 48792,
@@ -2467,17 +2467,17 @@
     {
         "text_input_id": 7528,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: the latest and greatest. a truck that comes with a dishwasher!\nHate Label: ",
-        "output_hate classification": "icky."
+        "output_hate classification": "icky"
     },
     {
         "text_input_id": 1268,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: father and daughter bonding time is the best like and share if you agree\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: father and daughter bonding time is the best like and share if you agree\nHate Label: \ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
+        "output_hate classification": "\ud835\udc13\ud835\udc21\ud835\udc1e\ud835\udc2c\ud835\udc2c"
     },
     {
         "text_input_id": 83675,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: i'm gonna be like phelps one day\nHate Label: ",
-        "output_hate classification": "\ue000Hate\ue001"
+        "output_hate classification": "\ue000hate\ue001"
     },
     {
         "text_input_id": 37198,
@@ -2487,7 +2487,7 @@
     {
         "text_input_id": 48670,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: look at this sandwich maker club i found on wish on clearance\nHate Label: \ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
+        "output_hate classification": "\ud835\udd4b\ud835\udd59\ud835\udd52\ud835\udd5d\ud835\udd5d"
     },
     {
         "text_input_id": 9863,
@@ -2497,6 +2497,6 @@
     {
         "text_input_id": 97320,
         "prompt_hate classification": "Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"when your dishwasher is broken so you take it back to walmart to get a new one\"\nHate Label: ",
-        "output_hate classification": "<image>Classify the meme as either 'hateful' or 'not hateful'. Respond only with one of these two options.\nMeme Text: \"when your dishwasher is broken so you take it back to walmart to get a new one\"\nHate Label: 001 - \"hateful\"\nHate Label: 002 - \"not hateful\""
+        "output_hate classification": "001 - \"hateful\""
     }
 ]

@@ -12222,7 +12222,7 @@
     {
         "text_input_id": "3205.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: double standards: 'jovial' lindsey graham vs. possibly 'unprincipled' sc.. related articles:\nSentiment: ",
-        "output_sentiment analysis": "Negative, Neutral, Negative, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neutral, Neu"
+        "output_sentiment analysis": "negative, neutral, negative, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neutral, neu"
     },
     {
         "text_input_id": "3209.jpg",
@@ -15142,7 +15142,7 @@
     {
         "text_input_id": "3075.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @zeroize: ?... ??? ??? ?????... ???? ??? ??? ???????...\nSentiment: ",
-        "output_sentiment analysis": "N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e g a t i o n a l l y N e"
+        "output_sentiment analysis": "n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e g a t i o n a l l y n e"
     },
     {
         "text_input_id": "3076.jpg",

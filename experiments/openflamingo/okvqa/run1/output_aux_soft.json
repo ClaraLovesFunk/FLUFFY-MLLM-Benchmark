@@ -452,7 +452,7 @@
     {
         "text_input_id": 5525735,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What knocked the guy off his chair?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0rainbow"
+        "output_direct answer (okvqa)": "arainbow"
     },
     {
         "text_input_id": 1000065,
@@ -3777,7 +3777,7 @@
     {
         "text_input_id": 4838975,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What breed of horse is that?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0friesian"
+        "output_direct answer (okvqa)": "afriesian"
     },
     {
         "text_input_id": 87715,
@@ -3972,7 +3972,7 @@
     {
         "text_input_id": 2114765,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: How much protein is in this meal?\nAnswer: ",
-        "output_direct answer (okvqa)": "grams of protei"
+        "output_direct answer (okvqa)": "grams of protein"
     },
     {
         "text_input_id": 1418215,
@@ -5557,7 +5557,7 @@
     {
         "text_input_id": 3237295,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Where can you buy contemporary furniture?\nAnswer: ",
-        "output_direct answer (okvqa)": "contemporary furniture can be purchased at a variety of stores\u00a0some stores specialize in"
+        "output_direct answer (okvqa)": "contemporary furniture can be purchased at a variety of storessome stores specialize in"
     },
     {
         "text_input_id": 4591035,
@@ -5892,7 +5892,7 @@
     {
         "text_input_id": 1929325,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What areas of the united states would this sport be common in?\nAnswer: ",
-        "output_direct answer (okvqa)": "this sport would be common in areas that have a lot of snow\u00a0this sport would"
+        "output_direct answer (okvqa)": "this sport would be common in areas that have a lot of snowthis sport would"
     },
     {
         "text_input_id": 2309325,
@@ -6227,7 +6227,7 @@
     {
         "text_input_id": 3496115,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What type of knot is shown here?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0square knot"
+        "output_direct answer (okvqa)": "asquare knot"
     },
     {
         "text_input_id": 355265,
@@ -6692,7 +6692,7 @@
     {
         "text_input_id": 5426765,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What breed of horse is that?\nAnswer: ",
-        "output_direct answer (okvqa)": "it is a\u00a0\u00a0friesian horse"
+        "output_direct answer (okvqa)": "it is afriesian horse"
     },
     {
         "text_input_id": 2670355,
@@ -6772,7 +6772,7 @@
     {
         "text_input_id": 4067445,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Where would you find these animals?\nAnswer: ",
-        "output_direct answer (okvqa)": "1\u00a0in the water2\u00a0in the water3"
+        "output_direct answer (okvqa)": "1in the water2in the water3"
     },
     {
         "text_input_id": 2332665,
@@ -6812,7 +6812,7 @@
     {
         "text_input_id": 615075,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What day of the week is busiest for a place like the one pictured?\nAnswer: ",
-        "output_direct answer (okvqa)": "monday\u00a0\u00a0the day of the week is the most important piece of information in this question"
+        "output_direct answer (okvqa)": "mondaythe day of the week is the most important piece of information in this question"
     },
     {
         "text_input_id": 3827295,
@@ -7132,7 +7132,7 @@
     {
         "text_input_id": 4743885,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Is the blue wool natural to the sheep or added by the farmer?\nAnswer: ",
-        "output_direct answer (okvqa)": "the blue wool is natural to the sheep\u00a0the farmer did not add the blue wool"
+        "output_direct answer (okvqa)": "the blue wool is natural to the sheepthe farmer did not add the blue wool"
     },
     {
         "text_input_id": 2770895,
@@ -7487,7 +7487,7 @@
     {
         "text_input_id": 2278065,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the title of the individual in the photo?\nAnswer: ",
-        "output_direct answer (okvqa)": "the title of the individual in the photo is a\u00a0construction worker"
+        "output_direct answer (okvqa)": "the title of the individual in the photo is aconstruction worker"
     },
     {
         "text_input_id": 2854185,
@@ -7967,7 +7967,7 @@
     {
         "text_input_id": 3755035,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is made out of wood?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0wooden\u00a0chair"
+        "output_direct answer (okvqa)": "awoodenchair"
     },
     {
         "text_input_id": 3843375,
@@ -8432,7 +8432,7 @@
     {
         "text_input_id": 4665315,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What kind of bird is this?\nAnswer: ",
-        "output_direct answer (okvqa)": "it is a\u00a0sparrow"
+        "output_direct answer (okvqa)": "it is asparrow"
     },
     {
         "text_input_id": 4711755,
@@ -12557,7 +12557,7 @@
     {
         "text_input_id": 2347795,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is inside that sandwhich?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0sandwhich"
+        "output_direct answer (okvqa)": "asandwhich"
     },
     {
         "text_input_id": 4876125,
@@ -13292,7 +13292,7 @@
     {
         "text_input_id": 3754265,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What kind of sandwitch is this?\nAnswer: ",
-        "output_direct answer (okvqa)": "this is a\u00a0sandwich"
+        "output_direct answer (okvqa)": "this is asandwich"
     },
     {
         "text_input_id": 5645635,
@@ -15087,7 +15087,7 @@
     {
         "text_input_id": 1251675,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Who usually plays with these?\nAnswer: ",
-        "output_direct answer (okvqa)": "teddy bear"
+        "output_direct answer (okvqa)": "teddy bears"
     },
     {
         "text_input_id": 4677915,
@@ -15137,7 +15137,7 @@
     {
         "text_input_id": 2369045,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What wild animal did this animal evolve from?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0dog"
+        "output_direct answer (okvqa)": "adog"
     },
     {
         "text_input_id": 2268215,
@@ -15952,7 +15952,7 @@
     {
         "text_input_id": 671785,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What type of bus is this?\nAnswer: ",
-        "output_direct answer (okvqa)": "bu"
+        "output_direct answer (okvqa)": "bus"
     },
     {
         "text_input_id": 4327985,
@@ -17337,7 +17337,7 @@
     {
         "text_input_id": 4721465,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: How many grams of sugar are in this item?\nAnswer: ",
-        "output_direct answer (okvqa)": "grams of suga"
+        "output_direct answer (okvqa)": "grams of sugar"
     },
     {
         "text_input_id": 5290045,
@@ -18332,7 +18332,7 @@
     {
         "text_input_id": 504115,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What breed of horse is that?\nAnswer: ",
-        "output_direct answer (okvqa)": "a\u00a0quarter horse"
+        "output_direct answer (okvqa)": "aquarter horse"
     },
     {
         "text_input_id": 5326905,
@@ -18577,7 +18577,7 @@
     {
         "text_input_id": 2022755,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Which of these dogs will be the biggest when fully grown?\nAnswer: ",
-        "output_direct answer (okvqa)": "answer: \u00a0answer: \u00a0answer: \u00a0answer: \u00a0answer:"
+        "output_direct answer (okvqa)": "answer: answer: answer: answer: answer:"
     },
     {
         "text_input_id": 2533625,
@@ -18997,7 +18997,7 @@
     {
         "text_input_id": 5710345,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What breed of cows are these?\nAnswer: ",
-        "output_direct answer (okvqa)": "cow"
+        "output_direct answer (okvqa)": "cows"
     },
     {
         "text_input_id": 72745,
@@ -19347,7 +19347,7 @@
     {
         "text_input_id": 2854975,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What is the name of the snowboarding posture pictured here?\nAnswer: ",
-        "output_direct answer (okvqa)": "the name of the snowboarding posture pictured here is a\u00a0backside 180"
+        "output_direct answer (okvqa)": "the name of the snowboarding posture pictured here is abackside 180"
     },
     {
         "text_input_id": 2266315,
@@ -19817,7 +19817,7 @@
     {
         "text_input_id": 5116545,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Can you guess the place where this animal is seen?\nAnswer: ",
-        "output_direct answer (okvqa)": "zo"
+        "output_direct answer (okvqa)": "zoo"
     },
     {
         "text_input_id": 3022605,
@@ -20817,7 +20817,7 @@
     {
         "text_input_id": 126705,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What activites make the place croweded?\nAnswer: ",
-        "output_direct answer (okvqa)": "the activites that make the place croweded are: \u00a01\u00a0the people"
+        "output_direct answer (okvqa)": "the activites that make the place croweded are: 1the people"
     },
     {
         "text_input_id": 1539735,
@@ -21627,7 +21627,7 @@
     {
         "text_input_id": 5061875,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: Name the dish that can be prepared using this fruit shown in this picture?\nAnswer: ",
-        "output_direct answer (okvqa)": "banan"
+        "output_direct answer (okvqa)": "banana"
     },
     {
         "text_input_id": 943365,
@@ -22212,7 +22212,7 @@
     {
         "text_input_id": 5131255,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: What animal known as 'mans best friend' is in the suitcase?\nAnswer: ",
-        "output_direct answer (okvqa)": "do"
+        "output_direct answer (okvqa)": "dog"
     },
     {
         "text_input_id": 263235,
@@ -22237,7 +22237,7 @@
     {
         "text_input_id": 4296235,
         "prompt_direct answer (okvqa)": "Answer the following question adhering to these guidelines:\n1. Omit articles (like 'a', 'an', 'the') before nouns.\n2. Represent all numbers as digits, not word form.\nQuestions: How many calories per slice does this food contain?\nAnswer: ",
-        "output_direct answer (okvqa)": "calories per slic"
+        "output_direct answer (okvqa)": "calories per slice"
     },
     {
         "text_input_id": 634805,

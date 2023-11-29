@@ -2,7 +2,7 @@
     {
         "text_input_id": "15236.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FACEBOOK SINGLES GROUPS BELIKE WHEN A NEW WOMAN JOINS THE GROUP imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist. BECAUSE: Women are people, too."
+        "output_sexism classification": "the meme is not sexist because: women are people, too"
     },
     {
         "text_input_id": "15805.jpg",
@@ -32,7 +32,7 @@
     {
         "text_input_id": "15828.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: EXTREME RAPE The woman in this picture is going to get it. Very hard. DIY.DESPAIR.COM\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15905.jpg",
@@ -42,7 +42,7 @@
     {
         "text_input_id": "15971.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Women Women Women 0 Respect\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16197.jpg",
@@ -57,7 +57,7 @@
     {
         "text_input_id": "16130.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I GOTTA A BIG FAT ASS AND A COUPLE STD'S TRUSIONGCAR\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15742.jpg",
@@ -72,7 +72,7 @@
     {
         "text_input_id": "15037.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: imgflip.com EVERY SUPER-HERO HAS A VULNERABILITY THEY JUST CAN'T OVERCOME THEIRS IS GRAVITY+TIME EUROBEAT KASCHI\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist. BECAUSE: In this picture, the text is referring to a character in a comic who is unable to overcome her vulnerability, which is gravity and time."
+        "output_sexism classification": "the meme is not sexist because: in this picture, the text is referring to a character in a comic who is unable to overcome her vulnerability, which is gravity and time"
     },
     {
         "text_input_id": "15592.jpg",
@@ -117,7 +117,7 @@
     {
         "text_input_id": "16056.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: My Friends and Family Um...whatcha thinking about? Existentialism, depression, anxiety, memes. meirl An Excuse Uh, Thoughts\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "sexism."
+        "output_sexism classification": "sexism"
     },
     {
         "text_input_id": "15038.jpg",
@@ -132,7 +132,7 @@
     {
         "text_input_id": "15457.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DEMANDS RESPECT AND NOT BE TREATED AS A SEXUAL OBJECT THIS IS WHAT A SEMINIS LOOKS STANDS IN A LINE FOR THREE HOURS TO WATCH A MOVIE ABOUT A RICH MAN WHO ABUSES SEXUALLY AND PSYCOLOGICALLY A GIRL memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15692.jpg",
@@ -142,12 +142,12 @@
     {
         "text_input_id": "16334.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Photographing something you want to show everyone OBJECT_ Women CT Males\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17077.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DIPLOMACY Words don't always solve problems. Sometimes you just have to punch an alien in the face. fakeposters.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15491.jpg",
@@ -167,7 +167,7 @@
     {
         "text_input_id": "16242.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Breaking the law Like a boss\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16245.jpg",
@@ -187,7 +187,7 @@
     {
         "text_input_id": "16327.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MB GB NB MEGABYTE GIGABYTE\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15115.jpg",
@@ -197,7 +197,7 @@
     {
         "text_input_id": "15277.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHATS THE DIFFERENCE BETWEEN A PREGNANT WOMAN AND A LIGHT BULB? YOU CAN UNSCREW A LIGHT BULB. memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16304.jpg",
@@ -207,7 +207,7 @@
     {
         "text_input_id": "15034.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 50 SHADES OF HAM\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15148.jpg",
@@ -227,12 +227,12 @@
     {
         "text_input_id": "15758.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"men womens's rights should be equal to men's rights\"\" LE00000 EQUAL RIGHTS EQUAL FIGHTS\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15095.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YOURS FOR ONLY... TWO MILLION DOLLARS Neregenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15521.jpg",
@@ -247,7 +247,7 @@
     {
         "text_input_id": "15731.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MIKE This is How guys want to be as a father memecenter.com Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15727.jpg",
@@ -287,7 +287,7 @@
     {
         "text_input_id": "16143.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: The girlfriend I want: Pa The girlfriend I have: MemeZila.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15679.jpg",
@@ -297,17 +297,17 @@
     {
         "text_input_id": "15947.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: imgflip.com WHEN A COUGAR GETS SO OLD SHE NEEDS A HEARING AID SHE BECOMES A DEF LEPPARD\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The answer is: not sexist. BECAUSE:."
+        "output_sexism classification": "the answer is: not sexist because:"
     },
     {
         "text_input_id": "16055.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TUECH CONNECTICU Women's Volleyball IT'S STARTING OUT NOW, LET'S GO BEFORE WE MATIT!!!\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16110.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HEY LADY I think your shoe is untied. memecenter.com Mame Center. Meme Center : Jutinjose Likes Page 10\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15506.jpg",
@@ -347,7 +347,7 @@
     {
         "text_input_id": "15496.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"WHEN YOUR GF SAYS \"\"I'M OFF MY PERIOD\"\" Sexy Cat Meme - Imgflip\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17047.jpg",
@@ -387,7 +387,7 @@
     {
         "text_input_id": "15781.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Women with a time machine: hello sir, big fan Men with a time machine: hello sir, big fan\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male/Female role alternate."
+        "output_sexism classification": "male/female role alternate"
     },
     {
         "text_input_id": "15743.jpg",
@@ -397,7 +397,7 @@
     {
         "text_input_id": "15765.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DUDES BE VENTING ON HERE LIKE WE CARE POST SOME GREY SWEATPANTS PICS HOE\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Responding to the rationale 'It's a joke quote, it's not sexist at all.', the correct option to choose would be: Not Sexist."
+        "output_sexism classification": "responding to the rationale 'it's a joke quote, it's not sexist at all', the correct option to choose would be: not sexist"
     },
     {
         "text_input_id": "15294.jpg",
@@ -472,12 +472,12 @@
     {
         "text_input_id": "15031.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TRYNA GET MY SUMMER BODY RIGHT LIKE.. memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female body."
+        "output_sexism classification": "female body"
     },
     {
         "text_input_id": "16155.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS IS ME WATCHING FOOTBALL WHETHER GIRLFRIEND LIKE IT OR NOT Theregenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "16075.jpg",
@@ -487,7 +487,7 @@
     {
         "text_input_id": "17076.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BestDemotivationalPosters.com I'M A BARBIE GIRL In a barbie world, life in plastic, it's fantastic\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16004.jpg",
@@ -502,12 +502,12 @@
     {
         "text_input_id": "15235.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"SOME GIRLS ACT LIKE HEROES BUT imgflip.com MOST TIMES THE \"\"ER\"\" IS SILENT\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist. BECAUSE:."
+        "output_sexism classification": "the meme is not sexist because:"
     },
     {
         "text_input_id": "17054.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \u6e0b\u8c37\u30bb\u30f3 \u72ac\u30cf\u30c1\u516c\u50cf \u624b\u639b\u304b\u308a\u3092\u63a2\u305b VIDEO GAMES Always better in RL VERY DEMOTIVATIONAL .com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15451.jpg",
@@ -537,7 +537,7 @@
     {
         "text_input_id": "15051.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"THANKS TO PLANNED PARENT HOOD MORTH imgflip.com WOMAN NOT A WOMB! WE WONT GIVE UP WE WANT GIVE IN MY om Kay WHEN THE AVERAGE FEMINIST BE LIKE \"\"STAY OUT IF MY WOMB!\"\" THE AVERAGE MAN BE LIKE Not a problem!\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "16121.jpg",
@@ -557,7 +557,7 @@
     {
         "text_input_id": "15281.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SO YOU'RE A WOMAN? YOU MUST BE A SEXUAL OBJECT\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16176.jpg",
@@ -567,7 +567,7 @@
     {
         "text_input_id": "15851.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 6-7 TM AMERICAN KFAST SPECIAL & BILL 1.45 1.95 195 195 OFFEE GANG RAPE This is how it starts motifake.com SLOPPY SECONDS Five Cocks - Three Holes... You Do The Math! motifake fake.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16270.jpg",
@@ -582,7 +582,7 @@
     {
         "text_input_id": "16210.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: trying to do math on the first day back from summer vacation be like 182 YAL Waz 1+1\u2082 55\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15999.jpg",
@@ -602,12 +602,12 @@
     {
         "text_input_id": "16235.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TELL ME MORE ABOUT THAT MAGICAL ASIAN PUSSY memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15354.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 10% 10% WOMAN: Shampoo for dry and damaged hair. MAN: 6 in 1 shampoo for hair, face, body, carpet, car and dishes. MemeZila.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15615.jpg",
@@ -627,7 +627,7 @@
     {
         "text_input_id": "16218.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WOMEN? YOU MEAN DICK HOLSTER? guckme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15169.jpg",
@@ -637,12 +637,12 @@
     {
         "text_input_id": "16067.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WOMEN NEED A GOOD BEATING ONCE IN A WHILE memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15523.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"NOT EVERY CRITICISM IS AN \"\"ANTI-FEMINIST OF FEMINISM CIRCLEJERK\"\" NO MOVEMENT OR IDEOLOGY CAN BE ABOVE CRITICISM\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15193.jpg",
@@ -657,12 +657,12 @@
     {
         "text_input_id": "15022.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 6 YOUR MONEY ON THE BANK YOUR MONEY ON CRYPTO\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male/Female."
+        "output_sexism classification": "male/female"
     },
     {
         "text_input_id": "15667.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Sexism is still sexism even if it's pointed towards men Feminists ifunny.co\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "In this meme, the text is not sexist."
+        "output_sexism classification": "in this meme, the text is not sexist"
     },
     {
         "text_input_id": "16310.jpg",
@@ -677,7 +677,7 @@
     {
         "text_input_id": "15609.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DADDY'S LITTLE GIRL, FOREVER AND ALWAYS! mener.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15811.jpg",
@@ -697,7 +697,7 @@
     {
         "text_input_id": "16014.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I CAN FEEL IT COMING IN THE AIR TONIGHT... OH LORD MonyCenter.com Name Cardins\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15276.jpg",
@@ -707,7 +707,7 @@
     {
         "text_input_id": "16269.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MILF'S LIKE LETTING TEEN BOYS POUND THEM SENSELESS memecrusch.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15456.jpg",
@@ -717,7 +717,7 @@
     {
         "text_input_id": "15668.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: LOUDER Chow OUDER CROWDER Cute girls in a hoodie are better than hot girls in a bikini CHANGE MY MIN ifunny.co\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "16273.jpg",
@@ -727,12 +727,12 @@
     {
         "text_input_id": "15964.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YEAH, I HAVE A GIRLFRIEND. BUT SHE'S BEING A BITCH RIGHT NOW SO IT'S COOL IF OHIT ON YOU ON FACEBOOK.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15607.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AND THIS IS HOW 11a. 123 YOU COOK THE CAT G memegeneratoranet\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16306.jpg",
@@ -747,12 +747,12 @@
     {
         "text_input_id": "15122.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: The Line In I HAVE UX ORD A PENIS arn quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16142.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FEMINISM ISN'T ANTI-MALE IT'S PRO-WOMAN memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15475.jpg",
@@ -812,7 +812,7 @@
     {
         "text_input_id": "15026.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BEHIND EVERY GREAT MAN... IS A GREATER WOMAN. memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female superiority."
+        "output_sexism classification": "female superiority"
     },
     {
         "text_input_id": "15556.jpg",
@@ -827,7 +827,7 @@
     {
         "text_input_id": "15223.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THAT MOMENT WHEN YOU SEE YOUR BOSSON THE GOLF COURSE AFTER CALLING IN SICK makoameme\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15112.jpg",
@@ -902,7 +902,7 @@
     {
         "text_input_id": "17037.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I DON'T NEED A TANK TOP E I Kayla TO BEA WIFE BEATER imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15686.jpg",
@@ -927,7 +927,7 @@
     {
         "text_input_id": "15705.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHAT'S THE DIFFERENCE BETWEEN ME AND A MOSQUITO? DATO A MOSQUITO WILL STOP SUCKING AFTER YOU SLAP IT.. Introducing B.j Girl by recyclebin - Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "17060.jpg",
@@ -937,7 +937,7 @@
     {
         "text_input_id": "15503.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"Yeah bro it's modified\"\" BEFORE AFTER\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15911.jpg",
@@ -992,7 +992,7 @@
     {
         "text_input_id": "15151.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I'M THIS PRETTY BECAUSE BOTH MY PARENTS ARE WHITE.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15785.jpg",
@@ -1027,7 +1027,7 @@
     {
         "text_input_id": "16092.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I'm looking for my boy toy, His name starts with a B meme-ardenatre\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15436.jpg",
@@ -1037,12 +1037,12 @@
     {
         "text_input_id": "15754.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Jisure Throlle SANTA TAKES CARE OF THOSE BIKERS WHO'VE BEEN GOOD BORISTER\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15701.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HEY GIRL YOU'RE CUTE. GIRL memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "17033.jpg",
@@ -1067,7 +1067,7 @@
     {
         "text_input_id": "16013.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Fat people 2020 Did you hear that meme-mornalro\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15469.jpg",
@@ -1077,7 +1077,7 @@
     {
         "text_input_id": "15225.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: imgflip.com A COMPLAINT OF KARENS mucusandcheese\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15113.jpg",
@@ -1102,7 +1102,7 @@
     {
         "text_input_id": "16001.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ADMIT IT AMERICAN PIE (1999) TAUGHT YOU THE WORD MILF\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15593.jpg",
@@ -1127,7 +1127,7 @@
     {
         "text_input_id": "15098.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HAS A TEST TOMORROW PLAYS CALL OF DUTY quickmeme.com Lazy Middle School Student memes | quickmeme\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15759.jpg",
@@ -1137,7 +1137,7 @@
     {
         "text_input_id": "16060.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THE STEP MILF IT'S OK TO THINK ABOUT HER YOU'RE NOT REALLY RELATED\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15816.jpg",
@@ -1152,7 +1152,7 @@
     {
         "text_input_id": "16256.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WOMAN AS A SEXUAL OBJECT (LIKE IT IS NORMAL ON TV)\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15918.jpg",
@@ -1167,7 +1167,7 @@
     {
         "text_input_id": "15158.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: IF EVERYONE COULD STOP CONFUSING FEMINISM WITH MISANDRY THAT WOULD BE GREAT imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16037.jpg",
@@ -1182,12 +1182,12 @@
     {
         "text_input_id": "15208.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When your mom leaves you at the counter and you're up next 109\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15420.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you're the only one who witnessed the school fight u/GrumpMC\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15526.jpg",
@@ -1232,7 +1232,7 @@
     {
         "text_input_id": "15309.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: NOBODY: GENDER REVEAL PARTYS: ITS A GIRL\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15907.jpg",
@@ -1282,12 +1282,12 @@
     {
         "text_input_id": "15637.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YOU CAN TELL HOW MUCH A WOMAN LIKES YOU BY HER FEET. IF THEY ARE BEHIND HER EARS, SHE REALLY REALLY LIKES YOU.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15350.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BOOBS facebook.com/ECOjokes Because you can't stare at a personality.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16169.jpg",
@@ -1297,7 +1297,7 @@
     {
         "text_input_id": "15101.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"WOMEN ARE NOT OBJECTS PINIS SECA\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: \"YES\"."
+        "output_sexism classification": "answer: \"yes\""
     },
     {
         "text_input_id": "17011.jpg",
@@ -1317,12 +1317,12 @@
     {
         "text_input_id": "15269.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHAT IF WOMEN ARE USING FEMINIST MOVEMENTS TO ACHIEVE ANTI- FEMINIST AIMS?\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The answer is 'Not Sexist'. BECAUSE: A meme is a piece of content that is promoted through social media or other forms of communication.\nThe text from the meme says: What if women are using feminist movements to achieve anti-feminist aims?. Answer: Not sexist."
+        "output_sexism classification": "the answer is 'not sexist' because: a meme is a piece of content that is promoted through social media or other forms of communication\nthe text from the meme says: what if women are using feminist movements to achieve anti-feminist aims? answer: not sexist"
     },
     {
         "text_input_id": "15245.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"WHAT'S MY FAVORITE 80'S SONG? 38 FEC \"\"BURNING DOWN THE HOUSE\"\" BY THE TALKING HEADS imgflip.com\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15468.jpg",
@@ -1332,7 +1332,7 @@
     {
         "text_input_id": "16180.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: jules @cowboij yes i do the cooking 1:07 PM 3/10/20 Twitter for iPhone CONGEL\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15200.jpg",
@@ -1367,7 +1367,7 @@
     {
         "text_input_id": "15489.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AT LEAST I KEPT THE FLOOR CLEAN! nenegeturator and\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15689.jpg",
@@ -1377,12 +1377,12 @@
     {
         "text_input_id": "16052.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Very hot girl with a bikini on MEMES\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15700.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THERE ARE TWO TYPES OF TEACHERS: SUNDAY MORNING TEACHERS MONDAY MORNING TEACHERS\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "This meme is not sexist."
+        "output_sexism classification": "this meme is not sexist"
     },
     {
         "text_input_id": "15135.jpg",
@@ -1407,7 +1407,7 @@
     {
         "text_input_id": "15497.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: me for DOMESTIC VIOLENCE Because sometimes, you have to tell her more than once. -zach DIYDESPAIR.COM\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16247.jpg",
@@ -1417,7 +1417,7 @@
     {
         "text_input_id": "15831.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Looking for my boyfriend \u4f60 His name start with m meme-arsenalre\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17069.jpg",
@@ -1437,7 +1437,7 @@
     {
         "text_input_id": "16214.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHEN YOUR TEACHER KEEPS TALKING AFTER THE BELL RINGS\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female teacher."
+        "output_sexism classification": "female teacher"
     },
     {
         "text_input_id": "15340.jpg",
@@ -1452,7 +1452,7 @@
     {
         "text_input_id": "15323.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SHR SAYS SHE BE EXERCISING BUT WHEN I WATCH HERE SHE BE ONLY TAKING TEN SLOW STEPS AND SAYING THAT'S HER EXERCISE FOR THE DAY fat person Memes & GIFs - Imgflip\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female fat person exercising is not sexist."
+        "output_sexism classification": "female fat person exercising is not sexist"
     },
     {
         "text_input_id": "15861.jpg",
@@ -1492,7 +1492,7 @@
     {
         "text_input_id": "16064.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: COME CLEAN? imgflip.com EVERYBODY HAS TIME FOR THAT\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "False."
+        "output_sexism classification": "false"
     },
     {
         "text_input_id": "16021.jpg",
@@ -1532,7 +1532,7 @@
     {
         "text_input_id": "15696.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: How girls Surprise from behind tphotos deposit deponte How boys Surprise from behind MemeZila.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15721.jpg",
@@ -1552,7 +1552,7 @@
     {
         "text_input_id": "15726.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you and your squad see someone you hate Gratchet_mamed\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15319.jpg",
@@ -1582,7 +1582,7 @@
     {
         "text_input_id": "15513.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: the pizzas ain't even sliced...it just say girl and im weak Imdao 10 hrs - gender reveal today !happy to be apart of our customers exciting news 13.7 Girt What is gender: girl\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15703.jpg",
@@ -1592,7 +1592,7 @@
     {
         "text_input_id": "15292.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YOU WANTED OBAMA'S BIRTH CERTIFICATE I WANT SARAH PALIN'S HIGH SCHOOL DIPLOMA mematic.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15102.jpg",
@@ -1622,7 +1622,7 @@
     {
         "text_input_id": "15630.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SUMMER 2020 THE NEW SEXY\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15980.jpg",
@@ -1642,7 +1642,7 @@
     {
         "text_input_id": "15074.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: All Asian women stand like this when they cook. Hind CAO Duxton\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16278.jpg",
@@ -1682,7 +1682,7 @@
     {
         "text_input_id": "15033.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AS GREENDAY SAYS... WAKE ME UP WHEN THIS SEMESTER ENDS memecenter.com MemeCenter Wake Me Up! by brightwood - Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15855.jpg",
@@ -1707,7 +1707,7 @@
     {
         "text_input_id": "15057.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHEN YOUR GIRLFRIEND DOESN'T LIKE HER CHRISTMAS PRESENT UNGRATEFUL BITCH !!!! IT'S THE THOUGHT THAT COUNTS CAPPLE LE CLAPPER PLUS Telecomande avec #The BadGuy \u24c7\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15132.jpg",
@@ -1767,12 +1767,12 @@
     {
         "text_input_id": "15455.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THAT MOMENT WHEN YOU WAKE UP IN THE MORNING Adult Sex Memes THIS MEN'S ROOM AND REALIZE YOU'RE GOING TO BE LATE FOR WORK TODAY!\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16338.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you see a cute girl on facebook: Like. Fap fap. memecenter.com MemeCenter\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15581.jpg",
@@ -1792,22 +1792,22 @@
     {
         "text_input_id": "15810.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HOW MEN LOOK WHEN THE WOMAN OF THE HOUSE SAYS TAKE OUT THE TRASH AND ITS COLD OUTSIDE megter\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15391.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Wanna know if ur mans cheating? Snatch his phone run in the bathroom. INSTAGRAM OLIVIABOSSCHICK If he tries 2 kick the door down..u ain't the only one! You're Welcome\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15482.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: feminism is: not: 88 88 > B\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "16119.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SPOUSAL ABUSE? YOU MEAN TRAINING THE SAMMICH MAKER?memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16251.jpg",
@@ -1837,7 +1837,7 @@
     {
         "text_input_id": "15850.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Nothing beats fantasizing about Stifler's mom. We all need a Stifler's mom\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "17029.jpg",
@@ -1857,17 +1857,17 @@
     {
         "text_input_id": "15125.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: JAPANESE SCIENTISTS HAVE CREATED A CAMERA WITH SUCH A FAST SHUTTER SPEED THAT THEY CLAIM CAN PHOTOGRAPH A WOMAN WITH HER MOUTH SHUT quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15312.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BITCHES BE LIKE I'M A VIRGIN made on imgur\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15527.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHAT AM I DOING? NOTHING BABE I MISS YOU quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15500.jpg",
@@ -1882,7 +1882,7 @@
     {
         "text_input_id": "15479.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"BABE LOOK AT MY KEYBOARD IT GLOWS\"\"\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "N/A."
+        "output_sexism classification": "n/a"
     },
     {
         "text_input_id": "15019.jpg",
@@ -1912,7 +1912,7 @@
     {
         "text_input_id": "15883.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: when you get a new seating chart and you end up sitting next to your best friend dmpauses\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The option is: not sexist."
+        "output_sexism classification": "the option is: not sexist"
     },
     {
         "text_input_id": "15492.jpg",
@@ -1932,7 +1932,7 @@
     {
         "text_input_id": "15012.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PARENTING MOMSGOTINK IF YOU FEEL CRAZY, THEN YOU'RE DOING IT RIGHT.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15949.jpg",
@@ -1997,7 +1997,7 @@
     {
         "text_input_id": "17059.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ONE BLACK EYE? HELLS YEAH, I LISTENED THE FIRST TIME Omegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist. BECAUSE:."
+        "output_sexism classification": "answer: this meme is not sexist because:"
     },
     {
         "text_input_id": "15481.jpg",
@@ -2022,7 +2022,7 @@
     {
         "text_input_id": "15085.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MY WIFE SUGGESTIGET ONE OF THOSE PENIS ENLARGERS Coul Strange SO I DID, SHE'S 21 AND HER NAME IS KIM coolstrange.com Cool Strange\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15629.jpg",
@@ -2062,17 +2062,17 @@
     {
         "text_input_id": "15824.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WIVES IF SHE KEEPS COMING OUT OF THE KITCHEN TO NAG, THEN YOU MADE HER LEASH TOO LONG! Wife Memes lovequotesmessages\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15402.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GETS INVITED TO FIRST SEX PARTY 36 REALIZES IT FOR A BABY GENDER REVEAL meme memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15989.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you're an assassin's Ubisoft and haven't made creed game in 5 minutes Gr. SY HE\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15791.jpg",
@@ -2122,7 +2122,7 @@
     {
         "text_input_id": "15653.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Andrew @FernandazAndrew Hello guys meet my girlfriend any question? Sajahan Sekh @Sajahaniglesias Between you and your girlfriend, who do you think is going to get married first? HindiBate.CoM\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15951.jpg",
@@ -2142,12 +2142,12 @@
     {
         "text_input_id": "15674.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DONLY HANG OUT WITH GUYS BECAUSE IT'S LESS DRAMA\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15773.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: COME CLEAN WHO HAD A RATS TAIL?\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15646.jpg",
@@ -2162,7 +2162,7 @@
     {
         "text_input_id": "15498.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: OH, FEMINISM IS ABOUT EQUALITY? THEN YOU MUST BELIEVE IN EQUAL SENTENCING FOR MEN AND WOMEN WHO COMMIT THE SAME CRIMES Vi\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15729.jpg",
@@ -2172,7 +2172,7 @@
     {
         "text_input_id": "15484.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"billie | spoiler free @fvmero Brie Larson really said \"\"Fuck Thanos!!!\"\" WORL\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15511.jpg",
@@ -2187,12 +2187,12 @@
     {
         "text_input_id": "16002.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FLEXIBILITY Wwt. Was 1 Saying Something?\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16157.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"VA AND THAT WAS THE LAST TIME HE DEMANDED SHE MAKE HIM A SANDWICH Make me a sammich\"\" memes? - What's So Funny? - CindysBeenTrippin Boards\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15467.jpg",
@@ -2202,12 +2202,12 @@
     {
         "text_input_id": "15105.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AN ABUSER MAKING YOU DINNER DOESN'T MAKE THEM NOT ABUSIVE. THE WHOLE DAMN SYSTEM IS GUILTY AS HELL, AND GOOD PEOPLE CONTRIBUTE TO IT ALL THE TIME imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15919.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MEN ARE PIGS AND MY BOYFRIEND BETTER BUY ME THIS KITCHEN! mamoneurates pet\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16133.jpg",
@@ -2227,7 +2227,7 @@
     {
         "text_input_id": "16044.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THESE GENDER REVEALS ARE GETTING OUT OF HAND ITSA GIRLITI\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist. BECAUSE: A gender reveal is a celebration where the gender of a baby is revealed to the parents-to-be or others. It is a fun and exciting event.\nMost people who are having a baby and want to find out the gender are doing it through a gender reveal."
+        "output_sexism classification": "the meme is not sexist because: a gender reveal is a celebration where the gender of a baby is revealed to the parents-to-be or others it is a fun and exciting event\nmost people who are having a baby and want to find out the gender are doing it through a gender reveal"
     },
     {
         "text_input_id": "15717.jpg",
@@ -2312,7 +2312,7 @@
     {
         "text_input_id": "15081.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"LET ME TELL YOU SOMETHING ON BEHALF OF WOMEN EVERYWHERE: Max THE 1868 1937 WE. DON'T. LIKE. BEARDS.\"\" made on imgur\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15423.jpg",
@@ -2352,7 +2352,7 @@
     {
         "text_input_id": "16118.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"WHEN YOU MAKE HIS SANDWICH SO GOOD HE GIVES YOU THE \"\"D\"\"THAT LEAVES YOU LIKE THIS ON THE KITHCHEN FLOOR\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15699.jpg",
@@ -2362,17 +2362,17 @@
     {
         "text_input_id": "15866.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 4TH RULE OF MISOGYNY WOMEN'S OPINIONS ARE VIOLENCE AGAINST MEN; THUS, MALE VIOLENCE AGAINST WOMEN IS JUSTIFIED imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "None of the other gender-related issues are part of the meme."
+        "output_sexism classification": "none of the other gender-related issues are part of the meme"
     },
     {
         "text_input_id": "15582.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: UPDATE THE CHURCH WEBSITE? AIN'T NOBODY GOT TIME FOR THAT\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16034.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: What's the difference between a pregnant woman and a lightbulb? You can unscrew a lightbulb One is an object and the other is a source of illumination\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15025.jpg",
@@ -2382,7 +2382,7 @@
     {
         "text_input_id": "15631.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: IS USED IN ANTI LIBERAL MEMES IS A TRANS WOMAN\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15887.jpg",
@@ -2407,12 +2407,12 @@
     {
         "text_input_id": "15390.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: EATING: WOMEN VS. MEN At home Outside Men vs Women yohyoh.com/youthrocks\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15196.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FEMINISTS SAID THAT ONLY MEN ARE ABUSERS mlig.com lii maury THAT WAS A LIE\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "17048.jpg",
@@ -2432,12 +2432,12 @@
     {
         "text_input_id": "15305.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MAN HUNGRY Woman Kitchen\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15324.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Me walking away from the printer knowing the toner is running low F\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female user: The meme is not sexist."
+        "output_sexism classification": "female user: the meme is not sexist"
     },
     {
         "text_input_id": "15180.jpg",
@@ -2487,7 +2487,7 @@
     {
         "text_input_id": "15671.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GORDON RAMSAY THE ONLY GUY WHO TELLS WOMEN TO GET OUT OF THE KITCHEN...... imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15380.jpg",
@@ -2507,12 +2507,12 @@
     {
         "text_input_id": "15636.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Milf? What brand of milk is that? Milf - Meme by Shaden_Gamen :) Memedroid Metedail\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17063.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: NO SAMMICH BARBIE MATTEL: CREATING THE FUTURE OF PLAY. motifake.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Mottoke.com."
+        "output_sexism classification": "mottokecom"
     },
     {
         "text_input_id": "15972.jpg",
@@ -2522,7 +2522,7 @@
     {
         "text_input_id": "15944.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 9GAG.COM/GAG/5793302 There is no difference Handcrafted by llovelora79 for iFunny :) ifunny.mobi\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "17008.jpg",
@@ -2562,7 +2562,7 @@
     {
         "text_input_id": "15262.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: The 5 B's Of Life Bacon, Beer, Boobs, Bullets & Butts\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "None."
+        "output_sexism classification": "none"
     },
     {
         "text_input_id": "15990.jpg",
@@ -2582,7 +2582,7 @@
     {
         "text_input_id": "16204.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: light source observer light ray Respect Women object object\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15164.jpg",
@@ -2597,7 +2597,7 @@
     {
         "text_input_id": "15780.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: PRVAL FRENCH ME LIKE 23 ONE OF YOUR PAINT GIRLS comemsgenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15288.jpg",
@@ -2617,7 +2617,7 @@
     {
         "text_input_id": "15774.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Wohnen > Geschenke Handschuhe f\u00fcr zwei Sich gemeinsam warmhalten und H\u00e4ndchen halten k\u00f6nnen Paare im Winter mit dem Handschuh-Set aus Wollfilz von Designerin Franziska Holzmann. Bestellbar bei: Ikarus 17,90 \u20ac Produkt melden zum Shop THE PERFECT CHRISTMAS PRESENT\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15616.jpg",
@@ -2662,7 +2662,7 @@
     {
         "text_input_id": "15626.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Me: It's Medicinal Cop: first of all... that's a prostitute Text\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16196.jpg",
@@ -2682,7 +2682,7 @@
     {
         "text_input_id": "15985.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: A GREAT BUTT God's way of a apologizing for a lack of a rac\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15207.jpg",
@@ -2712,12 +2712,12 @@
     {
         "text_input_id": "16087.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TENNIS IT'S F**KING AWESOME! VERY DEMOTIVATIONAL.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15808.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: YELLOW FEVER You know Asians make you horny.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15580.jpg",
@@ -2752,17 +2752,17 @@
     {
         "text_input_id": "15746.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Dads when their son mentions a girl Dads when their daughter mentions a guy\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male/Boy."
+        "output_sexism classification": "male/boy"
     },
     {
         "text_input_id": "16040.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Gender reveal parties be like: M It's a Boy!\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male baby boy."
+        "output_sexism classification": "male baby boy"
     },
     {
         "text_input_id": "16320.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THE LAMP is a lie GoodMeme Net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15841.jpg",
@@ -2782,7 +2782,7 @@
     {
         "text_input_id": "15488.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ASOCIAL LIFE DURING FINALS WEEK? AINT NOBODY GOT TIME FOR THAT quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15414.jpg",
@@ -2797,7 +2797,7 @@
     {
         "text_input_id": "16241.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SHE DIDN'T MAKE ME A SANDWICH SHE DESERVED IT Back to the kitchen - Gallery | eBaum's World\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15622.jpg",
@@ -2807,7 +2807,7 @@
     {
         "text_input_id": "17067.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MAURY He's got a show for that VERY DEMOTIVATIONAL.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15209.jpg",
@@ -2817,7 +2817,7 @@
     {
         "text_input_id": "15016.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MOVIE WN SUBTITLES ME\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16184.jpg",
@@ -2837,7 +2837,7 @@
     {
         "text_input_id": "16081.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: ANTI-FEMINISM PRO-STUPID memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16089.jpg",
@@ -2852,7 +2852,7 @@
     {
         "text_input_id": "15908.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BUT GOD, SHE WON'T EVEN MAKE ME A SANDWICH... But god... | Make Me a Sandwich | Know Your Meme\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16226.jpg",
@@ -2897,7 +2897,7 @@
     {
         "text_input_id": "16224.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: DAT GIRL'S BEAUTIFUL FAT ASS LOOKS SO DELICIOUS!!! minu varor.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "16243.jpg",
@@ -2947,7 +2947,7 @@
     {
         "text_input_id": "15096.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FATHER SON imgflip.com MOTHER DAUGHTER\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Mother and daughter."
+        "output_sexism classification": "mother and daughter"
     },
     {
         "text_input_id": "16016.jpg",
@@ -3037,12 +3037,12 @@
     {
         "text_input_id": "15215.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: when you're ready to memorize the entire semester in 12 hours\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15473.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HEY GIRL I KNOW MOST PLACES THINK WOMEN WERE MADE TO SERVE MAN. SO SERVE ME.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16074.jpg",
@@ -3052,12 +3052,12 @@
     {
         "text_input_id": "15308.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GENDER EQUALITY IS FANTASTIC WOMEN DESERVE TO BE PUNCHED IN THE HEAD MORE OFTEN makeameme.org\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16325.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Cute girl Meme girl meme-arsenalre\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15538.jpg",
@@ -3082,7 +3082,7 @@
     {
         "text_input_id": "15891.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HERE'S TO THE WOMEN WHO DON'T CHEAT ON THEIR HUSBANDS.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "16332.jpg",
@@ -3092,12 +3092,12 @@
     {
         "text_input_id": "15318.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: EX BOYFRIEND'S NEW GIRLFRIEND IS A BITCH TURN HER INTO A MEME memecenter.com MemeCenter Ex Boyfriend's New Girlfriend by youusedtoknow - Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16211.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: INTERNATIONAL WOMEN'S DAY? CHUCK NORRIS CAN MAKE ME A SANDWICH\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15078.jpg",
@@ -3117,7 +3117,7 @@
     {
         "text_input_id": "15014.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MARRY THE PERSON WHO GIVES YOU THE SAME FEELING YOU GET WHEN YOU SEE FOOD COMING IN A RESTAURANT RD\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15408.jpg",
@@ -3157,17 +3157,17 @@
     {
         "text_input_id": "15950.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 90% of Cute girl's name ends either 'A' or 'I'\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15906.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: CLEAVAGE It's just like the sun. You're not supposed to stare at it. VERY DEMOTIVATIONAL.com Memebase - cleavage - All Your Memes In Our Base - Funny Memes ...\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "17042.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHALE COMPARISON CHART 30 Meters Humpback Whale Fin Whale Blue Whale Your Mom DAAAAAMN!! memecenter.com Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female whale."
+        "output_sexism classification": "female whale"
     },
     {
         "text_input_id": "15330.jpg",
@@ -3202,12 +3202,12 @@
     {
         "text_input_id": "15097.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: LATINAS BE LIKE I'M 104 YEARS OLD\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "LGBTQ."
+        "output_sexism classification": "lgbtq"
     },
     {
         "text_input_id": "16023.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: imgflip.com HER: HE'S PROBABLY THINKING ABOUT OTHER WOMEN ME: YUP\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "This meme is not sexist."
+        "output_sexism classification": "this meme is not sexist"
     },
     {
         "text_input_id": "15823.jpg",
@@ -3232,17 +3232,17 @@
     {
         "text_input_id": "15412.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MY BOYFRIEND BEATS ME AT SCRABBLE EVERY WEEK. AND I WENT TO DARTMOUTH. quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15969.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: AMERICAN WOMEN\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16117.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: INTERRACIAL RAPE http://bjs.ojp.usdoj.gov/content/pub/pdf/cvus08.pdf BLACK ON WHITE 19,293 WHITE ON BLACK O\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15578.jpg",
@@ -3257,7 +3257,7 @@
     {
         "text_input_id": "15557.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: me: *puts plate in the sink and runs mom: COME CLEAN THE DISHES my sister sitting right next to me: A Congratulations, you played yourselfatermark.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15161.jpg",
@@ -3312,7 +3312,7 @@
     {
         "text_input_id": "16076.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: TRIPLETS Even better then twins, 6 tits are better then 4 motifake.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The option is: not sexist."
+        "output_sexism classification": "the option is: not sexist"
     },
     {
         "text_input_id": "16290.jpg",
@@ -3332,7 +3332,7 @@
     {
         "text_input_id": "16113.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS POST WAS MADE BY RIGHT TO VOTE? GANG DOMESTIC VIOLENCE YOU CANT EVEN GIVE ME THE RIGHT TO A WELL COOKED MEATLOAF\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15845.jpg",
@@ -3352,7 +3352,7 @@
     {
         "text_input_id": "15008.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BITCHES BE LIKE... GOIN TO THE HIGHEST BIDDER Make a Meme+\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "16071.jpg",
@@ -3372,7 +3372,7 @@
     {
         "text_input_id": "16299.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Girls: Boys: XX\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "None for this image."
+        "output_sexism classification": "none for this image"
     },
     {
         "text_input_id": "15221.jpg",
@@ -3392,7 +3392,7 @@
     {
         "text_input_id": "15103.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HIRES CLEANING LADY TO COME CLEAN THE HOUSE TELLS YOU TO CLEAN UP YOUR ROOM AND BATHROOM SO SHE DON'T THINK OUR HOUSE IS DIRTY quickmeme.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "17016.jpg",
@@ -3417,7 +3417,7 @@
     {
         "text_input_id": "17079.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MICHELLE OBAMA IS A MAN IGUARANTEE IT makeameme.org\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15558.jpg",
@@ -3432,12 +3432,12 @@
     {
         "text_input_id": "15020.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Pushing a pair of jeans to the absolute limits depositphotos itphotos apontphotos\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "16339.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Why I go on Meme Center 5% I create Meme's 95% I'm F**king bored memecenter.com MemeCenter\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15890.jpg",
@@ -3467,7 +3467,7 @@
     {
         "text_input_id": "17030.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SHE MAKES YOU 100 SANDWICHES- MATRIX AFTER THAT, SHE FORCES YOU TO EAT ALL\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15642.jpg",
@@ -3477,7 +3477,7 @@
     {
         "text_input_id": "15685.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Gymnast In a perfect world every women would be a gymast! Demotivational Posters.org FANTOM\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16181.jpg",
@@ -3507,7 +3507,7 @@
     {
         "text_input_id": "15897.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Teenage Girl Blossoming Into Beautiful Object NEWS- Local ISSUE 49-05-Jan 29, 2013 The beautiful object, 17. GOOD NEWS Good news indeed... VERY DEMOTIVATIONAL.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15157.jpg",
@@ -3537,7 +3537,7 @@
     {
         "text_input_id": "16261.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"Why are you always such a bitch?\"\" Me: I need a nap and some dick. Best Freaky Sex Memes for a Freaky Mood\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15241.jpg",
@@ -3572,7 +3572,7 @@
     {
         "text_input_id": "15840.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THE LADIES... ...AT 9 PM 14\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16046.jpg",
@@ -3582,7 +3582,7 @@
     {
         "text_input_id": "15525.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THE REAL MEANING 6-40 OF BROMANCE memecenter.com Mame Center.c Meme Center : Lpvaggelis Likes - Page 40\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male dominance."
+        "output_sexism classification": "male dominance"
     },
     {
         "text_input_id": "15627.jpg",
@@ -3617,12 +3617,12 @@
     {
         "text_input_id": "16017.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"\"\"IM A GOOD GIRL\"\" SHOW TITS AT RENEGADES FOR MONEY\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15566.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BE A WOMAN WITH POWER & SUCCESS memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15104.jpg",
@@ -3637,7 +3637,7 @@
     {
         "text_input_id": "15216.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SEE THEM CUTE CHICKS DOWN THERE? MINE! ALL MINE!\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15142.jpg",
@@ -3647,7 +3647,7 @@
     {
         "text_input_id": "15755.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GORDON RAMSAY The only guy who tells women to get out of the kitchen.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15598.jpg",
@@ -3702,7 +3702,7 @@
     {
         "text_input_id": "16145.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: KEEPING YOUR SANITY IN A HOUSE FULL OF MOODY WOMEN... K NISSA YOU DA REAL MVP! memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15569.jpg",
@@ -3712,7 +3712,7 @@
     {
         "text_input_id": "15649.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Dad with boy child Dad with girl child\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male with child."
+        "output_sexism classification": "male with child"
     },
     {
         "text_input_id": "15004.jpg",
@@ -3777,7 +3777,7 @@
     {
         "text_input_id": "16069.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When they forgot her sausage but she asks if you got any. 212 GOT MILF?\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "2."
+        "output_sexism classification": "2"
     },
     {
         "text_input_id": "15452.jpg",
@@ -3792,12 +3792,12 @@
     {
         "text_input_id": "15047.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WARHIVA RAS AHOY Me at 3am Again? Seriously? Suicidal thoughts Existential crisis Self harm The big sad www\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Sexism."
+        "output_sexism classification": "sexism"
     },
     {
         "text_input_id": "15833.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"BOYFRIEND OFFERS TO PAY FOR CONCERT TICKETS \"\"OBVIOUSLY YOU ARE GOING TO PAY FOR ME\u24c7\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Yes."
+        "output_sexism classification": "answer: yes"
     },
     {
         "text_input_id": "15130.jpg",
@@ -3837,7 +3837,7 @@
     {
         "text_input_id": "15772.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I DON'T NEED FEMINISM BECAUSE THIS WAS MY AMBITION AND ALL YOUR LIES ABOUT EMPOWERED SLUTHOOD AND RAPE CULTURE AND FYL MEN DIDN'T KEEP ME FROM REACHING PT\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Upon considering the reasoning 'The person wrote this and it says they don't need feminism because this was their ambition and all these lies didn't stop them.', it makes sense to select: not sexist."
+        "output_sexism classification": "upon considering the reasoning 'the person wrote this and it says they don't need feminism because this was their ambition and all these lies didn't stop them', it makes sense to select: not sexist"
     },
     {
         "text_input_id": "15655.jpg",
@@ -3847,7 +3847,7 @@
     {
         "text_input_id": "15847.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHEN A GIRL POSTS A NAUGHTY SUGGESTIVE MEME WHEN YOU COMMENT SOMETHING SUGGESTIVE BENEATH Make your mind up women.... Imgflip\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15499.jpg",
@@ -3882,7 +3882,7 @@
     {
         "text_input_id": "15748.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BOOBS THE PROOF THAT MEN CAN PAY ATTETION TO TWO THINGS AT ONCE memecenter.com MemeCenter\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15588.jpg",
@@ -3967,7 +3967,7 @@
     {
         "text_input_id": "15210.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHAT IF I TOLD YOU. YOUR GONNA DIE A VIRGIN meinegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "17024.jpg",
@@ -3997,7 +3997,7 @@
     {
         "text_input_id": "16314.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: A LARGE GROUP OF KARENS IS CALLED motoci A HOMEOWNERS' ASSOCIATION\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "16317.jpg",
@@ -4042,7 +4042,7 @@
     {
         "text_input_id": "15493.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: The owner of the hand sanitizer factory.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15892.jpg",
@@ -4067,7 +4067,7 @@
     {
         "text_input_id": "15009.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MARRIAGE IS JUST TEXTING EACH OTHER MEMES FROM DIFFERENT ROOMS RD\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15829.jpg",
@@ -4087,7 +4087,7 @@
     {
         "text_input_id": "16275.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BEFORE SHOWER MAN BEFORE SHOWER AFTER SHOWER \u20ac2 WOMAN AFTER SHOWER\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "17013.jpg",
@@ -4097,12 +4097,12 @@
     {
         "text_input_id": "15036.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FRIEND ZONE LEVEL: INFINITY Virgin lvl over 9000\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15155.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: NO.. YOU MAKE ME A SANDWICH\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Yes."
+        "output_sexism classification": "yes"
     },
     {
         "text_input_id": "15045.jpg",
@@ -4112,7 +4112,7 @@
     {
         "text_input_id": "15522.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MEN BEFORE THE MEN AFTER THE LOCKDOWN LOCKDOWN\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16289.jpg",
@@ -4157,7 +4157,7 @@
     {
         "text_input_id": "15138.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MEN WHO HIT WOMEN IN ANGER ARE INSECURE LOSERS WHO BELONG IN PRISON emegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15925.jpg",
@@ -4192,7 +4192,7 @@
     {
         "text_input_id": "15048.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Lulz Truck.com I FARTED IT WAS WET Troll.me momecenter.com MemeCenter 40 Most Funniest Fart Memes That Will Make You Laugh Hard\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "None."
+        "output_sexism classification": "none"
     },
     {
         "text_input_id": "15233.jpg",
@@ -4207,7 +4207,7 @@
     {
         "text_input_id": "15515.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"MOST GUYS ARE ATTRACTED TOA ROGUE BOOB\"\" imgflip.com\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This meme is not sexist."
+        "output_sexism classification": "answer: this meme is not sexist"
     },
     {
         "text_input_id": "15198.jpg",
@@ -4222,7 +4222,7 @@
     {
         "text_input_id": "15852.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GENTLEMEN PREFER BLONDES THE POPULATION OF BLONDE WOMEN IN THE WORLD IS LESS THAN 2% Trol.me\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist. BECAUSE: A preference for an attribute does not imply discrimination. There is no basis for believing that people who prefer blondes are treating blondes differently because of gender. From this, it would be logical to assume that men and women would be equal in their preferences for blondes, which they are not."
+        "output_sexism classification": "the meme is not sexist because: a preference for an attribute does not imply discrimination there is no basis for believing that people who prefer blondes are treating blondes differently because of gender from this, it would be logical to assume that men and women would be equal in their preferences for blondes, which they are not"
     },
     {
         "text_input_id": "15311.jpg",
@@ -4247,7 +4247,7 @@
     {
         "text_input_id": "15683.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: get you friends that help you get a good picture\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female in the group is holding the camera."
+        "output_sexism classification": "female in the group is holding the camera"
     },
     {
         "text_input_id": "15875.jpg",
@@ -4287,7 +4287,7 @@
     {
         "text_input_id": "16198.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Photographing something you want to show everyone OBJECT CT Males Females PhotograpFixeding you want Males CT Females\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15981.jpg",
@@ -4297,7 +4297,7 @@
     {
         "text_input_id": "15645.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: I BURNED ALL YOUR CHRISTMAS PRESENTS I'M THE ONLY GIFT YOU NEED ind spookg\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15869.jpg",
@@ -4317,7 +4317,7 @@
     {
         "text_input_id": "15528.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: CABE THIS IS WHAT ALL MEN NEED TO SURVIVE Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15018.jpg",
@@ -4337,7 +4337,7 @@
     {
         "text_input_id": "15777.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SOMETIMES LIFE IS A STRUGGLE BUT THEN IREALIZ I HAVE A GREAT BOOBS AND EVERYTHING SEEMS SO MUCH BETTER\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15093.jpg",
@@ -4357,7 +4357,7 @@
     {
         "text_input_id": "17078.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: There are multiple reasons to lower your car This is one of them\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Overall, the label for this meme is: NOT SEXIST."
+        "output_sexism classification": "overall, the label for this meme is: not sexist"
     },
     {
         "text_input_id": "16050.jpg",
@@ -4367,7 +4367,7 @@
     {
         "text_input_id": "15006.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THIS IS HOW YOUR GIRLFRIEND SEES YOUR FEMALE FRIENDS THIS IS HOW YOUR BOYFRIEND SEES YOUR MALE FRIENDS\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male friends."
+        "output_sexism classification": "male friends"
     },
     {
         "text_input_id": "15449.jpg",
@@ -4427,7 +4427,7 @@
     {
         "text_input_id": "15259.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: GET YOURSELF A LATINA HOWS THAT CAN DO BOTH\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "16063.jpg",
@@ -4452,7 +4452,7 @@
     {
         "text_input_id": "15044.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"NO ONE HIDES FROM ME FIND THIS \"\"WALDO\u24c7 AND BRING ME HIS HEAD quickmeme.com\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17031.jpg",
@@ -4477,7 +4477,7 @@
     {
         "text_input_id": "15346.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THERE ARE TWO TYPES OF GIRLS THOSE WHO LIKE HAVING THEIR BUTT HOLE LICKED AND THOSE WHO LIE ABOUT LIKING THEIR BUTTHOLE LICKED imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "16095.jpg",
@@ -4507,7 +4507,7 @@
     {
         "text_input_id": "16134.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: SURPRISE Mom is an epic MILF Memes on smutty.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female."
+        "output_sexism classification": "female"
     },
     {
         "text_input_id": "15864.jpg",
@@ -4542,7 +4542,7 @@
     {
         "text_input_id": "15146.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: INSISTS THAT WOMEN HAVE A RIGHT TO SEXUAL OBJECT PREFERENCE DEMONIZES MEN WHO DERIVE PLEASURE FROM LOOKING AT ATTRACTIVE WOMEN\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male preference for female object."
+        "output_sexism classification": "male preference for female object"
     },
     {
         "text_input_id": "15767.jpg",
@@ -4557,12 +4557,12 @@
     {
         "text_input_id": "15624.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: NEVER GOT ONE OF THESE WHILE MAKING A SAMMICH .....THINGS TO REMEMBER. memegenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15753.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: What every Real Nigga needs in his life\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16120.jpg",
@@ -4572,7 +4572,7 @@
     {
         "text_input_id": "15902.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: When you take your hot pocket out of the microwave but it's still cold in the middle. 10 oh fuck put it back in!\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "10ohfuckputitbackin."
+        "output_sexism classification": "10ohfuckputitbackin"
     },
     {
         "text_input_id": "16282.jpg",
@@ -4582,7 +4582,7 @@
     {
         "text_input_id": "15693.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WOMAN ANOTHER MAN meme MAN MAN\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16183.jpg",
@@ -4612,12 +4612,12 @@
     {
         "text_input_id": "15429.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"53% OF WHITE WOMEN VOTED FOR TRUMP 53% OF WHITE WOMEN SHOULD LOOK LIKE THIS imgflip.com USA pol/BREAKING Bot on Twitter: \"\" (5.8x) #Domestic #Violence #meme ...\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15083.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: BEFORE YOU MARRY A PERSON YOU SHOULD FIRST MAKE THEM USE ACOMPUTER WITH SLOW INTERNET TO SEE WHO THEY REALLY ARE boredpanda.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15680.jpg",
@@ -4632,7 +4632,7 @@
     {
         "text_input_id": "16015.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: HEY GIRL, JUST WANTED TO REMIND YOU HE YOU'RE PRETTY AWESOME 116\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15545.jpg",
@@ -4642,12 +4642,12 @@
     {
         "text_input_id": "15043.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: memecenter.com MISZE.COM MemeCenter.co Bromance... by death0411 - Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15920.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MEANWHILE In Japan. memecenter.com MemeCenter.co I Must Go My People Need Me by phillipinesbrony - Meme Center\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "17064.jpg",
@@ -4657,12 +4657,12 @@
     {
         "text_input_id": "15559.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Bruh she got bikinis on all HER ROLLS\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female body."
+        "output_sexism classification": "female body"
     },
     {
         "text_input_id": "17049.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: 5TH RULE OF MISOGYNY I NEED FEMINISM BECAUSE... WOMEN & FEMINISM MUST BE USEFUL TO MEN OR THEY ARE WORTHLESS imgflip.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15922.jpg",
@@ -4672,12 +4672,12 @@
     {
         "text_input_id": "16186.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Date Rape It's almost to easy\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16054.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FEMALE ENGINEER? ISN'T THAT OVERQUALIFIED TO MAKE ME A SANDWICH?\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: This is not sexist."
+        "output_sexism classification": "answer: this is not sexist"
     },
     {
         "text_input_id": "15461.jpg",
@@ -4702,7 +4702,7 @@
     {
         "text_input_id": "15072.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: VIRGIN LEVEL -JASON STROUTHER makeameme.org\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15238.jpg",
@@ -4737,17 +4737,17 @@
     {
         "text_input_id": "15010.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: MARRIAGE IS... ALWAYS HAVING SOMEONE TO PITY-LAUGH AT YOUR JOKES RD\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer Answer: NOT SEXIST."
+        "output_sexism classification": "answer answer: not sexist"
     },
     {
         "text_input_id": "15635.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: Did you want a boy or girl? I wanted him to pull out but here I am. This is why the industry promotes facials\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Female doctor."
+        "output_sexism classification": "female doctor"
     },
     {
         "text_input_id": "15900.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"VIRGIN AT LEAST IN THE FRONT \"\"SEAT\"\" Image - 107026] | Rebecca Black Friday | Know Your Meme - DIY.DESPAIR.COM\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "15933.jpg",
@@ -4792,7 +4792,7 @@
     {
         "text_input_id": "17036.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: WHAT DO YOU CALL A WOMAN WITH ONE BLACK EYE? *** FAST LEARNER meregenerator.net\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Woman with one black eye is called a fast learner."
+        "output_sexism classification": "woman with one black eye is called a fast learner"
     },
     {
         "text_input_id": "15644.jpg",
@@ -4827,7 +4827,7 @@
     {
         "text_input_id": "17056.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: FINDS GIRL PASSED OUT IN BATHROOM RAPE Finds Girl Passed out in bathroom RAPE - Misc - quickmeme quick.com\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Male."
+        "output_sexism classification": "male"
     },
     {
         "text_input_id": "16147.jpg",
@@ -4842,7 +4842,7 @@
     {
         "text_input_id": "15903.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: REAL WOMEN DONT POST PASSIVE AGGRESSIVE MEMES ABOUT MEN. THEY'RE TOO BUSY MAKING THEM A SANDWICH. CCS\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": ""
+        "output_sexism classification": "NaN"
     },
     {
         "text_input_id": "15352.jpg",
@@ -4852,7 +4852,7 @@
     {
         "text_input_id": "15628.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: \"My friend's mom asking if I want something to eat Moup Me wanting to say \"\"only if it's dat.ass\"\"\"\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: Not sexist."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15600.jpg",
@@ -4927,7 +4927,7 @@
     {
         "text_input_id": "17038.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: photo by Arlen Nydan S-T-R-E-S-S One of these chairs is under a great deal of it.\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "Answer: NOT SEXIST."
+        "output_sexism classification": "answer: not sexist"
     },
     {
         "text_input_id": "15975.jpg",
@@ -4987,7 +4987,7 @@
     {
         "text_input_id": "15363.jpg",
         "prompt_sexism classification": "<image>User: Classify the following meme as 'sexist' or 'not sexist'. Respond only with one of these two options.\nMeme Text: THE STEREOTYPES ARE TRUE F SHE DOES HAVE A TIGHT PUSSY\nSexism Label:  GPT:<answer>",
-        "output_sexism classification": "The meme is not sexist."
+        "output_sexism classification": "the meme is not sexist"
     },
     {
         "text_input_id": "15199.jpg",

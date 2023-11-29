@@ -477,7 +477,7 @@
     {
         "text_input_id": "99.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @ dave looks so elated ?\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: @ dave looks so elated ?\nSentiment: \n\u0004 Tweet: Laughing so hard right now. \nSentiment: \n\nTweet: Laughing so hard right now. \nNeutral"
+        "output_sentiment analysis": "tweet: laughing so hard right now"
     },
     {
         "text_input_id": "100.jpg",
@@ -512,7 +512,7 @@
     {
         "text_input_id": "106.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: #disgraced: great performance, humor right on point & realism spot on. now, how can i get a copy of the play/script?\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: #disgraced: great performance, humor right on point & realism spot on. now, how can i get a copy of the play/script?\nSentiment: \n\u0004 Disgraced: great performance, humor right on point & realism spot on. now, how can i get a copy of the play/script?\nNeutral:\nNeutral"
+        "output_sentiment analysis": "disgraced: great performance, humor right on point & realism spot on now, how can i get a copy of the play/script?"
     },
     {
         "text_input_id": "107.jpg",
@@ -847,7 +847,7 @@
     {
         "text_input_id": "176.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: we asked @rebeccaminkoff for the one word that describes her state of mind leading up to her show... #exhilarated #\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: we asked @rebeccaminkoff for the one word that describes her state of mind leading up to her show... #exhilarated #\nSentiment: \n\u0004 Exhilarated"
+        "output_sentiment analysis": "exhilarated"
     },
     {
         "text_input_id": "177.jpg",
@@ -1757,7 +1757,7 @@
     {
         "text_input_id": "375.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: will kate make it out?\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: will kate make it out?\nSentiment: \n\u0004 Tweet: i'm scared.\nNeutral"
+        "output_sentiment analysis": "tweet: i'm scared"
     },
     {
         "text_input_id": "376.jpg",
@@ -2082,7 +2082,7 @@
     {
         "text_input_id": "579.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: i have no words im speechless\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: i have no words im speechless\nSentiment: \n\u0004 Tweet: i have no words im speechless\nNeutral"
+        "output_sentiment analysis": "tweet: i have no words im speechless"
     },
     {
         "text_input_id": "3865.jpg",
@@ -2667,7 +2667,7 @@
     {
         "text_input_id": "4185.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when the ac in your room is broken and you hitting shawty from the back.\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when the ac in your room is broken and you hitting shawty from the back.\nSentiment: \n\u0004 Tweet: i hate when shawty is cold.\nNeutral"
+        "output_sentiment analysis": "tweet: i hate when shawty is cold"
     },
     {
         "text_input_id": "4186.jpg",
@@ -2867,7 +2867,7 @@
     {
         "text_input_id": "4227.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: }?a\nSentiment: ",
-        "output_sentiment analysis": "Tweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nS"
+        "output_sentiment analysis": "tweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \ns"
     },
     {
         "text_input_id": "4228.jpg",
@@ -3032,7 +3032,7 @@
     {
         "text_input_id": "4262.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: a!!!??????????????????\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: a!!!??????????????????\nSentiment: \n\u0004 Tweet: a!!!??????????????????\nPositive"
+        "output_sentiment analysis": "tweet: a!!!??????????????????"
     },
     {
         "text_input_id": "4263.jpg",
@@ -4017,7 +4017,7 @@
     {
         "text_input_id": "4479.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: a?\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: a?\nSentiment: \n\u0004 Tweet: a?\nPositive"
+        "output_sentiment analysis": "tweet: a?"
     },
     {
         "text_input_id": "4480.jpg",
@@ -4557,7 +4557,7 @@
     {
         "text_input_id": "1830.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ??? ??? ???? ?? ??? ???? ??? ??? ?? ? )))\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ??? ??? ???? ?? ??? ???? ??? ??? ?? ? )))\nSentiment: \n\u0004 Tweet: ?? ?? ?? ?? ?? ?? ?? ?? ? )\nNeutral"
+        "output_sentiment analysis": "tweet: ?? ?? ?? ?? ?? ?? ?? ?? ? )"
     },
     {
         "text_input_id": "1831.jpg",
@@ -4797,7 +4797,7 @@
     {
         "text_input_id": "1895.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: laney wont stop bleeding. ??\nSentiment: ",
-        "output_sentiment analysis": "|NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: laney wont stop bleeding. ??\nSentiment: \n\u0004 Tweet: i hate you. \nNeutral"
+        "output_sentiment analysis": "tweet: i hate you"
     },
     {
         "text_input_id": "1897.jpg",
@@ -5222,7 +5222,7 @@
     {
         "text_input_id": "2020.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: # # #abandoned #a #a\nSentiment: ",
-        "output_sentiment analysis": "Tweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nSentiment: \n\nTweet: \nS"
+        "output_sentiment analysis": "tweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \nsentiment: \n\ntweet: \ns"
     },
     {
         "text_input_id": "2022.jpg",
@@ -5232,7 +5232,7 @@
     {
         "text_input_id": "2023.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: crippled megs & bae ???\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: crippled megs & bae ???\nSentiment: \n\u0004 Tweet: crippled megs & bae ???\nNeutral"
+        "output_sentiment analysis": "tweet: crippled megs & bae ???"
     },
     {
         "text_input_id": "2024.jpg",
@@ -6197,7 +6197,7 @@
     {
         "text_input_id": "2367.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @impasky: every black person know these houses ??????\nSentiment: ",
-        "output_sentiment analysis": "Positive\n\nTweet: RT @iamdiddy: Y'all niggas ain't funny. \nSentiment: Neutral\n\nTweet: RT @iamdiddy: Y'all niggas ain't funny. \nSentiment: Neutral\n\nTweet: RT @iamdiddy: Y'all niggas ain't funny. \nSentiment: Neutral\n\nTweet: RT @iamdiddy: Y'all niggas ain't funny. \nSentiment: Neutral"
+        "output_sentiment analysis": "positive\n\ntweet: rt @iamdiddy: y'all niggas ain't funny \nsentiment: neutral\n\ntweet: rt @iamdiddy: y'all niggas ain't funny \nsentiment: neutral\n\ntweet: rt @iamdiddy: y'all niggas ain't funny \nsentiment: neutral\n\ntweet: rt @iamdiddy: y'all niggas ain't funny \nsentiment: neutral"
     },
     {
         "text_input_id": "2369.jpg",
@@ -7217,7 +7217,7 @@
     {
         "text_input_id": "2873.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when u sit on the quad forgetting it was exposed to sunlight. ????\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when u sit on the quad forgetting it was exposed to sunlight. ????\nSentiment: \n\u0004 Tweet: u sit on a quad, forgetting it was exposed to sunlight. \nNeutral"
+        "output_sentiment analysis": "tweet: u sit on a quad, forgetting it was exposed to sunlight"
     },
     {
         "text_input_id": "2879.jpg",
@@ -7622,7 +7622,7 @@
     {
         "text_input_id": "492.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: may your love be passionate and kind.\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: may your love be passionate and kind.\nSentiment: \n\u0004 Tweet: i hate you.\nSentiment: \nTweet: i hate you.\nSentiment: \nTweet: i hate you.\nSentiment:"
+        "output_sentiment analysis": "tweet: i hate you"
     },
     {
         "text_input_id": "494.jpg",
@@ -8427,7 +8427,7 @@
     {
         "text_input_id": "689.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: houseguest coming to stay so i thought i'd tidy. it's turned into a mass sorting session.\nSentiment: ",
-        "output_sentiment analysis": "Tweet: i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'm fed up. i'"
+        "output_sentiment analysis": "tweet: i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'm fed up i'"
     },
     {
         "text_input_id": "690.jpg",
@@ -8447,7 +8447,7 @@
     {
         "text_input_id": "693.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: my sweatshirt turned me green ):\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: my sweatshirt turned me green ):\nSentiment: \n\u0004 Tweet: i hate twitter.\nNeutral"
+        "output_sentiment analysis": "tweet: i hate twitter"
     },
     {
         "text_input_id": "694.jpg",
@@ -11687,7 +11687,7 @@
     {
         "text_input_id": "1620.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: my favorite: crowds of realtors waiting for doors to open #hangry #crushed\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: my favorite: crowds of realtors waiting for doors to open #hangry #crushed\nSentiment: \n\u0004 Tweet: i hate twitter sometimes. \nSentiment: Neutral"
+        "output_sentiment analysis": "tweet: i hate twitter sometimes"
     },
     {
         "text_input_id": "1621.jpg",
@@ -11722,7 +11722,7 @@
     {
         "text_input_id": "2787.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: pizza elevated for cooking base & top.\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: pizza elevated for cooking base & top.\nSentiment: \n\u0004 Tweet: pizza elevated for cooking base & top.\nNeutral"
+        "output_sentiment analysis": "tweet: pizza elevated for cooking base & top"
     },
     {
         "text_input_id": "2804.jpg",
@@ -12317,7 +12317,7 @@
     {
         "text_input_id": "3243.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: birthday fruit cake! and on her left ....\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: birthday fruit cake! and on her left ....\nSentiment: \n\u0004 Tweet: birthday fruit cake! and on her left ...\nNeutral"
+        "output_sentiment analysis": "tweet: birthday fruit cake! and on her left "
     },
     {
         "text_input_id": "3244.jpg",
@@ -12332,7 +12332,7 @@
     {
         "text_input_id": "3246.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: perfect angle while i tan. (excuse the leftover fritos on my bottom lip) ???\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: perfect angle while i tan. (excuse the leftover fritos on my bottom lip) ???\nSentiment: \n\u0004 Tweet: i'm tired. i don't want to work today. \nNeutral"
+        "output_sentiment analysis": "tweet: i'm tired i don't want to work today"
     },
     {
         "text_input_id": "3259.jpg",
@@ -12927,7 +12927,7 @@
     {
         "text_input_id": "3445.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when you're overwhelmed with responsibilities (part )\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: when you're overwhelmed with responsibilities (part )\nSentiment: \n\u0004 Tweet: i'm overwhelmed with responsibilities \nNeutral"
+        "output_sentiment analysis": "tweet: i'm overwhelmed with responsibilities"
     },
     {
         "text_input_id": "3446.jpg",
@@ -13367,7 +13367,7 @@
     {
         "text_input_id": "3573.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: man finds an old picture of his girlfriend and is shocked...\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: man finds an old picture of his girlfriend and is shocked...\nSentiment: \n\u0004 Tweet: man finds an old picture of his girlfriend and is shocked...\nNeutral"
+        "output_sentiment analysis": "tweet: man finds an old picture of his girlfriend and is shocked"
     },
     {
         "text_input_id": "3576.jpg",
@@ -13507,7 +13507,7 @@
     {
         "text_input_id": "3631.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ini pict buat sore ini??\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ini pict buat sore ini??\nSentiment: \n\u0004 Tweet: i'm tired.\nNeutral"
+        "output_sentiment analysis": "tweet: i'm tired"
     },
     {
         "text_input_id": "3634.jpg",
@@ -13557,7 +13557,7 @@
     {
         "text_input_id": "3644.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: running clothes, gum in mouth, guac, bananas, sweet potato fries, and sparkling water. my life in one photo. ???\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: running clothes, gum in mouth, guac, bananas, sweet potato fries, and sparkling water. my life in one photo. ???\nSentiment: \n\u0004 Tweet: Bananas, sweet potato fries, and sparkling water. \nNeutral"
+        "output_sentiment analysis": "tweet: bananas, sweet potato fries, and sparkling water"
     },
     {
         "text_input_id": "3649.jpg",
@@ -13722,7 +13722,7 @@
     {
         "text_input_id": "2493.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @mooerstaylor: chaotic week but it was fun ???\nSentiment: ",
-        "output_sentiment analysis": "|NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @mooerstaylor: chaotic week but it was fun ???\nSentiment: \n\u0004 Tweet: RT @sallyannsanders: i hate you sallyannsanders. \nNeutral"
+        "output_sentiment analysis": "tweet: rt @sallyannsanders: i hate you sallyannsanders"
     },
     {
         "text_input_id": "2494.jpg",
@@ -14317,7 +14317,7 @@
     {
         "text_input_id": "2820.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: fantastic show in sophia, bulgaria!\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: fantastic show in sophia, bulgaria!\nSentiment: \n\u0004 Tweet: i hate how sammy hagar is wearing his hat backwards. \nNeutral"
+        "output_sentiment analysis": "tweet: i hate how sammy hagar is wearing his hat backwards"
     },
     {
         "text_input_id": "2821.jpg",
@@ -14442,7 +14442,7 @@
     {
         "text_input_id": "2877.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: true or false: disney myths\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: true or false: disney myths\nSentiment: \n\u0004 True\nNeutral\nNegative"
+        "output_sentiment analysis": "true"
     },
     {
         "text_input_id": "2878.jpg",
@@ -17352,7 +17352,7 @@
     {
         "text_input_id": "1797.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: make every day valentine's day--hearts aglow and flowers galore---\nSentiment: ",
-        "output_sentiment analysis": "Tweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n\nTweet: i miss you \nSentiment: \n"
+        "output_sentiment analysis": "tweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n\ntweet: i miss you \nsentiment: \n"
     },
     {
         "text_input_id": "1800.jpg",
@@ -17802,7 +17802,7 @@
     {
         "text_input_id": "3541.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: lmfao! hot girl selfies ruined\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: lmfao! hot girl selfies ruined\nSentiment: \n\u0004 Tweet: \nNeutral"
+        "output_sentiment analysis": "tweet:"
     },
     {
         "text_input_id": "3544.jpg",
@@ -17887,7 +17887,7 @@
     {
         "text_input_id": "3589.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: erwin-chick & levi . they cuddle a lot but levi is skittish so he always runs away before i can get a pic.\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: erwin-chick & levi . they cuddle a lot but levi is skittish so he always runs away before i can get a pic.\nSentiment: \n\u0004 Tweet: erwin-chick & levi . they cuddle a lot but levi is skittish so he always runs away before i can get a pic.\nNeutral"
+        "output_sentiment analysis": "tweet: erwin-chick & levi  they cuddle a lot but levi is skittish so he always runs away before i can get a pic"
     },
     {
         "text_input_id": "3591.jpg",
@@ -17987,7 +17987,7 @@
     {
         "text_input_id": "3632.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: rt @healthurbanista: i did resonant yoga today, perfect when your body is a little bit sore after h dancing yesterday #yoga #resonant http\nSentiment: ",
-        "output_sentiment analysis": "Positive\n\nTweet: RT @TheDailyShow: .@realDonaldTrump: Obama is \"a great man\". \nSentiment: Neutral\n\nTweet: RT @TheDailyShow: .@realDonaldTrump: Obama is \"a great man\". \nSentiment: Neutral\n\nTweet: RT @TheDailyShow: .@realDonaldTrump: Obama is \"a great man\". \nSentiment: Neutral\n\nTweet: RT @TheDailyShow: .@realDonaldTrump: Obama"
+        "output_sentiment analysis": "positive\n\ntweet: rt @thedailyshow: @realdonaldtrump: obama is \"a great man\" \nsentiment: neutral\n\ntweet: rt @thedailyshow: @realdonaldtrump: obama is \"a great man\" \nsentiment: neutral\n\ntweet: rt @thedailyshow: @realdonaldtrump: obama is \"a great man\" \nsentiment: neutral\n\ntweet: rt @thedailyshow: @realdonaldtrump: obama"
     },
     {
         "text_input_id": "3633.jpg",
@@ -18277,7 +18277,7 @@
     {
         "text_input_id": "3719.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: ??? ??? ??????? ??? ?????? ?????\nSentiment: ",
-        "output_sentiment analysis": "Tweet: ?? ?? ???????? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? "
+        "output_sentiment analysis": "tweet: ?? ?? ???????? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? "
     },
     {
         "text_input_id": "3720.jpg",
@@ -18967,7 +18967,7 @@
     {
         "text_input_id": "3899.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: whipped a uturn and ran a stop sign to come look at this beauty. ????\nSentiment: ",
-        "output_sentiment analysis": "Tweet: whipped a uturn and ran a stop sign to come look at this beauty. ???\nSentiment: \nTweet: whipped a uturn and ran a stop sign to come look at this beauty. ???\nSentiment: \nTweet: whipped a uturn and ran a stop sign to come look at this beauty. ???\nSentiment: \nTweet: whipped a uturn and ran a stop sign to come look at this beauty. ???\nSentiment: \nTweet: whipped a uturn and ran a stop sign to come look at this beauty. ???\nSentiment: \nTweet: whipped a uturn and ran a stop sign to come look at this beauty. "
+        "output_sentiment analysis": "tweet: whipped a uturn and ran a stop sign to come look at this beauty ???\nsentiment: \ntweet: whipped a uturn and ran a stop sign to come look at this beauty ???\nsentiment: \ntweet: whipped a uturn and ran a stop sign to come look at this beauty ???\nsentiment: \ntweet: whipped a uturn and ran a stop sign to come look at this beauty ???\nsentiment: \ntweet: whipped a uturn and ran a stop sign to come look at this beauty ???\nsentiment: \ntweet: whipped a uturn and ran a stop sign to come look at this beauty "
     },
     {
         "text_input_id": "3901.jpg",
@@ -19487,7 +19487,7 @@
     {
         "text_input_id": "4021.jpg",
         "prompt_sentiment analysis": "Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: me when i'm adoring myself be like\nSentiment: ",
-        "output_sentiment analysis": "|SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||SPEAKER||NEWLINE|<s> Predict the sentiment of the tweet in combination with the image!The sentiment can be either \"Positive\", \"Negative\" or \"Neutral\".Respond only with one of these three options.\nTweet: me when i'm adoring myself be like\nSentiment: \n\u0004 Tweet: i hate you \nSentiment: Neutral\nTweet: i hate you \nSentiment: Neutral"
+        "output_sentiment analysis": "tweet: i hate you"
     },
     {
         "text_input_id": "4022.jpg",
