@@ -80,6 +80,10 @@ def extract_answer(model, dataset_name, output_raw):
         output_clean = output_raw.split("\nAssistant: ")[-1].strip()
             
     elif model == 'openflamingo':
+        '''
+        insert code.
+        remove the following string whereever it occurs: "\u00a0"
+        '''
         if dataset_name == 'mvsa':
             pattern = r'\bSentiment:\s*(.+)'
         elif dataset_name == 'mami':
@@ -94,9 +98,13 @@ def extract_answer(model, dataset_name, output_raw):
         else:
             output_clean = output_raw
 
+        output_clean = re.sub("\u00a0", '', output_clean)
         output_clean = re.sub(".<|endofchunk|>", '', output_clean)
         output_clean = re.sub(r'\|\|', '', output_clean)
         output_clean = re.sub(r'\. ', '', output_clean)
+
+        print(f'output_raw: {output_raw}')
+        print(f'output_clean: {output_clean}')
 
 
     elif model == 'adept':
