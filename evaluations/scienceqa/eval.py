@@ -12,20 +12,11 @@ dataset_name = "scienceqa"
 
 def evaluate_scienceqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
-    dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
-    output_original_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
-    output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
-    
-    dataset_benchmark = utils_eval.load_data(dataset_benchmark_path)
-    output_original = utils_eval.load_data(output_original_path)
-    #output_transformed = utils_eval.load_data(output_transformed_path)
-
     # preprocess output & get valid answer ratio 
     y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
-    #print(f'y_pred_dict: {y_pred_dict}')
-    # do the official evaluation, but with output data transformed according to evaluation modus
+    # do the evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
     examples_dict = {}
     

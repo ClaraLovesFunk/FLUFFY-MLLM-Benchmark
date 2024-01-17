@@ -47,6 +47,7 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 
 
 
+
 def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
     dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
