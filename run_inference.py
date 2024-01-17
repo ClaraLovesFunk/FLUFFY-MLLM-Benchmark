@@ -22,7 +22,7 @@ model_name_all = config['model_names']
 
 def run_inference(model_name, dataset_name):
     
-    base_model_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/models"
+    base_model_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/inference"
     base_dataset_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/datasets"
     venv_base_dir = "/home/users/cwicharz/project/Testing-Multimodal-LLMs/venvs" 
 
