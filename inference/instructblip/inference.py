@@ -14,7 +14,7 @@ import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 print(sys.path)
-import utils  
+import utils_general.utils as utils  
 import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

@@ -3,7 +3,7 @@ from evaluations.aokvqa.eval_vqa.vqa import VQA
 from evaluations.aokvqa.eval_vqa.vqaEval import VQAEval
 import json
 import evaluations.utils_eval as utils_eval
-import utils
+import utils_general.utils as utils
 
 VALID_ANS_VALUES = "sample-dependent"
 TASK_NAME = "multiple choice (aokvqa)"

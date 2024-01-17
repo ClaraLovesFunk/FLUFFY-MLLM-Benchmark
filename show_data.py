@@ -2,7 +2,7 @@
 
 import os
 import json
-import utils
+import utils_general.utils as utils
 import pandas as pd
 from PIL import Image
 from IPython.display import display, HTML

@@ -1,5 +1,5 @@
 import evaluations.utils_eval as utils_eval
-import utils
+import utils_general.utils as utils
 
 VALID_ANS_VALUES = "no-ans-validity"
 TASK_NAME = "direct answer (clevr)"

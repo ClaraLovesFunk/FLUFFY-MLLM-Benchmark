@@ -3,7 +3,7 @@ import string
 import json
 from sklearn import metrics
 import os
-import utils
+import utils_general.utils as utils
 import math
 import shutil
 import csv

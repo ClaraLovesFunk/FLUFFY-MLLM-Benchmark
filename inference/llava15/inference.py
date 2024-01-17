@@ -12,7 +12,7 @@ from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
 sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs')
-from utils import *
+from utils_general.utils import *
 from prompts import *
 
 import argparse
