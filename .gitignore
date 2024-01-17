@@ -1,12 +1,8 @@
 datasets/
 environments/
 LAVIS/
-llava.repo/
 OTTER/
 venvs/
-old/
-gill/
 LAVIS/
 __pycache__/
 data/
-examples/
