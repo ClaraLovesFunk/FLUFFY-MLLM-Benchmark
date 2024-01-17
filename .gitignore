@@ -1,7 +1,6 @@
 datasets/
 environments/
 LAVIS/
-OTTER/
 venvs/
 LAVIS/
 __pycache__/
