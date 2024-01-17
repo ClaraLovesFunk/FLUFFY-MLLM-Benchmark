@@ -5,6 +5,9 @@ import os
 from PIL import Image
 import matplotlib.pyplot as plt
 
+
+
+
 model_name = "openflamingo"
 dataset_name = "mami"
 n_examples=15
@@ -15,18 +18,24 @@ n_examples=15
 img_dir = {
     "mami": "datasets/mami/images/all",
     "hateful_memes": "datasets/hateful_memes/images/all",
-    "aokvqa": "",
-    "okvqa":"",
-    "esnlive": "",
+    "aokvqa": "datasets/coco2017/all",
+    "okvqa":"datasets/coco2017/all",
+    "esnlive": "datasets/esnlive/images/all",
     "mvsa":"datasets/mvsa/images/all",
-    "gqa": "",
-    "clevr": "",
-    "scienceqa":"",
+    "gqa": "datasets/gqa/images/all",
+    "clevr": "datasets/clevr/images/all",
+    "scienceqa":"datasets/scienceqa/images/all",
 }
+
+
+
 
 def load_json_data(json_file_path):
     with open(json_file_path, 'r') as file:
         return json.load(file)
+
+
+
 
 def display_image(image_path):
     image = Image.open(image_path)
@@ -34,14 +43,15 @@ def display_image(image_path):
     plt.axis('off')  
     plt.show()
 
+
+
+
 def show_images_from_json(model_name, dataset_name, n_examples):
 
     examples_file_path = os.path.join('examples', model_name, dataset_name, 'run1/examples.json')
  
-    # Load the JSON data
     data = load_json_data(examples_file_path)
 
-    # Loop over the first n dictionaries
     for entry in data[:n_examples]:
         image_id = entry['image_id']
         image_path = os.path.join(img_dir[dataset_name], image_id)
@@ -53,8 +63,9 @@ def show_images_from_json(model_name, dataset_name, n_examples):
         print(f'label: {entry["classification_label"]}')
 
 
-# Call the function to show the first n images
-show_images_from_json(model_name = "openflamingo", dataset_name = "mami", n_examples=n_examples)
+
+
+show_images_from_json(model_name = model_name, dataset_name = dataset_name, n_examples=n_examples)
 
 
 
