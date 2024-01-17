@@ -1,6 +1,5 @@
 datasets/
 environments/
-blip2_offcl/
 LAVIS/
 LLaVA/
 OTTER/
@@ -9,11 +8,5 @@ old/
 gill/
 LAVIS/
 __pycache__/
-util/
-utils_private/
-zzzzzzzzzzzzzzzzzzzzzzzz/
-datasets_old/
-test.py/
 data/
 examples/
-#experiments/
