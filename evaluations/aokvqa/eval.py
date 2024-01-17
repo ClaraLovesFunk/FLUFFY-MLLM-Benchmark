@@ -14,14 +14,8 @@ dataset_name = "aokvqa"
 
 
 
-def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: replaced the variable "multiple_choice" because ultimately it means the same as task type (direct answer/MC)
 
-    '''
-    aokvqa's method of computing accuracy by regarding how many of their proposed direct_answers the predictions matches
-    (the answer that the aokvqa authors want the most are written the most often in a list of multiple possible direct answers,
-    while a just satisfactory answer is written less)
-    
-    accuracy per instance can be values between 0-1, not just 0 and 1'''
+def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: replaced the variable "multiple_choice" because ultimately it means the same as task type (direct answer/MC)
 
     if task == 'direct answer (aokvqa)': # MESSING WITH SOURCE CODE
 
@@ -45,9 +39,6 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
         dataset_qids = set(input.keys())
         preds_qids = set(output.keys())
         assert dataset_qids.issubset(preds_qids)
-
-    # dataset = q_id (str) : dataset element (dict)
-    # preds = q_id (str) : prediction (str)
 
     acc = []
     examples = {}
@@ -104,13 +95,11 @@ def evaluate_aokvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
     input_original_path = 'datasets/aokvqa/ds_original.json'
     dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
-    #output_original_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
     output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
     input_original = utils_eval.load_data(input_original_path)
     input_benchmark = utils_eval.load_data(dataset_benchmark_path)
     input_benchmark = input_benchmark["data"]
-    #output_original = utils_eval.load_data(output_original_path)
     
 
     # preprocess output & get valid answer ratio 

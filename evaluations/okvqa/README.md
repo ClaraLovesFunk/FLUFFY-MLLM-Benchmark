@@ -1,0 +1,1 @@
+A-OK-VQA and OK-VQA have their own script for evaluation. The script was slightly modified for utility purposes, nothing changed in the way, the output is evaluated. Changes in the source code are indicated with "MESSING WITH SOURCE CODE".
