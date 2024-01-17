@@ -1,7 +1,7 @@
 datasets/
 environments/
 LAVIS/
-LLaVA/
+llava.repo/
 OTTER/
 venvs/
 old/
