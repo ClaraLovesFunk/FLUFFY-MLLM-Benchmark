@@ -1,8 +1,11 @@
 import pandas as pd
 import json
 import os
-import utils.utils_eval as utils_eval
-import utils_general.utils as utils
+from utils.info import DatasetInfo
+from utils.file_and_path_utils import get_paths
+from utils.evaluation_metrics import compute_standard_metrics
+from utils.evaluation_metrics import pipeline_preprocess
+
 
 from evaluations.okvqa.eval_vqa.vqa import VQA 
 from evaluations.okvqa.eval_vqa.vqaEval import VQAEval
@@ -50,19 +53,19 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 
 def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
-    dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
-    output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
+    dataset_benchmark_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
+    output_transformed_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
     # preprocess output & get valid answer ratio 
-    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
+    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
     # do the official evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
     examples_dict = {}
     
-    DatasetInfo = utils.DatasetInfo(dataset_name)
-    tasks = DatasetInfo.get_tasks()
+    DatasetInfo_instance = DatasetInfo(dataset_name)
+    tasks = DatasetInfo_instance.get_tasks()
     for task in tasks:
      
         ds_dir = os.path.dirname(dataset_benchmark_path)

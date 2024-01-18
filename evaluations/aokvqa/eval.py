@@ -4,12 +4,11 @@ from evaluations.aokvqa.eval_vqa.vqaEval import VQAEval
 import json
 
 
-import utils.utils as utils
 
-from utils.path_config import get_paths
+from utils.info import get_paths
 from utils.file_and_path_utils import load_data
 from utils.answer_processing import pipeline_preprocess
-from utils.utils import DatasetInfo
+from utils.info import DatasetInfo
 
 
 VALID_ANS_VALUES = "sample-dependent"
