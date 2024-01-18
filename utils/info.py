@@ -1,3 +1,6 @@
+import os
+
+
 class ModelInfo():
 
     def __init__(self, model_name):

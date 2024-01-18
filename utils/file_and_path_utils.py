@@ -3,8 +3,8 @@ import csv
 import os
 import shutil
 
-from .utils import DatasetInfo
-from .utils import get_task2label_name
+from .info import DatasetInfo
+from .info import get_task2label_name
 from .data_loading import load_data
 
 

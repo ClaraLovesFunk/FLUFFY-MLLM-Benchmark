@@ -1,6 +1,7 @@
 from sklearn import metrics
 from .data_loading import load_data
 from .file_and_path_utils import save_data
+from .info import DatasetInfo
 
 import math
 
@@ -81,8 +82,8 @@ def calculate_average_accuracy_over_all_ds(CONFIG_PATH, model_name, mode_name):
         dataset_scores = {}
         scores_file_path = f"experiments/{model_name}/{dataset_name}/run1/scores_{mode_name}.json"
         file_data = load_data(scores_file_path)
-        DatasetInfo = utils.DatasetInfo(dataset_name)
-        tasks = DatasetInfo.get_tasks()
+        DatasetInfo_instance = .DatasetInfo(dataset_name)
+        tasks = DatasetInfo_instance.get_tasks()
         for task in tasks:
             task_score = file_data[task]['accuracy']
             dataset_scores[task] = task_score 
