@@ -1,5 +1,13 @@
 import re 
 
+from .path_config import get_paths
+from .file_operations import load_data
+from .utils import DatasetInfo
+from .utils import get_task2label_name
+from .data_transformation import get_id_2_label_dict
+from .data_transformation import make_output_aux_eval
+
+
 def extract_answer(model, dataset_name, output_raw):
     '''
     prepocessing depending one the model used, since some models first generate a certain string pattern
@@ -218,11 +226,11 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
     y_pred_dict = {}
     y_true_dict = {}
 
-    DatasetInfo = utils.DatasetInfo(dataset_name)
-    tasks = DatasetInfo.get_tasks()
+    DatasetInfo_instance = DatasetInfo(dataset_name)
+    tasks = DatasetInfo_instance.get_tasks()
 
     for task in tasks:
-        label_name = utils.get_task2label_name(task)
+        label_name = get_task2label_name(task)
         labels = get_id_2_label_dict(dataset_benchmark, label_name, dataset_name) 
         
         valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict = get_clean_valid_preds_trues(
