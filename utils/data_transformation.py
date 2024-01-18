@@ -1,7 +1,7 @@
 import os
 from .data_loading import load_data
-from .file_operations import get_paths
-from .file_operations import save_data
+from .file_and_path_utils import get_paths
+from .file_and_path_utils import save_data
 
 def get_id_2_label_dict(data_text, label_name, dataset_name):
     '''

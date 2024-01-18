@@ -14,16 +14,6 @@ import re
 import string
 
 
-# from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
-
-
-
-
-# from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
-
-def get_coco_path(split, image_id, coco_dir):
-    return os.path.join(coco_dir, f"{split}", f"{image_id:012}.jpg")
-
 
 
 
