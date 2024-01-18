@@ -1,7 +1,7 @@
 import re 
 
 from .path_config import get_paths
-from .file_operations import load_data
+from .data_loading import load_data
 from .utils import DatasetInfo
 from .utils import get_task2label_name
 from .data_transformation import get_id_2_label_dict

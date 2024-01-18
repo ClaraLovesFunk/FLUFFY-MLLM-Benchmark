@@ -1,5 +1,5 @@
 import os
-from .file_operations import load_data
+from .data_loading import load_data
 from .file_operations import get_paths
 from .file_operations import save_data
 
@@ -40,3 +40,5 @@ def make_output_aux_eval(CONFIG_PATH, dataset_name, model_name, run, tasks, mode
     if not os.path.exists(directory):
         os.makedirs(directory)
     save_data(output_transformed_path, output_transformed)
+
+

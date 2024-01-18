@@ -6,9 +6,7 @@ import shutil
 from .utils import DatasetInfo
 from .utils import get_task2label_name
 
-def load_data(filepath):
-    with open(filepath, 'r') as f:
-        return json.load(f)
+
     
     
 def save_data(filepath, file):

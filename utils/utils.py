@@ -16,12 +16,7 @@ import string
 
 # from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
 
-def load_aokvqa(aokvqa_dir, split, version='v1p0'):
-    assert split in ['train', 'val', 'test', 'test_w_ans']
-    dataset = json.load(open(
-        os.path.join(aokvqa_dir, f"aokvqa_{version}_{split}.json")
-    ))
-    return dataset
+
 
 
 # from AOKVQA git (https://github.com/allenai/aokvqa#downloading-the-dataset)
@@ -301,13 +296,7 @@ def get_info(dataset_name, model_name, run):
 
 
 
-def load_image(image_file):
-    if image_file.startswith('http') or image_file.startswith('https'):
-        response = requests.get(image_file)
-        image = Image.open(BytesIO(response.content)).convert('RGB')
-    else:
-        image = Image.open(image_file).convert('RGB')
-    return image
+
 
 
 
