@@ -5,16 +5,9 @@ import os
 from PIL import Image
 import matplotlib.pyplot as plt
 
-
-
-
 model_name = "openflamingo"
 dataset_name = "mami"
 n_examples=15
-
-
-
-
 img_dir = {
     "mami": "datasets/mami/images/all",
     "hateful_memes": "datasets/hateful_memes/images/all",
@@ -28,13 +21,9 @@ img_dir = {
 }
 
 
-
-
 def load_json_data(json_file_path):
     with open(json_file_path, 'r') as file:
         return json.load(file)
-
-
 
 
 def display_image(image_path):
@@ -42,8 +31,6 @@ def display_image(image_path):
     plt.imshow(image)
     plt.axis('off')  
     plt.show()
-
-
 
 
 def show_images_from_json(model_name, dataset_name, n_examples):
@@ -63,13 +50,5 @@ def show_images_from_json(model_name, dataset_name, n_examples):
         print(f'label: {entry["classification_label"]}')
 
 
-
-
 show_images_from_json(model_name = model_name, dataset_name = dataset_name, n_examples=n_examples)
-
-
-
-               
-
-
 # %%

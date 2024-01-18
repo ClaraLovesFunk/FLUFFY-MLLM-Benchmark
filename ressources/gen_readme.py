@@ -14,7 +14,6 @@ table_title = {
 }
 
 
-
 def process_scores(file_name, mode):
     data = []
 
@@ -78,12 +77,6 @@ def process_scores(file_name, mode):
 
     return f"### {table_title[mode]}\n\n" + html
 
-# Remaining part of your code (add_top_header_border function and final section) remains the same
-
-
-
-
-
 
 def process_valid_answer_scores(mode):
     data = []
@@ -133,13 +126,6 @@ def process_valid_answer_scores(mode):
     title = table_title['valid_ans_'+ mode]
     print(title)
     return f"### {title}\n\n" + html
-
-
-
-
-
-
-
 
 
 def add_top_header_border(html_str):
