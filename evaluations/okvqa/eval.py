@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import os
-import evaluations.utils_eval as utils_eval
+import utils.utils_eval as utils_eval
 import utils_general.utils as utils
 
 from evaluations.okvqa.eval_vqa.vqa import VQA 

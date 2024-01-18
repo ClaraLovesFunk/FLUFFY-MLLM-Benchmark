@@ -1,4 +1,4 @@
-import evaluations.utils_eval as utils_eval
+import utils.utils_eval as utils_eval
 import utils_general.utils as utils
 
 VALID_ANS_VALUES = ['positive', 'negative', 'neutral']

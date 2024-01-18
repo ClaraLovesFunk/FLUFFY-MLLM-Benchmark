@@ -11,7 +11,7 @@ from evaluations.okvqa.eval import evaluate_okvqa
 from evaluations.gqa.eval import evaluate_gqa
 from evaluations.clevr.eval import evaluate_clevr
 
-import evaluations.utils_eval as utils_eval
+import utils.utils_eval as utils_eval
 
 
 CONFIG_PATH = 'config.json'
