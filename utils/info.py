@@ -4,7 +4,6 @@ import os
 class ModelInfo():
 
     def __init__(self, model_name):
-
         self.model_name = model_name
         self.lavis_model_type = {
             'blip2': 'pretrain_flant5xxl',
@@ -15,7 +14,6 @@ class ModelInfo():
             'instructblip': 'blip2_vicuna_instruct',
         }
         
-        
     def get_lavis_model_type(self):
         return self.lavis_model_type[self.model_name]
     
@@ -23,14 +21,10 @@ class ModelInfo():
         return self.lavis_name[self.model_name]
 
 
-
-
 class DatasetInfo():
 
     def __init__(self, dataset_name):
-
         self.dataset_name = dataset_name
-
         self.text_dataset_split = {
             'aokvqa': 'val',
             'okvqa': 'val',
@@ -42,7 +36,6 @@ class DatasetInfo():
             'gqa': 'val_sampled',
             'scienceqa': 'test'
         }
-        
         self.img_dataset_split = {
             'aokvqa': 'val',
             'okvqa': 'all',
@@ -54,7 +47,6 @@ class DatasetInfo():
             'gqa': 'all',
             'scienceqa': 'test'
         }
-
         self.img_dataset_name = {
             'aokvqa': 'coco2017/val',
             'okvqa': 'coco2017/all', 
@@ -66,7 +58,6 @@ class DatasetInfo():
             'gqa': 'gqa/images/all',
             'scienceqa': 'scienceqa/images/test'
         }
-
         self.tasks = {
             'aokvqa': ['direct answer (aokvqa)', 'multiple choice (aokvqa)'], 
             'okvqa': ['direct answer (okvqa)'],
@@ -78,8 +69,6 @@ class DatasetInfo():
             'gqa': ['direct answer (gqa)'],
             'scienceqa': ['multiple choice (sqa)']                                        
         }
-
-
         self.input_id_name = {
             'aokvqa': 'question_id',
             'okvqa': 'question_id', 
@@ -88,11 +77,10 @@ class DatasetInfo():
             'hateful_memes': 'id',
             'clevr': 'input_id',
             'esnlive': 'question_id',
-            'gqa': 'input_id',         #'question_id', #changed to input_id!!!!,
+            'gqa': 'input_id',         
             'scienceqa': 'input_id'
         } 
         
-
     def get_text_dataset_split(self):
         return self.text_dataset_split[self.dataset_name]
     
@@ -145,4 +133,3 @@ def get_task2label_name(task):
     label_name = task2label_name.get(task, "Unknown Task")
 
     return label_name
-

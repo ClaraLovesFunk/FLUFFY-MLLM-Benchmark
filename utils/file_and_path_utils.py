@@ -2,19 +2,15 @@ import json
 import csv
 import os
 import shutil
-
 from .info import DatasetInfo
 from .info import get_task2label_name
 from .data_loading import load_data
 
 
-    
-    
 def save_data(filepath, file):
     with open(filepath, 'w') as f: 
         return json.dump(file,f, indent=4)
     
-
 
 def make_examples_file(model_name, dataset_name, run):
     run = "run"+run
@@ -76,9 +72,7 @@ def get_coco_path(split, image_id, coco_dir):
 
 
 def check_create_experiment_dir(experiment_dir_path):
-
     if not os.path.exists(experiment_dir_path):
-
         os.makedirs(experiment_dir_path)
 
 

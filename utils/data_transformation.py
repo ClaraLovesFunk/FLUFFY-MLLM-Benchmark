@@ -3,6 +3,7 @@ from .data_loading import load_data
 from .file_and_path_utils import get_paths
 from .file_and_path_utils import save_data
 
+
 def get_id_2_label_dict(data_text, label_name, dataset_name):
     '''
     {text_input_id: label}
@@ -25,7 +26,6 @@ def make_output_aux_eval(CONFIG_PATH, dataset_name, model_name, run, tasks, mode
     """
     output_original_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
     output_original = load_data(output_original_path)
-
     for task in tasks:
         y_pred_dict = y_pred_dict_all_tasks[task]
         for item in output_original:
@@ -34,11 +34,8 @@ def make_output_aux_eval(CONFIG_PATH, dataset_name, model_name, run, tasks, mode
             if y_pred_value:
                 item["output_" + task] = y_pred_value
     output_transformed = output_original # you shall now be called output_transformed
-
     output_transformed_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     directory = os.path.dirname(output_transformed_path)
     if not os.path.exists(directory):
         os.makedirs(directory)
     save_data(output_transformed_path, output_transformed)
-
-

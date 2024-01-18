@@ -1,5 +1,4 @@
 import re 
-
 from .file_and_path_utils import get_paths
 from .data_loading import load_data
 from .info import DatasetInfo
@@ -37,17 +36,10 @@ def extract_answer(model, dataset_name, output_raw):
         else:
             output_clean = output_raw
 
-        #print(f'output_raw: {output_raw}')
-
         output_clean = re.sub("\u00a0", '', output_clean)
-        #print(f'output_clean_1: {output_clean}')
         output_clean = re.sub("<|endofchunk|>", '', output_clean)
         output_clean = re.sub(r'\|\|', '', output_clean)
         output_clean = re.sub(r'\. ', '', output_clean)
-
-        
-        #print(f'output_clean2: {output_clean}')
-
 
     elif model == 'adept':
         ''' 
@@ -65,13 +57,11 @@ def extract_answer(model, dataset_name, output_raw):
 
     output_clean = output_clean.lower()
     output_clean = re.sub(r'\.', '', output_clean)
-    #print(f'output_clean: {output_clean}')
+
     if not output_clean.strip():
         output_clean = "NaN"
 
     return output_clean
-
-
 
 
 def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, model_name, dataset_name, data_text, mode, task = None): #delete output_name
@@ -84,6 +74,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
             - for hard evaluation check whether the output matches a valid label exactly
             - for soft evaluation check whether a valid label occurs somewhere in the output for that sample
     '''
+
     y_true, y_pred = [], []
     y_true_dict, y_pred_dict = {}, {}
     valid_count = 0
@@ -98,9 +89,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         '''
         y_pred.append(pred_value)
         y_true.append(label_value)
-        #y_pred_dict[text_input_id] = pred_value
-        #y_true_dict[text_input_id] = label_value
-        return y_pred, y_true#, y_pred_dict, y_true_dict
+        return y_pred, y_true
 
     def add_processed_info(text_input_id, pred_value, label_value):
         '''
@@ -114,9 +103,7 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
     
     for item in output:      
         output_raw = str(item[output_name]) 
-        #print(f'output_raw: {output_raw}')
         pred_value = extract_answer(model_name, dataset_name, output_raw)
-        #print(f'pred_value: {pred_value}')
         text_input_id = item["text_input_id"]
         label_value = str(labels[text_input_id]).lower()
         sample = next((d for d in data_text if d['text_input_id'] == text_input_id), None)
@@ -165,7 +152,6 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
                     y_pred, y_true = add_processed_valid_info(text_input_id, pred_value, label_value)
                     y_pred_dict, y_true_dict = add_processed_info(text_input_id, pred_value, label_value)
         
-            
         elif VALID_ANS_VALUES == "no-ans-validity":
             '''
             for direct answer tasks where no validity can be determined
@@ -203,7 +189,6 @@ def get_clean_valid_preds_trues(output, output_name, VALID_ANS_VALUES, labels, m
         
 
     valid_ans_ratio = valid_count / len(output) if output else 0
-    #print(f'valid_ans_ratio: {valid_ans_ratio}')
 
     return valid_ans_ratio, y_pred, y_true, y_pred_dict, y_true_dict
 
@@ -215,6 +200,7 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
     return predictions once as array [prediction, prediction, ...] for further evaluation with scikitlearn
     return predictions as dictionary {text_input_id: prediction} for other shannanagans
     '''
+
     dataset_benchmark_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
     output_original_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_original_path')
     
@@ -243,7 +229,6 @@ def pipeline_preprocess(CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name,
             data_text = dataset_benchmark, 
             mode = mode, 
             task = task)
-        
         
         label2_y_pred_dict[task] = y_pred_dict
         valid_ans_ratio_dict[task] = valid_ans_ratio
