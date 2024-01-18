@@ -1,6 +1,5 @@
 import argparse
 from itertools import product
-
 from evaluations.hateful_memes.eval import evaluate_hateful_memes
 from evaluations.mami.eval import evaluate_mami
 from evaluations.mvsa.eval import evaluate_mvsa
@@ -10,18 +9,19 @@ from evaluations.aokvqa.eval import evaluate_aokvqa
 from evaluations.okvqa.eval import evaluate_okvqa
 from evaluations.gqa.eval import evaluate_gqa
 from evaluations.clevr.eval import evaluate_clevr
-
-import utils.utils_eval as utils_eval
-
+from utils.data_loading import load_data
+from utils.file_and_path_utils import save_data
+from utils.file_and_path_utils import make_examples_file
+from utils.info import get_paths
+from utils.evaluation_metrics import calculate_average_accuracy_over_all_ds
 
 CONFIG_PATH = 'config.json'
 ALL_KEYWORD = 'all'
 
 
-
 def main(args):
     
-    config = utils_eval.load_data(CONFIG_PATH)
+    config = load_data(CONFIG_PATH)
     selected_models = config['model_names'] if args.models == ALL_KEYWORD else [args.models]
     selected_datasets = config['dataset_names'] if args.datasets == ALL_KEYWORD else [args.datasets]
     selected_modes = [args.mode] if args.mode else ["hard", "soft"]
@@ -59,28 +59,21 @@ def main(args):
         if dataset_name == "clevr":
             scores, examples, valid_ans_ratio = evaluate_clevr(CONFIG_PATH, dataset_name, model_name, mode_name, run)
 
+        scores_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'scores_path')
+        examples_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'examples_path')
+        val_ratio_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'val_ratio_path')
 
-        print(scores)
-        
-        scores_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'scores_path')
-        examples_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'examples_path')
-        val_ratio_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode_name, value_of_interest = 'val_ratio_path')
+        save_data(scores_path, scores)
+        save_data(examples_path, examples)
+        save_data(val_ratio_path, valid_ans_ratio)
 
-        utils_eval.save_data(scores_path, scores)
-        utils_eval.save_data(examples_path, examples)
-        utils_eval.save_data(val_ratio_path, valid_ans_ratio)
-
-        utils_eval.make_examples_file(model_name, dataset_name, run)
+        make_examples_file(model_name, dataset_name, run)
 
     # calculate overall accuracy average
-
     for model_name, mode_name in product(selected_models, selected_modes):
         if calc_avrg == "yes":
-            utils_eval.calculate_average_accuracy_over_all_ds(CONFIG_PATH, model_name, mode_name)
+            calculate_average_accuracy_over_all_ds(CONFIG_PATH, model_name, mode_name)
 
-
-        
-            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Evaluate models on datasets.')
@@ -94,11 +87,3 @@ if __name__ == "__main__":
     main(args)
 
     print("VOILA!")
-
-
-
-'''
-python3 run_eval.py --models all --datasets all
-python3 run_eval.py --models blip2 --datasets aokvqa
-python3 run_eval.py --models all --datasets all
-'''

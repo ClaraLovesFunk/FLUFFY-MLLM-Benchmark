@@ -4,14 +4,10 @@ import os
 import itertools
 import time
 import json
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
-
 import argparse
 import subprocess
-
-# Defining all models and datasets
 
 
 with open('config.json', 'r') as f:
@@ -19,6 +15,7 @@ with open('config.json', 'r') as f:
 
 ds_name_all = config['dataset_names']
 model_name_all = config['model_names']  
+
 
 def run_inference(model_name, dataset_name):
     
@@ -37,11 +34,11 @@ def run_inference(model_name, dataset_name):
         print(f"Virtual environment for {model_name} does not exist!")
         return
 
-    # Run inference script using the Python interpreter from the virtual environment
     cmd = [venv_path, os.path.join(model_path, "inference.py"), "--dataset", dataset_name]
-    env = os.environ.copy()  # Get the current environment variables.
+    env = os.environ.copy()  
     env["TRANSFORMERS_CACHE"] = CACHE_DIR
     subprocess.run(cmd, env=env)
+
 
 def run_all_inferences(model_names, dataset_names):
     for model, dataset in itertools.product(model_names, dataset_names):
@@ -50,6 +47,7 @@ def run_all_inferences(model_names, dataset_names):
             
         except Exception as e:
             print(f"Error running inference for model {model} on dataset {dataset}. Error: {e}")
+
 
 if __name__ == "__main__":
 
@@ -61,11 +59,9 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    # Convert the datasets/models lists to single comma-separated strings and then split by comma
     args.models = ''.join(args.models).split(',')
     args.datasets = ''.join(args.datasets).split(',')
 
-    # Replace 'all' with the respective list of all models or datasets
     if 'all' in args.models:
         args.models = model_name_all
     if 'all' in args.datasets:
@@ -76,9 +72,3 @@ if __name__ == "__main__":
     end_time = time.time()
     run_time = int((end_time - start_time)/60)
     print(f'runtime (min): {run_time}')
-
-
-'''
-python3 run_inference.py -models all -datasets aokvqa
-
-'''
