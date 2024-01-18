@@ -1,12 +1,8 @@
-import pandas as pd
 import json
 import os
 from utils.info import DatasetInfo
 from utils.file_and_path_utils import get_paths
-from utils.evaluation_metrics import compute_standard_metrics
 from utils.evaluation_metrics import pipeline_preprocess
-
-
 from evaluations.okvqa.eval_vqa.vqa import VQA 
 from evaluations.okvqa.eval_vqa.vqaEval import VQAEval
 
@@ -16,8 +12,6 @@ POS_LABEL = ""
 label_name = "correct_direct_answer_short"
 output_name = "output_direct answer (okvqa)"
 dataset_name = "okvqa"
-
-
 
 
 def transform_output_4_okvqa(resFile_original, resFile):
@@ -37,11 +31,11 @@ def transform_output_4_okvqa(resFile_original, resFile):
 
 def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_okvqa):
 
-	transform_output_4_okvqa(resFile_original, resFile) # get output in the format needed for okvqa's original eval
+	transform_output_4_okvqa(resFile_original, resFile)
         
 	vqa = VQA(annFile, quesFile)
 	vqaRes = vqa.loadRes(resFile, quesFile)
-	vqaEval = VQAEval(vqa, vqaRes, n=2)   # n is precision of accuracy (number of places after decimal), default is 2
+	vqaEval = VQAEval(vqa, vqaRes, n=2)   
 	vqaEval.evaluate() 
 
 	acc = vqaEval.accuracy['overall']
@@ -49,18 +43,14 @@ def acc_okvqa(annFile, quesFile, resFile, resFile_original, transform_output_4_o
 	return acc
 
 
-
-
 def evaluate_okvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
     dataset_benchmark_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
     output_transformed_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
-    # preprocess output & get valid answer ratio 
-    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = pipeline_preprocess(
+    _, _, _, valid_ans_ratio_dict = pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
     
-    # do the official evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
     examples_dict = {}
     

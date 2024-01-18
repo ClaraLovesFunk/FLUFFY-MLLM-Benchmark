@@ -3,7 +3,6 @@ from utils.file_and_path_utils import load_data
 from utils.answer_processing import pipeline_preprocess
 from utils.info import DatasetInfo
 
-
 VALID_ANS_VALUES = "sample-dependent"
 TASK_NAME = "multiple choice (aokvqa)"
 POS_LABEL = ""
