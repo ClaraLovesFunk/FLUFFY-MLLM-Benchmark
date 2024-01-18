@@ -72,3 +72,10 @@ def make_examples_file(model_name, dataset_name, run):
 
 def get_coco_path(split, image_id, coco_dir):
     return os.path.join(coco_dir, f"{split}", f"{image_id:012}.jpg")
+
+
+def check_create_experiment_dir(experiment_dir_path):
+
+    if not os.path.exists(experiment_dir_path):
+
+        os.makedirs(experiment_dir_path)
