@@ -1,0 +1,1 @@
+No official eval script available in Summer 2023. Therefore standard metrics with sklearn were applied. Since the task the models are evaluated is a classification task, the metrics accuracy, weighted-averaged f1, weighted-averaged precision and weighted-averaged recall were obtained.

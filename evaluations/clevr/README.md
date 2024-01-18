@@ -1,0 +1,1 @@
+No official eval script available in Summer 2023. Therefore standard metrics with sklearn were applied. Since the task the models are evaluated on is a direct answer task only accuracy was obtained.
