@@ -1,19 +1,15 @@
 import os
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
-
 import torch
 import argparse
 import json
 from transformers import FuyuProcessor, FuyuForCausalLM
 from PIL import Image
-from tqdm import tqdm
 import time
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
-
 import prompts
 from utils.info import get_info
 
@@ -22,14 +18,17 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name_formal = "adept/fuyu-8b"
 model_name_informal = "adept"
 
+
 def get_image(file_path: str) -> Image.Image:
     return Image.open(file_path).convert('RGB')
+
 
 def get_model(device):
     model = FuyuForCausalLM.from_pretrained(model_name_formal)
     model.to(device)
     processor = FuyuProcessor.from_pretrained(model_name_formal)
     return model, processor
+
 
 def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     inputs = processor(text=prompt, images=image, return_tensors="pt")
@@ -39,9 +38,10 @@ def get_response(device, image, prompt: str, model=None, processor=None) -> str:
     generated_text = processor.batch_decode(generation_output[:, -125:], skip_special_tokens=True) 
     return generated_text[0]
 
-def gen_output(device, data_text, model, processor, image_dir_path, tasks):
-    pred = []
 
+def gen_output(device, data_text, model, processor, image_dir_path, tasks):
+    
+    pred = []
     for sample in data_text:   
         output_sample = {'text_input_id': sample['text_input_id']}
         for task in tasks:
@@ -59,6 +59,7 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
         pred.append(output_sample)
 
     return pred
+
 
 def main(dataset_name, run):
 
@@ -93,6 +94,7 @@ def main(dataset_name, run):
         json.dump(config, f, indent=4)
 
     return None
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

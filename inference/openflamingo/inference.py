@@ -1,8 +1,6 @@
 import os
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
-
 from huggingface_hub import hf_hub_download
 import torch
 from PIL import Image
@@ -13,7 +11,6 @@ import time
 import argparse
 import pandas as pd
 import json
-
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
@@ -23,9 +20,6 @@ from utils.data_loading import load_image
 from prompts import zeroshot
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-
-
 
 
 def load_model():
@@ -42,6 +36,7 @@ def load_model():
     model.to(device)
     
     return model, image_processor, tokenizer
+
 
 def eval_model(model, image_processor, tokenizer, prompt, image_file):
     image = load_image(image_file)
@@ -63,6 +58,7 @@ def eval_model(model, image_processor, tokenizer, prompt, image_file):
     )
 
     return tokenizer.decode(generated_text[0])
+
 
 def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
     
@@ -94,7 +90,6 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
             output_sample.update({prompt_name: prompt})
             output_sample.update({output_name: output}) 
             
-            
         pred.append(output_sample)
 
     run_time_inference_end = time.time()
@@ -113,9 +108,6 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
         json.dump(pred, f, indent=4)
     with open(config_file_path, 'w') as f:
         json.dump(config, f, indent=4)
-
-
-
 
 
 if __name__ == "__main__":

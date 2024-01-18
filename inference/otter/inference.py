@@ -1,5 +1,4 @@
 from __future__ import annotations
-
 import os
 from io import BytesIO
 from typing import Union
@@ -11,26 +10,17 @@ from tqdm import tqdm
 import argparse
 import json
 import time
-
-
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
-
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 from utils.info import get_info 
 from prompts import zeroshot
-
 sys.path.append("models/otter")
 from otter_ai import OtterForConditionalGeneration
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-
-
-
 
 model_name_formal = "luodian/OTTER-Image-MPT7B"
 model_name_informal = "otter"
@@ -39,8 +29,10 @@ model_name_informal = "otter"
 def get_image(file_path: str) -> Image.Image:
     return Image.open(file_path)
 
+
 def get_formatted_prompt(prompt: str) -> str:
     return f"<image>User: {prompt} GPT:<answer>"
+
 
 def get_model(device):
     load_bit = "bf16"
@@ -59,7 +51,6 @@ def get_model(device):
     image_processor = transformers.CLIPImageProcessor()
     
     return model, image_processor
-
 
 
 def get_response(device, image, prompt: str, model=None, image_processor=None) -> str:
@@ -109,6 +100,7 @@ def get_response(device, image, prompt: str, model=None, image_processor=None) -
     )
     return parsed_output
 
+
 def gen_output(device, data_text, model, image_processor, image_dir_path, tasks):
     pred = []
     
@@ -131,6 +123,7 @@ def gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
         pred.append(output_sample)
 
     return pred
+
 
 def main(dataset_name, run):
     model, image_processor = get_model(device)
@@ -164,8 +157,6 @@ def main(dataset_name, run):
         json.dump(config, f, indent=4)
 
     return None
-
-
 
 
 if __name__ == "__main__":

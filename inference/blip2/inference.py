@@ -9,7 +9,6 @@ import torch
 from PIL import Image, ImageOps
 import argparse
 from lavis.models import load_model_and_preprocess
-
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
@@ -19,7 +18,6 @@ from utils.info import ModelInfo
 import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 datasets_dir = 'datasets'
 experiments_dir = 'experiments'
@@ -36,7 +34,6 @@ def get_model(model_name, device):
     model.to(device)
     
     return model, vis_processors
-
 
 
 def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir_path, tasks):
@@ -62,7 +59,6 @@ def gen_output(device, dataset_name, data_text, model, vis_processors, image_dir
             
             output = model.generate({"image": image, "prompt": prompt}, temperature=0)
             output=output[0]
-            #output_sample.update({output_task: output[0]})
 
             output_name = "output_" + t
             prompt_name = 'prompt_' + t
@@ -103,7 +99,6 @@ def predict_dataset(model_name, dataset_name, run):
         json.dump(config, f, indent=4)
 
     return None
-
 
 
 if __name__ == "__main__":

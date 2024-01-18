@@ -4,22 +4,19 @@ from PIL import Image
 import argparse
 import json
 from transformers import IdeficsForVisionText2Text, AutoProcessor
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
-
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
-print(sys.path)
 from utils.info import get_info 
-import prompts
+from prompts import zeroshot
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
 model_name_formal = "HuggingFaceM4/idefics-9b-instruct"
 model_name_informal = "idefics"
+
 
 def get_model(device):
     model = IdeficsForVisionText2Text.from_pretrained(
@@ -35,7 +32,7 @@ def get_model(device):
 
 def gen_idefics_prompts(sample, task, img_path):
 
-    prompt_generic = prompts.zeroshot(test_sample=sample, task=task)
+    prompt_generic = zeroshot(test_sample=sample, task=task)
     prompt_idefics = [
         [
             "User: " + prompt_generic,
@@ -78,6 +75,7 @@ def gen_output(device, data_text, model, processor, image_dir_path, tasks):
 
     return pred
 
+
 def main(dataset_name, run):
     
     model, processor = get_model(device)
@@ -105,6 +103,7 @@ def main(dataset_name, run):
         json.dump(config, f, indent=4)
 
     return None
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

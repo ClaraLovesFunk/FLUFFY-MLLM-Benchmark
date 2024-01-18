@@ -1,34 +1,28 @@
 import os
 import sys
-
 CACHE_DIR = '/home/users/cwicharz/project/Testing-Multimodal-LLMs/data/huggingface_cache'
 os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR 
-
 sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs/models/llava/repo')
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.conversation import conv_templates, SeparatorStyle
 from llava.model.builder import load_pretrained_model
 from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
-
 sys.path.insert(0, '/home/users/cwicharz/project/Testing-Multimodal-LLMs')
 from utils.info import get_info
 from utils.info import DatasetInfo
 from prompts import zeroshot
-
 import argparse
 import torch
 import json
 import pandas as pd
-from PIL import Image
 import requests
 from PIL import Image
 from io import BytesIO
 import time
 
-
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 def get_info(dataset_name, model_name, run):
 
@@ -47,7 +41,6 @@ def get_info(dataset_name, model_name, run):
     return tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split
 
 
-
 def load_image(image_file):
     if image_file.startswith('http') or image_file.startswith('https'):
         response = requests.get(image_file)
@@ -58,8 +51,6 @@ def load_image(image_file):
 
 
 def eval_model(args, tokenizer, model, image_processor, model_name):
-
-
 
     qs = args.query
     if model.config.mm_use_im_start_end:
@@ -137,12 +128,8 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
     dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
     
-    
-   
-    
     run_time_inference_start = time.time()
 
-   
     pred = []
 
     for test_sample in data_list[:2]: 
@@ -153,7 +140,6 @@ def predict_dataset(dataset_name, model_path, run, conv_mode=None):
 
             prompt = zeroshot(test_sample, t)
             
-
             args = argparse.Namespace()
             args.model_path = model_path
             args.model_base = None
@@ -200,8 +186,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     predict_dataset(dataset_name = args.dataset, model_path = args.model_path, run = args.run, conv_mode=args.conv_mode)
-
-
-# source venvs/llava15/bin/activate
-# cd models/llava15
-# python inference.py --dataset hateful_memes

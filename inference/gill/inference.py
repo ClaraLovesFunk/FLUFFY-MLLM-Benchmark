@@ -4,11 +4,10 @@ import os
 from PIL import Image
 import torch
 from tqdm import notebook
-
 from gill import models
 from gill import utils
 
-# Download the model checkpoint and embeddings to checkpoints/gill_opt/
+
 model_dir = 'checkpoints/gill_opt/'
 model = models.load_gill(model_dir)
 
