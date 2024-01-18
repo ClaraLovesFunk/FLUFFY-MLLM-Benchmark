@@ -20,8 +20,8 @@ os.environ["TRANSFORMERS_CACHE"] = CACHE_DIR
 import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
-import utils_general.utils as utils  
-import prompts
+from utils.info import get_info 
+from prompts import zeroshot
 
 sys.path.append("models/otter")
 from otter_ai import OtterForConditionalGeneration
@@ -115,7 +115,7 @@ def gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
     for sample in data_text: 
         output_sample = {'text_input_id': sample['text_input_id']}
         for task in tasks:
-            prompt_generic = prompts.zeroshot(test_sample=sample, task=task)
+            prompt_generic = zeroshot(test_sample=sample, task=task)
             prompt_otter = get_formatted_prompt(prompt_generic) 
             image_file_path = os.path.join(image_dir_path, sample['image_id'])
 
@@ -135,7 +135,7 @@ def gen_output(device, data_text, model, image_processor, image_dir_path, tasks)
 def main(dataset_name, run):
     model, image_processor = get_model(device)
 
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
 
     with open(ds_file_path, 'r') as f:
         data = json.load(f)

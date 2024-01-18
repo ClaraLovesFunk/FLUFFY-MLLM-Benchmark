@@ -18,8 +18,9 @@ import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 print(sys.path)
-import utils_general.utils as utils  
-import prompts
+from utils.info import get_info 
+from utils.data_loading import load_image
+from prompts import zeroshot
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -43,7 +44,7 @@ def load_model():
     return model, image_processor, tokenizer
 
 def eval_model(model, image_processor, tokenizer, prompt, image_file):
-    image = utils.load_image(image_file)
+    image = load_image(image_file)
     vision_x = image_processor(image).unsqueeze(0).to(device)
     vision_x = vision_x.unsqueeze(1).unsqueeze(0)
 
@@ -67,7 +68,7 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
     
     model, image_processor, tokenizer = load_model()
 
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name='openflamingo', run=run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name=dataset_name, model_name='openflamingo', run=run)
     dataset = pd.read_json(ds_file_path) 
     data_list = dataset['data'].tolist()
     
@@ -79,7 +80,7 @@ def predict_dataset(dataset_name, model_path, run, n_ic_samples=0):
         output_sample = {'text_input_id': test_sample['text_input_id']}
 
         for t in tasks:
-            prompt = prompts.zeroshot(test_sample, t)
+            prompt = zeroshot(test_sample, t)
 
             # update prompt to insert the image token, so openflamingo knows where the image belongs to
             prompt = "<image>" + prompt

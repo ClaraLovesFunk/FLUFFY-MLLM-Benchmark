@@ -12,7 +12,7 @@ import sys
 root_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(root_directory)
 print(sys.path)
-import utils_general.utils as utils  
+from utils.info import get_info 
 import prompts
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -82,7 +82,7 @@ def main(dataset_name, run):
     
     model, processor = get_model(device)
   
-    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = utils.get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
+    tasks, ds_file_path, image_dir_path, output_dir_path, output_file_path, config_file_path, split = get_info(dataset_name=dataset_name, model_name=model_name_informal, run=run)
 
     with open(ds_file_path, 'r') as f:
         data = json.load(f)
