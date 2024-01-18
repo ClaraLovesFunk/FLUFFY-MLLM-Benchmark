@@ -2,8 +2,15 @@ import pandas as pd
 from evaluations.aokvqa.eval_vqa.vqa import VQA 
 from evaluations.aokvqa.eval_vqa.vqaEval import VQAEval
 import json
-import utils.utils_eval as utils_eval
-import utils_general.utils as utils
+
+
+import utils.utils as utils
+
+from utils.path_config import get_paths
+from utils.file_operations import load_data
+from utils.answer_processing import pipeline_preprocess
+from utils.utils import DatasetInfo
+
 
 VALID_ANS_VALUES = "sample-dependent"
 TASK_NAME = "multiple choice (aokvqa)"
@@ -94,25 +101,25 @@ def eval_aokvqa(input, output, task, strict=True): # MESSING WITH SOURCE CODE: r
 def evaluate_aokvqa(CONFIG_PATH, dataset_name, model_name, mode, run):
 
     input_original_path = 'datasets/aokvqa/ds_original.json'
-    dataset_benchmark_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
-    output_transformed_path = utils_eval.get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
+    dataset_benchmark_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'dataset_benchmark_path')
+    output_transformed_path = get_paths(CONFIG_PATH, dataset_name, model_name, run, mode, value_of_interest = 'output_transformed_path')
     
-    input_original = utils_eval.load_data(input_original_path)
-    input_benchmark = utils_eval.load_data(dataset_benchmark_path)
+    input_original = load_data(input_original_path)
+    input_benchmark = load_data(dataset_benchmark_path)
     input_benchmark = input_benchmark["data"]
     
 
     # preprocess output & get valid answer ratio 
-    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = utils_eval.pipeline_preprocess(
+    y_pred_dict, y_true_dict, label2_y_pred_dict, valid_ans_ratio_dict = pipeline_preprocess(
          CONFIG_PATH, VALID_ANS_VALUES, dataset_name, model_name, run, mode)
-    output_transformed = utils_eval.load_data(output_transformed_path)
+    output_transformed = load_data(output_transformed_path)
     
     # do the official evaluation, but with output data transformed according to evaluation modus
     scores_dict = {}
     examples_dict = {}
     
-    DatasetInfo = utils.DatasetInfo(dataset_name)
-    tasks = DatasetInfo.get_tasks()
+    DatasetInfo_instance = DatasetInfo(dataset_name)
+    tasks = DatasetInfo_instance.get_tasks()
     for task in tasks:
             
         acc, ex = eval_aokvqa(input = input_original, output=output_transformed, task = task, strict=True)
