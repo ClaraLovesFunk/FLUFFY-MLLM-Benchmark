@@ -1,4 +1,4 @@
-<img src="utils_general/fluffy.png" width="100%" />
+<img src="ressources/img_for_readme/fluffy.png" width="100%" />
 
 ## Benchmark
 
