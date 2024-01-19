@@ -158,7 +158,7 @@ html_soft = process_scores("scores_soft.json", "soft")
 html_hard = process_scores("scores_hard.json", "hard")
 
 # Add the image at the top of the README
-image = '<img src="utils_general/fluffy.png" width="100%" />\n\n'
+image = '<img src="ressources/img_for_readme/fluffy.png" width="100%" />\n\n'
 benchmark_subheader = "## Benchmark\n\n"
 space = '\n\n'
 
