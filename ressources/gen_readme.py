@@ -4,6 +4,11 @@ import pandas as pd
 from IPython.display import display, HTML
 from bs4 import BeautifulSoup
 
+
+
+
+
+
 root_dir = "experiments"
 
 table_title = {
@@ -60,10 +65,12 @@ def process_scores(file_name, mode):
 
     # Add the average accuracy column to the pivot table
     df_pivot['Average Accuracy'] = df_pivot.index.map(average_accuracies.get)
+    df_pivot = df_pivot.sort_values(by='Average Accuracy', ascending=False)
+
 
     html = (df_pivot.style.set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
-    ]).format("{:.2f}").render())
+    ]).format("{:.2f}").to_html())
 
     # Use BeautifulSoup to parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
@@ -108,10 +115,12 @@ def process_valid_answer_scores(mode):
 
     # Calculate average ratios
     df_pivot['Average Ratio'] = df_pivot.mean(axis=1)
+    df_pivot = df_pivot.sort_values(by='Average Ratio', ascending=False)
+
 
     html = (df_pivot.style.set_table_styles([
         {'selector': 'th', 'props': [('font-weight', 'bold'), ('border-bottom', '1px solid black')]}
-    ]).format("{:.2f}").render())
+    ]).format("{:.2f}").to_html())
 
     # Use BeautifulSoup to parse the HTML
     soup = BeautifulSoup(html, 'html.parser')
@@ -176,6 +185,6 @@ that can be found in `models/model_of_interest`.
 # Write the content to the README file
 with open("README.md", "w") as f:
     f.write(image + benchmark_subheader + space)
-    f.write(html_soft + space + html_valid_ans_soft + space)
-    f.write(html_hard + space + html_valid_ans_hard)
+    f.write(html_soft + space) # Only include the first and second tables
+    f.write(html_valid_ans_soft + space)
     f.write(model_implementation_section)
