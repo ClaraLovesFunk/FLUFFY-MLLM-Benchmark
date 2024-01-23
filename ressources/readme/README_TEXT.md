@@ -1,4 +1,4 @@
-![Benchmark Image](ressources/img_for_readme/benchmark_img.png)
+![Benchmark Image](ressources/readme/benchmark_img.png)
 
 # Multimodal Large Language Model (MLLM) Benchmark
 
@@ -27,7 +27,7 @@ FLUFFY stands as a comprehensive benchmark encompassing over 30,000 instances ac
 
 The table below shows the results when applying post-processing tolerance. Further performance assessment and discussion can be found in `report.pdf`.
 
-(((INSERT TABLE)))
+TABLE_PLACEHOLDER
 
 ## Replicating/Extending Benchmark
 

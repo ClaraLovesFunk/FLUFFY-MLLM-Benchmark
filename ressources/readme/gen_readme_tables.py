@@ -1,13 +1,7 @@
 import os
 import json
 import pandas as pd
-from IPython.display import display, HTML
 from bs4 import BeautifulSoup
-
-
-
-
-
 
 root_dir = "experiments"
 
@@ -17,6 +11,7 @@ table_title = {
     "valid_ans_soft": "Valid Answer Ratio - Evaluation with Post-Processing Tolerance",
     "valid_ans_hard": "Valid Answer Ratio - Evaluation without Post-Processing Tolerance"
 }
+
 
 
 def process_scores(file_name, mode):
@@ -160,31 +155,16 @@ def add_top_header_border(html_str):
 
     return html_str
 
+# Generate your tables
 html_valid_ans_soft = process_valid_answer_scores("soft")
 html_valid_ans_hard = process_valid_answer_scores("hard")
 
 html_soft = process_scores("scores_soft.json", "soft")
 html_hard = process_scores("scores_hard.json", "hard")
 
-# Add the image at the top of the README
-image = '<img src="ressources/img_for_readme/fluffy.png" width="100%" />\n\n'
-benchmark_subheader = "## Benchmark\n\n"
-space = '\n\n'
+# Combine all the table HTML into one string
+all_tables_html = html_soft + "\n\n" + html_valid_ans_soft
 
-# Add the Model Implementation section
-model_implementation_section = """
-## Model Implementation
-
-For some models, the respective GitHub repository needed to be cloned and files tweaked. 
-The cloned and modified repositories are collected in `models`. 
-To implement the models yourself, follow the instructions in `MAKE_ME_RUN.md`, 
-that can be found in `models/model_of_interest`.
-
-"""
-
-# Write the content to the README file
-with open("README.md", "w") as f:
-    f.write(image + benchmark_subheader + space)
-    f.write(html_soft + space) # Only include the first and second tables
-    f.write(html_valid_ans_soft + space)
-    f.write(model_implementation_section)
+# Write only the tables and their titles to the README file
+with open("ressources/readme/README_TABLES.md", "w") as f:
+    f.write(all_tables_html)
