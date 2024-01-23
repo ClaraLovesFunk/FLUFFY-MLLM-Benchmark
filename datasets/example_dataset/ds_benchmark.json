@@ -1,16 +1,19 @@
 {
     "split": "test",
-    "data": [   
-    {
-        "text_input_id": "123456789",
-        "question": "What is a test task in this image?",
-        "imageID": "123456789",
-        "correct answer": "direct answer"
-    },
-    {
-        "text_input_id": "123456789",
-        "question": "What is a test task in this image?",
-        "imageID": "123456789",
-        "correct answer": "direct answer"
-    },
-]
+    "data": [
+        {
+            "text_input_id": "123456789",
+            "image_id": "ABCDEFG.jpg",
+            "text_input": "What's the colour of the horse in the image?",
+            "correct direct answer": "black"
+        },
+        {
+            "text_input_id": "123456789",
+            "image_id": "ABCDEFG.jpg",
+            "text_input": "What's the colour of the horse in the image?",
+            "correct direct answer": "white"
+        },
+
+        ...]
+
+    }
