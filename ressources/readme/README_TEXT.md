@@ -25,7 +25,7 @@ FLUFFY stands as a comprehensive benchmark encompassing over 30,000 instances ac
 
 ## Results
 
-The table below shows the results when applying post-processing tolerance. Further performance assessment and discussion can be found in `report.pdf`.
+The table below shows the results when applying post-processing tolerance. Further performance assessment and discussion can be found in [report.pdf](report.pdf).
 
 TABLE_PLACEHOLDER
 
@@ -47,27 +47,27 @@ cd Testing-Multimodal-LLMs
 
 ### Prepare Datasets
 
-1. Go to the directory `datasets`. Create a new directory with the name of the dataset of interest (if you use a dataset that was already implemented check `config.json` and use the same name as we did previously.)
+1. Go to the directory [datasets](datasets). Create a new directory with the name of the dataset of interest (if you use a dataset that was already implemented check [config.json](config.json) and use the same name as we did previously.)
 
 2. Obtain the dataset and further proceed with the split of interest.
 
 3. Turn the textual data with the split of interest into a json file and call it ds_benchmark.json.
 
-4. Transform the structure of the textual data as shown in the example dataset in `datasets/example_dataset`. In case you want to use a dataset that has its own evaluation protocol such as A-OK-VQA or OKVQA additionally keep a copy of the original file(s) and leave their name as is (e.g., for A-OK-VQA the dataset is spread over two files one containing image ids one containing labels.)
+4. Transform the structure of the textual data as shown in the example dataset in [datasets/example_dataset](datasets/example_dataset). In case you want to use a dataset that has its own evaluation protocol such as A-OK-VQA or OKVQA additionally keep a copy of the original file(s) and leave their name as is (e.g., for A-OK-VQA the dataset is spread over two files one containing image ids one containing labels.)
 
-5. Create a subdirectory in your directory `datasets/dataset_of_interest` called images and store the images.
+5. Create a subdirectory in your directory [datasets/dataset_of_interest](datasets/dataset_of_interest) called images and store the images.
 
 6. If you added a new dataset to the benchmark follow these additional instructions:
-    - Go to `utils/answer_processing.py` and adapt the function `get_clean_valid_preds_trues()`` for your new dataset. Read the function description and follow the example of one of the already implemented datasets.
-    - Go to `utils/info.py` and extend the class DatasetInfo() and the function ​`​get_task2label_name()`` for your dataset.
+    - Go to [utils/answer_processing.py](utils/answer_processing.py) and adapt the function `get_clean_valid_preds_trues()` for your new dataset. Read the function description and follow the example of one of the already implemented datasets.
+    - Go to [utils/info.py](utils/info.py) and extend the class `DatasetInfo()` and the function ​`​get_task2label_name()` for your dataset.
 
 ### Prepare Inference
 
-1. If you want to implement a model that was already implemented by us go to `inference` and to the directory with the name of the model you want to run. If you want to run a new model create a new directory with the name of the model you want to run within the directory `inference`. All the following instructions are assuming you want to run a model we have implemented. If you want to implement your own model follow the structure we have chosen and will describe now.
+1. If you want to implement a model that was already implemented by us go to [inference](inference) and to the directory with the name of the model you want to run. If you want to run a new model create a new directory with the name of the model you want to run within the directory [inference](inference). All the following instructions are assuming you want to run a model we have implemented. If you want to implement your own model follow the structure we have chosen and will describe now.
 
-2. For first orientation go to the `inference/` and to the model of interest and read the specific README.md.
+2. For first orientation go to the [inference](inference) and to the model of interest and read the specific README.md.
 
-3. Create a virtual environment for each model you want to run. Store the virtual environment in the directory `venvs`. Install the dependencies via the requirements.txt file in each model directory. Repeat the following steps for each model.
+3. Create a virtual environment for each model you want to run. Store the virtual environment in the directory [venvs](venvs). Install the dependencies via the requirements.txt file in each model directory. Repeat the following steps for each model.
 
   ```bash
   python3 -m venv venvs/<model_name>
@@ -78,9 +78,9 @@ cd Testing-Multimodal-LLMs
 4. For further information about the implementation read the respective README.md. 
 
 5. If you added a new model to the benchmark do the following before running inference:
-    - add the model name in `config.json`.
-    - Go to `utils/answer_processing.py` and add another condition for your model to the function `extract_answer()`. Follow the example of one of the models that were already implemented that you can see in that function.
-    - Go to `inference` and create a new directory with the name of your model. Create the files README.md, inference.py. In `infernce.py` you need to actually write the implementation for your model. Ultimately this script needs to be run by `run_inference.py. You can use other models such as idefics as examples.
+    - add the model name in [config.json](config.json).
+    - Go to [utils/answer_processing.py](utils/answer_processing.py) and add another condition for your model to the function `extract_answer()`. Follow the example of one of the models that were already implemented that you can see in that function.
+    - Go to [inference](inference) and create a new directory with the name of your model. Create the files README.md, inference.py. In [inference](inference) you need to actually write the implementation for your model. Ultimately this script needs to be run by [run_inference.py](run_inference.py). You can use other models such as idefics as examples.
 
 ### Run Inference
 
@@ -103,45 +103,46 @@ python3 run_inference.py -models model_of_interest1 model_of_interest2 -datasets
 
 ### Run Evaluation
 
-If you want to evaluate a model on a dataset and save the metrics indicate the correctly/incorrectly predicted samples as you can see in `evaluations` do:
+If you want to evaluate a model on a dataset and save the metrics indicate the correctly/incorrectly predicted samples as you can see in [evaluations](evaluations) do:
+
 ```bash
 python run_eval.py --models model_of_interest --datasets dataset_of_interest --run run_of_interest --mode hard --calcavrg no
 ```
-`run_of_interest` is an integer that represents the run of your experiment. `Mode` can be either the string `hard` or `soft` representing whether you want to evaluate without or with post-processing tolerance. `Calcavrg` determines whether the average per model over all datasets should be calculated. This argument can take the values `yes` or `no`. You can also use the `all` keyword or a list of `models/datasets` as when running inference.
+`run_of_interest` is an integer that represents the run of your experiment. `Mode` can be either the string `hard` or `soft` representing whether you want to evaluate without or with post-processing tolerance. `Calcavrg` determines whether the average per model over all datasets should be calculated. This argument can take the values `yes` or `no`. You can also use the `all` keyword or a list of models and datasets as when running inference.
 
 ## Repository Structure
 
 This section outlines the organization of the repository detailing the directories and their contents to facilitate navigation and understanding of where key files and resources are located.
 
-- `/datasets`: Contains directories for each dataset used in the benchmark.
-  - `/example_dataset`: An example dataset directory.
+- [/datasets](datasets): Contains directories for each dataset used in the benchmark.
+  - `example_dataset`: An example dataset directory.
     - `ds_benchmark.json`: Demonstrates the format for dataset split of interest.
-- `/evaluation/`: Holds evaluation scripts and resources for each dataset.
-  - `eval.py`: the script holding the dataset-specific evaluation function(s) that are called from `run_eval.py`
-  - `/eval_dataset_of_interest`: Optional subdirectory for additional resources.
-  - `/README.md`: Provides details on dataset-specific evaluations.
-- `/experiments`: Documents the experiments conducted including configurations and outputs.
-  - `/model/dataset/run`: Contains files documenting individual experiment runs
-    - `/config.json`: Information on the experiment's setup.
-    - `/output.json`: Raw output from the model.
-    - `/output_aux_hard.json`: Cleaned output without post-processing tolerance (for further explanation see `report.pdf`).
-    - `/output_aux_soft.json`: Cleaned output with post-processing tolerance (for further explanation see `report.pdf`).
-    - `/scores_hard.json`: Metrics when processing output without post-processing tolerance.
-    - `/scores_soft.json`: Metrics when processing output with post-processing tolerance
-    - `/examples_hard.json`: Indicates which dataset samples were predicted correctly when not applying post-processing tolerance.
-    - `/examples_soft.json`: Indicates which dataset samples were predicted correctly when applying post-processing tolerance.
-    - `/valid_ans_hard.json`: Ratio of valid answers when not applying post-processing tolerance.
-    - `/valid_ans_soft.json`: Ratio of valid answers applying post-processing tolerance.
-- `/inference`: Includes inference scripts and model-specific resources.
-  - `/model_of_interest`: Includes inference scripts and model-specific resources.
+- [/evaluations](evaluations): Holds evaluation scripts and resources for each dataset.
+  - `eval.py`: the script holding the dataset-specific evaluation function(s) that are called from [run_eval.py](run_eval.py)
+  - `eval_dataset_of_interest`: Optional subdirectory for additional resources.
+  - `README.md`: Provides details on dataset-specific evaluations.
+- [/experiments](experiments): Documents the experiments conducted including configurations and outputs.
+  - `model/dataset/run`: Contains files documenting individual experiment runs
+    - `config.json`: Information on the experiment's setup.
+    - `output.json`: Raw output from the model.
+    - `output_aux_hard.json`: Cleaned output without post-processing tolerance (for further explanation see `report.pdf`).
+    - `output_aux_soft.json`: Cleaned output with post-processing tolerance (for further explanation see `report.pdf`).
+    - `scores_hard.json`: Metrics when processing output without post-processing tolerance.
+    - `scores_soft.json`: Metrics when processing output with post-processing tolerance
+    - `examples_hard.json`: Indicates which dataset samples were predicted correctly when not applying post-processing tolerance.
+    - `examples_soft.json`: Indicates which dataset samples were predicted correctly when applying post-processing tolerance.
+    - `valid_ans_hard.json`: Ratio of valid answers when not applying post-processing tolerance.
+    - `valid_ans_soft.json`: Ratio of valid answers applying post-processing tolerance.
+- [/inference](inference): Includes inference scripts and model-specific resources.
+  - `model_of_interest`: Includes inference scripts and model-specific resources.
     - `inference.py`: inference script for running a model on a specified dataset given a model configuration. It loads a pre-trained model, processes input data, and generates predictions. Additionally, it saves the model's outputs and related information to the specified directory for evaluation purposes when called from another script.
-    - `/subdirectory_of_interest`: optional subdirectory that can contain additional resources for the model to run such as a cloned git repository
+    - `subdirectory_of_interest`: optional subdirectory that can contain additional resources for the model to run such as a cloned git repository
     - `README.md`: further information on the model of interest & its implementation
     - `Requirements.txt`: Stores dependencies that need to be installed in the respective environment.
-- `/resources`: Auxiliary resources like images or additional scripts related to the project.
-- `/utils`: Utility scripts for common functions across the project.
-  - `config.json`: Configuration settings for the benchmarking process.
-  - `prompts.py`: Generates prompts for the models based on the benchmark datasets.
-- `README.md`: The main documentation providing detailed information about the project setup and usage.
-- `report.pdf`: A comprehensive report of the benchmark findings.
-- `run_eval.py` and `run_inference.py`: Main scripts for running evaluations and inferences.
+- [/ressources](ressources): Auxiliary resources like images or additional scripts related to the project.
+- [/utils](ressources/utils): Utility scripts for common functions across the project.
+- [/config.json](config.json): Configuration settings for the benchmarking process.
+- [/prompts.py](prompts.py): Generates prompts for the models based on the benchmark datasets.
+- [/README.md](README.md): The main documentation providing detailed information about the project setup and usage.
+- [/report.pdf](report.pdf): A comprehensive report of the benchmark findings.
+- [/run_eval.py](run_eval.py) and [/run_inference.py](run_inference.py): Main scripts for running evaluations and inferences.
