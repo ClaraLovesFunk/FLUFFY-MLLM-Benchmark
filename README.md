@@ -25,7 +25,7 @@ FLUFFY stands as a comprehensive benchmark encompassing over 30,000 instances ac
 
 ## Results
 
-The table below shows the results when applying post-processing tolerance. Further performance assessment and discussion can be found in `report.pdf`.
+The table below shows the results when applying post-processing tolerance. Further performance assessment and discussion can be found in [report.pdf](report.pdf).
 
 ### Metrics - Evaluation with Post-Processing Tolerance
 
