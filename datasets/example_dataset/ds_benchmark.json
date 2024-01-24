@@ -12,8 +12,6 @@
             "image_id": "ABCDEFG.jpg",
             "text_input": "What's the colour of the horse in the image?",
             "correct direct answer": "white"
-        },
-
-        ...]
+        }]
 
     }
